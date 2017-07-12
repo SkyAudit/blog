@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Update on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/software-update/</link>
+    <description>Recent content in Software Update on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/software-update/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #4</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-4/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-4/</guid>
+      <description>Software Update: The design of Obelisk is finalized. All the pieces come together and its a major milestone for cryptocoins. We believe that Skycoin will be the most secure, most difficult to attack non-mined cryptocoin to date.
+Changes:  There is now list of things for developers to do https://github.com/skycoin/skycoin/wiki/SOFTWARE-DEVELOPERS-CLICK-HERE We introduced proof of work and difficulty re targeting to keep block production rate constant. As the network scales from 10 nodes to 100,000 we need to keep the block rate constant and prevent it from growing linearly with the number of nodes.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmark on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/benchmark/</link>
+    <description>Recent content in Benchmark on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jun 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #74</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-74/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-74/</guid>
+      <description>Here is benchmark of the Skycoin consensus algorithm and rounds to convergence vs other voter based algorithms.
+I think there is an improvement, but current method out performs all methods in literature that we have found so far. The important part is that it converges rapidly in a small number of rounds (less than 10 or 20) and that it does not get stuck in a non-convergent state.
+Sznadjd and naive voting sometimes do not converge in 40 rounds.</description>
+    </item>
+    
+  </channel>
+</rss>

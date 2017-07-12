@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #114 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #114</span></h1>
+
+<h2 class="date">2016/11/04</h2>
+</div>
+
+<main>
+
+
+<h2 id="summary">Summary:</h2>
+
+<ul>
+<li>We need to fix the GUI on the dev branch.</li>
+<li>We need to debug the CLI (command line interface, for exchange))</li>
+<li>We need to get the WebRPC (for exchanges)</li>
+</ul>
+
+<h5 id="we-need-to-start-building-out-the-community">We need to start building out the community.</h5>
+
+<ul>
+<li>Need a chat room</li>
+<li>Need a forum or BBS</li>
+<li>Need a messaging system</li>
+</ul>
+
+<h5 id="we-need-to-get-the-three-white-papers-done-and-the-website">We need to get the three white papers done and the website:</h5>
+
+<ul>
+<li>Coin / Consensus Paper</li>
+<li>Meshnet Paper</li>
+<li>Aether Paper</li>
+</ul>
+
+<h5 id="things-we-need">Things we need:</h5>
+
+<ul>
+<li>We have to decide if we will float and do the first market internally or use a third party.</li>
+<li>We have to get the roadmap up on the website.</li>
+<li>We have to create the third version of the website.</li>
+<li>We have to get a windows installer (to install under program menu)</li>
+<li>We need to do ansible and docker, build/installation automation scripts.</li>
+</ul>
+
+<h2 id="skycoin-website">Skycoin Website:</h2>
+
+<p>The website is a flat file. No-script (no javascript).</p>
+
+<p>This was first version of website, which was visually unacceptable.</p>
+
+<p><img src="http://i.imgur.com/oSESsji.jpg" alt="" /></p>
+
+<h5 id="second-version-is-much-better">Second version is much better.</h5>
+
+<p><img src="http://i.imgur.com/Vg1zMBb.png" alt="" /></p>
+
+<h5 id="in-the-third-version">In the third version:</h5>
+
+<ul>
+<li>Will be stripped down (fewer text, fewer icons, nothing that is not needed)</li>
+<li>Will be focused on directing the user to the wallet download or to the roadmap and infographics</li>
+<li>Links to wallet download, white paper, github, roadmap (infographics)</li>
+<li>Remain very focused on why user is at website and what they are trying to do. With very little text/icons to distract them</li>
+</ul>
+
+<h2 id="aether-skyhash">Aether: Skyhash</h2>
+
+<p>This is the new internet</p>
+
+<h5 id="the-first-version-of-skyhash-aether-is-done">The first version of Skyhash/Aether is done:</h5>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=fXD_rdwoKsc">https://www.youtube.com/watch?v=fXD_rdwoKsc</a></li>
+<li><a href="https://github.com/gagliardetto/skyhash-pub-sub">https://github.com/gagliardetto/skyhash-pub-sub</a></li>
+
+<li><p>github.com/skycoin/skyhash</p></li>
+
+<li><p>A person takes their public key and publishes content</p></li>
+
+<li><p>The content is replicated peer-to-peer to all subscribers to the public key</p></li>
+</ul>
+
+<p>There are no servers. It is completely peer-to-peer.</p>
+
+<h5 id="this-can-be-used-for">This can be used for:</h5>
+
+<ul>
+<li>static websites (shops)</li>
+<li>IoT pub-sub channel</li>
+<li>DNS (looking up public keys, by human readable identifiers)</li>
+<li>caching static content</li>
+<li>blogs</li>
+<li>twitter</li>
+<li>image boards</li>
+<li>building TOX like communication system</li>
+<li>server orchestration</li>
+<li>replacing Bitorrent/IPFS</li>
+</ul>
+
+<p>We trying to get a developer to work on the content browser for Aether.</p>
+
+<p>Instead of going 120 hops in the network, to get data. It will just get the data from whoever is near you that has copies.
+- in the current internet, if a content publishers server is in Los Angeles and the requester is in Hong Kong, ever content request and packet will go from Hong Kong to Los Angeles, for each request.
+- in Aether, the first copy of the data goes from Hong Kong to Los Angeles, and each subsequent copy can be served from a local content cache or another user</p>
+
+<p>This is also called &ldquo;Content Addressable Storage&rdquo; or &ldquo;Source Independent Networking&rdquo;.</p>
+
+<p>For instance, a file is requested by the SHA256 hash of the data contained in the file. You do not care where the file is downloaded from, as you can verify the contents of the file once it has been received from any source.</p>
+
+<p>If you are using 100 MB/s over 100 hops of fiber (going through 100 routers). You are using 20x the network resource usage, as if you are going through only 5 hops
+- resource usage is number of hops times bandwidth usage per hop</p>
+
+<p>So by pushing content to the edge, the aggregate network resource usage is reduced and latency is reduced.</p>
+
+<p>This also enables Multi-cast and enables a higher level of network redundancy (automatic geographically distributed content mirroring).</p>
+
+<p>The next generation HTML, websites, services, social media and video streaming will be built on this principal. The existing model of a CDN is an intermediate stage of the evolution of this type of &ldquo;EdgeNet&rdquo;. The military, commercial and home IoT and the next generation of &ldquo;cloud&rdquo; services will largely be enabled by networking protocols designed on these principals.</p>
+
+<p>We have our object format and serialization format defined and are starting to integrate it into Aether.</p>
+
+<p>We are building the skycoin consensus and block distribution on top of this model, because of the security and speed advantages. It also has the advantage of being a simple three packet protocol.</p>
+
+<h2 id="aether-tox-like-messaging">Aether: Tox-like messaging</h2>
+
+<p>Aether at the basic level, enables cryptographic, peer to peer replication pub-sub channels.</p>
+
+<p>We can take two public keys
+- Have pubkey A subscribe to pubkey B&rsquo;s pubsub channel
+- Have pubkey B subscribe to pubkey A&rsquo;s pubsub channel</p>
+
+<ul>
+<li>A publishes a message to B</li>
+<li>the message is replicated peer-to-peer to all subscribers to pubkey A</li>
+<li>B receives the messages</li>
+<li>B publishes an ACK into their message stream, confirming that they have received the message from A</li>
+</ul>
+
+<h5 id="so-we-now-have-a-two-way-channel">So we now have a two way channel:</h5>
+
+<ul>
+<li>Can be used like Bitmessage</li>
+<li>Can implement Tox like messaging</li>
+<li>Can implement a cryptographic ratchet</li>
+<li>Can implement asynchronous messaging (for configuring servers, SSH, process monitoring, status monitoring, etc)</li>
+</ul>
+
+<p>The implementation is completely in golang, so no buffer overflows.</p>
+
+<h5 id="the-messages-are-stored-by-everyone-replicating-the-public-key">The messages are stored, by everyone replicating the public key</h5>
+
+<ul>
+<li>So if a server is offline when the message is published, when the server comes back online, it will receive the message</li>
+<li>If the server is online, it will receive the message instantly and will see response</li>
+</ul>
+
+<p>This is a very powerful messaging primitive. Especially when you have mobile devices or an unreliable network that is going on and off. This type of network can deliver messages, even over latencies of minutes, hours or months. It is
+- Source independent
+- Synchronous
+- Scale invariance in time</p>
+
+<h5 id="for-instance">For instance,</h5>
+
+<ul>
+<li>You can put a node on a ship sailing between japan and new zealand</li>
+<li>When the node on the ship is near japan, it will drop off new messages and get new messages for any pubkeys the node is subscribed to.</li>
+<li>Then when it sails to New Zealand, it will drop off the messages and grab the latest messages</li>
+<li>It will still operate automatically, to distribute blogs and tweets, even if the internet cables are cut and the satellites have been shotdown and it takes two months to send a message back and forth. Only a single copy of a blog posts or static data needs to enter the country, to be replicated peer-to-peer.</li>
+</ul>
+
+<p>The latency can literally be days or months and the protocol still operates reliably (scale invariance in time).</p>
+
+<p>Also, all applications built upon the distributed object store, will operate automatically offline with no additional coding
+- Google maps works while you have internet
+- When you lose internet, you no longer have a working map
+- When a map application is run off of map data in the asynchronous, distributed object store there is no difference to the application between being online and offline. You can cache the map for a whole country locally and it will operate the same regardless of internet connectivity.</p>
+
+<p>I think this will find a lot of applications for drones (drone swarms, mobile communication nodes), satellites, mobile devices (cell phone applications), IoT or mobile networking.</p>
+
+<h2 id="meshnet">Meshnet</h2>
+
+<p>The data channel and control channel is separated now. We have three things left to do, before its working again. It could be one or two weeks, before the full stack is working end-to-end.</p>
+
+<p>I think we will have someone get the VPN application working again, so that we will have at least one useful application to run over the network.</p>
+
+<p>The long term goal of Aether is to create content and website that are internal to the network only.</p>
+
+<h5 id="aether-will-look-exactly-like-ipfs">Aether will look exactly like IPFS</h5>
+
+<ul>
+<li>there will be a content browser</li>
+<li>you will put in a public key, then slashes, to navigate to content example: ipfs://QmYwAPJzv5CZsnA625s3Xf2nemtYgPpHdWEz79ojWnPbdG/readme</li>
+<li>then it will find peers and fetch the content</li>
+</ul>
+
+<h2 id="roadmap">Roadmap:</h2>
+
+<p>Our application stack is
+Skycoin + Skywire (Meshnet) + Aether (Skyhash) + CX (application language)</p>
+
+<p>We almost have the coin completed. Then Skywire and Aether in development/demo state.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

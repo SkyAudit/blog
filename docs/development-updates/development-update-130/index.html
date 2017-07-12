@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #130 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #130</span></h1>
+
+<h2 class="date">2017/05/15</h2>
+</div>
+
+<main>
+
+
+<h2 id="skycoin-market-making-bot">Skycoin Market Making Bot:</h2>
+
+<p>We have a market making bot, that will sit on the bid/ask for skycoin for the following exchanges
+- Poloniex
+- C2CX
+- Bittrex
+- Cryptopia</p>
+
+<p>The bot is in java and has three different trading strategies you can set. It was developed by a third party and will be released publicly.</p>
+
+<p>You can set rules, like a spread and if the price between two exchanges goes more than 5% difference the bot will automatically arbitrage the spread and make you money.</p>
+
+<p>Another strategy, adds depth to the order book by sitting on both the bid and ask around the moving average, so you can make money from volatility and the price doing a Yo-Yo.</p>
+
+<h2 id="c2cx-skycoin-bitcoin-order-book">C2CX Skycoin/Bitcoin Order Book</h2>
+
+<p>We are trying to get C2CX skycoin volume listed on coinmarket cap and get the APIs implemented.</p>
+
+<p>We are also going to open up the SKY/BTC order book, so Skycoin will not only be pegged to the yuan.</p>
+
+<h2 id="infographics">Infographics</h2>
+
+<p>We are working on an infographics deck. We will have ~240 infographics and diagrams on various topics, explaining the internals of Skycoin and usage.</p>
+
+<p>These are uncorrected examples with a lot of errors.</p>
+
+<p><img src="http://i.imgur.com/80cfRN2.png" alt="" />
+<img src="http://i.imgur.com/EGLW5cM.png" alt="" />
+<img src="http://i.imgur.com/yQ2Jkab.png" alt="" />
+<img src="http://i.imgur.com/mUb23E4.png" alt="" />
+<img src="http://i.imgur.com/VUrTAHl.png" alt="" />
+<img src="http://i.imgur.com/vduioVn.png" alt="" />
+<img src="http://i.imgur.com/EpDo0DO.png" alt="" />
+<img src="http://i.imgur.com/cjg8G3Z.png" alt="" />
+<img src="http://i.imgur.com/1qPFEYU.png" alt="" />
+<img src="http://i.imgur.com/dhhZHYW.png" alt="" /></p>
+
+<h2 id="video-and-marketing">Video and Marketing:</h2>
+
+<p>We have full time person working on video story boards now.</p>
+
+<p>We will do a major cleanup and then start porting older content onto the blog.</p>
+
+<p>We will start story board production for the videos. We will have eight videos on various topics.</p>
+
+<h2 id="development">Development:</h2>
+
+<p>We are trying to get the first two applications to release but dealing with bug back log.</p>
+
+<h2 id="new-wallet">New Wallet:</h2>
+
+<p>We are completely redoing the wallet
+- Support for multiple coins
+- Thin client scanning wallet
+- New UI based upon the byteballs and electrum wallet
+- Fixed wallet size in pixels, so that layout can be controlled precisely to avoid cluttering</p>
+
+<h6 id="this-wallet-will">This wallet will:</h6>
+
+<ul>
+<li>Force you to backup your wallet seed when you start it up</li>
+<li>Will be able to run as a thin client if you do not want to download the whole blockchain</li>
+</ul>
+
+<p>We are removing the full blockchain explorer from the wallet as it was a mistake and is too cluttered. And the blockchain explorer will be a separate application we will package with the node.</p>
+
+<p>We will also start development of a &ldquo;Consensus Explorer&rdquo; to allow a user to subscribe to all nodes participating in consensus and to see the network status and global consensus state.</p>
+
+<p>We also have to start development of a distributed logging system, that allows nodes to record and optionally publish publicly events such as
+- Consensus state updates
+- Time when block was received
+- Time when transaction was received
+- Node peer connection and disconnection events</p>
+
+<p>This logging system will allow us to verify that the mathematical invariants for network consensus are satisfied (netsplit detection, early detection of non-propagating transactions, early detection of block flooding attacks, early detection of transaction flooding attacks).</p>
+
+<p>The logging daemon will also implement a remote RPC (Skycoin Command and Control RPC) for allowing use controlled or chosen remote public keys to modify soft node settings (connection pool size, connection/disconnection from nodes, transaction rebroadcast) and will allow us to do cyber warfare drills on the live network.
+- For instance if the network is flooded by 40,000 transaction backlog, we might use the command infrastructure to set transactions per block to 10,000 and clear the backlog.
+- Or may increase the minimum coin hour fee for transaction prorogation to end the spam attack</p>
+
+<h6 id="we-will-have-three-sets-of-connections">We will have three sets of connections:</h6>
+
+<ul>
+<li>User defined hard coded connections (node your node must be connected to, that are chosen by the node operator)</li>
+<li>Peer-to-peer nodes (random nodes chosen by peer-to-peer process)</li>
+<li>Optional automatic recommended connections (command server suggestions for optimizing block/transaction/bandwidth availability)</li>
+</ul>
+
+<h6 id="also-in-the-next-generation-architecture">Also in the next generation architecture:</h6>
+
+<ul>
+<li>Block prorogation will be moved to CXO</li>
+<li>Transaction prorogation will be moved to CXO</li>
+<li>Transaction relay functionality will be something that can be disabled or enabled independent of other features in the node</li>
+<li>The key-value store for blockchain historical information and indices will be something that can be enabled or disabled independent of other functionality in the node</li>
+<li>The wallet functionality will be refactored out of the node and will be something that can be enabled or disabled</li>
+<li>There will be no difference at the API level between a thin client and a full node for wallet operations and no difference in API usage between a local node and a remote node operating over a network</li>
+<li>The blockchain history database will use range queries and user will be able to configure whether to index and store the full history since genesis or only the last few million blocks or whether to begin pruning the index after a certain range limit. The key value stores for each type of index data will eventually be independent programs exposing an RPC, that can be run on different nodes completely. With no difference between a locally running and remote node. This is part of the BlockDB architecture (however is a low priority and may take two years to get this done).</li>
+</ul>
+
+<h2 id="naming">Naming:</h2>
+
+<p>We are probably going to rename the Skycoin transaction standard UXTO, to UXTX.</p>
+
+<p>And we will call the old, Bitcoin way UTXO.</p>
+
+<p>And we will call the way Ripple and Ethereum do it &ldquo;The Accounts Model&rdquo;.</p>
+
+<p>We have to standardize the naming conventions between different groups, because everyone is calling the same thing different names.</p>
+
+<h2 id="applications">Applications:</h2>
+
+<p>We are trying to launch the first two applications.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

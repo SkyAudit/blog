@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coin Distribution on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/coin-distribution/</link>
+    <description>Recent content in Coin Distribution on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/coin-distribution/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #16</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-16/</link>
+      <pubDate>Mon, 21 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-16/</guid>
+      <description>Summary:  The new developers for the meshnet are setup and working now. The source routing implementation is almost done. wifi controller library is working and just needs adhoc mode support and some bug fixes. https://github.com/skycoin/darknet/commit/21e08943e753d985d3f30f5dee1022f027831c3d Last gui changes to wallet are being made. One of the coin developers who was on vacation for past two weeks is coming back to project. First draft the of Obelisk white paper is done.</description>
+    </item>
+    
+  </channel>
+</rss>

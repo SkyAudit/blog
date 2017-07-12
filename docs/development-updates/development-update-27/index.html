@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #27 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #27</span></h1>
+
+<h2 class="date">2014/06/23</h2>
+</div>
+
+<main>
+
+
+<h2 id="summary">Summary:</h2>
+
+<p>Aether is coming along well. Soon development discussion will be moved into Aether. Coin bounties will be assigned for developing communication tools on Aether.</p>
+
+<h6 id="for-instance">For instance:</h6>
+
+<ul>
+<li>user creates private/public key pair</li>
+<li>user publishes stream of tweets (as JSON) into blockchain and signs each block with their private key</li>
+<li>user subscribes to another person&rsquo;s feed
+&ndash; user takes hash (address) of person they want to subscribe to
+&ndash; user looks up peers replicating the chain via DHT
+&ndash; user connects to the peers and downloads the chain (which is replicated P2P)</li>
+<li>web server on local hosts, allows person to see feeds of people they are pulling in</li>
+</ul>
+
+<p>Most of this is two lines of code in Skywire, so the work is creating a service in Golang and then taking the JSON and creating an HTML interface from it. This is a sort of &ldquo;App&rdquo; on top of Aether/Skycoin. Aether also implements a key-value store, which is probably more useful than blockchain for these types of apps.</p>
+
+<p>Twitter is easiest to implement. It is not more difficult to implement a twitter clone on top of Aether than it is to implement one with Redis. Twitter is easiest to implement, because in distributed twitter, each user controls their own feed data.</p>
+
+<h6 id="we-also-want">We also want:</h6>
+
+<ul>
+<li>a distributed forum</li>
+<li>a distributed reddit</li>
+<li>messaging (email replacement. most difficult)</li>
+<li>a distributed wiki</li>
+</ul>
+
+<p>These will be used for coordinating development and building up the user community.</p>
+
+<p>For a forum, the forum data would be controlled by a single public key. A user submitting something to forum, would message the forum with a signed message, then it would trigger API and forum server would update the forum data.</p>
+
+<p>For a wiki, each key/value stores a page. The wiki data is controlled by a single public key. Users submit messages to the wiki server, the wiki server updates the data for the page. The updates are replicated peer-to-peer between subscribers to the Aether store. One key has AngularJS for generating the HTML website from the data in Aether.</p>
+
+<h6 id="for-application-distribution-we-have-three-options">For application distribution we have three options:</h6>
+
+<ol>
+<li>make people pull the service/app from github</li>
+<li>have key value store and put Javascript in key 0 (using AngularJS), that gives information for how to render the page and APIs. This means an &ldquo;app&rdquo; is javascript that generates the HTML locally and can call a limited number of APIs</li>
+<li>Have a sandboxed, minimal virtual machine which apps are compiled down into. This is the best long-term solution, but we will use AngularJS until we can get this developed and it meets our security/quality standards.</li>
+</ol>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

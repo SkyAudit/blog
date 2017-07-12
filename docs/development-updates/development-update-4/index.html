@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #4 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #4</span></h1>
+
+<h2 class="date">2014/03/03</h2>
+</div>
+
+<main>
+
+
+<h2 id="software-update">Software Update:</h2>
+
+<p>The design of Obelisk is finalized. All the pieces come together and its a major milestone for cryptocoins. We believe that Skycoin will be the most secure, most difficult to attack non-mined cryptocoin to date.</p>
+
+<h2 id="changes">Changes:</h2>
+
+<ul>
+<li>There is now list of things for developers to do <a href="https://github.com/skycoin/skycoin/wiki/SOFTWARE-DEVELOPERS-CLICK-HERE">https://github.com/skycoin/skycoin/wiki/SOFTWARE-DEVELOPERS-CLICK-HERE</a></li>
+<li>We introduced proof of work and difficulty re targeting to keep block production rate constant. As the network scales from 10 nodes to 100,000 we need to keep the block rate constant and prevent it from growing linearly with the number of nodes. This minimizes the number of decisions and rounds Obelisk needs to converge to network consensus. Proof of work will be used for block minting, but not for block consensus. There will be no reward for block minting. Malicious blocks (blocks with no transactions or few transactions) will be weighted against, to deter abuse. The proof of work is not in the block headers, but occurs at a higher level that wraps the blockchain. This makes it more modular and easy to swap out and modify without causing a hardfork.</li>
+<li>We proved that probability of a block fork under Obelisk approaches 0% exponentially quickly with block depth.</li>
+<li>Transaction and block replication in /src/daemon are being abstracted into a library. The emergency messaging system and transaction propagation will use &ldquo;blob replication&rdquo;. Blockchain and obelisk replication will use &ldquo;hash chain replication&rdquo;. This will make the system more modular and make improvements to block and transaction propagation easier.</li>
+<li>We are working on builds for testnet client. Obelisk is not implemented yet, but you will be able to run client and send coins around and hunt for bugs</li>
+<li>There is a massive refactor going on. Replication functionality  in /src/daemon is being moved into /src/sync. /src/visor functionality is being moved into /src/blockchain and the top level of Skycoin is being moved, to make changes required for Obelisk integration.</li>
+<li>/src/coin and the cryptography libraries are &ldquo;done&rdquo;.  The changes to this part of program will be minimal going forward.</li>
+<li>We are finalizing the JSON RPC for exchanges and wallets</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

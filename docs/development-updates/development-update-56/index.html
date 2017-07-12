@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #56 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #56</span></h1>
+
+<h2 class="date">2015/02/02</h2>
+</div>
+
+<main>
+<p>The button for loading deterministic wallets from seed is now in interface.</p>
+
+<p><img src="http://i.imgur.com/72R1j1u.png" alt="" /></p>
+
+<p>The wallet backend needs to be refactored, but can happen later.</p>
+
+<p>Wallets have an id field, a name field, filename and a seed. This should probably been &ldquo;filename&rdquo; as id. The name field should be renamed &ldquo;notes&rdquo; or removed. The json storage format needs to be improved later. Just general cleanup in future.</p>
+
+<p>When the wallet format changes, you need to go into &ldquo;.skycoin/wallet&rdquo; and move the folder. Then open the wallets with a text editor and extract the seed. Then run client and reimport it.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

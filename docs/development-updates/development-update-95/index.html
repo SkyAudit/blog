@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #95 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #95</span></h1>
+
+<h2 class="date">2016/01/06</h2>
+</div>
+
+<main>
+
+
+<h2 id="cross-compilation">Cross Compilation</h2>
+
+<h5 id="to-cross-compile-skycoin-do">To cross compile skycoin, do:</h5>
+
+<p>Install Gox:
+go get <a href="https://github.com/mitchellh/gox">https://github.com/mitchellh/gox</a>
+gox -build-toolchain</p>
+
+<h5 id="compile">Compile:</h5>
+
+<p>cd $GOPATH/src/github.com/skycoin/skycoin
+$G = skycoin-0.3
+gox -output=&ldquo;$HOME/builds/$G-{{.OS}}-{{.Arch}}/$G/address_gen&rdquo; ./address_gen/
+gox -output=&ldquo;$HOME/builds/$G-{{.OS}}-{{.Arch}}/$G/skycoin&rdquo; ./skycoin/</p>
+
+<p>It will even output NaCl (native client) for ARM.
+- native client is an execution sandbox by Google for memory safety and running applications in the browser and phone
+- it abstracts the networking and directory access
+- it is likely next standard for Android apps and replacement for flash
+- there is portable native client, which is like LLVM IR for native client</p>
+
+<p>Right now, most exchanges are using PHP and software libraries that have XML parses with remote code execution exploits. New exploits are being added everyday and others being patched. bitcoind has them too.</p>
+
+<p>Achieving security in the long term, requires going as close to the metal as possible. Getting rid of reliance on excess dependencies we cant control which  are in non-memory safe languages and have exploits and reducing the number of lines of code.
+- Raspberry Pi or ARM hardware (no microcode exploits; eventually ideally MIPS or RISC-V)
+- L4 kernel (35,000 lines, instead of +2 million lines, formally verified, all actions and drivers in user space)
+- Libre linux drivers (open source drivers instead of binary blobs)
+- deterministic builds</p>
+
+<p>Those are the minimum requires for acceptable security against a nation state actor.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

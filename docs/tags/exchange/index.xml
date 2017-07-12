@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exchange on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/exchange/</link>
+    <description>Recent content in Exchange on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 05 Oct 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/exchange/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #106</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-106/</link>
+      <pubDate>Wed, 05 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-106/</guid>
+      <description>Going through the launch check list
+Mostly check commit log: - https://github.com/skycoin/skycoin
+ block storage is done. Key/value store. boltdb. memory mapped files blockchain history API is done. GUI is in progress. first version of website is done. Second version in progress, then will be on domain. will post screenshots soon some consensus simulations using random mean field sampling are in the repo in the /src/ directory now. We have someone starting on the public broadcast channel implementation and then remaining integration tasks.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #104</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-104/</link>
+      <pubDate>Tue, 30 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-104/</guid>
+      <description>The builds are on the website, www.skycoin.net
+The electron builds use Electron for the gui. The binary builds use the system browser (chrome or firefox)
+Production: Consensus prototype is done and needs to be integrated into the client and src/daemon and /src/visor needs to be cleaned up. Then we are in launch/production.
+Security: https://bitcointalk.org/index.php?topic=915893.0 http://boingboing.net/2016/06/15/intel-x86-processors-ship-with.html
+Exchange: https://github.com/skycoin/skycoin-exchange
+We are integrating the API into the angular GUI prototype and making incremental improvements.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #103</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-103/</link>
+      <pubDate>Wed, 17 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-103/</guid>
+      <description>Exchange: Exchange is done - https://github.com/skycoin/skycoin-exchange - bitcoin deposits - bitcoin withdrawls - skycoin deposits - skycoin withdrawls - order book
+The Angular 2.0 gui for the client JSON API is being integrated right now.
+This is not just an &amp;ldquo;exchange&amp;rdquo;, but - has &amp;ldquo;local&amp;rdquo; wallet (private keys and local wallets) and remote wallet (coins deposited in the exchange) - has a thin client, API, so that you can get unspent outputs and inject transactions - is multi-coin (the coin handling is pluggable, so that we can add new coins over time) - does not use HTTPS or even IP addresses.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #101</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-101/</link>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-101/</guid>
+      <description>Meshnet: Version one meshnet is almost done
+https://github.com/skycoin/skycoin/commit/f959d0875baf990e43ca3f045a9cba82d4d8f24a
+This is the sixth or eighth design iteration, so it is very clean conceptually. I was simulating the meshnet packet passing algorithms with punch cards and paper and it works well. You could implement it on a punch card sorting machine and telegraph lines if you wanted to.
+Exchange: Exchange is being refactored and fixed. We have a revolutionary exchange design, that simplifies the exchange, improves the security and enables easy support for multiple coins.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #96</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-96/</link>
+      <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-96/</guid>
+      <description>Finished some small things, but mostly design work
+There are some minor changes  UPNP support for Skycoin networking is done. Can tunnel through firewalls now. Networking will probably be switched from TCP/IP to UDP  Exchange: This is ready to go almost, but have to finish
+Other: The GUI for interaction with networking and meshnet configuration is extremely frustrating. I am trying to find some way to take a shortcut or make this easier.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #92</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-92/</link>
+      <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-92/</guid>
+      <description>There are three major goals/milestones right now: Crypto:     Exchange: Meshnet/Darknet/VPN:    There are three major goals/milestones right now:  Get crypto port to golang finished (so we can do cross platform builds) Get liquidity (exchange platform) VPN/meshnet/darknet prototype or version 1 release  Crypto:  Someone else (two other people using the library) is working on the crypto bug (which only affect 1 in a few thousand keys).</description>
+    </item>
+    
+    <item>
+      <title>Development Update #91</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-91/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-91/</guid>
+      <description>Exchange Exchange GUI is in progress.
+ The exchange client is a very light weight terminal application. When exchange app starts, you put in your pass phrase for deterministic wallet generation It communicates with exchange over encrypted channel. You can transfer between local wallet and the exchange very easily
+ As long as you remember you wallet password (the phrase that generates the wallet), then you can access the coins from anywhere.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #90</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-90/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-90/</guid>
+      <description>Crypto Library: Bad news, the crypto library problem is severe. In the new upgrade the public key for 1 in 1200 private keys will be different. To standardize it to Bitcoin. Only one or two people should be affected and we will replace the coins if they are unable to get them out of the wallet and send us the private key.
+Every single crypto library outputs different values for the same inputs for a subset of the keys and it is extremely frustrating.</description>
+    </item>
+    
+  </channel>
+</rss>

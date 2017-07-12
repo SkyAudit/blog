@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peer Exchange on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/peer-exchange/</link>
+    <description>Recent content in Peer Exchange on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Aug 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/peer-exchange/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #80</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-80/</link>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-80/</guid>
+      <description>GoAgent was forced off of Github by state security - https://github.com/goagent/goagent
+A few days ago Shadowsocks author was contacted and forced to rescind the repo by state security - https://github.com/shadowsocks/shadowsocks - https://github.com/shadowsocks/shadowsocks/commit/938bba32a4008bdde9c064dda6a0597987ddef54
+All the tools for breaching the firewall are being purged.
+Development Update: Peer Exchange Algorithm Problems There is no satisfactory solution for sharing peer lists. You should only share peers if they accept incoming connections, otherwise the client spends a lot of time trying to connect to the majority of peers, which cannot accept incoming connections, so sharing the peer does not help anyone.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #117 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #117</span></h1>
+
+<h2 class="date">2016/11/23</h2>
+</div>
+
+<main>
+
+
+<h2 id="summary">Summary:</h2>
+
+<p>We are launching our own post blockchain social platform. Starting with an immutable object replication system, inspired by Urbit and IPFS. Which is designed for decentralized social networking and source independent networking.</p>
+
+<p>We started this on friday and we almost have a decentralized text only version of 4chan working, five days later.</p>
+
+<ul>
+<li><a href="https://godoc.org/github.com/skycoin/cxo/schema">https://godoc.org/github.com/skycoin/cxo/schema</a></li>
+
+<li><p><a href="https://godoc.org/github.com/skycoin/cxo/bbs">https://godoc.org/github.com/skycoin/cxo/bbs</a></p></li>
+
+<li><p>Each object has a schema and is a struct (with basic set of atomic types)</p></li>
+
+<li><p>Each object has a canonical serialization as a byte string</p></li>
+
+<li><p>Each object instance IDed as the SHA256 hash of its []byte serialization</p></li>
+
+<li><p>Each object can Href (hash ref) over objects (like a pointer to an immutable object)</p></li>
+
+<li><p>The objects are stored in a map from SHA256 hashes to []byte</p></li>
+
+<li><p>We track which objects we have references to, but which we do not have local copies to</p></li>
+
+<li><p>Garbage collection is easy because we have a directed acyclic dependency graph in this form (like Rust, there are no pointer cycles allowed)</p></li>
+</ul>
+
+<p>This type of immutable object system is designed for peer-to-peer replication over Skyhash/Aether
+- <a href="https://github.com/gagliardetto/skyhash-pub-sub">https://github.com/gagliardetto/skyhash-pub-sub</a></p>
+
+<p>In Aether, there is a swarm of people subscribed to public key A
+- A serializes a root object as a []byte, hashes it, signs it with their private key and then publishes it
+- the root object is published peer-to-peer
+- the objects referenced by the root object are pulled in recursively</p>
+
+<p>This will replace Bitorrent, IPFS, zeronet, maidsafe, Tox, bittorrent sync, http, bitmessage and more with a single protocol that can cover a wider range of use cases more easily.</p>
+
+<p>If public key A subscribes to pubkey B and pubkey B subscribes to pubkey A, then it gives you a Tox or Bitmessage like asynchronous messaging channel with peer to peer replication.
+- Nodes A, B by public key
+- A subscribes to B
+- B subscribes to A
+- A publishes a message that only B can read, into its pubsub channel
+- B publishes an ACK to A, confirm message receipt
+- A removes the href to message in next round</p>
+
+<p>This protocol is very good for peer-to-peer replication of static content like websites, blogs and youtube videos.</p>
+
+<h2 id="meshnet-sequence-diagrams">Meshnet sequence diagrams</h2>
+
+<p>We are doing UML protocol sequence diagrams for the meshnet now.</p>
+
+<p><img src="http://i.imgur.com/fYSKxb0.png" alt="" /></p>
+
+<p>The network is very similar to I2P, except that it is designed to be fast. I want to get this working (again) soon.</p>
+
+<p>&mdash; build automation</p>
+
+<p>We are doing docker, ansible and juju. For node installation, deployment. Will have scripts that automatically SSH into node with ansible and install golang and install from source and run nodes.</p>
+
+<p>This should help with large deployments.</p>
+
+<h2 id="cli">CLI</h2>
+
+<p>The Skycoin CLI and WebRPC is working and is better than Bitcoin or Ethereum.</p>
+
+<p>We fixed issue with the CLI and web-wallet contending to write for same wallet files. We will add ability to disable the web-wallet APIs for nodes that will be used over the thin client interface.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

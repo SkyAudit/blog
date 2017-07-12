@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #119 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #119</span></h1>
+
+<h2 class="date">2016/12/06</h2>
+</div>
+
+<main>
+
+
+<h2 id="devops">DevOps</h2>
+
+<h6 id="we-have-ansible-scripts-and-docker-containers-for-automating-deployment">We have ansible scripts and docker containers for automating deployment.</h6>
+
+<ul>
+<li><a href="https://github.com/skycoin/devops">https://github.com/skycoin/devops</a></li>
+<li>We need a lot of help with this</li>
+</ul>
+
+<h6 id="install-docker-and-docker-compose">Install docker and docker-compose</h6>
+
+<ul>
+<li>git clone github.com/skycoin/devops</li>
+<li>cd devops</li>
+<li>docker-compose up</li>
+</ul>
+
+<h6 id="then-it-will">Then it will:</h6>
+
+<ul>
+<li>Start up a debian VM and a Alpine Linux VM</li>
+<li>Use the alpine linux VM as ansible agent to do installation on the debian hosts</li>
+<li>Install golang</li>
+<li>Pull skycoin</li>
+<li>Pull dependences</li>
+<li>have skycoin image ready for running and deployment</li>
+</ul>
+
+<h2 id="switch-from-void-linux-to-alpine">Switch from Void linux to Alpine:</h2>
+
+<h6 id="we-are-switching-defaults-for-our-server-deployment-from-void-linux-to-alpine-linux-because-of-better-support">We are switching defaults for our server deployment from Void Linux to Alpine linux, because of better support</h6>
+
+<ul>
+<li>no SystemD</li>
+<li>MUSL instead of glibc</li>
+<li>minimum image size of 6 Mb for docker container</li>
+<li>runs on ARM</li>
+<li>alpine linux can run docker and docker-compose</li>
+</ul>
+
+<h2 id="network-unreliability-affecting-unattended-automated-installs">Network Unreliability Affecting Unattended/Automated installs:</h2>
+
+<p>In China, Japan, Hong Kong and South East asia, DNS is not working reliably and we are internalizing external dependencies and golang repos into IPFS for peer-to-peer replication.</p>
+
+<h6 id="we-have-experience-network-unreliability-for">We have experience network unreliability for:</h6>
+
+<ul>
+<li>github (dns fail, https timeout, https works then is throttled down to 4 Kb/s, then drops later, sporadic unavailability in south-east asian region)</li>
+<li>debian/apt-get (DNS resolution failure for debian, speed throttled to 4 Kb/s, sporadic unavailability in south-east asian region)</li>
+<li>golang installation (google servers blocked in china)</li>
+</ul>
+
+<h6 id="to-rebuild-client-gui-requires">To rebuild client gui requires:</h6>
+
+<ul>
+<li>golang binaries (static file IPFS, or wget/remote server dependency)</li>
+<li>golang dependencies in the gopath (dependency on github, or later can be moved into IPFS)</li>
+<li>apt-get install npm (debian dependency)</li>
+<li>NPM install (NPM server dependency)</li>
+</ul>
+
+<h6 id="to-only-run-the-client-server-meshnet-requires">To only run the client/server/meshnet requires:</h6>
+
+<ul>
+<li>golang binaries (static file IPFS, or wget/remote server dependency)</li>
+<li>golang dependencies in the gopath (dependency on github, or later can be moved into IPFS)</li>
+</ul>
+
+<p>So we should be able to have skycoin node and meshnet nodes running completely from IPFS without depending on DNS and using only local resources. This should significantly improve deployment speed and reliability for unattended and automated installation.</p>
+
+<h6 id="the-end-goal-is-that">The end goal is that:</h6>
+
+<ul>
+<li>all our files required for installation should be in one volume (zip file or IPFS)</li>
+<li>everything required for install should be in that volume</li>
+<li>install will complete and server will run reliably, even if network cable is unplugged from server (offline installation, with no network resources or foreign dependencies)</li>
+<li>installation should be fully automated (unattendend installation and automated deployment)</li>
+</ul>
+
+<h6 id="this-solves-the-following-problems">This solves the following problems:</h6>
+
+<ul>
+<li>Our build process has been very poor and needs to be completely automated (for build bot)</li>
+<li>The internet is falling apart internationally and has been getting progressively worse over last year, especially for Russia, China, Brazil and South East Asia. Scripts that would work perfectly are failing because of inability to access cross border network resources, because of filtering, throttling at border or cyber attacks on the DNS system.</li>
+<li>Even within China, traffic between different ISPs will often completely drop for seconds at a time, screwing up installation scripts, while overseas traffic is also dropping sporadically or being filtered. Within China, all installations requiring access to github.com, apt-get repos often fails. Access to all google servers is blocked (including golang binaries and git repositories hosted on google servers).</li>
+<li>Several people have offered us single VPS servers to run nodes on. Someone offered us 3 nodes. Another person offered 5 servers. Another sent us a list of IP, username/password for 30 VPS servers. Another person offered  two hundred servers. We do not have time to maintain and update the nodes by hand. We need completely automated deployments with ansible.</li>
+<li>A medium sized meshnet node deployment for VPS might be ~30,000 nodes. So we need perfectly reliable, automated installation, deployment and self-testing. The human time, should not increase as the number of servers/nodes increase. It has to be zero marginal cost.</li>
+</ul>
+
+<p>For instance for servers in Singapore, japan and Tokyo we are getting errors like this.</p>
+
+<p><img src="http://i.imgur.com/AwWSsB5.png" alt="" /></p>
+
+<p>So for reliability we need to internalize all our dependencies to eliminate the possibility of disruption of access to network resources, preventing deployment and installation.</p>
+
+<p>These are problems we are having right now. There is not even a war yet and the submarine cables have not even been cut yet. I cannot figure out why there are are so many problems with HTTPS, SSL and DNS lately.</p>
+
+<p>We have even seen our installation scripts broken by errors indicating a SSL packet injection attack, which were only observed on servers at a large corporation that may be an interesting target for attack and only if we are accessing overseas resources. We have also observed DNS problems, when a VPN is used to particular countries and where traffic passes through particular countries.</p>
+
+<p>DNS Is completely insecure and broken. DNS is completely unencrypted and 3rd parties can easily modify DNS packets in transit. It is not reliable anymore, because of the increasing weaponization of DNS by ISPs. I am getting these DNS problems in Singapore, Hong Kong an Taiwan now.</p>
+
+<p>We also had failed DNS resolution cause an inability to access STUN servers, so the node was unable to determine its public facing IP address.</p>
+
+<p>China&rsquo;s cyber security policy appears to include blocking every overseas resource (such as docker), controlled or owned by an entity subject to US/NATO national security orders. Unreliable networking causes a slew of meaningless Docker errors that the program is not designed to handle.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

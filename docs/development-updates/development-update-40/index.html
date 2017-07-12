@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #40 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #40</span></h1>
+
+<h2 class="date">2014/10/17</h2>
+</div>
+
+<main>
+
+
+<h2 id="consensus-simulation">Consensus Simulation:</h2>
+
+<p>Here is basic python simulation of the Skycoin consensus process <a href="http://pastebin.com/5DJ9d29D">http://pastebin.com/5DJ9d29D</a></p>
+
+<p>We dont have much time for academic details until its done, but found that Ben-Or&rsquo;s consensus process could be modeled used a mathematical model called a &ldquo;spin glass&rdquo;. <a href="https://en.wikipedia.org/wiki/Spin_glass">https://en.wikipedia.org/wiki/Spin_glass</a></p>
+
+<p>Each node has a state. Each node is subscribed to a subset of nodes in the network. There is a local function (a function of the node&rsquo;s state and the state of the nodes it is subscribed to) that can be called &ldquo;energy&rdquo;. The &ldquo;energy&rdquo; of the network is the sum of the energy of each node. The network has achieved consensus (all nodes are in the same state), when the energy is minimized. A node changes its state at each round, to minimize its energy function. Through local energy minimization, it can be proved that the global energy reaches a minimum within a finite time bound for a particular type of network topology and update rule.</p>
+
+<p>Spin glass are mathematically equivalent to 2-SAT/3-SAT optimization problems and several messaging passing algorithms on graphs have been proposed with known scaling laws and performance guarantees. This leads into analogies of Belief Propagation and Survey Propagation, where nodes pass more powerful state information to each other and the network can reach a convergent state faster. Normally, it can require exponential time for a network to reach the ground state if the energy function is too complicated (3-SAT). However, in Skycoin type consensus network the energy function is a 2-SAT problem at worse and actually more trivial than that (convergence through local hill climbing). Worse case network topology for 2-SAT makes number of rounds to convergence linear in the number of nodes (linear time in number of rounds for distributed process of N nodes, but quadratic time big O runtime for a centralized process). For &ldquo;average&rdquo; random graph the problem appears to be trivial and the system reaches the minimum through message passing, extremely quickly for even most basic stochastic local hill climbing update rule.</p>
+
+<p>We do not have a proof yet, but the time to consensus seems to scales no worse than the square root of the number of nodes for a random graph at worse, but is usually logarithmic in the number of nodes in the network for most update rules. For a graph with a power law connection rule with preferential attachment, the convergence time appears very good in simulation. It does not change noticeably with graph size.</p>
+
+<p>We have found that almost all the update rules for message passing result in network convergence. However, some rules are not &ldquo;robust&rdquo; in the sense that a relatively small number of colluding nodes are able to prevent network convergence and delay convergence indefinitely. In the real world, this may not matter because the required tie condition occurs rarely (worse case) and nodes blocking convergence would be detected and people would remove them from their trust lists. Some rule sets result in faster convergence, but may make it easier for malicious nodes to influence the network.</p>
+
+<p>There are suggestions that there exist messages with augmented state information that would allow faster convergence and allow a node to partition the nodes they are following into two sets and apply meta-rules for adding/removing node relationships, expelling &ldquo;bad&rdquo; nodes to a disconnected/disjoint sub-graph.</p>
+
+<p>There will be many changes after launch. This is a whole new area that needs work.</p>
+
+<h2 id="measuring-the-influence-of-nodes">Measuring the Influence of Nodes</h2>
+
+<p>In Bitcoin, the two largest mining pools completely control the network. Together they control 51% of the hash rate and could attack the network, exchanges and gambling sites if they chose to. Mining has led to a severe concentration of power in the hands of a small group. The number of people who must collude to attack the network is much smaller than Satoshi intended.</p>
+
+<p>In Skycoin the objective is to keep network control decentralized enough that a successful attack requires collusion of at-least a few hundred highly respected and trusted people (an unlikely conspiracy) and then minimizing the scope of damage that could result even then.</p>
+
+<p>We need a measure of power or influence, in the Skycoin network, that allows us to compute whether a sub-graph of nodes has enough influence to carry out an attack in collusion. We would also like a visible measure of power of individual nodes, so that people can re-balance their node subscriptions to prevent any node in the network from obtaining too much influence.</p>
+
+<p>We believe the influence of a node in the simple consensus system, can be approximated well using a page rank type algorithm. The link adjacency matrix is constructed, such that A_ij equals 1 if node i subscribes to node j and is zero otherwise. We normalize each row to 1 to get the modified link adjacency matrix. The &ldquo;page rank&rdquo; or power rating of the ith node is the ith entry of the dominate eigenvector of the modified adjacency matrix for the network graph.</p>
+
+<p>The dominant eigenvector of the modified link adjacency matrix A, can be quickly computed by choosing a random vector, applying A to it by multiplication, normalizing the result and repeating successively with the resulting vector as the new input, until convergence.
+Example x &lt;- A*x / ||A*x||, while || x - (A*x / ||A*x||) || &lt; ε  (multiply A*x, normalize result, feed it back in)</p>
+
+<p>This simple metric gives an approximate ordering of the most trusted and influential nodes in the network.</p>
+
+<h2 id="development-news">Development News</h2>
+
+<p>I am not sure what is left until the ICO. I think the Python scripts are done.
+- python scripts
+- verify that loading deterministic wallet loading is working in the GUI
+- start distribution?</p>
+
+<p>There is a split between the active development branch and the ICO branch because of a networking library golang dependency. The distribution branch daemon wont compile with the updated networking library and the new Daemon is not ready to replace the Daemon implementation in the distribution branch. However, this should not affect the distribution  as the existing client should still compile and run. Doing a huge refactor instead of a series of very small refactors that kept the software working was a major mistake and setback.</p>
+
+<p>The darknet prototype is now running over Tox. Tox allows communication via public key, has UDP hole-punch working and has good binary data performance and latency. Using Tox as start point will allow us to get a prototype working faster and defer implementing public key to IP address DHT look-up. It also allows back-communication to distributed service servers over the darknet, before the asynchronous messaging implementation is done (which was a major problem/hurdle for implementing darknet application servers).</p>
+
+<p>In a typical darknet application, you have a website with static pages. The public key owning the pages signs the data with their private key and the data is replicated peer-to-peer between the subscribers to the application. This is good for publishing static content and files. However, sometimes you need to make an API call to the application server (such as updating a wiki page). It was possible to subscribe, but not to communicate back to the public key controlling the server. Now the application can give a Tox public key that can be used as a communication end-point for API calls on the application server.</p>
+
+<p>Skycoin distributed applications previously used Ether, then Aether but now uses Merkle-DAG as the standard format. Implementation documentation and the Merkle-DAG spec is being written up now.</p>
+
+<p>Merkle-DAG is Skycoin&rsquo;s distributed file system. Merkle-DAG is like Bitorrent, but lets you make updates to files after publication. You generate a public key, then sign updates with your private key. The updates are replicated peer-to-peer between subscribers. Merkle-DAG replaces the ad-hoc replication that was previously used for publishing personal block-chains and distributed applications.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

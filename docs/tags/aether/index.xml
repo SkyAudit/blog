@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aether on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/aether/</link>
+    <description>Recent content in Aether on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Nov 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/aether/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #114</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-114/</link>
+      <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-114/</guid>
+      <description>Summary:  We need to fix the GUI on the dev branch. We need to debug the CLI (command line interface, for exchange)) We need to get the WebRPC (for exchanges)  We need to start building out the community.  Need a chat room Need a forum or BBS Need a messaging system  We need to get the three white papers done and the website:  Coin / Consensus Paper Meshnet Paper Aether Paper  Things we need:  We have to decide if we will float and do the first market internally or use a third party.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #32</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-32/</link>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-32/</guid>
+      <description>Summary: For routing, we will have each node report traffic statistics to central server. Then we will aggregate the statistics and publish them. Then &amp;ldquo;Route Discovery Servers&amp;rdquo; will download copies of the data, compute optimal routes. When a client wants a route, it will ask a route server and get a route. So the route discovery service is like a DNS type service.
+The route discovery servers can use machine learning, big data, linear algebra, ant colony optimization, electron flow routing, whatever it needs to compute the routes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #27</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-27/</link>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-27/</guid>
+      <description>Summary: Aether is coming along well. Soon development discussion will be moved into Aether. Coin bounties will be assigned for developing communication tools on Aether.
+For instance:  user creates private/public key pair user publishes stream of tweets (as JSON) into blockchain and signs each block with their private key user subscribes to another person&amp;rsquo;s feed &amp;ndash; user takes hash (address) of person they want to subscribe to &amp;ndash; user looks up peers replicating the chain via DHT &amp;ndash; user connects to the peers and downloads the chain (which is replicated P2P) web server on local hosts, allows person to see feeds of people they are pulling in  Most of this is two lines of code in Skywire, so the work is creating a service in Golang and then taking the JSON and creating an HTML interface from it.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #22</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-22/</link>
+      <pubDate>Wed, 14 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-22/</guid>
+      <description>Summary: We need to close out work on the coin so we can get onto the meshnet. We are trying to do too much: - Coin - Aether - Meshnet - Obelisk
+Any one of these projects is an immense burden that requires a full development team.
+The coin is done and we are just doing refactoring and cleanup of minor issues, but it is still requiring a lot of time.</description>
+    </item>
+    
+  </channel>
+</rss>

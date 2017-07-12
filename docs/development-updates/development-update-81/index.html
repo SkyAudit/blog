@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #81 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #81</span></h1>
+
+<h2 class="date">2015/09/10</h2>
+</div>
+
+<main>
+
+
+<h2 id="exchange-overview">Exchange Overview:</h2>
+
+<p>This is a prototype for a next-generation exchange infrastructure.</p>
+
+<p><a href="http://github.com/skycoin/skycoin-exchange">http://github.com/skycoin/skycoin-exchange</a></p>
+
+<p>This is very rough. Your username/login is a public key. Your identifier is a hash of your public key. You sign your messages to the exchange with your public key. This will be stored in a json file locally on the client.</p>
+
+<pre><code>//send this with every request
+//
+type MsgAuth struct {
+   Address   cipher.Address
+   Hash      cipher.SHA256 //hash of the JSON message
+   Signature cipher.Sig    //set to zero
+   Type      uint16
+   Seq       uint64 //nonce, unix time, nanoseconds?
+   Msg       []byte
+}
+</code></pre>
+
+<p>On the client, each function will be exposed as a JSON/HTTP request</p>
+
+<pre><code>/*
+   The server gets events from the client and processes them
+   - get balance/status
+   - get deposit addresses
+   - withdrawl bitcoin
+   - withdrawl skycoin
+   - add bid
+   - add ask
+   - get order book
+*/
+</code></pre>
+
+<pre><code>//get status
+type PingStatus struct {
+   Auth MsgAuth //must be included with every message
+
+}
+
+type PongStatus struct {
+   Err string //error?
+
+   Balance map[string]uint64
+
+   DepositAddresses []string
+
+   //list of orders unexecuted?
+   //bid orders?
+   //ask orders?
+}
+
+func (self *server) HandleStatus(in PingStatus, out *PongStatus) {
+   addr := in.Auth.Address //user ID
+
+   account := self.AccountStates.GetAccount(addr)
+   if account != nil {
+      out.Err = &quot;account does not exist&quot;
+      return
+   }
+
+   out.Balance = account.Balance
+   //out.SKY_balance = account.SKY_balance
+}
+</code></pre>
+
+<pre><code>//withdrawl coin
+
+type PingWithdrawl struct {
+   Auth     MsgAuth //must be included with every message
+   CoinType string  //string for coin type
+   Address  string  //address
+}
+
+type PongWithdrawl struct {
+   Err string //error?
+
+}
+</code></pre>
+
+<p>There will be a couple of functions like this. The exchange is designed for machines, not humans. It is designed to be integrated into the Skycoin wallet.</p>
+
+<p>The libraries can create Bitcoin, Skycoin, Litecoin, Dogecoin addresses and transactions. You can withdrawal coins from the exchange and back to local wallet with one button.</p>
+
+<p>The exchange is not meant to hold persistent balances. It is only for transacting between the coins.</p>
+
+<p>The data feed that comes from the exchange, gets stored locally. Then you generate the exchange front end from your local data store. This means the response time is instant. It is not querying a remote server for data. The user also can choose their frontend and modify the software for the gui or run algos for trading on top of the exchange API.</p>
+
+<p>The exchange is not distributed, but is federated. This means there can be multiple exchange instances, run by different people that can be accessed, with the same standard API.</p>
+
+<h5 id="you-may">You may</h5>
+
+<ul>
+<li>create an account on the exchange</li>
+<li>deposit coins into the account</li>
+<li>then transfer them to another account on the exchange.</li>
+<li>Then the person may withdrawal the coins to their wallet</li>
+</ul>
+
+<p>This enables very fast off blockchain transactions.</p>
+
+<p>Bitcoin may take 10 minutes to move. Skycoin takes 10 seconds to move.
+- if you have Skycoin and need to send someone 1 Bitcoin
+- you send the exchange Skycoin
+- the exchange sells the Skycoin for Bitcoin
+- the exchange sends the Bitcoin to the address</p>
+
+<p>So the exchange never needs to hold coins for more than a few minutes. Its not designed like MtGox, where the exchange is going to hold a million Bitcoin until they get hacked and stolen.</p>
+
+<p>The exchange will have a common API for querying and balances and transactions for multiple coins (Skycoin, Bitcoin, Litecoin, Dogecoin).</p>
+
+<p>There is a Chinese company that will build a mobile wallet on top of our libraries, that can store and send multiple coins in the same wallet.</p>
+
+<h2 id="meshnet">Meshnet:</h2>
+
+<p>Massive progress on the mathematical basis of the meshnet.</p>
+
+<p>I found the perfect mathematical representation and method for the meshnet/darknet. The whole meshnet may only be 4,000 lines of code at most. However, it uses an expensive secp256k1 cryptographic operation that takes 250,000 CPU cycles and adds 1 to 4 ms of latency per packet.</p>
+
+<p>I am using openssl with two layers on encryption on a cell phone and it drains the battery. This approach would absolutely annihilate the battery, on the cell phone, but is so elegant compared to the alternative, it maybe the easiest thing to start with.</p>
+
+<p>Maybe can use 64 bit prime and generate a random curve and base point for each connection instead of using the 256 bit curve. This could be broken in a few minutes on a regular computer, but does not matter because it only allows people to forge packets on a path, but the packets are meaningless and traffic is still protected by the end to end symmetrical encryption. So it still achieves the mathematical elegance of the elegant approach and maintains source independent networking.</p>
+
+<p>Instead of doing exponentiation by 256 multiplications on 256 bit numbers in a 256 bit field, this would do exponentiation in 64 bit field with 64 multiplications. I have to do benchmarks to make sure I can do 10 to 20 datagrams a second, without killing the cell phone battery.</p>
+
+<p>So maybe support for a 64 bit, 128 bit and 256 bit secp256k1 curve.</p>
+
+<h2 id="meshnet-traffic-analysis">Meshnet Traffic Analysis:</h2>
+
+<p>I have also determined that there is no way to stop traffic analysis attacks. If the attacker knows your computer is off or on or has a node on the path you are using, or can listen in on the encrypted traffic they can do traffic analysis and each packet leaks a fractional bit of information. With enough bits of information, they can identify a path, determine whether a specific path transited over a particular link.</p>
+
+<p>If you need anonymous communication, you need to route through a remix network.</p>
+
+<ul>
+<li>You need a set of nodes, that are sending fixed bandwidth of messages between each other (example: 1 Mb/s) that does not depend upon the traffic being send between the nodes</li>
+<li>You need to bounce through multiple nodes onion routing style</li>
+<li>You must transmit data at a constant bit rate and packet size (one packet per second, every second with  1024 bits per packet)</li>
+<li>at least one node in each bounce must be trustworthy or not belong to the NSA. Ideally your organization should be running the remix nodes and from physically secure locations.</li>
+<li>you need to use asynchronous messaging, not real time</li>
+</ul>
+
+<p>That is the only way to get privacy at a mathematical level. Everything else leaks fractional bits of information.</p>
+
+<p>Another approach is Bitmessage type networks, were every message is replicated peer-to-peer to every peer in the network.</p>
+
+<p>Another approach that is more bandwidth efficient, is to use linear homophobic encryption and network coding over a fixed topology of relay/mixer nodes. This is still an open research area, but there will be functioning networks within a decade on this method.</p>
+
+<p>If each node publicly recorded
+- each packet
+- its path identifier
+- the time it was received
+- the time it was sent out and to who</p>
+
+<p>And published this data publicly, then it would not reduce the privacy of the network.</p>
+
+<h2 id="meshnet-darknet-structure">Meshnet/Darknet Structure</h2>
+
+<p>I found a way of doing source independent networking for the network.
+- a node has a public key and hashes public key to an address
+- a route is also identified by a public key
+- a node can push or pull over a path and &ldquo;subscribes&rdquo; to the route
+- each message on the route is signed by the public key for the route</p>
+
+<p>In the graph of nodes, there are transitive closures over a communication path</p>
+
+<p>If node A is connected to B, A-&gt;B and B-&gt;C and A-&gt;C</p>
+
+<p>If path A-&gt;C gets blocked, then A can use the transitive closure and send data A-&gt;B-&gt;C</p>
+
+<p>The way the math works, point-to-point, any-cast and multicast are unified. multi-homing and the default case are unified.</p>
+
+<p>Multi-homing means
+A-&gt;B1-&gt;C
+A-&gt;B2-&gt;C</p>
+
+<p>It means that traffic from A to C can be multiplexed over both routes. Then A exposes this as A-&gt;C</p>
+
+<p>The networking is also, asymmetric. This means that the data-flow can be uni-directional and the control channel can be on a transitive closure to the data source.</p>
+
+<p>I am not doing network coding yet. I have not reduced it to a tractable math problem yet.</p>
+
+<p>There is a very important parameter for the network called the bandwidth latency product. It is the product of the bandwidth per second between two links and time between when a packet is sent and when the confirmation of a packet is received. This defines the size of the window of data in transit between two nodes.</p>
+
+<p>So if you have a connection that is transmitting to Mars at 1 Mb/s and it takes 13 minutes there and back. It will be 13 minutes until packet arrives and 26 minutes until packet confirmation. So if packet drops, then you will not be able to re-transmit for 26 minutes. There is 780 Mbits of data in the transit at a time. Then another 780 Mbits which has been received, but is awaiting confirmation.</p>
+
+<p>The highest throughput path and the lowest latency path are different.
+- latency from sending to receiving
+- latency from sending to confirmation
+- maximum bandwidth along the path
+- available bandwidth along the path</p>
+
+<p>Latency and throughput are difference criteria. There are different paths that minimize these.</p>
+
+<p>The network need to be scale and time invariant. So if you have a truck, with a node with a 1 TB hard disc, that drives between two access points every 8 hours. Then it can ferry 1 TB every 8 hours. It will have a fixed buffer, for each path and will fill up the buffer, then when it has access, will dump the buffer.</p>
+
+<p>This is a multi-agent system. Each node is an agent. It has two levels
+- individual nodes
+- groups of nodes controlled by same person</p>
+
+<p>Each node has inputs/output connections. There are things like peering connections, meaning that your network and another network agree not to charge each other for transit.</p>
+
+<p>You have a mixture of cooperation and competition.
+If there is a path
+A -&gt; B
+B -&gt; C</p>
+
+<p>And A-&gt;B is on one network controlled by person 1 and B-&gt;C is controlled by person 2. Then you may both make more money by creating path A-&gt;B-&gt;C and announcing it as A-&gt;C and then splitting revenue over path.</p>
+
+<p>So this type of network has
+- nodes
+- paths
+- routes</p>
+
+<p>I do not have the optimal algorithm yet or a good rule for aggregation of paths across the network between two pool operators.</p>
+
+<p>You have
+- local metrics (for individual node)
+- metrics over your internal network of nodes
+- global metrics over the whole network of nodes</p>
+
+<p>So a node may use a lot of bandwidth, but if the bandwidth is between nodes within your network, then over the network the cost sums to zero. It balances out. You are charging yourself for bandwidth and crediting yourself for bandwidth.</p>
+
+<p>Maximizing over whole network is another thing.</p>
+
+<p>Then there is congestion control. Which is difficult. In TCP/IP, congestion control occurs by waiting for packets to drop and then halving the connection speed. In Skywire, the bucket fills and latency increases. The connection is not bidirectional, so there is no direct control channel for confirmations. So it is similar to UDP but is only in one direction.</p>
+
+<p>In TOR there is one algorithm for encrypting data going forward and one for data going backwards. Here there is only one algorithm.</p>
+
+<p>Another thing is that the identifier of the node and the location of a node are two separate things now. A location is a position of the node in the network topology and an identifier is a public key. A node knows its connections and maybe the second degree connections. There are location sensitive hashes where two things that are close together will hash to similar values. There is a network topology where each node is a fixed number of hops from any other node, while keeping memory usage constant.</p>
+
+<p>Normally developers throw together whatever they can with the tools they have. The power of the software is at the level of the scaffolding they are building on.  For these types of projects we have had to build two or three levels of scaffolding from scratch, just to make it tractable. To work, it needs to be simple in terms of the number of concepts and components. The concepts need to be simple, but they appear complex because they are new. I do not think a viable network is possible on the same networking concepts as IPv4.</p>
+
+<p>Nothing like this has ever been built before. I am simplifying it as much as possible.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

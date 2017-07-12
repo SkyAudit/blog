@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #11 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #11</span></h1>
+
+<h2 class="date">2014/03/31</h2>
+</div>
+
+<main>
+
+
+<h2 id="summary">Summary:</h2>
+
+<p>Most of the work in last week has been in the new wire protocol repo. Should be on github soon.</p>
+
+<h2 id="skycoin-license">Skycoin License:</h2>
+
+<h6 id="the-license-will-be-a-standard-open-source-license-current-license-is">The license will be a standard open source license. Current license is:</h6>
+
+<ul>
+<li>You can distribute code for non-commercial use</li>
+<li>You can modify code for non-commercial use</li>
+<li>You agree to copyright assignment under the to be determined open source license</li>
+<li>You grant perpetual license to use, distribute and modify any contributed code</li>
+</ul>
+
+<p>We might have terms like <strong>&ldquo;no forking coin without permission for 24 months after date X&rdquo;</strong> and then license is MIT or GNU after that. We have already had to remove build scripts from the repo because someone tried to fork and launch the coin before us.</p>
+
+<h2 id="skywire-skycoin-wire-protocol">Skywire: Skycoin Wire Protocol:</h2>
+
+<p>The wire protocol is almost done.</p>
+
+<p>The new connection pool has &ldquo;channels&rdquo; (uint16). Each channel expose a &ldquo;service&rdquo; (a thing that sends/receives packets within a channel). Each connection between two peers in the connection pool can support multiple services running over the same TCP connection.</p>
+
+<p>This is implemented by a connection pool and length prefixed messages with a &ldquo;dispatcher&rdquo; that handles the messages for each channel. Raw bytes can be read and written from channels, but gnet has a default dispatcher that allows you to register structs as network messages. When a message is received, the .Handle(&hellip;) method of the corresponding struct is called on the receiving end. The struct fields on receiving end are already set to the values that were transmitted. This makes building distributed P2P services very easy (summary: you put data in struct, hit send and on receiving end the .Handle() function is called on the struct).</p>
+
+<h5 id="current-services">Current services:</h5>
+
+<ul>
+<li>Block chain relay server</li>
+<li>Transaction relay server</li>
+<li>Emergency messaging server</li>
+<li>Obelisk node server</li>
+</ul>
+
+<p>There are tools for finding peers running particular servers using DHT (distributed hashtable) and exchanging peer lists between peers (PEX, peer exchange). Example, If you have a blockchain genesis hash, you can use the hash to find peers running a blockchain server for that chain and download the blocks from them.</p>
+
+<p>If a user wants to create a new, more efficient system for blockchain replication, they can create their own service/server and put it on github and other people can use it. Its extremely modular and not monolithic like the Bitcoin wire protocol.</p>
+
+<h2 id="darknet-service-example">Darknet Service Example:</h2>
+
+<p>This service architecture is the starting point for many of the darknet services. I will write a tutorial with code snippets, for creating a new darknet service.</p>
+
+<p>This is a toy example for creating a distributed exchange through the Skycoin wire protocol, in a few hundred lines of code. You define structs for &ldquo;check balance&rdquo; and buy/sell commands and order book listing command. You run the exchange service and it automaticly connects to peers running the exchange service. You say &ldquo;I want to sell 5000 dogecoin for 1 Skycoin&rdquo;, someone takes the order. The service negotiates the receiving address, receives the Skycoin and sends the 5000 Dogecoin.</p>
+
+<p>That is a fully functional distributed exchange, but does not address cheating. What if you send coins, but do not receive coins? You could
+- Use a white list and only send coins to trusted exchange services (simpliest and works right away)
+- Use a more complicated protocol</p>
+
+<p>To prevent cheating you might both agree &ldquo;I will send 5000 dogecoin to address A within one hour. You will send 1 skycoin to address B within one hour&rdquo;. You both sign the hash of the agreement. If the person does not send the coins, you publish the transaction to Bitcoin talks and everyone can verify it and prove he is a scammer.</p>
+
+<p>Or you both have coins in escrow with mutually agreed upon third party C. The signed agreement is given to C. If one side fails to execute the agreement, the amount is taken out of escrow and C executes that person&rsquo;s side of the agreement at current price.</p>
+
+<p>Skycoin has a protocol under development, called the <strong>&ldquo;gateway protocol&rdquo;</strong> that will simplify these types of transactions. This is an outline for doing a simple distributed exchange with a &ldquo;raw&rdquo; service on top of what is implemented right now.</p>
+
+<h2 id="bugs">Bugs:</h2>
+
+<p>One developer merged in the new wallet RPC and the wallet GUI developer has not updated the wallet to use the new RFC yet. There is a &ndash;web command line option for running GUI in browser, for debugging. Its better for development than the QT client. You can inspect the javascript and see the errors.</p>
+
+<p>The new wallet JSON interface allows loading and using multiple wallets in the same client, but broke the wallet GUI.</p>
+
+<p>The wallet developer will fix this tomorrow.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

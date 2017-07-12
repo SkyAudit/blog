@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #102 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #102</span></h1>
+
+<h2 class="date">2016/05/31</h2>
+</div>
+
+<main>
+
+
+<p>The first packet over the VPN, connected through the meshnet worked yesterday.
+- This is a major project milestone.
+- We have a multi-hop VPN client running over the Skycoin meshnet namespace. This is the first multi-hop VPN that I know of.</p>
+
+<p>The port of the wallet from Angular 1.0 to Angular 2.0 is in progress and almost done. This means the design firm can start on the mobile wallet and multi-coin wallet.</p>
+
+<p>Cross compilation is working on all platforms now (except for 32 bit windows, because of compiler bug when compiling the secp256k1 library, which causes an &ldquo;out of registers&rdquo; error). There are still many Windows XP users in China, so we need to replace the crypto library, to get rid of this bug.</p>
+
+<p>We hired the 4th person to attempt to write the library for getting the unspent outputs for a Bitcoin address (using a local node, not blockchain.info) and they failed. This has been a saga. We will have to iterate the blockchain for each coin, block by block, transaction by transaction, creating a database of the unspent output and transaction set apparently. This is milestone for getting multiple coins supported in the Skycoin wallet.</p>
+
+<p>We switched to Electron from Atom text editor for creating taskbar icons and managing the Skycoin application process startup, because of problems packaging on OSX.</p>
+
+<p>The meshnet/vpn still has no GUI, need json configuration file written by hand and does not have a command-line REPL loop.</p>
+
+<p>Skycoin setup instructions do not work in china because gvm pulls the golang repository from a Google server, that is blocked by the firewall. The installation also often fails even when using a VPN client. We are not sure what to do about this.</p>
+
+<p>The CX design specification is done. We will start on this soon and then begin development of more applications inside the Skycoin networking address namespace.</p>
+
+<h2 id="mesh-network">Mesh network</h2>
+
+<p>There is still a lot to do here:
+- encryption
+- pluggable transport
+- asymmetric connection topology support
+- multi-homing
+- GUI / user interface
+- default deployment for wireless setups
+- applications
+- clean, easy to use application API</p>
+
+<p>We have a lot of interest from multi-national corporations, operating across different jurisdictions who want to use this as an easy MPLS setup for machine-to-machine communication between their application servers.</p>
+
+<h2 id="cx">CX</h2>
+
+<p>We are getting this working and doing some pilot applications for large financial services firms.</p>
+
+<p>The core technology, is probably better suited for distributed anti-aircraft defense radar and missile systems.</p>
+
+<p>The financial service firms do not know what they want and most of them, just want to replace their SQL databases with a blockchain, but leave everything else the same. The buzz word &ldquo;blockchain&rdquo; in financial services, just acts as a distributed database that is good for financial transaction ledgers.</p>
+
+<p>The technology is very banal. Blockchains are just a type of decentralized database. It is not any more exciting than an SQL database.</p>
+
+<p>I think many banks are looking at blockchain technology for dual purposes. I think they are looking at it as a means to decentralize their payment and settlement operations and get out from under SWIFT and the Office of Foreign Asset Control as NATO falls apart.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

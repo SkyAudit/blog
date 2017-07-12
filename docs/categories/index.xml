@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/categories/</link>
+    <description>Recent content in Categories on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://blog.skycoin.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Developers AMA</title>
+      <link>http://blog.skycoin.net/categories/developers-ama/</link>
+      <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/categories/developers-ama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development Update</title>
+      <link>http://blog.skycoin.net/categories/development-update/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/categories/development-update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>http://blog.skycoin.net/categories/feedback/</link>
+      <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/categories/feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infographics</title>
+      <link>http://blog.skycoin.net/categories/infographics/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/categories/infographics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progress</title>
+      <link>http://blog.skycoin.net/categories/progress/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/categories/progress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technical</title>
+      <link>http://blog.skycoin.net/categories/technical/</link>
+      <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/categories/technical/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

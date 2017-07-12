@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skycoin Checkpoint System on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/skycoin-checkpoint-system/</link>
+    <description>Recent content in Skycoin Checkpoint System on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/skycoin-checkpoint-system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #9</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-9/</link>
+      <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-9/</guid>
+      <description>Summary  Wire protocol almost done Deterministic wallets RPC almost done (in branch) Fixing wallet GUI to match new RPC Windows, OSX and linux build scripts are done  We are working towards a launch where the coin is trading as soon as possible. After launch, there is still work to do.
+Skycoin Checkpoint System This is overview of the Skycoin checkpoint system. The checkpoint system addresses the exponential growth of the blockchain, by keeping the data required to run a full client to less than one gigabyte.</description>
+    </item>
+    
+  </channel>
+</rss>

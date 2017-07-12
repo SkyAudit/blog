@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Milestones on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/milestones/</link>
+    <description>Recent content in Milestones on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/milestones/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #127</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-127/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-127/</guid>
+      <description>Skycoin is finally getting an order book. This took too long. - next exchange upgrade/rewrite skycoin will float against bitcoin
+The blog is going to be ready tomorrow and we will start migrating content.
+We are going to announce several partnerships with large mainstream institutions, so have to cleanup a bunch of stuff and will migrate anything relevant to blog.
+We will put a lot of content on the blog and things we have not revealed yet.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #78</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-79/</link>
+      <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-79/</guid>
+      <description>I have switched the peer list to json instead of csv and am merging in the blacklist and peer lists.
+The new peer list format looks like.
+This is first step to adding new fields to the peer list state and renabling PEX (peer-exchange). Fake peers were being spammed when we were using DHT for peer-discovery. This meant it could take up to two minutes to find a valid peer and begin downloading the blockchain.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #37</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-37/</link>
+      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-37/</guid>
+      <description>Organizational Update: The original plan was to put it on Aether, however it will be months before that is working. The networking refactor was a major headache, was a massive amount of work and ended up going nowhere, but took four months. The upside is that we have a very clear architecture now.
+The current plan, is that the ICO prospectus is being written. It is about 200 pages. It lays out each component in the Skycoin project, in the details required for implementation.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #2</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-2/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-2/</guid>
+      <description>Summary: We are finishing networking. The test net client will be released at least one week before anything else. We want to make sure the client is working on all operating systems before launch.
+For now, you can run wallet with: &amp;gt;cd skycoin/cmd/wallet/wallet.go &amp;gt;go run ./wallet.go
+There are new tools in skycoin/cmd/ for generating addresses from the command line.
+After launch several applications will be announced which are being built on Skycoin.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #1</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-1/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-1/</guid>
+      <description>Summary:  Rational for eliminating mining from Skycoin was added to initial prospectus Information about Skycoin&amp;rsquo;s TwoStep post-quantum transaction protocol was also added Foundations of the Skycoin protocol were built and many commits were submitted to Github Skycoin peer bootstrap from DHT is now working Webkit embedding for Skycoin Wallet working Wallet GUI first draft pushed to github  Features:  1 millionth of a Skycoin is called a &amp;ldquo;Drop&amp;rdquo; or &amp;ldquo;Droplet&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

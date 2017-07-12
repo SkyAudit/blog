@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #106 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #106</span></h1>
+
+<h2 class="date">2016/10/05</h2>
+</div>
+
+<main>
+
+
+<p>Going through the launch check list</p>
+
+<p>Mostly check commit log:
+- <a href="https://github.com/skycoin/skycoin">https://github.com/skycoin/skycoin</a></p>
+
+<ul>
+<li>block storage is done. Key/value store. boltdb. memory mapped files</li>
+<li>blockchain history API is done. GUI is in progress.</li>
+<li>first version of website is done. Second version in progress, then will be on domain. will post screenshots soon</li>
+<li>some consensus simulations using random mean field sampling are in the repo in the /src/ directory now. We have someone starting on the public broadcast channel implementation and then remaining integration tasks. This should not block exchange listing, but may drag on for a while.</li>
+<li>fifty tickets on UI and GUI bug fixes. Everything critical fixed.</li>
+</ul>
+
+<h5 id="todo">Todo:</h5>
+
+<ul>
+<li>CLI for exchanges</li>
+<li>WebRPC API for exchanges and documentation</li>
+<li>GUI for blockchain history API</li>
+</ul>
+
+<h2 id="wallet">Wallet:</h2>
+
+<p>We have +50 tickets on development tasks for wallet QA, bugs, improvements and user interface behavior.</p>
+
+<p>We are transitioning towards an electrum style wallet.</p>
+
+<p><img src="http://i.imgur.com/bNujGY9.png" alt="" />
+<img src="http://i.imgur.com/YQ98nB1.png" alt="" />
+<img src="http://i.imgur.com/IJKQW4Y.png" alt="" />
+<img src="http://i.imgur.com/XTejwZv.png" alt="" />
+<img src="http://i.imgur.com/iWqazAK.png" alt="" /></p>
+
+<h2 id="exchange-listing-checklist">Exchange Listing Checklist</h2>
+
+<p>Of the five things that were required, three of them are now done.
+- block storage is done
+- blockchain history API is done
+- website is done</p>
+
+<p>The last thing that is required is now
+- CLI + WebRPC client for exchanges + documentation (required for exchange listing)
+- Blockchain explorer front-end (required for exchange list. This was supposed to be done two days ago, but have not checked yet).
+- documentation, info-graphics and technical information on website (this will be iterative over months)
+- consensus integration (this is not blocking anything)</p>
+
+<p>Our first exchange integration for testing and QA will be with a darkpool liquidity provider/market maker who sits on both sides of the order book and arbitrages from the major exchanges across multiple coins. Then will work on the large exchanges.</p>
+
+<p>I think we have the APIs in place for automatic conversion between Bitcoin and Skycoin, in the wallet, so we can do something like Ethereum&rsquo;s &ldquo;ShapeShift&rdquo;.</p>
+
+<p>Then after launch, wallet and future improvements
+- Add Shapeshift
+- Add multicoin support (Skycoin, Bitcoin, Ethereum)
+- Electrum style interface
+- Wallet encryption</p>
+
+<h2 id="misc">Misc</h2>
+
+<p>I want to say more about project management and changes and how we are dealing with this, but would be too long.</p>
+
+<p>We are spawning off different project groups, with a single focus (website, marketing, coin, wallet QA, meshnet, applications, build/DevOps, consensus, exchange integration, mobile wallet team, project manager for customer facing applications for tech that was spun off or licensed to corporate clients, etc&hellip;). For development we are doing one to three developers per area and each developer has single focus or task.</p>
+
+<p>&ldquo;The last 10% is 90% of the work&rdquo;, is especially true for launching. Getting everything that needs to be in place ready, is a time sink. I think its taking six people, two months to get the requirements for listing done after the coin was &ldquo;finished&rdquo; and &ldquo;working&rdquo;.</p>
+
+<p>So now we are focusing on one or two top priorities at a time and then assigning resources to them, to make incremental progress. Instead of doing long term R&amp;D and research of indefinite duration. We are also delegating or spinning off as many project groups we can and getting dedicated project managers to manage particular sub-projects. (wallet QA and wallet improvements has dedicated project manager now).</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

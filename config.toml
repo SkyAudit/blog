@@ -2,6 +2,9 @@ baseURL = "http://blog.skycoin.net/"
 languageCode = "en-us"
 title = "Skycoin Updates"
 
+# config to deploy on github pages
+publishDir = "docs"
+
 #googleAnalytics = ""
 #disqusShortname = ""
 

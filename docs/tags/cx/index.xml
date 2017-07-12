@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CX on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/cx/</link>
+    <description>Recent content in CX on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 May 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/cx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #102</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-102/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-102/</guid>
+      <description>The first packet over the VPN, connected through the meshnet worked yesterday. - This is a major project milestone. - We have a multi-hop VPN client running over the Skycoin meshnet namespace. This is the first multi-hop VPN that I know of.
+The port of the wallet from Angular 1.0 to Angular 2.0 is in progress and almost done. This means the design firm can start on the mobile wallet and multi-coin wallet.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #101</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-101/</link>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-101/</guid>
+      <description>Meshnet: Version one meshnet is almost done
+https://github.com/skycoin/skycoin/commit/f959d0875baf990e43ca3f045a9cba82d4d8f24a
+This is the sixth or eighth design iteration, so it is very clean conceptually. I was simulating the meshnet packet passing algorithms with punch cards and paper and it works well. You could implement it on a punch card sorting machine and telegraph lines if you wanted to.
+Exchange: Exchange is being refactored and fixed. We have a revolutionary exchange design, that simplifies the exchange, improves the security and enables easy support for multiple coins.</description>
+    </item>
+    
+  </channel>
+</rss>

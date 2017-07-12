@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #12 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #12</span></h1>
+
+<h2 class="date">2014/04/04</h2>
+</div>
+
+<main>
+
+
+<h1 id="summary">Summary:</h1>
+
+<h5 id="current-changes-being-worked-on">Current changes being worked on:</h5>
+
+<ul>
+<li>Wallet GUI is being fixed to use new RPC</li>
+<li>New repo for wire protocol: <a href="https://github.com/skycoin/skywire">https://github.com/skycoin/skywire</a></li>
+</ul>
+
+<p><strong>Example of Connection pool:</strong> <a href="https://github.com/skycoin/skywire/blob/master/poolExample0.go">https://github.com/skycoin/skywire/blob/master/poolExample0.go</a>
+<strong>Example of Connection pool with message handler:</strong> <a href="https://github.com/skycoin/skywire/blob/master/poolExample1.go">https://github.com/skycoin/skywire/blob/master/poolExample1.go</a></p>
+
+<p>We are moving towards a <strong>&ldquo;service architecture&rdquo;</strong> for networking. You have a connection pool, which manages connections to multiple peers. Each peer is running multiple &ldquo;services&rdquo; they advertise. Services communicate over &ldquo;channels&rdquo; on a physical connection. Channel 0 is used for QoS, initiation, teardown and service metatadata.  Service peers are found through DHT (distributed hash table) and PEX (peer exchange).</p>
+
+<p>Blockchain downloading/replication is a service, transaction relay is a service. Darknet routing, Darknet relay and off-blockchain transactions are a &ldquo;service&rdquo;. Distributed exchange will be a service. Messaging will be a service.</p>
+
+<p>Node identities will be authenticated later, but system has not been finalized yet. The identity system will make the service architecture IP address independent. You will be able to find, connect to and message peers from the hash of their public key. Messaging service will offer asynchronous communication between peers by pubkey hash (essentially skycoin addresses).</p>
+
+<p>The messaging system will let your wallet contact the merchant, generate new unused addresses for a transaction and give you a signed receipt for the transaction from the merchant. It will also enable invoices for reoccurring payments, such as for VPS services. Merchants will be able to send shipping confirmations and other information over the messaging channel. This will be major improvement for usability.</p>
+
+<p>We will be assigning development bounties for services like <strong>&ldquo;folder syncing&rdquo;</strong> between computers. We want service that allow users to rent out their disc space and bandwidth to third parties for Skycoin. The system has to do something useful, that people will pay coins for and which does not create a botnet.</p>
+
+<h2 id="roadmap">Roadmap:</h2>
+
+<h5 id="coin-launch-requirements">Coin Launch Requirements:</h5>
+
+<ul>
+<li>Blockchain replication ported to Skywire repo using new service architecture</li>
+<li>Transaction relay ported to Skywire repo</li>
+<li>Blockchain database pulled out from skycoin/src/visor and skycoin/src/blockchain</li>
+</ul>
+
+<h5 id="darknet-launch-requirements">Darknet Launch Requirements:</h5>
+
+<ul>
+<li>darknet relay node service</li>
+<li>darknet routing node service</li>
+<li>golang library for controlling USB wifi devices and initiating connections</li>
+</ul>
+
+<p>We are going to get coin done first, launch. Then work on Darknet, then go back and finish Obelisk.</p>
+
+<p>We have some major announcements, but will wait until after launch.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

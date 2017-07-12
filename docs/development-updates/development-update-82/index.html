@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #82 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #82</span></h1>
+
+<h2 class="date">2015/09/11</h2>
+</div>
+
+<main>
+
+
+<p>There is a major and very severe bug. I am upset that no one found this or brought it up earlier.</p>
+
+<p>For some reason, for some clients under some networking conditions the blockchain is not downloading until it reaches the head block. On LAN and running multiple instances on the same machine, the blockchain always synchronizes between all the clients in testing. In the real world, behind VPN, with latency, and servers in multiple countries the blockchain is not always syncing. The client can require multiple restarts to get the head block.</p>
+
+<p>This is a race condition.</p>
+
+<p>However, as soon as there is a new block, then the process of downloading blocks appears to resume. This is why I have not noticed this before.</p>
+
+<p>This means, that if I have sent someone coins, for the distribution. They may not have shown up in their wallet! They have the coins in their address, but their client does not know it because they have not received the block with the transaction, no matter how long the client was run locally. That is why some people were reliant upon the public blockchain server to confirm their balances.</p>
+
+<p>I am very upset that this was not communicated to me as a bug. I am looking at problem now.</p>
+
+<p>The whole skycoin networking right now is this set of messages</p>
+
+<pre><code>// Creates and populates the message configs
+func getMessageConfigs() []MessageConfig {
+   return []MessageConfig{
+      NewMessageConfig(&quot;INTR&quot;, IntroductionMessage{}),
+      NewMessageConfig(&quot;GETP&quot;, GetPeersMessage{}),
+      NewMessageConfig(&quot;GIVP&quot;, GivePeersMessage{}),
+      NewMessageConfig(&quot;PING&quot;, PingMessage{}),
+      NewMessageConfig(&quot;PONG&quot;, PongMessage{}),
+      NewMessageConfig(&quot;GETB&quot;, GetBlocksMessage{}),
+      NewMessageConfig(&quot;GIVB&quot;, GiveBlocksMessage{}),
+      NewMessageConfig(&quot;ANNB&quot;, AnnounceBlocksMessage{}),
+      NewMessageConfig(&quot;GETT&quot;, GetTxnsMessage{}),
+      NewMessageConfig(&quot;GIVT&quot;, GiveTxnsMessage{}),
+      NewMessageConfig(&quot;ANNT&quot;, AnnounceTxnsMessage{}),
+   }
+}
+</code></pre>
+
+<p>The problem will be in</p>
+
+<pre><code>NewMessageConfig(&quot;GETB&quot;, GetBlocksMessage{}),
+NewMessageConfig(&quot;GIVB&quot;, GiveBlocksMessage{}),
+NewMessageConfig(&quot;ANNB&quot;, AnnounceBlocksMessage{}),
+</code></pre>
+
+<p>The network messages are very simple and elegant.
+- get (ask for data)
+- give (send data)
+- announce (announce you have data)</p>
+
+<p>This demonstrates how difficult distributed systems are. Even in this system with three messages, for syncing the blockchain and where I was 100% sure synchronization was mathematically guaranteed. It still does not occur under certain conditions.</p>
+
+<p>This is also why it is important that the protocol is simple and easy to understate, has the fewest lines of code and has the fewest branch conditions possible.</p>
+
+<h2 id="limits-of-testing-for-distributed-systems">Limits of Testing For Distributed Systems:</h2>
+
+<p>This is a condition where something does not occur (synchronization does not occur under certain conditions).
+- It is very easy to detect when something occurs and it is wrong
+- it is impossible to prove or demonstrate in general, that something will not occur</p>
+
+<p>As a property of a distributed system, it is equivalent to proving that god does not exist.
+- proving a condition occurs
+- proving a condition does not occur</p>
+
+<p>In testing, it is easy to verify that the condition occurs and the behavior is correct for the default case or in the test environment.</p>
+
+<p>It is difficult to show that for N nodes, for all possible states of each node and all possible messages that each node emits and in all possible sequences the messages are received, that a particular node eventually reaches a particular state.</p>
+
+<h2 id="implications-of-bug">Implications of bug</h2>
+
+<p>If I said I sent you coins and you cannot see them in wallet. Wait until I fix this bug. The coins are there, but the client sometimes stalls before it reaches the block with the transaction in it. I am fixing this now.</p>
+
+<p>Until then, you can check balances and unspent outputs and transactions for your addresses here</p>
+
+<p><a href="http://skycoin-chompyz.c9.io/outputs">http://skycoin-chompyz.c9.io/outputs</a>
+<a href="http://skycoin-chompyz.c9.io/blockchain/blocks?start=0&amp;end=500">http://skycoin-chompyz.c9.io/blockchain/blocks?start=0&amp;end=500</a></p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

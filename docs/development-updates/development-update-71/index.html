@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #71 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #71</span></h1>
+
+<h2 class="date">2015/04/26</h2>
+</div>
+
+<main>
+
+
+<p>The network has been operating for a few weeks now. It is working pretty well, but there are reliability issues over open internet that did not occur in the VPN testing environment.</p>
+
+<h5 id="the-two-major-improvements-that-are-needed-are">The two major improvements that are needed are:</h5>
+
+<ul>
+<li>Queuing pending transactions, ensuring they are executed, blocking wallet from creating new transactions until existing transactions are executed, putting indicator in GUI to allow diagnosis of transactions that fail to propagate</li>
+<li>Major refactor of PEX (peer-exchange). Peer-to-peer works perfectly when every client is equal, fast, has reliable network connection, allow incoming connections and same version of software. In real world, we have encountered a bunch of edge cases that require a full refactor of PEX. PEX is the library that manages peer-swarms, exchanges peer introduction and is component for maintaining connectivity in peer-swarms. This is only used in Skycoin Daemon right now, but can be used to build other P2P applications in future.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

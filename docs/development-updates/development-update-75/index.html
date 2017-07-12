@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Development Update #75 | Skycoin Updates</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">Posts</a></li>
+      
+      <li><a href="/categories/">Categories</a></li>
+      
+      <li><a href="/tags/">Tags</a></li>
+      
+      <li><a href="/index.xml">Subscribe</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Development Update #75</span></h1>
+
+<h2 class="date">2015/06/13</h2>
+</div>
+
+<main>
+
+
+<p>The coin is done. We are working on networking. There are three different groups working independently on that and its not on github yet.</p>
+
+<h5 id="the-coin-needs">The coin needs:</h5>
+
+<ul>
+<li>Database for storing blocks</li>
+<li>Database for history</li>
+<li>gui improvements</li>
+<li>Misc improvements (the blockchain does not save on windows when closing)</li>
+</ul>
+
+<p>We have to move on to next part to keep schedule. Then new people can work on coin improvements. The improvements are marginal at this stage and could take up almost all the project resources if we only focused on that at this stage.</p>
+
+<h2 id="development-priorities">Development Priorities:</h2>
+
+<h5 id="right-now-skywire-is-blocking-next-stage-of-project">Right now, Skywire is blocking next stage of project.</h5>
+
+<ul>
+<li>Skywire is like Tox, tor, I2P or CJDNS in that a hash of a public key becomes and endpoint for communication.</li>
+<li>Each Skywire server is connected to other servers in a fixed topography</li>
+<li>Data between Skywire servers is encrypted</li>
+<li>Skywire servers can forward traffic along a route</li>
+</ul>
+
+<h5 id="ideally-i-want-to-be-able-to">Ideally, I want to be able to:</h5>
+
+<ul>
+<li>Unzip file with a Raspberry PI distro on it on sd card</li>
+<li>Set a &ldquo;master server&rdquo; public key in a text file in the root</li>
+<li>Plug in and boot pi</li>
+<li>Pi should generate its public key/address on first boot and communicate back to master/control server</li>
+</ul>
+
+<p>If the PI is behind a firewall it will connect to some default public servers, so can connect to it even if incoming connections are impossible. Then it will be accessible to network. Then I can modify the pi or change configuration or see its connection topology through some master interface.</p>
+
+<p>So I should be able to setup and control two or three hundred nodes will this system. I want to be able to SSH or get terminal on the remote nodes. The set of nodes you control is your &ldquo;personal cloud&rdquo;.</p>
+
+<p>We are starting with debian but moving to seL4 once we get team in place to work on this. The seL4 kernel is the fastest and most secure linux kernel and uses about 30 Kb of memory and boot time should be less than a second. The code base is 30,000 lines, very small, very fast, no closed source binary blobs.</p>
+
+<h2 id="applications">Applications:</h2>
+
+<p>There will be &ldquo;applications&rdquo;, which are golang directories of source code, that contain everything (all dependencies). I should be able to compile the application (eventually deterministically) and then deploy it on a remote node.</p>
+
+<p>Applications will get one directory for configuration, one directory for data and one directory source code. They will only have
+- Networking (through Skywire)
+- Storage
+- CPU/computation</p>
+
+<ul>
+<li>Applications will not be allowed to spew data across the hard drive in random directories like linux programs</li>
+<li>Pigeon will not be allowed to put data under .config of .local, .cache or .purple or unrelated directories</li>
+<li>Applications must be portable and capable of being backed up or moved from machine A to machine B.</li>
+<li>Applications should not need to be able to access data in other applications directories by default (a bad app should not be able to steal your bitcoin wallet or scan your drive or overwrite executives in other directories)</li>
+</ul>
+
+<h2 id="wifi">Wifi:</h2>
+
+<p>If a node has a wifi adapter, I should be able to deploy an application to scan for other skywire wifi nodes and auto-connect to them and peer.</p>
+
+<h6 id="long-range-emergency-communications-network">Long Range: Emergency Communications Network</h6>
+
+<p>I want a hardware module for HAM radio. There are modules for this in China. Or may us Baofeng. They are relatively cheap.  136-174 MHZ to 400-520MHz bands.</p>
+
+<p>This is for communication during emergency at low bit rate. Emergency communication (SMS type). This project is ASAP priority.</p>
+
+<p>I do not know if the bandwidth will be 5 bits/second to 300 bits/second. Up to 500 Kb/s</p>
+
+<p><a href="http://hackaday.com/2013/02/28/hacking-a-ham-radio/">http://hackaday.com/2013/02/28/hacking-a-ham-radio/</a>
+<a href="http://sdrformariners.blogspot.hk/p/blog-page_28.html">http://sdrformariners.blogspot.hk/p/blog-page_28.html</a>
+<a href="http://sdrformariners.blogspot.hk/2014/02/shootout-shortwave-for-50-dollars.html">http://sdrformariners.blogspot.hk/2014/02/shootout-shortwave-for-50-dollars.html</a></p>
+
+<p>I need system that is just plug and play and takes less than five seconds to start working. Has to be commercial parts and ready for shipment. Should be able to update the software remotely with the above system. The faster this gets built, the faster the bugs can be worked out and hardware improved.</p>
+
+<h2 id="hardware-wallet">Hardware Wallet:</h2>
+
+<p>I also want a raspberry pi node that has a 3&rdquo; or 4&rdquo; touch screen, that can be used as a hardware wallet</p>
+
+<p><img src="http://i.imgur.com/8bD1k9x.jpg" alt="" /></p>
+
+<p>So you would have computer (possibly insecure), communicate back to this. Then approve transaction on the device.</p>
+
+<p>I want to be able to check Bitcoin balance through lib-bitcoin (get unspent outputs for address and inject transactions). This requires zero-mq to connect to lib-bitcoin server. Also requires extension to skycoin crypto library to allow construction of local bitcoin transactions. This is planned out but needs resources.</p>
+
+<h2 id="file-storage">File Storage:</h2>
+
+<p>I should be able to do &ldquo;OwnCloud&rdquo; type file storage on the nodes. This can be simple golang server with RPC with
+- List files (inode record)
+- Read file
+- Write file</p>
+
+<h2 id="socks5-proxy-vpn">SOCKS5 Proxy / VPN:</h2>
+
+<p>I should be able to deploy an application that lets me connect out of the node to the normal internet. I should be able to tunnel my traffic over Skywire to the exit point. This is a sort of replacement for OpenVPN.</p>
+
+<p>The GUI needs to look like this</p>
+
+<h2 id="consensus-algorithm">Consensus Algorithm:</h2>
+
+<p>The consensus algorithm is done. I can do ghetto version with cryptographically signed CSV files on webservers and just poll servers every second. It is not that exciting.</p>
+
+<p>To do it right, it is bottled necked on Skywire. The network connections right now (TCP) are asymmetric (can connect out of firewall, but people cannot connect in) and still based upon IP addresses instead of pub key hashes. So until Skywire is working/designed at basic level its very difficult to run/test this.</p>
+
+<p>I proved mathematically that as long as the user graph has certain property, that it converges.</p>
+
+</main>
+
+  <footer>
+  
+  
+  <hr/>
+  <a href="https://skycoin.net">skycoin.net</a> | <a href="https://github.com/skycoin">Github</a> | <a href="https://explorer.skycoin.net">Explorer</a> | <a href="https://github.com/yihui/hugo-xmin">Hugo XMin Theme</a>
+  
+  </footer>
+  </body>
+</html>
+

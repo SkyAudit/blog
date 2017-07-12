@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homomorphic Secret Sharing on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/homomorphic-secret-sharing/</link>
+    <description>Recent content in Homomorphic Secret Sharing on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/homomorphic-secret-sharing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #60</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-60/</link>
+      <pubDate>Fri, 27 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-60/</guid>
+      <description>Research Update: Homomorphic Secret Sharing I think we now have homomorphic secret sharing for for secp256k1. This means that Skycoin can do multisig transactions without having an explicit multisig transaction. Multisig transactions happen outside of the blockchain are not a different transaction type than non-multisig transactions. There is no way to tell them apart on the blockchain.
+Background  there is a basepoint b on the curve there is a group operation that takes two points on the curve and generates a new point on the curve you apply the base point to itself N times as the operation (exponention of the base point in the curve) You choose a random 256 bit integer, N.</description>
+    </item>
+    
+  </channel>
+</rss>

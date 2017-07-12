@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Secp25k1 Hash on Skycoin Updates</title>
+    <link>http://blog.skycoin.net/tags/secp25k1-hash/</link>
+    <description>Recent content in Secp25k1 Hash on Skycoin Updates</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/secp25k1-hash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #5</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-5/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-5/</guid>
+      <description>Summary: The hash function for Skycoin deterministic wallet generation is finished. We believe our new deterministic wallet hash function is the most secure hash function against GPU and ASIC brute forcing to date. We are using a new hash called &amp;ldquo;secp256k1 Hash&amp;rdquo; that combines SHA256 with elliptic curve signature operations.
+Secp256k1 Hash Implementation: 1) SHA256 seed value 2) Compute deterministic private key, pubkey pair from seed value 3) Generate deterministic secp256k1 signature from seed and generated private key 3) Append signature to seed and compute its SHA256 hash</description>
+    </item>
+    
+  </channel>
+</rss>
