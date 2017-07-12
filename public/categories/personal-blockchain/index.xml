@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Blockchain on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/categories/personal-blockchain/</link>
+    <description>Recent content in Personal Blockchain on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 May 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/categories/personal-blockchain/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Clarification on the Personal Blockchain</title>
+      <link>http://blog.skycoin.net/blog-posts/clarification-on-the-personal-blockchain/</link>
+      <pubDate>Tue, 06 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/clarification-on-the-personal-blockchain/</guid>
+      <description>Comment: Quote from: FrictionlessCoin on May 06, 2014, 01:08:09 PM &amp;gt;I still however am have trouble understanding how the protocol works and this notion of &amp;lsquo;personal blockchains&amp;rsquo;. Can you point me to the documentation that describes this better?
+For a person blockchain, you generate a public key. To be valid you have to sign each block with your private key.
+The details of the replication protocol are in the first two pages of the Aether whitepaper.</description>
+    </item>
+    
+  </channel>
+</rss>

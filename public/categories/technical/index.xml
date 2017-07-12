@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/categories/technical/</link>
+    <description>Recent content in Technical on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/categories/technical/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ask The Developers Anything - Session #9 </title>
+      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-9-1/</link>
+      <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-9-1/</guid>
+      <description>Comment: Quote from: solix on April 08, 2017, 11:14:49 PM &amp;gt;hang on guys&amp;hellip; so 10% of the coins will be sold in the ICO? 90% held back, where 70% will be used &amp;ldquo;in the future&amp;rdquo;. Can you guys elaborate on that a bit? I&amp;rsquo;m interested in this project, but not while only 10% of the supply is circulating. I also suspect this will prevent quite a few exchanges from getting involved.</description>
+    </item>
+    
+    <item>
+      <title>Ask The Developers Anything - Session #8 </title>
+      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-8/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-8/</guid>
+      <description>Comment: Quote from: WigitGetIt on December 18, 2016, 02:58:55 AM &amp;gt;Lost me Here: Skycoin has no mining
+ Good Luck.
+ Response: Mining is a security flaw. Satoshi&amp;rsquo;s original vision was for a decentralized cryptocurrency. The Bitcoin network is controlled by three mining pools. At one point Gigahash.io controlled over 65% of the network.
+The objective of the Skycoin project from the start was to fix the problems in Bitcoin.</description>
+    </item>
+    
+    <item>
+      <title>Ask The Developers Anything - Session #7 </title>
+      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-7/</link>
+      <pubDate>Wed, 07 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-7/</guid>
+      <description>Comment: Quote from: illodin on May 07, 2015, 12:05:22 AM &amp;gt; Is there any use of running &amp;ldquo;full nodes&amp;rdquo; or w/e they are called in Skycoin, i.e. running the client with port 6000 open?
+Response: Yes. PM me your node IP address and I will add it to the default list.
+Skycoin has two modes of peer-to-peer connections - DHT lookup - PEX
+DHT is disabled by default now and pex is disabled until there is time to fix issue.</description>
+    </item>
+    
+  </channel>
+</rss>

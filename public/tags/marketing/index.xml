@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marketing on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/marketing/</link>
+    <description>Recent content in Marketing on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/marketing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #126 - March 09, 2017 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-126/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-126/</guid>
+      <description>The blockchain explorer is up The next generation of the skycoin website is online Several bug fixes: We are : We also made a significant mathematical breakthrough on the skycoin economy:     Marketing        We are: Right now we want to package:     Coin Supply Update:    The blockchain explorer is up  http://explorer.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #121 - January 08, 2017 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-121/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-121/</guid>
+      <description>We need to start on marketing, applications, user community:        Our technicals are done. I think we have fixed the last bugs. The wallet is getting polished up very nicely.
+We need to start on marketing, applications, user community:  We need to get blog and need to start getting content We need to start doing weekly content pushes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #120 - December 25, 2016 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-120/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-120/</guid>
+      <description>We are at 90% launch readiness:     Infographics CXO Marketing    We are at 90% launch readiness:  Network is operating 3 of the 7 white papers are on the websites Deposits, withdrawals and done Skycoin order book is done CLI and WebRPC are done Skycoin.net website is 70% done (backlog of tickets) Over half the wallet builds are on website (but have backlog of UI bugs) Wallet explorer API is done.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #116 - November 11, 2016 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-116/</link>
+      <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-116/</guid>
+      <description>Coin Status: Dozens of bug fixes on the CLI and WebRPC interface. The OSX wallet directory bug is fixed now.
+I have been using CLI interface a lot.
+Meshnet: Three tasks left then we are onto info graphics and marketing. We do not have a user interface yet but back end will be working.
+Marketing: We are trying to get full time person to manage the social media accounts, marketing and user community.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #112 - November 01, 2016 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-112/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-112/</guid>
+      <description>Someone try  run a skycoin node with go run ./cmd/skycoin/skycoin.go go run ./cmd/cli/skycoin.go  This is the command line interface.  do go run ./cmd/cli/skycoin.go help GenerateWallet etc  You should be able to  generate wallets generate addresses check balances create transactions inject transactions into the network track transaction status  This is new code and still being heavily tested/modified. I would not use the 12 word wallet phrase feature yet.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #86 - September 26, 2015 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-86/</link>
+      <pubDate>Sat, 26 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-86/</guid>
+      <description>There are some improvements coming up - Deprecation of the C secp256k1 library for golang version - Dependency vendoring. Means all dependencies of skycoin will be inside of the skycoin repo, for version 1.5. Improves security, makes it so that no one can insert a back door in an upstream library - golang almost has deterministic builds working. This will be exciting. If two people build the binary from source on different machines, they get SHA256 identical binaries.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #15 - April 14, 2014 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-15/</link>
+      <pubDate>Mon, 14 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-15/</guid>
+      <description>Summary: Development is exhausting. We pushed too hard to get to launch and underestimated the time and effort required. Getting things working has been easy, but 90% of the effort is in achieving quality and has been impossible to budget for.
+We are distributing development further. The project is being split into bite sized pieces, documented with specifications and additional developers are being hired to work on the individual components.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts on Marketing and Speculation</title>
+      <link>http://blog.skycoin.net/blog-posts/thoughts-on-marketing-and-speculation/</link>
+      <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/thoughts-on-marketing-and-speculation/</guid>
+      <description>Thoughts on Marketing and Speculation: Skycoin marketing is highly targeted at influence groups and communities who need to know about Skycoin. The objective of Skycoin marketing is to build out the community and build awareness. Skycoin is not doing broad marketing aimed at public to &amp;ldquo;pump&amp;rdquo; prices to unsustainable levels. Skycoin will not be paying Lady Gaga to make a Skycoin music video.
+Marketing tactics designed to cause bubbles and bursts are great for speculators, day trading and people organizing the pumps, but conflict with Skycoin&amp;rsquo;s objective of low volatility and stable price levels.</description>
+    </item>
+    
+  </channel>
+</rss>

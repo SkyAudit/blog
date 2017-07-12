@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roadmap on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/roadmap/</link>
+    <description>Recent content in Roadmap on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jan 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #49 - January 03, 2015 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-49/</link>
+      <pubDate>Sat, 03 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-49/</guid>
+      <description>The tutorial on Cipher is done.
+https://github.com/skycoin/skycoin/wiki/cipher
+This library handles address generation, deterministic wallets, signing transactions with private keys and encrypting data to a public key. It is the core of the Skycoin Project. The coin and everything else is built on top of this.
+Roadmap In Bitcoin a public key has an address that you can send coins to. In Skycoin at the coin level it is exactly the same.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #46 - December 19, 2014 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-46/</link>
+      <pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-46/</guid>
+      <description>The coin was done in January. The only difference if we launched today would be the coin would be trading. There are a few things missing on github, so no one can compile it and launch it before us, without knowing how to program.
+Roadmap For 2015  We would like to have networking working for the darknet/meshnet. The new consensus algorithm will be implemented We would like to have some written standards for what is done and tutorials for developers Then we have to do hardware We are deciding the roadmap for the next phase of the project.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #12 - April 06, 2014 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-12/</link>
+      <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-12/</guid>
+      <description>Summary: Current changes being worked on:  Wallet GUI is being fixed to use new RPC New repo for wire protocol: https://github.com/skycoin/skywire  Example of Connection pool: https://github.com/skycoin/skywire/blob/master/poolExample0.go Example of Connection pool with message handler: https://github.com/skycoin/skywire/blob/master/poolExample1.go
+We are moving towards a &amp;ldquo;service architecture&amp;rdquo; for networking. You have a connection pool, which manages connections to multiple peers. Each peer is running multiple &amp;ldquo;services&amp;rdquo; they advertise. Services communicate over &amp;ldquo;channels&amp;rdquo; on a physical connection.</description>
+    </item>
+    
+  </channel>
+</rss>

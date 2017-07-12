@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skycoin Survivability on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/skycoin-survivability/</link>
+    <description>Recent content in Skycoin Survivability on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/skycoin-survivability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #66 - April 13, 2015 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-66/</link>
+      <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-66/</guid>
+      <description>The network is running. Fixed a bunch of bugs.
+Structure of Skycoin Networking: This is overview of wire protocol. https://github.com/skycoin/skycoin/blob/master/src/daemon/messages.go#L40
+NewMessageConfig(&amp;ldquo;INTR&amp;rdquo;, IntroductionMessage{}), NewMessageConfig(&amp;ldquo;GETP&amp;rdquo;, GetPeersMessage{}), NewMessageConfig(&amp;ldquo;GIVP&amp;rdquo;, GivePeersMessage{}), NewMessageConfig(&amp;ldquo;PING&amp;rdquo;, PingMessage{}), NewMessageConfig(&amp;ldquo;PONG&amp;rdquo;, PongMessage{}), NewMessageConfig(&amp;ldquo;GETB&amp;rdquo;, GetBlocksMessage{}), NewMessageConfig(&amp;ldquo;GIVB&amp;rdquo;, GiveBlocksMessage{}), NewMessageConfig(&amp;ldquo;ANNB&amp;rdquo;, AnnounceBlocksMessage{}), NewMessageConfig(&amp;ldquo;GETT&amp;rdquo;, GetTxnsMessage{}), NewMessageConfig(&amp;ldquo;GIVT&amp;rdquo;, GiveTxnsMessage{}), NewMessageConfig(&amp;ldquo;ANNT&amp;rdquo;, AnnounceTxnsMessage{}),
+ Each message is a struct. You put values in struct, then do a &amp;ldquo;Send&amp;rdquo; and say who you want to send it to It packs up the struct in canonical binary format the struct has a .</description>
+    </item>
+    
+  </channel>
+</rss>

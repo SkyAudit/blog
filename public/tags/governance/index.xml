@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Governance on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/governance/</link>
+    <description>Recent content in Governance on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jul 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/governance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #32 - July 14, 2014 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-32/</link>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-32/</guid>
+      <description>Summary: For routing, we will have each node report traffic statistics to central server. Then we will aggregate the statistics and publish them. Then &amp;ldquo;Route Discovery Servers&amp;rdquo; will download copies of the data, compute optimal routes. When a client wants a route, it will ask a route server and get a route. So the route discovery service is like a DNS type service.
+The route discovery servers can use machine learning, big data, linear algebra, ant colony optimization, electron flow routing, whatever it needs to compute the routes.</description>
+    </item>
+    
+  </channel>
+</rss>

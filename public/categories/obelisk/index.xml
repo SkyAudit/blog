@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Obelisk on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/categories/obelisk/</link>
+    <description>Recent content in Obelisk on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jun 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/categories/obelisk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Further Clarification of Obelisk</title>
+      <link>http://blog.skycoin.net/blog-posts/further-clarification-of-obelisk/</link>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/further-clarification-of-obelisk/</guid>
+      <description>Skycoin has a blockchain. The blockchain is in skycoin/src/coin. That parses the blocks and deals with unspent outputs and transactions.
+Skywire is the daemon and has a &amp;ldquo;service architecture&amp;rdquo;. It can run services, such as blockchain syncing service and other things. The meshnet is currently being implemented as a service on top of Skywire (although this may need to change).
+The consensus mechanism is outside of the blockchain. Obelisk nodes (probably will be implemented as a Skywire service) have a blockchain.</description>
+    </item>
+    
+    <item>
+      <title>Oblelisk Explained</title>
+      <link>http://blog.skycoin.net/blog-posts/oblelisk-explained/</link>
+      <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/oblelisk-explained/</guid>
+      <description>What is Obelisk? Obelisk is what makes Skycoin, Bitcoin 2.0. Obelisk is a sustainable alternative to proof-of-work. Obelisk is a system that replaces proof of work for blockchain consensus and eliminates the possibility of a 51% attack.
+Obelisk was inspired by academic research into adversarial distributed time-stamping and algorithms such as Ben-Or&amp;rsquo;s, Paxos, and the Castro-Liskov PBFT algorithm. Obelisk is a new solution to the Byzantine Generals problem which offers strong mathematical security guarantees, even when the majority of nodes are hostile.</description>
+    </item>
+    
+  </channel>
+</rss>

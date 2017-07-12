@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Consensus on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/consensus/</link>
+    <description>Recent content in Consensus on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/consensus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #97 - January 30, 2016 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-97/</link>
+      <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-97/</guid>
+      <description>The interface is just being done in angular for now. The new angular is much cleaner.
+However, npm is dumping the compiled javascript files in the same directory as the type script files, which is ugly and frustrating. I have not found the setting for setting the output directory yet.
+Math Update: I found a simple message passing algorithm that finds all nodes in the network that are not in consensus with the current node, with ~log N messages in the size of the network).</description>
+    </item>
+    
+    <item>
+      <title>Development Update #75 - June 13, 2015 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-75/</link>
+      <pubDate>Sat, 13 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-75/</guid>
+      <description>The coin is done. We are working on networking. There are three different groups working independently on that and its not on github yet.
+The coin needs:  Database for storing blocks Database for history gui improvements Misc improvements (the blockchain does not save on windows when closing)  We have to move on to next part to keep schedule. Then new people can work on coin improvements. The improvements are marginal at this stage and could take up almost all the project resources if we only focused on that at this stage.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #74 - June 07, 2015 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-74/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-74/</guid>
+      <description>Here is benchmark of the Skycoin consensus algorithm and rounds to convergence vs other voter based algorithms.
+I think there is an improvement, but current method out performs all methods in literature that we have found so far. The important part is that it converges rapidly in a small number of rounds (less than 10 or 20) and that it does not get stuck in a non-convergent state.
+Sznadjd and naive voting sometimes do not converge in 40 rounds.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #54 - January 25, 2015 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-54/</link>
+      <pubDate>Sun, 25 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-54/</guid>
+      <description>Consensus Algorithm Update: White paper Draft: http://128.199.188.22:1337/consensus.pdf Graphs: http://128.199.188.22:1337/
+This is a histogram of convergence times. The x-axis is &amp;ldquo;rounds&amp;rdquo; the network takes to reach consensus (all nodes in the same state) for a single round consensus process. The top algorithm is hill climbing, the middle algorithm is simulated annealing and the bottom algorithm is changing randomly between hill climbing and simulated annealing.
+There is a network of nodes. Each node follows a number of other nodes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #44 - December 11, 2014 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-44/</link>
+      <pubDate>Thu, 11 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-44/</guid>
+      <description>This is over view of current development status and priorities
+Consensus Consensus is being worked on. The earlier algorithms are being implemented, bench-marked. Then testing them against the newer algorithms, so we have comparison. This is currently in python. Will be moved to golang and integrated as soon as its ready.
+This is not required for the distribution , because we can use central signing key until decentralized consensus is implemented.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #43 - December 09, 2014 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-43/</link>
+      <pubDate>Tue, 09 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-43/</guid>
+      <description>Consensus Algorithm We have a new member on team focused on the consensus algorithm. His work has been great and we are making a lot of progress. We now have a discrete event simulator in Python and have tested several candidate consensus algorithms on real world social graphs from the wikimedia admin dataset. Failure modes such as collusion, or nodes timing out have been implemented and tested.
+The naive consensus algorithm, converged quickly enough for 15 second blocks.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #41 - October 31, 2014</title>
+      <link>http://blog.skycoin.net/development-updates/development-update-41/</link>
+      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-41/</guid>
+      <description>Summary: Everything is going very rapidly. We will be out of new things to code within a finite amount of time on the current trajectory. All the project goals will have been achieved and then we need to figure out what happens next.
+1) We must finish the developer documentation and tutorials. 2) We must do the distribution.
+When we started development, Golang was experimental and frustrating. Build reproducability was difficult, developers were stepping on each others toes and debugging goroutines was impossible.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #40 - October 17, 2014 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-40/</link>
+      <pubDate>Fri, 17 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-40/</guid>
+      <description>Consensus Simulation: Here is basic python simulation of the Skycoin consensus process http://pastebin.com/5DJ9d29D
+We dont have much time for academic details until its done, but found that Ben-Or&amp;rsquo;s consensus process could be modeled used a mathematical model called a &amp;ldquo;spin glass&amp;rdquo;. https://en.wikipedia.org/wiki/Spin_glass
+Each node has a state. Each node is subscribed to a subset of nodes in the network. There is a local function (a function of the node&amp;rsquo;s state and the state of the nodes it is subscribed to) that can be called &amp;ldquo;energy&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #35 - July 23, 2014 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-35/</link>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-35/</guid>
+      <description>Research Update Incredible breakthrough on consensus. We have been discussing methods for distributed consensus, creating terminology for understanding the consensus process. We think we have a good formal mathematical model now.
+We drew out a finite state machine diagram for client transition states and found a new way of reasoning about state. We discovered that there are security measures that can be layered on to coins, which provably only improve the security of the coin without possibility of introducing a new attack.</description>
+    </item>
+    
+    <item>
+      <title>Oblelisk Explained</title>
+      <link>http://blog.skycoin.net/blog-posts/oblelisk-explained/</link>
+      <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/oblelisk-explained/</guid>
+      <description>What is Obelisk? Obelisk is what makes Skycoin, Bitcoin 2.0. Obelisk is a sustainable alternative to proof-of-work. Obelisk is a system that replaces proof of work for blockchain consensus and eliminates the possibility of a 51% attack.
+Obelisk was inspired by academic research into adversarial distributed time-stamping and algorithms such as Ben-Or&amp;rsquo;s, Paxos, and the Castro-Liskov PBFT algorithm. Obelisk is a new solution to the Byzantine Generals problem which offers strong mathematical security guarantees, even when the majority of nodes are hostile.</description>
+    </item>
+    
+    <item>
+      <title>Overview of Obelisk: Distributed Consensus </title>
+      <link>http://blog.skycoin.net/blog-posts/overview-of-obelisk/</link>
+      <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/overview-of-obelisk/</guid>
+      <description>Overview of Obelisk: Distributed Consensus In Obelisk, each person runs their own Obelisk nodes. Each node has a set of trust relationships with other nodes. Each node has a list of servers it &amp;ldquo;trusts&amp;rdquo;. A new node can be initialized by randomly choosing a few dozen existing nodes to trust, with only two or three of the nodes being nodes run by trusted institutions or persons.
+Servers publish &amp;ldquo;blocks&amp;rdquo; every 5 seconds.</description>
+    </item>
+    
+  </channel>
+</rss>

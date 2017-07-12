@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wallet Security on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/wallet-security/</link>
+    <description>Recent content in Wallet Security on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/wallet-security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Concerns about Default Wallet Security</title>
+      <link>http://blog.skycoin.net/blog-posts/concerns-about-default-wallet-security/</link>
+      <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/concerns-about-default-wallet-security/</guid>
+      <description>We are also concerned about &amp;ldquo;Default Security&amp;rdquo; for average user.
+Here is an example. Many people want &amp;ldquo;vanity addresses&amp;rdquo;. Third party services generate the addresses, then you import the private key. They store the private key, wait until you have a bunch of coins and then steal some of them! Users think it was trojan or they dont even know how the coins were stolen. To protect against that, we have to make sure vanity address gen is client side and integrated into the skycoin wallet.</description>
+    </item>
+    
+  </channel>
+</rss>

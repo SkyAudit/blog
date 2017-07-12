@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meshnet on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/categories/meshnet/</link>
+    <description>Recent content in Meshnet on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Aug 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/categories/meshnet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Question Regarding Latency and Privacy of the Meshnet</title>
+      <link>http://blog.skycoin.net/blog-posts/question-regarding-latency-and-privacy-of-the-meshnet/</link>
+      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/question-regarding-latency-and-privacy-of-the-meshnet/</guid>
+      <description>Quote from: CraigM on August 09, 2014, 07:20:24 AM
+ The meshnet is intended to be a nice privacy tool with benefits comparable to tor, but lower latency correct?
+The meshnet is intended to allow funding nodes via micropayments in skycoin to cover bandwidth costs correct? Doesn&amp;rsquo;t this leave force all node operators to record detailed and published logs (on their personal block chains) describing all the transactions which inherently correspond to everyone who send data through their node?</description>
+    </item>
+    
+    <item>
+      <title>How Well Does the Meshnet Work?</title>
+      <link>http://blog.skycoin.net/blog-posts/how-well-does-the-meshnet-work/</link>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/how-well-does-the-meshnet-work/</guid>
+      <description>Quote from: Korean on September 26, 2014, 05:45:00 AM &amp;gt;How well does the Meshnet work right now? &amp;gt;Can it get pass the great firewall of China? &amp;gt;Is there a standard hardware that you recommend?
+Yes. It was designed explicitly to defeat existing state-full packet inspection hardware. This includes the great firewall.
+There is no fixed port, no protocol headers. There is not a single byte of plain text traffic in wire protocol, which can be used for identification of the protocol type.</description>
+    </item>
+    
+  </channel>
+</rss>

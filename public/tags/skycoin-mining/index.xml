@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skycoin Mining on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/skycoin-mining/</link>
+    <description>Recent content in Skycoin Mining on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/skycoin-mining/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #133 - June 12, 2017 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-133/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-133/</guid>
+      <description>Update:
+Comment: Quote from: hannusolo on June 12, 2017, 07:55:31 PM
+ Regarding tha subject, how much compute power and memory would these nodes require? I saw the renders on telegram about the proposed hardware node, but I have a mining pc that has a mostly unused cpu and memory, thinking about a little upgrade on this side in the future.
+ Response: Many hacking firms, used to take over peoples computers so they could put adware on them or build up a botnet, or do clickfraud to make websites look like they were getting more views than they actually are.</description>
+    </item>
+    
+  </channel>
+</rss>

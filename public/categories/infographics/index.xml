@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infographics on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/categories/infographics/</link>
+    <description>Recent content in Infographics on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/categories/infographics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #122 - January 08, 2017 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-122/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-122/</guid>
+      <description> Infographics </description>
+    </item>
+    
+  </channel>
+</rss>

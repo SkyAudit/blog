@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Economic Policy on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/categories/economic-policy/</link>
+    <description>Recent content in Economic Policy on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 May 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/categories/economic-policy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Skycoin Economic Policy</title>
+      <link>http://blog.skycoin.net/blog-posts/skycoin-economic-policy/</link>
+      <pubDate>Thu, 15 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog-posts/skycoin-economic-policy/</guid>
+      <description>We have been talking to a large Bitcoin market marker about how we can prevent a repeat of the Auroacoin crash and deter speculators.
+We have a data guy doing models.
+This is the linear scale Bitcoin price over time
+This is log scale Bitcoin price, with regression line. When Bitcoin is over the line its over priced, when its below the line its underpriced.
+This is the total number of subscribers in /r/bitcoin This is the daily growth rate of subscribers in /r/bitcoin .</description>
+    </item>
+    
+  </channel>
+</rss>

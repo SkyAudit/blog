@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deterministic Builds on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/deterministic-builds/</link>
+    <description>Recent content in Deterministic Builds on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/deterministic-builds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #94 - January 04, 2016 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-94/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-94/</guid>
+      <description>Cross Compilation: Cross compilation is now working flawlessly! We have builds for Windows, OSX, Linux, BSD, Plan9, Arm, NaCL. It is completely automated.
+Deterministic Builds: Deterministic builds and pulling all the dependencies inside of the library will be done by about Go 1.6!
+Deterministic builds, means that if two people compile the source, they will receive binary identical outputs. This means that the binaries cannot be back doored and can be verified.</description>
+    </item>
+    
+  </channel>
+</rss>

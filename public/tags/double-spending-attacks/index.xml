@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Double Spending Attacks on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/double-spending-attacks/</link>
+    <description>Recent content in Double Spending Attacks on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Jul 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/double-spending-attacks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #35 - July 23, 2014 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-35/</link>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-35/</guid>
+      <description>Research Update Incredible breakthrough on consensus. We have been discussing methods for distributed consensus, creating terminology for understanding the consensus process. We think we have a good formal mathematical model now.
+We drew out a finite state machine diagram for client transition states and found a new way of reasoning about state. We discovered that there are security measures that can be layered on to coins, which provably only improve the security of the coin without possibility of introducing a new attack.</description>
+    </item>
+    
+  </channel>
+</rss>

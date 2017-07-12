@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cli on Skycoin Project Material</title>
+    <link>http://blog.skycoin.net/tags/cli/</link>
+    <description>Recent content in Cli on Skycoin Project Material</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #123 - January 27, 2017 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-123/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-123/</guid>
+      <description>We fixed eighty wallet bugs. Look at commits on github.
+The CLI is substantially upgraded and automated deposits and withdrawals are working now. Hundreds of changes and improves to the Skycoin CLI interface.
+We upgraded to latest version of electron and the copy/paste issues are fixed.
+32 bit windows builds should be ready in next release.
+We are creating installers for windows and OSX, so that you can install skycoin like a native application.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #117 - November 23, 2016 </title>
+      <link>http://blog.skycoin.net/development-updates/development-update-117/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/development-updates/development-update-117/</guid>
+      <description>Summary: We are launching our own post blockchain social platform. Starting with an immutable object replication system, inspired by Urbit and IPFS. Which is designed for decentralized social networking and source independent networking.
+We started this on friday and we almost have a decentralized text only version of 4chan working, five days later.
+ https://godoc.org/github.com/skycoin/cxo/schema https://godoc.org/github.com/skycoin/cxo/bbs
+ Each object has a schema and is a struct (with basic set of atomic types)</description>
+    </item>
+    
+  </channel>
+</rss>
