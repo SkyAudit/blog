@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>White Paper on Skycoin Updates</title>
-    <link>http://blog.skycoin.net/tags/white-paper/</link>
+    <link>http://blog.skycoin.net/blog/tags/white-paper/</link>
     <description>Recent content in White Paper on Skycoin Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 25 Jan 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.skycoin.net/tags/white-paper/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.skycoin.net/blog/tags/white-paper/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development Update #54</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-54/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-54/</link>
       <pubDate>Sun, 25 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-54/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-54/</guid>
       <description>Consensus Algorithm Update: White paper Draft: http://128.199.188.22:1337/consensus.pdf Graphs: http://128.199.188.22:1337/
 This is a histogram of convergence times. The x-axis is &amp;ldquo;rounds&amp;rdquo; the network takes to reach consensus (all nodes in the same state) for a single round consensus process. The top algorithm is hill climbing, the middle algorithm is simulated annealing and the bottom algorithm is changing randomly between hill climbing and simulated annealing.
 There is a network of nodes. Each node follows a number of other nodes.</description>
@@ -24,10 +24,10 @@ There is a network of nodes. Each node follows a number of other nodes.</descrip
     
     <item>
       <title>Development Update #23</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-23/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-23/</link>
       <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-23/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-23/</guid>
       <description>White paper The Skycoin meshnet white paper is done: Skywire*
 https://docs.google.com/document/d/1_rPNMTokwmBPFel1pZfLbTtTkooSWtGKrTLB3RbXIrI
 We thought the new developers could learn golang in two days and its taking a bit longer, especially with getting up to date on the code base and what needs to be done and why its structured the way it is. Working on better system for coordinating the work.</description>
@@ -35,20 +35,20 @@ We thought the new developers could learn golang in two days and its taking a bi
     
     <item>
       <title>Development Update #20</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-20/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-20/</link>
       <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-20/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-20/</guid>
       <description>Summary: We are doing a lot of writing and documentation right now. The white paper is being split up into three white papers. We are going to have a more general document on problems with Bitcoin and Skycoin&amp;rsquo;s long term approach to each problem. We want to emphasize the design differences and choices Skycoin makes.
 Documentation is becoming more important. New users cannot read the whole thread and need a compressed and organized overview of the project.</description>
     </item>
     
     <item>
       <title>Development Update #19</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-19/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-19/</link>
       <pubDate>Mon, 28 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-19/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-19/</guid>
       <description>White Paper is Out First Draft of Skycoin Distributed Consensus White paper is on Github
 https://github.com/skycoin/whitepapers
 We need feedback. I feel like it should be trimmed down a bit.</description>
@@ -56,10 +56,10 @@ We need feedback. I feel like it should be trimmed down a bit.</description>
     
     <item>
       <title>Development Update #15</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-15/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-15/</link>
       <pubDate>Mon, 14 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-15/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-15/</guid>
       <description>Summary: Development is exhausting. We pushed too hard to get to launch and underestimated the time and effort required. Getting things working has been easy, but 90% of the effort is in achieving quality and has been impossible to budget for.
 We are distributing development further. The project is being split into bite sized pieces, documented with specifications and additional developers are being hired to work on the individual components.</description>
     </item>

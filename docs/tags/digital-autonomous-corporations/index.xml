@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital Autonomous Corporations on Skycoin Updates</title>
-    <link>http://blog.skycoin.net/tags/digital-autonomous-corporations/</link>
+    <link>http://blog.skycoin.net/blog/tags/digital-autonomous-corporations/</link>
     <description>Recent content in Digital Autonomous Corporations on Skycoin Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Jul 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.skycoin.net/tags/digital-autonomous-corporations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.skycoin.net/blog/tags/digital-autonomous-corporations/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development Update #33</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-33/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-33/</link>
       <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-33/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-33/</guid>
       <description>Skywire Repo Moved: The Skywire repository has been merged into the main Skycoin repository. Still being integrated to replace visor and daemon.
 Skycoin Cryptography Standard Library All the cryptography, hashing and address operations have been moved into github.com/skycoin/skycoin/src/cipher
 https://github.com/skycoin/skycoin/tree/master/src/cipher

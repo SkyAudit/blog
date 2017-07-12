@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on Skycoin Updates</title>
-    <link>http://blog.skycoin.net/tags/open-source/</link>
+    <link>http://blog.skycoin.net/blog/tags/open-source/</link>
     <description>Recent content in Open Source on Skycoin Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 31 Mar 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.skycoin.net/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.skycoin.net/blog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development Update #11</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-11/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-11/</link>
       <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-11/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-11/</guid>
       <description>Summary: Most of the work in last week has been in the new wire protocol repo. Should be on github soon.
 Skycoin License: The license will be a standard open source license. Current license is:  You can distribute code for non-commercial use You can modify code for non-commercial use You agree to copyright assignment under the to be determined open source license You grant perpetual license to use, distribute and modify any contributed code  We might have terms like &amp;ldquo;no forking coin without permission for 24 months after date X&amp;rdquo; and then license is MIT or GNU after that.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Applications on Skycoin Updates</title>
-    <link>http://blog.skycoin.net/tags/applications/</link>
+    <link>http://blog.skycoin.net/blog/tags/applications/</link>
     <description>Recent content in Applications on Skycoin Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Aug 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.skycoin.net/tags/applications/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.skycoin.net/blog/tags/applications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development Update #103</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-103/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-103/</link>
       <pubDate>Wed, 17 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-103/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-103/</guid>
       <description>Exchange: Exchange is done - https://github.com/skycoin/skycoin-exchange - bitcoin deposits - bitcoin withdrawls - skycoin deposits - skycoin withdrawls - order book
 The Angular 2.0 gui for the client JSON API is being integrated right now.
 This is not just an &amp;ldquo;exchange&amp;rdquo;, but - has &amp;ldquo;local&amp;rdquo; wallet (private keys and local wallets) and remote wallet (coins deposited in the exchange) - has a thin client, API, so that you can get unspent outputs and inject transactions - is multi-coin (the coin handling is pluggable, so that we can add new coins over time) - does not use HTTPS or even IP addresses.</description>
@@ -24,30 +24,30 @@ This is not just an &amp;ldquo;exchange&amp;rdquo;, but - has &amp;ldquo;local&a
     
     <item>
       <title>Development Update #75</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-75/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-75/</link>
       <pubDate>Sat, 13 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-75/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-75/</guid>
       <description>The coin is done. We are working on networking. There are three different groups working independently on that and its not on github yet.
 The coin needs:  Database for storing blocks Database for history gui improvements Misc improvements (the blockchain does not save on windows when closing)  We have to move on to next part to keep schedule. Then new people can work on coin improvements. The improvements are marginal at this stage and could take up almost all the project resources if we only focused on that at this stage.</description>
     </item>
     
     <item>
       <title>Development Update #27</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-27/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-27/</link>
       <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-27/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-27/</guid>
       <description>Summary: Aether is coming along well. Soon development discussion will be moved into Aether. Coin bounties will be assigned for developing communication tools on Aether.
 For instance:  user creates private/public key pair user publishes stream of tweets (as JSON) into blockchain and signs each block with their private key user subscribes to another person&amp;rsquo;s feed &amp;ndash; user takes hash (address) of person they want to subscribe to &amp;ndash; user looks up peers replicating the chain via DHT &amp;ndash; user connects to the peers and downloads the chain (which is replicated P2P) web server on local hosts, allows person to see feeds of people they are pulling in  Most of this is two lines of code in Skywire, so the work is creating a service in Golang and then taking the JSON and creating an HTML interface from it.</description>
     </item>
     
     <item>
       <title>Development Update #24</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-24/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-24/</link>
       <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-24/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-24/</guid>
       <description>Summary: Its launching now. Cannot wait a year.
 A full time engineering manager is being hired and full time VP of engineering is being hired. The VP of engineering will be responsible for producing reports on project implementation, setting and tracking project implementation milestones. The engineering manager will be responsible for managing contractors, developers, coordinating project implementation schedules and release schedules.
 A Google docs spreadsheet will be created, with things that need to be coded and coin bounties.</description>

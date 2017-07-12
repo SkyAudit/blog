@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Onion Structure on Skycoin Updates</title>
-    <link>http://blog.skycoin.net/tags/onion-structure/</link>
+    <link>http://blog.skycoin.net/blog/tags/onion-structure/</link>
     <description>Recent content in Onion Structure on Skycoin Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Apr 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.skycoin.net/tags/onion-structure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.skycoin.net/blog/tags/onion-structure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development Update #63</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-63/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-63/</link>
       <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-63/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-63/</guid>
       <description>If you know your wallet seed, you will be fine. You can open up the wallets with text editor and grab the seed. As long as you have this value, your wallet can never be lost. You can also just copy and paste the wallet directory.
 Eventually, I want to change the wallet deterministic generation function to SHA3/Keccak sponge function based instead of SHA256, but it is too late for this.</description>
     </item>

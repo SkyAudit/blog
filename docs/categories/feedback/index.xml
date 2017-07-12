@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Feedback on Skycoin Updates</title>
-    <link>http://blog.skycoin.net/categories/feedback/</link>
+    <link>http://blog.skycoin.net/blog/categories/feedback/</link>
     <description>Recent content in Feedback on Skycoin Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.skycoin.net/categories/feedback/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.skycoin.net/blog/categories/feedback/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Developers AMA #9</title>
-      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-9/</link>
+      <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-9/</link>
       <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-9/</guid>
+      <guid>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-9/</guid>
       <description>Comment: Quote from: solix on April 08, 2017, 11:14:49 PM &amp;gt;hang on guys&amp;hellip; so 10% of the coins will be sold in the ICO? 90% held back, where 70% will be used &amp;ldquo;in the future&amp;rdquo;. Can you guys elaborate on that a bit? I&amp;rsquo;m interested in this project, but not while only 10% of the supply is circulating. I also suspect this will prevent quite a few exchanges from getting involved.</description>
     </item>
     
     <item>
       <title>Developers AMA #8</title>
-      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-8/</link>
+      <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-8/</link>
       <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-8/</guid>
+      <guid>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-8/</guid>
       <description>Comment: Quote from: WigitGetIt on December 18, 2016, 02:58:55 AM &amp;gt;Lost me Here: Skycoin has no mining
  Good Luck.
  Response: Mining is a security flaw. Satoshi&amp;rsquo;s original vision was for a decentralized cryptocurrency. The Bitcoin network is controlled by three mining pools. At one point Gigahash.io controlled over 65% of the network.
@@ -34,20 +34,20 @@ The objective of the Skycoin project from the start was to fix the problems in B
     
     <item>
       <title>Developers AMA #6</title>
-      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-6/</link>
+      <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-6/</link>
       <pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-6/</guid>
+      <guid>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-6/</guid>
       <description>Comment: Quote from: esuncloud on December 19, 2014, 05:24:09 PM &amp;gt;We are experts with Verilog, CPLD, FPGA, ASIC, SoC design, and how could we help you guys? According to my knowledge, there is no Verilog repo on Github for us to contribute code.
 Response: This is an amplitude modulated software defined radio for the whitespace band. 100 Mhz to 700 Mhz carrier. This is the most simple type of radio possible.</description>
     </item>
     
     <item>
       <title>Developers AMA #7</title>
-      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-7/</link>
+      <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-7/</link>
       <pubDate>Wed, 07 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-7/</guid>
+      <guid>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-7/</guid>
       <description>Comment: Quote from: illodin on May 07, 2015, 12:05:22 AM &amp;gt; Is there any use of running &amp;ldquo;full nodes&amp;rdquo; or w/e they are called in Skycoin, i.e. running the client with port 6000 open?
 Response: Yes. PM me your node IP address and I will add it to the default list.
 Skycoin has two modes of peer-to-peer connections - DHT lookup - PEX
@@ -56,20 +56,20 @@ DHT is disabled by default now and pex is disabled until there is time to fix is
     
     <item>
       <title>Developers AMA #4</title>
-      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-4/</link>
+      <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-4/</link>
       <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-4/</guid>
+      <guid>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-4/</guid>
       <description>Developers AMA - Session #4 Comment: Quote from: JessicaMILFson on April 10, 2014, 02:20:17 AM &amp;gt;When you launch, are you going to have video tutorials, or things explaining this? Because I have no idea what the above means. It seems more complicated than Bitcoin, and adoption is a big concern if there is no way to simplify this.
 Response: This is for developers. For end users, you will double click the icon and the wallet will pop up.</description>
     </item>
     
     <item>
       <title>Developers AMA #5</title>
-      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-5/</link>
+      <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-5/</link>
       <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-5/</guid>
+      <guid>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-5/</guid>
       <description>Developers AMA - Session #5 Comment: Quote from: FrictionlessCoin on April 26, 2014, 01:29:41 PM &amp;gt;I for one would be wary about owning a coin on a network that is still undergoing changes.
  The alternative of course is to just wait until you are ready.
 Or take the NEX approach of receiving pledges but not transferring coin until we&amp;rsquo;re ready.
@@ -78,10 +78,10 @@ Or take the NEX approach of receiving pledges but not transferring coin until we
     
     <item>
       <title>Developers AMA #3</title>
-      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-3/</link>
+      <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-3/</link>
       <pubDate>Mon, 24 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-3/</guid>
+      <guid>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-3/</guid>
       <description>Developers AMA - Session #3 Comment: Quote from: td services on March 23, 2014, 04:01:09 PM &amp;gt;Does the above display look right, or should I be seeing some numbers or transaction activity?
  I&amp;rsquo;m trying it out an ArchLinux install now to run it on Beaglebone once I get it running on Virtualbox on the Indiebox stack.
  Response: Yes. You have it working! The wallet gui is running a GTK window that embeds webkit.</description>
@@ -89,10 +89,10 @@ Or take the NEX approach of receiving pledges but not transferring coin until we
     
     <item>
       <title>Developers AMA #2</title>
-      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-2/</link>
+      <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-2/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-2/</guid>
+      <guid>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-2/</guid>
       <description>Developers AMA - Session #2 Comment: Quote from: Sage on January 01, 2014, 07:49:40 AM &amp;gt;Why is nobody contesting the obvious&amp;hellip;?
  Endless 2% inflation? And who gets that wealth? Developers? For the &amp;ldquo;public good&amp;rdquo; of course.
 &amp;rdquo;- All coins are created in genesis block.&amp;rdquo; (Effectively a 100% premine.)
@@ -102,10 +102,10 @@ Did we easily forget Google&amp;rsquo;s &amp;ldquo;Don&amp;rsquo;t be evil&amp;r
     
     <item>
       <title>Developers AMA #1</title>
-      <link>http://blog.skycoin.net/ask-the-developers/ask-the-developers-1/</link>
+      <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-1/</link>
       <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/ask-the-developers/ask-the-developers-1/</guid>
+      <guid>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-1/</guid>
       <description>Developers AMA - Session #1 Comment: Quote from: Eliavres on December 22, 2013, 03:07:20 AM &amp;gt;Hmm this might just be a game changer..
  Since youre just starting to introduce this coin - for the love of god look at what viral advertising has turned Dogecoin into. Here&amp;rsquo;s something I posted in another thread:
  Quote from: Eliavres on December 22, 2013, 03:02:58 AM &amp;gt;I like dogecoin because it is the proof that marketing, be it by a snazzy name or proper advertising or such, plays a major role in the success of a coin.</description>

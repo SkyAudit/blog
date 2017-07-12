@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Crypto Library on Skycoin Updates</title>
-    <link>http://blog.skycoin.net/tags/crypto-library/</link>
+    <link>http://blog.skycoin.net/blog/tags/crypto-library/</link>
     <description>Recent content in Crypto Library on Skycoin Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.skycoin.net/tags/crypto-library/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.skycoin.net/blog/tags/crypto-library/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development Update #90</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-90/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-90/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-90/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-90/</guid>
       <description>Crypto Library: Bad news, the crypto library problem is severe. In the new upgrade the public key for 1 in 1200 private keys will be different. To standardize it to Bitcoin. Only one or two people should be affected and we will replace the coins if they are unable to get them out of the wallet and send us the private key.
 Every single crypto library outputs different values for the same inputs for a subset of the keys and it is extremely frustrating.</description>
     </item>

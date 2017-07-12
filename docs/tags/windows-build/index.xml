@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows Build on Skycoin Updates</title>
-    <link>http://blog.skycoin.net/tags/windows-build/</link>
+    <link>http://blog.skycoin.net/blog/tags/windows-build/</link>
     <description>Recent content in Windows Build on Skycoin Updates</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Sep 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://blog.skycoin.net/tags/windows-build/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://blog.skycoin.net/blog/tags/windows-build/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development Update #84</title>
-      <link>http://blog.skycoin.net/development-updates/development-update-84/</link>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-84/</link>
       <pubDate>Sun, 13 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.skycoin.net/development-updates/development-update-84/</guid>
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-84/</guid>
       <description>The exchange is in progress. As soon as the bitcoin/skycoin withdrawals/deposits are done, then it will take a few hours to get order book working.
 I cannot wait for the order processing to be automated and to have some liquidity. Application developers will like this exchange and its API. It is very modular.
 Windows Builds: The maintainer for the windows build slipped their fingers and actually deleted the virtual machine for doing the builds.</description>
