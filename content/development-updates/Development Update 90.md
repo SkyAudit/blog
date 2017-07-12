@@ -7,7 +7,7 @@ tags = [
 ]
 date = "2015-12-16"
 categories = [
-    "Development Update",
+    "Development Updates",
 ]
 description = "Release notes highlighting the current development behind Skycoin."
 +++

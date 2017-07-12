@@ -1,6 +1,6 @@
 baseURL = "http://blog.skycoin.net/blog/"
 languageCode = "en-us"
-title = "Skycoin Updates"
+title = "Skycoin Blog"
 
 # config to deploy on github pages
 publishDir = "docs"

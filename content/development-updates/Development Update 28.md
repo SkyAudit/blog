@@ -4,11 +4,11 @@ tags = [
     "Development",
     "Skywire",
     "Skycoin Application Framework",
-    "Project Managament",
+    "Project Management",
 ]
 date = "2014-06-29"
 categories = [
-    "Development Update",
+    "Development Updates",
 ]
 description = "Release notes highlighting the current development behind Skycoin."
 +++

@@ -1,0 +1,1415 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development Updates on Skycoin Blog</title>
+    <link>http://blog.skycoin.net/blog/categories/development-updates/</link>
+    <description>Recent content in Development Updates on Skycoin Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://blog.skycoin.net/blog/categories/development-updates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development Update #133</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-133/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-133/</guid>
+      <description>Update:
+Comment: Quote from: hannusolo on June 12, 2017, 07:55:31 PM
+ Regarding tha subject, how much compute power and memory would these nodes require? I saw the renders on telegram about the proposed hardware node, but I have a mining pc that has a mostly unused cpu and memory, thinking about a little upgrade on this side in the future.
+ Response: Many hacking firms, used to take over peoples computers so they could put adware on them or build up a botnet, or do clickfraud to make websites look like they were getting more views than they actually are.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #132</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-132/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-132/</guid>
+      <description>Update:
+Major Project Management/Organization things  We are getting a kanban board for managing marketing tasks We have new full time project manager for managing the development teams and ticket boards We have signed up two PR firms for blockchain/cryptocoin marketing First story boards for video production are done We are preparing press releases for aspects of the Skycoin Project and will push out to syndicated channels We are creating a new website As soon as the new website is live, it will be obsolete because we are already designing a new fourth generation website We are preparing a road map (past and future).</description>
+    </item>
+    
+    <item>
+      <title>Development Update #131</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-131/</link>
+      <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-131/</guid>
+      <description>Bug Fix: We found a bug last night, where the node goes into infinite loop when trying to create a new block and transactions on network stopped.
+The node was assembling 5 transactions into a block, then failing because two transaction tried to spend the same output. Then failing and waiting a few seconds and then trying again with same result.
+The code is now enabled to take the list of pending transactions and add random transactions from the list, one at a time, discarding a transactions which if added to the block, would make the block unexecutable against the current unspent output set.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #130</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-130/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-130/</guid>
+      <description>Skycoin Market Making Bot: We have a market making bot, that will sit on the bid/ask for skycoin for the following exchanges - Poloniex - C2CX - Bittrex - Cryptopia
+The bot is in java and has three different trading strategies you can set. It was developed by a third party and will be released publicly.
+You can set rules, like a spread and if the price between two exchanges goes more than 5% difference the bot will automatically arbitrage the spread and make you money.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #129</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-129/</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-129/</guid>
+      <description>This edge cases happens: To fix this edge case we This should also fix the unrelated bug where: This bug was resolved by:     Exponential Backoff with Zero Peers Bug Peer Exchange Bug    We are doing misc quality control and major bug fixes now
+We fixed a few bugs and path directory issues for the windows non-electron build.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #128</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-128/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-128/</guid>
+      <description>New Wallet Version: Skycoin Wallet version 15 is on the website, which fixes dozens of UI bugs. - Transaction status should be working - There is a combined installer for Windows 32&amp;frasl;64 bit now - The windows path issue was fixed - Peer to peer connections and PEX (peer exchange) are enabled now
+There is a huge back log of improvements on the wallet we are working through.
+We have to decide what we will focus on for the next push - Marketing / Infographics / Videos / Transslatoin - 2.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #127</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-127/</link>
+      <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-127/</guid>
+      <description>Skycoin is finally getting an order book. This took too long. - next exchange upgrade/rewrite skycoin will float against bitcoin
+The blog is going to be ready tomorrow and we will start migrating content.
+We are going to announce several partnerships with large mainstream institutions, so have to cleanup a bunch of stuff and will migrate anything relevant to blog.
+We will put a lot of content on the blog and things we have not revealed yet.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #126</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-126/</link>
+      <pubDate>Thu, 09 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-126/</guid>
+      <description>The blockchain explorer is up The next generation of the skycoin website is online Several bug fixes: We are : We also made a significant mathematical breakthrough on the skycoin economy:     Marketing        We are: Right now we want to package:     Coin Supply Update:    The blockchain explorer is up  http://explorer.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #125</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-125/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-125/</guid>
+      <description>Blockchain explorer almost done. Check github. New website        Blockchain explorer almost done. Check github.  github.com/skycoin/skycoin  New website  skycoin.net  Exchange API and automated withdrawals and deposits has been in testing for a few months. Minor bugs fixed.
+ We are working on &amp;ldquo;narrative&amp;rdquo; and explaining the differences between Skycoin and Bitcoin clearly and how the consensus process differs.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #124</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-124/</link>
+      <pubDate>Sat, 28 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-124/</guid>
+      <description>Exhausting list of changes, updates and bug fixes. - Most of the wallet bugs/issues are fixed - The CLI and automated deposits and withdrawals are done, raw transactions, send to many - Continuous improvements to the wallet - Continuous improvements to the website
+ CLI for meshnet daemon is working (try it) CLI for CXO daemon is in progress Designing new, next generation cross platform environment for bundling our applications and daemons  We have more academic papers coming.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #123</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-123/</link>
+      <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-123/</guid>
+      <description>We fixed eighty wallet bugs. Look at commits on github.
+The CLI is substantially upgraded and automated deposits and withdrawals are working now. Hundreds of changes and improves to the Skycoin CLI interface.
+We upgraded to latest version of electron and the copy/paste issues are fixed.
+32 bit windows builds should be ready in next release.
+We are creating installers for windows and OSX, so that you can install skycoin like a native application.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #121</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-121/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-121/</guid>
+      <description>We need to start on marketing, applications, user community:        Our technicals are done. I think we have fixed the last bugs. The wallet is getting polished up very nicely.
+We need to start on marketing, applications, user community:  We need to get blog and need to start getting content We need to start doing weekly content pushes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #122</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-122/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-122/</guid>
+      <description> Infographics </description>
+    </item>
+    
+    <item>
+      <title>Development Update #120</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-120/</link>
+      <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-120/</guid>
+      <description>We are at 90% launch readiness:     Infographics CXO Marketing    We are at 90% launch readiness:  Network is operating 3 of the 7 white papers are on the websites Deposits, withdrawals and done Skycoin order book is done CLI and WebRPC are done Skycoin.net website is 70% done (backlog of tickets) Over half the wallet builds are on website (but have backlog of UI bugs) Wallet explorer API is done.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #119</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-119/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-119/</guid>
+      <description>DevOps We have ansible scripts and docker containers for automating deployment.  https://github.com/skycoin/devops We need a lot of help with this  Install docker and docker-compose  git clone github.com/skycoin/devops cd devops docker-compose up  Then it will:  Start up a debian VM and a Alpine Linux VM Use the alpine linux VM as ansible agent to do installation on the debian hosts Install golang Pull skycoin Pull dependences have skycoin image ready for running and deployment  Switch from Void linux to Alpine: We are switching defaults for our server deployment from Void Linux to Alpine linux, because of better support  no SystemD MUSL instead of glibc minimum image size of 6 Mb for docker container runs on ARM alpine linux can run docker and docker-compose  Network Unreliability Affecting Unattended/Automated installs: In China, Japan, Hong Kong and South East asia, DNS is not working reliably and we are internalizing external dependencies and golang repos into IPFS for peer-to-peer replication.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #118</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-118/</link>
+      <pubDate>Tue, 29 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-118/</guid>
+      <description>Blockchain explorer almost working. All of the API functions are in.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #117</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-117/</link>
+      <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-117/</guid>
+      <description>Summary: We are launching our own post blockchain social platform. Starting with an immutable object replication system, inspired by Urbit and IPFS. Which is designed for decentralized social networking and source independent networking.
+We started this on friday and we almost have a decentralized text only version of 4chan working, five days later.
+ https://godoc.org/github.com/skycoin/cxo/schema https://godoc.org/github.com/skycoin/cxo/bbs
+ Each object has a schema and is a struct (with basic set of atomic types)</description>
+    </item>
+    
+    <item>
+      <title>Development Update #116</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-116/</link>
+      <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-116/</guid>
+      <description>Coin Status: Dozens of bug fixes on the CLI and WebRPC interface. The OSX wallet directory bug is fixed now.
+I have been using CLI interface a lot.
+Meshnet: Three tasks left then we are onto info graphics and marketing. We do not have a user interface yet but back end will be working.
+Marketing: We are trying to get full time person to manage the social media accounts, marketing and user community.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #115</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-115/</link>
+      <pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-115/</guid>
+      <description>90 commits.  The Command Line Interface is done. The first version of the WebRPC interface is in the repo  Almost done with check box for floating on exchange.
+The CLI in next push will have - Adding private key to wallet by private key hex - Transactions for spending outputs held by a single address by private key - Working send</description>
+    </item>
+    
+    <item>
+      <title>Development Update #114</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-114/</link>
+      <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-114/</guid>
+      <description>Summary:  We need to fix the GUI on the dev branch. We need to debug the CLI (command line interface, for exchange)) We need to get the WebRPC (for exchanges)  We need to start building out the community.  Need a chat room Need a forum or BBS Need a messaging system  We need to get the three white papers done and the website:  Coin / Consensus Paper Meshnet Paper Aether Paper  Things we need:  We have to decide if we will float and do the first market internally or use a third party.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #113</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-113/</link>
+      <pubDate>Thu, 03 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-113/</guid>
+      <description>Wallet Development The password feature is &amp;ldquo;wallet encryption&amp;rdquo;. We are still implementing wallet encryption. Wallet encryption will encrypt your private keys and the seed, so that if the wallet file is stolen, no one can spend your coins, without knowing the password. We are using sha256 + secp256k1hash (very slow on ASIC, GPU, CPU 1000x attempts per second max) for password derivation function and then ChaCha20.
+We added a lot of new features to the wallet and have not had time to QA everything.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #112</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-112/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-112/</guid>
+      <description>Someone try  run a skycoin node with go run ./cmd/skycoin/skycoin.go go run ./cmd/cli/skycoin.go  This is the command line interface.  do go run ./cmd/cli/skycoin.go help GenerateWallet etc  You should be able to  generate wallets generate addresses check balances create transactions inject transactions into the network track transaction status  This is new code and still being heavily tested/modified. I would not use the 12 word wallet phrase feature yet.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #111</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-111/</link>
+      <pubDate>Mon, 31 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-111/</guid>
+      <description>Summary: The Skycoin CLI is done. We can do exchange listing now. The v2.0 of the Skycoin.net website is done (but needs dozens of changes)
+ The CLI tool is in skycoin/cmd/cli . We will have documentation for usage and exchange integration Right now, there are help commands  Zcash: Zcash just hit $5000 USD per coin. Then went to $10,000 USD per coin.
+The total market cap is starting at 3 billion dollars (half of Bitcoin).</description>
+    </item>
+    
+    <item>
+      <title>Development Update #110</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-110/</link>
+      <pubDate>Wed, 19 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-110/</guid>
+      <description>Now that:  The coin is almost done The website is almost done We are almost done will all requirements for listing  Now we are on meshnet and distribution. We are working on pilot, to distribute coins for people running nodes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #109</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-109/</link>
+      <pubDate>Tue, 18 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-109/</guid>
+      <description>There is a new wallet format:  https://github.com/skycoin/skycoin/pull/168/files
+ BACKUP YOUR CURRENT WALLET
+ Write down your wallet seeds and store them somewhere safely
+ Open wallet with a text editor and look for &amp;ldquo;seed&amp;rdquo; value
+  As long as you have your wallet seed, you will get the same addresses and private keys
+Questions about installation Skycoin can be installed in one line
+go get github.com/skycoin/skycoin  However, $GOPATH has to be setup.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #108</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-108/</link>
+      <pubDate>Wed, 12 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-108/</guid>
+      <description>We want to have everything done for the coin in three weeks:  The three white papers The website The CLI and WebRPC listing The blockchain explorer interface in the wallet Exchange listing Full consensus implementation Easy way for people to buy and sell coins  The critical things are:  Website CLI / WebRPC Block chain explorer in wallet  Everyone agrees that getting listed and completion of the coin is a higher priority than finishing the apps.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #107</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-107/</link>
+      <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-107/</guid>
+      <description>The Skycoin blockchain history JSON API is done: The first version of the Skycoin block storage library is done: The Skycoin CLI and WebRPC interface API is in progress: The first version of Skywire interface is done. It is being integrated with the JSON API now. You will have a number of &amp;ldquo;Nodes&amp;rdquo; that you control (your &amp;ldquo;personal cloud&amp;rdquo; or &amp;ldquo;personal botnet&amp;rdquo; really) For instance, for dropbox type storage This is actually a distributed multi-agent system.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #106</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-106/</link>
+      <pubDate>Wed, 05 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-106/</guid>
+      <description>Going through the launch check list
+Mostly check commit log: - https://github.com/skycoin/skycoin
+ block storage is done. Key/value store. boltdb. memory mapped files blockchain history API is done. GUI is in progress. first version of website is done. Second version in progress, then will be on domain. will post screenshots soon some consensus simulations using random mean field sampling are in the repo in the /src/ directory now. We have someone starting on the public broadcast channel implementation and then remaining integration tasks.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #105</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-105/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-105/</guid>
+      <description>These are the things we need to fix for :  Launch Exchange listing There is a bug, where if you are running a skycoin node that starts with computer boot and you unplug the power to the server, there is a chance that the node wont start up again (corrupted files on disc, very annoying). However, we rename files before writing to ensure there are backups of the previous version, so We need a database that stores each transaction hash and the block that the transaction was executed in (for exchanges, to enable API to track skycoin transaction status) We need a database (sqllite?</description>
+    </item>
+    
+    <item>
+      <title>Development Update #104</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-104/</link>
+      <pubDate>Tue, 30 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-104/</guid>
+      <description>The builds are on the website, www.skycoin.net
+The electron builds use Electron for the gui. The binary builds use the system browser (chrome or firefox)
+Production: Consensus prototype is done and needs to be integrated into the client and src/daemon and /src/visor needs to be cleaned up. Then we are in launch/production.
+Security: https://bitcointalk.org/index.php?topic=915893.0 http://boingboing.net/2016/06/15/intel-x86-processors-ship-with.html
+Exchange: https://github.com/skycoin/skycoin-exchange
+We are integrating the API into the angular GUI prototype and making incremental improvements.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #103</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-103/</link>
+      <pubDate>Wed, 17 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-103/</guid>
+      <description>Exchange: Exchange is done - https://github.com/skycoin/skycoin-exchange - bitcoin deposits - bitcoin withdrawls - skycoin deposits - skycoin withdrawls - order book
+The Angular 2.0 gui for the client JSON API is being integrated right now.
+This is not just an &amp;ldquo;exchange&amp;rdquo;, but - has &amp;ldquo;local&amp;rdquo; wallet (private keys and local wallets) and remote wallet (coins deposited in the exchange) - has a thin client, API, so that you can get unspent outputs and inject transactions - is multi-coin (the coin handling is pluggable, so that we can add new coins over time) - does not use HTTPS or even IP addresses.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #102</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-102/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-102/</guid>
+      <description>The first packet over the VPN, connected through the meshnet worked yesterday. - This is a major project milestone. - We have a multi-hop VPN client running over the Skycoin meshnet namespace. This is the first multi-hop VPN that I know of.
+The port of the wallet from Angular 1.0 to Angular 2.0 is in progress and almost done. This means the design firm can start on the mobile wallet and multi-coin wallet.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #101</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-101/</link>
+      <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-101/</guid>
+      <description>Meshnet: Version one meshnet is almost done
+https://github.com/skycoin/skycoin/commit/f959d0875baf990e43ca3f045a9cba82d4d8f24a
+This is the sixth or eighth design iteration, so it is very clean conceptually. I was simulating the meshnet packet passing algorithms with punch cards and paper and it works well. You could implement it on a punch card sorting machine and telegraph lines if you wanted to.
+Exchange: Exchange is being refactored and fixed. We have a revolutionary exchange design, that simplifies the exchange, improves the security and enables easy support for multiple coins.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #100</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-100/</link>
+      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-100/</guid>
+      <description>Some of the developers had problem with management style and were confused about what needed to be done. Now I am trying - I assigned one thing to each developer - I narrowed the task down to be very simple and self contained - There is a group to recruit developers and staff developers to tasks now
+We are trying to split everything up, into small manageable tasks.
+Now they are saying everything will take two weeks.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #99</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-99/</link>
+      <pubDate>Wed, 16 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-99/</guid>
+      <description>Project Priorities: Right now the priorities are:  Improve project management Have a place where everything that needs to be done, can be written down as a ticket so developers can find it Get developers to implement the tickets  We not have a radical simplification of the consensus implementation and simplification of the meshnet/vpn/darknet and it is almost trivial. It should not be more than 2,000 lines for the core, but we need to make sure it gets implemented.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #98</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-98/</link>
+      <pubDate>Tue, 02 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-98/</guid>
+      <description>Meshnet adaption is growing. The hardware problems are solved.
+http://i.imgur.com/FI0EnT6.png
+https://motherboard.vice.com/read/how-a-diy-network-plans-to-subvert-time-warner-cables-nyc-internet-monopoly http://www.shareable.net/blog/sarantaporo-residents-create-commons-in-rural-greece-through-a-diy-wireless-mesh-network
+For Skycoin: - finish exchange architecture (mostly boiler plate) - get meshnet routing algorithm working (there is some R&amp;amp;D here) - wrap a VPN frontend and then get it working on OSX and Windows
+The angular 2.0 compilation/gulp setup is done and will use this as a pseudo terminal for now. I think this will be satisfactory for the interface.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #97</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-97/</link>
+      <pubDate>Sat, 30 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-97/</guid>
+      <description>The interface is just being done in angular for now. The new angular is much cleaner.
+However, npm is dumping the compiled javascript files in the same directory as the type script files, which is ugly and frustrating. I have not found the setting for setting the output directory yet.
+Math Update: I found a simple message passing algorithm that finds all nodes in the network that are not in consensus with the current node, with ~log N messages in the size of the network).</description>
+    </item>
+    
+    <item>
+      <title>Development Update #96</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-96/</link>
+      <pubDate>Wed, 20 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-96/</guid>
+      <description>Finished some small things, but mostly design work
+There are some minor changes  UPNP support for Skycoin networking is done. Can tunnel through firewalls now. Networking will probably be switched from TCP/IP to UDP  Exchange: This is ready to go almost, but have to finish
+Other: The GUI for interaction with networking and meshnet configuration is extremely frustrating. I am trying to find some way to take a shortcut or make this easier.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #95</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-95/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-95/</guid>
+      <description>Cross Compilation To cross compile skycoin, do: Install Gox: go get https://github.com/mitchellh/gox gox -build-toolchain
+Compile: cd $GOPATH/src/github.com/skycoin/skycoin $G = skycoin-0.3 gox -output=&amp;ldquo;$HOME/builds/$G-{{.OS}}-{{.Arch}}/$G/address_gen&amp;rdquo; ./address_gen/ gox -output=&amp;ldquo;$HOME/builds/$G-{{.OS}}-{{.Arch}}/$G/skycoin&amp;rdquo; ./skycoin/
+It will even output NaCl (native client) for ARM. - native client is an execution sandbox by Google for memory safety and running applications in the browser and phone - it abstracts the networking and directory access - it is likely next standard for Android apps and replacement for flash - there is portable native client, which is like LLVM IR for native client</description>
+    </item>
+    
+    <item>
+      <title>Development Update #94</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-94/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-94/</guid>
+      <description>Cross Compilation: Cross compilation is now working flawlessly! We have builds for Windows, OSX, Linux, BSD, Plan9, Arm, NaCL. It is completely automated.
+Deterministic Builds: Deterministic builds and pulling all the dependencies inside of the library will be done by about Go 1.6!
+Deterministic builds, means that if two people compile the source, they will receive binary identical outputs. This means that the binaries cannot be back doored and can be verified.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #93</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-93/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-93/</guid>
+      <description>The crypto port is done. Major milestone done!
+I was almost ready to give up on getting it working, from frustration.
+The actual bug was fixed nine days ago and the problem was in the test environment.
+The test suite was failing in the test environment, but turns out is passed if the tests are run when the working directory is within the $GOPATH, but fails when the tests are run outside of the $GOPATH.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #92</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-92/</link>
+      <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-92/</guid>
+      <description>There are three major goals/milestones right now: Crypto:     Exchange: Meshnet/Darknet/VPN:    There are three major goals/milestones right now:  Get crypto port to golang finished (so we can do cross platform builds) Get liquidity (exchange platform) VPN/meshnet/darknet prototype or version 1 release  Crypto:  Someone else (two other people using the library) is working on the crypto bug (which only affect 1 in a few thousand keys).</description>
+    </item>
+    
+    <item>
+      <title>Development Update #91</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-91/</link>
+      <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-91/</guid>
+      <description>Exchange Exchange GUI is in progress.
+ The exchange client is a very light weight terminal application. When exchange app starts, you put in your pass phrase for deterministic wallet generation It communicates with exchange over encrypted channel. You can transfer between local wallet and the exchange very easily
+ As long as you remember you wallet password (the phrase that generates the wallet), then you can access the coins from anywhere.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #90</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-90/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-90/</guid>
+      <description>Crypto Library: Bad news, the crypto library problem is severe. In the new upgrade the public key for 1 in 1200 private keys will be different. To standardize it to Bitcoin. Only one or two people should be affected and we will replace the coins if they are unable to get them out of the wallet and send us the private key.
+Every single crypto library outputs different values for the same inputs for a subset of the keys and it is extremely frustrating.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #89</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-89/</link>
+      <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-89/</guid>
+      <description>Fixes: Fixed dozens of bugs with the crypto library port.
+The sipa and gocoin libsecp256k1 implementation differ slightly and output different public keys for the same private key for some inputs (every few thousand keys).
+Slightly different public keys are outputted for the same secret key.
+seckey = 8ba2269ad9d5090c891043dcbda618802d50bbfd7aa548173a9ecb5d2107ffbc pubkey1 = 02ec9b470f72b4a28d1ae507d7c8ddfa5c5385db96e905400175093e48ef5ace0d pubkey2 = 02ec9b470f72b4a28d1ae507d7c8ddfa5c5385db96e905800175093e48ef5ace0d
+seckey = e329e5d4f6224566c3464dbe16bdae499566504d7cbca6b77274f835e4838c7e pubkey1 = 022c3166ffaed91846653d0179b2daf467d0a736e94ca1c0020cd165881aeee572 pubkey2 = 022c3166ffaed91846653d0179b2daf467d0a736e94ca200020cd165881aeee572
+seckey = 27fa25141c11169208c822e8bb6a1dcd3f991dfd20f393a184498434695e0e14 pubkey1 = 03bd957a507e3f7fdeeb7487613acfbd931a600f9d0806000042fc54bc548a2e05 pubkey2 = 03bd957a507e3f7fdeeb7487613acfbd931a600f9d0806400042fc54bc548a2e05</description>
+    </item>
+    
+    <item>
+      <title>Development Update #88</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-88/</link>
+      <pubDate>Fri, 11 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-88/</guid>
+      <description>The crypto library is not deterministic. It is failing for every one in twelve thousand keys. - A private key should be a 32 byte integer, that is not zero and which is less than the order of the curve. - The base point is raised to the power of the private key, to generate a public key
+If you use the same private key, you should get the same public key.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #87</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-87/</link>
+      <pubDate>Sat, 05 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-87/</guid>
+      <description>One of the three major project milestones is almost done. The crypto library port is nearly finished.
+I am excited about checking this off list, because it is one of the most critical and time consuming things.
+Development This is the fourth crypto library we have gone through. After first, we had to do testing and write fuzzing library and test suite, to make sure that the new library behaves as it should and do not not have strange edge cases.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #86</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-86/</link>
+      <pubDate>Sat, 26 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-86/</guid>
+      <description>There are some improvements coming up - Deprecation of the C secp256k1 library for golang version - Dependency vendoring. Means all dependencies of skycoin will be inside of the skycoin repo, for version 1.5. Improves security, makes it so that no one can insert a back door in an upstream library - golang almost has deterministic builds working. This will be exciting. If two people build the binary from source on different machines, they get SHA256 identical binaries.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #85</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-85/</link>
+      <pubDate>Sat, 19 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-85/</guid>
+      <description>I simplified the lowest level of the networking. I stripped everything out. - The mesh network protocol is now so simple that it can be operated by hand, over paper, punch cards or carrier pidgeon if the internet is destroyed and humanity loses the ability to use electricity. - the algorithm being used is scale invariant in time. It works over milliseconds, seconds, days, months, years, centuries. The key parameters between two links is the bandwidth/latency product (the bandwidth of the link in bits/second times the latency between when a message is sent and when the confirmation of receipt is received).</description>
+    </item>
+    
+    <item>
+      <title>Development Update #84</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-84/</link>
+      <pubDate>Sun, 13 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-84/</guid>
+      <description>The exchange is in progress. As soon as the bitcoin/skycoin withdrawals/deposits are done, then it will take a few hours to get order book working.
+I cannot wait for the order processing to be automated and to have some liquidity. Application developers will like this exchange and its API. It is very modular.
+Windows Builds: The maintainer for the windows build slipped their fingers and actually deleted the virtual machine for doing the builds.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #83</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-83/</link>
+      <pubDate>Sat, 12 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-83/</guid>
+      <description>I fixed the bug! The blockchain now downloads in under 2 seconds!
+I actually have no idea why the blockchain was downloading at all. After receiving new blocks, it was not downloading more blocks until the next block announcement. Now after receiving new blocks, it asks for more blocks.
+EVERYONE MUST UPDATE THE CLIENT. GIT PULL I made change, so that clients can control the number of blocks in each request.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #82</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-82/</link>
+      <pubDate>Fri, 11 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-82/</guid>
+      <description>There is a major and very severe bug. I am upset that no one found this or brought it up earlier.
+For some reason, for some clients under some networking conditions the blockchain is not downloading until it reaches the head block. On LAN and running multiple instances on the same machine, the blockchain always synchronizes between all the clients in testing. In the real world, behind VPN, with latency, and servers in multiple countries the blockchain is not always syncing.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #81</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-81/</link>
+      <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-81/</guid>
+      <description>Exchange Overview: This is a prototype for a next-generation exchange infrastructure.
+http://github.com/skycoin/skycoin-exchange
+This is very rough. Your username/login is a public key. Your identifier is a hash of your public key. You sign your messages to the exchange with your public key. This will be stored in a json file locally on the client.
+//send this with every request // type MsgAuth struct { Address cipher.Address Hash cipher.SHA256 //hash of the JSON message Signature cipher.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #80</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-80/</link>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-80/</guid>
+      <description>GoAgent was forced off of Github by state security - https://github.com/goagent/goagent
+A few days ago Shadowsocks author was contacted and forced to rescind the repo by state security - https://github.com/shadowsocks/shadowsocks - https://github.com/shadowsocks/shadowsocks/commit/938bba32a4008bdde9c064dda6a0597987ddef54
+All the tools for breaching the firewall are being purged.
+Development Update: Peer Exchange Algorithm Problems There is no satisfactory solution for sharing peer lists. You should only share peers if they accept incoming connections, otherwise the client spends a lot of time trying to connect to the majority of peers, which cannot accept incoming connections, so sharing the peer does not help anyone.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #78</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-79/</link>
+      <pubDate>Mon, 24 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-79/</guid>
+      <description>I have switched the peer list to json instead of csv and am merging in the blacklist and peer lists.
+The new peer list format looks like.
+This is first step to adding new fields to the peer list state and renabling PEX (peer-exchange). Fake peers were being spammed when we were using DHT for peer-discovery. This meant it could take up to two minutes to find a valid peer and begin downloading the blockchain.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #78</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-78/</link>
+      <pubDate>Fri, 21 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-78/</guid>
+      <description>Golang 1.5 has support for android and iPhone now. - https://blog.golang.org/go1.5
+This means can do mobile wallet soon or get Skycoin to compile for arm at least.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #77</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-77/</link>
+      <pubDate>Tue, 11 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-77/</guid>
+      <description>Research Update: Six months ago I began research into economic systems for the meshnet. - routing (how to choose routes over the topology) - payment (how much payment for transit should each node reach, how should price be set)
+The naive system is to:  choose the shortest route choose the lowest cost route  If there are two paths, that transit from point A to point B and the lowest cost route is always chosen, then one node ends up with all the traffic.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #76</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-76/</link>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-76/</guid>
+      <description>Priorities: There are many thing we want to do, but have to focus and defer a lot of things for future. Right now, there are a few things in progress.
+1) Porting crypto to golang. To cross compile (to compile skycoin for windows, android, linux and OSX from a single server) all the code has to be in golang. Skycoin crypto wraps a secp256k1 library. This is being rewritten to golang but is an incredibly difficult and time consuming task.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #75</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-75/</link>
+      <pubDate>Sat, 13 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-75/</guid>
+      <description>The coin is done. We are working on networking. There are three different groups working independently on that and its not on github yet.
+The coin needs:  Database for storing blocks Database for history gui improvements Misc improvements (the blockchain does not save on windows when closing)  We have to move on to next part to keep schedule. Then new people can work on coin improvements. The improvements are marginal at this stage and could take up almost all the project resources if we only focused on that at this stage.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #74</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-74/</link>
+      <pubDate>Sun, 07 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-74/</guid>
+      <description>Here is benchmark of the Skycoin consensus algorithm and rounds to convergence vs other voter based algorithms.
+I think there is an improvement, but current method out performs all methods in literature that we have found so far. The important part is that it converges rapidly in a small number of rounds (less than 10 or 20) and that it does not get stuck in a non-convergent state.
+Sznadjd and naive voting sometimes do not converge in 40 rounds.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #73</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-73/</link>
+      <pubDate>Sun, 10 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-73/</guid>
+      <description>I am trying to do something very simple. I am trying to get the balance of a Bitcoin address against a remote server, from Golang using a thin client. It is impossible. I have to write the server/client and wrap libbitcoin because it does not exist.
+In Skycoin, I can go :
+http://skycoin-chompyz.c9.io/outputs
+And I can see list of output for all addresses against a remote full node and get the balances for addresses instantly.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #72</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-72/</link>
+      <pubDate>Fri, 08 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-72/</guid>
+      <description>Summary: The coin is basicly done. Other people can come in and polish up the hundreds of other things now. There are two developers working on front end and api, so will speed it along. Nothing else that is absolutely critical and not incremental needs to be done. There are still hundreds of small changes, improvements, refactoring to be done but it can be ignored for now.
+After the coin distribution receipts are done, then schedule is cleared for consensus implementation and meshnet/darknet.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #71</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-71/</link>
+      <pubDate>Sun, 26 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-71/</guid>
+      <description>The network has been operating for a few weeks now. It is working pretty well, but there are reliability issues over open internet that did not occur in the VPN testing environment.
+The two major improvements that are needed are:  Queuing pending transactions, ensuring they are executed, blocking wallet from creating new transactions until existing transactions are executed, putting indicator in GUI to allow diagnosis of transactions that fail to propagate Major refactor of PEX (peer-exchange).</description>
+    </item>
+    
+    <item>
+      <title>Development Update #69</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-69/</link>
+      <pubDate>Sun, 19 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-69/</guid>
+      <description>There was a &amp;ldquo;disappearing coins&amp;rdquo; bug on windows.  You download all ~120 blocks, you see 100 coins You close client, there is not sig signal for clear program exit triggered on windows, so you lose all the blocks (they are not saved to disc, like they are on exit, on linux) You open client and the coins are &amp;ldquo;missing&amp;rdquo;, until you redownload the blockchain to current head  So coins were still there and appears to just be bug with blockchain not being saved to disc on exit on windows.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #70</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-70/</link>
+      <pubDate>Sun, 19 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-70/</guid>
+      <description>Bug Fixes: Networking Yesterday, as soon as soon people started connecting to network, we found out how unreliable the internet is. People had difficulty connecting to servers. The majority of client did not have open ports so could not accept incoming connections. People had to wait hours for connections and then transactions were not propagating for some users, depending on country.
+I disabled DHT and PEX and just hardcoded list of servers and then clients connected within half a second and it worked.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #68</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-68/</link>
+      <pubDate>Sat, 18 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-68/</guid>
+      <description>New Bugs:  If you try to send and the send fails because of insufficient coins, it did not give a popup and only printed error in terminal. That is fixed now. There was a bug discovered yesterday, where you can do multiple transactions from the same inputs (only one of the transactions will succeed). So if you do two sends form same wallet and transaction propagation is not successful, then some of the transactions wont go through.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #67</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-67/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-67/</guid>
+      <description>Fixed a lot of bugs.
+The top levels, the gui and json are not as polished as lower levels (blockchain/crypto). I have not even looked at some of this code and discovering new things. There were things implemented, I didnt know we had working and things that needed to be cleaned up.
+ There was a coinhour calculate bug that prevented transactions in strange cases. I hardcoded coinhour fee for transactions to 1, to get it working, but then after receiving coins, some people were unable to send them out.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #66</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-66/</link>
+      <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-66/</guid>
+      <description>The network is running. Fixed a bunch of bugs.
+Structure of Skycoin Networking: This is overview of wire protocol. https://github.com/skycoin/skycoin/blob/master/src/daemon/messages.go#L40
+NewMessageConfig(&amp;ldquo;INTR&amp;rdquo;, IntroductionMessage{}), NewMessageConfig(&amp;ldquo;GETP&amp;rdquo;, GetPeersMessage{}), NewMessageConfig(&amp;ldquo;GIVP&amp;rdquo;, GivePeersMessage{}), NewMessageConfig(&amp;ldquo;PING&amp;rdquo;, PingMessage{}), NewMessageConfig(&amp;ldquo;PONG&amp;rdquo;, PongMessage{}), NewMessageConfig(&amp;ldquo;GETB&amp;rdquo;, GetBlocksMessage{}), NewMessageConfig(&amp;ldquo;GIVB&amp;rdquo;, GiveBlocksMessage{}), NewMessageConfig(&amp;ldquo;ANNB&amp;rdquo;, AnnounceBlocksMessage{}), NewMessageConfig(&amp;ldquo;GETT&amp;rdquo;, GetTxnsMessage{}), NewMessageConfig(&amp;ldquo;GIVT&amp;rdquo;, GiveTxnsMessage{}), NewMessageConfig(&amp;ldquo;ANNT&amp;rdquo;, AnnounceTxnsMessage{}),
+ Each message is a struct. You put values in struct, then do a &amp;ldquo;Send&amp;rdquo; and say who you want to send it to It packs up the struct in canonical binary format the struct has a .</description>
+    </item>
+    
+    <item>
+      <title>Development Update #65</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-65/</link>
+      <pubDate>Mon, 06 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-65/</guid>
+      <description>Unit tests work for networking. It works locally. It works with multiple clients on the internal virtual private network for testing. It is 100% working. However, on public internet cannot connect to anything and there are strange errors. The peers/connection list is empty.
+[skycoin.daemon:DEBUG] Removing 89.110.41.155:23547 because failed to connect: dial tcp 89.110.41.155:23547: i/o timeout [skycoin.daemon:DEBUG] Removing 122.31.215.119:9721 because failed to connect: dial tcp 122.31.215.119:9721: no route to host [skycoin.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #64</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-64/</link>
+      <pubDate>Thu, 02 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-64/</guid>
+      <description>IPFS Demo: This is IPFS. This is the successor to Bitorrent.
+https://www.youtube.com/watch?v=8CMxDNuuAiQ
+Skycoin Merkle-dag system is based upon this.  A directory is a list of nodes. The id of the node is the hash of its serialization Each node is either a folder or a file. The contents of files are hashes The owner signs the root hash with their private key The node metadata and files are replicated peer-to-peer The directory is referenced by a  Users can update the files after they upload them.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #63</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-63/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-63/</guid>
+      <description>If you know your wallet seed, you will be fine. You can open up the wallets with text editor and grab the seed. As long as you have this value, your wallet can never be lost. You can also just copy and paste the wallet directory.
+Eventually, I want to change the wallet deterministic generation function to SHA3/Keccak sponge function based instead of SHA256, but it is too late for this.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #62</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-62/</link>
+      <pubDate>Thu, 26 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-62/</guid>
+      <description>You have to nuke the blockchain files in .skycoin again. &amp;ldquo;rm ~/.skycoin/blockchain*&amp;rdquo;
+Skycoin Transaction Format: There is an output:
+[ { &amp;quot;hash&amp;quot;: &amp;quot;043836eb6f29aaeb8b9bfce847e07c159c72b25ae17d291f32125e7f1912e2a0&amp;quot;, &amp;quot;src_tx&amp;quot;: &amp;quot;0000000000000000000000000000000000000000000000000000000000000000&amp;quot;, &amp;quot;address&amp;quot;: &amp;quot;2jBbGxZRGoQG1mqhPBnXnLTxK6oxsTf8os6&amp;quot;, &amp;quot;coins&amp;quot;: 100000000000000, &amp;quot;hours&amp;quot;: 100000000000000 } ]  An output has: - a balance of coins - a balance of coinhours - an address that &amp;ldquo;owns&amp;rdquo; the outputs. the person with the private key, whose public key hashes to the address can spend the output</description>
+    </item>
+    
+    <item>
+      <title>Development Update #61</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-61/</link>
+      <pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-61/</guid>
+      <description>Summary Two days were spent fixing a bug with where &amp;ldquo;req.ParseMultipartForm()&amp;rdquo; needed to be called instead of &amp;ldquo;req.ParseForm()&amp;rdquo; because URL get/post parameters were not showing up correctly in logs. The url was working in unit tests, but was broken in wallet gui and still trying to determine reason. As soon as this is fixed, will begin sending out test coins.
+Then the transaction &amp;ldquo;readable&amp;rdquo; for human readable transaction format is broken.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #60</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-60/</link>
+      <pubDate>Fri, 27 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-60/</guid>
+      <description>Research Update: Homomorphic Secret Sharing I think we now have homomorphic secret sharing for for secp256k1. This means that Skycoin can do multisig transactions without having an explicit multisig transaction. Multisig transactions happen outside of the blockchain are not a different transaction type than non-multisig transactions. There is no way to tell them apart on the blockchain.
+Background  there is a basepoint b on the curve there is a group operation that takes two points on the curve and generates a new point on the curve you apply the base point to itself N times as the operation (exponention of the base point in the curve) You choose a random 256 bit integer, N.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #59</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-59/</link>
+      <pubDate>Mon, 23 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-59/</guid>
+      <description>Research Note I do not want to announce anything prematurely, but it may be possible to use VerSum to lock out 51% attacks completely at overkill level. http://people.csail.mit.edu/nickolai/papers/vandenhooff-versum.pdf
+Previously we had designed a check pointing system and it appeared to not introduce any edge cases that were exploitable. Instead of doing distributed checkpoints on the program state every few hours or ten thousand blocks, this pushes the check points down to incremental block by block level.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #58</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-58/</link>
+      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-58/</guid>
+      <description>Offline Wallets: Skycoin will have some more features for doing offline wallets or wallets on computers not connected to a network. You for instance, may generate a wallet and seed on a computer not connected to any internet. Your &amp;ldquo;cold wallet&amp;rdquo;. Then you send the coins to the first address in the code wallet. Then you load the unspent output hash by hand (typing it into the computer).
+To send coins out of the code wallet, without connecting the computer to the internet, the wallet generates a transaction on the computer not connected to the network and produces a QR code you scan with a cell phone to injection that transaction into the network.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #57</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-57/</link>
+      <pubDate>Wed, 04 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-57/</guid>
+      <description>Skycoin Project Overview This is overview of the Skycoin project code complexity. Skycoin began as an attempt to simplify bitcoin and make a minimalist bitcoin with reduced complexity, improved security and improved usability.
+Skycoin was not designed to add hundreds of features, but was designed to strip out all the edge cases and everything unnecessary from Bitcoin.
+Bitcoin Complexity ~/bitcoin-0.9.2.1-linux/src/bitcoin-0.9.2 $ cloc . 593 text files. 584 unique files. 191 files ignored.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #56</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-56/</link>
+      <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-56/</guid>
+      <description>The button for loading deterministic wallets from seed is now in interface.
+The wallet backend needs to be refactored, but can happen later.
+Wallets have an id field, a name field, filename and a seed. This should probably been &amp;ldquo;filename&amp;rdquo; as id. The name field should be renamed &amp;ldquo;notes&amp;rdquo; or removed. The json storage format needs to be improved later. Just general cleanup in future.
+When the wallet format changes, you need to go into &amp;ldquo;.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #55</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-55/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-55/</guid>
+      <description>Skycoin is designed so that we can: Note: There are several scheduled changed that will change binary format and require blockchain resets:     Meshnet Update:        The hardware for meshnet mass adaption will be ready commercially within five years. It will only improve from there. What Skywire provides WISPs is two things For testing:        There will be a blockchain reset soon.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #54</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-54/</link>
+      <pubDate>Sun, 25 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-54/</guid>
+      <description>Consensus Algorithm Update: White paper Draft: http://128.199.188.22:1337/consensus.pdf Graphs: http://128.199.188.22:1337/
+This is a histogram of convergence times. The x-axis is &amp;ldquo;rounds&amp;rdquo; the network takes to reach consensus (all nodes in the same state) for a single round consensus process. The top algorithm is hill climbing, the middle algorithm is simulated annealing and the bottom algorithm is changing randomly between hill climbing and simulated annealing.
+There is a network of nodes. Each node follows a number of other nodes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #53</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-53/</link>
+      <pubDate>Fri, 23 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-53/</guid>
+      <description>Overall, the architecture is very good. However, the details need polish. This involves removing code and simplifying, removing unnecessary things. I dont feel like the Bitcoin API has changed in five years. You still cannot check balances and get outputs for an address not in your wallet, in Bitcoin. So in some sense, the Skycoin API has evolved faster than in two days than Bitcoin did since launch.
+We are using JSON format, so people will not lose wallets like in Bitcoin where a new client cannot load an old wallet serialized with older version of the key-value store library.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #52</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-52/</link>
+      <pubDate>Wed, 21 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-52/</guid>
+      <description>This requires moving : Then there are several other improvements that can be done:        Here is todo list. Help appreciated. https://piratepad.ca/p/skycoin_todo
+We will try to write more todo lists.
+There is a major problem. All of the coins are in the genesis address and I cannot spend them for an unknown reason.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #51</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-51/</link>
+      <pubDate>Tue, 20 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-51/</guid>
+      <description>We had a productive day yesterday. Some people were able to get builds working immediately. Other people had problems with golang and path issues we are working through.
+We launched the blockchain after a few hours of work. Fixed half a dozen bugs.  Several changes to build script Updated gvm curl build flags Updated to go1.4 Fixed bug with genesis block timestamp not accepting configuration setting Documentation here: https://piratepad.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #50</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-50/</link>
+      <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-50/</guid>
+      <description>Changes  The unit tests are fixed The refactoring is still not done, but getting closer The json output formater for transactions is fixed/pretty printer. The way transactions are signed has been modified. Instead of signing the hash of the transaction, with the private key for the output being spent. You now sign the hash of the SHA256 sum of the output being spent with the transaction hash. This has subtle implications.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #49</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-49/</link>
+      <pubDate>Sat, 03 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-49/</guid>
+      <description>The tutorial on Cipher is done.
+https://github.com/skycoin/skycoin/wiki/cipher
+This library handles address generation, deterministic wallets, signing transactions with private keys and encrypting data to a public key. It is the core of the Skycoin Project. The coin and everything else is built on top of this.
+Roadmap In Bitcoin a public key has an address that you can send coins to. In Skycoin at the coin level it is exactly the same.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #48</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-48/</link>
+      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-48/</guid>
+      <description>The new wallet API will separate out checking balances, getting unspent outputs and injection transactions.     Hardware Wallet    I pushed a few fixes. The wallet is still buggy but looks great.
+Refactoring is not as easy as I would like. If you split two modules in golang, that have minor depedencies, it will not compile because of circular dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #47</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-47/</link>
+      <pubDate>Mon, 22 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-47/</guid>
+      <description>One Year Anniversary In celebration of the first year anniversary of the launch announcement, we are launching coin!
+I will update when everything is on github.
+I tried to launch it ten hours ago, but every time I open the directory I notice more things that can be simplified, removed, or refactored. - I decided that micro-optimizing the block header size is pointless. I am doing 160 byte blockheaders instead of 105 bytes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #46</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-46/</link>
+      <pubDate>Fri, 19 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-46/</guid>
+      <description>The coin was done in January. The only difference if we launched today would be the coin would be trading. There are a few things missing on github, so no one can compile it and launch it before us, without knowing how to program.
+Roadmap For 2015  We would like to have networking working for the darknet/meshnet. The new consensus algorithm will be implemented We would like to have some written standards for what is done and tutorials for developers Then we have to do hardware We are deciding the roadmap for the next phase of the project.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #45</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-45/</link>
+      <pubDate>Wed, 17 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-45/</guid>
+      <description>In Bitcoin you run a local node and it loads wallets from disc. The node authorizes transactions from the wallet it had loaded. The wallet, is at a higher level and keeps track of addresses and private keys:     Corporate Usability Inflation      Goals:    Factors concerning price stability: creating stable stores of value    The Skycoin project is larger than &amp;ldquo;clone litecoin, change logo and call it Dogecoin&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #44</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-44/</link>
+      <pubDate>Thu, 11 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-44/</guid>
+      <description>This is over view of current development status and priorities
+Consensus Consensus is being worked on. The earlier algorithms are being implemented, bench-marked. Then testing them against the newer algorithms, so we have comparison. This is currently in python. Will be moved to golang and integrated as soon as its ready.
+This is not required for the distribution , because we can use central signing key until decentralized consensus is implemented.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #43</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-43/</link>
+      <pubDate>Tue, 09 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-43/</guid>
+      <description>Consensus Algorithm We have a new member on team focused on the consensus algorithm. His work has been great and we are making a lot of progress. We now have a discrete event simulator in Python and have tested several candidate consensus algorithms on real world social graphs from the wikimedia admin dataset. Failure modes such as collusion, or nodes timing out have been implemented and tested.
+The naive consensus algorithm, converged quickly enough for 15 second blocks.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #42</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-42/</link>
+      <pubDate>Wed, 12 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-42/</guid>
+      <description>The recent attacks on Tor and incidents with Bitcoin are putting pressure on us to release.
+Changes  Standardizing serialization formats. Finishing documentation. Changes to internal organization of /src/visor (which runs the blockchain). The wallet manager is moved out of visor. Visor has golang interface based upon the Obelisk Darkwallet API, then another module will run a web-server and manage your local wallets and checks for balances and so on.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #41</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-41/</link>
+      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-41/</guid>
+      <description>Summary: Everything is going very rapidly. We will be out of new things to code within a finite amount of time on the current trajectory. All the project goals will have been achieved and then we need to figure out what happens next.
+1) We must finish the developer documentation and tutorials. 2) We must do the distribution.
+When we started development, Golang was experimental and frustrating. Build reproducability was difficult, developers were stepping on each others toes and debugging goroutines was impossible.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #40</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-40/</link>
+      <pubDate>Fri, 17 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-40/</guid>
+      <description>Consensus Simulation: Here is basic python simulation of the Skycoin consensus process http://pastebin.com/5DJ9d29D
+We dont have much time for academic details until its done, but found that Ben-Or&amp;rsquo;s consensus process could be modeled used a mathematical model called a &amp;ldquo;spin glass&amp;rdquo;. https://en.wikipedia.org/wiki/Spin_glass
+Each node has a state. Each node is subscribed to a subset of nodes in the network. There is a local function (a function of the node&amp;rsquo;s state and the state of the nodes it is subscribed to) that can be called &amp;ldquo;energy&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #39</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-39/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-39/</guid>
+      <description>Summary: We have library now, for checking the unspent outputs for addresses. We are using obelisk tool kit and it is working well. The bitcoin blockchain synchronization has been running for a week now. It is on block 285,100 of block 323,354. It is 70 GB on disc and we dont know why. It has slowed down periodically, but has not stopped completely like bitcoind has. It is downloading a block a second.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #38</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-38/</link>
+      <pubDate>Tue, 23 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-38/</guid>
+      <description>Summary: Two separate people are independently working on the distribution script. Should get done soon.
+Another dev is trying to fix the merge conflict and error that is appearing on the github repo.
+Documentation and descriptions of software libraries that need to be written, will be placed on Github immediately. We are not waiting for Aether/Merkle-DAG to be completed to release documents. Document releases will be smaller, more frequent.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #37</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-37/</link>
+      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-37/</guid>
+      <description>Organizational Update: The original plan was to put it on Aether, however it will be months before that is working. The networking refactor was a major headache, was a massive amount of work and ended up going nowhere, but took four months. The upside is that we have a very clear architecture now.
+The current plan, is that the ICO prospectus is being written. It is about 200 pages. It lays out each component in the Skycoin project, in the details required for implementation.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #36</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-36/</link>
+      <pubDate>Tue, 29 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-36/</guid>
+      <description>Summary: We are exhausted. We just finished 4th cryptography audit. Some minor issues were found and fixed. All the issue involved impossible conditions, but are fixed anyways.
+Cryptography Audit/Changes: Fixed:  Someone with a private key from a deterministic wallet who is able to do a SHA256 preimage attack was able to derive all subsequent keys in deterministic wallet (but not the keys for addresses preceding). SHA256 preimage attacks are currently impossible but may become an issue in thirty years.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #35</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-35/</link>
+      <pubDate>Wed, 23 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-35/</guid>
+      <description>Research Update Incredible breakthrough on consensus. We have been discussing methods for distributed consensus, creating terminology for understanding the consensus process. We think we have a good formal mathematical model now.
+We drew out a finite state machine diagram for client transition states and found a new way of reasoning about state. We discovered that there are security measures that can be layered on to coins, which provably only improve the security of the coin without possibility of introducing a new attack.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #34</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-34/</link>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-34/</guid>
+      <description>Summary: Massive changes. Everything is now in one repository. https://github.com/skycoin/skycoin
+Changes skycoin/src/coin is the blockchain parser library skycoin/src/cipher is the Skycoin Standard Crytographic library skycoin/src/aether is the distributed application services library skycoin/src/skywire is the Skycoin Meshnet/Darknet switch skycoin/src/gui is the HTML local web wallet and infrastructure
+ All of the cryptographic and hashing functions have been moved into a common library, that can be imported and used across different applications Skywire is now the meshnet/darknet instead of the services daemon.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #33</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-33/</link>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-33/</guid>
+      <description>Skywire Repo Moved: The Skywire repository has been merged into the main Skycoin repository. Still being integrated to replace visor and daemon.
+Skycoin Cryptography Standard Library All the cryptography, hashing and address operations have been moved into github.com/skycoin/skycoin/src/cipher
+https://github.com/skycoin/skycoin/tree/master/src/cipher
+The library is in progress. It will be common core for addresses, hashing and cryptography across Skycoin, distributed applications and wallets.
+The new library will support:  secp256k1 public and private key generation secp256k1 signature, signature verification and chksig operations Secure deterministic wallet generation operator (secp256k1 curve right multiplication with SHA256 hashing) Secure random number generation (mixes entropy from multiple sources on top of system secure random number generator) SHA256 merkle tree implementation for radix 2 and 16 ECDH (Elliptic curve Diffie-Hellman) deniable encryption with secp256k1 and ChaCha20 SHA256, Ripmd160, ChaCha20 implementation Base58 encoding for Skycoin and Bitcoin Addresses May in future specify binary wallet file format for key storage  Project Management: Dependency Difficulties Golang is a new language and dependency management is still difficult.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #32</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-32/</link>
+      <pubDate>Mon, 14 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-32/</guid>
+      <description>Summary: For routing, we will have each node report traffic statistics to central server. Then we will aggregate the statistics and publish them. Then &amp;ldquo;Route Discovery Servers&amp;rdquo; will download copies of the data, compute optimal routes. When a client wants a route, it will ask a route server and get a route. So the route discovery service is like a DNS type service.
+The route discovery servers can use machine learning, big data, linear algebra, ant colony optimization, electron flow routing, whatever it needs to compute the routes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #31</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-31/</link>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-31/</guid>
+      <description>Cryptography Upgrades: We are getting a function for encrypting blocks of data with ECCDH. There will be simple function that takes a public key and encrypts to binary and a simple function that takes the recipients private key for decryption from bytes.
+Encryption Format: struct EncryptedMessage { Pubkey Pubkey //ephemeral pubkey Q Data []byte //padded to 4096 bytes, length prefix and 32 bit checksum }  Their pubkey is P, your ephemeral pubkey is Q.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #30</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-30/</link>
+      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-30/</guid>
+      <description>Summary: IPv6 support is working. We were having trouble before. Many of the residential routers appear as IPv4 but actually have IPv6 public IP addresses and are IPv4 NATs.
+Configuring the IPv4 DNS settings on the local host does not override the IPv6 DNS server the router is using during 4to6 translation. We have no idea what is happening.
+We are not sure if IPv4 and IPv6 hosts are able to operate on the same DHT network.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #29</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-29/</link>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-29/</guid>
+      <description>Summary: Its July. Meshnet was promised in July. Spec is done. Implementation in progress.
+We end up writing everything five times and refactoring it before its perfect. Sorry this takes so long.
+Summary of Skycoin Consensus Algorithm Research to Date We solved adversarial byzantine generals for full connected graphs with a:  Cryptographicly constructed &amp;ldquo;public broadcast channel&amp;rdquo; with fully connected nodes, but solution does not scale to 300,000 nodes. -&amp;gt; global consensus must result from local consensus in practical system -&amp;gt; Proved global consensus from local consensus in random graphs using probabilistic Ben-Ors consensus process  We have mathematical proof that 51% attack proof is achievable with a single trusted timestamping server.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #28</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-28/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-28/</guid>
+      <description>Skywire Meshnet The design is amazing. Skywire darknet router may be able to replace BGP and existing corporate VPN solutions. Its reverse comparable with IPv6 (IPv6 can be embedded over Skywire). Its very simple.
+I dont want to talk much about this. Just have to finish implementation and get source code out there.
+Skycoin Application Framework Extremely exciting. We have compiler for compiling Golang down to Javascript.
+https://github.com/gopherjs/gopherjs
+ Aether apps will be in Golang.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #27</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-27/</link>
+      <pubDate>Mon, 23 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-27/</guid>
+      <description>Summary: Aether is coming along well. Soon development discussion will be moved into Aether. Coin bounties will be assigned for developing communication tools on Aether.
+For instance:  user creates private/public key pair user publishes stream of tweets (as JSON) into blockchain and signs each block with their private key user subscribes to another person&amp;rsquo;s feed &amp;ndash; user takes hash (address) of person they want to subscribe to &amp;ndash; user looks up peers replicating the chain via DHT &amp;ndash; user connects to the peers and downloads the chain (which is replicated P2P) web server on local hosts, allows person to see feeds of people they are pulling in  Most of this is two lines of code in Skywire, so the work is creating a service in Golang and then taking the JSON and creating an HTML interface from it.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #26</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-26/</link>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-26/</guid>
+      <description>Summary: The darknet repo has been removed and moved into Skywire and Whitepaper.
+Two thousand lines of coin have been removed from Skywire. It does the same thing, is much cleaner now. The daemon almost works. Will have some development documentation and sample apps soon.
+The remaining issues for the meshnet/darknet have been worked out, specifically:  preventing circular routes (denial of service) allowing multi-hop routes to be established quickly without incurring round trip latency for each hop binary wire protocol format  There is architectural issue, about the relationship between gnet, Skywire and the relay service.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #25</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-25/</link>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-25/</guid>
+      <description>Summary: We figured out way of preventing Sybil attack using a hybrid Proof of Stake system.
+To create a node, you must prove you have coins. Say 10 coins. You send 10 coins to address A. Then you send the 10 coins from address A to address B. Then you add a signature using the public key in address A to sign a message in your Obelisk blockchain.
+Alternatively, you could publish the public key for address A and then just sign a message with that public key.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #24</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-24/</link>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-24/</guid>
+      <description>Summary: Its launching now. Cannot wait a year.
+A full time engineering manager is being hired and full time VP of engineering is being hired. The VP of engineering will be responsible for producing reports on project implementation, setting and tracking project implementation milestones. The engineering manager will be responsible for managing contractors, developers, coordinating project implementation schedules and release schedules.
+A Google docs spreadsheet will be created, with things that need to be coded and coin bounties.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #23</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-23/</link>
+      <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-23/</guid>
+      <description>White paper The Skycoin meshnet white paper is done: Skywire*
+https://docs.google.com/document/d/1_rPNMTokwmBPFel1pZfLbTtTkooSWtGKrTLB3RbXIrI
+We thought the new developers could learn golang in two days and its taking a bit longer, especially with getting up to date on the code base and what needs to be done and why its structured the way it is. Working on better system for coordinating the work.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #22</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-22/</link>
+      <pubDate>Wed, 14 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-22/</guid>
+      <description>Summary: We need to close out work on the coin so we can get onto the meshnet. We are trying to do too much: - Coin - Aether - Meshnet - Obelisk
+Any one of these projects is an immense burden that requires a full development team.
+The coin is done and we are just doing refactoring and cleanup of minor issues, but it is still requiring a lot of time.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #21</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-21/</link>
+      <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-21/</guid>
+      <description>Project Update:  We are getting a Trello for organizing developers. We are moving white papers to a wiki. Its better if the community can organize and modify them. Each wiki page can be more focused on a single topic than the white papers.  Overview for general public Tutorials for software developers, with code samples Marketing documentation Engineering documentation that describes systems at level required for implementation  We will launch code in a personal blockchain so it can trade while Obelisk is under development The public DOES NOT CARE about the technology.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #20</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-20/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-20/</guid>
+      <description>Summary: We are doing a lot of writing and documentation right now. The white paper is being split up into three white papers. We are going to have a more general document on problems with Bitcoin and Skycoin&amp;rsquo;s long term approach to each problem. We want to emphasize the design differences and choices Skycoin makes.
+Documentation is becoming more important. New users cannot read the whole thread and need a compressed and organized overview of the project.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #19</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-19/</link>
+      <pubDate>Mon, 28 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-19/</guid>
+      <description>White Paper is Out First Draft of Skycoin Distributed Consensus White paper is on Github
+https://github.com/skycoin/whitepapers
+We need feedback. I feel like it should be trimmed down a bit.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #18</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-18/</link>
+      <pubDate>Sat, 26 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-18/</guid>
+      <description>Skywire Everything was working in January; launch has been delayed because of refactoring. We are exhausted because of coding coin. Everyone wants to get coin over with and get meshnet working. We can get a lot of press on reddit by delivering the meshnet. People are rioting because of Comcast/net neutrality right now.
+Everyone is ready to deploy nodes in their city, setup local meetings, develop hardware and coordinate deployment across North America.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #17</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-17/</link>
+      <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-17/</guid>
+      <description>Summary:  How does MaidSafe&amp;rsquo;s technology come into play here? It seems like it can complement Skycoin really well?
+ Yes. We are working on many things that have similar functionality to Maidsafe. If you read about Protoshares, MaidSafe and Skycoin there is a common thread. There are actually hundreds of these related projects going on right now, but Protoshares, Skycoin and MaidSafe are the coin based ones.
+https://github.com/redecentralize/alternative-internet</description>
+    </item>
+    
+    <item>
+      <title>Development Update #16</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-16/</link>
+      <pubDate>Mon, 21 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-16/</guid>
+      <description>Summary:  The new developers for the meshnet are setup and working now. The source routing implementation is almost done. wifi controller library is working and just needs adhoc mode support and some bug fixes. https://github.com/skycoin/darknet/commit/21e08943e753d985d3f30f5dee1022f027831c3d Last gui changes to wallet are being made. One of the coin developers who was on vacation for past two weeks is coming back to project. First draft the of Obelisk white paper is done.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #15</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-15/</link>
+      <pubDate>Mon, 14 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-15/</guid>
+      <description>Summary: Development is exhausting. We pushed too hard to get to launch and underestimated the time and effort required. Getting things working has been easy, but 90% of the effort is in achieving quality and has been impossible to budget for.
+We are distributing development further. The project is being split into bite sized pieces, documented with specifications and additional developers are being hired to work on the individual components.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #14</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-14/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-14/</guid>
+      <description>Summary: Personal blockchains are done:  https://github.com/skycoin/skywire/blob/master/chaintest.go https://github.com/skycoin/skywire/tree/master/src/hashchain  The only thing left is the wire protocol for replicating the chain.
+Exchange service is part of the &amp;ldquo;gateway protocol&amp;rdquo;. The gateway protocol requires coin launch and several other components under development.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #13</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-13/</link>
+      <pubDate>Thu, 10 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-13/</guid>
+      <description>Summary: The &amp;ldquo;services&amp;rdquo; architecture prototype is done. Link: https://github.com/skycoin/skywire/blob/master/poolExample2.go
+Raw Socket/Connection Pool: https://github.com/skycoin/skywire/blob/master/poolExample0.go
+Connection Pool with Dispatcher Helper and message serialization/deserialization: https://github.com/skycoin/skywire/blob/master/poolExample1.go
+Services Architecture Prototype: https://github.com/skycoin/skywire/blob/master/poolExample2.go
+Each code example is more complex/higher level than the previous one.
+A channel is like a port and each application/service receives messages on a channel. Each service has an object holding state and a set of messages (golang structs) it can receive and send, which are registered at service initialization.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #12</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-12/</link>
+      <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-12/</guid>
+      <description>Summary: Current changes being worked on:  Wallet GUI is being fixed to use new RPC New repo for wire protocol: https://github.com/skycoin/skywire  Example of Connection pool: https://github.com/skycoin/skywire/blob/master/poolExample0.go Example of Connection pool with message handler: https://github.com/skycoin/skywire/blob/master/poolExample1.go
+We are moving towards a &amp;ldquo;service architecture&amp;rdquo; for networking. You have a connection pool, which manages connections to multiple peers. Each peer is running multiple &amp;ldquo;services&amp;rdquo; they advertise. Services communicate over &amp;ldquo;channels&amp;rdquo; on a physical connection.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #11</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-11/</link>
+      <pubDate>Mon, 31 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-11/</guid>
+      <description>Summary: Most of the work in last week has been in the new wire protocol repo. Should be on github soon.
+Skycoin License: The license will be a standard open source license. Current license is:  You can distribute code for non-commercial use You can modify code for non-commercial use You agree to copyright assignment under the to be determined open source license You grant perpetual license to use, distribute and modify any contributed code  We might have terms like &amp;ldquo;no forking coin without permission for 24 months after date X&amp;rdquo; and then license is MIT or GNU after that.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #10</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-10/</link>
+      <pubDate>Sun, 23 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-10/</guid>
+      <description>Summary: The new wire protocol is more work than expected. Instead of delaying launch by two weeks, to address these issues I am hacking together something that will get the network running.
+Multiple software components need to be be refactored:  Daemon needs to be extended to support multiple connection pools with independent peer exchange and using a common listening socket gnet needs to be modified to support an introduction packet gnet packet handling callbacks need to be embedded in the gnet object instead of globals, to allow multiple gnet instances in the same application daemon DHT functionality for peer bootstrap needs to be abstracted to allow for retrieving bootstrap peers for multiple hashes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #9</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-9/</link>
+      <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-9/</guid>
+      <description>Summary  Wire protocol almost done Deterministic wallets RPC almost done (in branch) Fixing wallet GUI to match new RPC Windows, OSX and linux build scripts are done  We are working towards a launch where the coin is trading as soon as possible. After launch, there is still work to do.
+Skycoin Checkpoint System This is overview of the Skycoin checkpoint system. The checkpoint system addresses the exponential growth of the blockchain, by keeping the data required to run a full client to less than one gigabyte.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #8</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-8/</link>
+      <pubDate>Sun, 16 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-8/</guid>
+      <description>We are compiling binaries for the testnet. Will release binaries and instructions for running testnet from source. You will be able to get testnet coins by posting address in github thread.
+Question: Quote from: td services on March 17, 2014, 05:19:59 AM &amp;gt;Will these run on Windows, or can they run on linux vps?
+Yes. We should have windows binaries.
+Notes:  If you want to run from source, linux is much easier than windows, because windows requires dealing with mingw configuration.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #7</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-7/</link>
+      <pubDate>Tue, 11 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-7/</guid>
+      <description>Development Updates: We are updating the Skywire protocol. This is the last thing on checklist before launch.
+Blob Replicator: The Blob Replicator is done. Blob replicator is used for transaction replication and the emergency messaging system.
+ https://github.com/skycoin/skycoin/blob/master/src/sync/blob_replicator.go  This uses a gossip protocol to replicate data among a swarm of peers:  A blob is a series of bytes. The id of a blob is its SHA256 hash On connect a peer receives a list of all the hashes of the Blobs the peer has.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #6</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-6/</link>
+      <pubDate>Wed, 05 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-6/</guid>
+      <description>Summary:  Fixed coin hour calculation bug. Each coin is 1 million &amp;ldquo;droplets&amp;rdquo;. Due to integer rounding error, user would not receive coinhours from output s with a balance less than one million droplets. Bug is fixed. Coinhour calculation is now based upon the block time of the previous block, not the block the transaction executed in. Unit tests in /src/coin are fixed RFC for wallet is being redone to support multiple coin wallets Design for emergency messaging system is done More developers have joined the darknet/meshnet project  Launch Checklist:  A new wire protocol is being developed for transaction propagation and block replication.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #5</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-5/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-5/</guid>
+      <description>Summary: The hash function for Skycoin deterministic wallet generation is finished. We believe our new deterministic wallet hash function is the most secure hash function against GPU and ASIC brute forcing to date. We are using a new hash called &amp;ldquo;secp256k1 Hash&amp;rdquo; that combines SHA256 with elliptic curve signature operations.
+Secp256k1 Hash Implementation: 1) SHA256 seed value 2) Compute deterministic private key, pubkey pair from seed value 3) Generate deterministic secp256k1 signature from seed and generated private key 3) Append signature to seed and compute its SHA256 hash</description>
+    </item>
+    
+    <item>
+      <title>Development Update #4</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-4/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-4/</guid>
+      <description>Software Update: The design of Obelisk is finalized. All the pieces come together and its a major milestone for cryptocoins. We believe that Skycoin will be the most secure, most difficult to attack non-mined cryptocoin to date.
+Changes:  There is now list of things for developers to do https://github.com/skycoin/skycoin/wiki/SOFTWARE-DEVELOPERS-CLICK-HERE We introduced proof of work and difficulty re targeting to keep block production rate constant. As the network scales from 10 nodes to 100,000 we need to keep the block rate constant and prevent it from growing linearly with the number of nodes.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #3</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-3/</link>
+      <pubDate>Sun, 23 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-3/</guid>
+      <description>Summary: Skycoin now has bullet proof security. - There are very strict rules in place for transaction propagation and signature verification. - Bitcoin is only able to fix 6 of the 8 transaction malleability problems. Skycoin has 0 transaction malleability and 0 signature malleability bugs. - Most of the code base is unit tested. There are three lines of tests for every line of code. - we fixed bug in the struct encoder and the change broke compatibility with packets from earlier versions.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #2</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-2/</link>
+      <pubDate>Sat, 01 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-2/</guid>
+      <description>Summary: We are finishing networking. The test net client will be released at least one week before anything else. We want to make sure the client is working on all operating systems before launch.
+For now, you can run wallet with: &amp;gt;cd skycoin/cmd/wallet/wallet.go &amp;gt;go run ./wallet.go
+There are new tools in skycoin/cmd/ for generating addresses from the command line.
+After launch several applications will be announced which are being built on Skycoin.</description>
+    </item>
+    
+    <item>
+      <title>Development Update #1</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-1/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-1/</guid>
+      <description>Summary:  Rational for eliminating mining from Skycoin was added to initial prospectus Information about Skycoin&amp;rsquo;s TwoStep post-quantum transaction protocol was also added Foundations of the Skycoin protocol were built and many commits were submitted to Github Skycoin peer bootstrap from DHT is now working Webkit embedding for Skycoin Wallet working Wallet GUI first draft pushed to github  Features:  1 millionth of a Skycoin is called a &amp;ldquo;Drop&amp;rdquo; or &amp;ldquo;Droplet&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

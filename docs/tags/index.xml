@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Skycoin Updates</title>
+    <title>Tags on Skycoin Blog</title>
     <link>http://blog.skycoin.net/blog/tags/</link>
-    <description>Recent content in Tags on Skycoin Updates</description>
+    <description>Recent content in Tags on Skycoin Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Nov 2016 00:00:00 +0000</lastBuildDate>
@@ -35,6 +35,15 @@
       <pubDate>Wed, 17 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.skycoin.net/blog/tags/applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ask the Developers</title>
+      <link>http://blog.skycoin.net/blog/tags/ask-the-developers/</link>
+      <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/tags/ask-the-developers/</guid>
       <description></description>
     </item>
     
@@ -215,15 +224,6 @@
       <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>http://blog.skycoin.net/blog/tags/deterministic-builds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developers AMA</title>
-      <link>http://blog.skycoin.net/blog/tags/developers-ama/</link>
-      <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.skycoin.net/blog/tags/developers-ama/</guid>
       <description></description>
     </item>
     
@@ -426,6 +426,15 @@
     </item>
     
     <item>
+      <title>Mining</title>
+      <link>http://blog.skycoin.net/blog/tags/mining/</link>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/tags/mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Modular</title>
       <link>http://blog.skycoin.net/blog/tags/modular/</link>
       <pubDate>Fri, 08 May 2015 00:00:00 +0000</pubDate>
@@ -530,15 +539,6 @@
       <pubDate>Thu, 16 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>http://blog.skycoin.net/blog/tags/progress/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Project Managament</title>
-      <link>http://blog.skycoin.net/blog/tags/project-managament/</link>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.skycoin.net/blog/tags/project-managament/</guid>
       <description></description>
     </item>
     

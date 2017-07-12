@@ -1,7 +1,7 @@
 +++
-title = "Developers AMA #1"
+title = "Ask the Developers #1"
 tags = [
-    "Developers AMA",
+    "Ask the Developers",
     "Questions",
     "bitcoin",
     "Skycoin",
@@ -9,12 +9,12 @@ tags = [
 ]
 date = "2013-12-22"
 categories = [
-    "Developers AMA",
+    "Ask the Developers",
     "Feedback",
 ]
 description = "A weekly session where users can comment or ask questions to the Skycoin Developers in order to gain a better insight and understanding into the Skycoin Project "
 +++
-# Developers AMA - Session #1
+# Ask the Developers - Session #1
 
 ### Comment:
 Quote from: **Eliavres** on December 22, 2013, 03:07:20 AM

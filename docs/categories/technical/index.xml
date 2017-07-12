@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Technical on Skycoin Updates</title>
+    <title>Technical on Skycoin Blog</title>
     <link>http://blog.skycoin.net/blog/categories/technical/</link>
-    <description>Recent content in Technical on Skycoin Updates</description>
+    <description>Recent content in Technical on Skycoin Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 13 Apr 2017 00:00:00 +0000</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Developers AMA #9</title>
+      <title>Ask the Developers #9</title>
       <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-9/</link>
       <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Developers AMA #8</title>
+      <title>Ask the Developers #8</title>
       <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-8/</link>
       <pubDate>Sun, 25 Dec 2016 00:00:00 +0000</pubDate>
       
@@ -33,7 +33,7 @@ The objective of the Skycoin project from the start was to fix the problems in B
     </item>
     
     <item>
-      <title>Developers AMA #7</title>
+      <title>Ask the Developers #7</title>
       <link>http://blog.skycoin.net/blog/ask-the-developers/ask-the-developers-7/</link>
       <pubDate>Wed, 07 May 2014 00:00:00 +0000</pubDate>
       

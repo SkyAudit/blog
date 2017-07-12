@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project Management on Skycoin Updates</title>
+    <title>Project Management on Skycoin Blog</title>
     <link>http://blog.skycoin.net/blog/tags/project-management/</link>
-    <description>Recent content in Project Management on Skycoin Updates</description>
+    <description>Recent content in Project Management on Skycoin Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Jun 2017 00:00:00 +0000</lastBuildDate>
@@ -19,6 +19,19 @@
       <guid>http://blog.skycoin.net/blog/development-updates/development-update-132/</guid>
       <description>Update:
 Major Project Management/Organization things  We are getting a kanban board for managing marketing tasks We have new full time project manager for managing the development teams and ticket boards We have signed up two PR firms for blockchain/cryptocoin marketing First story boards for video production are done We are preparing press releases for aspects of the Skycoin Project and will push out to syndicated channels We are creating a new website As soon as the new website is live, it will be obsolete because we are already designing a new fourth generation website We are preparing a road map (past and future).</description>
+    </item>
+    
+    <item>
+      <title>Development Update #28</title>
+      <link>http://blog.skycoin.net/blog/development-updates/development-update-28/</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.skycoin.net/blog/development-updates/development-update-28/</guid>
+      <description>Skywire Meshnet The design is amazing. Skywire darknet router may be able to replace BGP and existing corporate VPN solutions. Its reverse comparable with IPv6 (IPv6 can be embedded over Skywire). Its very simple.
+I dont want to talk much about this. Just have to finish implementation and get source code out there.
+Skycoin Application Framework Extremely exciting. We have compiler for compiling Golang down to Javascript.
+https://github.com/gopherjs/gopherjs
+ Aether apps will be in Golang.</description>
     </item>
     
   </channel>

@@ -1,7 +1,7 @@
 +++
-title = "Developers AMA #8"
+title = "Ask the Developers #8"
 tags = [
-    "Developers AMA",
+    "Ask the Developers",
     "Questions",
     "bitcoin",
     "Skycoin",
@@ -9,7 +9,7 @@ tags = [
 ]
 date = "2016-12-25"
 categories = [
-    "Developers AMA",
+    "Ask the Developers",
     "Feedback",
     "Technical",
 ]

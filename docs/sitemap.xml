@@ -731,6 +731,18 @@
   </url>
   
   <url>
+    <loc>http://blog.skycoin.net/blog/tags/ask-the-developers/</loc>
+    <lastmod>2017-04-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.skycoin.net/blog/categories/ask-the-developers/</loc>
+    <lastmod>2017-04-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.skycoin.net/blog/ask-the-developers/</loc>
     <lastmod>2017-04-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -792,6 +804,7 @@
   
   <url>
     <loc>http://blog.skycoin.net/blog/categories/</loc>
+    <lastmod>2017-04-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -862,25 +875,13 @@
   </url>
   
   <url>
-    <loc>http://blog.skycoin.net/blog/tags/developers-ama/</loc>
-    <lastmod>2017-04-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.skycoin.net/blog/categories/developers-ama/</loc>
-    <lastmod>2017-04-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.skycoin.net/blog/tags/development/</loc>
     <lastmod>2017-06-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.skycoin.net/blog/categories/development-update/</loc>
+    <loc>http://blog.skycoin.net/blog/categories/development-updates/</loc>
     <lastmod>2017-06-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1030,6 +1031,12 @@
   </url>
   
   <url>
+    <loc>http://blog.skycoin.net/blog/tags/mining/</loc>
+    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.skycoin.net/blog/tags/modular/</loc>
     <lastmod>2015-05-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1108,12 +1115,6 @@
   </url>
   
   <url>
-    <loc>http://blog.skycoin.net/blog/tags/project-managament/</loc>
-    <lastmod>2014-06-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.skycoin.net/blog/tags/project-management/</loc>
     <lastmod>2017-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1180,6 +1181,12 @@
   </url>
   
   <url>
+    <loc>http://blog.skycoin.net/blog/</loc>
+    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.skycoin.net/blog/tags/skycoin-checkpoint-system/</loc>
     <lastmod>2014-03-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -1224,12 +1231,6 @@
   <url>
     <loc>http://blog.skycoin.net/blog/tags/skycoin-transactions/</loc>
     <lastmod>2015-03-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.skycoin.net/blog/</loc>
-    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

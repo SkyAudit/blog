@@ -48,3 +48,5 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 tr:nth-child(even) { background: #eee }
+
+.site-title { font-weight: bold; font-size: 2em; text-align: center; }
