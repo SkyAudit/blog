@@ -14,7 +14,7 @@ description = "Release notes highlighting the current development behind Skycoin
 ## Summary:
 The new wire protocol is more work than expected. Instead of delaying launch by two weeks, to address these issues I am hacking together something that will get the network running.
 
-###### Multiple software components need to be be refactored:
+##### Multiple software components need to be be refactored:
 - Daemon needs to be extended to support multiple connection pools with independent peer exchange and using a common listening socket
 - gnet needs to be modified to support an introduction packet
 - gnet packet handling callbacks need to be embedded in the gnet object instead of globals, to allow multiple gnet instances in the same application
