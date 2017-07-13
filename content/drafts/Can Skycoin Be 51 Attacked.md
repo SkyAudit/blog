@@ -36,10 +36,10 @@ If someone manages to 51% attack Skycoin (which may be possible, but is mathemat
 
 The Skycoin consensus algorithm and the ledger are separate. The consensus system is modular and can be swapped out. If there is a better algorithm five years from now, we can just swap out the consensus for the new one. The ledger and coin balances will be completely unchanged.
 
-##### Skycoin
-- fixes existing problems with Bitcoin
-- future proofs Bitcoin
-- eliminates the death spiral conditions that Bitcoin has engineered in
+#### Skycoin:
+- Fixes existing problems with Bitcoin
+- Future proofs Bitcoin
+- Eliminates the death spiral conditions that Bitcoin has engineered in
 
 It is 100% true. There are severe tradeoffs. There are tradeoffs, faster consensus times for Skycoin type relational consensus means that a smaller number of nodes are required to DDoS the network. However, people can react and remove the nodes from their trust lists.
 
@@ -48,23 +48,23 @@ There will be issues and they will need to be worked out.
 Look at Skycoin Coinjoin
 - https://github.com/skycoin/skycoin/blob/master/src/coin/transactions.go
 
-##### A transaction is just
+#### A transaction is just:
 1) A list of output hashes, being spent
 2) A list of signatures authorizing the outputs to be spent (signature of hash of inner part of transaction)
 3) A list of outputs to be created
 
 Coins cannot be created or destroyed. The number of coins in has to equal number of coins out. Transaction fees are in "coinhours".
 
-##### There is no difference between normal and coinjoin transactions.
+#### There is no difference between normal and coinjoin transactions.
 - Two people choose the outputs they want to spend, the outputs they want to create, send to remote server.
 - The server creates a transaction and scrambles orders of outputs in/out. Then sends it to each person
 - Each person sends the signatures for their outputs to the server
 - The coinjoin server injects the transaction into the network
 
 - The coinjoin server cannot steal the coins
-- only the coinjoin server knows how many people are involved (1, 2, 4?)
-- only the coinjoin server knows which outptus belong to who
-- there is no difference between coinjoin and normal transactions (they look exactly the same)
+- Only the coinjoin server knows how many people are involved (1, 2, 4?)
+- Only the coinjoin server knows which outptus belong to who
+- There is no difference between coinjoin and normal transactions (they look exactly the same)
 
 The signature in the ith slot is for the address owning the ith output. The inner hash of the transaction is hashed with hash of output being spent, then this is signed with the private key owning the output.
 
