@@ -40,16 +40,16 @@ You could embed a game like huntercoin in your own blockchain or Piratebay could
 
 There is no "Skycoin" or way to force a transaction in the off blockchain transaction. It requires voluntary compliance on the part of the counter party. **Zero trust cross blockchain transactions are currently an unsolved problem.** Even if the problem can be solved, it is not clear that people would use it.
 
-Until someone solves the problem, what we were planning to do is
-- each person has a personal blockchain and signs each block with their private key
-- in a contract between A and B, person A signs the hash of the contract and then B counter signs
-- the contract signatures and counter signatures are published publicly in A and B's personal blockchain
+Until someone solves the problem, what we were planning to do is:
+- Each person has a personal blockchain and signs each block with their private key
+- In a contract between A and B, person A signs the hash of the contract and then B counter signs
+- The contract signatures and counter signatures are published publicly in A and B's personal blockchain
 - A contract that says "A will pay B 500 coins within one month to address X" cannot be enforced, but if A does not fulfill the contract, the default can be verified publicly if B publishes the contract
 - contracts can involve a trusted 3rd party escrow that personally guarantees execution of the contract.
 
-If you have an options contract for "right to sell 5 Bitcoin at 20,000 Dogecoin" between A and B. There are two issues
-- transferring the contract
-- executing the contract
+If you have an options contract for "right to sell 5 Bitcoin at 20,000 Dogecoin" between A and B. There are two issues:
+- Transferring the contract
+- Executing the contract
 
 Assume A issued the contract and will fulfill the contract on execution. B wants to transfer the contract to C. B and C sign a transfer agreement and countersigns the agreement. They hand the agreement to C and C signs and then A,B,C publishes the signed transaction (delete contract between A and B, create identical contract between A and C) into their personal chains.
 
