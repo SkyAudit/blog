@@ -21,12 +21,12 @@ Future advances in mathematics may render Bitcoin insecure. This is a draft prot
 
 TwoStep is part of QuantumEclipse, a suite of next-gen cryptocoin protocols developed under OP Darknet Plan for the Skycoin Project.
 
-This protocol is
-- simple
-- adaptable to Bitcoin
-- lower overhead than Lamport Signatures
-- works with SHA256 preimages equally as well as Secp256k1 signatures
-- not dependent on the security of discrete logarithm based public key cryptography
+This protocol is:
+- Simple
+- Adaptable to Bitcoin
+- Lower overhead than Lamport Signatures
+- Works with SHA256 preimages equally as well as Secp256k1 signatures
+- Not dependent on the security of discrete logarithm based public key cryptography
 
 ## Overview:
 
@@ -42,7 +42,7 @@ A transaction has a pre-published hash it is "timestamped" by the publication of
 
 ### Analysis:
 
-This protocol relies on
+This protocol relies on:
 - Address pub keys are not published until they are first used in a transaction (address non-reuse)
 - Private keys cannot be recovered from public keys until the public key is published (preimage resistance of ripmed120(sha256(sha256(x))) )
 - The publication of transaction hash into the block chain is a reliable timestamp (no 51% attack, total ordering on transactions)
