@@ -15,13 +15,13 @@ categories = [
 description = "Release notes highlighting the current development behind Skycoin."
 +++
 
-###### The blockchain explorer is up
+##### The blockchain explorer is up
 - http://explorer.skycoin.net
 
-###### The next generation of the skycoin website is online
+##### The next generation of the skycoin website is online
 - http://skycoin.net
 
-###### Several bug fixes:
+##### Several bug fixes:
 - Race conditions in networking pool fixed
 - Blockchain explorer moved from node to golang backend server
 - Congestion control added in meshnet library
@@ -31,13 +31,13 @@ description = "Release notes highlighting the current development behind Skycoin
 - Rreenabled peer to peer exchange of peers (PEX) and several improvements, such as only relaying peers that allow incoming connections.
 - Skycoin now has installer on OSX and Windows. We do not have auto update or anything advanced yet
 
-###### We are :
+##### We are :
 - Creating a skycoin blog and moving appropriate content there
 - Creating marketing content and a press kit
 - Creating our next generation infographic set, revealing more about the project. We need to communicate more clearly and with a message that audience will understand and which they will come away with and be able to transmit or communicate to others. We will have another set of messages for developers/technology focused segment.
 
 
-###### We also made a significant mathematical breakthrough on the skycoin economy:
+##### We also made a significant mathematical breakthrough on the skycoin economy:
 - You already receive coin hours for holding Skycoins (holding 10 coins for 1 hour, gives you 10 coin hours). These are used to pay transaction fees right now
 - We figured out how to make Skycoin and coinhours convertible into tokens exchangeable for networking services
 - This means we will be able to pay a bandwidth or network services reward to the Skycoin holders
@@ -45,7 +45,7 @@ description = "Release notes highlighting the current development behind Skycoin
 
 ##  Marketing
 
-###### We are:
+##### We are:
 - Opening up development community
 - Starting chatrooms for the development community and skycoin community
 - Starting a systematic and sustained marketing effort (content creation, internal channels, push to external channels, press kit). This area we have put no effort in to date. This has to be ready, by the time the first applications on our platform launch.
@@ -60,7 +60,7 @@ As soon as we have congestion control implemented and working, then we will get 
 
 After almost a year of development, our cross platform terminal/app store/application widget is almost done. This will allow us to bundle and distribute all Skycoin applications with a single executable and installer.
 
-###### Right now we want to package:
+##### Right now we want to package:
 - Skycoin daemon (and web + CLI client)
 - CXO daemon (and CLI client)
 - Meshnet daemon (and CLI client)
