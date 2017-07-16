@@ -1,4 +1,4 @@
-baseURL = "http://blog.skycoin.net/blog/"
+baseURL = "https://blog.skycoin.net/"
 languageCode = "en-us"
 title = "Skycoin Blog"
 
