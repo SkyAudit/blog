@@ -1,1 +1,4 @@
 ico/
+
+# Hugo output directory
+/public
