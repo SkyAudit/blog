@@ -9,4 +9,6 @@ script:
 - hugo
 - python --version
 - s3cmd --version
+- ls public/
 - s3cmd --access_key="${AWS_ACCESS_KEY_ID}" --secret_key="${AWS_SECRET_ACCESS_KEY}" --region=ap-southeast-1 sync --delete-removed --acl-public --guess-mime-type --recursive public/ s3://blog.skycoin.net/
+- s3cmd --access_key="${AWS_ACCESS_KEY_ID}" --secret_key="${AWS_SECRET_ACCESS_KEY}" --region=ap-southeast-1 ls s3://blog.skycoin.net/
