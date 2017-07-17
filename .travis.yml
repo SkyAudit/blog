@@ -4,17 +4,9 @@ go:
 install:
 - go get github.com/kardianos/govendor
 - govendor get github.com/gohugoio/hugo
+- pip install s3cmd
 script:
 - hugo
-deploy:
-  provider: s3
-  access_key_id: AKIAIMA7VGNP6PRLOIBQ
-  secret_access_key:
-    secure: gVSy6Sa5QxskUahTClYj08h2xDHZEUnx3emAC/dbl2Ny55R3sCe/5ZyGIqIQIRX4R36CS53QlHPeHEFYavCxaHbSqfV/DgkP8aMGw6Lg7szTupNLTPtuOcauyf78mjXrabZuqgGnNDNvBj9tZo4JyjLTRrOwXF0xlCaK3blE/bH4WSFxZyIbEOQrv0ICjrb4TaftC879ayRvUexptnckGj4aqMAR/FfSNzOTg6TjHBgSVy3qRpoUKR0xNJtBtBQ1955u2bwER38DvY2KF1M4P+RfMjmQT7pOI5gjqplbILbmEtYAg9HG2fA6+65ih79V9ybioiJ12O/uPRYnujBk6mjEhUwOZnVMr3IECUellmuZq2FXNw6aTbfa/8Cs5LHScmyBiVsE9E8AO3i93LoHZtoxrdYnIOPMrpgQXWkr2mhoy8EtrkK/Dkg4BRj4IIZbGzUQ58/v6YtGWqcWErzEzA3a8DLq4inRk0au4iVygC7rnKtsmECYEvUNK9po6PTtt/womLiQ3ui74Wy2g0hbMRJjBru2zSgcC9EHucVFLGOgz9gJWp0pWYz2r55GLJjXGwbWYRR0It4tDysejG3dhvJeS7hIK+ipTuGJEpuPiBJ+ROBD5ODuq2CCWhVUKjaOx3Q+NHGc30o9FpxWBqkoXqVPF9na/VK/bRn8oXwmOyE=
-  bucket: blog.skycoin.net
-  region: ap-southeast-1
-  local_dir: public
-  skip_cleanup: true
-  acl: public_read
-  on:
-    repo: skycoin/blog
+- python --version
+- s3cmd --version
+- s3cmd --access_key="${AWS_ACCESS_KEY_ID}" --secret_key="${AWS_SECRET_ACCESS_KEY}" --region=ap-southeast-1 sync --delete-removed --acl-public --guess-mime-type --recursive public/ s3://blog.skycoin.net/
