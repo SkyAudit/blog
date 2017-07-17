@@ -4,7 +4,7 @@ go:
 install:
 - go get github.com/kardianos/govendor
 - govendor get github.com/gohugoio/hugo
-- pip install s3cmd
+- sudo pip install s3cmd
 script:
 - hugo
 - python --version
