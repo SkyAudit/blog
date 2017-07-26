@@ -17,7 +17,7 @@ Look in the `content/` folder.  Posts are written in markdown.
 Locally, the blog can be previewed with:
 
 ```sh
-hugo server -theme=hugo-xmin
+hugo server
 ```
 
 Once ready to publish, build the static files:
