@@ -1,0 +1,26 @@
+{{ partial "header.html" . }}
+<div>
+  <h2>{{ .Title }}</h2>
+  {{ with .Params.author }}<h2>{{ . }}</h2>{{ end }}
+  {{ if .Params.date }}<h2>{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
+  <p>
+    {{ range $i := (slice "categories") }}
+    {{ with ($.Param $i) }}
+    {{ $i | title }}: {{ range $k := . }}<a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a> {{ end }}
+    {{ end }}
+    {{ end }}
+  </p>
+  <p>
+    {{ range $i := (slice "tags") }}
+    {{ with ($.Param $i) }}
+    {{ $i | title }}: {{ range $k := . }}<a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a> {{ end }}
+    {{ end }}
+    {{ end }}
+  </p>
+</div>
+
+<main>
+  {{ .Content }}
+</main>
+
+{{ partial "footer.html" . }}
