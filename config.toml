@@ -36,6 +36,7 @@ footnotereturnlinkcontents = "↩"
 
 [params]
   keywords = "skycoin"
+  rss = "/index.xml"
   description = "Skycoin Project Updates"
   footer = "[skycoin.net](https://skycoin.net) | [Github](https://github.com/skycoin) | [Explorer](https://explorer.skycoin.net) | [Hugo XMin Theme](https://github.com/yihui/hugo-xmin)"
   email = ""

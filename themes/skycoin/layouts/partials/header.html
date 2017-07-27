@@ -8,15 +8,19 @@
 </head>
 
 <body>
-  <div>
-    {{ .Site.Title }}
-  </div>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__topnav">
+        <a href="https://skycoin.net" class="header__link">&larr; skycoin.net</a>
+        <a href="{{ .Site.Params.rss }}" class="btn btn--pill btn--outline btn--blue">Subscribe (RSS)</a>
+      </div>
 
-  <hr/>
-    <nav>
-      <ul>
+      <img class="logo" alt="Skycoin Blog" src="{{ "/images/logo-outlined.svg" | relURL }}" />
+
+      <nav class="nav">
         {{ range .Site.Menus.main }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          <a class="nav__item" href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
-      </ul>
-    </nav>
+      </nav>
+    </div>
+  </header>
