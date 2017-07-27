@@ -27,9 +27,6 @@ footnotereturnlinkcontents = "↩"
     name = "Tags"
     url = "/tags/"
     weight = 3
-[[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
 
 [author]
   name = "Skycoin"
