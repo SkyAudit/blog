@@ -17,14 +17,17 @@ footnotereturnlinkcontents = "↩"
 
 [[menu.main]]
     name = "Posts"
+    identifier = "posts"
     url = "/"
     weight = 1
 [[menu.main]]
     name = "Categories"
+    identifier = "categories"
     url = "/categories/"
     weight = 2
 [[menu.main]]
     name = "Tags"
+    identifier = "tags"
     url = "/tags/"
     weight = 3
 

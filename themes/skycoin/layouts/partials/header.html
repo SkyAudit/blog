@@ -18,8 +18,9 @@
       <img class="logo" alt="Skycoin Blog" src="{{ "/images/logo-outlined.svg" | relURL }}" />
 
       <nav class="nav">
+        {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-          <a class="nav__item" href="{{ .URL }}">{{ .Name }}</a>
+          <a class="nav__item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}nav__item--active{{end}}" href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
       </nav>
     </div>
