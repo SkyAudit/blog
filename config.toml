@@ -28,6 +28,21 @@ footnotereturnlinkcontents = "↩"
     url = "/tags/"
     weight = 3
 
+[[menu.footer]]
+  name = "skycoin.net"
+  url = "https://www.skycoin.net/"
+  weight = 1
+
+[[menu.footer]]
+  name = "Github"
+  url = "https://github.com/skycoin"
+  weight = 2
+
+[[menu.footer]]
+  name = "Blockchain Explorer"
+  url = "https://explorer.skycoin.net/"
+  weight = 3
+
 [author]
   name = "Skycoin"
 
@@ -35,7 +50,6 @@ footnotereturnlinkcontents = "↩"
   keywords = "skycoin"
   rss = "/index.xml"
   description = "Skycoin Project Updates"
-  footer = "[skycoin.net](https://skycoin.net) | [Github](https://github.com/skycoin) | [Explorer](https://explorer.skycoin.net) | [Hugo XMin Theme](https://github.com/yihui/hugo-xmin)"
   email = ""
   github = "skycoin"
   #gitlab = "gitlab id"
