@@ -1,0 +1,15 @@
+.footer {
+  min-height: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__link {
+    margin-right: 2.5rem;
+    color: $cool-gray;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
