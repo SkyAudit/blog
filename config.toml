@@ -49,6 +49,7 @@ footnotereturnlinkcontents = "↩"
 [params]
   keywords = "skycoin"
   rss = "/index.xml"
+  telegram = "https://t.me/Skycoin"
   description = "Skycoin Project Updates"
   email = ""
   github = "skycoin"
