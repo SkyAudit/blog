@@ -1,26 +1,27 @@
 {{ partial "header.html" . }}
-<div>
-  <h2>{{ .Title }}</h2>
-  {{ with .Params.author }}<h2>{{ . }}</h2>{{ end }}
-  {{ if .Params.date }}<h2>{{ .Date.Format "2006/01/02" }}</h2>{{ end }}
-  <p>
-    {{ range $i := (slice "categories") }}
-    {{ with ($.Param $i) }}
-    {{ $i | title }}: {{ range $k := . }}<a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a> {{ end }}
-    {{ end }}
-    {{ end }}
-  </p>
-  <p>
-    {{ range $i := (slice "tags") }}
-    {{ with ($.Param $i) }}
-    {{ $i | title }}: {{ range $k := . }}<a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a> {{ end }}
-    {{ end }}
-    {{ end }}
-  </p>
-</div>
 
-<main>
-  {{ .Content }}
+<main class="post">
+  <div class="meta">
+    <h1 class="meta__title">{{ .Title }}</h1>
+    <div class="meta__information">
+      {{ if .Params.date }}
+        <span class="meta__date">{{ .Date.Format "Jan 2 2006" }}</span>
+      {{ end }}
+
+      {{ range $i := (slice "categories" "tags") }}
+        {{ with ($.Param $i) }}
+          {{ range $k := . }}
+            <a class="meta__link" href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a>
+            {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <section class="post__content">
+    {{ .Content }}
+  </section>
 </main>
 
+{{ partial "telegram.html" . }}
 {{ partial "footer.html" . }}
