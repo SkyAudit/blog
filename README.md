@@ -40,19 +40,14 @@ Move into the theme directory
   cd themes/skycoin/
 ```
 
-Install the `node-sass` devDependency
+Install the dependencies such as `node-sass`
 ```sh
   yarn
   # or
   npm install
 ```
 
-Compile the SCSS
+Compile and build the SCSS
 ```sh
-  yarn compile:css
-```
-
-You can also "watch" the SCSS and compile automatically, by running:
-```sh
-  yarn watch:css
+  yarn build:css
 ```
