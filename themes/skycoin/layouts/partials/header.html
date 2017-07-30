@@ -15,7 +15,9 @@
         <a href="{{ .Site.Params.rss }}" target="_blank" class="btn btn--pill btn--outline btn--blue">Subscribe (RSS)</a>
       </div>
 
-      <img class="logo" alt="Skycoin Blog" src="{{ "/images/logo-outlined.svg" | relURL }}" />
+      <a href="/">
+        <img class="logo" alt="Skycoin Blog" src="{{ "/images/logo-outlined.svg" | relURL }}" />
+      </a>
 
       <nav class="nav">
         {{ $currentPage := . }}
