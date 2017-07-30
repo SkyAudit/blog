@@ -33,4 +33,26 @@ Then, commit the changes and push.
 Themes: Layout and Styling
 ==========================
 
-Look in the `themes/` folder and refer to hugo docs.
+Skycoin Blog uses a custom hugo theme with styling produced using SCSS, when editing any styles you **must** edit the `.scss` files only. If any changes are made to the SCSS partials within `static/css/scss/`, you must re-compile with the following commands.
+
+Move into the theme directory
+```sh
+  cd themes/skycoin/
+```
+
+Install the `node-sass` devDependency
+```sh
+  yarn
+  # or
+  npm install
+```
+
+Compile the SCSS
+```sh
+  yarn compile:css
+```
+
+You can also "watch" the SCSS and compile automatically, by running:
+```sh
+  yarn watch:css
+```
