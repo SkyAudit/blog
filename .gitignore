@@ -1,4 +1,5 @@
 ico/
+node_modules
 
 # Hugo output directory
 /public
