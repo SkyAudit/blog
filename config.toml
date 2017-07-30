@@ -6,7 +6,7 @@ title = "Skycoin Blog"
 #disqusShortname = ""
 
 # hugo-xmin specific variables
-theme = "hugo-xmin"
+theme = "skycoin"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
@@ -17,27 +17,43 @@ footnotereturnlinkcontents = "↩"
 
 [[menu.main]]
     name = "Posts"
+    identifier = "posts"
     url = "/"
     weight = 1
 [[menu.main]]
     name = "Categories"
+    identifier = "categories"
     url = "/categories/"
     weight = 2
 [[menu.main]]
     name = "Tags"
+    identifier = "tags"
     url = "/tags/"
     weight = 3
-[[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
+
+[[menu.footer]]
+  name = "skycoin.net"
+  url = "https://www.skycoin.net/"
+  weight = 1
+
+[[menu.footer]]
+  name = "Github"
+  url = "https://github.com/skycoin"
+  weight = 2
+
+[[menu.footer]]
+  name = "Blockchain Explorer"
+  url = "https://explorer.skycoin.net/"
+  weight = 3
 
 [author]
   name = "Skycoin"
 
 [params]
   keywords = "skycoin"
+  rss = "/index.xml"
+  telegram = "https://t.me/Skycoin"
   description = "Skycoin Project Updates"
-  footer = "[skycoin.net](https://skycoin.net) | [Github](https://github.com/skycoin) | [Explorer](https://explorer.skycoin.net) | [Hugo XMin Theme](https://github.com/yihui/hugo-xmin)"
   email = ""
   github = "skycoin"
   #gitlab = "gitlab id"

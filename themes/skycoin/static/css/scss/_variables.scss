@@ -1,0 +1,36 @@
+// Breakpoints
+$breakpoint-xs: 330px;
+$breakpoint-sm: 640px;
+$breakpoint-md: 832px;
+$breakpoint-lg: 1024px;
+
+// Typography
+$font-family-mono: "Space Mono", monospace, sans-serif;
+$font-family-sans: "Avenir Next", sans-serif;
+
+$font-weight-base: 500;
+$font-weight-bold: 700;
+
+// Border radius
+$border-radius-base: 4px;
+$border-radius-pill: 1000px;
+
+// Box shadow
+$box-shadow-base: 0 1px 2px rgba(0, 0, 0, 0.25);
+$box-shadow-hover: 0 1px 4px rgba(0, 0, 0, 0.25);
+
+// Colors:
+$blue: #4990e2;
+$violet: #9b49e2;
+$indigo: #8481eb;
+$black: #3a4046;
+$dark-gray: #646d77;
+$cool-gray: #96a0ad;
+$gray: #dde1e5;
+$light-gray: #eceef0;
+$pale-grey: #f8f9fa;
+$white: #ffffff;
+
+// Container widths
+$container-width-base: 39rem;
+$container-width-large: 49rem;
