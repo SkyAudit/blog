@@ -1,7 +1,7 @@
 Skycoin Blog
 ============
 
-http://blog.skycoin.net/blog
+http://blog.skycoin.net/
 
 Hosted on github pages.
 
