@@ -27,9 +27,9 @@ Skycoin is set to level the playing field and create a decentralized internet by
 
 But developers say that the Skycoin project isn’t just about cryptocurrency. It’s also the fuel behind Skywire, a peer-to-peer network that boldly seeks to replace the current internet landscape with something better.
 
-“There are other repos on github.com/skycoin for mesh networking and distributed VPN prototypes, where people will be paid tokens for forwarding traffic,” says Skycoin project founder Synth. “There is also a distributed social media service, with peer-to-peer data replication and different experimental projects, as well as research into immutable data structures for next-generation internet. Some of them are very radical.”
+“There are other repos on [github.com/skycoin](https://github.com/skycoin) for mesh networking and distributed VPN prototypes, where people will be paid tokens for forwarding traffic,” says Skycoin project founder Synth. “There is also a distributed social media service, with peer-to-peer data replication and different experimental projects, as well as research into immutable data structures for next-generation internet. Some of them are very radical.”
 
 Skywire users receive coins for sharing content and services. In this way, Skycoin invites users to participate in a larger mission: wresting control away from corporate internet service providers and giving it back to the community. It’s a shared social purpose that makes the Skycoin project unique.
 
-Skycoin’s rollout and ongoing development can be followed online at [skycoin.net](www.skycoin.net).
+Skycoin’s rollout and ongoing development can be followed online at [skycoin.net](https://www.skycoin.net).
 

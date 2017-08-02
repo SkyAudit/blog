@@ -25,7 +25,7 @@ Everywhere we look, governments and corporations exclude disadvantaged groups. C
 
 It’s time to take back control. The internet should be a public resource, not a tool for corporate profit or government surveillance. Together with developers and activists, Skywire is leading this fight.
 
-Skywire is a peer-to-peer alternative network that takes control from ISPs and gives it back to the users. Peer-to-peer technology doesn’t require you to give up your identity and data to access content. Skywire provides a blockchain-based decentralized network where you can browse securely and privately. With Skywire, you own your data. You control your own experience. It’s a truly free and open internet.
+[Skywire](https://github.com/skycoin/skywire) is a peer-to-peer alternative network that takes control from ISPs and gives it back to the users. Peer-to-peer technology doesn’t require you to give up your identity and data to access content. Skywire provides a blockchain-based decentralized network where you can browse securely and privately. With Skywire, you own your data. You control your own experience. It’s a truly free and open internet.
 
 A free internet has benefits that go beyond user experience. It provides a platform for innovation. Developers can create freely without being smothered by powerful corporations. When all sites are treated equally, the public benefits from increased transparency and information on topics ranging from policy to health. Creativity can flourish. Art becomes accessible to a broader demographic. Diverse perspectives can spread and be heard. Free speech can thrive. Users can choose their own experience and create their own content, rather than consuming a limited set of corporate products.
 
@@ -39,13 +39,4 @@ Skywire gives users a choice. Better encryption and locally-stored data lets you
 
 The future of the internet is at risk more now than ever before. With threats of censorship, data theft, user exploitation, and profiteering by ISPs, the need for transformation is urgent. We’re developing Skywire because we understand that urgency. It’s time to unlock the full potential of a free internet.
 
-
-
-
-
-
-
-
-
-
-
+*Source code: https://github.com/skycoin/skywire*

@@ -33,3 +33,5 @@ Skycoin’s distribution policy also keeps the rate of distribution in line with
 All of this makes Skycoin distribution vastly different from current ICOs. While other developers introduce hastily-conceived coins for a quick profit, we’re deploying our own carefully-crafted cryptocurrency in support of a larger, long-term vision. For us, it’s not about the money. It’s about the future.
 
 Skycoin is the achievement of years of coding, produced by over 80 talented developers. We’ve worked hard to realize our vision for Skycoin and Skywire. Since 2012, we’ve executed innovative improvements on Bitcoin that have revolutionized cryptocurrency. Our policy going forward is to protect the growth and equity of all coin holders. With distribution, we’re laying the foundation for Skycoin to deliver on that promise.
+
+*Main page: https://www.skycoin.net/distribution*
