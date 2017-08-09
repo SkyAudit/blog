@@ -17,7 +17,6 @@ description = "The first development update for Skycoin BBS."
 BBS stands for Bulletin Board System. Although traditional BBS systems are no longer widely used, BBS in the modern era is an icon for social services.
 
 Skycoin BBS is one of the first web applications to be implemented using the skycoin ecosystem. Skycoin attempts to revolutionize the internet; decentralizing it and encrypting protocols by default.
->>>>>>> Fix BBS post
 
 Underlying Skycoin BBS is a peer-to-peer self-replicating database named CXO (part of the Skycoin ecosystem). It features immutable tree structures of Golang objects. All objects are referenced via their hashes alongside defined schemata. Each tree has a root object and signed against a public/private key pair. To update the tree, roots have incremental versions called "sequences". This design allows for fast, bandwidth efficient data replication.
 
