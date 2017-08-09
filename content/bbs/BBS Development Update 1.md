@@ -2,7 +2,6 @@
 title = "Skycoin BBS Development Update #1"
 tags = [
     "Development",
-    "BBS Development",
     "BBS",
     "CXO",
 ]

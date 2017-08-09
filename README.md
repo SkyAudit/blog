@@ -1,9 +1,7 @@
 Skycoin Blog
 ============
 
-http://blog.skycoin.net/
-
-Hosted on github pages.
+https://blog.skycoin.net/
 
 This blog uses [hugo](https://gohugo.io/) to generate a static website from markdown files.
 
@@ -17,18 +15,14 @@ Look in the `content/` folder.  Posts are written in markdown.
 Locally, the blog can be previewed with:
 
 ```sh
-hugo server
+hugo serve
 ```
 
-Once ready to publish, build the static files:
-
-```sh
-hugo
-```
-
-This will write static files to `docs/`.
+Make sure that your posts compile without error. Check the formatting.
 
 Then, commit the changes and push.
+
+If there are no problems, then https://blog.skycoin.net/ will automatically update in a few minutes.
 
 Themes: Layout and Styling
 ==========================
