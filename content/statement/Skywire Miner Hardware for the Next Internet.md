@@ -1,0 +1,99 @@
++++
+title = "Skywire Miner: Hardware for the Next Internet"
+tags = [
+    "Skywire",
+    "Skycoin Mining",
+    "Meshnet",
+]
+date = "2017-08-11"
+categories = [
+    "Skywire",
+]
++++
+
+How can we create a truly free and open internet? To answer this question, we
+developed Skywire, the new alternative internet. Skywire is a groundbreaking,
+novel technology that takes control from large internet service providers (ISPs)
+and gives it back to the users. Its peer-to-peer model promotes net neutrality
+and sharing of content without blocking, slowdowns, or censorship. Skywire’s
+open-access network preserves privacy and encourages free speech. Our mission in
+creating Skywire is to shape the internet’s future for the better.
+
+[Skywire](https://github.com/skycoin/skywire)’s revolutionary new networking protocol is already changing the internet
+as we know it. The protocol is based on Multi-Protocol Label Switching (MPLS).
+Benefits of MPLS include speed, quality of service, reliability, and security.
+Skywire goes beyond these standards to deliver an even faster, better network.
+It’s designed for high performance and maximum privacy, allowing users to bypass
+ISPs and take control of their experience, essentially becoming their very own
+ISP.
+
+Skycoin is the currency of Skywire, giving it a practical application beyond just
+a digital currency. When the user forwards traffic or provide network resources,
+he or she receives Skycoin. Likewise, when the user consumes network resources or
+media, he or she spends Skycoin. Users can maximize their coins in two ways:
+having high bandwidth in high-traffic areas, or having highly sought-after
+content.
+
+![Skywire miner](https://i.imgur.com/ASFEeYi.jpg)
+
+The Skywire “miner” is meticulously designed and configured to provide a backbone
+for the new internet. Its custom-built hardware exceeds technical specifications
+to deliver maximum power and performance. Skywire functions as a “miner” for
+Skycoins. It acts as a specialized VPN, using the following hardware
+configuration:
+
+- 8 CPU boards
+- 2 GB of RAM per board
+- 4 CPU cores per board
+- 64 GB of storage per board
+- 64-bit Linux (Alpine Linux)
+- Gigabit ethernet, 8+1 port switch
+
+Each board features an ARM processor, 2 GB of RAM, and anywhere from 32 to 256 GB
+flash storage. The hardware is segmented in such a way that even if one service
+is compromised, the other services on the same machine can’t be. An OpenWRT
+router with strict packet forwarding rules and access control increases security.
+The setup can be further customized to consist of 4, 8, 16, or 32 boards.
+
+![Skywire miner](https://i.imgur.com/2zj4CUV.jpg)
+
+Users can deploy nodes manually, but automatic deployment is just around the
+corner. [Sky-Messenger](https://github.com/skycoin/net) will provide a chatbot
+that allows users to peer clusters by public key. Once metering and settlement is
+implemented, Skywire will generate coins for operating the network.
+
+Plans are already in place for second-generation hardware, which will include an
+OLED screen that displays RAM/CPU/Bandwidth and Skycoins per hour, an OpenWRT
+router, SATA ports on the board for at least 4 CPU boards, and 32 and 64 board
+models. The network runs on its own internal internet with dedicated hardware. In
+the future, the above hardware configuration will be extended to support physical
+wireless mesh networks.
+
+Skywire distributes content faster and more anonymously than other alternatives.
+It does this by combining two powerful components: Aether and Skynet. Aether is a
+peer-to-peer replicated object system that powers the distribution of anonymous
+and immutable web content. Traditional internet apps for video streaming,
+messaging, and other services can all be run on Aether. Skynet, the second
+component, forms the backbone of the distributed networking system. It’s a
+source-routed, public MPLS network built in a unique namespace and on a new
+networking stack. Skynet users essentially function as their own ISPs.
+
+Aether and Skynet can be run separately, but Skywire combines them to form an
+indestructible network. With Skywire, a local cache holds resources without
+connecting to the external internet. File downloads are copied directly into the
+local cache. Peers who are looking for that file can get it from you and pass it
+along the network. By leveraging peer-to-peer technology in an innovative and
+unique way, Skywire provides a viable internet alternative that’s secure, fast,
+and sustainable.
+
+The internet’s future is balanced between large ISPs that restrict content for
+profit and cutting-edge network technology that brings the internet to you, the
+user. Skywire is at the vanguard of this revolution. The truth is, we don’t need
+to rely on ISPs to explore the internet. With Skywire’s networking protocol,
+we’re creating a free, global, decentralized internet experience that’s unlimited
+by the current market. Our vision for Skywire goes beyond transformation. As we
+continue to develop this trailblazing technology, one thing becomes clear:
+Skywire won’t just change the internet. It will reinvent it.
+
+- *[Skywire Github](https://github.com/skycoin/skywire)*
+- *[Sky-Messenger Github](https://github.com/skycoin/net)*
