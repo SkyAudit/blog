@@ -95,5 +95,6 @@ by the current market. Our vision for Skywire goes beyond transformation. As we
 continue to develop this trailblazing technology, one thing becomes clear:
 Skywire won’t just change the internet. It will reinvent it.
 
+- *[More pictures of the Skywire miner](https://imgur.com/a/mpnzh)*
 - *[Skywire Github](https://github.com/skycoin/skywire)*
 - *[Sky-Messenger Github](https://github.com/skycoin/net)*
