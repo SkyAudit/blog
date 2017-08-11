@@ -95,6 +95,37 @@ by the current market. Our vision for Skywire goes beyond transformation. As we
 continue to develop this trailblazing technology, one thing becomes clear:
 Skywire won’t just change the internet. It will reinvent it.
 
+### Details
+
+We want the Skywire miner released in the next 6 months.  Ideally it would
+be released within the next 3 months, but testing alone could take a few months.
+We also need to work out the logistics of assembly and shipping.
+
+The 6 months target is still a soft date.  Until the hardware and software is
+entering the full testing phase, we do not want to promise any date. We will not
+be collecting orders until we are confident about when the miners can be delivered.
+
+*Join the [Skycoin Telegram](https://t.me/Skycoin) for discussion of the Skywire miner and network.*
+
+There will be 300 units available for purchase. When we are ready to take orders,
+a form on the website will allow you to register for one.
+
+The price will be 1 BTC for 1 unit.  Purchasers will receive:
+
+* Skywire miner
+* An amount of Skycoin equal to 1 BTC minus the hardware cost (estimated to be around $600), based on market rates at the time of purchase.
+
+Nodes operating on the Skywire network will be receiving a network incentive reward
+to help build out the network, in addition to traffic forwarding payments.
+For the Skywire miners, we'd like to increase this network incentive reward.
+However, we're still working out a mechanism for distinguishing the Skywire miners
+from other nodes, which could be any machine on the network.
+
+The value and structure of the general network incentive reward is not yet specified.
+More information on this will be in a future release.
+
+### Errata
+
 - *[More pictures of the Skywire miner](https://imgur.com/a/mpnzh)*
 - *[Skywire Github](https://github.com/skycoin/skywire)*
 - *[Sky-Messenger Github](https://github.com/skycoin/net)*
