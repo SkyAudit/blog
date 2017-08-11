@@ -42,9 +42,24 @@ footnotereturnlinkcontents = "↩"
   weight = 2
 
 [[menu.footer]]
+  name = "Twitter"
+  url = "https://twitter.com/skycoinproject"
+  weight = 3
+
+[[menu.footer]]
+  name = "Reddit"
+  url = "https://reddit.com/r/SkycoinProject"
+  weight = 4
+
+[[menu.footer]]
+  name = "Telegram"
+  url = "https://t.me/Skycoin"
+  weight = 5
+
+[[menu.footer]]
   name = "Blockchain Explorer"
   url = "https://explorer.skycoin.net/"
-  weight = 3
+  weight = 6
 
 [author]
   name = "Skycoin"
