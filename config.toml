@@ -74,3 +74,10 @@ footnotereturnlinkcontents = "↩"
   #gitlab = "gitlab id"
   twitter = "skycoinproject"
   #linkedin = "linkedin id"
+
+[Languages]
+  [Languages.en]
+  weight = 0
+  [Languages.ru]
+  weight = 1
+  title = "Skycoin Блог"
