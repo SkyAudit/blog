@@ -2,9 +2,7 @@
 title = "Development Update #7"
 tags = [
     "Development",
-    "Blob Replicator",
-    "Request Manager",
-    "Hash Chain Replicator",
+    "Skywire",
 ]
 date = "2014-03-11"
 categories = [

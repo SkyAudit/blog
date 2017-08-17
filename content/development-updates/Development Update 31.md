@@ -4,8 +4,7 @@ tags = [
     "Development",
     "Wallet Development",
     "Skywire",
-    "Encryption",
-    "Cryptography Upgrade",
+    "Cryptography",
 ]
 date = "2014-07-13"
 categories = [

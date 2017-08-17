@@ -2,7 +2,6 @@
 title = "Development Update #97"
 tags = [
     "Development",
-    "Mathematics Update",
     "Consensus",
 ]
 date = "2016-01-30"

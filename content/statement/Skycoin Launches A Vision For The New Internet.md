@@ -1,7 +1,6 @@
 +++
 title = "Skycoin Launches A Vision for the New Internet"
 tags = [
-    "Skycoin",
     "Statement",
 ]
 date = "2017-07-24"

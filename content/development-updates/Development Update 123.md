@@ -2,9 +2,7 @@
 title = "Development Update #123"
 tags = [
     "Development",
-    "Fixes",
     "Wallet Development",
-    "CLI",
     "Meshnet",
 ]
 date = "2017-01-27"

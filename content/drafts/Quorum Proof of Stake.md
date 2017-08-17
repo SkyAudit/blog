@@ -2,8 +2,7 @@
 draft = true
 title = "Quorum Proof of Stake"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2014-05-23"
 categories = [

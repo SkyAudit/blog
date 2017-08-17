@@ -2,8 +2,8 @@
 title = "Development Update #51"
 tags = [
     "Development",
-    "Fixes",
     "Transaction Malleability",
+    "Cryptography",
 ]
 date = "2015-01-20"
 categories = [

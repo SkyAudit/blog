@@ -2,8 +2,9 @@
 title = "Development Update #20"
 tags = [
     "Development",
-    "White Paper",
-    "Signature Mutability",
+    "Whitepaper",
+    "Cryptography",
+    "Security",
 ]
 date = "2014-05-01"
 categories = [

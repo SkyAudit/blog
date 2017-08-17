@@ -4,7 +4,6 @@ tags = [
     "Ask the Developers",
     "CXO",
     "Skywire",
-    "CX",
     "IPFS",
 ]
 date = "2017-08-09"

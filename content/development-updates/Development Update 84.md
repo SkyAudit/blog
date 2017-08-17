@@ -3,7 +3,6 @@ title = "Development Update #84"
 tags = [
     "Development",
     "Meshnet",
-    "Windows Build",
 ]
 date = "2015-09-13"
 categories = [

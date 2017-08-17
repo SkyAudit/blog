@@ -2,7 +2,7 @@
 title = "Development Update #90"
 tags = [
     "Development",
-    "Crypto Library",
+    "Cryptography",
     "Exchange",
 ]
 date = "2015-12-16"

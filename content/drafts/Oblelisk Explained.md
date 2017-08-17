@@ -4,7 +4,6 @@ title = "Oblelisk Explained"
 tags = [
     "Obelisk",
     "Consensus",
-    "Skycoin",
 ]
 date = "2014-03-24"
 categories = [

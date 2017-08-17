@@ -2,8 +2,7 @@
 title = "Development Update #29"
 tags = [
     "Development",
-    "Research Update",
-    "Skycoin Consenus Algorithm",
+    "Consensus",
 ]
 date = "2014-07-08"
 categories = [

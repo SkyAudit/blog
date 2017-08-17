@@ -5,7 +5,7 @@ tags = [
     "Meshnet",
     "Exchange",
     "Wallet Development",
-    "CX",
+    "CXO",
 ]
 date = "2016-04-08"
 categories = [

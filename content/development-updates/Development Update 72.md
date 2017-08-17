@@ -3,7 +3,6 @@ title = "Development Update #72"
 tags = [
     "Development",
     "Skywire",
-    "Modular",
 ]
 date = "2015-05-08"
 categories = [

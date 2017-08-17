@@ -2,8 +2,7 @@
 title = "Development Update #36"
 tags = [
     "Development",
-    "Cryptography Update",
-    "Fixes",
+    "Cryptography",
 ]
 date = "2014-07-29"
 categories = [

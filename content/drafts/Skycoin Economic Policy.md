@@ -2,8 +2,7 @@
 draft = true
 title = "Skycoin Economic Policy"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2014-05-15"
 categories = [

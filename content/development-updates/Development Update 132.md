@@ -2,7 +2,6 @@
 title = "Development Update #132"
 tags = [
     "Development",
-    "Project Management",
 ]
 date = "2017-06-12"
 categories = [

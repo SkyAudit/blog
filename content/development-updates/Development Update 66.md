@@ -2,7 +2,8 @@
 title = "Development Update #66"
 tags = [
     "Development",
-    "Networking",
+    "PEX",
+    "P2P",
     "Skycoin Survivability",
 ]
 date = "2015-04-13"

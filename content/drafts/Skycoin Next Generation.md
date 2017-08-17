@@ -2,8 +2,7 @@
 draft = true
 title = "Skycoin is a Next Generation Cryptocurrency"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2014-05-06"
 categories = [

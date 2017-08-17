@@ -2,7 +2,6 @@
 title = "Development Update #14"
 tags = [
     "Development",
-    "Personal Blockchains",
 ]
 date = "2014-04-13"
 categories = [

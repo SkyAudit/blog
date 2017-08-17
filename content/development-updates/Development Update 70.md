@@ -2,8 +2,8 @@
 title = "Development Update #70"
 tags = [
     "Development",
-    "Fixes",
-    "Networking",
+    "PEX",
+    "P2P",
 ]
 date = "2015-04-19"
 categories = [

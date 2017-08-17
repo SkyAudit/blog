@@ -3,7 +3,6 @@ title = "Development Update #9"
 tags = [
     "Development",
     "Security",
-    "Skycoin Checkpoint System",
 ]
 date = "2014-03-21"
 categories = [

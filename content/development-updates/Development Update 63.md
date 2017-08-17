@@ -2,8 +2,6 @@
 title = "Development Update #63"
 tags = [
     "Development",
-    "Update",
-    "Onion Structure",
 ]
 date = "2015-04-01"
 categories = [

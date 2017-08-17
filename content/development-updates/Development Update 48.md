@@ -2,7 +2,6 @@
 title = "Development Update #48"
 tags = [
     "Development",
-    "Fixes",
     "Wallet Development",
 ]
 date = "2014-12-25"

@@ -2,8 +2,7 @@
 title = "Development Update #71"
 tags = [
     "Development",
-    "Improvements",
-    "PEX",
+    "P2P",
 ]
 date = "2015-04-26"
 categories = [

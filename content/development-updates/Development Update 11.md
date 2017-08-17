@@ -3,8 +3,7 @@ title = "Development Update #11"
 tags = [
     "Development",
     "Skywire",
-    "Open Source",
-    "Bugs",
+    "P2P",
 ]
 date = "2014-03-31"
 categories = [

@@ -2,8 +2,7 @@
 draft = true
 title = "Getting to Where We Think Bitcoin Should Be"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2014-04-23"
 categories = [

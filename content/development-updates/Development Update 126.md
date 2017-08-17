@@ -2,9 +2,7 @@
 title = "Development Update #126"
 tags = [
     "Development",
-    "Coin Supply",
-    "Fixes",
-    "Changes",
+    "Distribution",
     "Blockchain Explorer",
     "Marketing",
 ]

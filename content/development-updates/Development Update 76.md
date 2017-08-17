@@ -3,7 +3,6 @@ title = "Development Update #76"
 tags = [
     "Development",
     "Skycoin Exchange",
-    "Priorities",
 ]
 date = "2015-07-26"
 categories = [

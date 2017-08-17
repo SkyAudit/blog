@@ -1,7 +1,6 @@
 +++
 title = "Skycoin AMA Log (held at ark.io)"
 tags = [
-    "AMA",
     "Ask the Developers",
 ]
 date = "2017-08-01"

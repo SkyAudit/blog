@@ -2,7 +2,6 @@
 title = "Development Update #52"
 tags = [
     "Development",
-    "Update",
 ]
 date = "2015-01-21"
 categories = [

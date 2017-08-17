@@ -4,7 +4,6 @@ title = "Overview of Obelisk: Distributed Consensus "
 tags = [
     "Development",
     "Obelisk",
-    "Skycoin",
     "Consensus",
     "Bitcoin",
 ]

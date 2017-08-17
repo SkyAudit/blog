@@ -2,15 +2,11 @@
 title = "Ask the Developers #1"
 tags = [
     "Ask the Developers",
-    "Questions",
-    "bitcoin",
-    "Skycoin",
-    "Feedback",
+
 ]
 date = "2013-12-22"
 categories = [
     "Ask the Developers",
-    "Feedback",
 ]
 description = "A weekly session where users can comment or ask questions to the Skycoin Developers in order to gain a better insight and understanding into the Skycoin Project "
 +++

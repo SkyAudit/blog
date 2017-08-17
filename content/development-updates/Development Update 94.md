@@ -3,8 +3,6 @@ title = "Development Update #94"
 tags = [
     "Development",
     "Meshnet",
-    "Cross Compilation",
-    "Deterministic Builds",
 ]
 date = "2016-01-04"
 categories = [

@@ -2,8 +2,7 @@
 draft = true
 title = "Clarification on the Personal Blockchain"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2014-05-06"
 categories = [

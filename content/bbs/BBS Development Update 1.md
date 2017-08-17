@@ -7,7 +7,7 @@ tags = [
 ]
 date = "2017-08-05"
 categories = [
-    "BBS Development Updates",
+    "Development Updates",
 ]
 description = "The first development update for Skycoin BBS."
 +++

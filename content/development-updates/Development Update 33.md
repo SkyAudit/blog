@@ -3,7 +3,7 @@ title = "Development Update #33"
 tags = [
     "Development",
     "Skywire",
-    "Digital Autonomous Corporations",
+    "Digital Autonomous Corporation",
 ]
 date = "2014-07-16"
 categories = [

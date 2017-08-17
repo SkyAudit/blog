@@ -3,7 +3,6 @@ title = "Development Update #117"
 tags = [
     "Development",
     "Post Blockchain Social Platform",
-    "CLI",
     "Meshnet",
 ]
 date = "2016-11-23"

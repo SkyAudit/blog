@@ -2,8 +2,7 @@
 draft = true
 title = "Musings on the Origin of Skycoin"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2014-08-23"
 categories = [

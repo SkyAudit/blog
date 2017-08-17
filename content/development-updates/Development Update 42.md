@@ -2,12 +2,10 @@
 title = "Development Update #42"
 tags = [
     "Development",
-    "Changes",
 ]
 date = "2014-11-12"
 categories = [
     "Development Updates",
-    "Progress",
 ]
 description = "Release notes highlighting the current development behind Skycoin."
 +++

@@ -7,7 +7,6 @@ tags = [
 ]
 date = "2017-07-27"
 categories = [
-    "Skywire",
     "Statement",
 ]
 description = ""

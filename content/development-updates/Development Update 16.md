@@ -3,7 +3,7 @@ title = "Development Update #16"
 tags = [
     "Development",
     "Economic Policy",
-    "Coin Distribution",
+    "Distribution",
     "Bounties",
 ]
 date = "2014-04-21"

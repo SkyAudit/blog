@@ -3,8 +3,6 @@ title = "Development Update #41"
 tags = [
     "Development",
     "Consensus",
-    "Distributed Applications",
-    "Communication Infrastructure",
 ]
 date = "2014-10-31"
 categories = [
