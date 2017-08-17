@@ -2,8 +2,8 @@
 draft = true
 title = "Comparing Skycoin to Ripple"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
+    "Ripple",
 ]
 date = "2014-04-23"
 categories = [

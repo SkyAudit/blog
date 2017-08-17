@@ -3,7 +3,6 @@ title = "Development Update #32"
 tags = [
     "Development",
     "Aether",
-    "Governance",
 ]
 date = "2014-07-14"
 categories = [

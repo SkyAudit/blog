@@ -2,10 +2,6 @@
 title = "Development Update #127"
 tags = [
     "Development",
-    "Update",
-    "Skycoin",
-    "Progress",
-    "Milestones",
 ]
 date = "2017-03-16"
 categories = [

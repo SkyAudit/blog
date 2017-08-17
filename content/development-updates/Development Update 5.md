@@ -2,7 +2,7 @@
 title = "Development Update #5"
 tags = [
     "Development",
-    "Secp25k1 Hash",
+    "Cryptography",
 ]
 date = "2014-03-04"
 categories = [

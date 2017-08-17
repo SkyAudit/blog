@@ -2,7 +2,7 @@
 title = "Development Update #85"
 tags = [
     "Development",
-    "Networking",
+    "P2P",
 ]
 date = "2015-09-19"
 categories = [

@@ -2,7 +2,7 @@
 title = "Development Update #80"
 tags = [
     "Development",
-    "Peer Exchange",
+    "PEX",
 ]
 date = "2015-08-25"
 categories = [

@@ -2,8 +2,7 @@
 draft = true
 title = "Can Skycoin be 51% Attacked?"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2015-02-17"
 categories = [

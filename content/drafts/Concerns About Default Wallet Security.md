@@ -3,7 +3,6 @@ draft = true
 title = "Concerns about Default Wallet Security"
 tags = [
     "Wallet Security",
-    "Skycoin",
 ]
 date = "2015-02-25"
 categories = [

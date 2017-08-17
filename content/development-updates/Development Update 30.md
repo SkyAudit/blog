@@ -3,7 +3,6 @@ title = "Development Update #30"
 tags = [
     "Development",
     "Meshnet",
-    "IPv6",
 ]
 date = "2014-07-10"
 categories = [

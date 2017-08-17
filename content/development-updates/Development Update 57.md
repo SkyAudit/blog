@@ -2,7 +2,6 @@
 title = "Development Update #57"
 tags = [
     "Development",
-    "Skycoin Complexity",
 ]
 date = "2015-02-04"
 categories = [

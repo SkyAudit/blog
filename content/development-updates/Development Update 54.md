@@ -3,7 +3,7 @@ title = "Development Update #54"
 tags = [
     "Development",
     "Consensus",
-    "White Paper",
+    "Whitepaper",
 ]
 date = "2015-01-25"
 categories = [

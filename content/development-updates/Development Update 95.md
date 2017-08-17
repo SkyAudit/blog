@@ -2,7 +2,6 @@
 title = "Development Update #95"
 tags = [
     "Development",
-    "Cross Compilation",
 ]
 date = "2016-01-06"
 categories = [

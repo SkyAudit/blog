@@ -2,8 +2,6 @@
 title = "Development Update #105"
 tags = [
     "Development",
-    "Priorities",
-    "Defining Skycoin",
 ]
 date = "2016-09-01"
 categories = [

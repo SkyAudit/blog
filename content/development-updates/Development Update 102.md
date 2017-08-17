@@ -2,7 +2,7 @@
 title = "Development Update #102"
 tags = [
     "Development",
-    "CX",
+    "CXO",
     "Meshnet",
 ]
 date = "2016-05-31"

@@ -3,8 +3,6 @@ title = "Development Update #114"
 tags = [
     "Development",
     "Aether",
-    "Website",
-    "Skyhash",
     "Meshnet",
 ]
 date = "2016-11-04"

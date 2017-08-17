@@ -2,7 +2,6 @@
 title = "Development Update #133"
 tags = [
     "Development",
-    "Mining",
     "Skycoin Mining",
 ]
 date = "2017-06-13"

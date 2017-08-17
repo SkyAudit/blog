@@ -3,8 +3,6 @@ title = "Development Update #28"
 tags = [
     "Development",
     "Skywire",
-    "Skycoin Application Framework",
-    "Project Management",
 ]
 date = "2014-06-29"
 categories = [

@@ -4,7 +4,6 @@ title = "Thoughts on Marketing and Speculation"
 tags = [
     "Marketing",
     "Speculation",
-    "Skycoin",
     "Price",
     "Bitcoin",
 ]

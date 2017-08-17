@@ -4,7 +4,6 @@ title = "TwoStep: Post Quantum Secure Transactions"
 tags = [
     "Development",
     "Security",
-    "Skycoin",
     "TwoStep",
     "Bitcoin",
 ]

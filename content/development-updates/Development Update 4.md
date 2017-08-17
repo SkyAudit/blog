@@ -2,9 +2,7 @@
 title = "Development Update #4"
 tags = [
     "Development",
-    "Changes",
-    "Software Update",
-    "Privacy Update",
+    "Security",
 ]
 date = "2014-03-03"
 categories = [

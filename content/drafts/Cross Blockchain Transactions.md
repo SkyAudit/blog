@@ -2,8 +2,7 @@
 draft = true
 title = "Cross Blockchain Transactions:"
 tags = [
-    "Cross blockchain Transactions",
-    "Skycoin",
+    "Cross Blockchain Transactions",
 ]
 date = "2014-04-16"
 categories = [

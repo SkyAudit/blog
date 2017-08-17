@@ -2,8 +2,7 @@
 draft = true
 title = "How Well Does the Meshnet Work?"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2014-06-19"
 categories = [

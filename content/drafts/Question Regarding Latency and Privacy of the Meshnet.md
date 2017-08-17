@@ -2,8 +2,7 @@
 draft = true
 title = "Question Regarding Latency and Privacy of the Meshnet"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2014-08-09"
 categories = [

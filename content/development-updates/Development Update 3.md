@@ -3,7 +3,6 @@ title = "Development Update #3"
 tags = [
     "Development",
     "Security",
-    "Anti Spam Mechanisms",
 ]
 date = "2014-02-23"
 categories = [

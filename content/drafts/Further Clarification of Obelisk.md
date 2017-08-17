@@ -2,8 +2,7 @@
 draft = true
 title = "Further Clarification of Obelisk"
 tags = [
-    "Decentralized",
-    "Skycoin",
+    "Decentralization",
 ]
 date = "2014-06-19"
 categories = [

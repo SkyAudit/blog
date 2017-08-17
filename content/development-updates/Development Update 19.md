@@ -2,7 +2,7 @@
 title = "Development Update #19"
 tags = [
     "Development",
-    "White Paper",
+    "Whitepaper",
 ]
 date = "2014-04-28"
 categories = [

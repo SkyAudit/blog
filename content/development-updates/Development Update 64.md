@@ -2,9 +2,8 @@
 title = "Development Update #64"
 tags = [
     "Development",
-    "Update",
     "IPFS",
-    "Skycoin Merkle-dag System",
+    "Skycoin Merkle-DAG System",
 ]
 date = "2015-04-02"
 categories = [
