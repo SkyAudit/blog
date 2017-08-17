@@ -34,15 +34,7 @@ card networks. With zero transaction fees and lightning-fast speed, Skycoin repr
 first viable alternative to centralized banking. It’s poised to do what Bitcoin couldn’t:
 transform the financial world for everyone across the globe.
 
-[chart]
-
-- Bank transfer (4 to 7 days)
-- Bitcoin Payment (Hours)
-- Proof of Stake Payment (Ethereum, Half an Hour)
-- Visa Transaction (10 seconds)
-- Skycoin Transaction (2 seconds)
-
-[/chart]
+![Skycoin transaction speed comparison chart](https://i.imgur.com/i0KNIIr.jpg)
 
 ## Digital Gold: No Deflation
 
