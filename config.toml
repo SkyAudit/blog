@@ -78,6 +78,10 @@ footnotereturnlinkcontents = "↩"
 [Languages]
   [Languages.en]
   weight = 0
-  [Languages.ru]
+  [Languages.zh]
   weight = 1
+  title = "天空币博客"
+  [Languages.ru]
+  weight = 2
   title = "Skycoin Блог"
+
