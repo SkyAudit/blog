@@ -24,6 +24,20 @@ Then, commit the changes and push.
 
 If there are no problems, then https://blog.skycoin.net/ will automatically update in a few minutes.
 
+Translations
+============
+
+https://gohugo.io/content-management/multilingual/
+
+If the language is not currently supported by the blog,
+add a language config statement to config.toml (see the file for an example).
+
+The blog posts are in a subdirectory in `content/`.
+To add a translation of an existing post, change the extension from `.md` to `.$LANG.md`.
+
+For example, to add a German translation of `content/statement/Skycoin Distribution.md`,
+name the file `content/statement/Skycoin Distribution.de.md`.
+
 Themes: Layout and Styling
 ==========================
 

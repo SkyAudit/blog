@@ -1,6 +1,7 @@
 baseURL = "https://blog.skycoin.net/"
 languageCode = "en-us"
 title = "Skycoin Blog"
+defaultContentLanguage = "en"
 
 #googleAnalytics = ""
 #disqusShortname = ""
@@ -71,13 +72,34 @@ footnotereturnlinkcontents = "↩"
   description = "Skycoin Project Updates"
   email = ""
   github = "skycoin"
-  #gitlab = "gitlab id"
   twitter = "skycoinproject"
-  #linkedin = "linkedin id"
 
 [Languages]
-  [Languages.en]
+[Languages.en]
   weight = 0
-  [Languages.ru]
+  title = "Skycoin Blog"
+
+[Languages.zh]
   weight = 1
+  title = "天空币博客"
+  hasCJKLanguage = true
+
+[Languages.ru]
+  weight = 2
   title = "Skycoin Блог"
+
+# Workaround because I can't figure out how to add metadata to Languages
+# in order to print the language name. Can only figure out how to print the
+# language code
+[[menu.languages]]
+  name = "English"
+  weight = 0
+  url = "/"
+[[menu.languages]]
+  name = "中文"
+  weight = 1
+  url = "/zh/"
+[[menu.languages]]
+  name = "Ру́сский"
+  weight = 2
+  url = "/ru/"

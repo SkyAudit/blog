@@ -1,7 +1,16 @@
   <footer class="footer">
-    {{ range .Site.Menus.footer }}
-      <a class="footer__link" href="{{ .URL }}">{{ .Name }}</a>
-    {{ end }}
+    <div>
+      {{ range .Site.Menus.footer }}
+        <a class="footer__link" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
+  </footer>
+  <footer class="footer">
+    <div>
+      {{ range .Site.Menus.languages }}
+        <a class="footer__link" href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
   </footer>
 </body>
 </html>
