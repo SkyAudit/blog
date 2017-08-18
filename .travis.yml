@@ -2,8 +2,7 @@ language: go
 go:
 - '1.8'
 install:
-- go get github.com/kardianos/govendor
-- govendor get github.com/gohugoio/hugo
+- go get -v github.com/gohugoio/hugo
 - sudo pip install s3cmd
 script:
 - set -eo pipefail
