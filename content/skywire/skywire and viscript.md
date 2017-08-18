@@ -8,7 +8,6 @@ tags = [
 date = "2017-08-15"
 categories = [
     "Skywire",
-    "Viscript",
 ]
 +++
 ## Introduction
@@ -38,15 +37,15 @@ We can add app configurations in the config.yaml file, like the meshnet-socks-se
             start meshnet-socks-server sockssrv0 101.202.34.56:9000 8001
 ```
 
-After restart viscript, we can check the applications that can be started by viscript, by command apps. 
+After restart viscript, we can check the applications that can be started by viscript, by command apps.
 
-As you can see in the screenshot, we can start app by using short command `s` (`s apptracker 127.0.0.1:20000`) . 
+As you can see in the screenshot, we can start app by using short command `s` (`s apptracker 127.0.0.1:20000`) .
 
 Then viscript starts it with a unique sequence id, we can ping(`ping`), check resource usage(`ru`) and shutdown(`sd`) through this id.
 
 ### Skywire
 
-[Skywire](https://github.com/skycoin/skywire) is a peer-to-peer alternative network that takes control from ISPs and gives it back to the users. There are several components inside it, node manager, node and applications run on meshnet like vpn client, vpn server, socks client, socks server and so on. 
+[Skywire](https://github.com/skycoin/skywire) is a peer-to-peer alternative network that takes control from ISPs and gives it back to the users. There are several components inside it, node manager, node and applications run on meshnet like vpn client, vpn server, socks client, socks server and so on.
 
 All the components inside Skywire are based on signal library as a signal client. So they can be launched, managed and shutdown by viscript.
 
@@ -76,7 +75,7 @@ All the components inside Skywire are based on signal library as a signal client
 
 There are client side and server side applications for each service, like vpn client and vpn server. They runs on Skywire meshnet. As we know, Skycoin is the currency of Skywire, when the user forwards traffic or provide network resources, he or she receives Skycoin. Likewise, when the user consumes network resources or media, he or she spends Skycoin. Once metering and settlement is implemented, Skywire will generate coins for operating the network.
 
-Node, Node Manager and Messenger are the key components of Skywire meshnet. Node is a peer to peer mesh node. Service applications will register to Node, and their traffic will be forwarded by Node. Node Manager manages the routes between nodes in meshnet. Messenger allows users to peer clusters by public key. They are the cornerstones of Skywire meshnet. 
+Node, Node Manager and Messenger are the key components of Skywire meshnet. Node is a peer to peer mesh node. Service applications will register to Node, and their traffic will be forwarded by Node. Node Manager manages the routes between nodes in meshnet. Messenger allows users to peer clusters by public key. They are the cornerstones of Skywire meshnet.
 
 ## Summary
 
