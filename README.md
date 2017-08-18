@@ -27,6 +27,8 @@ If there are no problems, then https://blog.skycoin.net/ will automatically upda
 Translations
 ============
 
+https://gohugo.io/content-management/multilingual/
+
 If the language is not currently supported by the blog,
 add a language config statement to config.toml (see the file for an example).
 

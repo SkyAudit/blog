@@ -11,7 +11,7 @@
       {{ range $i := (slice "categories" "tags") }}
         {{ with ($.Param $i) }}
           {{ range $k := . }}
-            <a class="meta__link" href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a>
+            <a class="meta__link" href="{{ relLangURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a>
             {{ end }}
         {{ end }}
       {{ end }}
