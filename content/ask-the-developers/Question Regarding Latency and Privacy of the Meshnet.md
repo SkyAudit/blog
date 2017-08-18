@@ -1,17 +1,19 @@
 +++
-draft = true
 title = "Question Regarding Latency and Privacy of the Meshnet"
 tags = [
-    "Decentralization",
+    "Ask the Developers",
+    "Skywire",
+    "Meshnet",
+    "Privacy",
 ]
-date = "2014-08-09"
+date = "2017-08-18"
 categories = [
-    "Ideology",
-    "Information",
-    "MEshnet",
+    "Skywire",
+    "Ask the Developers",
 ]
-description = "Yes. It is actually faster than TCP/IP. ISPs do \"hot potato\" routing. The latency should not be worse than TCP/IP and in theory can be faster."
 +++
+
+*This post refers to Skywire earlier on in its formation, before it was named Skywire. Adapted from a bitcointalk post dated August 09, 2014.*
 
 Quote from: **CraigM** on August 09, 2014, 07:20:24 AM
 
@@ -28,6 +30,7 @@ Quote from: **CraigM** on August 09, 2014, 07:20:24 AM
 Yes. It is actually faster than TCP/IP. ISPs do "hot potato" routing. The latency should not be worse than TCP/IP and in theory can be faster.
 
 **The privacy guarantees are**
+
 - each node only knows the previous and next hop
 - transmission between nodes is encrypted
 - transmission is encrypted end-to-end
@@ -44,7 +47,7 @@ So it is like a very low latency TOR with micropayments for bandwidth.
 - all low latency networks are subject to timing channel attacks
 
 
-## Route Servers :
+## Route Servers
 
 Yes route servers are a weak link. For maximum privacy you should run your own internal route server.
 
@@ -61,6 +64,7 @@ The node forwarding the bandwidth, connects to the gateway also. The two nodes c
 A gateway in the Skycoin protocol is any server that holds coins or account balances on behalf of 3rd parties. Gateways are deposit institutions and they have their own protocol and API.
 
 **Eventually,**
+
 - there will be multiple gateways and cross gateway coin transfers. These transactions occur in private and do not appear on the blockchain until you withdraw the coins from the gateway.
 - messaging with gateway will occur through an asynchronous communication channel (each message steam will get a new pseudonymous identity)
 - part of the gateway protocol is an OT implementation, which allows you to prove if a particular gateway is stealing coins. You sign each API call to the gateway, then gateway executes and signs the output. So there is a chain of linked signatures and transactions and the gateway cannot make coins disappear without being able to forge your signature. If you deposit coins somewhere and they disappear, you can publish your transaction log and then the owner of the accused node has to produce a log showing that you authorized the coins to go somewhere. If they cannot produce a signed API call, then it proves they are lying/dishonest.
