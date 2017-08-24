@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Skycoin Blog"
 defaultContentLanguage = "en"
 
-#googleAnalytics = ""
+googleAnalytics = "UA-105234182-1"
 #disqusShortname = ""
 
 # hugo-xmin specific variables
