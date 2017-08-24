@@ -73,6 +73,7 @@ footnotereturnlinkcontents = "↩"
   email = ""
   github = "skycoin"
   twitter = "skycoinproject"
+  twitterAnalytics = "ny03t"
 
 [Languages]
 [Languages.en]
