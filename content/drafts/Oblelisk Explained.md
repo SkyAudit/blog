@@ -1,6 +1,6 @@
 +++
 draft = true
-title = "Oblelisk Explained"
+title = "Obelisk Explained"
 tags = [
     "Obelisk",
     "Consensus",
@@ -10,7 +10,6 @@ categories = [
     "Obelisk",
     "Information",
 ]
-description = "Obelisk is what makes Skycoin, Bitcoin 2.0. Obelisk is a sustainable alternative to proof-of-work. Obelisk is a system that replaces proof of work for blockchain consensus and eliminates the possibility of a 51% attack."
 +++
 
 ## What is Obelisk?
