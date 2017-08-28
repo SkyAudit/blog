@@ -9,6 +9,8 @@ categories = [
 ]
 +++
 
+*Updated August 29, 2017. Added reddit activity bonus. Increased GIF bounty to 20.*
+
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
 
 ## Bounties
@@ -31,7 +33,7 @@ Production Promotional Videos (e.g. describing skycoin technology)
 
 GIFs
 
-* 15 SKY each
+* 20 SKY each
 
 Blog posts, articles
 
@@ -40,6 +42,12 @@ Blog posts, articles
 
 Please be sincere with content produced for the bounty program.
 If something appears to be done in bad faith we may reject or reduce the reward (for example, fake youtube views or sloppy infographics).
+
+Special bonus for active community users:
+
+* 10 SKY - 100 [skycoin subreddit](https://reddit.com/r/skycoinproject) posts
+* 100 SKY - 500 [skycoin subreddit](https://reddit.com/r/skycoinproject) posts
+* 1000 SKY - 2500 [skycoin subreddit](https://reddit.com/r/skycoinproject) posts
 
 *If you have other ideas for promoting skycoin that deserve a bounty, please suggest them in the telegram channels.*
 

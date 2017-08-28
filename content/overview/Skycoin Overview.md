@@ -54,7 +54,7 @@ Bitcoin uses a technique called Proof‐of‐Work
 (PoW) to determine a unique blockchain. A valid
 block requires a hash value, which is below a target
 value. Nodes add transactions to a new block and
-randomly try notches until a valid hash for a block
+randomly try nonces until a valid hash for a block
 is found.
 
 A function is used to create a total ordering
