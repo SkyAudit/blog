@@ -108,17 +108,17 @@ used.
 
 ### * Use Of “outputs” For Balances
 
-Ignores trying to create divisible digital
+It ignores trying to create divisible digital
 cash: To pay $20 from a $25 output,
 send $20 to person and $5 back to
 yourself.
 
 ### * Pow Difficulty Function And Block Depth
 
-First use of function to define total
-ordering on block trees. Public ledger
-circumvents double spending problem
-in traditional digital cash.
+First use of a function that defines total
+ordering on block trees. The public ledger
+circumvents the double spending problem
+of traditional digital cash.
 
 # Major Flaws Of Bitcoin
 
