@@ -43,7 +43,6 @@ categories = [
 
 <!-- /MarkdownTOC -->
 
-
 ## Introduction
 
 Skywire objectives:
@@ -138,6 +137,10 @@ Notes:
 * Encryption is fast. Objective is 10 Gb/s throughput on FPGA hardware, 200 Mb/s on ARM
 
 ## Incentives: Payment Protocol
+
+![Skywire miner](https://i.imgur.com/2zj4CUV.jpg)
+
+*[Skywire "miner"](/statement/skywire-miner-hardware-for-the-next-internet/)*
 
 Nodes want to forward traffic and receive coins. This is the equivalent of “mining” in Skycoin and how many users will get their first coins.
 

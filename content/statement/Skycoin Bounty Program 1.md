@@ -11,13 +11,33 @@ categories = [
 
 *Updated August 29, 2017. Added reddit activity bonus. Increased GIF bounty to 20.*
 
+*Updated again August 29, 2017. Added translation bounties.*
+
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
 
-## Bounties
+## Bounty Categories
+
+<!-- MarkdownTOC autolink="true" bracket="round" -->
+
+- [Graphics](#graphics)
+- [Video](#video)
+- [Translations](#translations)
+- [Writing](#writing)
+- [Social Media Engagement](#social-media-engagement)
+
+<!-- /MarkdownTOC -->
+
+## Graphics
 
 Infographics about Skycoin, Skywire meshnet, BBS, CXO etc.
 
 * 15 SKY each
+
+GIFs
+
+* 20 SKY each
+
+## Video
 
 Youtube Videos (e.g. vlog type material) about Skycoin in general
 
@@ -31,9 +51,38 @@ Production Promotional Videos (e.g. describing skycoin technology)
 * You can also post this to your youtube channel and collect that bounty
 * Skycoin may use these on their own youtube channel or on the skycoin website
 
-GIFs
+## Translations
 
-* 20 SKY each
+Translate posts from this blog.
+
+Accepted languages are:
+
+* Deutsche
+* Español
+* 日本語
+* 한국어
+* 中文
+* Рyсский
+
+We may add more languages later but aren't able to verify translations for other languages yet.
+
+Every 500 words is 5 SKY. For example:
+
+* 1-500 words: 5 SKY
+* 501-1000 words: 10 SKY
+* 1001-1500 words: 15 SKY
+* ...and so on...
+
+At the bottom of each English-language blog post, the reward for that article is shown.
+
+The post must not already be translated.
+
+If a post is already translated but you find mistakes or improvement, we can give a small reward as appropriate.
+
+One or two other native speakers of the translated language must review the translation to check its quality.
+Bad translations will not receive a bounty, although you are free to improve it until it is accepted.
+
+## Writing
 
 Blog posts, articles
 
@@ -43,12 +92,14 @@ Blog posts, articles
 Please be sincere with content produced for the bounty program.
 If something appears to be done in bad faith we may reject or reduce the reward (for example, fake youtube views or sloppy infographics).
 
+## Social Media Engagement
+
 Special bonus for active community users:
 
-* 10 SKY - 100 [skycoin subreddit](https://reddit.com/r/skycoinproject) posts
-* 100 SKY - 500 [skycoin subreddit](https://reddit.com/r/skycoinproject) posts
-* 1000 SKY - 2500 [skycoin subreddit](https://reddit.com/r/skycoinproject) posts
+* 10 SKY - 100 [Skycoin subreddit](https://reddit.com/r/skycoinproject) posts
+* 100 SKY - 500 [Skycoin subreddit](https://reddit.com/r/skycoinproject) posts
+* 1000 SKY - 2500 [Skycoin subreddit](https://reddit.com/r/skycoinproject) posts
 
-*If you have other ideas for promoting skycoin that deserve a bounty, please suggest them in the telegram channels.*
+*If you have other ideas for promoting Skycoin that deserve a bounty, please suggest them in the Telegram channel.*
 
 [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
