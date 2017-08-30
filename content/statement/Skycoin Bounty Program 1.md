@@ -9,9 +9,12 @@ categories = [
 ]
 +++
 
-*Updated August 29, 2017. Added reddit activity bonus. Increased GIF bounty to 20.*
+*Updated August 20, 2017. Remove GIF bounties.*
 
 *Updated again August 29, 2017. Added translation bounties.*
+
+*Updated August 29, 2017. Added reddit activity bonus. Increased GIF bounty to 20.*
+
 
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
 
@@ -31,11 +34,9 @@ Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/
 
 Infographics about Skycoin, Skywire meshnet, BBS, CXO etc.
 
+Branding assets (logos, color) are on the [downloads page](https://www.skycoin.net/downloads).
+
 * 15 SKY each
-
-GIFs
-
-* 20 SKY each
 
 ## Video
 
