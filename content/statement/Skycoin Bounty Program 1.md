@@ -62,8 +62,9 @@ Accepted languages are:
 * Español
 * 日本語
 * 한국어
-* 中文
-* Рyсский
+* Ελληνικά
+
+*Note: 中文 and Рyсский translations all have someone working on them now*
 
 We may add more languages later but aren't able to verify translations for other languages yet.
 
