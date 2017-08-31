@@ -83,15 +83,18 @@ pygmentsStyle = "murphy"
 [Languages.en]
   weight = 0
   title = "Skycoin Blog"
+  languageName = "English"
 
 [Languages.zh]
   weight = 1
   title = "天空币博客"
   hasCJKLanguage = true
+  languageName = "中文" 
 
 [Languages.ru]
   weight = 2
   title = "Skycoin Блог"
+  languageName = "Русский"
 
 # Workaround because I can't figure out how to add metadata to Languages
 # in order to print the language name. Can only figure out how to print the
@@ -105,6 +108,6 @@ pygmentsStyle = "murphy"
   weight = 1
   url = "/zh/"
 [[menu.languages]]
-  name = "Ру́сский"
+  name = "Русский"
   weight = 2
   url = "/ru/"
