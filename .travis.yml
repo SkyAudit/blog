@@ -4,9 +4,11 @@ go:
 install:
 - go get -v github.com/gohugoio/hugo
 - sudo pip install s3cmd
+- sudo pip install Pygments
 script:
 - set -eo pipefail
 - hugo -v
+- pygmentize -V
 - ls public/
 - python --version
 - s3cmd --version

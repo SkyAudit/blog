@@ -3,3 +3,5 @@ node_modules
 
 # Hugo output directory
 /public
+
+yarn.lock
