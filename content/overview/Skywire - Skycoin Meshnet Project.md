@@ -11,6 +11,8 @@ categories = [
 ]
 +++
 
+![Skywire: The New Internet](https://i.imgur.com/9Jk0gLe.jpg)
+
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
 - [Introduction](#introduction)
