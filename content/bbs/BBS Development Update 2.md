@@ -2,15 +2,13 @@
 title = "Skycoin BBS Development Update #2"
 tags = [
     "Development",
-    "BBS Development",
     "BBS",
     "CXO",
 ]
 date = "2017-08-31"
 categories = [
-    "BBS Development Updates",
+    "Development Updates",
 ]
-description = "Edging close to the release of version 0.2!"
 +++
 
 It's been a bit more than a month since the release of version 0.1, and 0.2 is soon to be ready!
@@ -29,7 +27,7 @@ CXO has been seriously refactored to be faster and more stable. The API has been
 
 These changes have prompted BBS to change the majority of it's codebase too.
 
-Click [here](https://github.com/skycoin/cxo) to check out the repository for CXO.
+[Check out the CXO repository here.](https://github.com/skycoin/cxo)
 
 ## CXO Data Structure Changes
 
