@@ -12,6 +12,10 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 
+# enables ```lang ``` style syntax highlighted blocks
+pygmentsCodeFences = true
+pygmentsStyle = "murphy"
+
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
     note = "/note/:year/:month/:day/:slug/"
