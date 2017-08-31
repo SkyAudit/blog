@@ -21,18 +21,18 @@
 <body>
   <header class="header">
     <div class="header__wrapper">
-      <div class="js-dropdown header-dropdown">
-        {{ $currentLang := .Site.Language.LanguageName }}
-        <div class="js-dropdown-current header-dropdown__current">{{ $currentLang }}</div>
-        <div class="js-dropdown-list header-dropdown__list">
-          {{ range .Site.Menus.languages }}
-            <a class="js-dropdown-item header-dropdown__item {{ if eq $currentLang .Name }} header-dropdown__item_active {{ end }}" href="{{ .URL }}">{{ string .Name }}</a>
-          {{ end }}
-        </div>
-      </div>
       <div class="header__topnav">
         <a href="https://skycoin.net" class="header__link">&larr; skycoin.net</a>
-        <a href="{{ .Site.Params.rss }}" target="_blank" class="btn btn--pill btn--outline btn--blue">Subscribe (RSS)</a>
+        <div class="js-dropdown header-dropdown">
+          {{ $currentLang := .Site.Language.LanguageName }}
+          <div class="js-dropdown-current header-dropdown__current">{{ $currentLang }}</div>
+          <div class="js-dropdown-list header-dropdown__list">
+            {{ range .Site.Menus.languages }}
+              <a class="js-dropdown-item header-dropdown__item {{ if eq $currentLang .Name }} header-dropdown__item_active {{ end }}" href="{{ .URL }}">{{ string .Name }}</a>
+            {{ end }}
+          </div>
+        </div>
+        <a href="{{ .Site.Params.rss }}" target="_blank" class="btn btn--pill btn--outline btn--blue header__btn">Subscribe (RSS)</a>
       </div>
 
       <a href="/">
