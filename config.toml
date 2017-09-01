@@ -81,7 +81,7 @@ pygmentsStyle = "murphy"
 
 [Languages]
 [Languages.en]
-  weight = 0
+  weight = -1
   title = "Skycoin Blog"
   languageName = "English"
 
@@ -89,7 +89,7 @@ pygmentsStyle = "murphy"
   weight = 1
   title = "天空币博客"
   hasCJKLanguage = true
-  languageName = "中文" 
+  languageName = "中文"
 
 [Languages.ru]
   weight = 2
@@ -100,13 +100,30 @@ pygmentsStyle = "murphy"
   weight = 3
   title = "Skycoin 블로그"
   languageName = "한국어"
-  
-# Workaround because I can't figure out how to add metadata to Languages
-# in order to print the language name. Can only figure out how to print the
-# language code
+
+[Languages.es]
+    weight = 4
+    title = "Skycoin Blog"
+    languageName = "Español"
+
+[Languages.de]
+    weight = 5
+    title = "Skycoin Blog"
+    languageName = "Deutsche"
+
+[Languages.jp]
+    weight = 6
+    title = "Skycoin Blog"
+    languageName = "日本語"
+
+[Languages.gr]
+    weight = 7
+    title = "Skycoin Blog"
+    languageName = "Ελληνικά"
+
 [[menu.languages]]
   name = "English"
-  weight = 0
+  weight = -1
   url = "/"
 [[menu.languages]]
   name = "中文"
@@ -120,3 +137,19 @@ pygmentsStyle = "murphy"
   name = "한국어"
   weight = 3
   url = "/kr/"
+[[menu.languages]]
+  name = "Español"
+  weight = 4
+  url = "/"
+[[menu.languages]]
+  name = "Deutsche"
+  weight = 5
+  url = "/"
+[[menu.languages]]
+  name = "日本語"
+  weight = 6
+  url = "/"
+[[menu.languages]]
+  name = "Ελληνικά"
+  weight = 7
+  url = "/"
