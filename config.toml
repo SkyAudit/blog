@@ -96,6 +96,11 @@ pygmentsStyle = "murphy"
   title = "Skycoin Блог"
   languageName = "Русский"
 
+[Languages.kr]
+  weight = 3
+  title = "Skycoin 블로그"
+  languageName = "한국어"
+  
 # Workaround because I can't figure out how to add metadata to Languages
 # in order to print the language name. Can only figure out how to print the
 # language code
@@ -111,3 +116,7 @@ pygmentsStyle = "murphy"
   name = "Русский"
   weight = 2
   url = "/ru/"
+[[menu.languages]]
+  name = "한국어"
+  weight = 3
+  url = "/kr/"
