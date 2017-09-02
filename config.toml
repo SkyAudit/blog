@@ -140,16 +140,16 @@ pygmentsStyle = "murphy"
 [[menu.languages]]
   name = "Español"
   weight = 4
-  url = "/"
+  url = "/es/"
 [[menu.languages]]
   name = "Deutsche"
   weight = 5
-  url = "/"
+  url = "/de/"
 [[menu.languages]]
   name = "日本語"
   weight = 6
-  url = "/"
+  url = "/jp/"
 [[menu.languages]]
   name = "Ελληνικά"
   weight = 7
-  url = "/"
+  url = "/gr/"
