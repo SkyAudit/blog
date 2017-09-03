@@ -9,11 +9,13 @@ categories = [
 ]
 +++
 
-*Updated August 20, 2017. Remove GIF bounties.*
+*Updated August 30, 2017. Remove GIF bounties.*
 
 *Updated again August 29, 2017. Added translation bounties.*
 
 *Updated August 29, 2017. Added reddit activity bonus. Increased GIF bounty to 20.*
+
+*Updated September 3, 2017. Added French to translation bounties.*
 
 
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
@@ -63,6 +65,7 @@ Accepted languages are:
 * 日本語
 * 한국어
 * Ελληνικά
+* Français
 
 *Note: 中文 and Рyсский translations all have someone working on them now*
 
