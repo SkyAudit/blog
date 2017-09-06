@@ -25,9 +25,11 @@ Skycoin BBS v3.1 has finally been released!
 
 ## Binaries
 
-These can be found on the skycoin website downloads page for 64bit windows, mac and linux.
+These are avaliable for 64bit windows, mac and linux.
 
-https://www.skycoin.net/downloads
+- https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_linux_amd64.zip
+- https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_osx_amd64.zip
+- https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_windows_amd64.zip
 
 ## Source Code
 
