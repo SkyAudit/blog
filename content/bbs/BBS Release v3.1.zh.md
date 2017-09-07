@@ -39,4 +39,4 @@ https://github.com/evanlinjin/bbs
 
 ## 社区
 
-[点击这里加入Telgegram讨论！!](https://t.me/skycoinbbs)(需翻墙)
+[点击这里加入Telegram讨论！!](https://t.me/skycoinbbs)(需翻墙)
