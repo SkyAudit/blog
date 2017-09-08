@@ -105,11 +105,11 @@ the network defeats the purpose of a distributed ledger-based cryptocurrency
 since it contradicts its entire principle of distributing all elements within
 the network to avoid the presence of a central authority.”
 
-## Obelisk: a distributed consensus algorithm
+## Obelisk: Skycoin's distributed consensus algorithm
 
-To tackle this centralization problem, Skycoin moves beyond PoW/
-PoS. It uses a distributed consensus algorithm, called Obelisk, which
-distributed influence over the network according to a “web of trust”. In
+To tackle this centralization problem, Skycoin moves beyond PoW/PoS.
+It uses a distributed consensus algorithm, called Obelisk, which
+distributes influence over the network according to a “web of trust”. In
 essence, every node has a list of other nodes that it subscribes to, and the
 density of a node’s network of subscribers determines its influence on the
 network. Each node is assigned a personal blockchain which acts as a “public
