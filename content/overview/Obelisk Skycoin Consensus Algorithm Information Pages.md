@@ -12,6 +12,8 @@ categories = [
 author = "johnstuartmill"
 +++
 
+![Obelisk The Skycoin Consensus Algorithm](/img/obelisk-the-skycoin-consensus-algorithm.png)
+
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
 - [Consensus highlights](#consensus-highlights)
@@ -162,3 +164,8 @@ Cryptocurrency Networks.
 for Consensus over P2P Network.
 <https://github.com/skycoin/whitepapers/blob/master/Sky-%20Opinion%20Dynamics%20Based%20Consensus%20for%20P2P%20Network%20with%20Trust%20Relationships.pdf>
 201?
+
+*Read more:*
+
+* *[Skycoin Consensus Algorithm Whitepapers](https://www.skycoin.net/whitepapers)*
+* *[Obelisk The Skycoin Consensus Algorithm](/statement/obelisk-skycoin-consensus-algorithm/)*
