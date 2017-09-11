@@ -9,7 +9,7 @@ categories = [
 ]
 +++
 
-*Skycoin's consensus algorithm "Obelisk" is detailed in the [whitepapers](https://www.skycoin.net/whitepapers)*
+![Obelisk The Skycoin Consensus Algorithm](/img/obelisk-the-skycoin-consensus-algorithm.png)
 
 The Skycoin blockchain makes use of a novel type of consensus algorithm
 called "Obelisk" that replaces both Proof of Work (“PoW”) and Proof of Stake
@@ -134,5 +134,7 @@ decentralizing element to the network.
 This system provides for a digital currency system with significantly reduced
 transaction times, no mining requirement, and greater security.
 
-Read the [Skycoin whitepapers](https://www.skycoin.net/whitepapers) for more
-information on Obelisk.
+*Read more:*
+
+* *[Skycoin Consensus Algorithm Whitepapers](https://www.skycoin.net/whitepapers)*
+* *[Obelisk The Skycoin Consensus Algorithm | Information Pages](/overview/obelisk-skycoin-consensus-algorithm-information-pages/)*
