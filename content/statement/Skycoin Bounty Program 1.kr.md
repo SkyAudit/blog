@@ -22,11 +22,11 @@ categories = [
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
-- [그래픽스](#graphics)
-- [동영상](#video)
-- [번역](#translations)
-- [글쓰기](#writing)
-- [소셜 미디어 참여](#social-media-engagement)
+- [그래픽스](#%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4)
+- [동영상](#%EB%8F%99%EC%98%81%EC%83%81)
+- [번역](#%EB%B2%88%EC%97%AD)
+- [글쓰기](#%EA%B8%80%EC%93%B0%EA%B8%B0)
+- [소셜 미디어 참여](#%EC%86%8C%EC%85%9C-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%B0%B8%EC%97%AC)
 
 <!-- /MarkdownTOC -->
 
@@ -36,7 +36,7 @@ Skycoin, Skywire meshnet, BBS, CXO 등에 대한 인포 그래픽.
 
 브랜드 자산(로고, 컬러)는 [다운로드 페이지](https://www.skycoin.net/downloads)에 있습니다..
 
-* 각 15 SKY
+* 각 30 SKY
 
 ## 동영상
 
@@ -79,7 +79,7 @@ Skycoin, Skywire meshnet, BBS, CXO 등에 대한 인포 그래픽.
 
 이미 번역된 포스팅은 번역할 수 없습니다.
 
-만약 포스팅이 이미 번역되었지만 당신이 실수나 개선점을 발견한다면, 그것이 적절한 경우 당신은 소정의 보상을 받을 수 있습니다. 
+만약 포스팅이 이미 번역되었지만 당신이 실수나 개선점을 발견한다면, 그것이 적절한 경우 당신은 소정의 보상을 받을 수 있습니다.
 
 1명 또는 2명의 다른 원어민이 번역을 검토하여 그것이 적절한지 품질을 검토해야 합니다.
 불량 번역본은 보상을 받을 수 없지만, 그것이 승인될 때까지 자유롭게 보완할 수 있습니다.
