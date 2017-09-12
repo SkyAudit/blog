@@ -17,6 +17,7 @@ categories = [
 
 *Updated September 3, 2017. Added French to translation bounties.*
 
+*Updated September 12, 2017. Increase infographics bounty reward to 30.*
 
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
 
@@ -38,7 +39,7 @@ Infographics about Skycoin, Skywire meshnet, BBS, CXO etc.
 
 Branding assets (logos, color) are on the [downloads page](https://www.skycoin.net/downloads).
 
-* 15 SKY each
+* 30 SKY each
 
 ## Video
 
