@@ -34,9 +34,9 @@ leur expérience, en devenant essentiellement leur propre FAI.
 
 Skycoin est la monnaie de Skywire, lui donnant une utilisation pratique au-delà 
 d'une simple monnaie numérique. Quand l'utilisateur transfère le trafic ou fournit 
-des ressources réseau, il ou elle reçoit du Skycoin. De même quand l'utilisateur 
-consume des ressources réseau ou des médias, il ou elle dépense du Skycoin. Les 
-utilisateurs peuvent exploiter au maximum leurs coins de deux manières : en ayant 
+des ressources réseau, il ou elle reçoit des Skycoins. De même quand l'utilisateur 
+consume des ressources réseau ou des médias, il ou elle dépense des Skycoins. Les 
+utilisateurs peuvent exploiter au maximum leurs Skycoins de deux manières : en ayant 
 une bande passante importante dans des zones à fort trafic ou en fournissant 
 du contenu convoité.
 
@@ -108,9 +108,9 @@ Skywire ne va pas seulement changer Internet. Il va le ré-inventer.
 
 ### Details
 
-Nous voulons que le mineur Skywire sorte au cours des 6 prochains mois. Dans l'idéal 
-celui-ci sortira au cours des 3 prochains mois, mais rien que les phases de tests 
-peuvent prendre plusieurs mois. 
+Nous espérons que le mineur Skywire soit disponible au cours des 6 prochains mois. 
+Idéalement, celui-ci serait disponible au cours des 3 prochains mois. Toutefois, 
+les phases de tests pourraient prendre quelques mois supplémentaires.
 Nous travaillons aussi sur la logistique de l'assemblage et du transport. 
 
 L'objectif des 6 mois est encore flexible. Tant que le matériel et le logiciel 
