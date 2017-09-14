@@ -125,6 +125,11 @@ pygmentsStyle = "murphy"
     weight = 8
     title = "Skycoin Blog"
     languageName = "Français"
+   
+[Languages.nl]
+    weight = 9
+    title = "Skycoin Blog"
+    languageName = "Nederlands"
 
 [[menu.languages]]
   name = "English"
@@ -162,4 +167,7 @@ pygmentsStyle = "murphy"
   name = "Français"
   weight = 8
   url = "/fr/"
-
+[[menu.languages]]
+  name = "Nederlands"
+  weight = 9
+  url = "/nl/"
