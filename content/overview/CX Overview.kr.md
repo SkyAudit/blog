@@ -16,7 +16,7 @@ categories = [
 - [문법](#syntax)
 - [어포던스](#affordances)
   - [Arity 제한](#arity-restrictions)
-  - [유형 제한](#type-restrictions)
+  - [ 제한](#type-restrictions)
   - [존재 제한](#existential-restrictions)
   - [식별자 제한](#identifier-restrictions)
   - [경계 제한](#boundaries-restrictions)
@@ -41,110 +41,93 @@ CX는 어포던스 이론에 기반하여 새로운 프로그래밍 패러다임
 프로그램은 가능한 실행 목록을 반환합니다. 
 목록에서 어떤 작업이 적절할 지 결정 후, 우리는 옵션 중 하나를 선택할 수 있고, 
 프로그램은 선택한 작업을 적용할 것입니다. 
-As a consequence of CX's affordance system, a
-genetic programming algorithm is built and provided as a native
-function, which can be used to optimize the program's structure during
-runtime.
+CX의 어포던스 시스템은 유전 프로그래밍 알고리즘이 구축되었으며 기본 함수로 제공되고, 
+이것은 런타임 도중 프로그램의 구조를 최적화 하는데 이용될 수 있습니다.
 
-The CX specification states that both a compiler and an interpreter
-must be accessible to the programmer. The interpreter can be accessed
-through a read-eval-print loop, where the programmer can interactively
-add and remove elements to a program. Once the program has been
-finished, it can be compiled in order to increase its performance.
+CX 사양은 컴파일러와 인터프리터 모두 프로그래머가 액세스 할 수 있어야 한다고 명시합니다.
+인터프리터는 읽기-평가-인쇄(read-eval-print) 루프를 통해 접근할 수 있으며, 
+어디서든지 프로그래머가 요소를 대화식으로 추가 또는 제거할 수 있습니다.
+일단 프로그램이 끝나면, 성능을 높이기 위해 그것을 컴파일 할 수 있습니다.
 
-The typing system in CX is very strict. The only "implicit casting"
-occurs when the parser determines what is an integer, a float, a
-boolean, a string, or an array. If a function requires a 64 bit
-integer, for example, one has to use a cast function to explicitly
-convert it to the required type.
 
-Lastly, a CX program can be completely serialized to byte arrays,
-maintaining its execution state and structure. This serialized version
-of a program can be deserialized later on, and continue its execution
-in any device that has a CX interpreter/compiler.
+CX의 타이핑 시스템은 매우 엄격합니다. 유일한 "암시적 형변환"은 파서가 
+무엇이 integer, float, boolean, string, 또는 배열(array)형인지 결정할 때 
+발생된다. 만약 함수가 64비트 integer형을 필요로 하는 경우, 예를 들면, 
+명시적으로 요구 타입으로 변환하기 위해 형변환 함수를 사용해야 합니다.
 
-In the following sections, the CX features discussed in the above
-paragraphs are described in more detail.
+마지막으로, CX 프로그램은 실행 상태와 구조를 유지하면서 바이트 배열로 
+완전히 직렬화 될 수 있습니다. 이 직렬화 된 버전의 프로그램은 나중에 비 직렬화 될 수 있으며, 
+CX 인터프리터/컴파일러가 있는 모든 장치에서 해당 프로그램의 실행을 계속할 수 있습니다.
 
-# Project's Repository
+다음 섹션에서는, 위 단락에서 설명한 CX 기능에 대해 자세히 설명합니다.
 
-The source code of the project can be downloaded from its Github
-repository:
-[https://github.com/skycoin/cx](https://github.com/skycoin/cx). The
-repository includes the specification file, documentation, examples,
-and the source code itself.
+# 프로젝트 레파지토리
 
-# Syntax
+프로젝트 소스코드는 Github 레파지토리에서 다운로드할 수 있습니다.:
+[https://github.com/skycoin/cx](https://github.com/skycoin/cx). 
+이 레파지토리에는 명세 파일, 문서, 예제 및 소스코드 자체가 포함됩니다.
 
-As was mentioned in the introduction, CX is both a specification and a
-programming language. The CX specification does not impose a syntax,
-but rather the structures and processes that a CX dialect must
-implement in order to be considered a CX. As a consequence, one could
-implement a two CX dialects, one with a Lisp-like syntax, and another
-one with a C-like syntax. This underlaying language is called CX Base,
-or "the base language." In this document, an implementation is used to
-showcase the capabilities of the specification, although its purpose
-is not only to serve as an academic tool, but to become a complete and
-robust language that can be used for general purposes.
+# 문법
 
-The CX used in this document has the goal to have a syntax as similar
-as possible to Go's syntax.
+소개에서 언급했듯이 CX는 명세 및 프로그래밍 언어입니다. 
+CX 명세는 문법을 강요하지는 않지만, CX로 간주되기 위해서는 
+CX 전용언어를 통해 반드시 구조와 프로세스가 실행되어야 한다.
+결과적으로 이것은 두 가지의 CX 전용언어를 사용할 수 있습니다. 
+하나는 Lisp과 유사한 문법이며, 다른 하나는 C와 유사한 문법입니다. 
+이 기반 언어는 CX 기반 또는 "기본언어"라고 합니다. 이 문서에서, 
+구현은 사양을 보여주기 위해 사용되지만, 
+이것의 목적은 학술도구만으로 사용되는 것이 아니라, 
+일반적인 목적으로 사용될 수 있는 완성된 언어가 되는 것입니다.
 
-# Affordances
+이 문서에서 사용된 CX는 가능한 한 Go 문법과 유사한 문법을 사용하는 목표를 가지고 있습니다.
 
-A programmer needs to make a plethora of decisions while constructing
-a program, e.g., how many parameters a function must receive, how many
-parameters it must return, what statements are needed to obtain the
-desired functionality, and what arguments need to be sent as
-parameters to the statement functions, among others. The affordance
-system in CX can be queried to obtain a list of the possible actions
-that can be applied to an element. In this context, examples of elements are
-functions, structs, modules, and expressions.
+# 어포던스
 
-Without having a set of rules and facts that dictate what must be the
-logic and purpose behind a program, one can determine some basic
-restrictions that, at least, guarantee that a program will be
-semantically correct. The affordance system provides such restrictions
-as the first filtering layer, and are explained below.
+프로그래머는 프로그램을 구성하는 동안 많은 결정을 내려야 합니다.
+예를 들면, 함수가 얼마나 많은 매개변수를 받아야 하는지, 
+얼마나 많은 파라미터가 반드시 반환되야 하는지, 원하는 기능을 얻기 위해 
+어떤 명령문을 하용해야 하며, 무엇을 통해야 하는지 등이 말입니다. 
+CX 내 어포던스 시스템을 쿼리하여 요소에 적용할 수 있는 가능한 작업 목록을 얻을 수 있습니다.
+이 구문에서, 요소의 예는 함수, 구조, 모듈 그리고 표현식이 있습니다.
 
-### Arity Restrictions
+프로그램의 논리와 목적이 무엇이 되어야 하는지를 
+규정하는 일련의 규칙과 사실이 없어도 최소한 프로그램의 의미 상 
+정확성을 보장하는 몇 가지 기본 제한을 결정할 수 있습니다.
+어포던스 시스템은 첫 번째 필터링 레이어와 같은 제한사항을 제공하며 
+아래에서 설명하겠습니다.
 
-Expressions in CX can return multiple values. This creates a challenge
-for the affordance system, as the number of variables that receive
-the output arguments of an expression need to match the number of
-outputs defined by the expression's operator.
+### 제한 사항
+
+CX의 표현식은 여러 값을 반환할 수 있습니다. 
+이는 표현식의 출력 인수를 받는 변수의 수는 
+표현식의 연산자에 의해 정의된 출력의 수와 일치해야 하기 때문에
+어포던스 시스템에 대한 문제점을 발생시킵니다.
 
 ```
 out1, out2, ..., outN := op(inp1, inp2, ..., inpM)
 ```
 
-If the example above is correct, then *op* needs to output *N*
-arguments. This problem can become even more challenging if we
-consider that *op*'s definition can be changed by the affordance
-system itself or by the user in the future: as soon as *op*'s
-definition changes, new affordances can be applied to any expression
-which uses *op* as its operator, because the number of variables that
-receive *op*'s output arguments are now in mismatch.
+만약 위의 예제가 올바르다면, *op*는 *N* 인수를 출력해야 합니다. 
+이 문제는 더욱 큰 문제가 될 수 있는데, 만약 우리가 알고 있는 *op*의 정의가 
+어포던스 시스템 자체나 사용자에 의해 나중에 바뀔 수 있고 : *op*의 정의가 
+바뀌자마자, 새로운 어포던스는 오퍼레이터로써 *op*를 사용하여 어떤 구문이라도 
+접근할 수 있습니다. 왜냐하면 *op*의 출력 인수를 받은 많은 수의 변수는 이제 일치하지 않기 때문입니다. 
 
-The previous logic also implies that if the number of receiving
-variables matches the number of output parameters of the expression's
-operator, the action of adding new receiving variables can no longer
-be performed.
+이전 논리는 또한 수식 변수의 개수와 수식 연산자의 출력 매개 변수 개수가 일치하면, 
+더 이상 새로운 수식 변수를 추가하는 작업을 수행할 수 없다는 것을 의미합니다.
 
-Arity restrictions also apply to input arguments in expressions, i.e.,
-if a function call has already all of its input arguments defined,
-then the affordance system should not enlist adding another argument
-as a possible action. Likewise, if an expression is trying to call an
-operator with fewer arguments than the required, the affordance
-system, when queried, should tell the programmer that adding a new
-argument to the function call is possible.
+Arity 제한은 표현식의 입력 인수에도 적용됩니다. 예를 들어, 
+함수 호출에 이미 입력 인수가 모두 정의되어 있는 경우, 
+어포던스 시스템은 가능한 행위에 대한 다른 인수를 리스트에 추가하지 않아야 합니다.
+마찬가지로, 표현식이 필요한 것보다 적은 수의 인수로 연산자를 호출하려고하는 경우, 
+어포던스 시스템은 조회할 때, 함수 호출에 새로운 인수를 추가할 수 있다는 것을 
+프로그래머에게 알려야합니다.
 
-**Example:**
+**예제:**
 
-*Note: string concatenation has not been implemented yet. Also, the
-print functions always append a newline at the end of the string being
-printed. A future version of the CX implementation presented in this
-document will address these issues.*
+*공지 : 문자열 연결은 아직 구현되지 않았습니다. 
+또한 인쇄 함수는 항상 인쇄 중인 문자열의 끝에 새로운 행을 추가합니다. 
+이 문서에 제시된 CX 구현의 향후 버전에서는 이러한 문제를 해결할 것입니다..*
 
 ```
 var age i32 = 18
@@ -162,9 +145,8 @@ func main () () {
 }
 ```
 
-In the example above, the call to *advance* in the *main* function
-lacks one argument. If one queries the affordance system, the system
-should enlist, among other things, an action similar to:
+위 예제에서, *main*기능의 *advance*를 호출하는 것은 하나의 인자가 누락되었습니다.
+만약 어포던스 시스템에 질문을 던지면, 그 시스템은 다른 것들과 마찬가지로 다음과 유사한 행동을 취해야만 합니다.:
 
 ```
 ...
@@ -173,71 +155,62 @@ should enlist, among other things, an action similar to:
 ...
 ```
 
-where k represents an arbitrary index. As one can see, the affordance
-system is telling the programmer that two of the possible actions that
-can be done are to add another argument to the advance function, and
-the global definitions *age* and *steps* are among the options to act
-as arguments.
+여기서 k는 임의의 색인을 나타냅니다. 
+위에서 볼 수 있듯이, 어포던스 시스템은 프로그래머에게 두 가지 동작이 가능하다는 것을 알려주는데, 
+이전 기능에 다른 인수를 추가할 수 있고, 전역 정의 "age"와 "steps"는 인수로 작용하는 옵션 중 
+하나로 동작할 수 있습니다.
 
-It is noteworthy to mention that affordances should always be
-enumerated, and their order should be constant over several calls to
-the affordance system. The reason behind this is that the programmer
-should be able to indicate the system what affordance is to be applied
-after examining the query's result.
+어포던스는 항상 열거되어야 한다는 것은 주목할 만한 일이며, 
+그들의 요청은 어포던스 시스템으로 여러차례 호출을 보냅니다.
+그 이유는 프로그래머가 쿼리 결과를 검토한 후에 어떤 어포던스가 
+적용될 것인지를 시스템에 알려주어야 하기 때문입니다.
 
-### Type Restrictions
+### 타입 제한
 
-The common behaviour in programming languages is to have a typing system
-which restricts the programmer from sending arguments of unexpected
-types to function calls. Even in weakly typed programming languages,
-an operation such as `true / "hello world"` should raise an error
-(unless in the case of an
-[esoteric language](https://en.wikipedia.org/wiki/Esoteric_programming_language),
-of course). CX follows a very
-[strict typing system](#strict-typing-system), and arguments that are
-not exactly of the expected type should not be considered as
-candidates for affordances' actions (although a workaround is to wrap
-these arguments in cast functions before being shown as affordances).
+프로그래밍 언어의 일반적인 동작은 프로그래머가 예기치 않은 유형의 
+인수를 함수 호출로 보내는 것을 제한하는 입력 시스템을 가지는 것입니다.
+취약한 타입의 프로그래밍 언어에서조차도 `true / "hello world"` 의 경우에 에러를 발생시킬 것입니다.
+(물론 
+[난해한 언어](https://en.wikipedia.org/wiki/Esoteric_programming_language),가 아닌경우). 
+CX는 매우
+[엄격한 타이핑 시스템](#strict-typing-system), 을 따르고 예상되는 유형과 
+정확히 일치하지 않는 인수는 어포던스의 동작 후보군으로 간주될 수 없습니다. 
+(해결책은 어포던스로 표시되기 전에 변환함수 내의 인수들을 묶는 것이지만)
 
-Type restrictions must also be considered when assigning a new value
-to an already existant variable. In CX, a variable declared of a
-certain type must remain of that type during all of its lifetime
-(unless it is removed using meta-programming commands/functions and
-created anew). Thus, a variable declared to hold a 32 bit integer should not
-be considered as a candidate to receive a 64 bit float output
-argument, for example.
+이미 존재하는 변수에 새로운 값을 할당할 때는 타입 제한을 고려해야합니다. 
+CX에서 특정 유형으로 선언된 변수는 모든 수명주기 기간동안 반드시 그 타입으로 남아있어야 합니다.
+(메타프로그래밍 명령/함수를 통해 제거되거나 새로 작성된 경우를 제외하고)
+따라서 32 비트 정수(integer)를 보유하도록 선언된 변수는, 
+64 비트 부동 소수점 출력 인수(float)를 받을 수 없습니다.
 
-### Existential Restrictions
+### 존재 제한
 
-This type of restriction can seem trivial at first sight: if an
-element does not exist, an affordance that involves it should not
-exist either. Nevertheless, this restriction becomes a challenge once
-we consider a situation where a function was renamed, and it has
-already been used as an operator in expressions throughout a
-program. If the program is in its source code form, this problem is
-reduced to a simple "search & replace" process, but if it's during
-runtime, the affordance system becomes very useful: an affordance
-to change the identifier bound to this operator.
+이러한 유형의 제한은 처음에는 사소한 것처럼 보일 수 있습니다.: 
+요소가 존재하지 않는다면 요소가 포함 된 어포던스도 마찬가지로 존재해서는 안됩니다.
+그럼에도 불구하고 이 제한은 우리가 함수의 이름을 변경하는 것을 
+고려하는 상황이 될 때 문제가 됩니다.
+이 함수는 이미 프로그램 전체에서 표현식의 연산자로 사용되었습니다. 
+프로그램이 소스 코드 형식인 경우, 이 문제는 간단한 "검색 및 바꾸기"프로세스로 
+축소되지만, 런타임 중이라면, 어포던스 시스템이 매우 유용해집니다.:
+어포던스는 이 연산자에 바인딩 된 식별자를 변경할 수 있습니다.
 
-Even if an element has not be renamed, determining if an element
-exists or not is not trivial. The elements to be used in affordances
-must be searched in the call stack's current scope, in the global
-scope, and in other modules' global scopes.
+요소의 이름을 변경하지 않는다고 할지라도, 
+요소가 존재하는지 여부를 알아내는 것은 간단하지 않습니다. 
+어포던스에서 사용할 요소는 호출 스택의 현재 범위, 
+전역 범위 및 다른 모듈의 전역 범위에서 검색해야합니다.
 
-### Identifier Restrictions
+### 식별자 제한 사항
 
-Adding new named elements are commonly candidate actions for affordances. A
-restriction that arises when trying to apply such type of affordance
-is to ensure a unique identifier for the new element to avoid
-redefinitions. The affordance system can either generate a unique
-identifier in the element's scope, or can ask the programmer to
-provide a suitable identifier.
+새롭게 명명된 요소를 추가하는 것은 일반적으로 어포던스에 대한 예비 작업입니다. 
+이러한 유형의 어포던스를 적용하려고 할 때 발생하는 제한은 재 정의를 피하기 위해, 
+새 요소에 대한 고유한 식별자를 보장하는 것입니다.
+어포던스 시스템은 요소의 범위에서 고유 식별자를 생성하거나, 
+프로그래머에게 적합한 식별자를 제공하도록 요청할 수 있습니다.
 
-### Boundaries Restrictions
+### 경계 제한
 
-CX provides native functions for accessing and modifying elements from
-arrays. Examples of an array reader and an array writer are:
-
+CX는 배열 요소에 접근 및 수정할 수 있는 기본 함수를 제공합니다. 
+배열 판독기와 배열 작성기의 예는 다음과 같습니다.:
 
 ```
 readI32([]i32{0, 10, 20, 30}, 3)
