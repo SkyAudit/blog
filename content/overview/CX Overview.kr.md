@@ -16,14 +16,14 @@ categories = [
 - [문법](#syntax)
 - [어포던스](#affordances)
   - [Arity 제한](#arity-restrictions)
-  - [ 제한](#type-restrictions)
+  - [타입 제한](#type-restrictions)
   - [존재 제한](#existential-restrictions)
   - [식별자 제한](#identifier-restrictions)
   - [경계 제한](#boundaries-restrictions)
   - [식별된 사용자 제한](#user-defined-restrictions)
 - [정해진 타이핑 시스템](#strict-typing-system)
 - [컴파일 및 해석](#compiled-and-interpreted)
-  - [읽기 - 평가 - 인쇄 루프](#read-eval-print-loop)
+  - [읽기 - 평가 - 출력 루프](#read-eval-print-loop)
   - [메타 프로그래밍 명령](#meta-programming-commands)
   - [스테핑](#stepping)
   - [대화식 디버깅](#interactive-debugging)
@@ -35,7 +35,7 @@ categories = [
 # CX 소개
 
 CX는 어포던스 이론에 기반하여 새로운 프로그래밍 패러다임을 수용하도록 
-설계된 설명서 및 프로그래밍 언어입니다.
+설계된 지침 및 프로그래밍 언어입니다.
 어포던스는 프로그램이 어떤 어떤 작업을 할 수 있는지, 없는지를 알려줍니다.
 예를 들면, 우리는 프로그램에 어떤 인수를 함수에 보낼 수 있는지를 물어볼 수 있으며, 
 프로그램은 가능한 실행 목록을 반환합니다. 
@@ -45,7 +45,7 @@ CX의 어포던스 시스템은 유전 프로그래밍 알고리즘이 구축되
 이것은 런타임 도중 프로그램의 구조를 최적화 하는데 이용될 수 있습니다.
 
 CX 사양은 컴파일러와 인터프리터 모두 프로그래머가 액세스 할 수 있어야 한다고 명시합니다.
-인터프리터는 읽기-평가-인쇄(read-eval-print) 루프를 통해 접근할 수 있으며, 
+인터프리터는 읽기-평가-출력(read-eval-print) 루프를 통해 접근할 수 있으며, 
 어디서든지 프로그래머가 요소를 대화식으로 추가 또는 제거할 수 있습니다.
 일단 프로그램이 끝나면, 성능을 높이기 위해 그것을 컴파일 할 수 있습니다.
 
@@ -126,7 +126,7 @@ Arity 제한은 표현식의 입력 인수에도 적용됩니다. 예를 들어,
 **예제:**
 
 *공지 : 문자열 연결은 아직 구현되지 않았습니다. 
-또한 인쇄 함수는 항상 인쇄 중인 문자열의 끝에 새로운 행을 추가합니다. 
+또한 출력 함수는 항상 출력 중인 문자열의 끝에 새로운 행을 추가합니다. 
 이 문서에 제시된 CX 구현의 향후 버전에서는 이러한 문제를 해결할 것입니다..*
 
 ```
@@ -146,7 +146,8 @@ func main () () {
 ```
 
 위 예제에서, *main*기능의 *advance*를 호출하는 것은 하나의 인자가 누락되었습니다.
-만약 어포던스 시스템에 질문을 던지면, 그 시스템은 다른 것들과 마찬가지로 다음과 유사한 행동을 취해야만 합니다.:
+만약 어포던스 시스템에 질문을 던지면, 그 시스템은 다른 것들과 마찬가지로 
+다음과 유사한 행동을 취해야만 합니다.:
 
 ```
 ...
@@ -217,45 +218,41 @@ readI32([]i32{0, 10, 20, 30}, 3)
 writeF32([]f32{0.0, 10.10, 20.20}, 1, 5.5)
 ```
 
-In the first expression, an array of four 32 bit integers is accessed
-at index 3, which returns the last element of the array. In the second
-expression, the second element of an array of three 32 bit floats is
-changed to 5.5. If any of these arrays was accessed using either a
-negative index or an index which exceeds the length of the array, an
-"out of boundaries" error is raised.
+첫 번째 표현식에서는, 4 개의 32 비트 정수 배열은 인덱스 3에 접근할 수 있으며, 
+배열의 마지막 요소를 반환합니다. 
+두 번째 표현식에서는, 3 개의 32 비트 부동 소수점(floats) 배열의 
+두 번째 요소가 5.5로 변경되었습니다.
+이러한 배열 중 하나라도 음수 인덱스나 배열의 길이를 초과하는 인덱스를 
+사용하여 접근한 경우 "허용치 초과"오류가 발생합니다.
 
-By obeying only the type restrictions, the affordance system will tell
-the programmer that any 32 bit integer argument can be used as an
-index to access any array. Although these programs would compile, out
-of boundaries errors are very probable to occur if the programmer does not
-pay extra attention to what is being chosen to be applied.
+단지 타입제한에 따라서, 어포던스 시스템은 프로그래머에게 
+모든 32비트 정수(integer)인수가 어떤 배열이라도 접근할 수 있음을 알립니다.
+이러한 프로그램이 컴파일 되더라도, 프로그래머가 적용 대상으로 선택된 것에 
+대해 특별한 주의를 기울이지 않으면, 
+경계 오류가 발생할 가능성이 매우 높습니다.
 
-The affordance system needs to filter the affordances according to the
-following criteria: discard any negative 32 bit integer, and discard
-any 32 bit integer which exceeds the length of the array being sent to
-the array reader or writer.
+어포던스 시스템은 다음 기준에 따라 어포던스를 필터링해야 합니다.:
+음수 32비트 정수를 버리고, 배열 판독기 및 작성기로 보내지는 
+배열의 길이를 초과하는 32비트 정수를 버립니다.
 
-### User-defined Restrictions
-*Note: The user-defined restrictions system is still in its
- experimental stages.*
+### 사용자 정의 제한사항
+*공지 : 사용자 정의 제한 시스템은 아직 실험 단계에 있습니다.*
 
-The basic restrictions described above should at least guarantee that
-the program does not encounter any runtime errors. These restrictions
-should be enough to build some interesting systems, such as CX's
-native
-[evolutionary algorithm](#integrated-evolutionary-algorithm). Nevertheless,
-in some situations a more robust system is required. For this purpose,
-clauses, queries and objects are used to describe a module's
-environment. These elements are defined by using an integrated Prolog
-interpreter, and the CX native functions *setClauses*, *setQuery*, and
-*addObject*.
+위에서 설명한 기본 제한 사항은 프로그램이 런타임 오류가 발생하지 
+않도록 최소한 보장되어야 합니다.
+이러한 제약은 CX 고유의 진화 알고리즘과 같은 흥미로운 시스템을 
+구축하기에 충분해야합니다.
 
-The most general description of this restriction system is that the
-programmer defines a series of Prolog clauses (facts and rules), that
-will be queried using the defined Prolog query, for each of the
-objects added. This will hardly make any sense to anyone reading this
-for the first time. An example should clarify the concepts and the
-process a bit more:
+[진화 알고리즘](#integrated-evolutionary-algorithm). 그럼에도 불구하고 
+어떤 경우에는 보다 견고한 시스템이 필요합니다. 
+이 목적을 위해, 절, 쿼리 및 객체를 사용하여 모듈의 환경을 설명합니다.
+이러한 요소는 통합된 Prolog 인터프리터와, CX 고유 함수 *setClauses* , 
+*setQuery* 및 *addObject*를 사용하여 정의됩니다.
+
+이 제한 시스템의 가장 일반적인 설명은 프로그래머가 추가된 각 오브젝트에 
+대해 정의된 Prolog 구문(사실 및 규칙)이 정의된 Prolog 쿼리를 사용하여 조회될 것이라는 것입니다.
+이것을 처음 읽는 사람은 이것이 거의 이해되지 않을 것입니다.
+하나의 예제를 통해 개념과 프로세스를 좀 더 명확히 할 필요가 있습니다.:
 
 ```
 setClauses("move(robot, north, X, R) :- X = northWall, R = false.")
@@ -263,32 +260,30 @@ setClauses("move(robot, north, X, R) :- X = northWall, R = false.")
 setQuery("move(robot, %s, %s, R).")
 ```
 
-In this example, only one rule is defined. The rule can roughly be
-interpreted as "if the robot wants to move north, ask what is X. If X
-is northWall, then it can't move." The query is just a format string
-that will serve as a query for the *move* action, and for the *robot*
-element that will receive two more arguments: a direction, and an
-object.
+이 예제에서는, 하나의 규칙만 정의됩니다.
+이 규칙은 대략 다음과 같이 해석할 수 있는데, "만약 로봇이 북쪽으로 이동하기를 원한다면, 
+X가 무엇인지 요청해야 합니다. 만약 X가 북쪽 벽에 있다면 
+그것은 움직일 수 없습니다." 
+그 쿼리는 단지 형식적인 문자열로써 *move* 행동을 위한 쿼리에 사용되고, 
+2개 이상의 인자를 받는 *robot*인자를 위해 사용됩니다. : 방향, 그리고 객체
 
-Objects can be defined by using the *addObject* function:
+*addObject* 함수를 사용하여 객체를 정의할 수 있습니다. 
 
 ```
 addObject("southWall")
 addObject("northWall")
 ```
 
-The restriction system will query the system for each of the objects
-present in the module. In this example, the system will first perform
-the query "move(robot, north, southWall)," and the system will respond
-"nil," which means that it does not have any rule defined to handle
-such situation, and the default action is to not discard the
-affordance. The second query will be "move(robot, north, northWall),"
-and the system will respond "false." In this case, the affordance did
-not pass the test, and is discarded.
+제한 시스템은 모듈의 각 객체에 대해 시스템에 질의를 던집니다.
+이 예제에서, 시스템은 먼저 "move (robot, north, southWall)"쿼리를 수행하고, 
+시스템은 "nil"이라고 응답합니다. 
+즉,이 상황을 처리하기 위해 정의된 규칙이 없으며, 기본 동작은 그 어포던스를 버리지 않습니다.
+두 번째 쿼리는 "move (robot, north, northWall)"이며 시스템은 "false"로 응답합니다.
+이 경우, 어포던스는 테스트를 통과하지 못하고 버려집니다.
 
-The example above illustrates how these rules can negate an
-affordance using a condition. But rules can also be used to accept
-affordances, even after being negated by previous rules.
+위의 예제는 이러한 규칙이 조건을 사용하여 어포던스를 무효화 할 수있는 
+방법을 보여줍니다. 그러나 규칙은 이전 규칙에 의해 무효화 된 후에도 
+어포던스를 받아들이기 위해 사용될 수 있습니다.
 
 ```
 setClauses("move(robot, north, X, R) :- X = northWall, R = false.
@@ -297,61 +292,55 @@ setClauses("move(robot, north, X, R) :- X = northWall, R = false.
 setQuery("move(robot, %s, %s, R).")
 ```
 
-The added rule in the code above tells the system to accept the robot
-movement towards north if a wormhole is present. If the object array
-is left as it was defined before, the movement affordance will still
-be discarded, but if `addObject("northWormhole")` is evaluated, the
-"northWormhole" will be added and the robot will be able to pass
-through the wall using the wormhole.
+위의 코드에서 추가된 규칙은 시스템에 웜홀이 있을 경우 북쪽을 향한 
+로봇 움직임을 허용하도록 지시합니다. 객체 배열이 이전에 정의된 대로 유지되면 
+이동 어포던스는 여전히 삭제되지만,
+ `addObject("northWormhole")`가 평가되는 경우, 
+"northWormhole"이 추가될 것이며, 로봇이 웜홀을 사용하여 벽을 통과할 수 있습니다.
 
-# Strict Typing System
+# 엄격한 타이핑 시스템
 
-As mentioned in the introduction, there is no implicit casting in
-CX. Because of this, multiple versions for each of the primitive types
-are defined in the core module. For example, four native functions for
-addition exist: addI32, addI64, addF32, and addF64.
+소개에서 언급했듯이 CX에는 암시적 형변환이 없습니다.
+이 때문에, 각 기본 유형에 대한 여러 버전이 코어 모듈에 정의됩니다. 
+예를 들면, 4가지의 기본 함수가 있습니다.: addI32, addI64, addF32 및 addF64
 
-The parser attaches a default type to data it finds
-in the source code: if an integer is read, its default type is *i32*
-or 32 bit integer; and if a float is read, its default type is *f32* or 32
-bit float. There is no ambiguity with other data read by the parser:
-*true* and *false* are always booleans; a series of characters
-enclosed between double quotes are always strings; and array needs to
-indicate its type before the list of its elements, e.g., `[]i64{1, 2,
+파서는 소스 코드에서 찾은 데이터에 기본 유형을 첨부합니다.: 
+만약 정수를 읽으면, 그것의 기본 타입은 *i32* 또는 32 비트 정수입니다. 
+; 그리고 float를 읽는 경우, 기본 타입은 *f32* 또는 32 비트 부동소수점 입니다. 
+파서로부터 읽히는 다른 데이터 간 모호성이 없습니다. 
+*true*와 *false* 항상 부울(booleans)입니다.; 
+큰 따옴표로 묶인 일련의 문자는 항상 문자열입니다.;
+그리고 배열은 요소의 목록 앞에 타입을 표시해야 합니다. 예, `[]i64{1, 2,
 3}`.
 
-For the cases where the programmer needs to explicitly cast a value of
-one type to another, the core module provides a number of cast
-functions to work with primitive types. For example, `byteAToStr`
-casts a byte array to a string, and `i32ToF32` casts a 32 bit integer
-to a 32 bit float.
+프로그래머가 한 타입의 값을 다른 타입으로 명시적으로 변환해야 하는 경우, 
+코어 모듈은 원시 타입을 사용하기 위해 여러 가지 변환 함수를 제공합니다. 
+예를 들어, `byteAToStr` 바이트 배열을 문자열로 변환하고, 
+`i32ToF3232` 비트 정수를 32 비트 부동 소수로 형변환합니다.
 
-# Compiled and Interpreted
+# 컴파일 및 해석
 
-The CX specification enforces a CX dialect to provide the developer
-with both an interpreter and a compiler. An interpreted program is far
-slower than its compiled counterpart, as is expected, but will allow a
-more flexible program. This flexibility comes from meta-programming
-functions, and affordances, which can modify a program's structure
-during runtime.
+CX 사양은 개발자에게 인터프리터와 컴파일러를 제공하기 위해 
+CX 전용 언어 사용을 강조합니다.
+해석된 프로그램은 컴파일된 프로그램보다 훨씬 느리지만, 
+보다 융통성 있는 프로그램을 허용합니다.
+이러한 융통성은 메타 프로그래밍 기능과, 
+런타임 동안 프로그램의 구조를 수정할 수 있는 어포던스에서 비롯됩니다.
 
-A compiled program needs a more rigid structure than an interpreted
-program, as many of the optimizations leverage this rigidity. As a
-consequence, the affordance system and any function that operates over
-the program's structure will be limited in functionality in a compiled
-program.
+컴파일된 프로그램은 해석된 프로그램보다 더 엄격한 구조를 필요로 합니다. 
+많은 최적화가 이 엄격함을 활용하기 때문입니다. 
+결과적으로, 어포던스 시스템 및 프로그램 구조를 통해 작동하는 
+모든 기능은 컴파일 된 프로그램의 기능이 제한됩니다.
 
-The compiler should be used when performance is the biggest concern,
-while a program should remain being interpreted when the programmer
-requires all the flexibility provided by the CX features. In the
-following subsections, some of these features are presented, without
-the aim of serving as a tutorial, but rather as a mere introduction. 
+프로그래머가 CX 기능에서 제공하는 모든 융통성을 필요로 할 때, 
+프로그램이 해석되는 동안 성능이 가장 큰 문제일 경우, 컴파일러를 사용해야합니다. 
+다음 소단원에서는, 이러한 기능 중 일부가 예제 없이, 단순한 소개로 제시됩니다. 
 
-### Read-Eval-Print Loop
+### 읽기 - 평가 - 출력 루프
 
-The read-eval-print loop (REPL) is an interactive tool where a
-programmer can input new program elements and evaluate them. Starting
-a new REPL session will print the following messages to the console:
+읽기 - 평가 - 출력 루프(REPL)는 프로그래머가 새로운 프로그램 
+요소를 입력하고 평가할 수 있는 대화형 도구입니다. 
+새로운 REPL 세션을 시작하면 콘솔에 다음 메시지가 출력됩니다.:
 
 ```
 CX REPL
@@ -360,14 +349,11 @@ More information about CX is available at https://github.com/skycoin/cx
 * 
 ```
 
-The "*" tells the programmer that the REPL is ready to receive a new
-line of code. The REPL will keep reading input from the user until a
-semicolon and a new line character are encountered.
+이 "*"는 REPL이 새로운 코드 행을 수신할 준비가 되었음을 프로그래머에게 알려줍니다.
+REPL은 사용자가 세미콜론과 새로운 줄의 문자를 입력하는 동안 읽을 입력값을 준비합니다.
 
-If no program was initially loaded into the REPL, CX will start with
-an empty program. This can be seen if the `:dProgram true;`
-meta-programming command is given as input:
-
+REPL에 처음 로드된 프로그램이 없으면, CX는 빈 프로그램으로 시작합니다. 
+이것은 `:dProgram true;` 메타 프로그래밍 명령이 입력된 것으로 볼 수 있습니다.:
 
 ```
 * :dProgram true;
@@ -376,11 +362,10 @@ Program
 * 
 ```
 
-The REPL is only printing the word "Program" followed by an empty
-line. As a first step, a new module and function can be declared:
+REPL은 "Program"이라는 단어만을 출력한 후 빈 줄을 출력합니다.
+첫 번째 단계로, 새 모듈과 함수를 선언할 수 있습니다.:
 
-As the first steps, a new *main* module and a new *main* function
-should be declared:
+첫 번째 단계로서 새로운 *main* 모듈과 새로운 *main* 기능을 선언해야합니다.:
 
 ```
 * package main;
@@ -396,62 +381,55 @@ Program
 * 
 ```
 
-As can be seen, the program structure is being printed every time a
-new element is added to the program.
+여기서 볼 수 있듯이, 새로운 요소가 프로그램에 추가될 때마다 프로그램 구조가 출력됩니다.
 
-### Meta-programming Commands
+### 메타 프로그래밍 명령
 
-`:dProgram` was used in the subsection above. Any statement that
-starts with a colon (:) is part of a category of instructions known as
-"meta-programming commands."
+`:dProgram`은 위의 하위 섹션에서 사용되었습니다. 명령 카테고리의 일부가 
+콜론(:)으로 시작하는 구문은 "메타-프로그래밍 명령"으로 알려져 있습니다. 
 
-Declaring elements in the REPL instructs CX to add them to the
-program's structure. But, as in many other programming languages,
-these declarations are limited to only be added, and at most be
-redefined.
+REPL에서 요소를 선언하면 CX가 프로그램의 구조에 요소를 추가하도록 지시합니다. 
+그러나 ,다른 많은 프로그래밍 언어에서와 마찬가지로 이러한 선언은 추가되는 것이 
+제한적이며, 대부분 다시 정의됩니다.
 
-But, as in many other programming languages that provide a REPL, the
-programmer is limited to adding new elements to a program and, at
-most, redefining elements. Meta-programming commands allow the
-programmer to be in more control on how the program's structure is
-being modified.
+그러나, REPL을 제공하는 다른 많은 프로그래밍 언어에서와 마찬가지로 
+프로그래머는 프로그램에 새 요소를 추가하고, 대부분의 요소를 재정의하는 것이 제한됩니다. 
+메타-프로그래밍-명령은 프로그래머가 프로그램의 구조를 어떻게 
+변경할 것인가를 좀 더 통제할 수 있도록 허용해줍니다.
 
-`:dProgram`, `:dState`, and `:dStack` are used for
-debugging purposes only, by printing the program's structure, the
-current call's state, and the full call stack to the user,
-respectively. `:step` instructs the interpreter to go forward or
-backward in its execution. `:package`, `:func`, and `:struct`, known
-as *selectors*, are used to change the program's scope. `:rem` gives
-the programmer access to *removers*, which can be used to selectively
-remove elements from a program's structure. `:aff` is used to access
-CX's affordance system; this meta-programming command is used to both
-query and apply affordances for the different elements of a
-program. Lastly, `:clauses` is used to set a module's clauses to be used by the
-[user-defined restrictions system](#user-defined-restrictions);
-`:object` and `:objects` are used for adding and printing objects,
-respectively; and the last two meta-programming commands: `:query`,
-which is used for setting the module's query, and `:dQuery` which is a
-helper for debugging the user-defined restrictions.
+`:dProgram`, `:dState` 그리고 `:dStack`는 프로그램 구조의 출력, 
+최근 호출된 구문, 사용자에게 전체 호출되는 스택에 의해 
+단지 디버깅 목적으로만 사용됩니다. `step`은 인터프리터에게 전/후 이동 실행을 지시합니다. 
+`:package`, `:func` 그리고 `:struct`, 알려진 *selectors*,
+이것들은 프로그램의 범위를 변경하기 위해 사용됩니다.
+`:rem`은 프로그래머가 *removers*에 접근할 수 있게 해 주며, 
+이것은 프로그램 구조의 선택된 요소를 제거하는데 사용될 수 있습니다.
+`:aff`는 CX의 어포던스 시스템에 접근하기 위해 사용됩니다.; 
+이 메타 프로그래밍 명령은 프로그램의 다른 요소에 대한 비용을 쿼리하고 적용하는데 
+사용됩니다. 
+[사용자 정의 제한 시스템](#user-defined-restrictions);
+마지막으로, `:clauses`는 프로그램에 의해 모듈의 구문을 설정하는데 사용됩니다.
+`:object` 및 `:objects`는 각각의 개체를 추가 및 출력하기 위해 사용됩니다.; 
+그리고 마지막 두 개의 메타 프로그래밍 명령 :`query`는 모듈의 쿼리를 설정하는데 사용되며, 
+그리고 `:dQuery`는 사용자 정의 제한을 디버깅하는 도우미입니다.
 
-### Stepping
+### 스테핑
 
-A program started in REPL mode can be initialized with a program
-structure defined in a source file. For example:
-current directory
+REPL 모드에서 시작된 프로그램은 소스 파일에 정의된 프로그램 
+구조로 초기화 될 수 있습니다. 예 : 현재 디렉토리
 
 ```
 $ ./cx --load examples/looping.cx
 
 ```
 
-loads `looping.cx` from the examples directory (the full list of
-examples can be found in the
-[project's repository](https://github.com/skycoin/cx)). Even though a
-program has been loaded, it has not yet been executed. In the REPL, in
-order to execute a program one has to use the meta-programming command
-`:step`. To run a program until the end, `:step 0;` must be used. But
-`:step` is interesting because it can take other integers as its
-argument (even negative integers). For example:
+`looping.cx`는 예제 디렉토리에서 로드됩니다.  (예제의 전체 목록은
+[레파지토리](https://github.com/skycoin/cx)에서 찾을 수 있습니다.). Even though a
+(예제의 전체 목록은 프로젝트의 레파지토리에서 찾을 수 있습니다.) 
+프로그램이 로드되었지만, 아직 실행되지 않았습니다. 
+REPL에서 프로그램을 실행하려면, `step` 메타 프로그래밍 명령을 사용해야 합니다: 
+끝날 때까지 프로그램을 실행하려면, `:step 0;` 명령을 사용해야 합니다. 
+그러나 `:step`은 다른 정수를 인수로 사용할 수 있기 때문에 흥미롭습니다 (심지어 음수). 예 :
 
 ```
 CX REPL
@@ -471,12 +449,11 @@ More information about CX is available at https://github.com/skycoin/cx
 * 
 ```
 
-The *examples/looping.cx* program is being run 5 steps at a time. We
-can see that 5 steps are required in order for the program to
-re-evaluate the *while* condition, print the counter, and add 1 to the
-counter.
+ *examples/looping.cx* 프로그램은 한 번에 5 단계를 실행하고 있습니다. 
+우리는 프로그램이 *while*조건을 재-평가하고, 카운터 출력, 
+그리고 카운터에 1을 추가하기 위해서 5 단계가 필요한 것을 알수 있습니다.
 
-Likewise, we should "go back in time" if the REPL is instructed to
+마찬가지로 우리는 "제 시간에 끝내야" 합니다. 만약 REPL이 다음을 나타낸다면
 `:step -5`.
 
 ```
@@ -493,21 +470,19 @@ Likewise, we should "go back in time" if the REPL is instructed to
 * 
 ```
 
-After instructing CX to advance 5 steps again, the 2 is printed again
-to the console. It must be noted that the counter is not just being
-assigned with a different value. What is happening is that the call
-stack is being reverted to a previous state.
+CX가 5 단계를 다시 진행하도록 지시하면, 2가 다시 콘솔에 출력됩니다.
+카운터에는 다른 값이 지정되어 있지 않다는 것이 알려져야 합니다. 
+무슨 일이 일어나고 있는가 하면, 호출 스택이 이전 상태로 돌아가고 있습니다.
 
-### Interactive Debugging
+### 대화식 디버깅
 
-A CX program will enter the REPL mode once an error has been
-found. This behaviour gives the programmer the opportunity to debug
-the program before attempting to resume its execution.
+CX 프로그램은 오류가 발견되면 REPL 모드로 들어갑니다. 
+이 동작을 통해 프로그래머는 실행을 다시 시작하기 전에 
+프로그램을 디버깅 할 수 있습니다.
 
-In the example below, a division by 0 error is raised, the REPL alerts
-the programmer about the error, the last call in the call stack is
-dumped, and the REPL continues its execution.
-
+아래 예제에서는, 0으로 나누기 오류가 발생되고, 
+REPL은 프로그래머에게 오류에 대해 경고, 호출 스택의 마지막 호출을 덤프하며,  
+REPL은 해당 실행을 계속합니다.
 
 ```
 CX REPL
@@ -544,10 +519,9 @@ main
 	* 
 ```
 
-Likewise, if a program is given as input to the CX interpreter,
-without calling the REPL, but an error is raised, the REPL will be
-called for the programmer or system administrator to debug the
-program:
+마찬가지로, REPL을 호출하지 않고, CX 인터프리터에 입력하기 위해 
+프로그램이 제공되지만, 오류가 발생되며, REPL은 프로그램의 디버그를 위해 
+프로그래머와 시스템 관리자를 위해 호출될 것입니다.:
 
 ```
 $ ./cx examples/program-halt.cx 
@@ -568,47 +542,42 @@ More information about CX is available at https://github.com/skycoin/cx
 * 
 ```
 
-# Integrated Evolutionary Algorithm
+# 통합 진화 알고리즘
 
-The affordance system and meta-programming functions in CX allow the
-flexibility of changing the program's structure in a supervised
-manner. However, affordances can still be automated by having a
-function that selects the index of the affordance to be applied.
+CX의 어포던스 시스템 및 메타 프로그래밍 기능을 통해 통제 방식으로 
+프로그램 구조를 유연하게 변경할 수 있습니다. 
+그러나, 적용할 어포던스의 지수를 선택하는 기능을 가지고 있으면, 
+여전히 어포던스를 자동화 할 수 있습니다.
 
-`evolve` is a native function that constructs user-defined functions
-by using random affordances. An iterative process is used to test
+`evolve`는 임의의 어포던스를 사용하여, 사용자 정의 함수를 구성하는 기본 함수입니다. 
+반복적인 프로세스가 테스트에 사용됩니다.
 
-`evolve` follows the principles of evolutionary computation. In
-particular, evolve performs a technique called genetic
-programming. Genetic programming tries to find a combination of
-operators and arguments that will solve a problem. For example, you
-could instruct `evolve` to find a combination of operators that, when
-sent 10 as an argument, returns 20. This might sound trivial, but
-genetic programming and other evolutionary algorithms can solve very
-complicated problems.
+`evolve`는 진화론적 계산의 원리를 따릅니다. 
+특히, `evolve`는 유전 프로그래밍이라는 기술을 사용합니다. 
+유전 프로그래밍은 문제를 해결할 수있는 연산자와 인수의 조합을 찾으려고 시도합니다.
+예를 들어, `evolve`는 10을 인수로 보내면 20을 반환하는 연산자 조합을 찾을 수 있습니다. 
+이것은 간단한 것처럼 들릴 수도 있겠지만, 
+유전 프로그래밍 및 기타 진화 알고리즘은 매우 복잡한 문제를 해결할 수 있습니다.
 
-In the *examples* directory from the repository, one can find an
-example (*examples/evolving-a-function.cx*) that describes the process for
-evolving a
-[curve-fitting](https://en.wikipedia.org/wiki/Curve_fitting) function.
+레파지토리의 *examples* 디렉토리에서, 다음의 예제를 찾을 수 있으며, 
+(*examples/evolving-a-function.cx*) 이것은 
+[커브-피팅](https://en.wikipedia.org/wiki/Curve_fitting) 
+함수의 진화 프로세스를 설명합니다.
 
-# Serialization
+# 직렬화
 
-A program in CX can be partially or fully serialized to a byte
-array. This serialization capability allows a program to create a
-program image (similar to
-[system images](#https://en.wikipedia.org/wiki/System_image)), where
-the exact state at which the program was serialized is
-maintained. This means that a serialized program can be deserialized,
-and resume its execution later on. Serialiation can also be used to
-create backups.
+CX의 프로그램은 부분적으로 또는 전체적으로 바이트 배열로 직렬화 될 수 있습니다.
+이 직렬화 기능을 사용하면 프로그램이 프로그램 이미지
+([시스템 이미지](#https://en.wikipedia.org/wiki/System_image)와 유사), 
+를 작성할 수 있으며, 프로그램이 직렬화된 완벽한 상태가 유지됩니다.
+즉, 직렬화된 프로그램을 직렬화 해제하여 나중에 실행을 재개할 수 있습니다. 
+직렬화를 사용하여 백업을 만들 수도 있습니다.
 
-A CX program can leverage its integrated features to create some
-interesting scenarios. For example, a program can be serialized to
-create a backup of itself, and start an
-[evolutionary algorithm](#integrated-evolutionary-algorithm) on one of
-its functions. If the evolutionary algorithm finds a function that
-performs better than the previous definition, one can keep this new
-version of the program. However, if the evolutionary algorithm
-performed badly, the program can be restored to the saved backup. All
-of these tasks can be automated.
+CX 프로그램은 통합 기능을 활용하여 흥미로운 시나리오를 만들 수 있습니다. 
+예를 들어, 프로그램을 직렬화하여 자체 백업을 작성하고 해당 기능 중 
+하나에서 [진화 알고리즘](#integrated-evolutionary-algorithm) 을 시작할 수 있습니다.
+진화 알고리즘이 이전 정의보다 우수한 성능을 찾으면 
+이 새로운 버전의 프로그램을 유지할 수 있습니다. 
+그러나 진화 알고리즘이 잘못 수행되면 프로그램을 
+저장된 백업으로 복원 할 수 있습니다. 
+이러한 모든 작업을 자동화 할 수 있습니다.
