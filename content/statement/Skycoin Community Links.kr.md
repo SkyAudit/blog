@@ -21,7 +21,7 @@ Skycoin 팀은 텔레그램에서 가장 활발한 팀입니다.
 
 슬랙 채널도 있습니다.
 
-* [스카이코인 슬랙](https://skycoin.slack.com)
+* [스카이코인 슬랙](https://skycoin.herokuapp.com)
 
 새로운 뉴스 업데이트
 ------------

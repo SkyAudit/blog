@@ -12,7 +12,7 @@ categories = [
 Parlez avec l'équipe de Skycoin
 --------------------------
 
-L'équipe de Skycoin est la plus active sur Telegram 
+L'équipe de Skycoin est la plus active sur Telegram
 
 * [Le canal Telegram de Skycoin](https://t.me/Skycoin)
 * [Canal BBS de Skycoin](https://t.me/skycoinbbs)
@@ -21,7 +21,7 @@ L'équipe de Skycoin est la plus active sur Telegram
 
 Il y a également un canal Slack
 
-* [Slack de Skycoin](https://skycoin.slack.com)
+* [Slack de Skycoin](https://skycoin.herokuapp.com)
 
 Les dernières informations de Skycoin
 ------------

@@ -21,7 +21,7 @@ The Skycoin team is most active on Telegram.
 
 There is also a slack channel
 
-* [Skycoin Slack](https://skycoin.slack.com)
+* [Skycoin Slack](https://skycoin.herokuapp.com)
 
 News Updates
 ------------
