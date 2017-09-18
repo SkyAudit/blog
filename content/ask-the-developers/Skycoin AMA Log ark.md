@@ -985,5 +985,5 @@ I sure can. As long as jarunik hasn't already started. (edited)
 **mike**
 Thank you very much for joining us synth, please stop by again.
 I will also be continuing to check in on skycoin slack for updates as well,
-[skycoin.slack.com](https://skycoin.slack.com)
+[skycoin.herokuapp.com](https://skycoin.herokuapp.com)
 The closer the integration of Skycoin with Ark, the better.
