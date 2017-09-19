@@ -67,7 +67,7 @@ Accepted languages are:
 * 한국어
 * Ελληνικά
 * Français
-* Nederlands
+* Nederlands (maximum 30 SKY bounty per article)
 
 *Note: 中文 and Рyсский translations all have someone working on them now*
 
