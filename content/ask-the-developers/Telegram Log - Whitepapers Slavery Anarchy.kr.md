@@ -166,117 +166,120 @@ Chen
 
 **Monty Crypto (Xa no)**
 
-In my opinion it's shady to collection 10's if not 100's of millions through ICO's without one line of code to show for it
+제 생각으로는 한 줄의 코드로 그것을 증명하는 것이 아니라, ICO를 통해 수백만 달러를 얻는다면 10위 안에 들 수 있을 것 같네요.
 
 **Synth**
 
-The bitcoin developer who discovered the duplicate coinbase output problem also was heavily involved and two other major people but we cant put them on the website or advisor board.
+중복 코인베이스 산출물 문제를 발견한 비트코인 개발자 또한 크게 관련되어 있으며, 다른 두 명의 주요 인물도 있지만, 우리는 그들을 우리의 웹사이트나 
+고문단에 공개할 수 없습니다.
 
-There is a lot of drama about this.
+이것에 관한 많은 일화가 있습니다.
 
-Australian government was raiding peoples houses within 8 hours of them being outed as early bitcoin dev etc
+호주 정부는 초기 비트코인 개발자 등을 대상으로 그들이 집에 없을 때 그들의 집을 8시간 동안 공격했습니다.
 
-And a lot of the real crypto people have security clearances and dont want to be publicly associated (but are involved in private) because of employment stuff
+그리고 많은 실제 암호 개발자들은 보안문제를 가지고 있으며, 공개적으로 그것과 연관되기를 원하지 않습니다.(그러나 개인적으로 관련되어 있습니다.)
+그들의 직업 상의 이유 때문입니다.
 
-**Artem Kotelskiy** *[In reply to Monty Crypto (Xa no)]*
+**Artem Kotelskiy** *[Monty Crypto (Xa no)에게 답장]*
 
-I was just kidding, see the "))"
+나는 단지 농담을 한 거예요. "))"
 
 **Synth**
 
-The only people commiting with their real github names were basicly idiots with no opsec. And the other people involved dont sit on advisor boards or advertise themselves.
+opsec없이 그들의 진짜 github이름으로 커밋한 일부 사람들은 완전히 바보였습니다. 
+그리고 다른 사람들은 고문단에 참여하거나 스스로를 광고하지 않습니다. 
 
-I dont even know why chen used his main/public github account. He was advised not to do that.
+나는 Chen이 왜 그의 주요/공개 github 계정을 사용했는지 알지 못합니다. 그는 그렇게 하지 말라는 권고를 받았습니다.
 
 **Artem Kotelskiy**
 
-I see, thx a lot for an explanation
+알겠습니다. 설명해주셔서 매우 감사합니다.
 
 **Monty Crypto (Xa no)**
 
-Haha fair enough 👍
+하하 충분히 납득이 가네요. 👍
 
 **Artem Kotelskiy**
 
-I will keep doing my research then about skycoin
+저는 스카이 코인에 대한 연구를 계속할 것입니다.
 
-There is one problem though, all of this will come out inevitably..
+한 가지 문제가 있는데, 이 모든 것이 불가피하게 될 것입니다..
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[Artem Kotelskiy에게 답장]*
 
-+8 years of drama. You could make a movie about this.
+8년 이상의 이야기입니다. 당신은 이것으로 영화를 만들 수도 있습니다.
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[Artem Kotelskiy에게 답장]*
 
-No. it wont. People still cannot even figure out who the Bitcoin devs are!
-
-**Artem Kotelskiy**
-
-Hopefully
-
-Still, why not go to Switzerland?
-
-And have superopen development just like ethereum?
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-For what?
-
-eighty people should move to switzerland?
+아뇨, 사람들은 여전히 비트코인 개발자가 누구인지 알 수 없습니다!
 
 **Artem Kotelskiy**
 
-Ok..
+희망적이네요.
 
-I mean, the organization can go there and be protected somehow
+여전히, 스위스에 가지 않을 것입니까?
+
+그리고 이더리움같이 개발을 슈퍼오픈하지 않습니까?
+
+**Synth** *[Artem Kotelskiy에게 답장]*
+
+무엇을 위해서요?
+
+80명의 사람들이 스위스로 이동해야 합니까?
+
+**Artem Kotelskiy**
+
+네..
+
+제 말은, 조직이 거기에서 어떻게든 보호받을 수 있다는 것입니다.
 
 **Synth**
 
-Its on github so does not matter the country they are in.
+그것은 github에 있고, 그래서 그들이 어느 나라에 있든지 상관이 없습니다.
 
-Protected from what? No one has tried to attack skycoin devs yet.
+무엇으로부터 보호를 받습니까? 누구도 아직은 스카이코인 개발자를 공격하지 않습니다.
 
 **Artem Kotelskiy**
 
-But you are saying that people are scared to say they are involved with the project
+그러나 당신은 사람들이 그들이 프로젝트에 참여했다는 것에 대해 말하는 것을 두려워한다고 말하고 있습니다.
 
-I just don't understand why?
+나는 이해할 수 없습니다. 왜죠?
 
 **Synth**
 
-for tax reasons
+세금 문제 때문입니다.
 
 **Artem Kotelskiy**
 
-No
+아뇨.
 
-Can't believe this
+그것을 믿을 수 없네요.
 
-Why don't you want to pay taxes?
+세금 내는 게 어때서요?
 
 **Vadim 🛌**
 
-why would anyone want:D
+왜 아무도 원하지 않나요 :D
 
 **Monty Crypto (Xa no)**
 
-Lol, yeah everyone else loves paying taxes
+Lol, 네 모두는 세금 납부를 좋아해요.
 
 **Artem Kotelskiy**
 
-I don't see how rejecting to pay taxes can help your project at all
+세금 납부를 거부하는 것이 당신의 프로젝트에 도움이 된다는 것이 저는 전혀 납득이 가지 않는군요.
 
-Please explain
+설명해주시겠습니까.
 
 **Monty Crypto (Xa no)**
 
-There's a difference between tax evasion and tax avoidance
+탈세와 조세 회피는 차이가 있습니다.
 
-Tax avoidance is perfectly legal and executed by every single corporation in the world
+세금 회피는 완벽히 합법적이며, 전 세계의 모든 단일 회사에 의해 실행됩니다.
 
 **Synth**
 
-Imagine you have 800 million in bitcoin. Do you run down the street bragging about it?
+당신에게 비트코인이 8억 개 있다고 상상해 보십시오. 당신은 그것에 대해 동네방네 자랑하시겠습니까?
 
 Do people with security cleanances and NDA agreements go around putting faces on websites? These people do not even have Facebook accounts and NDA says they cannot tell their clients who their other clients are.
 
