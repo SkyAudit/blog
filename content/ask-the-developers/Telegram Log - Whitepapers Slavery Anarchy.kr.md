@@ -110,7 +110,7 @@ http://njtech.findplus.cn/?h=search_list&query=AR:%22Shu%2C%20Jiwu%22
 
 Jiwu?
 
-이것은 또한 웹 사이트에 있어야합니다. 어쨋건 간에, 많은 답변을 주셔서 감사합니다.
+이것은 또한 웹 사이트에 있어야합니다. 어쨌든 간에, 많은 답변을 주셔서 감사합니다.
 
 **Synth**
 
@@ -281,261 +281,286 @@ Lol, 네 모두는 세금 납부를 좋아해요.
 
 당신에게 비트코인이 8억 개 있다고 상상해 보십시오. 당신은 그것에 대해 동네방네 자랑하시겠습니까?
 
-Do people with security cleanances and NDA agreements go around putting faces on websites? These people do not even have Facebook accounts and NDA says they cannot tell their clients who their other clients are.
+보안 문제 및 NDA 계약을 맺은 사람들이 웹 사이트에 얼굴을 공개합니까? 
+이 사람들은 Facebook 계정을 가지고 있지 않으며 NDA는 그들의 고객들에게 
+다른 고객이 누구인지에 대해 말할 수 없습니다. 
 
-Also there are IP issues with employers. If someone works at company the contract says the company owns everything they do. Including work in free time.
+또한 고용주와 관련된 지적 재산권 문제가 있습니다. 만약 누군가가 회사에서 일을 한다면, 
+계약서에 따라 회사에서 그들이 하는 모든 것을 소유하게 됩니다.
+여유시간에 하는 일을 포함해서 말입니다.
 
-So they cannot contribute code publicly or company/employer can claim ownership and IP and causes legal problems.
+그래서 그들은 공개적으로 코드에 기여하지 못하거나 회사/고용주가 소유권 및 
+지적 재산권을 주장할 수 있으며 법적 문제를 일으킬 수 있습니다.
 
-There is a whole bunch of drama and bullshit. Anyone competent is secretive. And the people promoting themselves in public are losers.
+많은 드라마와 비합리적인 것들이 있습니다. 유능한 사람은 모두 비밀에 부쳐져 있습니다. 
+그리고 공개적으로 그들을 광고하는 자들은 실력없는 사람들입니다.
 
-ALL of the early bitcoin people expected the US government to crack down in it VIOLENTLY. And that fear never went away.
+모든 초기 비트코인 개발자들은 미국 정부가 이 문제를 심각하게 규제할 것으로 기대했습니다. 
+그리고 그 두려움은 결코 사라지지 않았습니다.
 
-The people entering crypto today do not remember the crypto wars and government oppression of the 90s
+오늘날 암호 분야에 진입하는 사람들은 90년대의 암호 전쟁과 정부의 억압을 기억하지 못합니다.
 
 **Vadim 🛌**
 
-i find it strange that people are surprised by the anonymity of those interested in cryptography
+사람들이 암호학에 관심있는 사람들의 익명성에 놀라는 것은 이상한 일입니다.
 
 **Artem Kotelskiy**
 
-I don't like ndas
+저는 ndas를 좋아하지 않아요.
 
-I would think competent people never sign nda
+나는 유능한 사람들은 결코 nda에 서명하지 않을 것이라고 생각했습니다.
 
-Apparently I am wrong
+내가 틀렸다는 것이 명백합니다.
 
-Contracts with the companies...
+회사와의 계약..
 
-Eh
+음
 
-So your devs and researchers are worried about their money, and you (presumably along with other projects of your scale) are imposing on them rules. Hard to believe.
+그래서 당신의 개발자와 연구진들은 그들의 돈에 대해 걱정하며, 당신들은(아마도 당신들이 이끄는 다른 프로젝트와 함께) 그들에게 규칙을 강요합니다.
+믿기 어렵군요.
 
-**Synth** *[In reply to Vadim 🛌]*
+**Synth** *[Vadim 🛌에게 답장]*
 
-What a world.
+어떤 세상인가요.
 
-And they forget that ALL of the professional math and crypto people either work for the government or military.
+그리고 그들은 모든 수학 및 암호 전문가들이 정부나 군을 위해 일한다는 것을 잊어버립니다.
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[Artem Kotelskiy에게 답장]*
 
-Everyone who works at Google or a Fortune 500. We have commits from people who work for Google/Amazon if you look at commit history.
-
-**Artem Kotelskiy**
-
-The only thing I believe professional researcher is worried about is security.
-
-Yeah, I don't think google/Amazon are such great companies frankly
-
-Although people there are competent
-
-Anyway
-
-I got your point
-
-About all professional math people you stretched too far. I know exactly what kind of people leave pure math and go to military, and they are not the best, believe me.
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-Like Google.
-
-Almost all large companies gave contract that says "we own you. You are our slave. We own everything you do in your free time".
-
-That is ALL fortune 500 companies. You will notice that they stopped commiting after taking employment at those companies.
+구글 또는 포츈 500에서 근무하는 모든 사람들.
+만약 당신이 커밋 히스토리를 본다면 구글/아마존에서 일하는 사람들에 의해 우리의 코드가 커밋된 것을 알 수 있을 것입니다.
 
 **Artem Kotelskiy**
 
-I see...
+전문 연구원의 유일한 걱정거리는 보안입니다.
 
-Sad
+네, 나는 솔직히 구글/아마존이 그렇게 훌륭한 회사라고 생각하지 않습니다.
+
+유능한 사람들이 거기에 있더라도 말이죠.
+
+어쨌든 간에
+
+나는 당신의 요점을 파악했습니다.
+
+당신이 지나치게 과장되게 언급한 모든 수학자들에 대해서요. 
+나는 어떤 부류의 사람들이 순수 수학을 떠나 군에 가는지에 대해 정확히 알고 있으며, 그들이 최고가 아니라고 저는 믿습니다.
+
+**Synth** *[Artem Kotelskiy에게 답장]*
+
+구글과 같습니다.
+
+거의 모든 대기업은 계약서 상에서 "우리는 당신을 소유하고 있습니다. 당신들은 우리의 노예입니다.
+
+우리는 당신이 자유시간에 하는 모든 것들을 소유하고 있습니다."라고 말합니다.
+
+그것은 모든 포츈 500 기업입니다. 당신은 그들이 그 회사에 취업한 후 커밋을 멈춘 것을 알 수 있습니다. 
+
+**Artem Kotelskiy**
+
+알겠어요...
+
+슬프군요.
 
 **Synth**
 
-also the way US works is that information / research can still be classified after being published into the public domain.
+또한 미국의 처리 방식은 정보/연구가 공개적인 도메인에 발표된 뒤에도 여전히 기밀로 분류될 수 있다는 것입니다.
 
-So if a person gets government grant or worked on source routing or something and it is published, but that technology is used on later project they are associated with then it does not absolve them of legal liability
+그래서 어떤 사람이 정부 허가를 받거나 원본 경로나 무언가를 통해 공개되었다고 하더라도, 그 기술이 이후 그들이 관련되어 있는 프로젝트에 사용되었다면 그들에게 법적 책임을 면제하지 않습니다.
 
-and if they worked at university while the algorithms were developed the university can make IP claim
+그리고 만약 그들이 알고리즘이 개발되는 동안에 대학에서 일했다면, 대학은 지적 재산권 주장을 할 수 있습니다.
 
-so everyone in the US lives terrorized by lawyers
+그래서 미국의 모든 사람들이 변호사들을 무서워합니다.
 
 **Artem Kotelskiy**
 
-I see. Hard to believe there are Universities in USA who would file such ip
+알겠습니다. 미국에 있는 모든 대학들이 그러한 지적 재산권 분쟁을 제기할 것이라는 것을 믿기 어렵군요.
 
-But I still stand by my point
+그러나 저는 여전히 내 입장을 관철하겠습니다.
 
-I think on your homepage you should explain why devs are hidden
+저는 당신의 홈페이지에서 개발자가 비공개 된 이유를 설명해야 한다고 생각합니다.
 
 **Synth**
 
-You mean like Stanford/Cisco/Googler etc
+당신은 스탠포드/시스코/구글 직원들과 똑같이 말하는군요.
 
 **Artem Kotelskiy**
 
-Ah, but then this will attract attention
+아, 하지만 이것이 주의를 끌게 될 것입니다.
 
-**Artem Kotelskiy** *[In reply to Synth]*
+**Artem Kotelskiy** *[Synth에게 답장]*
 
-Could you link or give keywords for any ip case there?
+지적 재산권 관련 케이스에 대한 링크나 키워드를 제공해 줄 수 있나요?
 
-Google and Cisco are companies
+구글와 시스코는 회사입니다.
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[Artem Kotelskiy에게 답장]*
 
-They are not hidden. People are just too stupid to check github.
+그것들은 숨겨져 있지 않습니다. 사람들은 github를 확인할 수 없을 정도로 너무 무식합니다.
 
-Skycoin is not about bragging about who has the biggest developer dick on their advisor board.
+스카이코인은 누가 개발자 보드에서 가장 큰 기여를 했는지에 대해 자랑하지 않습니다.
 
-The website is about the coin and the technology. We dont believe in the advisor board, celebrity CEO dick measuring contest.
+웹사이트는 코인과 기술에 대한 것이어야 합니다. 우리는 고문단, 유명 인사 CEO 인지도 측정 경연대회를 하지 않습니다.
 
 **Artem Kotelskiy**
 
-Lol, account on github also doesn't add anything, although I admit that there are accounts there which have other social media
+Lol, github 계정 또한 어떤 것도 추가하지 않았으며, 비록 다른 소셜 미디어 계정이 있다는 것은 인정하지만 
+당신이 알다시피, 저는 당신 스스로를 홍보하라고 충고하지 않습니다.
 
-You know, I don't advice you to advertise yourself
+전혀요.
+   
+사실 저는 이 희망찬 "팀" 페이지와 물건들을 싫어합니다.
 
-Not at all
+그러나 여기 간단한 것이 하나 있습니다.
 
-In fact I hate all these bright "team" pages and stuff
+나는 이 프로젝트를 좋아합니다.
 
-But here is one simple thing
+이 프로젝트의 미래는 전적으로 개발자의 손에 달려있습니다.
 
-I like the project
+그래서 만약 제가 그들이 누군지, 그들의 가치가 얼마나 되는지 알면 도움이 될 것입니다.
 
-The future of the project is in hands of developers completely
+제가 스카이 노드가 될지 또는 단순한 스카이 홀더가 될지 결정하기 위해서 말입니다.
 
-So it would help if I know who they are, and what are their values
-
-For me to decide, if I am going to be the sky node, or simply sky hodler
-
-But I get it, you think that code and execution speaks to itself, fair enough
+그러나 저는 그것을 얻었고, 당신은 코드와 실행이 스스로 충분히 공정하다고 말해줄 것이라고 생각합니다.
 
 **Synth**
 
-You go dox yourself and report all your stuff to the government and go pay your taxes to the central bank that owns you. All human cattle, please line up for bar coding.
+당신은 스스로 dox에 가서 당신의 모든 소유물에 대해 리포트를 작성하여 정부에 보고하고 관할 중앙은행에 세금을 납부하십시오.
+모든 인간 소들이여, 바코딩을 위해서 줄을 서십시오.
 
-Its the exact opposite of why bitcoin was created.
+그것은 비트코인이 만들어진 이유와 상반되는 것입니다.
 
 **Artem Kotelskiy**
 
-Yeah well, there are different degrees of being crypto anarchist
+예 좋아요, 그것은 암호 무정부주의자가 되는 것과는 정도가 다르죠.
 
 **Vadim 🛌**
 
-being one in words and in reality?:D
+한 마디 말로 현실이 됩니까? :D
 
 **Artem Kotelskiy**
 
-I tend to believe that declaring a war to the previous governors doesn't help pieceful transitioning to a better system.
+저는 이전 정부들과 전쟁을 선포하는 것이 더 나은 시스템으로 전환하는 것에 도움이 되지 않는다고 생각합니다.
 
-I might be wrong, guys, so don't push
+아마 제가 틀렸을 수도 있지만, 여러분, 그래도 그렇게 하지 마세요.
 
-Just an opinion :)
+그냥 제 의견입니다. :)
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[Artem Kotelskiy에게 답장]*
 
-The central bank creates money out of nothing. Then the government taxes the money back from the slaves.
+중앙 은행은 아무 것도 투자하지 않고 돈을 만들어 냅니다. 그런 다음 정부는 세금을 부과하여 노예들로부터 돈을 돌려줍니다.
 
-You are either a slave or you are free. People working for other peoples money, are not working for themselves. They are slaving for for their master/owner.
+당산은 노예이거나 자유로운 사람입니다. 다른 사람들의 돈을 위해 일하는 사람들은 그들 스스로를 위해 일하지 않습니다. 
+그들은 그들의 주인/소유자를 위해 봉사합니다.   
 
-There is no degrees. You are either owned and are a slave and have a slave tracking number and live under a massive surveilence, police state central bank run slave plantation OR you are free. Slave or Free. There is no degrees.
+이것은 자격이 없습니다. 당신의 누군가의 소유이며 노예이고, 노예추적번호를 가지고 있으며, 어마어마한 감시 하에 살고 있습니다.
+경찰 국가 중앙은행은 노예 농장을 운영합니다. 또는 당신은 자유입니다. 노예 또는 자유민입니다. 이것은 자격이 없습니다.
 
 **Artem Kotelskiy**
 
-I see. I think the next thing to discuss is if the government is good or not (let's say US). And I know I will lose this one, so let's not go into this. I completely understand your pov. It differs from mine in that I believe in kindness more, and think that there is a spectrum of freedom. But could be I am just young and inexperienced.
+알겠습니다. 다음 토론주제는 정부는 좋은가 아닌가 인 것 같네요.(미국에 대해 말해보자). 
+그리고 제가 이것으로 손실을 볼 것이라는 것을 알게 되었으며, 그래서 여기에 참가하지 않겠습니다. 
+나는 당신의 견해를 완벽히 이해했습니다.  
+그것은 자유의 스팩트럼이 있다는 것에서 저의 견해와 다릅니다. 그러나 나는 젊고 경험이 부족할 수 있겠지요.
 
 **Synth**
 
-"Freedom to masturbate to porn", "freedom to smoke marijuana", "freedom to have anal sex", "freedom to shoot up heroin", "freedom to run around in the 'free market' laboring like a slave for someone elses money", "freedom to shop!".
+"포르노를 보며 자위를 할 자유", "마리화나를 피울 수 있는 자유", "애널섹스를 할 수 있는 자유", "헤로인을 피울 수 있는 자유", 
+"누군가를 위해 노예처럼 일하는 자가 '자유 시장'에서 뛰어다니는 자유", "쇼핑의 자유!".
 
-Slavery is not about free or slave. Its about independent (free) or dependent (slave).
+노예제도는 자유와 노예에 대한 것이 아닙니다. 그것은 독립(자유)과 종속(노예)에 대한 것입니다.
 
-You make people dependent upon you for survival, then you give them fake "freedoms" so they dont revolt. That is how you turn a society into a labor camp and then give them enough free porn, prozac and zoloft until you have domesticated "happy slaves" that cannot even imagine what an alternative would look like.
+당신의 사람들을 생존을 위해 당신에게 의존하게 하고, 그 다음 당신은 그들에게 반란을 일으키지 않도록 가짜 "자유"를 줍니다.
+그래서 사회를 노동 수용소로 바꾼 다음, 당신이 다른 대안을 생각할 수 없을 정도로 "행복한 노예"로 길들여 질 때까지, 충분한 무료 포르노, 
+마약/항우울제(prozac, zoloft)를 제공합니다.
 
-Look how free those people are with their $750,000 in student debt they wont pay off until they die! Lol. Its just a mockery.
+학자금 대출로 750,000달러를 빚지고 있는 사람들이 얼마나 자유로운지 보십시오. 그들은 그들이 죽을 때까지 빚을 갚아야 합니다.
+Lol. 웃기는 일이지요.
 
 **Artem Kotelskiy**
 
-Everyone makes his own choices
+모든 사람들이 스스로 선택을 합니다.
 
-Some people just grow food and live off that
+어떤 사람들은 식량을 재배하고 그 삶을 살고 있습니다.
 
-I am from the country where half of the population lives like this, it's just fine
+나는 인구의 절반이 이렇게 살고 있는 나라 출신이며, 단지 그것이 좋을 뿐입니다.
 
-And I think if one really wants, he can be free
+그리고 저는 누군가 정말로 원한다면, 그 사람은 자유로울 수 있다고 생각합니다.
 
 **Vadim 🛌**
 
-let me guess, belarus?
+제가 맞춰볼까요? 벨라루스?
 
 **Artem Kotelskiy**
 
-No, it's harder to guess
+아뇨, 추측하기 어려울 것입니다.
 
 **Synth**
 
-Anyone who does not want to be a slave is an anarchist now! Lol
+노예가 되고 싶지 않은 사람은 지금 무정부주의자입니다! Lol
 
-"Whoa. Whoa. Whoa. I dont want to be an anararchist. I mean a little slavery is ok, but the masters should be nicer to the slaves." Lol.
+"우와. 우와. 우와. 나는 무정부주의자가 되고 싶지 않아. 나는 조금 노예가 되는 것은 괜찮아, 하지만 주인들은 노예에게 좀 더 친절해야 해." Lol.
 
 **Artem Kotelskiy**
 
-Anarchist is someone who declares a war on the government
+무정부주의자(아나키스트)는 정부와의 전쟁을 선포하는 사람입니다.
 
 Loool
 
 **Synth**
 
-Anarchist.
+아나키스트.
 
-An-archon
+제외(An)-지배자(archon)
 
-An means without.
+An의 뜻은 제외하다.
 
-Archon means "master" or "ruler".
+지배자의 뜻은 "주인" 또는 "통치자"를 의미합니다.
 
-Anarchy means "without masters" or without rulers. All of the words are inverted to mock the public and the illiterate.
+아나키는 "주인이 없는" 또는 "통지가가 없는"것을 의미합니다. 모든 단어는 대중과 문맹자를 조롱하기 위해 거꾸로 되어 있습니다.
 
 **Artem Kotelskiy**
 
-Anyway
+어쨌든 간에
 
-Keep up the skycoin guys, I sincerely hope it will allow more people not to have masters
+스카이코인을 잘 보관하세요 여러분, 나는 진심으로 더 많은 사람들이 주인을 갖지 않기를 바랍니다.
 
-**Artem Kotelskiy** *[In reply to Synth]*
+**Artem Kotelskiy** *[Synth에게 답장]*
 
-Ok
+네
 
 **Synth**
 
 Lol
 
-matthieu *[In reply to Synth]*
+matthieu *[Synth에게 답장]*
 
-👍🏾agree completely
+👍🏾전적으로 동의합니다.
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[Artem Kotelskiy에게 답장]*
 
-No. The problem is human nature.
+아뇨, 문제는 인간의 본성입니다.
 
-You cannot free slaves. They will just find another master. They *want* and choose to be slaves. They just want a slave driver with a softer whip.
+당신은 노예를 해방시킬 수 없습니다. 그들은 곧 다른 주인을 찾을 것입니다. 그들은 노예가 되기를 *원하고* 그것을 선택합니다.
+그들은 더 부드러운 채찍을 가진 주인을 원합니다.
 
-Look at how people spontaniously elect leaders to tell them what to do and tell them how they should live and what they should fear. Because they refuse to do it themselves.
+사람들이 그들에게 무엇을 어떻게 하고, 어떻게 살아야 하며 무엇을 두려워 해야 하는지 알려줄 지도자를 
+자발적으로 선출하는 것을 보세요. 왜냐하면 그들은 그들 스스로 하는 것을 거부하기 때문입니다. 
 
-matthieu *[In reply to Artem Kotelskiy]*
+matthieu *[Artem Kotelskiy에게 답장]*
 
-Actually maybe it would serve the coin more to put forward the ideology behind as synth put it rather than having a few faces....
+실제로 그것은 synth가 언급한 것처럼 코인이 더 많은 이념을 전달할 수 있을 것이며, 몇 가지 입장을 가지고 있는 것보다 나을 것입니다...
 
 matthieu
 
-Synth So far I didn't know what were your motivations/values and  deep ideology. Now I am an even bigger supporter of the coin. This is important to remind the final aim of all of this... Loads of ppl forget and just want to be overnight millionaires by buying into ICOs...
+나는 기금까지 당신의 동기/가치와 깊은 이데올로기에 대해 알지 못했습니다. 이제 저는 이 코인을 열렬히 지지합니다. 
+이것은 모든 것의 최종 목적을 상기시키는 중요한 것이며... ppl은 잊고 ICO로 코인을 구매하여 벼락 부자가 되기를 원합니다...
 
-**Synth** *[In reply to matthieu]*
 
-Trillionaires lol. Worlds first trillionaires. Briefly until this bubble bursts.
+**Synth** *[matthieu에게 답장]*
 
-Millionaire is so 1994
+백만장자라 lol. 세계 최고의 갑부. 이 버블이 터지기 전까지 짧은 기간동안 가능하겠죠.
+
+백만장자는 1994년에도 생겼었죠.
 
 matthieu
 
@@ -543,17 +568,18 @@ matthieu
 
 **Synth**
 
-Bitcoin gets pushed up to $5000 but if even 1% of holders sold it would be back at $2000. So very high price increase vs the market depth.
+비트코인을 5000달러까지 올리고 있지만, 만약 1%의 홀더가 그것을 판다면 2000달러로 되돌아 갈 것입니다. 그래서 매우 높은 가격 상승은 시장의 
+거래량과 비교됩니다.
 
-I think we could see trillionaires or people worth more than Billgates briefly, before they start moving money out and it implodes.
+제 생각에 우리가 수입을 벌어들이기 전에, 빌 게이츠보다 더 돈을 많이 벌어들인 사람들을 볼 수 있을 것이라고 생각합니다.
 
-Altcoins, unlike real estate and stocks, have no price ceiling. There is no fundamental economics or mathematics keeping the price from going up to infinity.
+부동산이나 주식과는 다른, 알트코인의 가격은 터무니없이 비쌉니다. 가격이 올리가지 않게 막는 근본적인 경제학 또는 수학은 없습니다.
 
-There is no revenues or loss and no objective way to determine that a buggy "smart contract" platform no one uses, should not be worth $250 billion dollars.
+아무 이득이나 손실이 없고, 사용목적이 없는 아무도 사용하지 않는 버그 투성이의 "스마트 계약" 플랫폼은, 250달러의 가치를 가져서는 안됩니다.
 
 **Steve**
 
-A Distributed Consensus Algorithm for Cryptocurrency Networks
+암호화폐 네트워크를 위한 분산합의 알고리즘
 https://github.com/skycoin/whitepapers/blob/master/whitepaper_skycoin_consensus_v01_jsm.pdf
 
-Is the most recent consensus algorithm whitepaper
+이것이 최신 합의 알고리즘 백서입니까?
