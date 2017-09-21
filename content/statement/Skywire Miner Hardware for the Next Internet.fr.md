@@ -142,7 +142,7 @@ Le montant et la structure générale de la prime réseau n'est pas encore spéc
 Plus d'informations seront apportées dans un prochain communiqué. 
 
 
-### Errata
+### Plus d'informations
 
 - *[Plus d'images du mineur Skywire](https://imgur.com/a/mpnzh)*
 - *[Skywire Github](https://github.com/skycoin/skywire)*
