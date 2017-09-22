@@ -3,6 +3,7 @@ title = "Skycoin Community Links"
 tags = [
     "Community",
 ]
+bounty = 1
 date = "2017-08-24"
 categories = [
     "Statement",

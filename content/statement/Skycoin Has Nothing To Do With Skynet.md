@@ -3,6 +3,7 @@ title = "Skycoin Has Nothing To Do With Skynet"
 tags = [
     "Statement",
 ]
+bounty = 1
 date = "2017-08-28"
 categories = [
     "Statement",

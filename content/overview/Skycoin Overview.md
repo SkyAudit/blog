@@ -3,6 +3,7 @@ title = "Skycoin Overview"
 tags = [
     "Skycoin",
 ]
+bounty = 15
 date = "2017-08-26"
 categories = [
     "Overview",

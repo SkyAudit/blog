@@ -3,6 +3,7 @@ title = "Digital Gold"
 tags = [
     "Statement",
 ]
+bounty = 5
 date = "2017-08-14"
 categories = [
     "Statement",
