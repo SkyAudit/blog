@@ -4,6 +4,7 @@ tags = [
     "Skywire",
     "Meshnet",
 ]
+bounty = 15
 date = "2017-08-29"
 categories = [
     "Skywire",
@@ -26,6 +27,8 @@ categories = [
     - [Example Two](#example-two)
 - [Skywire Daemon Services Architecture](#skywire-daemon-services-architecture)
     - [Example Service: Blockchain Sync](#example-service-blockchain-sync)
+        - [Finding Peers](#finding-peers)
+        - [Sending and Receiving Messages](#sending-and-receiving-messages)
 - [Multi-Home Routing and Link Aggregation](#multi-home-routing-and-link-aggregation)
 - [Meshnet Routing: Store and Forward](#meshnet-routing-store-and-forward)
 - [Store and Forward: Capacity Utilization](#store-and-forward-capacity-utilization)

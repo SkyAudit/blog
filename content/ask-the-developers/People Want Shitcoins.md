@@ -7,6 +7,7 @@ date = "2017-09-05"
 categories = [
     "Ask the Developers",
 ]
+bounty = 3
 +++
 
 *Excerpt from the Telegram channel*

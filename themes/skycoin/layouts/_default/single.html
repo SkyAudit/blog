@@ -21,11 +21,13 @@
   <section class="post__content">
     {{ .Content }}
     {{ if eq .Lang "en" }}
-      {{ if ne .WordCount 0 }}
       <wordcount class="wordcount">
-        Translation bounty: {{ mul 5 (add 1 (div .WordCount 500)) }} SKY ({{ .WordCount }} words)
-      </wordcount>
+      {{ if .Params.bounty }}
+        Translation bounty: {{ .Params.bounty}} SKY
+      {{ else }}
+        No translation bounty
       {{ end }}
+      </wordcount>
     {{ end }}
   </section>
 </main>

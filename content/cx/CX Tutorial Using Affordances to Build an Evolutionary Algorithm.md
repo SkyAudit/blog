@@ -1,8 +1,11 @@
 +++
 title = "CX Tutorial: Using Affordances to Build a Small Text-based Adventure"
 tags = [
-    "CX", "CX Tutorials", "Affordances"
+    "CX",
+    "CX Tutorials",
+    "Affordances"
 ]
+bounty = 4
 date = "2017-09-20"
 categories = [
     "Tutorials",
@@ -12,7 +15,7 @@ categories = [
 <!-- MarkdownTOC autolink="true" bracket="round" depth="2" -->
 
 - [Introduction](#introduction)
-- [Challenge/response Architecture](#challenge-response-architecture)
+- [Challenge-response Architecture](#challenge-response-architecture)
 - [Affordance System](#affordance-system)
 - [Objects](#objects)
 - [Conclusion](#conclusion)
@@ -23,7 +26,7 @@ categories = [
 
 This tutorial presents a text-based "game" (the user does not interact
 with the program, and can not influence the character's decisions) that uses a
-[challenge/response architecture](#challenge-response-architecture) to
+[challenge-response architecture](#challenge-response-architecture) to
 determine what are the possible actions the game's character can
 do. The full source-code can be found in
 [CX's repository](https://github.com/skycoin/cx), in the file *examples/text-based-adventure.cx*.
@@ -73,7 +76,7 @@ halt() Arguments:
 As you can see, an error is raised if you die (this is suitable, as
 it's a scary situation for a programmer).
 
-# Challenge/response Architecture
+# Challenge-response Architecture
 
 In this architecture, a question is raised and different agents (in
 this case, functions) must answer to that question. A simple question

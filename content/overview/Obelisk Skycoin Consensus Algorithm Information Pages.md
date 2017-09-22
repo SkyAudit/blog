@@ -5,6 +5,7 @@ tags = [
     "Consensus",
     "Obelisk",
 ]
+bounty = 10
 date = "2017-09-09"
 categories = [
     "Overview",
