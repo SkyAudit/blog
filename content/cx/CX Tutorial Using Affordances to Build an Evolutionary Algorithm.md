@@ -5,7 +5,7 @@ tags = [
     "CX Tutorials",
     "Affordances"
 ]
-bounty = 4
+bounty = 5
 date = "2017-09-20"
 categories = [
     "Tutorials",
