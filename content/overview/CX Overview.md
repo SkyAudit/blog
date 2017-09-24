@@ -3,7 +3,7 @@ title = "CX Overview"
 tags = [
     "CX",
 ]
-bounty = 40
+bounty = 20
 date = "2017-09-06"
 categories = [
     "Overview",

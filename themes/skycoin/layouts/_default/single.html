@@ -23,7 +23,8 @@
     {{ if eq .Lang "en" }}
       <wordcount class="wordcount">
       {{ if .Params.bounty }}
-        Translation bounty: {{ .Params.bounty}} SKY
+        <p>Translation bounty for Русский, 한국어, 日本語, 中文: {{ mul .Params.bounty 2 }} SKY</p>
+        <p>Translation bounty for other languages: {{ .Params.bounty }} SKY</p>
       {{ else }}
         No translation bounty
       {{ end }}
