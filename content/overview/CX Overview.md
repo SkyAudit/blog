@@ -3,30 +3,31 @@ title = "CX Overview"
 tags = [
     "CX",
 ]
+bounty = 20
 date = "2017-09-06"
 categories = [
     "Overview",
 ]
 +++
 
-<!-- MarkdownTOC autolink="true" bracket="round" depth="1" -->
+<!-- MarkdownTOC autolink="true" bracket="round" depth="2" -->
 
 - [CX Introduction](#cx-introduction)
 - [Project's Repository](#projects-repository)
 - [Syntax](#syntax)
 - [Affordances](#affordances)
-  - [Arity Restrictions](#arity-restrictions)
-  - [Type Restrictions](#type-restrictions)
-  - [Existential Restrictions](#existential-restrictions)
-  - [Identifier Restrictions](#identifier-restrictions)
-  - [Boundaries Restrictions](#boundaries-restrictions)
-  - [User-defined Restrictions](#user-defined-restrictions)
+    - [Arity Restrictions](#arity-restrictions)
+    - [Type Restrictions](#type-restrictions)
+    - [Existential Restrictions](#existential-restrictions)
+    - [Identifier Restrictions](#identifier-restrictions)
+    - [Boundaries Restrictions](#boundaries-restrictions)
+    - [User-defined Restrictions](#user-defined-restrictions)
 - [Strict Typing System](#strict-typing-system)
 - [Compiled and Interpreted](#compiled-and-interpreted)
-  - [Read-Eval-Print Loop](#read-eval-print-loop)
-  - [Meta-programming Commands](#meta-programming-commands)
-  - [Stepping](#stepping)
-  - [Interactive Debugging](#interactive-debugging)
+    - [Read-Eval-Print Loop](#read-eval-print-loop)
+    - [Meta-programming Commands](#meta-programming-commands)
+    - [Stepping](#stepping)
+    - [Interactive Debugging](#interactive-debugging)
 - [Integrated Evolutionary Algorithm](#integrated-evolutionary-algorithm)
 - [Serialization](#serialization)
 
@@ -372,7 +373,7 @@ The compiler should be used when performance is the biggest concern,
 while a program should remain being interpreted when the programmer
 requires all the flexibility provided by the CX features. In the
 following subsections, some of these features are presented, without
-the aim of serving as a tutorial, but rather as a mere introduction. 
+the aim of serving as a tutorial, but rather as a mere introduction.
 
 ### Read-Eval-Print Loop
 
@@ -384,7 +385,7 @@ a new REPL session will print the following messages to the console:
 CX REPL
 More information about CX is available at https://github.com/skycoin/cx
 
-* 
+*
 ```
 
 The "*" tells the programmer that the REPL is ready to receive a new
@@ -400,7 +401,7 @@ meta-programming command is given as input:
 * :dProgram true;
 Program
 
-* 
+*
 ```
 
 The REPL is only printing the word "Program" followed by an empty
@@ -420,7 +421,7 @@ Program
 	Functions
 		0.- Function: main () ()
 
-* 
+*
 ```
 
 As can be seen, the program structure is being printed every time a
@@ -495,7 +496,7 @@ More information about CX is available at https://github.com/skycoin/cx
 * :step 5;
 2
 
-* 
+*
 ```
 
 The *examples/looping.cx* program is being run 5 steps at a time. We
@@ -517,7 +518,7 @@ Likewise, we should "go back in time" if the REPL is instructed to
 * :step 5;
 2
 
-* 
+*
 ```
 
 After instructing CX to advance 5 steps again, the 2 is printed again
@@ -554,7 +555,7 @@ main
 main
 :func main {...
 	* :step 0;
-fn:main ln:0, 	locals: 
+fn:main ln:0, 	locals:
 >> 1
 fn:main ln:1, 	locals: foo: 1
 
@@ -568,7 +569,7 @@ divI32() Arguments:
 0: divI32: Division by 0
 main
 :func main {...
-	* 
+	*
 ```
 
 Likewise, if a program is given as input to the CX interpreter,
@@ -577,7 +578,7 @@ called for the programmer or system administrator to debug the
 program:
 
 ```
-$ ./cx examples/program-halt.cx 
+$ ./cx examples/program-halt.cx
 1
 
 Call's State:
@@ -592,7 +593,7 @@ divI32() Arguments:
 CX REPL
 More information about CX is available at https://github.com/skycoin/cx
 
-* 
+*
 ```
 
 # Integrated Evolutionary Algorithm

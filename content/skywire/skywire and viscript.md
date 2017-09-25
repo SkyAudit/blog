@@ -5,6 +5,7 @@ tags = [
     "Skywire",
     "Viscript",
 ]
+bounty = 3
 date = "2017-08-15"
 categories = [
     "Skywire",

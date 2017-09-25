@@ -3,6 +3,7 @@ title = "Obelisk: The Skycoin Consensus Algorithm"
 tags = [
     "Statement",
 ]
+bounty = 8
 date = "2017-09-08"
 categories = [
     "Statement",

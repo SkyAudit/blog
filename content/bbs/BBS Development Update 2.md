@@ -5,6 +5,7 @@ tags = [
     "BBS",
     "CXO",
 ]
+bounty = 4
 date = "2017-08-31"
 categories = [
     "Development Updates",

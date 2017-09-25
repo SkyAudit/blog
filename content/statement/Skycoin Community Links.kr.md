@@ -19,9 +19,13 @@ Skycoin 팀은 텔레그램에서 가장 활발한 팀입니다.
 * [스카이코인 뉴스 채널](https://t.me/skycoinnews)
 * [스카이코인 바운티 프로그램 채널](https://t.me/skycoinbounty)
 
-슬랙 채널도 있습니다.
+* [스카이코인 슬랙](https://skycoin.herokuapp.com)
+* [스카이코인 Discord](https://discord.gg/MTepVHE)
 
-* [스카이코인 슬랙](https://skycoin.slack.com)
+Mailing List
+------------
+
+* [Skycoin Mailing List](http://eepurl.com/c4DyAv)
 
 새로운 뉴스 업데이트
 ------------
@@ -29,6 +33,13 @@ Skycoin 팀은 텔레그램에서 가장 활발한 팀입니다.
 * [스카이코인 블로그](https://blog.skycoin.net)
 * [스카이코인 트위터](https://twitter.com/skycoinproject)
 * [스카이코인 래딧](https://reddit.com/r/skycoinproject)
+* [스카이코인 Facebook](https://www.facebook.com/skycoinproject)
+
+Media
+-----
+
+* [스카이코인 Youtube](https://www.youtube.com/channel/UCzLASufel2No4vSt4rudHSQ)
+* [스카이코인 Instagram](https://www.instagram.com/skycoinproject/)
 
 소프트웨어
 --------
