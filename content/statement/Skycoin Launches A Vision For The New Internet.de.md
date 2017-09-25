@@ -1,5 +1,4 @@
 +++
-title = "Skycoin Launches A Vision for the New Internet"
 title = "Skycoin gründet eine Vision für ein neues Internet"
 tags = [
     "Statement",
