@@ -21,8 +21,8 @@ categories = [
 Ethereum. Now you changed it to aether which has been used by some other
 people at this forum. Why did you like these two names so much?
 
-Ether permutes space. Then we found out ether is alcohol that people snuff to
-get high and aether is the mystical substance that permutes space.
+Ether permeates space. Then we found out ether is alcohol that people snuff to
+get high and aether is the mystical substance that permeates space.
 
 Its called Aether because the data does not exist on a server. It exists
 collectively throughout the internet (or at least the subscribers). Once
@@ -65,7 +65,7 @@ This innovation, this data structure is as powerful as the blockchain. Its as
 powerful as DHT. It is a core component for the next generation of
 decentralized systems.
 
-Aether is a mystical element that permutes all of space and I think its
+Aether is a mystical element that permeates all of space and I think its
 appropriate.
 
 In Tor, you can identify the path to a service through traffic analysis by
