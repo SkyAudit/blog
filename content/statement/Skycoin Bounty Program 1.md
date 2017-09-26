@@ -3,6 +3,7 @@ title = "Skycoin Bounty Program 1"
 tags = [
     "Bounty Program",
 ]
+bounty = 3
 date = "2017-08-27"
 categories = [
     "Statement",
@@ -17,6 +18,7 @@ categories = [
 
 *Updated September 3, 2017. Added French to translation bounties.*
 
+*Updated September 12, 2017. Increase infographics bounty reward to 30.*
 
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
 
@@ -38,7 +40,7 @@ Infographics about Skycoin, Skywire meshnet, BBS, CXO etc.
 
 Branding assets (logos, color) are on the [downloads page](https://www.skycoin.net/downloads).
 
-* 15 SKY each
+* 30 SKY each
 
 ## Video
 
@@ -66,17 +68,11 @@ Accepted languages are:
 * 한국어
 * Ελληνικά
 * Français
+* Nederlands (maximum 10 SKY bounty per article)
 
 *Note: 中文 and Рyсский translations all have someone working on them now*
 
 We may add more languages later but aren't able to verify translations for other languages yet.
-
-Every 500 words is 5 SKY. For example:
-
-* 1-500 words: 5 SKY
-* 501-1000 words: 10 SKY
-* 1001-1500 words: 15 SKY
-* ...and so on...
 
 At the bottom of each English-language blog post, the reward for that article is shown.
 

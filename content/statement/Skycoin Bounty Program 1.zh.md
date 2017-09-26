@@ -16,23 +16,30 @@ categories = [
 *2017年8月29日更新，添加了reddit活动的奖金。将GIF图片奖励提高到20 Skycoin.*
 
 
-在Skycoin Bounty Program Telegram Channel（Telegram频道）上申请奖金(https://t.me/skycoinbounty)
+在[Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)（Telegram频道）上申请奖金
 
 
 ## 奖励类型
-- 图形
-- 视频
-- 翻译
-- 写作
-- 社交媒体参与
+
+<!-- MarkdownTOC autolink="true" bracket="round" -->
+
+- [图形](#%E5%9B%BE%E5%BD%A2)
+- [视频](#%E8%A7%86%E9%A2%91)
+- [翻译](#%E7%BF%BB%E8%AF%91)
+- [写作](#%E5%86%99%E4%BD%9C)
+- [社交媒体参与](#%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E5%8F%82%E4%B8%8E)
+
+<!-- /MarkdownTOC -->
 
 ## 图形
+
 关于Skycoin, Skywire meshnet, BBS, CXO等的信息图形
 在下载界面downloads page上的品牌资产（商标, 颜色）
 
-* 每个奖励15 SKY
+* 每个奖励30 SKY
 
 ## 视频
+
 YouTube（或其他视频上传网站）上发布一切关于天空币的视频（比如视频博客类型的材料）
 
 * 每1,000浏览量奖励1SKY
@@ -41,11 +48,12 @@ YouTube（或其他视频上传网站）上发布一切关于天空币的视频�
 
 产品促销视频（比如说描述天空币技术的视频）
 
-* 150 SKY 
+* 150 SKY
 * 你也可以把视频上传到YouTube频道上，来获得上述的奖金（第1项）。
 * 天空币可能会在天空币的YouTube频道或者天空币网站上使用这些.视频。
 
 ## 翻译
+
 从本官网的博客频带里翻译文章。
 接受的语言有：
 
@@ -57,11 +65,6 @@ YouTube（或其他视频上传网站）上发布一切关于天空币的视频�
 * Рyсский
 
 我们会陆续增加其他语言，但是目前其它语言还无法针对完成的翻译进行考核确认。
-每500字奖励5个天空币，比如：
-
-* 1-500字: 5 SKY
-* 501-1000字: 10 SKY
-* 1001-1500字： 15 SKY
 
 以此类推
 在每篇英文博客文章的底部，我们都会标识这篇文章的奖励数量。
@@ -87,4 +90,4 @@ YouTube（或其他视频上传网站）上发布一切关于天空币的视频�
 * 1000 SKY - 2500 [Skycoin subreddit](https://reddit.com/r/skycoinproject) 文章
 
 如果你有其它可以推广天空币的方法，而该方法应当得到奖励的话，请在Telegram频道里写下你的建议。
-Skycoin Bounty Program Telegram Channel
+[Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)

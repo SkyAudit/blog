@@ -34,7 +34,7 @@ We are hunting down and fixing a transaction prorogation issue, where a small nu
 ###### To fix this edge case we
 - Ensure that nodes now announce the hashes of their whole unspent TX set on connect (we thought this was implemented but it was not)
 - Persist transactions in the UXTO set by default (now enabled)
-- Added a manuel TX rebroadcast JSON and CLI function
+- Added a manual TX rebroadcast JSON and CLI function
 - Track transaction status with a boolean flag. If a TX object in the unspent output pool goes from unexecutable, to executable on the current unspent output set, then it will automatically trigger a broadcast for that TX
 
 ###### This should also fix the unrelated bug where:

@@ -6,6 +6,7 @@ tags = [
     "Meshnet",
     "Privacy",
 ]
+bounty = 4
 date = "2017-08-18"
 categories = [
     "Skywire",
