@@ -1,5 +1,5 @@
 +++
-title = "Skywire: A Free and Open Internet"
+title = "Skywire: Ein freies und offenes Internet"
 tags = [
     "Skywire",
     "Skycoin Mining",
@@ -13,11 +13,12 @@ categories = [
 description = ""
 +++
 
-The internet gives us the illusion of control. We can socialize, consume, and do business instantly through services provided by Google, Facebook, Apple, and Amazon. Seems convenient, right? It is – until you consider what you’re giving up.
+Das Internet gibt uns die Illusion von Kontrolle. Wir können Kontakte knüpfen, konsumieren und Geschäfte augenblicklich tätigen - alles durch bereitgestellten Diensten von Google, Facebook, Apple und Amazon. Scheint sehr komfortabel zu sein, richtig ? Ist es - bis man bedenkt was man dafür aufgibt.
 
-We don’t control our lives online. Large companies and internet service providers (ISPs) collect our data, track our movements, and shape our experiences. Every time we use the internet, we give these companies total power over us. We don’t own our internet lives, they do.
+Wir kontrollieren unser Online-Leben nicht. Große Unternehmen und Internetdienstanbieter(ISP/IDA) sammeln unsere Daten, verfolgen unsere Bewegungen und beeinflussen so unsere Umweltwahrnehmung. Jedes Mal wenn wir das Internet benutzen geben wir diesen Unternehmen die absolute Macht über uns. Wir besitzen unser Online-Leben nicht, sie tun es.
 
-It’s getting worse. Corporate and government entities continue to threaten internet freedom. Just this spring, the FCC moved to throw out net neutrality rules. If the move succeeds, the net neutrality protections that provide equal access for all content will be destroyed. ISPs will be able to block content and control connectivity. They’ll choose which content you see, and exactly how you see it.
+Es wird schlimmer. Unternehmerische und behördliche Instanzen fahren damit fort die Netzneutralität zu bedrohen. Erst diesen Frühling hat die Federal Communications Commission (FCC) in den USA geplant die Neutralitätsvereinbarungen aufzuheben. Wenn der Versuch erfolgreich ist, dann wird die Netzneutralität, welche gerechten Zugang zu allen Arten des Datenverkehrs gewährleistet, zerstört werden.
+Internetdienstanbieter(ISP/IDA) werden die Möglichkeit besitzen Inhalte zu blockieren und die Netzwerkverbindung zu kontrollieren. Sie entscheiden welche Inhalte du siehst und haargenau wie du sie siehst.
 
 Globally, the threat to internet freedom is even more serious. Some governments actively censor sites, or block certain apps and services. Other countries have economically-rooted problems with access. Much of the developing world has no internet access at all, while some have limited access that comes at a high cost due to corporate control and third-party scams that exploit less-experienced users.
 
