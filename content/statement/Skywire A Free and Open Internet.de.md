@@ -1,5 +1,5 @@
 +++
-title = "Skywire: Ein freies und offenes Internet"
+title = "Skywire: Ein freies und unzensiertes Internet"
 tags = [
     "Skywire",
     "Skycoin Mining",
