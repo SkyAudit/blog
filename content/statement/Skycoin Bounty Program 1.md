@@ -62,7 +62,7 @@ Translate posts from this blog.
 
 Accepted languages are:
 
-* Deutsche
+* Deutsch
 * Español
 * 日本語
 * 한국어
