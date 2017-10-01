@@ -40,21 +40,18 @@ Obelisk는 단일 알고리즘이 아니며, 확실한 보안을 보장하기 �
 비트코인에서는, 새로운 트랜젝션이 블록에 할당되어 블록 체인에 추가됩니다. 
 블록체인 네트워크의 모든 피어는 새 블록을 만들 수 있습니다. 
 따라서 각 블록에는 단일 부모 블록이 있지만 
-하나 이상의 유효한 하위 블록(자식)이 있습니다.  The chains form a
-tree and the core problem that Bitcoin solves is getting
-every node in the network to agree on which of the
-prospective chains in the chain tree is the consensus
-blockchain.
+하나 이상의 유효한 하위 블록(자식)이 있습니다.  
+트리의 체인과 비트코인이 해결한 핵심 문제는 네트워크의 
+모든 노드가 합의 블럭체인인 체인 트리의 예상 체인 상에서 동의하는 것입니다.
 
-Bitcoin uses a technique called Proof‐of‐Work
-(PoW) to determine a unique blockchain. A valid
-block requires a hash value, which is below a target
-value. Nodes add transactions to a new block and
-randomly try nonces until a valid hash for a block
-is found.
+비트코인은 고유한 블록체인을 결정하기 위해 작업증명(Proof-of-Work)라는 기술을 사용합니다. 
+유효한 블록에는 목표 값보다 낮은 해시 값이 필요합니다. 
+노드는 트랜잭션을 새 블록에 추가하고 블록에 대한 
+유효한 해시가 발견될 때까지 임의로 논스(nonces)를 시도합니다.
 
-A function is used to create a total ordering
-of chains in the block tree. The chain which has the
+
+함수는 블록 트리에서 전체 체인 순서를 생성하는데 사용됩니다.
+The chain which has the
 highest difficulty and required the most hashing
 operations to produce is “the longest chain” and
 forms the consensus chain. The notion of “block
