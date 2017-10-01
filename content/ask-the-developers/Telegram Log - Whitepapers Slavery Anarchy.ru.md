@@ -1,5 +1,5 @@
 +++
-title = "Логи Telegram канала - "Whitepaper", Рабство и Анархия"
+title = "Логи Telegram канала - Whitepaper, Рабство и Анархия"
 tags = [
     "Ask the Developers",
 
