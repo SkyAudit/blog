@@ -16,7 +16,7 @@ categories = [
 ２０１７年９月１２日更新　インフォグラフィックス報酬を30 SKYまで増やしました。*
 
 
-報酬にはSkycoin Bounty Program Telegram Channelでご応募下さい。
+報酬には[Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)でご応募下さい。
 
 
 ## 報奨金カテゴリー
