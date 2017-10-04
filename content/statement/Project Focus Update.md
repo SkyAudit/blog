@@ -20,7 +20,7 @@ The Skycoin mobile wallet is done.
 
 ### Branding, Design
 
-We are reamping the content pages for the Skycoin website
+We are revamping the content pages for the Skycoin website
 
 We have a new logo now.
 
@@ -59,7 +59,7 @@ they see nothing happening here.
 
 The price is not dead.
 
-When we sell coins on the market, the price goes up.
+*When we sell coins on the market, the price goes up.*
 
 It is impossible for people to buy at the price they want and no one wants to
 sell the coin. There is no reason you would sell a coin if it can go from $0.05
@@ -108,7 +108,7 @@ Internally, we do not use the price a metric but look at fundamentals such as:
 - improvements in marketing effort and Skycoin structure/organization (how many
   people are active in the bountry program)
 
-As we have improved the coin and marketing the Skycoin volume has deceased
+As we have improved the coin and marketing *the Skycoin volume has decreased*
 because people have been less willing to sell. When we release major news, the
 Skycoin price does not increase, but the volume decreases because there are
 fewer people selling at the market clearing price. When we have done coin drops
@@ -257,8 +257,8 @@ to prepare and lay the foundation for).
 
 ### Exchange Listings
 
-The scheduled listing on US exchanges was affected by the SEC letter. The US
-exchanges still have not resumed listing new coins.
+The scheduled listing on US exchanges was affected by the SEC letter. *The US
+exchanges still have not resumed listing new coins.*
 
 We think all the US exchanges will be dead or irrelevant within two years.
 
