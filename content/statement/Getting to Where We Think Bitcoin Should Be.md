@@ -7,7 +7,7 @@ tags = [
     "Consensus",
 ]
 bounty = 4
-date = "2017-10-04"
+date = "2017-10-03"
 categories = [
     "Statement",
 ]
