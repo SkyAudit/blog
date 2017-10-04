@@ -109,8 +109,3 @@ Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィッ�
 他に報酬に値する何かのアイディアを思い付いたら、気兼ね無くTelegramチャンネルで提案して下さい。
 
 [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
-
-
-ロシア語、朝鮮語、日本語、中国語の翻訳報奨金：6 SKY
-
-他の言語の翻訳報奨金：3 SKY
