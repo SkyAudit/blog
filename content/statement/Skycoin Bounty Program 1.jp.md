@@ -30,7 +30,7 @@ categories = [
 - [動画](#動画)
 - [翻訳](#翻訳)
 - [執筆](#執筆)
-- [ソーシャルメディア](#ソーシャルメディア)
+- [ソーシャルメディア活動](#ソーシャルメディア活動)
 
 <!-- /MarkdownTOC -->
 
@@ -98,9 +98,9 @@ Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィッ�
 
 （例：YouTube動画の視聴回数を水増しする、中途半端なインフォグラフィックス）
 
-## ソーシャルメディア
+## ソーシャルメディア活動
 
-活躍するスカイコインユーザーへの特別ボーナス：
+活躍するSKYCOINユーザーコミュニティのメンバーへに特別賞与：
 
 * 10 SKY - [Skycoin subreddit](https://reddit.com/r/skycoinproject)投稿100個
 * 100 SKY - [Skycoin subreddit](https://reddit.com/r/skycoinproject)投稿500個
