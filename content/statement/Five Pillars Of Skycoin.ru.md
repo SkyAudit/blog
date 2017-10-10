@@ -44,8 +44,8 @@ categories = [
 
 - [Sky-messenger](http://messenger.skycoin.net/)
 - [Распределенная социальная сеть (BBS)](https://github.com/skycoin/bbs),
-подобна Steemit, но на наших инфраструктуре и платформе
+аналог Steemit, но на нашей платформе и нашей инфраструктурой
 - Функции обмен/раздача файлов 
 
-(5) Наша собственная [платформа оборудования](/statement/skywire-miner-hardware-for-the-next-internet/).
+(5) Наше собственное [оборудование](/statement/skywire-miner-hardware-for-the-next-internet/).
 
