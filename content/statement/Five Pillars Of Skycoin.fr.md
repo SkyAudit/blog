@@ -10,7 +10,7 @@ categories = [
 ]
 +++
 
-Le projet Skycoin est une plateforme logicielle/d'application intégrée hermétiquement qui fonctionne en parallèle et par dessus de l'internet actuel de manière indépendante.
+Le projet Skycoin est une plateforme logicielle/d'application intégrée hermétiquement qui fonctionne en parallèle et par dessus l'internet actuel tout étant complètement indépendante.
 
 Les cinq piliers du projet Skycoin sont :
 
@@ -25,11 +25,11 @@ Les cinq piliers du projet Skycoin sont :
    ([Obelisk](/statement/obelisk-the-skycoin-consensus-algorithm/)).
 
 (2) [Skywire](/tags/skywire/), un réseau de maille où vous pouvez être rémunéré en crypto-monnaie pour transmettre le trafic / bande passante. 
-Ce principe est similaire à Tor ou à BitTorrent sauf que vous serez payé pour exécuter un nœud.
+Ce principe est similaire à Tor ou à BitTorrent sauf que vous serez payé pour faire fonctionner un nœud.
 
 (3) [Skyledger](https://www.skyledger.net), une plateforme qui représente notre vision de l'ERC20 d'Ethereum mais bien meilleure :
 
- - Nous donnons à chaque crypto-monnaie leur propre chaîne de blocs ainsi que la plateforme fonctionnant au-dessus de l'infrastructure de Skywire et nous touchons simplement une commission en contrepartie.
+ - Nous donnons à chaque crypto-monnaie leur propre chaîne de blocs ainsi que la plateforme fonctionnant au-dessus de l'infrastructure de Skywire et nous recevons simplement une commission en contrepartie.
  - Nous avons un language de programmation ([CX](/overview/cx-overview/)),
    pas de "smart contracts" (que nous pensons être une grande connerie).
  - Nous laissons les développeurs de chaque chaîne coder tout ce qu'ils veulent faire.
