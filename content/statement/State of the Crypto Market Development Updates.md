@@ -107,7 +107,7 @@ Since there are so few real projects, we will see MASSIVE floods of money,
 that are quite rapid, into the small number of real projects.
 
 The time to invest in these projects, between when no one cares when everyone
-is rushing in and the coin has appreciated are very narrow.
+is rushing in and the coin has appreciated is very brief.
 
 Previously, coins had a period where public could buy them at a low price,
 before they appreciated. It tooks years (like Litecoin and Bitcoin).
@@ -120,15 +120,15 @@ time frame.
 Now, with projects like Cardano, all of the coins are pre-sold to insiders.
 Then the coin just magically APPEARS in the top 15 out of nowhere. There is no
 period when the coin is being bought/sold by a user community. They just sell
-the coins to insiders, VCs and rich people. Then the coin POPS on the exchange
-at its full price and then they pay markers to promote it and people to buy
-it. While the insiders dump as many coins as they can.
+the coins to insiders, VCs and the already wealthy. Then the coin POPS on the
+exchange at its full price and then they pay marketers to promote it and people
+to buy it. While the insiders dump as many coins as they can.
 
 So before, there was a period when the public could find a good coin, cheaply,
 and buy it before it appreciated. Today, it is just a cartel of insiders who
 are already rich, giving each other coins (pre-ICO, lol what?) and
 institutional sales, before throwing the coin on an exchange and trying to
-dump as much of it as they can find buyers for.
+dump as much of it as they can on the public.
 
 So the new model is:
 
@@ -172,13 +172,13 @@ Basically, none of the governments wanted to "regulate" Bitcoin or the exchanges
 until the "regulator" and their friends started getting into the market and
 wanted to push out the other people. In the United States especially, you will
 have an oligarchy like CoinBase and a few companies and only they are allowed
-to operate. They are going to start white listing coins, so only their coins
+to operate. They will start white listing coins, so only their coins
 get listed and exchanges will be delisting the other projects.
 
 The exchanges that are not owned by the right people are going to be shutdown
 (or hacked).
 
-They are literally doing "Do what we say and we will protect you" etc then on
+They are literally doing "Do what we say and we will protect you", then on
 backend they are trying to get them shutdown at gunpoint so they can put their
 "licensed" competitor in place. Sort of like Circle trying to integrate
 Bitcoin into iMessage, then creating a white-list of which coins could go into
@@ -188,10 +188,10 @@ thing and get control over it.
 Just imagine if Apple integrated circle as the "official Bitcoin wallet" and
 put it in iMessenger, then purged all the Bitcoin wallets from the App store.
 
-The coin market is forming in an oligarchy. People are demanding "regulation"
+The coin market is forming into an oligarchy. People are demanding "regulation"
 because they are scamming everyone left and right and do not want to compete
-with other people's scams so they want to own/control the regulation and shut
-everyone else down. That is basically what is happening.
+with other people's scams so they want to own and control the regulation and
+shut everyone else down. That is what is happening.
 
 I think we may see another round of large hacks, like we did on Gox.
 
@@ -235,27 +235,26 @@ screwing with the volume.
 Most people with large orders are actually trading OTC on Bitfinex or other
 OTC platforms.
 
-Most of the exchanges are making their money on volume and do not actually
+Most of the exchanges are making their money on volume and do not
 have maker/taker fees so there is no real order book depth. Making it very
 easy to rig and manipulate coin prices with a relatively small amount of money
-(hence OTC has to be used to fill large orders because they cannot be done on
+(hence OTC must be used to fill large orders because they cannot be done on
 the order book). The market structure is just broken and optimized for
 manipulation.
 
 - No maker/taker fees, so a thin order book depth
 - Exchanges making all of their fees on volume
-- Exchanges ranked by fake volume (and exchanges fake volume)
+- Exchanges ranked by fake volume (and exchanges are faking volume)
 - Hidden trading rebates
 - Paid market makers (people paid massive fees to create fake volume)
 - Inaccurate exchange rankings (by fake volume)
 - Inability to buy/sell on market (thus a need for OTC)
 - Most coins are off markets because of the hacking risk (getting Goxed)
-- Ability to more easily rig billions in coin market cap with little money
-  because no actual order book depth
+- Ability to easily rig billions in coin market cap with little money
+  because there is no real order book depth
 - Emphasis of exchanges on only the largest, most well marketed coins who have
   done huge ICOs (all of which are scams). No emphasis on technology or real
   companies
-- Etc
 
 So for concrete example and instance there are three micro-grid tokens and
 companies:
@@ -266,7 +265,7 @@ companies:
   customer pricing laws and compliance. Has existing customers and revenue.
 - The other two coins are are massive ICOs that raised tens or hundreds of
   millions of dollars, but have no software, no employees, no experience
-  building power grids and does not even understand the regulations required
+  building power grids and do not even understand the regulations required
   to operate in the markets they are raising funds in an ICO for. Has no
   customers, no revenue, cannot even operate in the markets they are raising
   funds for.
@@ -283,10 +282,10 @@ actually being filtered out for economic reasons.
 
 What is happening now is:
 
-- The largest generation of users is buying/selling 15 or 60 coins in their
+- The latest generation of users is buying/selling 15 or 60 coins in their
   portfolio. Someone who owns 60 coins does not have 60 wallets installed on
   their computer. Even the altcoin investment fund people are having trouble
-  having 15 wallets installed to an offline computer and figuring out how to
+  keeping 15 wallets installed to an offline computer and figuring out how to
   do offline transaction signing for them.
 - They do not even have wallets installed for ANY of the coins. Meaning all
   of the coins are just sitting on exchanges waiting to be looted
@@ -558,7 +557,7 @@ generation of platforms has a technical solution to overcome the requirements
 for mainstream adaption.
 
 So I am really excited about doing a bounty to have something like HunterCoin
-(MMO on blockchain) or some kind of real money rogue-like (NetHack, etc) built
+(MMO on blockchain) or some kind of real money rogue-like (e.g. NetHack) built
 on top of CX. "Real Money Dwarf Fortress on Blockchain". It will be exciting
 to see what people do with this.
 
