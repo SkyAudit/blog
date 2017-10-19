@@ -151,437 +151,418 @@ ICO 전후로 수억 달러를 모으는 동전들이 있습니다.
 
 현재의 모델은 단지 대중적인 스캠으로 당신은 무엇도 얻을 수 없습니다.
 
-I think, from experience with some of the coins I have advised on, from some
-of the conference calls I have been on, that I can predict that we could see
-some exchange owners raided at gun point and thrown face down with a gun to
-their head while their servers are looted and confiscated by the government.
-Not because their are scamming people, but just because they are clueless and
-snubbing the wrong person or the friend of the regulators.
+제가 생각하기에, 몇 개의 코인에 대한 경험에 대해 조언할 수 있으며, 
+제가 갔던 몇 개의 컨퍼런스를 통해 저는 우리가 몇몇 거래소 주들이 
+최고 시점까지 올리고 그들의 서버가 정부에 의해 약탈되고 압수되는 동안 
+하락시킬 것을 예상할 수 있습니다. 
+그들이 사기꾼이어서가 아니라, 
+단지 그들이 무지하며 얼간이거나 규제자의 친구이기 때문입니다.
 
-Basically, none of the governments wanted to "regulate" Bitcoin or the exchanges
-until the "regulator" and their friends started getting into the market and
-wanted to push out the other people. In the United States especially, you will
-have an oligarchy like CoinBase and a few companies and only they are allowed
-to operate. They will start white listing coins, so only their coins
-get listed and exchanges will be delisting the other projects.
+기본적으로 정부 중 누구도 "규제자"와 그들의 친구들이 시장에 진입하고 
+다른 사람들을 쫓아내길 원치않는 한 비트코인의 또는 거래소의 "규제"를 원치 않습니다.
+특히 미국에서, 당신은 코인베이스와 소수의 기업과 같은, 
+단지 그들이 운영을 허용하는 것만을 사용할 수 있을 것입니다.
+그들은 코인의 화이트 리스팅을 시작할 것이고, 
+때문에 그들의 코인만이 나열되고 다른 프로젝트는 거래소에서 상장 해제될 것입니다.
 
-The exchanges that are not owned by the right people are going to be shutdown
-(or hacked).
+부적절한 사람들이 소유한 거래소는 폐쇄될 것입니다.(또는 해킹됨)
 
-They are literally doing "Do what we say and we will protect you", then on
-backend they are trying to get them shutdown at gunpoint so they can put their
-"licensed" competitor in place. Sort of like Circle trying to integrate
-Bitcoin into iMessage, then creating a white-list of which coins could go into
-the Apple App store. Everyone is trying to figure out how they can grab this
-thing and get control over it.
+그들은 말 그대로 "우리가 말하는 것을 할 것이며 우리는 당신을 보호할 것입니다."를 
+하고 있으며, 백엔드에서 그들은 부적절한 거래소의 폐쇄를 시도하기 위해서 
+그들의 "허가된" 경쟁자를 적절히 배치할 수 있습니다.
+일부 모임은 비트코인을 iMessage에 통합하려고 시도하며, 
+코인이 애플 앱 스토어에 진입할 수 있도록 화이트-리스트를 
+만듭니다. 모두가 어떻게 그들이 그것을 잡고 통제할 수 있는지 알아내려고 하고 있습니다.
 
-Just imagine if Apple integrated circle as the "official Bitcoin wallet" and
-put it in iMessenger, then purged all the Bitcoin wallets from the App store.
+애플이 단체를 "공식 비트코인 지갑"으로 통합하고 iMessenger에 넣은다음, 
+모든 비트코인 지갑을 앱 스토어로부터 제거했는지 상상해 보십시오.
 
-The coin market is forming into an oligarchy. People are demanding "regulation"
-because they are scamming everyone left and right and do not want to compete
-with other people's scams so they want to own and control the regulation and
-shut everyone else down. That is what is happening.
+코인 시장은 독재를 형성하고 있습니다. 
+사람들은 "규제"를 요구하고 있는데, 그들이 주위 모든 사람들에게 사기치고 있으며 
+다른 사람들의 사기행위와 경쟁하고 싶지 않아하기 때문이며, 
+따라서 그들은 규제를 점유 및 통제하고 다른 모든 사람들을 차단하기를 원합니다.
+이것이 지금 일어나고 있는 일입니다.
 
-I think we may see another round of large hacks, like we did on Gox.
+저는 우리가 아마도 Gox 처럼, 거대한 해킹의 또 다른 라운드를 볼 수 있다고 생각합니다.
 
-There may not be a regulatory or legal pretense for shutting down particular
-exchanges (like what happened to BTC-E) and they could be "hacked" and cleared
-out like MtGox.
+아마도 특정 거래소를 폐쇄하는 것에 대한(BTC-E에 일어났던 일처럼) 
+규제 또는 법적 구실이 없을 수 있으며, "해킹"되어 MtGox처럼 정리될 수 있을 것입니다. 
 
-There was also a conference call where it was pointed out that the SEC was
-funded by regulatory actions, fines and asset seizures. That is where their
-budget comes from.
+또한 SEC에 의해 지목되어 컨퍼런스 콜을 받은 곳도 있는데, 
+SEC은 정기적인 벌금 및 자산 압류 등의 행위로 자금을 조달합니다. 
+이것이 그들의 예산이 어디에서 오는가를 설명해 줍니다.
 
-- The exchanges are ranked by volume.
-- Exchanges with no fees can create infinite fake volume, so only the
-  exchanges with trading fees are included in ranking, otherwise it's
-  inaccurate
-- To pump up their volumes and stay in the top of the rankings, the
-  exchanges are doing secret rebates of trading fees and other scams to
-  inflate their volume, while the actual volume is much lower
-- The exchanges that are most aggressive about puffing their volume and who
-  are least moral are highest ranked
-- There is a huge incentive for exchanges to lie and puff their volume (which
-  is why they are only listing scam coins, who can guarantee high volumes and
-  fees)
+- 거래소는 볼륨에 의해 순위가 매겨집니다.
+- 수수료가 없는 거래소는 무제한으로 가짜 볼륨을 생성할 수 있으므로 
+  거래 수수료가 있는 거래소만이 순위에 포함됩니다. 
+  그렇지 않으면 그것은 부정확 합니다.
+- 그들의 볼륨을 늘리고 순위의 최상단에 머무르기 위해 거래소는 거래량과 
+  다른 사기 사이트와의 비밀 리베이트를 통해 거래량을 늘리는데, 실제 거래량은 훨씬 적습니다.
+- 자신의 볼륨을 부풀리는 것에 대해 가장 공격적이며 비도덕적인 거래소는 
+  가장 높은 순위를 차지하고 있습니다.
+- 자신의 볼륨을 속이고 부풀리기 위한 어마어마한 인센티브가 있습니다.
+  (이는 그들이 왜 사기 코인을 취급하는 지에 대한 이유이며, 
+  그들은 높은 볼륨과 수수료를 보장할 수 있습니다.) 
 
-Exchanges will not list a coin unless they are guanteed to make a minimum of
-$5,000 or $40,000 a day in trading fees. So the coin has to be heavily marketed
-to scalp that much money off the user community after the ICO. The exchanges
-are taking 0.1% on each side (0.2% per trade because they are trading against
-themselves). So every million dollars a day of volume is draining a coin $2,000
-/day in exchange fees. Some of the coins are doing $6 or $10 million/day in
-"paid volume" or "guaranteed volume" ($12,000 or $20,000 a day in volume for
-medium sized coin). The exchange owners only care about volume.
+그들이 하루 수입을 최소 $ 5,000 또는 $ 40,000로 보장하지 않는 한, 
+거래소는 코인을 취급하지 않습니다.
+따라서 코인은 ICO 이후에 사용자 커뮤니티로부터 많은 돈을 털어내야만 합니다. 
+거래소는 각 측면에서 0.1%를 취합니다.
+(각 거래별로 0.2%, 그들이 그들 스스로 거래하고 있기 때문에)
+따라서 하루에 백만 달러를 벌어들이면, 
+하나의 코인은 하루에 2,000 달러를 교환 수수료로 벌어들입니다.
+일부 코인은 하루에 6백만 또는 천만 달러를 "지불된 볼륨" 또는 
+"보장된 볼륨"으로 처리하고 있습니다.
+(중형 코인의 경우 하루에 12,000 달러 또는 20,000 달러)
+거래소 주인은 오직 볼륨만을 신경씁니다. 
 
-The scam coins and mega-ICOs are paying the fees and working with the "market
-makers" to create the fake volume so the exchange owners know how much money
-they will make.
+사기 코인과 메가-ICO는 수수료를 지불하고 "시장 조작자"와 협력하여 가짜 볼륨을 만들어서
+거래소 주인이 그들이 얼마나 많은 돈을 벌 수 있는지를 알 수 있습니다. 
 
-Kraken is probably the only exchange that no one complains about and is not
-screwing with the volume.
+크라켄(Kraken)은 아마도 누구도 불만을 제기하지 않으며 볼륨을 조작하지 않는 유일한 거래소일 것입니다.
 
-Most people with large orders are actually trading OTC on Bitfinex or other
-OTC platforms.
+대량 거래를 하는 대부분의 사람들은 실제로 비트 파이넥스 또는 
+다른 OTC 플랫폼에서 OTC를 거래하고 있습니다.
 
-Most of the exchanges are making their money on volume and do not
-have maker/taker fees so there is no real order book depth. Making it very
-easy to rig and manipulate coin prices with a relatively small amount of money
-(hence OTC must be used to fill large orders because they cannot be done on
-the order book). The market structure is just broken and optimized for
-manipulation.
+대부분의 거래소는 대량으로 돈을 벌고 있으며 메이커/테이커 수수료가 없으므로 
+실제 오더북 깊이가 없습니다. 
+상대적으로 적은 금액으로 코인 가격을 조작하기가 매우 쉽습니다.
+(오더북을 처리할 수 없으므로 대량 주문을 처리하는데 OTC를 사용해야만 합니다.) 
+시장 구조는 단지 붕괴되거나 조작되기 위해 최적화 되었습니다.
 
-- No maker/taker fees, so a thin order book depth
-- Exchanges making all of their fees on volume
-- Exchanges ranked by fake volume (and exchanges are faking volume)
-- Hidden trading rebates
-- Paid market makers (people paid massive fees to create fake volume)
-- Inaccurate exchange rankings (by fake volume)
-- Inability to buy/sell on market (thus a need for OTC)
-- Most coins are off markets because of the hacking risk (getting Goxed)
-- Ability to easily rig billions in coin market cap with little money
-  because there is no real order book depth
-- Emphasis of exchanges on only the largest, most well marketed coins who have
-  done huge ICOs (all of which are scams). No emphasis on technology or real
-  companies
+- 메이커/테이커 수수료가 없기 때문에, 미흡한 오더북 유지
+- 볼륨에 대한 모든 수수료를 생성하는 거래소
+- 가짜 볼륨으로 순위가 매겨지는 거래소(그리고 거래는 가짜 볼륨입니다.)
+- 숨겨진 거래 리베이트
+- 지불된 마켓 조작자(가짜 볼륨을 만들기 위해 막대한 비용을 지불한 사람들) 
+- 부정확한 거래소 순위 (가짜 볼륨에 따라)
+- 시장에서 구매/판매할 수 없음(따라서 OTC를 위해 필요함)
+- 대부분의 코인은 해킹 위험(Goxed)으로 인해 시장에서 멀어져 있습니다.
+- 실제 오더북 수요가 없으므로 거의 돈을 들이지 않고도 코인 시장 캡에서 
+  수십 억 달러를 손쉽게 처리할 수 있습니다.
+-거대한 ICO를 마친(모두 사기) 가장 크고 잘 팔리는 코인의 거래만을 강조합니다. 
+ 기술 또는 실제 회사에 중점을 두지 않습니다.
 
-So for concrete example and instance there are three micro-grid tokens and
-companies:
+구체적인 예를 들기 위해 3 가지 마이크로-그리드 토큰과 회사가 있다고 가정해 봅시다.:
 
-- One is launching token and is a 100 million/year existing business who has
-  been building and operating combined heating/electricity generation for
-  thirty years. Has whole legal department to deal with regulation and
-  customer pricing laws and compliance. Has existing customers and revenue.
-- The other two coins are are massive ICOs that raised tens or hundreds of
-  millions of dollars, but have no software, no employees, no experience
-  building power grids and do not even understand the regulations required
-  to operate in the markets they are raising funds in an ICO for. Has no
-  customers, no revenue, cannot even operate in the markets they are raising
-  funds for.
+- 한 회사는 토큰을 발표하고 30년 간 난방/전력 생산을 구축 및 운영하며 
+  연간 1억의 수익을 유지하는 사업을 운영하고 있습니다.
+  규정 및 고객가격 책정 법률 및 규정 준수를 처리할 자체 법률 부서를 두고 있습니다. 
+  기존 고객과 수익을 보유하고 있습니다.
+- 다른 두 개의 코인은 수십 억 달러를 모으고 있으나, 소프트웨어가 없고, 
+  직원도 없으며, 전력망 구축을 위한 경험도 없고
+  그들이 ICO를 위해 자금을 모으고 있는 시장을 운영하기 위해 
+  필요한 기준에 대해 이해하고 있지 못합니다.
+  고객이 없으며, 수익도 없고, 시장에서 수익을 올릴 수가 없습니다. 
 
-The result:
+결과 :
 
-- The two scam ICOs, already have multiple exchanges lined up to list them,
-  with confirmed listing dates
-- The actual company with 100 million/year in revenue with actual power grid
-  projects, cannot even get a phone call or get the exchanges to talk to them
+- 2개의 사기 ICO는, 이미 여러 개의 거래소에 상장되어 있으며, 
+  상장이 승인된 날자가 표시되어 있습니다.
+- 실제 전력망 구축 프로젝트로 1억 달러의 매출을 올린 실제 회사는, 
+  그들에게 전화를 하거나 의사소통을 할 수 없습니다.
 
-That is what the altcoin market looks like right now. The non-scams are
-actually being filtered out for economic reasons.
+알트코인 시장이 바로 지금과 같은 모습입니다. 
+경제적인 이유로 인해 비-사기 코인이 실제로 방출됩니다.
 
-What is happening now is:
+지금 일어나고있는 것은:
 
-- The latest generation of users is buying/selling 15 or 60 coins in their
-  portfolio. Someone who owns 60 coins does not have 60 wallets installed on
-  their computer. Even the altcoin investment fund people are having trouble
-  keeping 15 wallets installed to an offline computer and figuring out how to
-  do offline transaction signing for them.
-- They do not even have wallets installed for ANY of the coins. Meaning all
-  of the coins are just sitting on exchanges waiting to be looted
-- I did a survey of Ethereum users and ask them questions like "What Ethereum
-  Thin Wallet is Best? Is there something like Electrum for Ethereum? What are
-  the best Ethereum wallets?" and most of the "Ethereum Users" have never
-  actually used an Ethereum wallet or cannot answer, do not know. This means
-  all that money is on exchanges somewhere, its not in their wallets.
+- 최근 세대의 사용자는 자신의 포트폴리오에서 15또는 60개의 코인을 사고 파는 중 입니다. 
+  60개의 코인을 소유한 사람은 컴퓨터에 60개의 지갑이 설치되어 있지 않습니다. 
+  심지어 알트코인 투자 펀드 사람들도 15개의 지갑을 오프라인 컴퓨터에 설치하고 
+  오프라인 트랜잭션 서명을 수행하는 방법을 알아내는데 어려움을 겪고 있습니다.
+- 그들은 코인 중 어느 것에도 지갑을 설치하지 않았습니다. 
+  의미 모든 코인은 약탈되기를 기다리는 교환소에 예치되어 있습니다.
+- 저는 이더리움 사용자에 대한 설문 조사를 실시하고 "어떤 이더리움 지갑이 가장 좋습니까? 
+  이더리움 전자지갑 같은 것입니까? 어떤 것이 최고의 이더리움 지갑이지요?"와 
+  같은 질문을 했으며 대부분의 "이더리움 사용자"들은 실제로 이더리움 지갑을 
+  사용한 적이 없거나, 대답할 수 없으며, 모른다고 답했습니다.
+  즉, 돈은 지갑에 있는 것이 아니라 어딘가의 거래소에 있다는 것을 의미합니다.
 
-For the smaller coins (even coins valued in hundreds of millions or billions
-of dollars), many actually have almost zero real transactions, zero people
-actually with the wallet. I know this from node IP stats and harvested data I
-have seen.
+적은 양의 코인에 대해(수억 또는 수십억 달러로 평가된 코인조차도), 
+많은 사람들이 사실상 실제 거래가 거의 없으며,
+실제로 지갑을 가지고 있는 사람들은 거의 없습니다. 
+노드IP 통계와 제가 확인한 결과 데이터에서 이 사실을 알 수 있습니다.
 
-Also, for the majority of the coins the volume is fake. There are coins with
-very impressive volume (which the exchanges are making a lot of money on) and
-very impressive market caps, but its all fake. Just completely fake. To get
-enough volume to get on exchanges, you have to agree to pay a market maker to
-create volume.
+또한 대부분의 코인은 가짜입니다. 
+매우 인상적인 거래량(많은 돈을 버는 코인)과 매우 인상적인 시가 총액이 있지만 
+모두 가짜입니다. 완전히 사기입니다. 
+거래를 하기에 충분한 볼륨을 얻으려면 볼륨을 만들어 내기 위해 
+시장 조작자에게 돈을 내는 것에 동의해야 합니다.
 
-So some coins are giving 3 or 5 million dollars in coins to day trade on the
-exchange, to make the exchange owner money and lure in suckers and if you are
-an honest coin or not doing that, they won't list you and will complain "Your
-volume is not high enough" and to go give their friends free coins to day
-trade and make the exchanges a lot of money.
+그래서 일부 코인은 3천 5백만 달러의 코인을 거래소에서 거래하고, 
+거래소 주인이 돈을 벌고 낚시를 하며, 정직한 코인 또는 그렇게 하지 않을 경우, 
+그것을 상장하지 않고 불만을 제시할 것입니다.
+"귀하의 거래량이 충분하지 않습니다." 
+그리고 친구들에게 하루 동안 코인을 무료로 제공하고 거래소가 많은 돈을 벌 수 있게 합니다.
 
-They know the people that will do this and who wont.
+그들은 그것을 하거나 하지 않을 사람을 알고 있습니다.
 
-The exchanges are making so much money on the scam and scam ICOs, that they
-will only list scam coins (which they make more money on). Their whole
-business is about volume. They can have 10 million/day in "volume" and the
-real order book depth is ten Bitcoin.
+거래소는 사기와 사기 ICO에서 많은 돈을 벌고 사기 코인
+(그들이 더 돈을 벌 수 있는)만을 상장합니다.
+그들의 전체 사업은 규모에 관한 것입니다. 
+그들은 일일 1천만의 "볼륨"을 가질 수 있으며, 
+실제 오더북의 깊이는 10 비트코인입니다.
 
-Also, most (the most popular) "Bitcoin News" websites are publishing fake
-news, "China Bans Bitcoin for the fifth time", "Russia Bans Bitcoin". Then
-when exchanges shut down something actualy happens (an event) there are ZERO
-articles about it on those website, because the REAL NEWS is not timed to
-their market pump and dumps. The media sites are literally just doing timed
-market pump and dumps with completely fake news. They are even recirculating
-fake, leaked "regulatory letters" from four years ago as "Just released China
-banned Bitcoin" news. And every single day is either a "pump day" or a "dump
-day".
+또한 대부분의(가장 인기있는) "비트코인 뉴스" 웹 사이트는 
+"중국은 비트코인을 다섯 번째로 금지합니다", 
+"러시아는 비트코인을 금지합니다"라는 가짜 뉴스를 게시하고 있습니다. 
+그 다음, 거래소 폐쇄가 실제로 일어날 때(하나의 이벤트), 
+해당 웹 사이트에 대한 0 개의 기사가 있습니다. 
+왜냐하면 실제 뉴스가 시장 펌프 및 덤프 시간에 맞지 않기 때문입니다.
+언론 사이트는 말 그대로 완전히 위조된 뉴스로 시간을 초월한 
+시장 펌프 및 덤프를 하고 있습니다. 
+그들은 4년 전 "방금 중국에서 금지된 비트코인"소식이라는 
+가짜 "유출 규제 문건"을 반복하고 있습니다. 
+그리고 매일 매일이 "펌프 데이(pump day)"또는 "덤프 데이(dump day)"중 하나입니다.
 
-So for 90% of these projects, unless you are an insider and the one rigging
-the markets and in the cartel, you are not going to benefit from buying any of
-these coins. They have already appreciated 100x before you will even see them
-on the market. They are just popping into the top 20 out of no where now, with
-no one in public able to buy anything before the peak and then immediately
-crash afterward.
+그래서 이 프로젝트의 90 %에 대해, 당신이 내부자이며 시장을 장악하고 
+카르텔에 속한 사람이 아니라면, 당신은 이 코인들을 구입함으로써 
+이익을 얻지 못할 것입니다. 그들은 이미 거래소에서 볼 수 있기 전에 
+이미 100배로 평가되었습니다. 
+그들은 지금 어디에서나 최고 20위까지 뛰어오르고 있습니다. 
+대중 중 누구도 호황기 전에 아무 것도 살 수 없으며, 이후 갑자기 추락할 것입니다.
 
-There are almost 0 (ZERO) news websites tracking:
+거의 0개의(없음) 뉴스 웹 사이트 기사가 있습니다.:
 
-- Actual technology
-- Real world usage of blockchain
-- Real world development (projects with developers)
-- Smaller projects that are trying to do something more than run a pump and
-  dump for the suckers
+- 실제 기술
+- 블록 체인의 실제 사용
+- 실제 개발(개발자와 프로젝트)
+- 바보를 위해 펌프와 덤프를 하는 것보다 더 많은 것을 하려고 하는 작은 프로젝트
 
-The whole market has been taken over completely. The libertarian aspiration of
-Bitcoin have been killed by simple greed and lust after easy money.
+전체 시장이 완전히 점령되었습니다. 
+비트코인의 자유주의 열망은 돈에 대한 욕심에 의해 간단히 사라졌습니다.
 
 ---
 
-There are people who have real data (primary data) and they know which coins
-have actual users and real user communities. I track this data constantly and
-the data is pretty bad. The existing coin market is a train wreck.
+실제 데이터(주요 데이터)를 가진 사람이 있으며 실제 사용자와 
+실제 사용자 커뮤니티가 있는 코인을 알고 있습니다. 
+저는 이 자료를 끊임없이 추적하였으며 그 자료는 매우 나빴습니다. 
+기존의 코인 시장은 열차 사고와 같습니다.
 
-Since no one ever withdraws coins from the exchange, the data suggests that
-many coins are selling more coins than actually exist. The trading volume and
-activity is completely uncorrelated to any real verifiable primary metrics.
+아무도 거래소에서 코인을 인출하지 않으므로 많은 코인이 
+실제로 존재하는 것보다 많은 코인을 팔고 있음을 알 수 있습니다. 
+거래량 및 활동은 검증 가능한 실제 주요 지표와 전혀 관련이 없습니다.
 
-People have told me that some exchanges have a history of sudden delisting of
-some coins without allowing the users to withdrawal. Which would explain what
-is happening. My attitude now is "If the coins are not in my wallet and on my
-computer, they do not exist".
+사람들은 제게 일부 거래소에서 사용자 출금 허용없이 갑자기 일부 코인을 
+상장 폐지한 적이 있다고 말했습니다.
+이것은 어떤 일이 일어나고 있는지를 설명해줍니다. 
+제 주장은 "코인이 내 지갑에 없고 내 컴퓨터에 없다면 존재하지 않는다"는 것입니다.
 
-Once the regulators lock out the smaller coins from the markets completely
-with white-listing, the only thing that is getting listed will be two or three
-multi-billion dollar mega-scams a month. I have no idea what this will look
-like. Only the biggest, most toxic, best dressed scams who paid off the most
-people will be able to get listed.
+일단 규제 기관이 시장에서 나온 소규모 코인들을 화이트 리스팅으로 완전히 폐쇄하면,
+유일하게 상장된 것은 한 달에 2~3 억 달러의 거래가 있는 거대-스캠코인이 될 것입니다. 
+저는 이것이 어떤 것인지를 전혀 모릅니다. 대부분의 사람들에게 돈을 지불한 가장 크고 
+문제가 있고 가장 좋게 포장한 사기코인만을 나열할 수 있습니다.
 
-The big changes to the market will be:
+시장에 대한 큰 변화는 다음과 같습니다.:
 
-- Multi-coin support (cross platform coin/wallet support standards, people
-  pulling coins off the exchanges)
-- DEX (distributed exchanges), the real and long term money has already moved
-  off the exchanges because of the hacking risk.
-- Real uses of blockchain instead of speculation (actual companies, using
-  tokens for real business functions)
+- 멀티-코인 지원(크로스 플랫폼 코인/지갑 지원 표준, 거래소에서 코인을 가져오는 사람들)
+- DEX(분산형 거래소)의 경우, 해킹 위험으로 인해 실제 및 장기 보유 자금이 
+  이미 거래소에서 제거되었습니다.
+- 투기 대신 블록 체인을 실제 사용(실제 회사, 실제 비즈니스 기능을 위한 토큰 사용)
 
-However, the sophisticated people are doing very very well. The people who
-know what is going on.
+그러나 수준 높은 사람들은 매우 잘하고 있습니다. 
+그들은 무슨 일이 일어나고 있는지를 알고있는 사람들 입니다.
 
-Many of the large investors are moving off of the exchanges to OTC.
+많은 대형 투자자들이 OTC와의 거래를 철회하고 있습니다.
 
-They are boycotting all the coins with one or two "pre-ICOs" where the
-insiders get to buy at 1/100th the price of the public. They are ignoring the
-massive ICOs and looking at fundamentals and primary metrics.
+그들은 내부자가 일반 대중의 1/100 가격으로 구입할 수 있는 하나 또는 
+두 개의 "사전 ICO"로 운영하는 모든 코인을 배제합니다.
+그들은 거대한 ICO를 무시하고 규정과 기본 측정 기준을 검토하고 있습니다.
 
-It is sort of obvious, to anyone that is not an idiot, that if a coin raised 1
-billion dollars in an ICO, that the price is not going to go up 100x (that 100
-billion dollars in shucks are going to come along and dump one hundred billion
-dollars into the coin so that all the people in the ICO can exit 100x when the
-bought it at before the ICO). Especially if the coin is a "Smart Contract
-Platform" with no users or applications and not Enron selling a billion
-barrels a year of oil for E-coin.
+코인이 ICO에서 10억 달러를 모으게 되면, 가격이 100배가 되지 않는다는 것은 
+바보가 아닌 이상 누구라도 알 수 있는 명백한 사실입니다.
+(1000억 달러의 물량이 쏟아지고 덤프됩니다. 코인에 1000억 달러를 지불하면 
+ICO의 모든 사람들이 ICO 이전에 그것을 구입하고 100배로 빠져 나갈 수 있습니다.) 
+특히 만약 코인이 사용자 또는 응용 프로그램이 없는 "스마트 계약 플랫폼"이며 
+엔론(Enron)이 E- 코인을 위해 1년에 10억 배럴의 오일을 판매하지 않는 경우입니다.
 
-IF:
+만약:
 
-- A coin raises 1 billion dollars in an ICO
-- The coin WILL NOT increase to 100x the ICO price
-- To go up 100x, the existing coin holders have to be bough out for 100 billion
-- That money has to come from somewhere (where as the vast majority of coins
-  only lose money and all of their inflows come from people buying the coin
-  for speculation)
+- 하나의 코인이 ICO에서 10억 달러를 벌어들인다.
+- 그 코인은 ICO가격의 100배까지 상승할 수 없다.
+- 100배까지 올라가려면 기존의 코인 보유자가 1,000억을 가지게 된다.
+- 그 돈은 어딘가에서 나왔다.(대다수의 코인은 돈을 잃고, 
+  유입자금은 모두 이익을 위해 코인을 사는 사람들로부터 나옴)
 
-So it is obvious that all the best relative returns are in the smaller
-projects and not the mega-ICOs.
+따라서 가장 좋은 상대 수익률은 대규모 ICO가 아닌 소규모 프로젝트에 있는 것이 분명합니다.
 
-So all the money is being made by avoiding the mega-ICOs and focusing on
-fundamentals.
+그래서 모든 돈은 대규모 ICO를 피하고 기초에 집중함으로써 만들어지고 있습니다.
 
-Where as idiots see "They raised twelve billion dollars in FIVE MINUTES. I
-NEED TO MORTGAGE MY HOUSE AND BUY THIS IN CASE IT GOES UP 3x AFTER THE ICO".
-Then all the people who bought the coin at 1% of the ICO in the "pre-ICO"
-(that you were not invited to), will dump everything at the ICO price as soon
-as it hits the market.
+바보처럼 "그들은 5분 안에 12억 달러를 모았습니다. 나는 자금을 마련할 필요가 있고, 
+이것을 구매할 경우 ICO 이후 3 배가 됩니다." 그런 다음 ICO의 1%를 차지하는 
+"pre-ICO"(당신이 초대받지 않은)에서 코인을 구매한 모든 사람들은 
+거래소에 상장되자마자 ICO 가격으로 모든 것을 팔아버릴 것입니다.
 
-This trend of everyone creating twelve bitcoin forks, so they can get free
-coins and dump them is also ridiculous.
+12개의 비트 코인 포크를 만드는 이들 모두의 추세 때문에, 
+무료 코인을 얻고 그들을 팔아버리는 것은 역시 바보같은 짓입니다.
 
-## New Wallet
+## 새 지갑
 
-Wallet Version 20 is released.
+지갑 버전 20 이 출시되었습니다.
 
-All nodes have been upgraded.
+모든 노드가 업그레이드 되었습니다.
 
-Completely new wallet from scratch. The new wallet is dozens of times faster.
+기존과는 다른 완전히 새로운 지갑입니다. 새 지갑은 수십 배 빠릅니다.
 
-Blockchain syncing is hundreds of times faster and is almost instant now. The
-old wallet took 1 second per block to sync. The new wallet syncs a few
-thousand blocks in a few seconds.
+블록 체인 동기화는 수백 배 빠르며 즉시 이루어집니다.
+이전 지갑은 동기화 할 때 블록 당 1초가 걸렸습니다. 
+새 지갑은 몇 초 만에 수천 블록을 동기화 합니다.
 
-In future upgrade, all blocks will be treated as immutable data objects in
-CXO, so that the blockchain can be downloaded in parallel across all blocks
-and all connected peers, using all available bandwidth in parallel with no
-constraints on the block ordering.
+향후 업그레이드에서 모든 블록은 CXO에서 불변 데이터 객체로 처리되므로 
+모든 블록과 모든 연결된 피어에 블록 체인을 병렬로 다운로드 할 수 있으며 
+블록 순서에 제약이 없는 모든 사용 가능한 대역폭을 병렬로 사용할 수 있습니다.
 
-This will be even faster than Bitcoin's "header first downloads" or the rust
-ethereum approach.
+이는 비트코인의 "헤더 우선 다운로드" 또는 이더리움 제거 기술보다 훨씬 빠릅니다.
 
-## CoinHours
+## 코인하워
 
-The new wallet (version 20) now shows the "CoinHours", which users earn for
-holding Skycoin.
+새로운 지갑(버전 20)은 이제 사용자가 스카이코인 보유 시 벌어들일 수 있는 
+"코인하워(CoinHours)"가 표시됩니다.
 
-We are working on an exchange for converting and establishing an exchange rate
-between CoinHours and Skycoin. Coin Hours are similar to the "Gas" in Ethereum
-or coin aging in Bitcoin, but are exchange-tradeable and are a separate
-parallel currency in Skycoin.
+우리는 코인하워와 스카이코인간의 환율을 변환하고 확립하기 위한 거래소 작업을 하고 있습니다. 
+코인하워는 이더리움의 "가스(Gas)"또는 비트코인의 코인 손실과 유사하지만 거래 가능하며 
+스카이코인에서의 별도의 병렬 통화 입니다.
 
-Coin Hours are used for transaction fees in Skycoin and will also be used for
-network resources on Skywire.
+코인하워는 스카이코인의 거래 수수료로 사용되며 스카이와이어의 
+네트워크 리소스에도 사용됩니다.
 
-Coin Hours may eventually also be used for allocation of distributed
-computation resources, storage or bandwidth on SkyLedger and any Skycoin side
-changes with embedded CX scripting language.
+코인하워는 궁극적으로 스카이레저의 분산 컴퓨팅 리소스, 스토리지 또는 
+대역폭 할당 및 임베디드 CX 스크립팅 언어를 사용하는 
+스카이코인의 구성 변경에 사용될 수도 있습니다.
 
-The future wallet versions will add an API and UI to specify or
-split the CoinHour balances in transactions.
+앞으로의 지갑 버전에는 거래에서 코인하워 잔액을 지정하거나 
+분할하기 위해 API와 UI가 추가됩니다.
 
-If Skycoins are held on an exchange, the coin hours earned will go to the
-exchange.
+만약 스카이코인을 거래소에 보유하고 있다면, 획득한 코인하워는 거래소로 가게 될 것입니다.
 
-Skycoin CoinHours are also a very important part of the Skycoin CoinJoin
-infrastructure for increasing transaction privacy. CoinHours will be posted as
-collateral for mixing to prevent participants from backing out of or slowing
-down CoinJoin transactions. Skycoin CoinJoin transactions improve the
-mathematical guarantee of Skycoin transaction privacy by spending outputs from
-multiple wallets in the same transaction. This prevents the most common
-deanonymizing attacks in Bitcoin. When fully implemented, this will give
-Skycoin a ZeroCoin-level mathematical guarantee of transaction privacy, with
-orders of magnitude less complexity and computation overhead than the ZeroCoin
-implementation, by eliminating the requirement of the highly complicated
-zero-knowledge proof system.
+스카이코인 코인하워는 또한 스카이코인 코인조인 인프라에서 트랜잭션 
+프라이버시를 높이기 위해 매우 중요한 역할을 합니다. 
+코인하워는 참가자가 코인조인 트랜잭션을 보류하거나 지연시키는 것을 
+방지하기 위해 믹싱을 위한 담보로 게시됩니다. 
+스카이코인 코인조인 거래는 동일한 거래에서 다중 지갑의 결과물을 소비함으로써 
+스카이코인 거래 개인 정보 보호의 수학적 보증을 향상시킵니다. 
+이렇게 하면 비트코인에서 가장 일반적인 비표준 공격을 방지할 수 있습니다. 
+이를 완전히 구현하면 스카이코인은 매우 복잡한 무-지식 증명 시스템의 
+요구 사항을 제거함으로써, 제로코인(Zerocoin) 구현보다 복잡성과 
+계산 오버 헤드가 적은 트랜잭션 개인 정보 보호에 대한 
+제로코인(Zerocoin) 수준의 수학적 보증을 제공합니다.
 
-## Skycoin (DEX) Distributed Exchange Support
+## 스카이코인(DEX) 분산 거래 지원
 
-We are currently designing a hardcoded, 2-factor multi-signature transaction
-type with relative time locks for Skycoin. This new transaction type
-will enable DEX and atomic swap support across Skycoin and all Skyledger
-coins.
+우리는 현재 스카이코인에 대한 상대적 시간 잠금이 있는 
+하드 코딩된 2중(2-factor) 다중-서명 트랜잭션 유형을 
+설계하고 있습니다. 
+이 새로운 트랜잭션 유형은 스카이코인과 모든 스카이레저 코인의
+DEX 및 소규모 거래를 지원합니다.
 
-We are also evaluating proposals for introducing a third transaction type for
-atomic swaps between blockchains. However, we believe that atomic swaps
-between blockchains are not mature yet and that the 2-signature multi-sig with
-relative time lock is the simpliest/easiest way to implement this.
+또한 블록체인 간의 소규모 거래를 위한 세 번째 거래 유형을 
+도입하기 위한 제안을 평가하고 있습니다. 
+그러나 블록체인 간의 소규모 거래 병합은 아직 완성되지 않았으며, 
+상대적 시간 잠금을 사용하는 이중 서명 멀티-시그는 
+이를 구현하는 가장 간단하고 쉬운 방법이라고 생각합니다.
 
-## Skycoin Projects Position on the Smart Contracts Fad
+## 스카이코인 프로젝트, 스마트 계약 체결에 대한 기대감
 
-Skycoin does not have a "Smart Contracting Language". Our blockchain language
-is a full programming language suitable for both desktop, server, networked
-applications but with all the features required for blockchain embedding.
+스카이코인은 "스마트 계약 언어"가 없습니다. 
+우리의 블록 체인 언어는 데스크탑, 서버, 네트워크 응용 프로그램 모두에 적합하지만 
+블록 체인 임베딩에 필요한 모든 기능을 갖춘 완전한 프로그래밍 언어입니다.
 
-We believe that "smart contracts" are a fad. In the future when anyone can
-publish their own blockchain as easily as creating a word-press blog, it does
-not make sense to cram the real world uses of blockchain scripting onto a
-third party platform. While we have a programming language, CX, that is
-designed for actual applications and real world usage, not "smart contracts"
-(as to date we have been unable to find a single real use or application for
-smart contracts).
+우리는 "스마트 계약"이 유행이라고 믿습니다. 
+미래에 누구나 자신의 블록 체인을 워드 프레스 블로그를 만드는 것처럼 
+쉽게 만들 수 있다면 블록 스킨 스크립팅의 실제 사용을 타사 플랫폼에 밀어 넣는 것은 의미가 없습니다. 
+"스마트 계약"이 아닌 실제 응용 프로그램과 실제 사용을 위해 설계된 프로그래밍 언어인 CX가 있습니다. 
+(현재까지는 스마트 계약을 사용한 단일 실제 사용사례 또는 응용 프로그램을 찾을 수 없었습니다)
 
 ## CX
 
-CX is an extremely strict, statically typed, affordance based (based upon Alan
-Kay's COLA architecture),  mathematically deterministic language. CX is
-designed to support the whole range of applications from being embedded on
-blockchain, to programming for GPU, FPGAs and achieving power saving and
-performance on next generation CPU architectures (RISC-V) which have explicit
-cache load/store instructions.
+CX는 매우 엄격하고, 정적으로 형식화 된, 어포던스 기반의
+(Alan Kay의 COLA 아키텍처를 기반으로 하는) 수학적으로 결정론적인 언어입니다.   
+CX는 명시적 캐시 불러오기/저장 명령어가 있는 차세대 CPU 아키텍처(RISC-V)에서 
+블록체인에 임베디드부터 GPU, FPGA 프로그래밍, 절전 및 성능 달성에 이르기까지 
+모든 어플리케이션을 지원하도록 설계되었습니다.
 
-We are currently prototyping OpenGL support for CX.
+우리는 현재 CX에 대한 OpenGL 지원을 프로토타입으로 작성하고 있습니다.
 
-CX also has a new website and programming sandbox.
+CX는 새로운 웹 사이트 및 프로그래밍 샌드 박스도 가지고 있습니다.
 
 https://cx.skycoin.net
 
-I want to see people writing video games or a poker app or something on CX
-soon. I enjoyed "GameCoin" and we need more experiments in embedding video
-games on blockchain like GameCoin.
+저는 곧 사람들이 CX에서 비디오 게임이나 포커 앱 또는 뭔가를 
+작성하는 것을 보고 싶습니다. 
+저는 "GameCoin"을 즐겼으며, 우리는 GameCoin과 같은 블록 체인에 
+비디오 게임을 삽입하는데 필요한 더 많은 실험이 필요합니다.
 
-**The Skycoin bounty program will expand to including incentive for video games
-and applications written in CX on the Skycoin platform.**
+**스카이코인 바운티 프로그램은 스카이코인 플랫폼의 CX로 작성된 비디오 게임 
+및 응용 프로그램에 대한 인센티브를 포함하여 확대될 예정입니다.**
 
-The Skycoin bounty program will expand to including incentive for video games and applications written in CX on the Skycoin platform.
+스카이코인 바운티 프로그램은 스카이코인 플랫폼의 CX로 작성된 비디오 게임 
+및 응용 프로그램에 대한 인센티브를 포함하여 확대될 예정입니다.
 
+저는 huntercoin을 좋아하는데, 그것은 블록체인 기반 MMO이기 때문이었으며, 
+우리는 게임 및 통신 응용 프로그램을 쉽게 만들 수 있는 언어 및 플랫폼을 구축하고자 했습니다. 
+우리는 "스마트 계약"언어로도 가능하다고 생각하지 않았습니다. 
+특히 사용자가 가장 많이 사용하는 응용 프로그램은 메시징/통신, 
+파일 공유 및 게임 응용 프로그램이기 때문입니다.
 
-I like huntercoin because it is a blockchain based MMO and we wanted to build
-a language and platform platform to make gaming and communication applications
-easy. We did not feel this is even possible with a "smart contracts" language.
-Expecially because the most popular  application by user are messaging/
-communication, file sharing and gaming applications.
+우리는 또한 개발자가 실제 블록체인에 게시하기 전에 CXO(블록 체인-라이트와 유사함)에서 
+비즈니스 로직을 프로토타입으로 개발하고 응용 프로그램을 테스트 할 수 있게 하여 
+버그 업데이트/수정 작업이 훨씬 정교해지도록 하고 싶었습니다.
 
-We also wanted to allow developers to prototype business logic and test
-applications in CXO (which is like blockchain-lite) before publishing onto a
-real blockchain, where making updates/fixing bugs becomes much more
-complicated.
+스카이코인은 또한 분산형 포커와 같은 여러 응용 프로그램에 필요한 
+"실시간"상호 작용을 위한 최소 임계값인 300ms 미만(15분 또는 30초 대신)으로 
+전역 블록 체인 상태 업데이트를 배포할 수 있는 첫 번째 플랫폼입니다.
 
-Skycoin is also the first platform that will be able to distribute blockchain
-state updates globally in less than 300 ms (instead of 15 minutes or 30
-seconds) and this is the minimum threshold for "real time" interaction
-required for several applications like decentralized poker.
+분명히 상호 작용과 일관성 없는 블록 속도 사이에서 +30 초를 기다리는 
+문제는 사용자 경험에 악영향을 끼칩니다. 
+비트 코인(Bitcoin)의 매 15분당 1블럭 속도로 포커를 재생할 수 없으며, 
+이더리움의 비율은 실시간 응용 프로그램에 여전히 적용할 수 없습니다.
 
-Obviously the issues of waiting +30 seconds between interactions and an
-inconsistent block rate impair the user experience. Bitcoin's rate of one
-block every 15 minutes makes poker unplayable and Ethereum's rate is still
-insufferable for real time applications.
+저는 이 "스마트 계약 플랫폼"의 10억 달러 가치 평가를 정당화 하는 실제 사용, 
+경제 또는 기술 역량을 보지 못했습니다. 
+"스마트 계약"은 이미 절정에 달했으며, 거품에 빠져 있다고 생각합니다.
 
-I do not see any real world usage, economics or technological capacities
-justifying the billion dollar valuations of these "Smart Contract Platforms".
-I think "smart contracts" are already past peak and are in a bubble.
+따라서 우리가 이러한 실제 응용 프로그램을 사용할 수 있게 하려면 
+요구되는 수년 간의 기술 작업이 이러한 요구 사항을 충족할 수 있는 플랫폼을 갖추어야 합니다. 
+"스마트 계약 플랫폼"이 마케팅에서 말하는 것과 관계없이, 
+이러한 애플리케이션은 차세대에서만 가능해지고 있습니다. 
+현 세대의 플랫폼 중 어느 것도 주류 적응을 위한 요구 사항을 극복할 수 있는 기술적 해결책이 없습니다.
 
-So for us to enable these real applications, required years of technology work
-to have a platform that could meet these requirements. Regardless of whatever
-the "smart contract platforms" say in their marketing, these applications are
-only becoming possible in the next generation. Simply none of the current
-generation of platforms has a technical solution to overcome the requirements
-for mainstream adaption.
+그래서 HunterCoin(블록체인상의 MMO)이나 CX위에 구축된 
+실제 돈 로그-라이크(예. NetHack)와 같은 것을 갖도록 지원하는 것이 
+정말이지 흥미진진합니다.
+"블럭체인 위의 진짜 돈 드워프 요새". 
+사람들이 이것으로 무엇을하는지 보는 것이 흥미로울 것입니다.
 
-So I am really excited about doing a bounty to have something like HunterCoin
-(MMO on blockchain) or some kind of real money rogue-like (e.g. NetHack) built
-on top of CX. "Real Money Dwarf Fortress on Blockchain". It will be exciting
-to see what people do with this.
+[CX 소스 코드](https://github.com/skycoin/cx)
 
-[CX source code](https://github.com/skycoin/cx)
+## 스카이코인 로드맵 완료
 
-## Skycoin Roadmap Finished
-
-The roadmap is on the website now
+로드맵은 현재 웹 사이트에 있습니다.
 
 https://www.skycoin.net/roadmap/
 
-## First Distributed Social Media Platform on Skycoin Platform Launches
+## 스카이코인 플랫폼 최초 분산 소셜 미디어 플랫폼 출시
 
-The beta test of the first distributed social media application on the Skycoin
-platform is ready.
+스카이코인 플랫폼에 처음 배포된 소셜 미디어 애플리케이션의 베타 테스트가 준비되었습니다.
 
-https://www.skycoin.net/downloads/ (scroll down to the BBS section)
+https://www.skycoin.net/downloads/ (BBS 섹션으로 스크롤 다운)
 
-BBS is a peer-to-peer replicated social media application, built upon immutable
-data structures (CXO) on top of the Skycoin platform.
+BBS는 스카이코인 플랫폼 위에 불변의 데이터 구조(CXO)를 기반으로 구축된 
+P2P 복제 소셜 미디어 애플리케이션입니다.
 
-All database in the Skycoin distributed BBS application is replicated
-peer-to-peer using the Skycoin CXO library (previously called Aether). Post
-submissions are submitted over a prototype of Sky-messenger, which is Skycoin's
-TOX-like standard for machine-to-machine communication between public keys
+스카이코인 분산 BBS 응용 프로그램의 모든 데이터베이스는 스카이코인 
+CXO 라이브러리(이전에는 Aether라고 함)를 사용하여 P2P로 복제되었습니다. 
+게시물은 공개키[(github.com/skycoin/net)] 사이의 머신-대-머신 통신을 위한 
+스카이코인의 TOX와 유사한 표준인 스카이-메신저의 프로토 타입을 통해 제출됩니다.
 [(github.com/skycoin/net)](https://github.com/skycoin/net).
 
-Sky-messenger is specifically designed for peer-to-peer machine-to-machine
-communication, but also has a human-usable, Wechat-like interface.
+스카이-메신저는 P2P 머신-대-머신 통신을 위해 특별히 설계되었지만 사람이 사용할 수 있는 위챗(Wechat)형 
+인터페이스도 제공합니다.
 
-## Skycoin OTC Market
+## 스카이코인 OTC 시장
 
-Now that the prototype for Sky-messenger is working, we can include an
-integrated Skycoin OTC market in the next wallet release.
+이제 스카이-메신저의 프로토 타입이 작동하고 있으므로, 
+다음 발표에 통합 스카이코인 OTC 시장을 포함시킬 수 있습니다.
 
-The new wallet will also eventually include a "Send to Bitcoin address"
-function, which should increase Skycoin liquidity.
+또한 새로운 지갑에는 "비트코인으로 보내기"기능이 포함되어 스카이코인의 유동성이 높아집니다.
