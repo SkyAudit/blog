@@ -14,7 +14,7 @@ categories = [
 
 Wir wurden gefragt, was der Unterschied zwischen [CXO](https://github.com/skycoin/cxo) und IPFS ist.
 
-File Coin hat dieselben Ziele, wie ein Teil der Skycoin-Infrastruktur, aber wählt einen anderen Ansatz.
+FileCoin hat dieselben Ziele, wie ein Teil der Skycoin-Infrastruktur, aber wählt einen anderen Ansatz.
 Sie haben drei separate Protokolle:
 
 - IPLD
