@@ -9,63 +9,29 @@ categories = [
 ]
 +++
 
-Satoshi’s original vision for Bitcoin was revolutionary. A global currency that existed above
-nations and out of the reach of trusts and inflation, Bitcoin should have rocked the
-financial world to its core. But the vision failed. Instead of ushering in a new era of
-decentralization, Bitcoin itself became centralized. Power concentrated into three major
-mining pools. Transaction speed slowed to hours. Fees skyrocketed to their current $40 level.
-Today, it’s clear that Bitcoin didn’t deliver on its promise of a decentralized, peer-to-peer
-digital currency.
+Satoshis ursprüngliche Version von Bitcoin war revolutionär. Eine globare Währung, über Nationen hinaus existent und außer Reichweite von Inflation und nötigem Vertrauen, Bitcoin hätte die Finanzwelt bis aufs Mark erschüttern sollen. Aber die Vision ist fehlgeschlagen. Anstatt in eine neue Ära der Dezentralisierung einzuführen, wurde Bitcoin selbst zentralisiert. Die Leistung in drei große Mining-Pools konzentriert. Transaktionsgeschwindigkeit auf Stunden zurückgefallen. Gebühren in den Himmel geschossen zu ihrem aktuellen Level von $40. Heute ist es klar, dass Bitcoin nicht das geliefert hat, was Versprochen wurde, Dezentralisierung und eine Peer-zu-Peer Währung.
 
-Skycoin is here to fix that. Over the past five years, the Skycoin Project’s research and
-development team has worked to find innovative ways to improve legacy PoW/PoS algorithms.
-Skycoin’s new consensus algorithm restores control of the network to the users. It goes back
-to Satoshi’s original vision, paving the way for a mass adoption of cryptocurrency that will
-replace the legacy banking system.
+Skycoin ist hier um das zu reparieren. In den letzten fünf Jahren hat Skycoins Projekt-Forschung und das Entwicklungsteam neue innovative Wege gefunden, die Altsystem PoW/PoS zu verbessern.
+Skycoins neuer Konsensalgorithmus gibt die Kontrolle über das Netzwerk den Usern zurück. Es geht zurück zu Satoshis ursprünglicher Vision, pflastern des Weges für die Massenadoption von Cryptowährungen, welche das bestehende Bankensystem ersetzen.
 
-The unique features of Skycoin set it apart from other cryptocurrencies. Unlike most recent
-coins, Skycoin has its own blockchain, consensus algorithm, and developers. Skycoin is not an
-Ethereum ERC20 token. It’s a third-generation cryptocurrency based on the brand-new consensus
-framework Obelisk. Skycoin uses Obelisk to decentralize transaction processing and approval.
+Die einzigartige Eigeschaften von Skycoin heben ihn von anderen Cryptowährungen ab. Anders als die meißten zuletzt entstandenen Coins, hat Skycoin seine eigene Blockchain, sein eigenen Konsensalgorithmus und Entwickler. Skycoin ist kein ERC20-Token. Es ist die dritte Generation von Cryptowährungen, basierend auf dem brandneuen Konsensusframework Obelisk. Skycoin verwendet Obelisk um Transaktionprozessierung, als auch die Bestätigung zu dezentralisieren.
 
-Skycoin’s revolutionary consensus algorithm lets transactions happen in seconds, not hours.
-This eliminates the performance gap between blockchain-based payments and centralized credit
-card networks. With zero transaction fees and lightning-fast speed, Skycoin represents the
-first viable alternative to centralized banking. It’s poised to do what Bitcoin couldn’t:
-transform the financial world for everyone across the globe.
+Skycins revolutionärer Konsensalgorithmus lässt Transaktionen innerhalb von Sekunden geschehen, nicht in Stunden.
+Dies eliminiert die Leistungslücke zwischen blockchain-basierten Zahlungen und zentralisierten Kreditkartennetzwerken. Mit keinen Transaktionsgebühren und blitzschneller Geschwindigkeit, repräsentiert Skycoin die erste, brauchbare Alternative zum zentralisiertem Bankenwesen. Es wird das, was Bitcoin nicht im Begriff war zu tun, umgesetzt: Die Transformierung der finanziellen Welt für jeden auf der ganzen Welt.
 
-![Skycoin transaction speed comparison chart](https://i.imgur.com/i0KNIIr.jpg)
+![Skycoin Transaktionsgeschwindigkeitsvergleichsdiagramm ](https://i.imgur.com/i0KNIIr.jpg)
 
-## Digital Gold: No Deflation
+## Digitales Gold: Keine Deflation
 
-Satoshi designed Bitcoin to protect wealth from inflation. Bitcoin is an immutable currency,
-with a finite supply capped at 21 million. By capping the number of Bitcoins that can exist,
-Satoshi hoped to create digital gold: he wanted to provide a premium investment that could
-return value over the years.
+Satoshi hat Bitcoin so designt, das Vermögen vor Inflation geschützt ist. Bitcoin ist eine unveränderbare Währung, mit einer maximalen Menge von 21 Millionen Coins. Durch das Begrenzen der Anzahl an Bitcoins die existieren werden, hoffte Satoshi digitales Gold zu erschaffen: Er wollte ein erstklassiges Investment anbieten, dass über die Jahre sein Wert behalten könnte.
 
-Unfortunately, Bitcoin had a flaw. Miners could receive new coins through the mechanism of
-block reward. The newly-created coins caused inflation, and control centralized into one or
-two large mining pools. The effect was a monopoly that destroyed the equalizing potential of
-Bitcoin.
+Unglücklicherweise hatte Bitcoin einen Fehler. Miner konnten neue Coins durch den Mechanismus der Blockbelohnung erhalten. Die neu kreierten Coins verursachten Infation und die Kontrolle wurde auf zwei große Miningpools aufgeteilt. Der Effekt war eine Monopolisierung, das das Gleichheitspotential von Bitcoin zerstörte.
 
-Skycoin eliminates this flaw. Like Bitcoin, Skycoin is an immutable currency with an issuance
-capped at 100 million. But unlike Bitcoin, Skycoin features a redesigned consensus mechanism
-that removes the block reward. This change has profound consequences for users.
+Skycoin eliminiert diesen Fehler. Wie Bitcoin ist Skycoin eine unveränderbare Währung mit einer Maximalmenge begrenzt auf 100 Millionen. Jedoch anders als Bitcoin hat Skycoin einen neudesignten Konsensmechanismus, der die Blockbelohnung entfernt. Diese Änderung hat tiefgehende Konsequenzen für den User.
 
-Without the block reward, miners have no incentive to monopolize and control the Skycoin
-network for personal gain. Skycoin’s design prevents the monopolization that persists in
-Bitcoin and Ethereum. By eliminating block reward, Skycoin prevents inflation and provides a
-more perfect “digital gold.”
+Ohne die Blockbelohnung haben die Miner keinen Anreiz zur Monopolisierung und der Kontrolle über Skycoin für persönliche Gewinne.  Skycoins Design verhindert also Monopolbildung, welche in Bitcoin und Ethereum besteht. Durch die Elimination der Blockbelohnung verhindert Skycoin Inflation und bietet ein besseres "digitales Gold" an.
 
-Skycoin also eliminates transaction fees. Like block rewards, transaction fees plague other
-cryptocurrencies by creating monetary incentives. Miners strive to push up fees at the cost
-of the network. With no fees or block rewards, Skycoin offers an investment that can benefit
-all users fairly.
+Skyocin schafft die Transkationsgebühren ebenso ab. Genauso wie Blockbelohnungen, plagen die Transaktionsgebühren andere Cryptowährungen durch das Schaffen von monetären Anreizen. Miners streben danach die Gebühren auf Kosten des Netzwerkes nach oben zu treiben. Mit fehlenden Gebühren und Blockbelohnungen bietet Skycoin ein Investment an, von dem alle User fair profitieren.
 
-When Skycoin users make transactions, they spend Coin Hours, not Skycoin. Coin Hours are
-shares of network resources that work like dividends. A user receives one Coin Hour for each
-hour they hold a Skycoin. The dividend pays out when Coin Hours are traded at exchange rates.
-100 million new Coin Hours are created each hour, and each transaction must burn a minimum of
-50% of its Coin Hour inputs. This creates scarcity and limits the number of Coin Hours in
-circulation to an equilibrium value. Through the Coin Hour system, Skycoin provides network
-transactions that prevent inflation and support fair use.
+Wenn ein Skycoin-User eine Transaktion tätigt, gibt er Coin Hours aus, keine Skycoin. Coin Hours sind Anteile einer Netzwerkressource, die wie eine Art Dividende funktioniert. Ein User erhält eine Coin Hour für jede Stunde, die er einen Skycoin besitzt. Die Dividenden werden ausbezahlt, sobald Coin Hours in Wechselkursen gehandelt werden.
+100 Millionen neue Coin Hours werden jede Stunde geschaffen und jede Transaktion muss mindestens 50% seiner Coin Hours als Input verbrennen. Dies schafft Knappheit und resultiert in einem Gleichgewicht der limiterten, zirkulierenden Coin Hours. Mittels dem Coin Hour-System, bietet Skycoin ein Transaktionsnetzwerk, dass Inflation verhindert und eine faire Nutzung garantiert.
