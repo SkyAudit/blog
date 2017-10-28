@@ -12,48 +12,49 @@ categories = [
 ]
 +++
 
-We have been asked what is the difference between [CXO](https://github.com/skycoin/cxo) and IPFS.
+Wir wurden gefragt, was der Unterschied zwischen [CXO](https://github.com/skycoin/cxo) und IPFS ist.
 
-File Coin has the same objectives as a part of the Skycoin infrastructure, but is taking a different approach.
-They have three separate protocols:
+File Coin hat dieselben Ziele wir ein Teil der Skycoin-Infrastruktur, aber wählt einen anderen Ansatz.
+Sie haben drei separate Protokolle:
 
 - IPLD
 - IPFS
 - Multi-formats
 
-where,
+wohingegen,
 
-- IPLD is a representation language for immutable data objects and hashes.
-- IPFS is a file system
-- Mult-formats is a self describing data standard
+- IPLD ist eine Repräsentationssprache für unveränderbare Datenobjekte und Hashes ist.
+- IPFS ein Dateisystem ist.
+- Multi-formats ein sich selbstdefinierender Datenstandard ist.
 
-In Skycoin, CXO does all three of those
+Bei Skycoin erfüllt CXO diese drei Sachen auf einmal.
 
-- Multi-formats is just a "schema" in CXO
-- IPLD is just CXO (immutable data structures, hash chains, replication, merkle trees etc)
-- IPFS is just an application on top of CXO (CXO is immutable object system and files are just objects, so do not need special treatment because files are just a type of object)
+- Multi-formats ist nur ein "Schema" in CXO
+- IPLD ist einfach CXO (unveränderbare Datenstrukturen, Hashketten, Replikation, Merkle-Bäume etc.)
+-IPFS ist einfach eine Anwendungen, aufbauend auf CXO (CXO ist ein unveränderbars Objektsystem und Daten sind einfach Objekte, benötigen also keine besondere Behandlung, weil sie einfach nur eine Art vom Typ Objekt sind).
 
-FileCoin does "proof of storage". While Skycoin takes a different technical approach, because we think proof of storage is too complicated and is not really what the user wants and its not actually the bottleneck.
+FileCoin verwendet "Proof of Storage" (Beweis durch Speicherung). Skycoin hingegegen verwendet einen anderen technischen Ansatz, weil wir denken, dass Proof of Storage zu kompliziert ist und nicht wirklich das, was der User möchte und tatsächlich ist dies nicht der Flaschenhals.
 
-IPFS/IPLD/Filecoin is designed to integrate into the existing web-infrastructure and javascript. While skycoin is implementing a new eco-system de-novo ([skywire](https://github.com/skycoin/skywire), CXO, CX), because the existing ecosystem lacks required mathematical properties (javascript is not deterministic, implementations vary between browsers, cannot be used to embedded on blockchain or used to full potential because of legacy issues).
+IPFS/IPLD/FileCoin ist so designt, dass eine Integration in die existierende Web-Infrastrukur und Javaskript notwendig ist. Skycoin implementiert stattdessen ein neues Ökosysten von Grund auf ([skywire](https://github.com/skycoin/skywire), CXO, CX), weil das existierende Ökosystem an diversen mathematischen Eigenschaften mangelt (javascript ist nicht deterministisch, Implementierungen variieren zwischen Browsern, es kann nicht dazu verwendet werden um Blockchain einzubetten und das volle Potential kann es auch nicht entfalten, da vererbte Probleme bestehen).
 
-And additionally, because privacy and security is not something that can be duct taped on to the top level of a stack, but requires the proper design of every component from the hardware, up. Skycoin takes a mathematically strict, elegant approach that allows a simpler implementation by having a self contained standard and eco-system.
+Dazu kommt, dass Privatssphäre und Sicherheit nicht etwas ist, das mit Klebeband auf die oberste Schicht eines Stapels geklebt werden kann, sondern es erfordert das richtige Design der Kompononenten, von der Hardware beginnend aufwärts.
+Skycoin wählt einen strikten, eleganten, mathematischen Ansatz, der mittels einem enthaltenen Standard, sowie Ökosystem, eine einfachere Implementierung erlaubt.
 
-So file-coin will integrate with the existing internet and will just be a javascript library that can be imported. Skycoin will have a new internet with parallel protocols and hardware.
+FileCoin wird sich also in das existierende Internet integrieren und wird einfach eine Javascript-Bibliothek, die importiert werden kann, sein. Skycoin wird ein neues Internet schaffen, mit zugehörigen Protokollen und Hardware.
 
-The roughness and impedance mismatch is always going occur at the system interfaces and skycoin took take the approach of minimizing the components to the minimum, being self contained and minimizing dependencies between the modules. One of the reasons we did not do "proof of storage" for incentives was that it required making file storage a dependency upon the blockchain and we felt file storage already operates efficiently, without adding the overhead of a blockchain, so that this was not the right place to put the user incentives.
+Die grobe, falsche Zuordnung wird immer geschehen. Skycoin wählt die Herangehensweise die Komponenten auf das Minimum zu reduzieren, netzunabhängig und mit minimalen Abhängigkeiten der Module. Einer der Gründe, weshalb wir "Proof of Storage" nicht als Anreiz gewählt haben, war, dass Datenspeicherung dann eine notgedrungen auf der Blockchain stattfinden müsste und wir finden, dass die Datenspeicherung, auch ohne den Mehraufwand einer Blockchain, schon effizient funktioniert - dies ist also nicht der richtige Weg um den Usern Anreize zu geben. 
 
-We did not want to build a "new internet" that simply shuts down like an arcade machine because the user did not put in enough coins. We did not want the user experience, to be having to pay for every single feature, button click, file download or action, when each action is effectively costless.
+Wir wollten nicht ein "neues Internet" aufbauen, dass wie ein Spielautomat herunterfährt, weil der User nicht genug Münzen eingeschmissen hat. Wir wollten keine Nutzererfahrung, in der man für jede Funktion bezahlen muss, jeden Klick, jeden Datendownload oder Atkion, wenn jede Aktion im Grunde genommen nichts kostet.
 
-So Maidsafe, Ethereum, FileCoin/IPFS, are all taking a different approach and philosophy, but heading in the same direction. There are substantial differences in scope and technical implementation
+Also Maidsafe, Ethereum, FileCoin/IPFS wählen alle einen verschiedenen Ansatz und haben eine verschiedene Philosophie, aber streben dieselbe Richtung an. Es gibt jedoch substantielle Unterschiede im Anwendungsbereich und in der technischen Implementierung.
 
-- Ethereum tries to put everything in the world on a single blockchain (while skycoin puts almost nothing on the blockchain, except coin payments. Skycoin has an individual blockchain for its version of ERC20 tokens, instead of putting all the tokens on a single monolithic blockchain)
-- MaidSafe is concerned with identity and has the least blockchain (while in skycoin there are global identities. Identities are just public keys and are pseudo anonymous)
-- FileCoin is concerned with proof of storage and only file storage (Skycoin also includes communication and computation as primitives. Skycoin's storage mechanism is independent of the blockchain and is only monetized indirectly)
-- Golem is only concerned with renting out servers/GPUs by the hour for coins (which is the same as EC2 that takes Bitcoin and will just be a minor feature of more advanced networks)
+-Ethereum versucht alle Daten auf eine einzige Blockchain zu packen (wohingegen Skycoin fast nicht auf die Blockchain packt, außer Coinzahlungen. Skycoin hat individuelle Blockchains für seine Version der ERC20-Tokens, anstatt alle Token auf eine monolithische Blockchain zu packen).
+-Maidsafe ist mit der Identität bekümmert und hat die geringste Blockchain (während Skycoin globale Identitäten hat. Identitäten sind einfach nur öffentliche Schlüssel und sind PSeudonyme).
+-FileCoin ist auf Proof of Storage bedacht und zwar ausschließlich Datenspeicherung (Speicherung enthält zudem Kommunikation und Berechnung als Primitive. Skycoins Speichermechanismus ist unabhängig von der Blockchain und wird nur indirekt monetarisiert).
+-Golem ist nur darauf aus Server/GPUs zu vermieten und zwar Pro Stunde für Coins (was dasselbe wir EC2 ist, das Bitcoin nimmt und nur ein kleineres Feature aus einem viel fortgeschritteren Netzwerk ist).
 
-One of the problems in the Skycoin Project, is that the documentation and [whitepapers](https://www.skycoin.net/whitepapers.html) only cover the work on consensus (two years old already) and do not show the current development work and ecosystem. So the website needs to be updated and we need new white papers about each of the sub-projects.
+Eines der Probleme des Skycoin-Projekts ist, dass die Dokumentation und die [Whitepapers](https://www.skycoin.net/whitepapers.html) nur den Konsens-Algorithmus abdecken (schon zwei Jahre alt) und nicht die aktuelle Entwicklung und das entstandene Ökosystem zeigen. Die Website muss also aktualisiert werden und wir müssen neue Whitepaper über die diversen Unterprojekte schreiben.
 
-The development is significantly ahead of documentation. For instance CXO applications ([BBS](https://github.com/skycoin/bbs)) are already in testing and light usage, while the white paper for CXO still has not been written yet.
+Die Entwicklung ist der Dokumentation signifikant voraus. Zum Beispiel die CXO-Anwendungen ([BBS](https://github.com/skycoin/bbs)) sind schon in der Testphase und in der geringen Verwendung, wobei die Whitepaper über CXO noch nicht einmal geschrieben worden sind.
 
-So we are still catching up on the marketing and communication back log.
+Wir schließen also erst auf mit dem Marketing und dem Rückstand in der Kommunikation des Fortschritts.
