@@ -9,45 +9,47 @@ date = "2017-08-05"
 categories = [
     "Development Updates",
 ]
-description = "The first development update for Skycoin BBS."
+description = "Das erste Entwicklungsupdate für Skycoin BBS."
 +++
 
-## An Introduction
+## Eine Einführung
 
-BBS stands for Bulletin Board System. Although traditional BBS systems are no longer widely used, BBS in the modern era is an icon for social services.
+BBS steht für schwarzes-Brett-System. Obwohl traditionelle BBS-System nicht mehr wirklich benutzt werden, waren BBS in der modernen Ära ein Symbol für soziale Netzwerke.
 
-Skycoin BBS is one of the first web applications to be implemented using the skycoin ecosystem. Skycoin attempts to revolutionize the internet; decentralizing it and encrypting protocols by default.
+Skycoin BBS ist eine der ersten Webapplikationen, welche unter Verwendung des Skycoin-Ökosystems implementiert werden.
+Skycoin versucht das Internet zu revolutionieren; Dezentralisierung und Verschlüsselung der Protokolle sind Standard.
 
-Underlying Skycoin BBS is a peer-to-peer self-replicating database named CXO (part of the Skycoin ecosystem). It features immutable tree structures of Golang objects. All objects are referenced via their hashes alongside defined schemata. Each tree has a root object and signed against a public/private key pair. To update the tree, roots have incremental versions called "sequences". This design allows for fast, bandwidth efficient data replication.
+Skycoin BBS liegt eine Peer-zu-Peer selbstreplizierende Datenbank mit dem Namen CXO (Teil des Skycoin-Ökosystems). Es nutzt unveränderbare Baumstrukturen von Golang-Objekten. Alle Objekte werden mittels deren Hashes nach einem definierten Schema referenziert. Jeder Baum hat ein Wurzelobjekt und wird mittels eines öffentlichen/privaten Schlüssels signiert. Um den Baum zu aktualisieren besitzen die Wurzeln inkrementelle Versionen namens "Sequenzen". Dieses Design ermöglicht schnelle und effiziente Datenreplikation. 
 
-## Data Structure
+## Datenstrukturen
 
-The data structure of Skycoin BBS (version 0.2 - in development ) contains boards, threads and posts. Boards and threads can be voted on. This is how it all looks in a CXO tree:
+Skycoin BBSs Datenstruktur (Version 0.2 - In Entwicklung) enthält Boards (Bretter), Threads (Themen) und Posts (Nachricht). Über das Ranking von Boards und Threads kann abgestimmt werden. So sieht das alles in einem CXO-Baum aus:
 
 ![](https://raw.githubusercontent.com/skycoin/bbs/v0.2/doc/cxo_data_structure.jpg)
 
-This is a simplified diagram.
+Dies ist ein vereinfachtes Diagramm.
 
-All submitted objects (threads, posts and votes) are to be verified via the submitting user's public key and provided signature.
+Alle eingereichten Objekte (Threads, Posts und Abstimmungen(Votes)) werden mittels des öffentlichten Schlüssels des Users verifiziert via Signatur.
 
-Each root contains data that is used to represent/store a single board. BoardPage contains the "content"; the board itself, threads and posts. Threads are referenced by the hash of the "Thread" object while posts are referenced by the hash of the "Post" itself. Hence, posts and threads cannot be modified once submitted.
+Jede Wurzel enthält Daten welche ein einzelnes Board repräsentiert. BoardPage enthält den "Inhalt"; Das Board selbst, Threads und Posts. Threads werden durch den Hash des "Thread"-Objekts referenziert, wohingegen Posts durch den Hash von sich selbst referenziert werden. Deshalb können Posts und Threads nach dem Einreichen nicht mehr modifiziert werden.
 
-ThreadVotesPages, PostVotesPages store the votes for the content. The "ref" field of the VotePage contains the hash of the content in question. The "Votes" field stores votes for the specified content. The VotePages are to be "compiled" by the BBS node into a storage structure that can quickly obtain a "view of votes" for the front end.
+ThreadVotesPages, PostVotesPages speichern die Stimmen für den Inhalt. Das "ref"-Feld der VotePage enthält den Hash des zugehörigen Inhalts. Das "Votes"-Feld speichert Stimmen für einen bestimmten Inhalt. Die VotePage werden durch den BBS-Node in eine Speicherstruktur "kompiliert", welche sehr schnell den "Stand der Stimmen" für die Präsentationsschicht.
 
-Votes are stored separate to the content to reduce the number of tree nodes that needs to be changed with every vote. It also allows for easier vote data manipulation by the vote's compiler.
+Stimmen werden separat vom Inhalt gespeichert um die Anzahl der Baumknoten zu reduzieren, welche mit jeder neuen Stimme geändert werden müssen.
+Dies ermöglicht einfachere Datenmanipulation durch den Compiler des Abstimmers.
 
-## Releases
+## Releases(Veröffentlichungen)
 
-Currently, only one stable version of Skycoin BBS has been released. The features are basic, but the CXO data structure is more complicated than the one specified above. Content addition and voting resulted in the root sequence to increment multiple times per action.
+Zurzeit ist nur eine stabile, aktuelle Version des Skycoin BBS veröffentlicht. Die Eigenschaften sind aufs wesentliche begrenzt, aber die CXO-Datenstruktur ist komplizierter, als die oben beschriebene. Inhalte hinzufügen und Abstimmen resultiert darin, dass sich die Wurzel-Sequenz mehrmals pro Aktion vergrößert. 
 
-Version 0.2 of BBS (currently in development), not only increases performance and code clarity, but also will implement the following new features:
+Version 0.2 des BBS (aktuell in Entwicklung), erhöht nicht nur die Performance und die Codelesbarkeit, sondern wird auch die folgenden Funktionen implementieren.
 
-* Improved content loading - We will make use of WebSocket connection(s) between client and server to allow for real time updates and more efficient content loading.
-* Content voting/viewing improvements - Both in actual performance and fluidity from the user's perspective. Spam reporting will also be introduced.
-* Permissions - Boards will be able to set permissions on as to who can perform what actions (e.g. submitting content / voting). The ability to block users will also be available.
+* Verbessertes Laden von Inhalten - Wir werden die WebSocket-Verbindung(en) zwischen Client und Sever verwenden, um realzeit Updates zu ermöglichen, sowie auch effizienteres Laden der Inhalte.
+* Inhalte Ansicht/Voting Verbesserung - In tatsächlicher Leistung und flüssigem Ablauf aus der User-Perspektive. Spammeldungen werden ebenfalls eingeführt.
+* Erlaubnisse - Boards werden die Möglichkeit besitzen Zugriffsrechte zu bestimmen (z.B. das abschicken von Inhalten/Voting). Die Möglichkeit User zu blockieren wird ebenfalls verfügbar sein.
 
-## Participate
+## Teilnahme
 
-Get up to date with the development of Skycoin BBS by joining our [Telegram Group](https://t.me/skycoinbbs).
+Bleibt auf dem neusten Stand der Entwicklung des Skycoin BBS indem ihr unserer [Telegram Gruppe](https://t.me/skycoinbbs) beitretet.
 
-Skycoin BBS is open source. The git repository is located [here](https://github.com/skycoin/bbs). Note that the development for version 0.2 is in the "v0.2" branch.
+Skycoin BBS ist frei verfügbar. Das Git-Repository ist [hier] (https://github.com/skycoin/bbs) zu finden. Beachtet das die Entwicklung der Version 0.2 in dem "v0.2"-Branch stattfindet.
