@@ -9,21 +9,21 @@ categories = [
 ]
 +++
 
-Talk with the Skycoin Team
+Gespräch mit dem Skycoin Team
 --------------------------
 
-The Skycoin team is most active on Telegram.
+Das Skycoin Team ist das aktivste auf Telegram.
 
 * [Skycoin Telegram Channel](https://t.me/Skycoin)
 * [Skycoin BBS Channel](https://t.me/skycoinbbs)
 * [Skycoin News Channel](https://t.me/skycoinnews)
 * [Skycoin Bounty Program Channel](https://t.me/skycoinbounty)
 
-There is also a slack channel
+Es gibt außerdem einen Slack-Channel
 
 * [Skycoin Slack](https://skycoin.herokuapp.com)
 
-News Updates
+Neuigkeiten und Updates 
 ------------
 
 * [Skycoin Blog](https://blog.skycoin.net)
@@ -33,11 +33,11 @@ News Updates
 Software
 --------
 
-All code is published to github.  Contributors and testers are encouraged.
+Der gesamte Code ist auf Github veröffentlicht. Mitarbeiter und Tester sind angehalten mitzuwirken.
 
-* [Skycoin Github Organization](https://github.com/skycoin)
+* [Skycoin Github Organisation](https://github.com/skycoin)
 * [Skycoin Core & Wallet](https://github.com/skycoin/skycoin)
-* [Skycoin Mobile Wallet](https://github.com/skycoin/skycoin-mobilewallet)
+* [Skycoin Mobiles Wallet](https://github.com/skycoin/skycoin-mobilewallet)
 * [Skywire (Meshnet)](https://github.com/skycoin/skywire)
 * [Skycoin BBS](https://github.com/skycoin/bbs)
 * [Skycoin CX](https://github.com/skycoin/cx)
