@@ -37,7 +37,7 @@ transform the financial world for everyone across the globe.
 
 ![Skycoin transaction speed comparison chart](https://i.imgur.com/i0KNIIr.jpg)
 
-## Digital Gold: No Deflation
+## Digital Gold: No Inflation
 
 Satoshi designed Bitcoin to protect wealth from inflation. Bitcoin is an immutable currency,
 with a finite supply capped at 21 million. By capping the number of Bitcoins that can exist,
