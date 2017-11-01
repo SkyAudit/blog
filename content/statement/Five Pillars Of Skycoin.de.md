@@ -22,9 +22,9 @@ Die fünf Säulen des Skycoin Projekts sind:
 - Alle kryptographischen Probleme sind beseitigt.
 - Ein Konsensmechanismus der besser ist als alles was existiert.
 
-(2) Skywire, ein gemischtes Netzwerk (mesh network), in welchem du Münzen für das Weiterleiten von Daten/Bandbreite erhältst. Dies funktioniert ähnlich wie Tor oder BitTorrent, mit dem Unterschied, dass du bezahlt wirst einen Knotenpunkt zu betreiben. 
+(2) Skywire, ein gemischtes Netzwerk (mesh network), in welchem du Münzen für das Weiterleiten von Daten/Bandbreite erhältst. Dies funktioniert ähnlich wie Tor oder BitTorrent, mit dem Unterschied, dass du belohnt wirst einen Knotenpunkt zu betreiben. 
 
-(3) Skyledger, eine Plattform die unsere Version von Ethereum's ERC20 ist, aber besser:
+(3) Skyledger, eine Plattform die unsere Version von Ethereums ERC20 ist, aber besser:
 
 - Wir geben jeder Währung ihre eigene Blockchain und die Plattform läuft auf der Skywire Infrastruktur. Wir bekommen dafür eine Gebühr. 
 - Wir haben eine Programmiersprache CX - nicht "smart contracts" (was wir für totalen Schwachsinn halten).
