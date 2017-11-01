@@ -3,6 +3,7 @@ title = "Skycoin Bounty Program 1"
 tags = [
     "Bounty Program",
 ]
+bounty = 3
 date = "2017-08-27"
 categories = [
     "Statement",
@@ -61,24 +62,17 @@ Translate posts from this blog.
 
 Accepted languages are:
 
-* Deutsche
+* Deutsch
 * Español
 * 日本語
 * 한국어
 * Ελληνικά
 * Français
-* Nederlands (maximum 30 SKY bounty per article)
+* Nederlands (maximum 10 SKY bounty per article)
 
 *Note: 中文 and Рyсский translations all have someone working on them now*
 
 We may add more languages later but aren't able to verify translations for other languages yet.
-
-Every 500 words is 5 SKY. For example:
-
-* 1-500 words: 5 SKY
-* 501-1000 words: 10 SKY
-* 1001-1500 words: 15 SKY
-* ...and so on...
 
 At the bottom of each English-language blog post, the reward for that article is shown.
 

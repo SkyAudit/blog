@@ -19,8 +19,8 @@ Aujourd'hui, tout indique que le Bitcoin n'a pas respecté sa promesse d'une mon
 Skycoin est là pour réparer cela. Au cours des cinq dernières années, l'équipe de recherche et de développement du projet Skycoin a travaillé à trouver des moyens novateurs pour améliorer les algorithmes PoW / PoS existants.
 Le nouvel algorithme de consensus de Skycoin redonne le contrôle du réseau aux utilisateurs. Il restaure la vision originale de Satoshi, ouvrant la voie à une adoption massive de crypto-monnaie qui remplacera le système bancaire existant.
 
-Les caractéristiques uniques du Skycoin la distinguent des autres crypto-monnaies. Contrairement aux monnaies digitales les plus récentes, 
-Skycoin possède sa propre blockchain, son algorithme de consensus et ses développeurs. Skycoin n'est pas un jeton Ethereum ERC20. 
+Les caractéristiques uniques du Skycoin la distinguent des autres crypto-monnaies. Contrairement aux monnaies digitales les plus récentes,
+Skycoin possède sa propre blockchain, son algorithme de consensus et ses développeurs. Skycoin n'est pas un jeton Ethereum ERC20.
 C'est une crypto-monnaie de troisième génération basée sur le tout nouveau framework consensuel Obelisk.
 Skycoin utilise Obelisk pour décentraliser le traitement et l'approbation des transactions.
 
@@ -32,7 +32,7 @@ transformer le monde financier pour toute personne vivant sur Terre.
 
 ![Graphique de comparaison des vitesses de transaction de Skycoin](https://i.imgur.com/i0KNIIr.jpg)
 
-## L'or digital : Pas de déflation
+## L'or digital : Pas de l'inflation
 
 Satoshi a conçu le Bitcoin pour protéger la richesse de l'inflation. Bitcoin est une monnaie immuable,
 avec un approvisionnement fini plafonné à 21 millions d'unité. En limitant le nombre de Bitcoins qui peuvent exister,
@@ -43,23 +43,23 @@ Malheureusement, le Bitcoin avait un défaut. Les mineurs pouvaient recevoir de 
 récompense de bloc. Les pièces nouvellement créées ont causé l'inflation et le contrôle centralisé en un ou
 deux grands groupes de mineur, ce qui a conduit à un monopole qui a détruit le potentiel d'équité du Bitcoin.
 
-Skycoin élimine cette faille. Comme Bitcoin, Skycoin est une monnaie immuable avec une émission plafonnée à 100 millions. 
-Mais contrairement au Bitcoin, Skycoin dispose d'un mécanisme de consensus redessiné qui supprime la récompense de bloc. 
+Skycoin élimine cette faille. Comme Bitcoin, Skycoin est une monnaie immuable avec une émission plafonnée à 100 millions.
+Mais contrairement au Bitcoin, Skycoin dispose d'un mécanisme de consensus redessiné qui supprime la récompense de bloc.
 Ce changement a des conséquences profondes pour les utilisateurs.
 
-Sans la récompense de bloc, les mineurs n'ont aucune incitation à monopoliser et à contrôler le réseau de Skycoin pour un gain personnel. 
-La conception de Skycoin empêche la monopolisation qui persiste au sein du Bitcoin et de l'Ethereum. 
+Sans la récompense de bloc, les mineurs n'ont aucune incitation à monopoliser et à contrôler le réseau de Skycoin pour un gain personnel.
+La conception de Skycoin empêche la monopolisation qui persiste au sein du Bitcoin et de l'Ethereum.
 En éliminant la récompense de bloc, Skycoin empêche l'inflation et fournit de l'or digital bien meilleur que Bitcoin.
 
 Skycoin élimine également les frais de transaction. Comme les récompenses de blocs, les frais de transaction contaminent les autres
 crypto-monnaies en créant des incitations monétaires. Les mineurs font tout ce qu'ils peuvent pour faire monter les frais au détriment du réseau en lui même.
 Sans frais ni récompense, Skycoin offre un investissement qui peut bénéficier à tous les utilisateurs de manière équitable.
 
-Lorsque les utilisateurs de Skycoin effectuent des transactions, ils dépensent des Coin Hours, pas des Skycoins. 
-Les Coin Hours sont des parts du réseau qui fonctionnent comme des dividendes. Un utilisateur reçoit un Coin Hour pour chaque heure 
+Lorsque les utilisateurs de Skycoin effectuent des transactions, ils dépensent des Coin Hours, pas des Skycoins.
+Les Coin Hours sont des parts du réseau qui fonctionnent comme des dividendes. Un utilisateur reçoit un Coin Hour pour chaque heure
 pendant laquelle il détient un Skycoin. Le dividende est distribué lorsque les Coin Hours sont échangés au taux de change en vigueur.
 100 millions Coin Hours sont créés chaque heure, et chaque transaction doit brûler un minimum de
-50% des Coin Hours en son sein. Cela crée une rareté et limite le nombre de Coin Hours en circulation à une valeur d'équilibre. 
+50% des Coin Hours en son sein. Cela crée une rareté et limite le nombre de Coin Hours en circulation à une valeur d'équilibre.
 Grâce au système Coin Hour, le réseau de Skycoin fournit des transactions qui empêchent l'inflation et favorisent une utilisation équitable.
 
 
