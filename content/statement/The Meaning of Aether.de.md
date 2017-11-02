@@ -17,7 +17,7 @@ categories = [
 'Aethers originales Design hat sich in etwas entwickelt, das nun CXO genannt wird.*
 
 *Zitat von: **Tobo** am 4. Mai 2014 um 02:11:12 nachmittags*
-> Ich habe bemerkt, dass ihr bisher den Namen ether verwendet habt, welche von Ethereum benutzt wurde.
+> Ich habe bemerkt, dass ihr bisher den Namen Ether verwendet habt, welcher schon von Ethereum benutzt wurde.
 Jetzt habt ihr ihn in Aether geändert, was ebenso von einigen Leuten in diesem Forum schon verwendet wurde. 
 Warum mögt ihr diese beiden Namen so sehr?
 
@@ -29,15 +29,15 @@ Es ist ein perfektes System. Es gibt einen Typ Skycoin Adresse und dieser ist ei
 pubsub System. Es gibt einen anderen Typ Skycoin Adresse und diese hält Coins. Dann gibt es noch einen anderen Typ Skycoin Adresse und diese ist ein Knoten, mit dem man kommunizieren kann und dem man Nachrichten senden kann.
 
 Man generiert einen öffentlichen Schlüssel (pubkey), welcher gehasht wird zu einer Adresse und das ist dann die ID.
-Die Adresse ersetzt IP-Adressen für das Identifizieren von Geräten oder Computern, wenn diese zur Kommunikation genutzt werden. Er bezeichnet einen Datenspeicher (genauso wie ein Magnetlink ein Hash einer Torrent-Datei ist und den Torrent bezeichnet), wenn er für Datenspeicherung verwendet wird. Wenn der Datenspeicher eine Dateiliste und eine Hashliste für Datenblöcke innerhalb der Dateien enthält, ist er nur ein Torrent den die Leute aktualisieren können. Wenn er ein Skywire-Knoten ist, wird er zur Kommunikation verwendet, ähnlich wie eine IP-Adresse den Namen eines Computers angibt.
+Die Adresse ersetzt IP-Adressen für das Identifizieren von Geräten oder Computern, wenn diese zur Kommunikation genutzt werden. Sie bezeichnet einen Datenspeicher (genauso wie ein Magnetlink ein Hash einer Torrent-Datei ist und den Torrent bezeichnet), wenn sie für Datenspeicherung verwendet wird. Wenn der Datenspeicher eine Dateiliste und eine Hashliste für Datenblöcke innerhalb der Dateien enthält, ist sie nur ein Torrent den die Leute aktualisieren können. Wenn sie ein Skywire-Knoten ist, wird sie zur Kommunikation verwendet, ähnlich wie eine IP-Adresse den Namen eines Computers angibt.
 
 Wenn man also ein verteiltes Twitter mit Aether kreieren möchte, generiert man einen öffentlichen Schlüssel. 
 Man verbreitet Aktualisierungen zu seinem schlüsselbasierten Speicher und signiert diese mit seinem privaten Schlüssel. 
-Jeder Schlüssel ist im schlüsselbasierten Speicher ist eine Nummer, welche mit jedem Tweet inkrementiert wird und der 
+Jeder Schlüssel im schlüsselbasierten Speicher ist eine Nummer, welche mit jedem Tweet inkrementiert wird und der 
 Körper des Tweets wird in JSON verfasst.
 
 Man gibt jemand den Hash seines öffentlichen Schlüssels (eine Adresse) und dieser kann nun den eigenen Feed downloaden 
-und kopieren. Sie können die Feeds von jedem dem sie folgen ziehen. Sie können ihren eigenen Filter-Algorithmus lokal anwenden, um die Sachen aus den Feeds, die sie abonniert haben, zu bewerten und einzustufen sowie ihre individuelle GUI wählen. Es ist eine Website, aber es ist eine Website die auf dem eigenen Rechner läuft und sie läuft von Daten, von denen man selbst eine Kopie besitzt.
+und kopieren. Sie können die Feeds von jedem dem sie folgen ziehen. Sie können ihren eigenen Filter-Algorithmus lokal anwenden, um die Sachen aus den Feeds die sie abonniert haben, zu bewerten und einzustufen, sowie ihre individuelle GUI wählen. Es ist eine Website, aber es ist eine Website die auf dem eigenen Rechner läuft und sie läuft mit Daten, von denen man selbst eine Kopie besitzt.
 
 Man lädt nicht die Feeds, die man abonniert hat, von einem Server herunter, sondern 
 von anderen Leuten, welche diese ebenso abonniert haben. Es ist vollständig dezentralisiert.
@@ -52,23 +52,23 @@ Aether ist ein mystisches Element, dass den gesamten Weltraum durchdringt und ic
 ist der angemessene Name.
 
 Bei Tor identifiziert man einen Pfad zu einem Service mittels Traffic-Analyse, indem 
-man nach Variationen der Latenz von Traffic ausschau hält und diese mit der Latenz von
-anderem Traffic der durch Knoten läuft, in Korrelation setzt. Das Aufrufen von Seiten ist langsam, weil
-man über mehrere Hops gehen muss. Hier ist die Replikation von Peer-zu-Peer. 
+man nach Variationen der Latenz von Traffic Ausschau hält und diese mit der Latenz von
+anderem Traffic, der durch Knoten läuft, in Korrelation setzt. Das Aufrufen von Seiten ist langsam, weil
+man über mehrere Hops gehen muss. Hier findet Replikation von Peer-zu-Peer statt. 
 Es gibt kein "Zentrum", es gibt keinen "Server". Die Websiten sind unmittelbar, weil man die Daten nicht abfragt, sondern eine vollständige Kopie der Daten lokal besitzt. Man generiert die Webseite selbst aus der Datenbank.
 
 Im Internet der Dinge (IoT) hat man eine LED-Glühbirne. Man möchte diese Glühbirne auf Rot schalten.
 Die Glühbirne hat eine IP-Adresse und ist drahtlos mit dem WLAN im Haus verbunden. Man bewegt die 
 Glühbirne und sie bekommt eine neue IP-Adresse, man kann sie also nicht finden und ihr keine Nachrichten senden.
 IP-Adressen sind keine "IDs" für Geräte, sie ändern sich sobald das Gerät sich bewegt und das Netzwerk 
-über andere Endpunkte betritt. Skycoin gibt Geräten oder Anwendungen "Namen", welche netzwerkunabhängig sind.
-Dies ist eine Funktion des DNS, einen realen Namen zu geben und diesen in einen Server oder IP-Adresse aufzulösen.
+über andere Endpunkte betreten wird. Skycoin gibt Geräten oder Anwendungen "Namen", welche netzwerkunabhängig sind.
+Dies ist eine Funktion des DNS, einen realen Namen zu nehmen und diesen in einen Server oder IP-Adresse aufzulösen.
 
 Die Glühbirne kann eine Skycoin-Adresse haben und man kann an diese Adresse Nachrichten senden.
 Man kann sagen "werde rot" oder ein neues Programm auf die programmierbare LED hochladen. Skywire findet
 automatisch die Route zum Gerät.
 
-Zusätzlich dazu, kann man einen Skywire-Meshknoten mit vier verschiedenen Drahtlos-Netzwerken verbinden und einem Router.
+Zusätzlich dazu, kann man beim Betreiben einen Skywire-Meshknoten mit vier verschiedenen Drahtlos-Netzwerken verbinden und einem Router.
 Der WiFi-Knoten hat fünf verschiedene IP-Adressen. Eine IP-Adresse ist nicht länger eindeutig identifizierend für
 einen Knoten. Eine IP-Adresse ist lediglich ein Pfad zu dem Knoten. Die IP-Adresse der Router sind oftmals nichtmal
 öffentlich wegen der Netzwerkadressübersetzung (NAT).
