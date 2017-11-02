@@ -32,8 +32,8 @@ Die fünf Säulen des Skycoin Projekts sind:
 
 (4) Ein Ökosystem von Apps aufbauend auf den drei vorherigen Säulen.
 
- - [Sky-messenger](http://messenger.skycoin.net/) Nachrichtendienst
- - [Distributed social media (BBS)](https://github.com/skycoin/bbs) - eine verteilte Social-Media Anwendung, welche Steemit ähnelt, aber auf unserer Infrastruktur und Plattform läuft.
+- [Sky-messenger](http://messenger.skycoin.net/) Nachrichtendienst
+- [Distributed social media (BBS)](https://github.com/skycoin/bbs) - eine verteilte Social-Media Anwendung, welche Steemit ähnelt, aber auf unserer Infrastruktur und Plattform läuft.
 - Filesharing/Dropbox-ähnliche Funktionalität (Datenlagerung und -austausch)
 
 (5) Unsere eigene [Hardware Plattform](/statement/skywire-miner-hardware-for-the-next-internet/).
