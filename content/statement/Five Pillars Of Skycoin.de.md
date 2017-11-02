@@ -13,11 +13,11 @@ Das Skycoin Projekt ist eine hermetisch abgeriegelte Plattform für Applikatione
 
 Die fünf Säulen des Skycoin Projekts sind:
 
-(1) Skycoin, eine Währung die in jeder technischen Betrachtungsweise besser ist als Bitcoin : 
+(1) Skycoin, eine Währung die in jeder technischen Betrachtungsweise besser ist als Bitcoin: 
 
-- Transaktionen sind schneller als mit der Kreditkarte anstatt eine Stunde zu dauern.
+- Transaktionen sind schneller als mit der Kreditkarte, anstatt eine Stunde zu dauern.
 - Unbegrenzte Anzahl an Transaktionen.
-- Kein Bedarf an Minern und Block Belohnungen. 
+- Kein Bedarf an Minern und Blockbelohnungen. 
 - Geringer Energieverbrauch.
 - Alle kryptographischen Probleme sind beseitigt.
 - Ein Konsensmechanismus der besser ist als alles was existiert.
@@ -26,11 +26,11 @@ Die fünf Säulen des Skycoin Projekts sind:
 
 (3) Skyledger, eine Plattform die unsere Version von Ethereums ERC20 ist, aber besser:
 
-- Wir geben jeder Währung ihre eigene Blockchain und die Plattform läuft auf der Skywire Infrastruktur. Wir bekommen dafür eine Gebühr. 
+- Wir geben jeder Währung ihre eigene Blockchain und diese läuft auf der Skywire Infrastruktur. Wir bekommen dafür eine Gebühr. 
 - Wir haben eine Programmiersprache CX - nicht "smart contracts" (was wir für totalen Schwachsinn halten).
 - Wir lassen die Entwickler jeder Blockchain programmieren was immer sie wollen. 
 
-(4) Ein Ökosystem von Apps aufbauend auf den drei vorherigen Ideen.
+(4) Ein Ökosystem von Apps aufbauend auf den drei vorherigen Projekten.
 
 - Sky-messenger
 - Distributed social media (BBS) - eine verteilte social Media Anwendung, welche Steemit ähnelt, aber auf unserer Infrastruktur und Plattform läuft.
