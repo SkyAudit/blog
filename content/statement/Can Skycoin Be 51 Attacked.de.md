@@ -1,5 +1,5 @@
 +++
-title = "Can Skycoin be 51% Attacked?"
+title = "Funktioniert die 51%-Attacke bei Skycoin?"
 tags = [
     "Statement",
     "Obelisk",
@@ -12,117 +12,67 @@ categories = [
 ]
 +++
 
-*This is an archived post from the bitcointalks thread on February 16 2015*
+*Dies ist ein archivierter Post aus dem Bitcointalksthread vom 16. Februar 2015.*
 
-> Quote from: **iamback** on February 16, 2015, 09:28:38 AM
+> Zitat von: **iamback** am 16. Februar 2015 um 09:28:38 morgens
 
-> A non-PoW consensus is DOA, because there isn't enough time to thresh out the
-issues and trust it before the global economy begins to collapse in 2016.
-For example, the selfish mining attack wasn't discovered (or let's say widely
-proven and recognized) until years after Satoshi published PoW. Thus, the
-serious marketplace isn't going to trust a novel non-PoW consensus.
-Instead I have designed a PoW system which resolves many of the issues
-that plague Bitcoin, including ASIC economics. Some hints are in my linked post
-above.
+> Ein nicht PoW-basierter Konsens ist DOA, denn es ist nicht genügend Zeit übrig um die Probleme zu beseitigen, bevor die globale Wirtschaft in 2016 zusammenbrechen wird. Zum Beispiel wurden die eigennützigen Miningattacken jahrelang nicht erkannt (oder sagen wir mal, weitgehend geprüft und anerkannt), nachdem Satoshi PoW vorgestellt hat. Deshalb wird der ernsthafte Markt keine neurartigen nicht-PoW-Konsens vertrauen. Stattdessen habe ich ein PoW-System kreiert, dass viele der Probleme, die Bitcoin plagt beseitigt, eingeschlossen der ASICS-Ökonomie. Einige Hinweise sind in meinem obigen verlinkten Post.
 
-> Also I have some mathematical intuition that avoiding the 51% attack will
-always tradeoff security in another facet.
+> Ich habe zudem die mathematische Intuition, dass das Vermeiden der 51%-Attacke immer ein Handel mit der Sicherheit sein wird.
 
-In Skycoin the 51% attack does not matter. The network could be 51%
-attacked twenty times a day and almost no one would care.
+In Skycoin spielt die 51%-Attacke keine Rolle. Das Netzwerk könnte 20-mal pro Tag von ihr betroffen sein und es würde sich fast niemand dafür interessieren.
 
-Skycoin has different mathematical properties than Bitcoin and is stricter. If
-you are trading coins back and forth between five people in a closed network,
-the 51% attack does not affect them. You need a private key of someone in the
-transaction chain to do any damage in a Skycoin 51% attack. There is no
-transaction malleability in Skycoin. Almost everyone will have exactly the same
-outputs and same balances and same transaction histories on both the original
-chain and the fork, except the attacker and people they were trading coins
-with. If there is a fork in the chain, it just copies the transactions over
-from the other chains.
+Skycoin hat andere mathematische Eigenschaften als Bitcoin und ist unnachsichtiger. Wenn jemand Coins zwischen fünf Leuten hin und her handelt, beeinflusst die 51%-Attacke sie nicht. Man benötigt einen privaten Schlüssel oder jemand in der Transkationskette um Schaden mit einer 51%-Attacke verursachen zu können. Es gibt keine Transaktionsgestaltbarkeit in Skycoin. Fast jeder wird exakt dieselben Ausgaben, Bilanzen und Transaktionschroniken auf der originalen, als auch auf der abgezweigten Chain, bis auf den Angreifen und einige Leute, die mit ihm Coins gehandelt haben. Wenn es einen Abzweig (fork) der Chain gibt, kopiert dieser nur die Transaktionen der anderen Chains herüber.
 
-The 51% attack is only going to affect people day trading with shady people
-and gambling sites.  It will not affect commerce transactions very much. If an
-exchange follows best security practices and keeps the user wallets
-segregated, their worst attack is pretty mild.
+Die 51%-Attacke wird nur Leute beeinflussen, die mit zwielichtigen Gestalten und Wettseiten Tageshandel betreiben. Es wird die kommerziellen Transkationen nicht sonderlich beeinflussen. Wenn ein Exchange anständige Sicherheitsvorkehrungen hat und die Wallets der User abgetrennt aufgewahrt, hat die schlimmste Attacke sehr milde Auswirkungen.
 
-Bitcoin is doing 100 million dollars a day transaction volume. Total
-transaction volume in Bitcoin is about 200,000 Bitcoins. Bitcoin has
-transaction malleability, this means that if someone 51% attacks and rolls back
-transactions in the last hour, then about 4 million dollars and 10,000 Bitcoin
-in transactions balances will be screwed up. A rollback attack going back 24
-hours could be 100 million in damages and up to 200,000 Bitcoins. An attacker
-can roll back any transaction in Bitcoin.
+Bitcoin hat 100 Millionen Dollar Transaktionsvolumen pro Tag. Absolutes Transaktionsvolumen in Bitcoin ist in etwas 200,000 Bitcoins. Bitcoin hat Transaktionsgestaltbarkeit, was bedeutet, dass wenn jemand eine 51%-Attacke ausführt und die Transaktionen der letzten Stunde zurückdreht, werden etwa 4 Millionen Dollar und 10,000 Bitcoin in Transaktionensbilanzen verbockt. Eine Rücklauf-Attacke, die 24 Stunden zurück geht, könnte 100 Millionen und 200,000 Bitcoins and Schaden verursachen. Ein Angreifen könnte jedwede Transaktion in Bitcoin zurückdrehen.
 
-In Skycoin, they cannot affect or modify a transaction chain without knowing a
-private key for an address used in that chain of transactions. So if five
-banks are just trading back and forth between each other for settlement and
-they all have good wallet security, the 51% attack would not even be noticed.
-Their balances are the same. That is assuming, the 51% attack is even
-mathematically possible, that someone bothers expending the resources to
-attempt it and that it succeeds.
+Bei Skycoin können sie die Transkationskette nicht beeinflussen oder modifizieren, ohne den privaten Schlüssel einer Adresse in der Kette der Transaktionen zu kennen. Wenn also fünf Banken unter sich handeln und alle haben eine gute Walletsicherheit, bekommen sie eine 51%-Attacke nichtmal mit. Die Kontostände bleiben gleich. Das ist unter der Annahme, dass die 51%-Attacke mathematisch möglich ist, dass jemand sich so darum schert, dass er die Ressourcen aufbringt um es zu versuchen und das dies erfolgreich ist.
 
-If someone manages to 51% attack Skycoin (which may be possible, but is
-mathematically unlikely) merchants will sing and dance with great rejoicement
-because losses will be so much less than for a Visa charge back. Many
-merchants sell laptops and make less than 5% margin on each laptop. Someone
-claims they didnt get the laptop and the merchant loses $1000, does not get
-the laptop back AND has to pay Visa an $80 fee. The company has to sell 25
-laptops to make back the cost of the loss of a single fraud. If someone steals
-a credit card and buys a laptop with it, Visa does not take the loss, Visa
-pushes the loss on to the merchant.
+Wenn jemand es fertigbringt eine 51%-Attacke auf Skycoin durchzuführen (was vielleicht möglich ist, aber mathematisch unwahrscheinlich),  werden die Kaufleute singen und tanzend vor Freude durch die Gegend hüpfen, denn die Verluste werden viel geringer sein, als bei einer Visa-Rücklastschrift. Viele Händler verkaufen Laptops und machen weniger als 5%-Marge pro Laptop. Wenn jemand behauptet den Laptop nicht erhalten zu haben, erfährt der Händler 1000$ Verlust, bekommt den Laptop nicht zurück und muss die Gebühr von 80$ an Visa bezahlen. Das Unternehmen muss 25 Laptops verkaufen um die Kosten des einen Betruges zu kompensieren. Wenn jemand eine Kreditkarte stielt und einen Laptop damit kauft, kommt Visa nicht für den Verlust auf, sie schieben den Verlust weiter an den Händler.
 
-The Skycoin consensus algorithm and the ledger are separate. The consensus
-system is modular and can be swapped out. If there is a better algorithm five
-years from now, we can just swap out the consensus for the new one. The ledger
-and coin balances will be completely unchanged.
+Der Skycoin Konsens-Algorithmus und das Konto sind separat. Der Konsens-Algorithmus ist modular und kann ausgetauscht werden. Wenn es in fünf Jahren einen besseren Algorithmus gibt, können wir den Konsensprozess einfach mit diesem neuen bilden lassen. Das Konto und die Coinbilanzen bleiben komplett unverändert.
 
 Skycoin:
 
-- fixes existing problems with Bitcoin
-- future-proofs Bitcoin
-- eliminates the death spiral conditions that Bitcoin has engineered in
+- behebt exisitierende Probleme von Bitcoin
+- zukunftssicherer Bitcoin
+- beendet die Todesspirale, in die sich Bitcoin eingewickelt hat.
 
-It is 100% true. There are severe tradeoffs. For example, faster
-consensus times for Skycoin-type relational consensus means that a smaller
-number of nodes are required to DDoS the network. However, people can react
-and remove the nodes from their trust lists.
+Es ist zu 100% wahr. Es gibt mehrere Trade-offs. Zum Beispiel schnellere Konsenszeiten für den Skycoin relatierten Konsens bedeutet, dass eine kleinere Menge von Knoten benötigt werden, um das Netzwerk zu DDossen. Jedoch können die Leute trotzdem reagieren und die Leute von ihrer Liste der vertrauenswürdigen Knoten werfen.
 
-There will be issues and they will need to be worked out.
+Es wird Probleme geben und diese werden gelöst werden müssen.
 
-## Skycoin Transaction Structure
+
+## Skycoins Transaktionsstruktur
 
 https://github.com/skycoin/skycoin/blob/master/src/coin/transactions.go
 
-A Skycoin transaction is:
+Eine Skycoin Transaktion ist:
 
-1) A list of output hashes, being spent
-2) A list of signatures authorizing the outputs to be spent (signature of hash
-   of inner part of transaction)
-3) A list of outputs to be created
+1) Eine Liste von Ausgabehashes, welche ausgegeben werden
+2) Eine Liste der Signaturen, welche die Ausgabe authorisieren ausgegeben zu werden (Signaturhashes des inneren Teils 
+   der Transaktion)
+3) Eine Liste der Ausgaben wird erstellt
 
-Coins cannot be created or destroyed. The number of coins in has to equal
-number of coins out. Transaction fees are in "coinhours".
+Coins können nicht erschaffen oder zerstört werden. Die Anzahl der Eingabe an Coins muss gleich Anzahl der Coins der Ausgabe sein. Transaktionsgebühren werden in "Coinshours" abgerechnet.
 
-## Skycoin supports Coinjoin natively
+## Skycoin unterstützt Coinjoin von Geburt an
 
-There is no difference between normal and coinjoin transactions.
+Es gibt keinen Unterschied zwischen normalen und Coinjoin-Transaktionen.
 
-- Two people choose the outputs they want to spend, the outputs they want to
-  create, send to remote server.
-- The server creates a transaction and scrambles orders of outputs in/out.
-  Then sends it to each person
-- Each person sends the signatures for their outputs to the server
-- The coinjoin server injects the transaction into the network
+- Zwei Leute wählen ihre Ausgaben die sie ausgeben möchten, die Ausgaben die sie erstellen möchten und den Remoteserver.
+- Der Server erstellt die Transkation und rührt die Befehle zu Ausgaben der eingehenden und ausgehenden zusammen.
+  Sendet diese anschließend zu jeder Person.
+- Jede Person sendet ihre Signatur für ihre Ausgabe an den Server.
+- Der Coinjoin-Server injiziert die Transkation in das Netzwerk.
 
-- The coinjoin server cannot steal the coins
-- Only the coinjoin server knows how many people are involved (1, 2, 4?)
-- Only the coinjoin server knows which outptus belong to who
-- There is no difference between coinjoin and normal transactions (they look
-  exactly the same)
+- Der Coinjoin-Server kann keine Coins stehlen.
+- Nur der Coinjoin-Server weiß, wieviele Personen involviert sind (1, 2, 4?).
+- Nur der Coinjoin-Server weiß, welche Ausgaben zu welchen Personen gehören.
+- Es gibt keinen erkennbaren Unterschied zwischen Coinjoin und normalen Transaktionen
 
-The signature in the `i`th slot is for the address owning the `i`th output. The
-inner hash of the transaction is hashed with hash of output being spent, then
-this is signed with the private key owning the output.
+Die Signatur im `i-ten`-Slot gehört zur Adresse der `i-ten`-Ausgabe. Der Hash des inneren Teils der Transaktion wird aus den ausgegebenen Ausgaben gehasht, wird dann mit dem privaten Schlüssel des Ausgabenbesitzers signiert.
 
-So it is very simple compared to other coinjoin systems.
+Dies ist also sehr schlicht, verglichen mit anderen Coinjoin-Systemen.
