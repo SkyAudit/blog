@@ -1,5 +1,5 @@
 +++
-title = "The Meaning of Aether"
+title = "Die Bedeutung von Aether"
 tags = [
     "Decentralization",
     "CXO",
