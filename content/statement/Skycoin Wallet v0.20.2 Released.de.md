@@ -22,16 +22,4 @@ Wichtigste Änderungen:
 - Keine Leistungsprobleme. Benutzeroberfläche ist responsiv.
 - Zeitgesicherte Münzverteilung [Timelocked coin distribution.](/statement/skycoin-distribution-plan/#timelocked-distribution)
 
-
-This release fixes many of the issues with the previous wallet and has a new UI.
-While this UI is an improvement over v0.19's, it is only a placeholder until
-v0.21 or v0.22.
-
-Most important changes:
-
-- Shows the correct wallet balance always.
-- Fixes corrupted blockchain database cache file.
-- No performance issues. UI is responsive.
-- [Timelocked coin distribution.](/statement/skycoin-distribution-plan/#timelocked-distribution)
-
 [Alle Änderungen](https://github.com/skycoin/skycoin/blob/master/CHANGELOG.md#0200---2017-10-10)
