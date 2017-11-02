@@ -38,7 +38,7 @@ categories = [
 
 Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィックス。
 
-ここから、ブランド資産（マーク、色彩）をダウンロードしていただくことができます。
+[ここから](https://www.skycoin.net/downloads)、ブランド資産（マーク、色彩）をダウンロードしていただくことができます。
 * 各30 SKY
 
 
