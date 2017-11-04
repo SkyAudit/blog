@@ -79,4 +79,4 @@ type View interface {
 
 
 
-스카이코인 BBS 개발에 대한 최신 정보를 얻으려면, 이 블로그를 구독하고 텔레그램의 스카이코인 BBS 커뮤니티[Skycoin BBS Community](https://t.me/skycoinbbs) 에 가입하십시오 .
+스카이코인 BBS 개발에 대한 최신 정보를 얻으려면, 이 블로그를 구독하고 텔레그램의 [스카이코인 BBS 커뮤니티](https://t.me/skycoinbbs) 에 가입하십시오 .
