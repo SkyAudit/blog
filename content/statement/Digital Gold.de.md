@@ -21,7 +21,7 @@ Dies eliminiert die Leistungslücke zwischen blockchain-basierten Zahlungen und 
 
 ![Skycoin Transaktionsgeschwindigkeitsvergleichsdiagramm ](https://i.imgur.com/i0KNIIr.jpg)
 
-## Digitales Gold: Keine Deflation
+## Digitales Gold: Keine Inflation
 
 Satoshi hat Bitcoin so designt, dass das  Vermögen vor Inflation geschützt ist. Bitcoin ist eine unveränderbare Währung, mit einer maximalen Menge von 21 Millionen Coins. Durch das Begrenzen der Anzahl an Bitcoins die existieren werden, hoffte Satoshi digitales Gold zu erschaffen: Er wollte ein erstklassiges Investment anbieten, dass über die Jahre seinen Wert behalten könnte.
 
