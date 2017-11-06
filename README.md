@@ -1,3 +1,5 @@
+![skycoin blog logo](https://user-images.githubusercontent.com/26845312/32426756-27c29fd4-c282-11e7-8c9b-b0aa179a03ab.png)
+
 Skycoin Blog
 ============
 
