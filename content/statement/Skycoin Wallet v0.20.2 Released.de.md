@@ -17,8 +17,8 @@ Obwohl diese Benutzeroberfläche eine Verbesserung gegenüber v0.19 darstellt, b
 
 Wichtigste Änderungen:
 
-- Zeigt immer den richtigen Kontostand.
-- Repariert korrumpierte Blockchaindatenbank Cachedateien.
+- Zeigt immer den richtigen Kontostand an.
+- Repariert beschädigte Blockchaindatenbank Cachedateien.
 - Keine Leistungsprobleme. Benutzeroberfläche ist responsiv.
 - Zeitgesicherte Münzverteilung [Timelocked coin distribution.](/statement/skycoin-distribution-plan/#timelocked-distribution)
 
