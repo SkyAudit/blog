@@ -12,15 +12,15 @@ categories = [
 
 Este es el equipo actual de Skycoin.
 
-## Marketing
+## Mercadotecnia
 
 Michael Terpin (Coinovate, [CoinAgenda](http://www.coinagenda.com/), BitAngels) y
 Richard Kastelein ([Blockchain News](http://www.the-blockchain.com/),
 [CryptoAssets Design Group](http://www.cryptoassets.io/))
-son asesores del proyecto y apoyan con el marketing.
+son asesores del proyecto y apoyan con el *marketing*.
 
 Otro conjunto de personas están enfocadas en varios aspectos 
-de comunicación, marketing y producción de contenido.
+de comunicación, *marketing* y producción de contenido.
 
 ## Desarrollo/Investigación/Administración
 
