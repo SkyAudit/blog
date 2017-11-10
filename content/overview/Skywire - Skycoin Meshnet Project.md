@@ -112,7 +112,7 @@ to determine the next node to forward the packet to.
 
 The source has complete control over routing.
 
-* Each node can upgrade its routing protocol independently to suits their needs
+* Each node can upgrade its routing protocol independently to suit their needs
 * Source can optimize network paths for lower latency network paths for VOIP or gaming
 * Source can optimize network paths for throughput for video and file sharing applications
 * Source can bundle multiple routes to destination for redundancy, reduced latency and throughput
@@ -134,12 +134,12 @@ Skywire simply prefixes a packet with a route ID.
 
 Notes:
 
-* The destination does not know the identity of the origin. Identity is no longer at routing layer, but  application layer. Identity must be confirmed through public key infrastructure.
+* The destination does not know the identity of the origin. Identity is no longer at routing layer, but application layer. Identity must be confirmed through public key infrastructure.
 * Man-in-middle attacks are not possible. A source can verify the destination through their public key.
 * Privacy is significantly improved from IPv4, where anyone handling a packet can see the destination, the source and contents of the packet.
-* Performance is superior to IPv4/BGP because ISPs use hot potato routing
+* Performance is superior to IPv4/BGP because ISPs use hot potato routing.
 * End-to-End encryption eliminates packet injection attacks and spoofing. Spoofing traffic requires the private keys for each end of the connection tunnel.
-* Encryption is fast. Objective is 10 Gb/s throughput on FPGA hardware, 200 Mb/s on ARM
+* Encryption is fast. Objective is 10 Gb/s throughput on FPGA hardware, 200 Mb/s on ARM.
 
 ## Incentives: Payment Protocol
 
@@ -171,7 +171,7 @@ A modern CPU can perform 6000 secp256k1 ECDH operations per second. Session key 
 
 The previous session key should be accumulated into the secret received via ECDH.
 
-The session key, established through public key cryptography (ECC) is used to encrypt communications using a faster asymmetric encryption algorithm (AES, ChaCha20). This the basic link layer encryption between nodes
+The session key, established through public key cryptography (ECC) is used to encrypt communications using a faster asymmetric encryption algorithm (AES, ChaCha20). This the basic link layer encryption between nodes.
 
 ### Example Protocol: Nodes `A` and `B`
 
@@ -187,15 +187,15 @@ The session key, established through public key cryptography (ECC) is used to en
 
 ### Possible Improvements:
 
-- Frequent session key updates. ECDH key exchange every few seconds or minutes
-- Hash old session key with new ECDH secret to generate new session key
+- Frequent session key updates. ECDH key exchange every few seconds or minutes.
+- Hash old session key with new ECDH secret to generate new session key.
 - Add nonces to packets and hash secret into nonce to generate key for each message. Same key is never reused. Reduces impact of known plaintext attack.
 - Eliminate known plain text in messages.
-- Pad messages to multiples of 16 or 32 bytes
+- Pad messages to multiples of 16 or 32 bytes.
 
 ## IPv4 Gateway: Bypassing Existing ISPs
 
-Many people have only a single choice for ISPs. This briefly describes how Skywire can increase competition
+Many people have only a single choice for ISPs. This briefly describes how Skywire can increase competition.
 
 Some applications can run natively on the Skywire address space. Some applications such as Bittorrent, file syncing and communication applications strongly benefit from the Skywire infrastructure and will be modified to run natively on it.
 
@@ -207,7 +207,7 @@ The Skywire node in the users home connects to the gateway over all possible rou
 
 ### Example One
 
-A user has a 10 Mb/s cable modem. They install a Skywire router. The router is plugged into their computer, into a Skywire Wifi node and into their cable model. The router is configured with Skywire as a IPv4 tunnel. They plug their computer into the router .
+A user has a 10 Mb/s cable modem. They install a Skywire router. The router is plugged into their computer, into a Skywire Wifi node and into their cable model. The router is configured with Skywire as a IPv4 tunnel. They plug their computer into the router.
 
 The Skywire wifi node connects to their neighbors Skywire node over wifi, which is connected to a 10 Mb/s cable modem. The neighbor also has a 200 Mb/s 5 GHz wifi with directional point-to-point antenna connected to a business running a Skywire wifi node down the street.
 
@@ -225,9 +225,9 @@ The business down the street has a 100/30 Mb/s fiber drop with an SLA. The busin
 
 ## Skywire Daemon Services Architecture
 
-* Each Skycoin node has a Secpk256k1 pubkey
+* Each Skycoin node has a Secpk256k1 pubkey.
 * Each Skycoin node has a Skycoin address identifying it. The address is a hash of the node’s public key. This public key hash is the equivalent of an IP address on the network.
-* Each Skycoin node has a connection pool of peer it is connected to. These can be peers over TCP, UDP clearnet connections, physical connections through direct Ethernet and Wifi peer (meshnet operation). A connection can also be a “virtual connection” which is tunneled through a physical or clearnet connection and will be described later.
+* Each Skycoin node has a connection pool of peers it is connected to. These can be peers over TCP, UDP clearnet connections, physical connections through direct Ethernet and Wifi peer (meshnet operation). A connection can also be a “virtual connection” which is tunneled through a physical or clearnet connection and will be described later.
 * Each connection instance with a peer has “channels”. A channel is a 16 bit integer which is similar to a “port” in TCP.
 * All messages sent and received have a 32 bit length prefixed and 16 bit channel.
 * Channel 0 is reserved for communication between Skywire Daemons,  exposing meta-information about the services running on the Daemon and other data required for network operation.
@@ -361,7 +361,7 @@ Store and forward should be default, but optional.
 
 Video, Audio and file downloads are buffered. Absolute averaged throughput over a time window of seconds matters, while latency is irrelevant. Other traffic such as website requests, video game and voip is real time and should be delivered as quickly as possible.
 
-With two quality of service levels, “Real Time” and “Bulk” we can transmit VOIP, website and `video game traffic first, reducing latency for this traffic. Latency insensitive traffic such as video, music and file sharing would only flow over link after real time traffic buffer is empty.
+With two quality of service levels, “Real Time” and “Bulk” we can transmit VOIP, website and video game traffic first, reducing latency for this traffic. Latency insensitive traffic such as video, music and file sharing would only flow over link after real time traffic buffer is empty.
 
 We are able to utilize links at near 100% of capacity while, lowering latency for real time traffic. Therefore we propose supporting two quality of service levels for routes.
 
@@ -374,7 +374,8 @@ If the links between nodes are slow, unreliable or connectivity is changing, rel
 If a Skywire node running on a cell phone is in a car driving down the street, the networks that are accessible will change. Network nodes will come into range and other network nodes will leave range. The node should have continuous connectivity at the application layer, even as the physical connections are created and destroyed.
 
 One approach is choosing a set of reliable nodes on the network backbone as termination points for a route and then proxying the traffic through these nodes, over a set of multiple short term routes.
-Source Routing: Multi-Route Reliability
+
+## Source Routing: Multi-Route Reliability
 
 If links are unreliable or have highly variable latency, it is desirable to encode application data over multiple paths, such that the data can be recovered if data from any of the paths is received. Fountain coding and other encoding methods exist which may be applicable here.
 
@@ -396,7 +397,7 @@ BGP has several issues that a next gen protocol should address:
 * BGP systems often require manual configuration to route around damage and are not resilient against bad configurations
 * BGP requires manual creation of ad-hoc route filtering rules and increasing complexity for networks with multi-home connectivity
 * BGP networks require highly centralized planning
-* The NSA has exploited flawed in BGP to route targeted traffic to interception points
+* The NSA has exploited flaws in BGP to route targeted traffic to interception points
 * The assumptions of BGP are becoming increasingly strained, especially for ad-hoc, mesh and mobile networks
 * The hierarchical, single path assumptions of BGP make implementation of multi-homing and other next-gen networking requirements extremely difficult
 * BGP suffers severe issues when network links are unreliable, such as route flapping.
@@ -466,7 +467,7 @@ Next gen wifi systems will have 4x4 and 8x8 antennas in a phased array MIMO arra
 
 Similarly, a high powered, amplified wifi signal through a directional antenna may be received at a site fifteen miles away, but reception of the signal from the site cannot similarly be amplified as easily as power can be boosted in transmission.
 
-We propose, Asymmetric routes, for situation where messages can be received by a node, but where the node cannot directly communicate back. In an asymmetric route confirmation messages are relayed over the network by a route, enabling full utilization of asymmetric connectivity over one way communication channels.
+We propose, Asymmetric routes, for situations where messages can be received by a node, but where the node cannot directly communicate back. In an asymmetric route, confirmation messages are relayed over the network by a route, enabling full utilization of asymmetric connectivity over one way communication channels.
 
 Situations where this will become increasingly relevant
 
