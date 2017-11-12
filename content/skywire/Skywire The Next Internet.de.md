@@ -22,7 +22,7 @@ sind die ISPs die meist gehassten Firmen in Amerika geworden. Warum also bezahle
 nach der anderen für das Privileg ausgespäht zu werden?
 
 Die Antwort ist traurig aber nicht überraschend: Die User fühlen sich in die Enge getrieben. 
-Es scheint keine andere Wahl zu geben. ISPs haben die monolithische Macht, eingeschlossen der Fähigkeit
+Es scheint keine andere Wahl zu geben. ISPs haben die monopolistische Macht, eingeschlossen der Fähigkeit
 den Kunden exorbitante Preise für mangelhaften Service abzuverlangen. Durch den (bevorstehenden) Angriff auf die 
 Netzneutralität im Jahr 2018 wird sich die Situation nur noch verschlimmern.
 
