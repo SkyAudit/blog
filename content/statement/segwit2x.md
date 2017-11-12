@@ -1,4 +1,14 @@
-+++ title = "Segwit2x and Bitcoin’s Consensus Problem - How Skycoin is Superior" tags = [ "Statement", ] bounty = 5 date = "2017-11-11" categories = [ "Statement", ] +++
++++
+title = "Segwit2x and Bitcoin’s Consensus Problem - Why Skycoin is Superior"
+tags = [
+    "Statement",
+]
+bounty = 5
+date = "2017-11-01"
+categories = [
+    "Statement",
+]
++++
 
 On Wednesday, Bitcoin developers suspended plans to introduce the controversial software update Segwit2x. The 2x update would have increased the size of each block from 1 MB to 2 MB, doubling Bitcoin’s transaction capacity. Segwit2x had been planned for several months and was set to go into effect around November 16th. 
 
@@ -29,5 +39,3 @@ Skycoin achieves consensus with a novel algorithm called Obelisk. This algorithm
 Each node in Skycoin’s network subscribes to other nodes. Nodes are assigned personal blockchains that publicly broadcast their actions. The community can view and audit the nodes. If a node behaves suspiciously or maliciously, its connections can be cut, diminishing its influence. Obelisk strengthens collective decision-making and creates a network that’s built on relationships, not processing power.
 
 As Bitcoin wobbles on shaky foundations of mining and price manipulation, Skycoin is bringing the world a different option. It delivers a peer-to-peer network that’s decentralized and user-centric. Bitcoin may be controlled by a few influential individuals, but Skycoin is owned by its community. It’s the next logical step in cryptocurrency evolution.
-
-
