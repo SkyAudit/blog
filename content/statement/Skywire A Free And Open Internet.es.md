@@ -65,7 +65,7 @@ libertad sin ser reprimidos por las corporaciones.
 Cuando todos los sitios son tratados por igual, el público se beneficia 
 de mayor información y transparencia en temas desde política hasta salud. 
 La creatividad florece. El arte se vuelve accesible para un grupo demográfico 
-más amplio. Diferentes perspectivas pueden propagarse y ser escuchas. 
+más amplio. Diferentes perspectivas pueden propagarse y ser escuchadas. 
 La libertad de expresión puede prosperar. Los usuarios pueden manejar su 
 experiencia y crear su propio contenido en lugar de consumir un conjunto 
 limitado de productos corporativos.
