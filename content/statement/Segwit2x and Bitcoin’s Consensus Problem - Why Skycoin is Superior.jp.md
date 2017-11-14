@@ -3,7 +3,7 @@ title = "Segwit2xとBitcoinのコンセンサスの問題 - Skycoinが凌駕す�
 tags = [
     "Statement",
 ]
-bounty = 5
+bounty = 10
 date = "2017-11-12"
 categories = [
     "Statement",
