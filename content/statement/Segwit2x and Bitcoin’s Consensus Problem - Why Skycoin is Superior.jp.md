@@ -1,5 +1,5 @@
 +++
-title = "Segwit2xとBitcoinのコンセンサスの問題 - Skycoinが凌駕する理由"
+title = "Segwit2xとBitcoinのコンセンサスの問題 - Skycoinが優れている理由"
 tags = [
     "Statement",
 ]
