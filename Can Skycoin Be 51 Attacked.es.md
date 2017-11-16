@@ -31,7 +31,7 @@ siempre descompensará la seguridad en otro aspecto.
 En Skycoin el ataque del 51% no importa. La red podría ser atacada
 al 51% veinte veces al día y a casi nadie le importaría.
 
-Skycoin tiene diferentes propiedades matemáticas que Bitcoin y es más 
+Skycoin tiene diferentes propiedades matemáticas que las de Bitcoin y es más 
 estricto. Si cinco personas están intercambiando monedas entre si
 en una red cerrada el ataque del 51% no los afectaría. Se necesita la llave 
 privada de alguien en la cadena de transacción para hacer algún daño en un 
@@ -99,8 +99,8 @@ https://github.com/skycoin/skycoin/blob/master/src/coin/transactions.go
 
 Una transacción de Skycoin es:
 
-1) Una lista de hashes de salida, siendo empleada
-2) Una lista de firmas autorizando a las salidas para ser empleadas 
+1) Una lista de hashes de salida, siendo emitida
+2) Una lista de firmas autorizando a las salidas para ser emitidas
 (firma de hash en la parte interna de la transacción) 
 3) Una lista de salidas que será generada
 
