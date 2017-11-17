@@ -30,7 +30,7 @@ bounty = 20
 
 >>>>Alternativamente, podrías publicar la llave pública para dirección 'A' y después solo firmar un mensaje con esa llave pública. El nodo tendría que publicar una firma cada periodo de tiempo, o cada cierto número de bloques de las monedas de reserva que están siendo movidas, para mantener relaciones de confianza validas con otros compañeros.
 
->>>>Alternativamente, Proof of Burn (Prueba de Quemado) podría ser requerido, cuando monedas son enviadas de dirección 'A' a una dirección 'B' que no tiene una llave privada. Proof of Burn entra en conflicto con el requerimiento de que nadie necesitaría descargar todo el blockchain desde el principio para operar un nodo entero, así que es poco probable.
+>>>>Alternativamente, Proof of Burn (Prueba de Quemado) podría ser requerido, cuando monedas son enviadas de dirección 'A' a dirección 'B' que no tiene una llave privada. Proof of Burn entra en conflicto con el requerimiento de que nadie necesitaría descargar todo el blockchain desde el principio para operar un nodo entero, así que es poco probable.
 
 >>>>Este sistema fija un límite superior al número de nodos en Obelisk y restringe a los titulares de monedas la habilidad de correr nodos en este. El límite superior en el número de nodos y los requerimientos de moneda, agregan una capa más de protección contra ataques Sybil.
 
