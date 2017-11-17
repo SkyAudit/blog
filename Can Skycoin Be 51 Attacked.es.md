@@ -37,8 +37,8 @@ en una red cerrada el ataque del 51% no los afectaría. Se necesita la llave
 privada de alguien en la cadena de transacción para hacer algún daño en un 
 ataque del 51%. Skycoin no tiene maleabilidad de transacción. Casi todos tendrán
 exactamente los mismos datos de salida, los mismos balances y los mismos 
-historiales de transacción tanto en la cadena original como en el Fork, excepto el 
-agresor y sus cómplices. Si ocurre un Fork en la cadena, solo se copian 
+historiales de transacción tanto en la cadena original como en el fork, excepto el 
+agresor y sus cómplices. Si ocurre un fork en la cadena, solo se copian 
 las transacciones desde las otras cadenas.
 
 El ataque del 51% solo afectará a aquellos que negocian con personas sospechosas
@@ -47,10 +47,10 @@ Si una casa de cambio tiene buenos métodos de seguridad y mantiene segregadas
 las carteras de sus usuarios, el peor ataque le es muy leve.
 
 Bitcoin maneja un volumen de transacción de 100 millones al día. El volumen total 
-de transacciones en Bitcoin es alrededor de 200,000 Bitcoins. Este tiene
+de transacciones en Bitcoin es alrededor de 200,000 bitcoin. Este tiene
 maleabilidad de transacción, lo que significa que si alguien hace un ataque del 51% y 
 retrocede las transacciones hechas en la última hora, se estropearían 4 millones de dólares
-y 10,000 Bitcoin en balances de transacción. Un ataque que vaya 24 horas atrás podría 
+y 10,000 bitcoin en balances de transacción. Un ataque que vaya 24 horas atrás podría 
 causar daños de hasta 100 millones y 200,000 Bitcoins. Un agresor puede revertir 
 cualquier transacción de Bitcoin.
 
@@ -66,11 +66,11 @@ para intentarlo, y que tenga éxito.
 Si alguien logra atacar a Skycoin al 51% (lo cual puede ser posible, pero es matemáticamente improbable) 
 los comerciantes van a celebrar con regocijo puesto que las perdidas 
 serán mucho menores que las de un reembolso de Visa. Muchos comerciantes 
-venden ordenadores portátiles y generan menos del 5% de margen por 
-cada ordenador. Alguien reclama que no recibió el ordenador y el comerciante
-pierde 1000$, no recibe de vuelta el producto y tiene que pagarle a Visa una 
-cuota de 80$. Luego la compañía tiene que vender 25 ordenadores para compensar 
-el costo de una perdida provocada por una sola estafa. Si alguien roba una 
+venden laptops y generan menos del 5% de margen por 
+cada una. Alguien reclama que no recibió el producto y el comerciante
+pierde $1000, no recibe de vuelta el producto y tiene que pagarle a Visa una 
+cuota de $80. Luego la compañía tiene que vender 25 laptops para compensar 
+el costo de una pérdida provocada por una sola estafa. Si alguien roba una 
 tarjeta de crédito y compra algo con ella, Visa no asume la perdida, se la apremia al comerciante.
 
 El algoritmo de consenso de Skycoin y su libro de contabilidad 
