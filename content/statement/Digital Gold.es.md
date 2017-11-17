@@ -1,7 +1,7 @@
 +++ title = "Oro Digital" tags = [ "Statement", ] bounty = 5 date = "2017-08-14" categories = [ "Statement", ] +++ 
 
-La visión original de Satoshi para Bitcoin fue revolucionaria. Una moneda global que existió por encima de las naciones
-y fuera del alcance de los fideicomisos y la inflación. Bitcoin debió haber sacudido el núcleo del mundo financiero.
+La visión original de Satoshi para Bitcoin fue revolucionaria. Una moneda global que exististiese por encima de las naciones
+y fuera del alcance de la duda y la inflación. Bitcoin debió haber sacudido el núcleo del mundo financiero.
 Pero su visión fue un fracaso. En lugar de marcar el comienzo de una nueva era de descentralización, Bitcoin fue centralizada.
 El poder fue concentrado en tres pools de minería. La velocidad de transacción fue ralentizada. Y las comisiones se dispararon a un
 nivel de $40. Hoy en día, está claro que Bitcoin no cumplió con su promesa de una moneda digital descentralizada entre pares.
