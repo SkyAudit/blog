@@ -59,8 +59,6 @@ Skycoin BBS protects against bots. Users can mark bots as spam and discourage ot
 
 The benefits of Skycoin BBS go beyond user privacy and data ownership. Skycoin BBS also eliminates the danger of corporate and government interference. Unlike most social media networks, Skycoin BBS is decentralized. There’s no central server to shut down and no way for a single entity to monitor communications. Every outbound packet could be communicating with a peer who can forward the message. This peer-to-peer system protects users from third parties and authorities seeking control.
 
-Decentralization makes Skycoin BBS resistant to network failure and manipulation. Since information is replicated through nodes, no single node failure can threaten the network. There’s no central server to shut down and no way to monitor communications. Every outbound packet could be communicating with a peer who can forward the message. This protects users from third parties and authorities seeking control.
-
 Skycoin BBS is currently in alpha. As we continue to develop this new social media application, early users may experience some bugs or data loss. You can help us improve Skycoin BBS by reporting these incidents when they occur. With your feedback, we can make Skycoin BBS a true revolution in social media.
 
 This is only the beginning. With Skycoin BBS, we’re building a new internet on the Skycoin ecosystem. We did this because we believe people, not corporations, are the key to the internet’s future. We shouldn’t have to sell our digital souls to communicate with each other. Skycoin BBS is decentralizing social media with a peer-to-peer network that brings communication back to the user community. You deserve a better social network – and with Skycoin BBS, you’ve got it.
