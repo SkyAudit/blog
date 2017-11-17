@@ -15,7 +15,7 @@ bounty = 5
 
 La internet nos da una ilusión de control. Podemos socializar, consumir, 
 y hacer negocios instantáneamente a través de servicios proporcionados 
-por Google, Facebook, Apple, y Amazon. Se ve muy útil no? Lo es —Hasta que consideras lo que das a cambio.
+por Google, Facebook, Apple, y Amazon. ¿Se ve muy útil, no? Lo es —Hasta que consideras lo que das a cambio.
 
 No controlamos nuestras vidas en línea. Las grandes compañías y 
 los proveedores de internet (ISPs) almacenan nuestra información, 
