@@ -9,6 +9,13 @@ This blog uses [hugo](https://gohugo.io/) to generate a static website from mark
 
 Refer to hugo documentation for full detail.
 
+Translation Bounty Program
+==========================
+
+If you are here for the translation bounty program and need help submitting a translation, follow this guide (pdf):
+
+[Skycoin  Blog Github Translation Instructions](https://github.com/skycoin/blog/files/1469162/github-translation-manual.pdf)
+
 Content: Create or Amend Posts
 ==============================
 
