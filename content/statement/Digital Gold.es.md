@@ -1,4 +1,14 @@
-+++ title = "Oro Digital" tags = [ "Statement", ] bounty = 5 date = "2017-08-14" categories = [ "Statement", ] +++ 
++++
+title = "Oro Digital"
+tags = [
+    "Statement",
+]
+bounty = 5
+date = "2017-08-14"
+categories = [
+    "Statement",
+]
++++
 
 La visión original de Satoshi para Bitcoin fue revolucionaria. Una moneda global que exististiese por encima de las naciones
 y fuera del alcance de la duda y la inflación. Bitcoin debió haber sacudido el núcleo del mundo financiero.
