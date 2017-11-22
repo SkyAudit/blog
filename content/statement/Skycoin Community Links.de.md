@@ -9,19 +9,23 @@ categories = [
 ]
 +++
 
-Gespräch mit dem Skycoin Team
+Kontaktiere das Skycoin Team
 --------------------------
 
-Das Skycoin Team ist das aktivste auf Telegram.
+Das Skycoin Team ist am aktivsten auf Telegram.
 
 * [Skycoin Telegram Channel](https://t.me/Skycoin)
 * [Skycoin BBS Channel](https://t.me/skycoinbbs)
 * [Skycoin News Channel](https://t.me/skycoinnews)
 * [Skycoin Bounty Program Channel](https://t.me/skycoinbounty)
 
-Es gibt außerdem einen Slack-Channel
-
 * [Skycoin Slack](https://skycoin.herokuapp.com)
+* [Skycoin Discord](https://discord.gg/MTepVHE)
+
+Mailingliste
+------------
+
+* [Skycoin Mailing List](http://eepurl.com/c4DyAv)
 
 Neuigkeiten und Updates 
 ------------
@@ -29,11 +33,18 @@ Neuigkeiten und Updates
 * [Skycoin Blog](https://blog.skycoin.net)
 * [Skycoin Twitter](https://twitter.com/skycoinproject)
 * [Skycoin Reddit](https://reddit.com/r/skycoinproject)
+* [Skycoin Facebook](https://www.facebook.com/skycoinproject)
+
+Media
+-----
+
+* [Skycoin Youtube](https://www.youtube.com/channel/UCzLASufel2No4vSt4rudHSQ)
+* [Skycoin Instagram](https://www.instagram.com/skycoinproject/)
 
 Software
 --------
 
-Der gesamte Code ist auf Github veröffentlicht. Mitarbeiter und Tester sind angehalten mitzuwirken.
+Der gesamte Code wird auf Github veröffentlicht. Mitarbeiter und Tester sind angehalten mitzuwirken.
 
 * [Skycoin Github Organisation](https://github.com/skycoin)
 * [Skycoin Core & Wallet](https://github.com/skycoin/skycoin)
