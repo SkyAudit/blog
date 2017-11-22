@@ -13,7 +13,7 @@ categories = [
 
 ## Zusammenfassung:
 
-Auf kommerziellen Social Media Plattformen bist du das Produkt. Ein Unternehmen kontrolliert deine Daten. Es verkauft diese Daten an Werbetreibende und lagert diese Daten auf ihren Servern. Sobald du einen Beitrag erstellst, gehört er für immer ihnen. Du hast keine Kontrolle über deine Privatsphäre, Technologie, noch nicht einmal über deine Identität. Warum sollten wir uns damit abfinden?
+Auf kommerziellen Social Media Plattformen bist du das Produkt. Ein Unternehmen kontrolliert deine Daten. Es verkauft diese Daten an Werbetreibende und lagert diese Daten auf ihren Servern. Sobald du einen Beitrag erstellst, gehört er für immer ihnen. Du hast keine Kontrolle über deine Privatsphäre, deine Technologie, noch nicht einmal über deine Identität. Warum sollten wir uns damit abfinden?
 
 Es ist Zeit für eine Revolution der sozialen Medien. Skycoin bringt soziale Medien zurück zu dir, dem Nutzer. Wir sind enthusiastisch den Start der Alpha Version von Skycoin BBS ankündigen zu können: die erste verteilte Plattform für soziale Medien im Skycoin Ökosystem.
 
