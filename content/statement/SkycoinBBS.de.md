@@ -37,7 +37,7 @@ Verfolge Kontributionen (commits) von Code im Skycoin Github: https://github.com
 
 Erhalte eine Liste von Knoten (nodes) mit denen du dich verbinden kannst und Foren, die du abonnieren kannst: https://t.me/skycoinbbshosting
 
-Schau dir das Entwicklungsvorzeigeprojekt auf Youtube an und erlebe die Skycoin BBS Plattform in Aktion:: https://www.youtube.com/watch?v=6ZqwgefYauU 
+Schau dir das Entwicklungsvorzeigeprojekt auf Youtube an und erlebe die Skycoin BBS Plattform in Aktion: https://www.youtube.com/watch?v=6ZqwgefYauU 
 
 ---
 
