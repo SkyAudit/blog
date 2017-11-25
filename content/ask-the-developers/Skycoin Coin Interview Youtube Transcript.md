@@ -1,17 +1,15 @@
 +++
-title = "Skycoin Interview"
+title = "Skycoin Coin Interview Youtube Transcript"
 tags = [
-    "Ask the Developers",
 ]
-date = "2017-11-16"
+date = "2017-11-25"
 categories = [
     "Ask the Developers",
-    "Statement",
 ]
 description = "Log of Interview with Synth from Skycoin, held live on Coin Interview's youtube channel (from 2017-10-30)"
 +++
 
-*originally held October 30, 2017 on the Coin Interview youtube channel (https://www.youtube.com/coininterview)*
+*originally held October 30, 2017 on the Coin Interview youtube channel (https://www.youtube.com/watch?v=BuY5IbkkbXg)*
 
 *synth is the skycoin representative in this AMA. 
 christian and evan are the interviewers*
