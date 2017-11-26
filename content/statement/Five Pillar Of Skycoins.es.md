@@ -1,5 +1,5 @@
 +++
-title = "Five Pillars of Skycoin"
+title = "Cinco Pilares de Skycoin"
 tags = [
     "Statement",
 ]
