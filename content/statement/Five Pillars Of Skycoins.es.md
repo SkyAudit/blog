@@ -11,7 +11,7 @@ categories = [
 +++
 
 El proyecto Skycoin es una plataforma de software/aplicación herméticamente contenida, 
-que opera de forma paralela sobre la internet actual pero independientemente de ella.
+que opera por encima y paralelamente con la internet actual pero independientemente de ella.
 
 Los cinco pilares del proyecto Skycoin son:
 
