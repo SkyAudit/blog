@@ -15,7 +15,7 @@ before_script:
 - s3cmd --version
 
 script:
-- hugo -v
+- hugo --buildFuture -v
 
 after_success:
 - ls public/
