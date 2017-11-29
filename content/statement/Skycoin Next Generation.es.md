@@ -72,7 +72,7 @@ tiene tres billeteras y tres implementaciones diferentes de billetera y no hay i
 de terceros impulsar la evolución del protocolo. Las cadenas de bloque personales de Skycoin están diseñadas
 para ser genéricas y permiten a los usuarios actualizar sus nodos de forma individual para admitir nuevos lenguajes de
 scripting, tipos de contratos y poner el control del protocolo en manos de los desarrolladores de terceros.
-El protocolo de conexiónes extensible y permite la asociación de nuevas aplicaciones con el daemon Skycoin.
+El protocolo de conexiones extensible y permite la asociación de nuevas aplicaciones con el daemon Skycoin.
 
 Tuvimos que inventar cadenas de bloque personales, para que los usuarios y desarrolladores individuales
 pudieran experimentar y extender el protocolo sin amenazar a la cadena principal. Colorcoin y otras monedas
