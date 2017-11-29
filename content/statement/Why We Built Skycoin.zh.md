@@ -11,42 +11,25 @@ categories = [
 ]
 +++
 
-Satoshi envisioned Bitcoin as a decentralized digital currency. Blockchain networks were intended to democratize finance, eliminating corporate control and spreading power among users. However, Bitcoin and related currencies have become centralized due to their reliance on Proof of Work (PoW) and Proof of Stake (PoS) algorithms, as well as their use of mining to create coins. This centralization defeats the original purpose of digital currencies.
-
-We created the Skycoin blockchain to correct these flaws. The Skycoin blockchain uses a novel consensus algorithm to replace PoW and PoS. It also fixes security problems associated with other blockchain networks and decouples coin creation from the mining process. The result is a fully decentralized cryptocurrency that fulfills Satoshi’s original vision.
-
-The Skycoin blockchain does not use mining, so user power cannot be concentrated in a few large mining pools as it is with Bitcoin today. Coin creation doesn’t give certain users disproportionate control over the network. The supply of Skycoin is fixed. Skycoin transactions occur in seconds and are more secure. With Skycoin, we’ve created an immutable cryptocurrency that functions as digital property, rather than a political tool for amassing control over networks.
-
-## Issues with Proof of Work
-
-The PoW algorithm has a fatal flaw: it places control of the network in the hands of those with enough economic power to control mining and thus obtain consensus. The monopolization of mining has become a major problem for blockchain networks.
-
-Bitcoin developers initially believed that the mining system would support decentralization. Instead, it did the opposite. Since consensus was based on processing capacity, the mining system incentivized the purchase of hashing power. By accumulating greater and greater hashing power, certain users obtained disproportionate amounts of control over the network.
-
-This led to the centralization of Bitcoin into just three major mining pools. Today, these mining pools concentrate the network’s hashing power on their servers and occasionally split power between themselves by agreement. Because they have so much processing power, they are able to revert and falsify transactions using 51% attack. Not only does this threaten the stability and security of the network, it destroys any possibility of achieving a truly decentralized currency.
-
-The economic and environmental cost of these mining processes is astronomical. The electricity required for processing runs in the tens of millions, and cannot be offset by new users and capital except in the rarest cases. Even with large coins like Ethereum and Bitcoin, skyrocketing transaction fees and inflation are bleeding users dry. Each user sacrifices the equivalent of over $50 with each Bitcoin transaction to support the operations of centralized mining pools. That’s more expensive than an international bank transfer. With Bitcoin, users are throwing away their money in support of mining costs that benefit only a select few operators. In the case of smaller coins, high mining costs result in continuous devaluation that eventually extinguishes the coin itself.
-
-In short, PoW-based coins have completely failed to deliver a decentralized system. Mining pools exploit other users in order to subsidize their own costs, while eating up huge amounts of processing power. We can do better. At Skycoin, we tackled this problem head-on in developing our alternative consensus algorithm.
-
-## Proof of Stake: More Centralization Problems
-
-With PoW, 51% attacks due to mining are a major security threat. PoS algorithms are intended to solve this problem, but they have centralization problems of their own. At coinfox.info, Joseph Young explains: “A system where the major stakeholder enjoys extensive control and authority over both technical and economic aspects of the network creates a major monopoly problem.” This is exactly what PoS creates.
-
-With PoS, users have voting power on the network in proportion to their cryptocurrency holdings. In other words, users with a greater stake have a greater power to make technical changes. This idea may seem to be a good way to guard against 51% attacks, since majority stakeholders have the most to lose from such attacks and are therefore motivated to avoid them. However, because PoS systems centralize voting power, they allow certain users to make network changes without considering other users or the community at large. In this sense, PoS is just as bad as PoW – it creates a centralization of power that defeats the purpose of the decentralized ledger system.
-
-## Obelisk: The Key to Decentralization
-
-It’s clear that both PoW and PoS algorithms are self-sabotaging. These algorithms undermine the idea of decentralized digital currency, since they result in the creation of new central authorities. They concentrate network power in the hands of just a few individuals, preventing users from reaping the benefits of a decentralized network. In fact, PoW and PoS create a system that’s no better than the traditional central banking system cryptocurrency originally sought to replace.
-
-At Skycoin, we want to bring users what they asked for: a true, decentralized network without central authority. To accomplish this task, we went beyond PoW and PoS to create a wholly new decentralized algorithm that reconfigures the inner workings of blockchain. Our distributed consensus algorithm, Obelisk, succeeds in delivering just such a network.
-
-Obelisk is different from both PoW and PoS because it functions based on distributed influence, also known as a “web of trust.” In this system, each node subscribes to a list of other nodes. The density of a node’s network determines its influence. Nodes have personal blockchains that broadcast and record all actions publicly. Because the node’s communications are public and transparent, the community can verify that nodes are operating fairly. 
-
-If a node fails to comply with community standards, its actions will be visible in the public record. The network can then sever connections with that node, decreasing its influence over the network. In this way, our web of trust system weeds out malicious nodes and rebalances power according to the collective will of the community. The result is a smaller core of trusted nodes that make network decisions through verified relationships. 
-
-The Skycoin blockchain lets the community audit nodes and hold them accountable. This creates a transparent consensus that allows for collective decision-making and true decentralization of power. By eliminating PoW/PoS issues, Skycoin delivers a digital currency that provides all the benefits of a democratic network.
-
-Obelisk is the key to reinventing blockchain. Its web-of-trust style consensus prevents the development of centralized power. Skycoin requires no mining, so the network is immune to 51% attack. Transactions are significantly faster, occurring in seconds. Decisions are made through community consensus, not based on the wishes of a few majority stakeholders. These features make Skycoin the most secure blockchain option available today. 
-
-The original purpose of digital currency was to reinvent the economy so that users could be independently empowered to trade in a peer-to-peer fashion, without interference from centralized powers. At Skycoin, we believe strongly in this mission. That’s why the Skycoin blockchain is designed to benefit all users, not just a select few. With Obelisk, we’re solving the problems inherent in PoW- and PoS-based coins to bring you a decentralized and democratic consensus network.
+Skycoin：不忘初心
+    中本聪将比特币视为一种去中心化的数字货币。区块链网络旨在使金融民主化，消除大公司控制，使权力掌握在民众手中。然而，比特币和其他使用pow/pos算法，通过挖矿获得奖励的数字货币正在变得越来越中心化。这种中心化违背了数字货币发明的初心。
+所以我们创建Skycoin来弥补这些缺陷。 Skycoin区块链使用全新的一致性算法来替代pow/pos。它还解决了与其他区块链网络连接的安全问题，并将新币产生和挖矿分开。Skycoin才是符合中本聪愿景的真正去中心化的数字货币。
+Skycoin区块链没有挖矿，所以权力不会像现在的比特币那样集中在几个大矿池手里。新币产生不会给某些用户对网络不当的控制权。 Skycoin的总量是固定的。Skycoin交易速度是秒级的，而且更安全。借助Skycoin，我们创建了一个不可变的加密货币，作为数字财产，而不是一个控制网络的政治工具。
+工作量证明共识机制存在的问题
+工作量证明算法存在一个致命的缺陷：它把网络的控制权交给了矿霸。挖矿垄断已成为区块链的一个主要问题。
+比特币开发者开始以为挖矿会支持去中心化。然而恰恰相反，由于共识达成是以算力为基础的，挖矿激励人们通过购买算力更高的矿机提高挖矿能力。通过积累越来越强的算力，某些用户获得对网络强大的控制权。
+这使得比特币的控制权集中到了三个大矿池。现在，这些矿池将算力集中在自己的服务器上，偶尔通过协议在内部分配权力。因为他们拥有如此强大的处理能力，他们能够使用51％攻击来回滚和伪造交易。这不仅威胁到网络的稳定性和安全性，也使得数字货币去中心化成为泡影。
+挖矿产生的经济和环境成本是高昂的。矿机运行会消耗大量电力，这会使得比特币交易成本激增，很难被新用户带来的资本抵消。像以太坊和比特币这样的币，交易费用和通货膨胀会榨干用户。每笔比特币交易需要花费用户超过50美元以支持矿池的运作，这比国际银行转账更昂贵。对比特币来说，用户只是把钱扔进去了矿池，养肥了矿霸。对价值较小的币，高昂的挖矿成本会导致币持续的贬值，最终作死自己。
+总之，基于PoW的币根本不是去中心化的。矿池剥削用户，养肥自己，同时消耗大量算力。
+而我们可以做得更好，Skycoin，利用我们开发的共识算法解决了这个问题。
+权益证明，更多中心化问题
+对PoW算法来说，51％攻击是一个重大的安全威胁。PoS算法本意图解决这个问题，但它们产生自己的中心化问题。 在coinfox.info上，约瑟夫·杨（Joseph Young）解释说：“一个主要利益相关者拥有对网络和经济广泛控制权和权威的系统，存在重大的垄断可能。”这正是PoS所存在的。
+在权益证明算法中，用户在网络上的投票权与他们的持币数量成正比。换句话说，拥有更大股权的用户有更大的权力来进行变革。这个想法似乎是防止51％攻击的一个好方法，因为大股东最容易遭受这种攻击带来的损失，因此有动机避免这种攻击。但是，由于PoS系统集中了投票权，它允许某些用户在不考虑其他用户或整个社区的情况下更改网络。从这点来说，PoS就像PoW一样糟糕 - 它使得权力集中，不能实现账本系统分权。
+Obelisk：打开去中心大门的钥匙
+很明显，PoW和PoS算法都很作。这些算法破坏了数字货币去中心化的思想，因为它们导致了新的中央集权。他们把权力集中在了少数人手中，用户根本无法从去中心化网络中获益。实际上，PoW和PoS创建的系统并不比数字货币原来试图取代的传统银行系统更好。
+而Skycoin正希望带给用户他们所期盼的：一个没有中央集权的，去中心化的网络。为了实现这个目标，我们抛弃了PoW和PoS，创造了一个全新的共识算法Obelisk，完全重构了区块链的运作方式。
+Obelisk不同于PoW和PoS，因为它是分权控制的，也被称为“信任网”。在这个系统中，每个节点都连接自己列表的其他节点。节点在网络中所处的密度决定了它的影响力。每个节点拥有自己的区块链，可以对外广播和记录区块链上的所有行为。由于节点的通信是公开和透明的，所以社区可以验证节点是否正常运行。
+如果节点不符合社区标准，它将被社区广播。然后网络可以断开与该节点的连接，从而降低其对网络的影响。这样，我们的信任系统就可以根据社区共识淘汰恶意节点，重新平衡权力。这样一个较小的可信节点核心，通过可靠连接会做出正确的决策。
+Skycoin让社区审计节点并对其负责。这就形成了一个透明的共识，允许集体决策和真正的权力下放。通过消除PoW / PoS问题，Skycoin提供了一个有民主网络所有好处的数字货币。
+Obelisk是重塑区块链的关键。其信任网络共识不会产生集权。Skycoin没有挖矿，因此网络不会受到51％的攻击。交易速度更快，几秒内就可确认。决定都得通过社区达成共识，而不是根据少数利益相关者的意愿。这些特点使得Skycoin成为当今最安全的区块链。
+数字货币的最初目的是重塑经济，使用户可以被独立授权以对等的方式进行交易，而不受中心机构的困扰。对Skycoin来说，这是我们的使命。这就是为什么Skycoin旨在让所有用户受益，而不仅仅是少数几个。通过Obelisk，我们正在解决PoW和PoS算法的固有问题，为你提供一个去中心化的民主共识网络。
