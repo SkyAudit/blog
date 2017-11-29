@@ -24,7 +24,7 @@ Los contratos digitales, la comunicación y la infraestructura de identidad defi
 fundación para la tercera generación. No sabemos qué aspecto tendrá la tercera generación,
 pero creemos que involucrará plataformas y aplicaciones de terceros.
 
-A una moneda de primera generación es extremadamente fácil de hacerle fork. Solo hay que 
+Es extremadamente fácil hacerle fork a una moneda de primera generación. Solo hay que 
 cambiar la función hash o el nombre más el logo y luego liberarla. La primera generación fue
 sobre marketing. Bitcoin y luego Dogecoin fueron las monedas más exitosas de la primera 
 generación. Bitcoin tiene una comunidad solida, la adopción comercial y el ecosistema más fuerte.
