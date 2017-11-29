@@ -17,7 +17,7 @@ Cita de: -Greed- el 5 de mayo de 2014, 04:25:46 p.m.+1 para que Skycoin sea verd
 una moneda de segunda generación. En mi opinión, Bitcoin y todos sus forks son de primera
 generación. Algunas de las cosas sobre las que estamos sentando las bases son de tercera
 generación. Una moneda utilizable, trabajable, con una base de código limpia y una buena
-seguridad, sin minería, sin el 51% de ataque y una razón para usar una moneda que es de
+seguridad, sin minería, sin el ataque de 51% y una razón para usar una moneda que es de
 segunda generación.
 
 Los contratos digitales, la comunicación y la infraestructura de identidad definen la
