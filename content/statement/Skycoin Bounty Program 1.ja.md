@@ -17,7 +17,9 @@ categories = [
 
 *２０１７年９月３日更新。　フランス語の翻訳報奨金を追加。*
 
-*２０１７年９月１２日更新　インフォグラフィックス報酬を30 SKYまで増やしました。*
+*２０１７年９月１２日更新。　インフォグラフィックス報酬を30 SKYまで増やしました。*
+
+*２０１７年１１月８更新。　グラフィックスと動画の賞金は、Skycoin Bounty Channelで個々別々に処理されます。
 
 
 報酬には[Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)でご応募下さい。
@@ -68,7 +70,6 @@ Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィッ�
 * 한국어
 * 中文
 * Ελληνικά
-* Nederlands（翻訳につき最大10 SKYに制限されています）
 
 注：中国語とロシア語はもう翻訳中。
 
