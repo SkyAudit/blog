@@ -74,7 +74,7 @@ Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィッ�
 
 ブログ投稿・記事
 
-* 報酬はページ閲覧数、出版販路、品質により相談可能。
+* 報酬はページ閲覧数、公開媒体、品質により相談可能。
 * 執筆内容の評価方法を確立させるため、前もって私たちにご連絡下さい。
 
 くれぐれも報奨金プログラムに提出するコンテンツは誠実に作成して下さい。
@@ -91,6 +91,6 @@ Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィッ�
 * 100 SKY - [Skycoin subreddit](https://reddit.com/r/skycoinproject)投稿500個
 * 1000 SKY - [Skycoin subreddit](https://reddit.com/r/skycoinproject)投稿 2500個
 
-他に報酬に値する何かのアイディアを思い付いたら、気兼ね無くTelegramチャンネルで提案して下さい。
+他に報酬に値するアイディアを何か思い付いたら、気兼ね無くTelegramチャンネルで提案して下さい。
 
 [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
