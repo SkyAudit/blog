@@ -22,7 +22,7 @@ categories = [
 *２０１７年１１月８更新。　グラフィックスと動画の報酬は、Skycoin Bounty Channelで個々別々に処理されます。
 
 
-報酬には[Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)でご応募下さい。
+報酬は[Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)でご応募下さい。
 
 
 ## 報奨金カテゴリー
@@ -39,7 +39,7 @@ categories = [
 
 Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィックス。
 
-[ここから](https://www.skycoin.net/downloads)、ブランド資産（マーク、色彩）をダウンロードしていただくことができます。
+[ここから](https://www.skycoin.net/downloads)、ブランドアセット（ロゴ、色）をダウンロードしていただくことができます。
 [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)へ行って、どのようなグラフィックスと動画の報酬があるのを聞いてください。
 
 ## 翻訳
