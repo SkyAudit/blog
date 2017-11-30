@@ -3,6 +3,7 @@ title = "Skycoin報奨金プログラム １"
 tags = [
     "Bounty Program",
 ]
+bounty = 6
 date = "2017-08-27"
 categories = [
     "Statement",
@@ -21,11 +22,10 @@ categories = [
 
 *２０１７年１１月８更新。　グラフィックスと動画の報酬は、Skycoin Bounty Channelで個別に処理されます。*
 
-
 報酬は[Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)でご応募下さい。
 
-
 ## 報奨金カテゴリー
+
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
 - [グラフィック＆動画](#グラフィック＆動画)
@@ -40,6 +40,7 @@ categories = [
 Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィックス。
 
 [ここから](https://www.skycoin.net/downloads)、ブランドアセット（ロゴ、色）をダウンロードしていただくことができます。
+
 [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)へ行って、どのようなグラフィックスと動画の報酬があるのを聞いてください。
 
 ## 翻訳
@@ -67,7 +68,6 @@ Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィッ�
 
 
 翻訳の品質をチェックするため、母国語話者の一人もしくは二人による確認が必要です。
-
 翻訳の品質が悪い場合報酬を受け取ることはできませんが、受領されるまで何度も自由に訂正を行って構いません。
 
 ## 執筆
@@ -78,7 +78,6 @@ Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィッ�
 * 執筆内容の評価方法を確立させるため、前もって私たちにご連絡下さい。
 
 くれぐれも報奨金プログラムに提出するコンテンツは誠実に作成して下さい。
-
 不誠実なコンテンツの疑いがあれば、報酬を与えないか、もしくは削減します。
 
 （例：YouTube動画の視聴回数を水増しする、中途半端なインフォグラフィックス）
@@ -91,6 +90,6 @@ Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィッ�
 * 100 SKY - [Skycoin subreddit](https://reddit.com/r/skycoinproject)投稿500個
 * 1000 SKY - [Skycoin subreddit](https://reddit.com/r/skycoinproject)投稿 2500個
 
-他に報酬に値するアイディアを何か思い付いたら、気兼ね無くTelegramチャンネルで提案して下さい。
+*他に報酬に値するアイディアを何か思い付いたら、気兼ね無くTelegramチャンネルで提案して下さい。*
 
 [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
