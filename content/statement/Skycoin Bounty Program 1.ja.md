@@ -1,5 +1,5 @@
 +++
-title = "スカイコイン　報奨金プログラム １"
+title = "Skycoin報奨金プログラム １"
 tags = [
     "Bounty Program",
 ]
@@ -85,7 +85,7 @@ Skycoin、Skywire meshnet、BBS、CXO等に関するインフォグラフィッ�
 
 ## ソーシャルメディア活動
 
-活躍するSKYCOINユーザーコミュニティのメンバーに特別賞与：
+活躍するSkycoinユーザーコミュニティのメンバーに特別賞与：
 
 * 10 SKY - [Skycoin subreddit](https://reddit.com/r/skycoinproject)投稿100個
 * 100 SKY - [Skycoin subreddit](https://reddit.com/r/skycoinproject)投稿500個
