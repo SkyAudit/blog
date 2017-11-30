@@ -19,7 +19,7 @@ categories = [
 
 *２０１７年９月１２日更新。　インフォグラフィックス報酬を30 SKYまで増やしました。*
 
-*２０１７年１１月８更新。　グラフィックスと動画の報酬は、Skycoin Bounty Channelで個々別々に処理されます。
+*２０１７年１１月８更新。　グラフィックスと動画の報酬は、Skycoin Bounty Channelで個別に処理されます。
 
 
 報酬は[Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)でご応募下さい。
