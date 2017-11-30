@@ -1,5 +1,5 @@
 +++
-title = "Segwit2x and Bitcoin’s Consensus Problem - Why Skycoin is Superior"
+title = "Segwit2x和比特币的共识问题 - 为什么Skycoin是优秀的"
 tags = [
     "Statement",
 ]
@@ -9,33 +9,35 @@ categories = [
     "Statement",
 ]
 +++
+于周三，比特币开发者暂停了具有有争议的软件更新 "Segwit2x"。是次更新将每个区块的资料大小从1MB增加到2MB，使得在每区块上比特币的交易容量翻了一番。 Segwit2x已经计划好几个月，原先定于11月16日左右开始实施。
 
-On Wednesday, Bitcoin developers suspended plans to introduce the controversial software update Segwit2x. The 2x update would have increased the size of each block from 1 MB to 2 MB, doubling Bitcoin’s transaction capacity. Segwit2x had been planned for several months and was set to go into effect around November 16th. 
+比特币显然有一个扩展性的问题。 Segwit2x旨在通过增加块大小来解决这个问题。如果规模较大，交易可能会更快，货币将能够处理持续的增长。
 
-It’s evident that Bitcoin has a scalability problem. Segwit2x was intended to solve that problem by increasing block size. With larger blocks, transactions could flow faster and the currency would be able to handle continued growth. 
+但是，Segwit2x也带来了一定的风险。这个更新会在区块链中引入一个硬分叉，将其分成两部分。如果没有足够数量的用户选择采用2倍更新，比特币可能会分裂为两种竞争货币，可能导致资金损失。这个风险因素促使Segwit2x开发人员取消是次更新。
 
-However, Segwit2x also posed certain risks. The update would have introduced a hard fork into the blockchain, splitting it in two. If an insufficient number of users chose to adopt the 2x update, Bitcoin could have split into two competing currencies, potentially resulting in lost funds. This risk factor prompted the Segwit2x developers to cancel the update.
+BitGo首席执行官Mike Belshe在电子邮件中宣布取消。该消息由Segwit2x开发团队的其他五位CEO签名：Wences Casares，Jihan Wu，Peter Smith，Erik Voorhees和Jeff Garzik。
 
-The cancellation was announced in an email from BitGo CEO Mike Belshe. The message was signed by five other CEOs from the Segwit2x development team: Wences Casares, Jihan Wu, Peter Smith, Erik Voorhees, and Jeff Garzik. 
+在邮件中，Belshe写道：
 
-In the email, Belshe wrote:
+>“在目前的道路上继续下去可能会导致社区分化，成为比特币增长的一个障碍。这从来不是Segwit2x的目标。”
 
->“Continuing on the current path could divide the community and be a setback to Bitcoin’s growth. This was never the goal of Segwit2x.”
 
-It’s clear why the fork was called off: too much controversy, not enough consensus (at least, that’s what the developers claim). But one thing that nobody seems to be talking about is how the fork was called off, and what that choice says about Bitcoin in general. 
+这个分叉被取消的原因很明显：太多的争议，没有足够的共识（至少，开发者声称）。但是, 似乎没有人在谈论分叉是如何被取消的，以及这个因决定对比特币的影响。
 
-Bitcoin initially positioned itself as a decentralized network where users could transact freely without third party interference or manipulation from centralized powers. Yet the decision to suspend Segwit2x was made by just six developers. There was no vote. The Bitcoin community didn’t reach a consensus – instead, the decision was made for them.
+比特币最初将自己定位为一个分散的网络，用户可以自由地进行交易，而不受第三方干扰或是集中的权力操纵。然而暂停Segwit2x的决定是由六位开发人员完成的。没有投票。比特币社区没有达成共识 - 相反，决定权只落在开发人员手上。
 
-The indecision surrounding Segwit2x created opportunity. After 2x’s suspension, Bitcoin’s price spiked and reached a record high. The outcome may be a sign of optimism, but it also raises questions about market influencers. Who ultimately benefits from the discord within the Bitcoin community – the users, or the central powers that control the network?
+在这次"Segwit2x"事件上, 开发人员的优柔寡断反为某些人创造了机会。在叫停这次2X更新之后，比特币的价格飙升并创下历史新高。结果可能是乐观的迹象，但同时也突显了有关市场影响力的问题。最终谁会受益于比特币社区中的不和谐 - 用户，还是控制网络的中央大国？
 
-Bitcoin has not lived up to its philosophy. It’s far from decentralized. There is no consensus anymore: a handful of people control Bitcoin’s fate. The sudden Segwit2x suspension, whether it’s good or bad, is a dramatic indication of just how little power an average Bitcoin user really has.
+比特币辜负了它的原本理念。这远非去中心化。这里再没有共识：少数人控制比特币的命运。突然的Segwit2x暂停，是好还是坏，都显显露了一般比特币用户根本没有多少权力。
 
-Bitcoin’s monopolization issues stem from a basic design flaw: the mining system. Mining makes it impossible for Bitcoin to achieve its original goals. As miners receive block rewards for processing transactions, power concentrates with those who can process more. The result: a network dominated by just two or three large miners who wield a disproportionate amount of influence over the network.
+比特币的垄断问题源于一个十分基本的设计缺陷：采矿系统。挖矿使得比特币不可能实现其最初的目标。由于矿工收到处理交易的奖励，权力集中在那些可以处理更多交易的人手上。结果是：一个由两三名大型矿工主宰的网络在网络上施加了不成比例的影响。
 
-Skycoin is designed specifically to address these problems. It’s a next-generation cryptocurrency that removes the mining requirement and provides a fully decentralized blockchain. Network decisions aren’t made by a few powerful people, but by the community as a whole. With peer-to-peer consensus, Skycoin protects users against the kind of manipulation we’re seeing in Bitcoin today.
+Skycoin专为解决这些问题而设计。这是下一代加密货币，消除了采矿需求，并提供了完全分散的区块链。网络决策不是由少数有能力的人做出，而是由整个社会, 每一个持份者决定的。通过点对点的共识，Skycoin保护用户免受我们今天在比特币中看到的那种操纵。
 
-Skycoin achieves consensus with a novel algorithm called Obelisk. This algorithm spreads influence across the network through a “web of trust.” The web of trust keeps the network honest by providing transparency for its users. 
+Skycoin通过一种叫做Obelisk (方尖碑) 的新算法达成共识。这算法通过“信任网络”在整个网络中传播影响。信任网络通过为用户提供透明性来保持网络的诚实。
 
-Each node in Skycoin’s network subscribes to other nodes. Nodes are assigned personal blockchains that publicly broadcast their actions. The community can view and audit the nodes. If a node behaves suspiciously or maliciously, its connections can be cut, diminishing its influence. Obelisk strengthens collective decision-making and creates a network that’s built on relationships, not processing power.
+Skycoin网络中的​​每个节点都订阅到其他的节点。这些节点被分配个人区块链，公开广播他们的行动。社区可以查看和审核节点。如果一个节点的行为可疑或恶意，它的连接可以被切断，减少其影响。 Obelisk 加强了集体决策，并建立了一个建立在关系上而不是处理权力的网络。
 
-As Bitcoin wobbles on shaky foundations of mining and price manipulation, Skycoin is bringing the world a different option. It delivers a peer-to-peer network that’s decentralized and user-centric. Bitcoin may be controlled by a few influential individuals, but Skycoin is owned by its community. It’s the next logical step in cryptocurrency evolution.
+由于比特币在矿业和价格操纵的摇摇欲坠的基础上摇摆不定，Skycoin正在为世界带来不同的选择。它提供了一个分散的和以用户为中心的对等网络。比特币可能受一些有影响力的个人控制，但Skycoin是由其社区拥有的。这是加密货币演化的下一个逻辑步骤, 这是更新生代的加密货币。
+
+
