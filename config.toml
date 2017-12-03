@@ -96,7 +96,7 @@ pygmentsStyle = "murphy"
   title = "Skycoin Блог"
   languageName = "Русский"
 
-[Languages.kr]
+[Languages.ko]
   weight = 3
   title = "Skycoin 블로그"
   languageName = "한국어"
@@ -111,7 +111,7 @@ pygmentsStyle = "murphy"
     title = "Skycoin Blog"
     languageName = "Deutsch"
 
-[Languages.jp]
+[Languages.ja]
     weight = 6
     title = "Skycoin Blog"
     languageName = "日本語"
