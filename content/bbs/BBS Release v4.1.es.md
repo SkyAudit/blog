@@ -1,5 +1,5 @@
 +++
-title = "Skycoin BBS v4.1 Release Announcement"
+title = "Anuncio de Lanzamiento de Skycoin BBS v4.1"
 tags = [
     "Development",
     "BBS",
@@ -12,32 +12,32 @@ categories = [
 ]
 +++
 
-Skycoin BBS v4.1 has been released!
+¡Skycoin BBS v4.1 ha sido lanzado!
 
 [![Skycoin BBS Showcase 4 - YouTube](https://i.ytimg.com/vi/6ZqwgefYauU/0.jpg)](https://youtu.be/6ZqwgefYauU)
 
-## Change Log
-- User interface improvements.
-- Implemented service discovery (connections to other nodes are now automatically managed).
-- Improved remote submission of board content (implemented via service discovery).
-- Simplified process of board creation and hosting.
-- Improvements to CXO data structure.
+## Registro de cambios
+- Mejoras en la interfaz de usuario.
+- Se implementó el servicio de descubrimiento (las conexiones a otros nodos ahora se administran automáticamente).
+- Se mejoró el envío remoto de contenido del tablón (implementado a través del servicio de descubrimiento).
+- Proceso simplificado de creación y alojamiento de tablones (boards).
+- Mejoras a la estructura de datos CXO.
 
-The next release will bring about even more exciting features! Watch this space to keep up to date.
+¡El próximo lanzamiento traerá aún más características interesantes! Sigue con atención este espacio para mantenerte al tanto.
 
-## Binaries
+## Binarios
 
-These are avaliable for 64bit windows, mac and linux.
+Éstos están disponibles para Windows de 64 bits, Mac y Linux.
 
 - https://downloads.skycoin.net/bbs/skycoin_bbs_4.1_linux_amd64.zip
 - https://downloads.skycoin.net/bbs/skycoin_bbs_4.1_osx_amd64.zip
 - https://downloads.skycoin.net/bbs/skycoin_bbs_4.1_windows_amd64.zip
 
-## Source Code
+## Código fuente
 
-Avaliable on GitHub. \
+Disponible en GitHub. \
 https://github.com/skycoin/bbs
 
-## Community
+## Comunidad
 
-[Click here to join the discussion on Telegram!](https://t.me/skycoinbbs)
+[¡Haz clic aquí para unirte a la discusión en Telegram!](https://t.me/skycoinbbs)
