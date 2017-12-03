@@ -1,5 +1,5 @@
 +++
-title = "Skycoin BBS: Social Media for You"
+title = "Skycoin BBS: Una Red Social para Ti"
 tags = [
     "Statement",
     "BBS",
@@ -11,57 +11,57 @@ categories = [
 ]
 +++
 
-## Summary:
+## Resumen:
 
-On corporate social media, you’re the product. A company controls your data. They sell it to advertisers and store it on their servers. Once you make a post, it’s theirs – forever. You have no control over privacy, technology, or even your own identity. Why should we settle for that?
+En las redes sociales corporativas, tú eres el producto. Una compañía controla tus datos. Los venden a anunciantes y los almacenan en sus servidores. Una vez que haces una publicación, es de ellos, para siempre. No tienes control sobre la privacidad, la tecnología o incluso tu propia identidad. ¿Por qué deberíamos conformarnos con eso?
 
-It’s time for a social media revolution. Skycoin is bringing social media back to you, the user. We’re excited to announce the alpha launch of Skycoin BBS: the first distributed social media platform in the Skycoin ecosystem. 
+Es hora de una revolución en las redes sociales. Skycoin te devuelve las redes sociales a ti, el usuario. Nos complace anunciar el lanzamiento alfa de Skycoin BBS: la primera plataforma de red social distribuida en el ecosistema Skycoin. 
 
-Skycoin BBS is a peer-to-peer replicated social media application built on immutable data structures (CXO) on top of the Skycoin platform. Planned features include:
+Skycoin BBS es una aplicación de red social peer-to-peer replicada, basada en estructuras de datos inmutables (CXO), sobre la plataforma Skycoin. Las características planificadas incluyen:
 
--	Decentralized network so that you retain your privacy and freedom
--	Ability to post content, upvote, downvote, and comment
--	User profiles
--	Tipping for content with Coin Hours and Skycoin
--	Resistance to network failure
--	Public keys and trust lists that let users filter out spammers, bots, and untrustworthy users
+-	Red descentralizada, para que puedas conservar tu privacidad y libertad
+-	Posibilidad de publicar contenido, votos positivos, votos negativos y comentarios
+-	Perfiles de usuario
+-	Enviar propinas por contenido, con Coin Hours y Skycoin
+-	Resistencia a fallas en la red
+-	Claves públicas y listas de confianza que permitan a los usuarios filtrar spammers, bots y usuarios no confiables
 
-Ready to join? Get started with the Skycoin BBS at: https://www.skycoin.net/downloads/.
+¿Listo(a) para unirte? Comienza a utilizar Skycoin BBS: https://www.skycoin.net/downloads/.
 
-Read about the development of Skycoin BBS and chat with the developers: https://t.me/skycoinbbs.
+Lee sobre el desarrollo de Skycoin BBS y chatea con los desarrolladores: https://t.me/skycoinbbs.
 
-Follow development updates: https://blog.skycoin.net/tags/bbs/.
+Sigue las actualizaciones del desarrollo: https://blog.skycoin.net/tags/bbs/.
 
-Check out the technical aspects of Skycoin BBS: https://blog.skycoin.net/bbs/bbs-development-update-1/.
+Consulta los aspectos técnicos de Skycoin BBS: https://blog.skycoin.net/bbs/bbs-development-update-1/.
 
-Track coding commits at the Skycoin Github repository: https://github.com/skycoin/bbs.
+Realiza seguimiento de los commits de código en el repositorio de Skycoin en Github: https://github.com/skycoin/bbs.
 
-Get a list of nodes to connect to and boards to subscribe to: https://t.me/skycoinbbshosting.
+Obtén una lista de nodos para conectarse y tableros para suscribirse: https://t.me/skycoinbbshosting.
 
-Watch the Skycoin BBS platform in action in the Development Showcase YouTube Videos: https://www.youtube.com/watch?v=6ZqwgefYauU. 
+Observa la plataforma Skycoin BBS en acción en los videos de YouTube de presentación de desarrollo: https://www.youtube.com/watch?v=6ZqwgefYauU. 
 
 ---
 
-## Our Vision: 
-Skycoin BBS is a peer-to-peer replicated social media application, built upon immutable data structures (CXO) on top of the Skycoin platform. It’s a communication platform for users, by users. Skycoin BBS is social media done right.
+## Nuestra visión: 
+Skycoin BBS es una aplicación de red social peer-to-peer replicada, construida sobre estructuras de datos inmutables (CXO), sobre la plataforma Skycoin. Es una plataforma de comunicación para los usuarios, por los usuarios. Skycoin BBS es un medio social hecho de la manera en que los medios sociales deberían hacerse.
 
-This new web application is one of the first to be implemented using the Skycoin ecosystem. Skycoin decentralizes the internet, encrypting protocols by default. Since Skycoin has no central server, your data isn’t controlled by any central authority. You retain your privacy and freedom.
+Esta nueva aplicación web es una de las primeras en implementarse utilizando el ecosistema Skycoin. Skycoin descentraliza internet, encriptando protocolos por defecto. Como Skycoin no tiene un servidor central, tus datos no están controlados por ninguna autoridad central. Conservas su privacidad y libertad.
 
-BBS stands for Bulletin Board System. Traditionally, BBS were do-it-yourself servers that allowed users to interact and share content. Modern BBS offer an alternative vision for the internet: one where users, not corporations, have control. Skycoin BBS takes inspiration from early Bulletin Board Systems to create a decentralized, user-centric social media platform.
+BBS significa “Sistema de Tablón de Anuncios” (por sus siglas en inglés). Tradicionalmente, los BBS eran servidores del tipo "hágalo usted mismo" que permitían a los usuarios interactuar y compartir contenido. Los BBS modernos ofrecen una visión alternativa para la internet: una en la que los usuarios, no las corporaciones, tienen el control. Skycoin BBS se inspira en los primeros sistemas de tablón de anuncios para crear una plataforma de red social descentralizada, con el usuario como prioridad.
 
-Databases in the Skycoin distributed BBS application are replicated peer-to-peer using the Skycoin CXO library, previously called Aether. Users submit posts with a Sky Messenger prototype. This is Skycoin's TOX-like standard for machine-to-machine communication between public keys (github.com/skycoin/net).
+Las bases de datos en la aplicación BBS distribuida de Skycoin son replicadas peer-to-peer utilizando la librería Skycoin CXO, anteriormente llamada Aether. Los usuarios envían publicaciones con un prototipo de Sky Messenger. Este es el estándar, similar a TOX, de Skycoin para la comunicación de máquina a máquina entre claves públicas (github.com/skycoin/net).
 
-With Skycoin BBS, you can enjoy all the benefits of a social media platform without giving up your data. Planned features include user profiles, posting content, upvotes, downvotes, and comments. You can even tip for content using Coin Hours and Skycoin. Since Skycoin BBS is user-owned, we’re adding more features upon request.
+Con Skycoin BBS, puedes disfrutar de todos los beneficios de una plataforma de red social sin renunciar a tus datos. Las características planificadas incluyen perfiles de usuario, publicación de contenido, votos positivos, votos negativos y comentarios. Incluso puedes dar propinas por contenido, usando Coin Hours y Skycoin. Como Skycoin BBS es propiedad de los usuarios, estamos agregado más funciones a pedido.
 
-On Skycoin BBS, voting and content curation are transparent. The community can verify data via cryptography, allowing them to easily spot vote manipulation. Users can vote other users as trusted or as spam. A special list will also exist for blocking users.
+En Skycoin BBS, la votación y la selección del contenido son transparentes. La comunidad puede verificar los datos a través de criptografía, lo que permite detectar fácilmente cualquier manipulación de los votos. Los usuarios pueden votar por otros usuarios para clasificarlos como confiables o como generadores de contenido no deseado. También existirá una lista especial para bloquear usuarios.
 
-Skycoin BBS protects against bots. Users can mark bots as spam and discourage others from following them. Although bots can upvote each other, it won’t matter because users won’t mark them as trusted or follow them. Since the bots will have no followers, an algorithm process will ghost the bots and make their actions invisible.
+Skycoin BBS protege contra los bots. Los usuarios pueden marcar a los bots como spam y así desalentar a otros usuarios de seguirlos. A pesar de que los bots pueden enviarse votos positivos entre sí, no importará porque los usuarios no los marcarán como confiables o los seguirán. Como los bots no tendrán seguidores, un proceso de algoritmo convertirá las cuentas de los bots en fantasmas y hará invisibles sus acciones.
 
-The benefits of Skycoin BBS go beyond user privacy and data ownership. Skycoin BBS also eliminates the danger of corporate and government interference. Unlike most social media networks, Skycoin BBS is decentralized. There’s no central server to shut down and no way for a single entity to monitor communications. Every outbound packet could be communicating with a peer who can forward the message. This peer-to-peer system protects users from third parties and authorities seeking control.
+Los beneficios de Skycoin BBS van más allá de la privacidad del usuario y la propiedad de los datos. Skycoin BBS también elimina el peligro de interferencia corporativa y gubernamental. A diferencia de la mayoría de las redes sociales, Skycoin BBS está descentralizado. No hay un servidor central que cerrar y no hay forma de que una sola entidad monitoree las comunicaciones. Cada paquete de salida podría comunicarse con un par que puede reenviar el mensaje. Este sistema peer-to-peer protege a los usuarios de los terceros y las autoridades que buscan el control.
 
-Skycoin BBS is currently in alpha. As we continue to develop this new social media application, early users may experience some bugs or data loss. You can help us improve Skycoin BBS by reporting these incidents when they occur. With your feedback, we can make Skycoin BBS a true revolution in social media.
+Skycoin BBS se encuentra actualmente en etapa alfa. A medida que continuamos desarrollando esta nueva aplicación de red social, los primeros usuarios podrían experimentar algunos errores o pérdida de datos. Puedes ayudarnos a mejorar Skycoin BBS informando estos incidentes cuando ocurran. Con tus comentarios, podemos hacer que Skycoin BBS sea una verdadera revolución en las redes sociales.
 
-This is only the beginning. With Skycoin BBS, we’re building a new internet on the Skycoin ecosystem. We did this because we believe people, not corporations, are the key to the internet’s future. We shouldn’t have to sell our digital souls to communicate with each other. Skycoin BBS is decentralizing social media with a peer-to-peer network that brings communication back to the user community. You deserve a better social network – and with Skycoin BBS, you’ve got it.
+Este es sólo el comienzo. Con Skycoin BBS, estamos construyendo un nuevo Internet en el ecosistema Skycoin. Hicimos esto porque creemos que las personas, y no las corporaciones, son la clave del futuro de Internet. No deberíamos tener que vender nuestras almas digitales para comunicarnos entre nosotros. Skycoin BBS está descentralizando las redes sociales con una red peer-to-peer que devuelve la comunicación a la comunidad de usuarios. Mereces una mejor red social, y con Skycoin BBS, la tienes.
 
 
 
