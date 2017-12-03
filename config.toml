@@ -116,7 +116,7 @@ pygmentsStyle = "murphy"
     title = "Skycoin Blog"
     languageName = "日本語"
 
-[Languages.gr]
+[Languages.el]
     weight = 7
     title = "Skycoin Blog"
     languageName = "Ελληνικά"
@@ -157,7 +157,7 @@ pygmentsStyle = "murphy"
 [[menu.languages]]
   name = "Ελληνικά"
   weight = 7
-  url = "/gr/"
+  url = "/el/"
 [[menu.languages]]
   name = "Français"
   weight = 8
