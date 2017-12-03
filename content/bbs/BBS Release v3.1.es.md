@@ -1,5 +1,5 @@
 +++
-title = "Skycoin BBS v3.1 Release Announcement"
+title = "Anuncio de Lanzamiento de Skycoin BBS v3.1"
 tags = [
     "Development",
     "BBS",
@@ -12,32 +12,32 @@ categories = [
 ]
 +++
 
-Skycoin BBS v3.1 has finally been released!
+¡Skycoin BBS v3.1 finalmente ha sido lanzado!
 
-## Changelog
+## Registro de cambios
 
-- Updated to use latest CXO.
-- Reimplemented CXO data structure for easier diff management.
-- Introduction of a `views` module for easier implementation of different ways of viewing data.
-- Implemented exporting/importing boards to/from file.
-- Initial implementation of following/avoiding users.
-- Improved UI (Work in progress).
-- Automatic peer-to-peer relay of boards.
+- Actualizado para usar el último CXO.
+- Se reimplementó la estructura de datos CXO, para facilitar la gestión de diferencias.
+- Introducción de un módulo `views` para implementación más sencilla de diferentes formas de visualizar datos.
+- Se implementó la posibilidad de exportar e importar tableros a y desde archivos.
+- Implementación inicial de la funcionalidad de seguir y evitar usuarios.
+- Interfaz de usuario mejorada (trabajo en progreso).
+- Retransmisión automática peer-to-peer de los tablones.
 
-## Binaries
+## Binarios
 
-These are avaliable for 64bit windows, mac and linux.
+Éstos están disponibles para Windows de 64 bits, Mac y Linux.
 
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_linux_amd64.zip
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_osx_amd64.zip
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_windows_amd64.zip
 
-## Source Code
+## Código fuente
 
-Avaliable on GitHub.
+Disponible en GitHub.
 
 https://github.com/evanlinjin/bbs
 
-## Community
+## Comunidad
 
-[Click here to join the discussion on Telegram!](https://t.me/skycoinbbs)
+[¡Haz clic aquí para unirte a la discusión en Telegram!](https://t.me/skycoinbbs)
