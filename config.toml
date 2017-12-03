@@ -141,7 +141,7 @@ pygmentsStyle = "murphy"
 [[menu.languages]]
   name = "한국어"
   weight = 3
-  url = "/kr/"
+  url = "/ko/"
 [[menu.languages]]
   name = "Español"
   weight = 4
@@ -153,7 +153,7 @@ pygmentsStyle = "murphy"
 [[menu.languages]]
   name = "日本語"
   weight = 6
-  url = "/jp/"
+  url = "/ja/"
 [[menu.languages]]
   name = "Ελληνικά"
   weight = 7
