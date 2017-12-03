@@ -1,5 +1,5 @@
 +++
-title = "Getting to Where We Think Bitcoin Should Be"
+title = "Llegando a Donde Creemos que Bitcoin Debería Estar"
 tags = [
     "Decentralization",
     "Bitcoin",
@@ -13,72 +13,78 @@ categories = [
 ]
 +++
 
-*This is an archived post from the bitcointalks thread on April 23 2014*
+*Esta es una publicación archivada del hilo bitcointalks del 23 de abril de 2014*
 
-> Quote from: **JFK01** on April 23, 2014, 01:54:50 PM
+> Cita de: ** JFK01 ** el 23 de abril de 2014, 01:54:50 PM
 
-> I guess that Skycoin just want to test the water first. There is nothing wrong
-with that. They are engineers and want to do testing for everything. They have
-been very cautious for the development as well. This is something they are good
-at. Just do what you are good at. This project is a long shot.
+> Supongo que Skycoin solo quiere probar las aguas primero. No hay nada malo
+con eso. Son ingenieros y quieren hacer pruebas para todo. Ellos también han
+sido muy cautelosos con el desarrollo. Esto es algo en lo que ellos son buenos.
+Solo haz las cosas para las que eres bueno. Este es un proyecto riesgoso, pero
+con una recompensa importante en caso de que sea exitoso.
 
-If you look at the top coins, Peer Coin, Ripple, Bitcoin, Nxt, Litecoin, it's
-clear that most coins with a fundamental innovation on Bitcoin's security model
-have done very well.
+Si miras las monedas más exitosas, Peer Coin, Ripple, Bitcoin, Nxt, Litecoin,
+queda claro que a la mayoría de las monedas con una innovación fundamental en
+el modelo de seguridad de Bitcoin les ha ido muy bien.
 
-- Bitcoin was the first and introduced Proof of Work.
-- Litecoin introduced a new hashing function Scrypt.
-- Peer Coin introduced Proof of Stake.
-- Ripple introduced a model of relational consensus, which is flawed but innovative. Has a new codebase.
-- Nxt introduced pure proof of stake. Has a new codebase.
-- Namecoin introduced a key value store on the blockchain.
 
-Market caps:
+- Bitcoin fue la primera e introdujo la Proof of Work (prueba de trabajo).
+- Litecoin introdujo un script con una nueva función hash.
+- Peer Coin introdujo la Proof of Stake (prueba de participación).
+- Ripple introdujo un modelo de consenso relacional, que tiene fallas pero es innovador. Tiene una nueva base de código.
+- Nxt introdujo una prueba de participación pura. Tiene una nueva base de código.
+- Namecoin introdujo un almacén del tipo llave-valor en la cadena de bloques (blockchain).
 
-- Bitcoin: 6 billion
-- Litecoin: 300 million
-- Peercoin : 50 million
-- Ripple: 1 billion (but users have less than 1% of coins; so free float is only 50 million)
-- Nxt: 25 million
-- Namecoin: 20 million
+Capitalizaciones de mercado:
 
-Skycoin has a fundamentally new consensus model that is a major advance by
-itself.
+- Bitcoin: 6.000 millones
+- Litecoin: 300 millones
+- Peercoin : 50 millones
+- Ripple: 1.000 millones (pero los usuarios tienen menos del 1% de las monedas; así que la flotación libre es solo de 50 millones)
+- Nxt: 25 millones
+- Namecoin: 20 millones
 
-- Transactions in seconds.
-- Transactions cannot be reverted by people who control hashing power.
-- Low cost to run network.
+Skycoin tiene un modelo de consenso fundamentalmente nuevo que es un gran
+avance en sí mismo.
 
-Just the consensus model by itself will do well. A major attack affecting
-Bitcoin exchanges or abuse by miners could move people away from PoW towards
-coins like Skycoin that guarantee against attacks that revert transactions.
+- Transacciones en segundos.
+- Las personas con gran poder de cómputo (hashing power) no pueden revertir las transacciones.
+- Bajo costo para ejecutar la red.
 
-We knew about signature malleability three years ago and a decision was made
-not to fix the problem in Bitcoin, until people began using it to steal coins.
-We know about several attacks on Bitcoin that are theoretical, but which are
-becoming more likely and profitable as the coin value goes up. If you can use a
-router exploit and hack an internet router that traffic for a Bitcoin node goes
-through, you can fork the network for that node and steal coins from exchanges,
-banks and gambling sites.
+Solo el modelo de consenso, por sí solo, lo hará bien. Un ataque importante
+que afecte los intercambios de Bitcoin o abuso por parte de los mineros
+podrían alejar de PoW (prueba de trabajo) a las personas, hacia monedas
+como Skycoin que garanticen que no se realicen ataques que reviertan las
+transacciones.
 
-Skycoin is hardened against all known vulnerabilities in Bitcoin. We were
-immune to signature malleability before the attacks on Bitcoin even began. We
-check for hash collisions from the start and did not have to monkey patch it.
-If someone develops a widespread SHA256 preimage attack, Bitcoin is dead and
-Skycoin will probably still be running.
+Sabemos sobre la maleabilidad de las firmas desde hace tres años y se tomó
+la decisión de no solucionar el problema en Bitcoin, hasta que la gente
+comenzó a usarla para robar monedas. Sabemos sobre varios ataques a Bitcoin que
+son teóricos, pero que son cada vez más probables y rentables, a medida que
+aumenta el valor de la moneda. Si puedes utilizar un exploit (error de
+seguridad) de router (enrutador) y así piratear el tráfico de Internet de un
+nodo de Bitcoin, puedes bifurcar la red de ese nodo y robar monedas de exchanges
+(servicios de intercambio), bancos y sitios de apuestas.
 
-Banks and businesses do not want to learn about or check for Signature
-Malleability. They dont want to know how Bitcoin works. They want to be able to
-trust that the developers fix known vulnerabilities before coins get stolen.
-Bitcoin is not clean or mature software. Fixing many of the minor issues in
-Bitcoin require a blockchain reset, that the developers are unable and
-unwilling to do.
+Skycoin está blindado contra todas las vulnerabilidades conocidas de Bitcoin.
+Hemos sido inmunes a la maleabilidad de las firmas incluso desde antes de que
+comenzaran los ataques a Bitcoin. Comprobamos las colisiones hash desde el
+principio y no tuvimos que aplicar soluciones apresuradas. Si alguien
+desarrollara un ataque generalizado de preimagen SHA256, Bitcoin estaría muerto
+y Skycoin probablemente seguiría funcionando.
 
-With the financial success of Bitcoin, we have forgotten that Bitcoin was first
-and foremost an experiment. Many of the earliest developers of Bitcoin were
-selling massive blocks of coins when the price hit a dollar, because they never
-believed it would even get that far. People talk about Bitcoin 2.0, but we
-should be trying to get to Bitcoin 1.0 . No one can look at the Bitcoin-qt
-wallet and tell me that this is the best we can do.
+Los bancos y las empresas no desean conocer o verificar la maleabilidad de las
+firmas. No quieren saber cómo funciona Bitcoin. Quieren poder confiar en que
+los desarrolladores solucionarán las vulnerabilidades conocidas antes de que
+las monedas sean robadas. Bitcoin no es un software limpio o maduro. Reparar
+muchos de los problemas menores en Bitcoin requiere un reinicio de la de cadena
+de bloques, algo que los desarrolladores no pueden y no quieren hacer.
 
-*In other words, the first goal of the Skycoin project was not to surpass Bitcoin, but merely to get to where we believe Bitcoin should be.*
+Con el éxito financiero de Bitcoin, hemos olvidado que Bitcoin era, antes que
+nada, un experimento. Muchos de los primeros desarrolladores de Bitcoin
+vendieron bloques masivos de monedas cuando el precio llegó a un dólar, porque
+nunca creyeron que siquiera llegarían tan lejos. La gente habla acerca de
+Bitcoin 2.0, pero deberíamos tratar de llegar a Bitcoin 1.0. Nadie puede mirar
+la billetera Bitcoin-qt y decirme que eso es lo mejor que podemos hacer.
+
+*En otras palabras, el primer objetivo del proyecto Skycoin no era superar a Bitcoin, sino simplemente llegar a donde creemos que Bitcoin debería estar.*
