@@ -1,4 +1,10 @@
-+++ title = "Warum wir Skycoin entwickelt haben" tags = [ "Statement", "Obelisk", ] bounty = 8 date = "2017-11-29" categories = [ "Statement", ] +++
++++
+title = "Warum wir Skycoin entwickelt haben"
+tags = [ "Statement", "Obelisk", ]
+bounty = 8
+date = "2017-11-29"
+categories = [ "Statement", ]
++++
 
 Satoshi stellte sich Bitcoin als dezentrale, digitale Währung vor. Blockchain Netzwerke beabsichtigten das Finanzwesen zu demokratisieren, unternehmerische Kontrolle zu eliminieren und die Macht unter den Nutzern aufzuteilen. Allerdings haben sich Bitcoin und ähnliche Währungen, aufgrund ihrer Abhängigkeit vom Proof of Work und Proof of Stake Algorithmus, sowie ihrer Nutzung des Mining um Münzen zu erschaffen, zentralisiert. Diese Zentralisierungstendenzen vereiteln den ursprüngliche Zweck digitaler Währungen.
 
