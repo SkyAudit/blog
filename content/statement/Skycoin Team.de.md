@@ -47,7 +47,7 @@ Erich Quist entwickelt die neue Skycoin Geldbörse (wallet) und die Webseite.
 
 * Telegram: @erichquist
 
-meam364 ist der Webseiten Entwickler.
+meam364 ist der Webseitenentwickler.
 
 * Github: https://github.com/meam364
 
