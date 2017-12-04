@@ -1,5 +1,5 @@
 +++
-title = "Obelisk: The Skycoin Consensus Algorithm"
+title = "Obelisk: El Algoritmo de Consenso de Skycoin"
 tags = [
     "Statement",
 ]
@@ -10,132 +10,145 @@ categories = [
 ]
 +++
 
-![Obelisk The Skycoin Consensus Algorithm](/img/obelisk-the-skycoin-consensus-algorithm.png)
+![Obelisk el algoritmo de consenso de Skycoin](/img/obelisk-the-skycoin-consensus-algorithm.png)
 
-The Skycoin blockchain makes use of a novel type of consensus algorithm
-called "Obelisk" that replaces both Proof of Work (“PoW”) and Proof of Stake
-(“PoS”).
+La cadena de bloques (blockchain) de Skycoin hace uso de un nuevo tipo de
+algoritmo de consenso llamado "Obelisk" que reemplaza tanto a la prueba de
+trabajo ("PoW") como la prueba de participación ("PoS").
 
-The aim of the developers of Skycoin was to correct the major security flaws
-and “centralizing tendencies” associated with blockchain networks in which
-consensus is based on PoW or PoS algorithms and coin creation is linked to a
-mining process. Skycoin is therefore trying to create a cryptocurrency that
-better fulfills Satoshi’s original vision of a fully decentralized digital
-currency system.
+El objetivo de los desarrolladores de Skycoin era corregir los principales
+fallos de seguridad y las "tendencias centralizadoras" asociadas con las
+redes de cadenas de bloques en las que el consenso se basa en algoritmos
+PoW o PoS y la creación de monedas está ligada a un proceso de minería. Por
+lo tanto, Skycoin está tratando de crear una criptomoneda que cumpla mejor
+con la visión original de Satoshi de un sistema de moneda digital
+completamente descentralizado.
 
-In doing so, Skycoin technology creates a blockchain network with no mining
-requirement, fixed supplies of crypto-tokens, 10-second transaction times, and
-greater security. In a system in which the connection between coin creation
-and control over the network is severed, crypto-tokens lose their political
-function and begin to act more like a form of digital property in the
-straightforward sense.
+Al hacer esto, la tecnología de Skycoin crea una red cadena de bloques sin
+requisitos de minería, con suministros fijos de crypto-tokens, tiempos de
+transacción de 10 segundos y mayor seguridad. En un sistema en el que la
+conexión entre la creación de la moneda y el control de la red está cortada,
+los crypto-tokens pierden su función política y comienzan a funcionar más como
+una forma de propiedad digital, en estricto sentido.
 
-## Proof of Work and the Bitcoin system
+## Prueba de trabajo y el sistema de Bitcoin
 
-It was a fundamental miscalculation in the early programming of Bitcoin that
-the mining process would produce an economic incentive structure that would
-promote decentralization. In fact, the link between consensus and hashing
-power incentivizes the purchase of ever increasing processing capacity to
-control the consensus network.
+Pensar que el proceso de minería generaría una estructura de incentivos
+económicos que promovería la descentralización de la red fue un error de
+cálculo fundamental en la programación inicial de Bitcoin. De hecho, el
+vínculo entre el consenso y el poder de cómputo (hashing power) incentiva la
+compra de una capacidad de cómputo cada vez mayor, para controlar la red de
+consenso.
 
-The Bitcoin network, for instance, is de facto controlled by three for-profit
-mining pools which have been able to concentrate a large part of the network’s
-hashing power on its servers. These pools have begun to act as a cartel,
-splitting hashing power among each other by agreement. The link between mining
-and control of the network was already identified by Satoshi as the main
-non-cryptographic threat to the stability of the network. It allows actors who
-accumulate sufficient processing power and achieve a majority hash rate to
-falsify or revert transactions on the network in a 51% attack. Some argue that
-this vulnerability has become less pressing in an environment where hash power
-is highly centralized with actors who have invested large sums in the Bitcoin
-network and depend for their survival on the high value of the coin. Yet the
-power to influence the network is still highly concentrated, defeating the
-purpose of a distributed ledger-based cryptocurrency.
+La red de Bitcoin, por ejemplo, está controlada de facto por tres grupos de
+minería con fines de lucro que han podido concentrar una gran parte de la
+potencia de cómputo de la red en sus servidores. Estos grupos han comenzado a
+actuar como un cártel, estableciendo acuerdos para dividir el poder de cómputo
+entre ellos mismos. La relación entre la minería y el control de la red ya
+había sido identificada por Satoshi como la principal amenaza no criptográfica
+para la estabilidad de la red. Dicha relación permite, a los actores que
+acumulen suficiente poder de cómputo y logren una tasa de hash (hash rate)
+mayoritaria, falsificar o revertir las transacciones en la red mediante un
+ataque del 51%. Algunos argumentan que esta vulnerabilidad se ha vuelto menos
+apremiante en un ambiente donde el poder de cómputo está altamente centralizado
+en actores que han invertido grandes sumas de dinero en la red de Bitcoin y
+dependen, para supervivencia, de que la moneda mantenga un valor alto. Sin
+embargo, el poder de influir en la red todavía está muy concentrado, lo que
+va totalmente en contra del objetivo de una criptomoneda distribuida basada en
+un libro mayor (ledger).
 
-The Bitcoin network’s PoW algorithm thus introduces security and monopoly
-problems by placing power over the network with the actor capable of
-mobilizing enough economic resources to control the mining process.
+Así, el algoritmo PoW de la red Bitcoin introduce problemas de seguridad y
+monopolio al darle poder sobre la red a un actor capaz de movilizar
+suficientes recursos económicos como para controlar el proceso de minería.
 
-This also implies that the operation of the network is both economically and
-environmentally inefficient. The continuous input of processing power required
-by the mining process uses up large amounts of electricity, incurring monthly
-costs in the tens of millions. These costs can only be offset with an
-exponentially growing influx of new capital along with new users. Only a very
-small number of well-established coins, like Bitcoin and Ethereum, will be
-able to attract enough users to achieve such a continual flow. In the case of
-most other PoW/PoS-based coins, the cost
-of PoW/PoS mining is paid for in a lower market valuation as money is bled
-out of a coin by mining costs until the coin is abandoned.
+Esto también implica que el funcionamiento de la red es económica y
+ambientalmente ineficiente. La entrada continua de potencia de cómputo
+requerida por el proceso de minería consume grandes cantidades de electricidad,
+incurriendo en costos mensuales en el rango de las decenas de millones. Estos
+costos solo pueden compensarse con un crecimiento exponencial en la entrada de
+nuevo capital y de nuevos usuarios. Solo un número muy pequeño de monedas bien
+establecidas, como Bitcoin y Ethereum, podrán atraer suficientes usuarios para
+lograr un flujo continuo de ese tipo. En el caso de la mayoría de las otras
+monedas basadas en PoW / PoS, el costo de la minería PoW / PoS se paga mediante
+una valoración de mercado menor, dado que el dinero va siendo extraído de la
+moneda por los costos de minería, hasta que se abandona la moneda.
 
->Right now the Bitcoin economy consists of new users putting their money in
-and then the money being thrown in a pit and burned in a sacrifice ritual to
-the mining electricity costs. If the average user had to pay the miners’
-electricity cost directly as transaction fees, instead of it being robbed from
-them through inflation by the creation of new coins, then each Bitcoin
-transaction would cost more than $50. It would be more expensive than an
-international bank transfer.
+>En este momento, la economía de Bitcoin consiste en nuevos usuarios que
+invierten su dinero y luego el dinero se arroja en un pozo y se quema, en un
+ritual de sacrificio a los costos de electricidad de la minería. Si el usuario
+promedio tuviera que pagar directamente el costo de electricidad de los
+mineros, en forma de comisiones por las transacciones, en lugar de ser robados
+por ellos a través de la inflación generada por la creación de nuevas monedas,
+entonces cada transacción de Bitcoin costaría más de $50. Sería más costoso que
+una transferencia bancaria internacional.
 
-## The centralizing tendency of Proof of Stake
+## La tendencia centralizadora de las pruebas de participación (PoS)
 
-Although Proof of Stake algorithms tackle the security issue of 51% attacks,
-they are arguably even more vulnerable to centralization than PoW networks. In
-PoS, the size of network participants’ holdings of the cryptocurrency in the
-network determines their authority and voting power to implement technical
-changes in the network. Participants are able to mine an equivalent portion of
-their stake regardless of processing power.
+Aunque los algoritmos de prueba de participación abordan el problema de
+seguridad de los ataques del 51%, son posiblemente aún más vulnerables a la
+centralización que las redes PoW. En las redes PoS, la cantidad de
+criptomonedas en posesión de los participantes es la que determina su autoridad
+y poder de votación para implementar cambios técnicos en la red. Los
+participantes pueden minar una porción equivalente a la cantidad de monedas que
+poseen, independientemente del poder de cómputo.
 
-This principle significantly increases the economic barriers to launching a
-51% attack because the financial cost of acquiring the majority of tokens on
-the network in the open market is very likely to exceed the potential gain. If
-an attacker ends up as the majority stakeholder in the network, he will suffer
-most from the impact of the attack on the stability of the network or the
-external value of the cryptocurrency.
+Este principio aumenta significativamente las barreras económicas para lanzar
+un ataque del 51%, porque es muy probable que el costo financiero de adquirir
+la mayoría de los tokens de la red, a través del mercado abierto, exceda la
+ganancia potencial. Si un atacante termina teniendo la participación
+mayoritaria en la red, será quien más sufra por el impacto del ataque hacia la
+estabilidad de la red o el valor externo de la criptomoneda.
 
-Yet, although raising the barriers to human-led attacks on the network, PoS
-creates a centralizing impulse which is as strong as, if not stronger than, in
-the case of PoW. As Joseph Young summarizes in his comparison of the two
-systems at [coinfox.info](http://www.coinfox.info/), “A system where the major
-stakeholder enjoys extensive control and authority over both technical and
-economic aspects of the network creates a major monopoly problem.” While in PoW
-voting on the implementation of technical changes to the network “is divided
-among miners, developers and other crucial members of the community,” in a PoS
-system “major stakeholders have a technical ability to make any changes they
-like without considering the will of the community, businesses, miners and
-developers. This centralisation of voting power and, essentially, control of
-the network defeats the purpose of a distributed ledger-based cryptocurrency
-since it contradicts its entire principle of distributing all elements within
-the network to avoid the presence of a central authority.”
+Sin embargo, aunque aumenta las barreras contra los ataques dirigidos por
+humanos en la red, los sistemas PoS crean un impulso centralizador que es tan
+fuerte como, si no más fuerte que, en el caso de los sistemas PoW. Tal como
+resume Joseph Young en su comparación de los dos sistemas en
+[coinfox.info](http://www.coinfox.info/), “Un sistema en el que la persona
+con mayor participación en monedas goza de un amplio control y autoridad sobre
+los aspectos técnicos y económicos de la red crea un gran problema de
+monopolio”. Mientras que en un sistema PoW la votación sobre la implementación
+de cambios técnicos en la red “está dividida entre mineros, desarrolladores y
+otros miembros cruciales de la comunidad”, en un sistema PoS “los usuarios con
+mayor participación en monedas tienen la capacidad técnica de hacer cualquier
+cambio que deseen sin tener en cuenta la voluntad de la comunidad, las empresas,
+los mineros y los desarrolladores. Esta centralización del poder de voto y,
+esencialmente, del control de la red, derrumba el propósito de una criptomoneda
+distribuida basada en el libro mayor, ya que contradice todo su principio de
+distribuir todos los elementos dentro de la red para evitar la presencia de
+una autoridad central”.
 
-## Obelisk: Skycoin's distributed consensus algorithm
+## Obelisk: el algoritmo de consenso distribuido de Skycoin
 
-To tackle this centralization problem, Skycoin moves beyond PoW/PoS.
-It uses a distributed consensus algorithm, called Obelisk, which
-distributes influence over the network according to a “web of trust”. In
-essence, every node has a list of other nodes that it subscribes to, and the
-density of a node’s network of subscribers determines its influence on the
-network. Each node is assigned a personal blockchain which acts as a “public
-broadcasting channel” on which all of a node’s actions are visible and
-publicly recorded. As all consensus decisions and communication occur through
-the personal blockchains of each node, the community can very easily audit
-nodes for cheating or collusion. How decisions on the network are made and
-which nodes influence those decisions is completely transparent.
+Para abordar este problema de centralización, Skycoin va más allá de
+PoW/PoS. Utiliza un algoritmo de consenso distribuido, llamado Obelisk, que
+distribuye la influencia sobre la red de acuerdo con una "red de confianza".
+En esencia, cada nodo tiene una lista de otros nodos a los que se ha
+subscrito, y la densidad de la red de suscriptores de un nodo determina su
+influencia en la red. A cada nodo se le asigna una cadena de bloques personal
+que actúa como un "canal de transmisión pública" en el que todas las acciones
+de un nodo son registradas de manera visible y pública. Como todas las
+decisiones y comunicaciones de consenso se producen a través de las cadenas
+de bloques personales de cada nodo, la comunidad puede auditar muy fácilmente
+los nodos, en busca de fraudes o ilícitos. Cómo se toman las decisiones en
+la red y qué nodos influyen en esas decisiones es completamente transparente.
 
-The public record left by each node’s personal blockchain allows the network
-to react to defections by severing connections with less trustworthy or
-malicious nodes, contracting the network to a smaller and denser core of
-trusted nodes. Hence, in principle, if the community does not trust the nodes
-representing them or feels that power within the network is too concentrated
-(or not concentrated enough) the community is able to collectively shift the
-balance of power in the network by collectively changing their trust
-relationships in the network. The accountability of nodes to the community and
-3rd party audits as well as the transparency of consensus strengthens
-collective decision-making and thus introduces a highly democratic and
-decentralizing element to the network.
+El registro público dejado por el blockchain personal de cada nodo permite
+que la red reaccione a las deserciones cortando conexiones con los nodos poco
+confiables o maliciosos, contrayendo la red a un núcleo más pequeño y denso
+de nodos de confianza. Por lo tanto, en principio, si la comunidad no confía
+en los nodos que la representa o siente que el poder dentro de la red está
+demasiado concentrado (o no lo suficientemente concentrado) la comunidad puede
+cambiar colectivamente el equilibrio de poder de la red al cambiar
+colectivamente sus relaciones confianza en la red. La rendición de cuentas de
+los nodos a la comunidad y las auditorías de terceros, así como la
+transparencia del consenso, fortalecen la toma de decisiones colectiva y, por
+lo tanto, introducen un elemento altamente democrático y descentralizador en
+la red.
 
-This system provides for a digital currency system with significantly reduced
-transaction times, no mining requirement, and greater security.
+Este sistema proporciona una moneda digital con tiempos de transacción
+significativamente reducidos, sin requisitos de minería y con mayor seguridad.
 
-*Read more:*
+*Leer más:*
 
 * *[Skycoin Consensus Algorithm Whitepapers](https://www.skycoin.net/whitepapers)*
-* *[Obelisk The Skycoin Consensus Algorithm | Information Pages](/overview/obelisk-skycoin-consensus-algorithm-information-pages/)*
+* *[Obelisk: El Algoritmo de Consenso de Skycoin | Páginas de Información](/overview/obelisk-skycoin-consensus-algorithm-information-pages/)*
