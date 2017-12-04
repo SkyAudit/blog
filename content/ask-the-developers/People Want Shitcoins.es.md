@@ -1,5 +1,5 @@
 +++
-title = "People Want Shitcoins"
+title = "La Gente Quiere Shitcoins (Mierdamonedas)"
 tags = [
     "Ask the Developers",
 ]
@@ -10,54 +10,59 @@ categories = [
 bounty = 3
 +++
 
-*Excerpt from the Telegram channel*
+*Extracto del canal de Telegram*
 
->Question：
-I mean if Skycion is so good I would definitely use it for my business over
-the rest but where can we see the proofs? The tests and all? Is there a website
-with more info and data? Is the network already strong with many nodes?
+>Pregunta：
+Quiero decir, si Skycion es tan bueno, definitivamente lo usaría para mi
+negocio en lugar del resto, pero ¿dónde podemos ver las evidencias? ¿Los
+experimentos y todo? ¿Hay algún sitio web con más información y datos? ¿La red
+ya es fuerte con muchos nodos?
 
-People want shitcoins.
+La gente quiere shitcoins.
 
-Bitcoin at the start and now Skycoin have huge education and technical barriers.
+Bitcoin al principio y ahora Skycoin tienen enormes barreras educativas y
+técnicas.
 
-Skycoin is new and from scratch and not a clone coin like these 500 ERC20 token,
-so for exchange to list they have to do real work (which they won’t want to do
-when its 6 people running an exchange supporting +300 shitcoins).
+Skycoin es nuevo y ha sido creado desde cero, no es una moneda clonada como
+esos 500 tokens ERC20, por lo que para ser listado en un exchange (servicio de
+intercambio) es necesario que dicho exchange haga trabajo real (algo que no
+querrán hacer cuando son 6 personas en el exchange dando soporte +300
+shitcoins).
 
-Skycoin has its own codebase, its own blockchain and it has developers.
-Which is too advanced and requires more education than other coins (who don’t
-have own blockchain,developers and are just ERC20 or bitcoin clone which
-everyone understands).
+Skycoin tiene su propia base de código, su propia cadena de bloques y tiene
+desarrolladores. Lo cual es demasiado avanzado y requiere más educación que
+otras monedas (que no tienen su propia cadena de bloques, desarrolladores y
+solo son clones de ERC20 o Bitcoin que todos entienden).
 
-For other coins people don’t have to learn anything, they just know that they
-buy the coin and pump it and then sell it and make money. It does not require
-learning anything or educating the user what it’s for or how it works so the
-barrier is very low.
+Con otras monedas, las personas no tienen que aprender nada, solo saben que
+compran la moneda y la impulsan, y luego la venden y ganan dinero. No
+requieren aprender nada ni educar al usuario acerca de para qué son o cómo
+funcionan, por lo que la barrera es muy baja.
 
-And anything new or innovative requires education and knowledge. And popular
-coins or something like Dogecoin are the opposite of that.
+Y cualquier cosa nueva o innovadora requiere educación y conocimiento. Y las
+monedas populares o algo así como Dogecoin son lo opuesto a eso.
 
-So Skycoin is at same early stage that Bitcoin and Ethereum had to go through,
-where there is a huge technical barrier for new users.
+Así que Skycoin se encuentra en la misma etapa inicial por la que tuvieron que
+pasar Bitcoin y Ethereum, donde existe una gran barrera técnica para los
+nuevos usuarios.
 
-And so Skycoin is doing well on the meshnet and hardware and applications.
+Y entonces, a Skycoin le está yendo bien en meshnet, hardware y aplicaciones.
 
-But our platform is also developing very well. Companies are telling us
-"why would we use Ethereum and put our data on a chain shared with
-500,000 shitcoins, when Skyledger gives our company OUR OWN blockchain".
-Which is clearly superior.
+Pero nuestra plataforma también se está desarrollando muy bien. Las empresas
+nos dicen "¿por qué usaríamos Ethereum y pondríamos nuestros datos en una
+cadena compartida con 500,000 shitcoins, cuando Skyledger le da a nuestra
+empresa NUESTRA PROPIA cadena de bloques". Lo cual es claramente superior.
 
-No ones tries to put every single company on Earths data into the same
-SQL database, so why would you do this with blockchain?
+Nadie trata de poner los datos de cada compañía de la Tierra en la misma
+base de datos SQL, entonces ¿por qué harías eso con la cadena de bloques?
 
-The other thing is that our application business logic language is developing
-very well.
+La otra cosa es que nuestro lenguaje de lógica de negocios de aplicaciones se
+está desarrollando muy bien.
 
-Ethereum’s contract language is like it was written by children.
-Endless stream of news about how many tens or hundreds of millions stolen this
-week.
+El lenguaje de contratos de Ethereum pareciera haber sido escrito por niños.
+Un sinfín de noticias sobre cuántas decenas o cientos de millones fueron
+robados esta semana.
 
-We think for real businesses this will be the first professional and usable
-language and platform. It will be like going from Microsoft Paint and finger
-painting, to Photoshop.
+Pensamos que para negocios reales este será el primer lenguaje y plataforma
+profesional y utilizable. Será como pasar de Microsoft Paint y pintar con
+los dedos a Photoshop.
