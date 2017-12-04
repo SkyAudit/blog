@@ -1,5 +1,5 @@
 +++
-title = "The Meaning of Aether"
+title = "El Significado de Aether"
 tags = [
     "Decentralization",
     "CXO",
@@ -12,94 +12,106 @@ categories = [
 ]
 +++
 
-*This is an archived post from the bitcointalks thread on May 05 2014*
+*Esta es una publicación archivada del hilo bitcointalks del 05 de mayo de 2014*
 
-*Aether's original design has evolved into what is now called CXO*
+*El diseño original de Aether se ha convertido en lo que ahora se llama CXO*
 
-*Quote from: **Tobo** on May 04, 2014, 02:11:12 PM*
->I noticed that you previously used the name of ether which was used by
-Ethereum. Now you changed it to aether which has been used by some other
-people at this forum. Why did you like these two names so much?
+*Cita de: ** Tobo ** el 4 de mayo de 2014, 02:11:12 PM*
+>Noté que anteriormente usaron el nombre ether (éter, en español), el cual
+fue usado por Ethereum. Ahora lo cambiaron por aether (en español conocido
+también como éter), el cual ha sido utilizado por algunas otras personas
+en este foro. ¿Por qué les gustaron tanto estos dos nombres?
 
-Ether permeates space. Then we found out ether is alcohol that people snuff to
-get high and aether is the mystical substance that permeates space.
+El éter impregna el espacio. Luego descubrimos que el ether es el alcohol
+que la gente aspira para drogarse y el aether es la sustancia mística que
+impregna el espacio.
 
-Its called Aether because the data does not exist on a server. It exists
-collectively throughout the internet (or at least the subscribers). Once
-published, it cannot be destroyed. There is no central point, there is no
-server that can be seized. The publisher cannot be located or tracked because
-once the data is published, they are just a peer.
+Se llama Aether porque los datos no existen en un servidor. Existe
+colectivamente en toda la Internet (o al menos los suscriptores). Una vez
+publicado, no puede ser destruido. No hay un punto central, no hay un
+servidor que pueda ser incautado. El editor no puede ser localizado o
+rastreado porque una vez que se publican los datos, son solo un elemento más.
 
-Its a perfect system. There is one type of Skycoin address and its is an
-endpoint for a datastore or a pubsub system. There is another type of Skycoin
-address and it holds coins. There is another type of Skycoin address and it is
-a node you can communicate with and send messages to.
+Es un sistema perfecto. Hay un tipo de dirección de Skycoin y es un punto
+final para un almacén de datos o un sistema pubsub. Hay otro tipo de
+dirección de Skycoin y contiene monedas. Hay otro tipo de dirección de
+Skycoin y es un nodo con el que puedes comunicarte y enviarle mensajes.
 
-You generate a pubkey, which hashes to an address and that is an ID. The
-address replaces IP addresses for identifying a device or computer if its used
-for communication. It names a datastore (just like a magnet link is a hash of a
-torrent file and name the torrent) if its used for a datastore. If the
-datastore contains a filelist and a hash list for chunks in the files, then
-its just a torrent that people can update. If it names a Skywire node if its
-used for communication, like an IP address names a computer.
+Generas una clave pública, que es una ID y cuyo hash es una dirección. La
+dirección reemplaza las direcciones IP para identificar un dispositivo o
+computadora, si se usa para comunicación. Le da nombre a un almacén de datos
+(al igual que un enlace magnet es un hash de un archivo torrent y le da nombre
+al torrent) si se utiliza para un almacén de datos. Si el almacén de datos
+contiene una lista de archivos y una lista de hash para los fragmentos en los
+archivos, entonces es simplemente un torrent que las personas pueden
+actualizar. Le da nombre a un nodo Skywire si se utiliza para comunicación,
+así como una dirección IP le da nombre a una computadora.
 
-So if you wanted a create a distributed twitter with Aether, you create a
-pubkey. You publish updates to your key value store and sign them with your
-private key. Each key in the keyvalue store is a number incremented each tweet
-and the body is json for the tweet.
+Entonces, si quieres crear un Twitter distribuido con Aether, creas una
+llave pública. Publicas actualizaciones en tu almacén clave-valor y las
+firmas con tu clave privada. Cada clave en el almacén clave-valor es un
+número incrementado por cada tweet y el cuerpo es el json para el tweet.
 
-You give someone your pubkey hash (an address) and now they can download and
-replicate your feed. They can pull in the feeds of everyone they are
-following. They can run their own filtering algorithms locally for ranking
-things in the feeds they are subscribed to and choose their gui. Its a
-website, but its a website running on your computer and its running from data
-you have a copy of.
+Les das a algunas personas el hash de tu clave pública (una dirección) y
+ahora pueden descargar y replicar tu feed (lista de publicaciones). Pueden
+obtener los feeds de todos los que están siguiendo. Pueden ejecutar
+localmente sus propios algoritmos de filtrado para clasificar las cosas en
+los feeds a los que están suscritos y elegir su interfaz de usuario. Es un
+sitio web, pero es un sitio web que se ejecuta en tu computadora y que se
+ejecuta a partir de datos de los que tienes una copia.
 
-You are not downloading the feeds you subscribed to from a server, you are
-downloading them from other people who are subscribed to them. Its completely
-decentralized. Its pubsub, its a communication channel, its a key-value store,
-its an RSS feed, its a document oriented database (if you are storing JSON),
-its an updatable torrent if you are storing file lists and chunk lists.
+No estás descargando desde un servidor los feeds a los que estás subscrito,
+los estás descargando de otras personas que están suscritas a ellos. Está
+completamente descentralizado. Es un pubsub, es un canal de comunicación, es
+un almacén clave-valor, es una fuente RSS, es una base de datos orientada a
+documentos (si estás almacenando JSON), es un torrent actualizable si estás
+almacenando listas de archivos y listas de fragmentos.
 
-This innovation, this data structure is as powerful as the blockchain. Its as
-powerful as DHT. It is a core component for the next generation of
-decentralized systems.
+Esta innovación, esta estructura de datos es tan poderosa como la cadena de
+bloques. Es tan poderosa como DHT. Es un componente central para la próxima
+generación de sistemas descentralizados.
 
-Aether is a mystical element that permeates all of space and I think its
-appropriate.
+El Aether es un elemento místico que impregna todo el espacio y creo que es
+apropiado.
 
-In Tor, you can identify the path to a service through traffic analysis by
-looking at variation in latency for traffic and correlating them to latency of
-other traffic passing through the nodes. Requesting pages is slow because you
-have to go through multiple hops. Here the replication is peer to peer. There
-is no "center", there is no "server". The webpages are instant, because you
-are not requesting the data but have a full copy of the data locally. You are
-generating the webpage from the database.
+En Tor, puedes identificar la ruta a un servicio a través del análisis de
+tráfico al observar la variación en la latencia del tráfico y relacionándola
+con la latencia de otro tráfico que pasa a través de los nodos. Solicitar
+páginas es lento porque tienes que pasar por múltiples saltos. Aquí la
+replicación es peer-to-peer (de igual a igual). No hay un "centro", no hay un
+"servidor". Las páginas web son instantáneas, porque no estás solicitando los
+datos, sino que tienes una copia local completa de los datos. Estás generando
+la página web desde la base de datos.
 
-In the internet of things, you have an LED lightbulb. You want to set the
-lightbulb to red. The lightbulb has an IP address and its connected wirelessly
-to your house. You move the light bulb and it has a new IP address, so you
-cant find it or send it messages. IP addresses are not "ids" for devices, they
-change as the object moves and accesses the network over different endpoints.
-Skycoin gives devices or applications "names" that are network independent.
-This is the function of DNS, to take a name and resolve a server or IP.
+En el Internet de las cosas, tienes una bombilla LED. Deseas hacer que la
+bombilla encienda en color rojo. La bombilla tiene una dirección IP y está
+conectada de forma inalámbrica a tu casa. Mueves la bombilla y ahora tiene
+una nueva dirección IP, por lo que no puedes encontrarla ni enviarle mensajes.
+Las direcciones IP no son identificadores para dispositivos, cambian a medida
+que el objeto se mueve y accede a la red a través de diferentes puntos de
+conexión. Skycoin le da a los dispositivos o aplicaciones "nombres" que son
+independientes de la red. Esta es la función de DNS, tomar un nombre y obtener
+el servidor o IP correspondiente.
 
-The lightbulb has a Skycoin address and you can send messages to the address.
-You can say "turn red" or upload a new program to the programmable LED
-lightbulb. Skywire automatically figures out how to find a route to the device.
+La bombilla tiene una dirección Skycoin y puedes enviar mensajes a la
+dirección. Puedes decir "activar rojo" o cargar un nuevo programa a la
+bombilla LED programable. Skywire averigua automáticamente cómo encontrar una
+ruta al dispositivo.
 
-Additionally, when you are running a Skywire Mesh node, the node may be
-connected to four wireless networks and a router. The wifi node has five
-different IP addresses. An IP address no longer uniquely identifies the node.
-An IP address is merely a path to the node. The IP addresses on the router are
-often not even public addresses because of NAT.
+Además, cuando ejecutas un nodo Skywire Mesh, el nodo puede estar conectado a
+cuatro redes inalámbricas y un enrutador. El nodo wifi tiene cinco direcciones
+IP diferentes. Una dirección IP ya no identifica de manera única el nodo. Una
+dirección IP es simplemente una ruta al nodo. Las direcciones IP en el
+enrutador a menudo ni siquiera son direcciones públicas debido a NAT.
 
-The set of computers you control, your desktop, your tablet, your two laptops.
-They form a personal cloud. Each device has a Skywire daemon and a node
-address it can receive communication to. You have application servers running
-on your cloud. For instance you may have several storage application servers
-(which expose a volume of a drive as a network file system, like Dropbox). You
-might have application servers such as web servers or email servers.
+El conjunto de computadoras que controlas, tu pc de escritorio, tu tableta,
+tus dos computadoras portátiles. Ellas forman una nube personal. Cada
+dispositivo tiene un daemon Skywire y una dirección de nodo a la que puede
+recibir comunicación. Tienes servidores de aplicaciones ejecutándose en tu
+nube. Por ejemplo, puedes tener varios servidores de aplicaciones de
+almacenamiento (que exponen un volumen de una unidad como un sistema de
+archivos de red, como Dropbox). Es posible que tenga servidores de
+aplicaciones, como servidores web o servidores de correo electrónico.
 
-So the idea of the mythological "Aether" reflects the vision with what we are
-trying to accomplish.
+Entonces, la idea del "Aether" mitológico refleja la visión de lo que
+estamos tratando de lograr.
