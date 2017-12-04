@@ -16,23 +16,23 @@ categories = [
 
 > Zitat von: **iamback** am 16. Februar 2015 um 09:28:38 morgens
 
-> Ein nicht PoW-basierter Konsens ist DOA, denn es ist nicht genügend Zeit übrig um die Probleme zu beseitigen, bevor die globale Wirtschaft in 2016 zusammenbrechen wird. Zum Beispiel wurden die eigennützigen Miningattacken jahrelang nicht erkannt (oder sagen wir mal, weitgehend geprüft und anerkannt), nachdem Satoshi PoW vorgestellt hat. Deshalb wird der ernsthafte Markt keinem neurartigen nicht-PoW-Konsens vertrauen. Stattdessen habe ich ein PoW-System kreiert, dass viele der Probleme, die Bitcoin plagen, beseitigt, eingeschlossen der ASICS-Ökonomie. Einige Hinweise sind in meinem obigen verlinkten Post.
+> Ein nicht PoW-basierter Konsens ist bei der Fertigstellung bereits tot (DOA), denn es ist nicht genügend Zeit übrig um die Probleme zu beseitigen, bevor die globale Wirtschaft in 2016 zusammenbrechen wird. Zum Beispiel wurden die eigennützigen Miningattacken jahrelang nicht erkannt (oder sagen wir mal, weitgehend geprüft und anerkannt), nachdem Satoshi PoW vorgestellt hat. Deshalb wird der seröiöse Markt keinem neurartigen nicht-PoW-Konsens vertrauen. Stattdessen habe ich ein PoW-System kreiert, dass viele der Probleme, die Bitcoin plagen, beseitigt, eingeschlossen der ASICS-Ökonomie. Einige Hinweise sind in meinem oberhalb verlinkten Post.
 
-> Ich habe zudem die mathematische Intuition, dass das Vermeiden der 51%-Attacke immer ein Handel mit der Sicherheit sein wird.
+> Ich habe zudem eine gewisse mathematische Intuition, dass das Vermeiden der 51%-Attacke immer ein Handel mit der Sicherheit sein wird.
 
-In Skycoin spielt die 51%-Attacke keine Rolle. Das Netzwerk könnte 20-mal pro Tag von ihr betroffen sein und es würde sich fast niemand dafür interessieren.
+Bei Skycoin spielt die 51%-Attacke keine Rolle. Das Netzwerk könnte 20-mal pro Tag von ihr betroffen sein und es würde sich fast niemand dafür interessieren.
 
-Skycoin hat andere mathematische Eigenschaften als Bitcoin und ist unnachsichtiger. Wenn jemand Coins zwischen fünf Leuten hin und her handelt, beeinflusst die 51%-Attacke sie nicht. Man benötigt einen privaten Schlüssel oder jemand in der Transkationskette um Schaden mit einer 51%-Attacke verursachen zu können. Es gibt keine Transaktionsgestaltbarkeit in Skycoin. Fast jeder wird exakt dieselben Ausgaben, Bilanzen und Transaktionschroniken auf der originalen, als auch auf der abgezweigten Chain haben, bis auf den Angreifen und einige Leute, die mit ihm Coins gehandelt haben. Wenn es einen Abzweig (fork) der Chain gibt, kopiert dieser nur die Transaktionen der anderen Chains herüber.
+Skycoin hat andere mathematische Eigenschaften als Bitcoin und ist unnachsichtiger. Wenn jemand Coins zwischen fünf Leuten hin und her handelt, beeinflusst die 51%-Attacke sie nicht. Man benötigt einen privaten Schlüssel von jemandem in der Transaktionskette um Schaden mit einer 51%-Attacke verursachen zu können. Es gibt keine Transaktionsgestaltbarkeit in Skycoin. Fast jeder wird exakt dieselben Ausgaben, Bilanzen und Transaktionschroniken auf der originalen, als auch auf der abgezweigten Chain haben, bis auf den Angreifen und einige Leute, die mit ihm Coins gehandelt haben. Wenn es eine Abspaltung (fork) der Chain gibt, kopiert diese nur die Transaktionen der anderen Chains herüber.
 
-Die 51%-Attacke wird nur Leute beeinflussen, die mit zwielichtigen Gestalten und Wettseiten Tageshandel betreiben. Es wird die kommerziellen Transaktionen nicht sonderlich beeinflussen. Wenn ein Exchange anständige Sicherheitsvorkehrungen hat und die Wallets der User abgetrennt aufgewahrt, hat die schlimmste Attacke sehr milde Auswirkungen.
+Die 51%-Attacke wird nur Leute beeinflussen, die Tageshandel mit zwielichtigen Gestalten betreiben oder Glücksspielseiten nutzen. Es wird die kommerziellen Transaktionen nicht sonderlich beeinflussen. Wenn ein Exchange anständige Sicherheitsvorkehrungen hat und die Wallets der User abgetrennt aufgewahrt, hat die schlimmste Attacke sehr milde Auswirkungen.
 
-Bitcoin hat 100 Millionen Dollar Transaktionsvolumen pro Tag. Absolutes Transaktionsvolumen in Bitcoin ist in etwa 200,000 Bitcoins. Bitcoin hat Transaktionsgestaltbarkeit, was bedeutet, dass wenn jemand eine 51%-Attacke ausführt und die Transaktionen der letzten Stunde zurückdreht, etwa 4 Millionen Dollar und 10,000 Bitcoin in Transaktionensbilanzen verbockt werden. Eine Rücklauf-Attacke, die 24 Stunden zurück geht, könnte 100 Millionen und 200,000 Bitcoins an Schaden verursachen. Ein Angreifer könnte jedwede Transaktion in Bitcoin zurückdrehen.
+Bitcoin verfügt über ein Transaktionsvolumen von 100 Millionen Dollar pro Tag. Das absolute Transaktionsvolumen von Bitcoin liegt bei etwa 200,000 Bitcoins. Bitcoin hat Transaktionsgestaltbarkeit, was bedeutet, dass wenn jemand eine 51%-Attacke ausführt und die Transaktionen der letzten Stunde zurückdreht, etwa 4 Millionen Dollar und 10,000 Bitcoin in Transaktionensbilanzen verbockt werden. Eine Rücklauf-Attacke, die 24 Stunden zurück geht, könnte 100 Millionen und 200,000 Bitcoins an Schaden verursachen. Ein Angreifer könnte jedwede Transaktion in Bitcoin zurückdrehen.
 
-Bei Skycoin können sie die Transkationskette nicht beeinflussen oder modifizieren, ohne den privaten Schlüssel einer Adresse in der Kette der Transaktionen zu kennen. Wenn also fünf Banken unter sich handeln und alle eine gute Walletsicherheit haben, bekommen sie eine 51%-Attacke nichtmal mit. Die Kontostände bleiben gleich. Das ist unter der Annahme, dass die 51%-Attacke mathematisch möglich ist, dass jemand sich also so darum schert, dass er die Ressourcen aufbringt um es zu versuchen und das dies dann auch noch erfolgreich ist.
+Bei Skycoin können sie die Transkationskette nicht beeinflussen oder modifizieren, ohne den privaten Schlüssel einer Adresse in der Kette der Transaktionen zu kennen. Wenn also fünf Banken unter sich handeln und alle eine gute Walletsicherheit haben, bekommen sie eine 51%-Attacke nichtmal mit. Die Kontostände bleiben gleich. Das ist basierend auf der Annahme, dass die 51%-Attacke mathematisch möglich ist, dass jemand sich also so darum schert, dass er die Ressourcen aufbringt um es zu versuchen und das dies dann auch noch erfolgreich ist.
 
-Wenn jemand es fertig bringt eine 51%-Attacke auf Skycoin durchzuführen (was vielleicht möglich ist, aber mathematisch unwahrscheinlich),  werden die Kaufleute singend und tanzend vor Freude durch die Gegend hüpfen, denn die Verluste werden viel geringer sein, als bei einer Visa-Rücklastschrift. Viele Händler verkaufen Laptops und machen weniger als 5%-Marge pro Laptop. Wenn jemand behauptet, den Laptop nicht erhalten zu haben, erfährt der Händler 1000$ Verlust, bekommt den Laptop nicht zurück und muss die Gebühr von 80$ an Visa bezahlen. Das Unternehmen muss 25 Laptops verkaufen um die Kosten des einen Betruges zu kompensieren. Wenn jemand eine Kreditkarte stielt und einen Laptop damit kauft, kommt Visa nicht für den Verlust auf, sie schieben den Verlust weiter an den Händler.
+Wenn jemand es fertig bringt eine 51%-Attacke auf Skycoin durchzuführen (was vielleicht möglich ist, aber mathematisch unwahrscheinlich),  werden die Kaufleute singend und tanzend vor Freude durch die Gegend hüpfen, denn die Verluste werden viel geringer sein, als bei einer Visa-Rücklastschrift. Viele Händler verkaufen Laptops und machen weniger als 5%-Marge pro Laptop. Wenn jemand behauptet, den Laptop nicht erhalten zu haben, erleidet der Händler 1000$ Verlust, bekommt den Laptop nicht zurück und muss die Gebühr von 80$ an Visa bezahlen. Das Unternehmen muss 25 Laptops verkaufen um die Kosten des einen Betruges zu kompensieren. Wenn jemand eine Kreditkarte stielt und einen Laptop damit kauft, kommt Visa nicht für den Verlust auf, sie wälzen den Verlust auf den Händler ab.
 
-Der Skycoin Konsens-Algorithmus und das Konto sind separat. Der Konsens-Algorithmus ist modular und kann ausgetauscht werden. Wenn es in fünf Jahren einen besseren Algorithmus gibt, können wir den Konsensprozess einfachauf diesem neuen aufbauen lassen. Das Konto und die Coinbilanzen bleiben komplett unverändert.
+Der Skycoin Konsens-Algorithmus und das Konto sind separat. Der Konsens-Algorithmus ist modular und kann ausgetauscht werden. Wenn es in fünf Jahren einen besseren Algorithmus gibt, können wir den Konsensprozess einfach austauschen. Das Konto und der Kontostand bleiben komplett unverändert.
 
 Skycoin:
 
@@ -50,12 +50,12 @@ https://github.com/skycoin/skycoin/blob/master/src/coin/transactions.go
 
 Eine Skycoin Transaktion ist:
 
-1) Eine Liste von Ausgabehashes, welche ausgegeben werden
-2) Eine Liste der Signaturen, welche die Ausgabe authorisieren ausgegeben werden zu dürfen (Signaturhashes des inneren Teils 
+1) Eine Liste von Outputhashes, welche ausgegeben werden
+2) Eine Liste der Signaturen, welche den Output authorisieren ausgegeben werden zu dürfen (Signaturhashes des inneren Teils 
    der Transaktion)
-3) Eine Liste der Ausgaben wird erstellt
+3) Eine Liste der Outputs die erstellt werden
 
-Coins können nicht erschaffen oder zerstört werden. Die Anzahl der Eingabe an Coins muss gleich Anzahl der Coins der Ausgabe sein. Transaktionsgebühren werden in "Coinshours" abgerechnet.
+Coins können nicht erschaffen oder zerstört werden. Die Anzahl der Eingabe an Coins muss gleich Anzahl der Coins der Ausgabe sein. Transaktionsgebühren werden in "Coinhours" abgerechnet.
 
 ## Skycoin unterstützt Coinjoin von Geburt an
 
