@@ -23,9 +23,9 @@ Warum mögt ihr diese beiden Namen so sehr?
 
 Ether durchdringt den Weltraum. Dann haben wir rausgefunden, dass Ether Alkohol ist, den die Leute schnüffeln um high zu werden und Aether ist die mystische Substanz, die den Weltraum durchdringt.
 
-Es trägt den Namen Aether, weil die Daten nicht auf dem Server exisitieren. Sie exisitieren im Kollektiv über das Internet verteilt (oder wenigstens innerhalb der Abonnenten). Einmal veröffentlicht können sie nie wieder zerstört werden. Es gibt keinen zentralen Punkt, es gibt keinen Server der beschlagnahmt werden kann. Die Herausgeber können nicht geortet oder verfolgt werden, denn wenn die Daten veröffentlicht worden sind, sind sie einfach nur ein Peer von vielen.
+Es trägt den Namen Aether, weil die Daten nicht auf einem Server exisitieren. Sie exisitieren im Kollektiv über das Internet verteilt (oder wenigstens innerhalb der Abonnenten). Einmal veröffentlicht können sie nie wieder zerstört werden. Es gibt keinen zentralen Punkt, es gibt keinen Server der beschlagnahmt werden kann. Die Herausgeber können nicht geortet oder verfolgt werden, denn wenn die Daten veröffentlicht worden sind, sind sie einfach nur ein Peer von vielen.
 
-Es ist ein perfektes System. Es gibt einen Typ Skycoin Adresse und dieser ist ein Endpunkt für Datenspeicherung auf einem 
+Es ist ein perfektes System. Es gibt einen Skycoin Adresstypen und dieser ist ein Endpunkt für Datenspeicherung auf einem 
 pubsub System. Es gibt einen anderen Typ Skycoin Adresse und diese hält Coins. Dann gibt es noch einen anderen Typ Skycoin Adresse und diese ist ein Knoten, mit dem man kommunizieren kann und dem man Nachrichten senden kann.
 
 Man generiert einen öffentlichen Schlüssel (pubkey), welcher gehasht wird zu einer Adresse und das ist dann die ID.
@@ -37,7 +37,7 @@ Jeder Schlüssel im schlüsselbasierten Speicher ist eine Nummer, welche mit jed
 Körper des Tweets wird in JSON verfasst.
 
 Man gibt jemand den Hash seines öffentlichen Schlüssels (eine Adresse) und dieser kann nun den eigenen Feed downloaden 
-und kopieren. Sie können die Feeds von jedem dem sie folgen ziehen. Sie können ihren eigenen Filter-Algorithmus lokal anwenden, um die Sachen aus den Feeds die sie abonniert haben, zu bewerten und einzustufen, sowie ihre individuelle GUI wählen. Es ist eine Website, aber es ist eine Website die auf dem eigenen Rechner läuft und sie läuft mit Daten, von denen man selbst eine Kopie besitzt.
+und kopieren. Sie können die Feeds von jedem dem sie folgen beziehen. Sie können ihren eigenen Filter-Algorithmus lokal anwenden, um die Sachen aus den Feeds die sie abonniert haben, zu bewerten und einzustufen, sowie ihre individuelle Benutzeroberfläche wählen. Es sind Websiten, aber Websiten, die auf dem eigenen Rechner laufen und sie laufen mit Daten, von denen man selbst eine Kopie besitzt.
 
 Man lädt nicht die Feeds, die man abonniert hat, von einem Server herunter, sondern 
 von anderen Leuten, welche diese ebenso abonniert haben. Es ist vollständig dezentralisiert.
@@ -49,12 +49,12 @@ mächtig wie verteilte Hashtabellen (DHT). Es ist eine Kernkomponente der nächs
 dezentralisierten Systemen.
 
 Aether ist ein mystisches Element, dass den gesamten Weltraum durchdringt und ich denke dies
-ist der angemessene Name.
+ist ein angemessener Name.
 
-Bei Tor identifiziert man einen Pfad zu einem Service mittels Traffic-Analyse, indem 
+Bei Tor identifiziert man einen Pfad zu einem Dienst mittels Traffic-Analyse, indem 
 man nach Variationen der Latenz von Traffic Ausschau hält und diese mit der Latenz von
 anderem Traffic, der durch Knoten läuft, in Korrelation setzt. Das Aufrufen von Seiten ist langsam, weil
-man über mehrere Hops gehen muss. Hier findet Replikation von Peer-zu-Peer statt. 
+die Daten mehrere Etappen (Hops) zu absolvieren haben. Mit unserer Architektur findet die Replikation von Peer-zu-Peer statt. 
 Es gibt kein "Zentrum", es gibt keinen "Server". Die Websiten sind unmittelbar, weil man die Daten nicht abfragt, sondern eine vollständige Kopie der Daten lokal besitzt. Man generiert die Webseite selbst aus der Datenbank.
 
 Im Internet der Dinge (IoT) hat man eine LED-Glühbirne. Man möchte diese Glühbirne auf Rot schalten.
@@ -68,15 +68,14 @@ Die Glühbirne kann eine Skycoin-Adresse haben und man kann an diese Adresse Nac
 Man kann sagen "werde rot" oder ein neues Programm auf die programmierbare LED hochladen. Skywire findet
 automatisch die Route zum Gerät.
 
-Zusätzlich dazu, kann man beim Betreiben einen Skywire-Meshknoten mit vier verschiedenen Drahtlos-Netzwerken verbinden und einem Router.
+Zusätzlich dazu, kann man sich beim Betreiben einen Skywire-Meshknotens mit bis zu vier verschiedenenen Drahtlos-Netzwerken und einem Router verbinden.
 Der WiFi-Knoten hat fünf verschiedene IP-Adressen. Eine IP-Adresse ist nicht länger eindeutig identifizierend für
 einen Knoten. Eine IP-Adresse ist lediglich ein Pfad zu dem Knoten. Die IP-Adresse der Router sind oftmals nichtmal
 öffentlich wegen der Netzwerkadressübersetzung (NAT).
 
-Den Satz an Computern den man kontrolliert, seinen Desktop, sein Tablet, seine zwei Laptops.
-Sie bilden eine persönliche Cloud. Jedes Gerät hat ein Skywire-Daemon und eine Knotenadresse, 
+Den Satz an Computern den man kontrolliert, seinen Desktop, sein Tablet und seine zwei Laptops bilden zusammen eine persönliche Datenwolke (Cloud). Jedes Gerät hat ein Skywire-Daemon und eine Knotenadresse, 
 von welcher es Kommunikation empfangen kann. Man hat Anwendungsserver auf seiner Cloud laufen. Zum Beispiel kann
 man mehrere Speicheranwendungsserver (welche ein Laufwerk im Netzwerkdateisystem preisgeben, wie Dropbox) haben. 
 Man könnte auch Anwendungsserver haben, wie Webserver oder Email-Server.
 
-Die Idee des mystischen "Aether" reflektiert die Vision, welche wir versuchen zu erreichen.
+Die Idee des mystischen "Aether" beschreibt am besten die Vision, welche wir versuchen zu erreichen.
