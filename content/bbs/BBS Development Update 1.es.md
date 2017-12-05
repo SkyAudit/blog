@@ -10,7 +10,7 @@ date = "2017-08-05"
 categories = [
     "Development Updates",
 ]
-description = "The first development update for Skycoin BBS."
+description = "La primera actualización de desarrollo de Skycoin BBS."
 +++
 
 ## Introducción
@@ -28,7 +28,7 @@ de objetos de Golang. Todos los objetos se referencian a través de sus valores 
 junto con los esquemas definidos. Cada árbol tiene un objeto raíz y está firmado 
 contra un par de llaves pública/privada. Para actualizar el árbol, las raíces tienen 
 versiones progresivas llamadas "secuencias". Este diseño permite una replicación de 
-datos rapida y eficiente.
+datos rápida y eficiente.
 
 ## Estructura de datos
 
@@ -57,7 +57,7 @@ de almacenamiento que pueda obtener rápidamente una "vista de votos" para el fr
 
 Los votos se almacenan por separado para reducir el número de nodos de 
 árbol que se deben cambiar con cada voto. También permite una manipulación 
-más fácil de los datos de votación por parte del compilador del voto.
+más fácil de los datos de votación por parte del compilador de votos.
 
 ## Lanzamientos
 
@@ -82,7 +82,7 @@ realizar qué acciones (por ejemplo, enviar contenido/votar). La capacidad de bl
 
 ## Participa
 
-Mantente al día con el desarrollo de Skycoin BBS uniéndote a nuestro [Grupo de Telegram](https://t.me/skycoinbbs).
+Manténgase al día con el desarrollo de Skycoin BBS uniéndose a nuestro [Grupo de Telegram](https://t.me/skycoinbbs).
 
 Skycoin BBS es de código abierto. El repositorio de git se encuentra 
 [aquí](https://github.com/skycoin/bbs). Tenga en cuenta que el desarrollo para la versión 0.2 está en la rama "v0.2".
