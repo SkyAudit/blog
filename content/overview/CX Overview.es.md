@@ -22,7 +22,7 @@ categories = [
     - [Restricciones de Identificador](#Restricciones-de-Identificador)
     - [Restricciones de límites](#Restricciones-de-límites)
     - [Restricciones Definidas por Usuario](#Restricciones-Definidas-por-Usuario)
-- [Sistema de Tecleado estricto](#Sistema de Tecleado estricto)
+- [Sistema de Tecleado estricto](#Sistema-de-Tecleado-estricto)
 - [Compilado e Interpretado](#Compilado-e-Interpretado)
     - ['Loop' de Read-Eval-Print](#'Loop'-de-Read-Eval-Print-)
     - [Comandos de Meta-Programación](#Comandos-de-Meta-Programación)
@@ -148,7 +148,7 @@ donde 'k' representa un índice arbitrario. Como se puede ver, el sistema 'affor
 Vale la pena mencionar que los 'affordances' siempre deben ser enumerados, y su orden debe ser constante en varias llamadas a el sistema 'affordance'. La razón detrás de esto es que el programador debería ser capaz de indicarle al sistema qué 'affordance' se debe aplicar
 después de examinar el resultado de la consulta.
 
-### Restricciones de 'Tipo'
+### Restricciones de Tipo
 
 El comportamiento común en los lenguajes de programación es tener un sistema de tecleo
 que restrinja al programador de enviar argumentos de tipos inesperados para llamar a las funciones. Incluso en lenguajes de programación débilmente tecleados,
