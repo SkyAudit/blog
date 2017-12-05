@@ -41,7 +41,7 @@ Los cambios en la estructura de datos son para solucionar los siguientes problem
 2. Determinar fácilmente "diffs" entre las secuencias de raíz (cambios). Esto será útil para compilar views y proporcionar actualizaciones en tiempo real al usuario final.
 3. Determinar fácilmente el tipo de objeto raíz para diferentes tipos de raíz.
 
-![Estructura de datos de CXO Skycoin BBS v0.2](/bbs/img/bbs_cxo_datastructure_v0.2.png)
+![Estructura de datos de CXO de Skycoin BBS v0.2](/bbs/img/bbs_cxo_datastructure_v0.2.png)
 
 El objeto  `RootPage` determina el tipo de raíz. Por el momento, 
 todos los datos se acumulan en un árbol raíz por tablero. En el futuro, 
@@ -89,4 +89,4 @@ En el momento de esta publicación, esto está cerca de ser completado. Aquí ha
 
 [![Skycoin BBS Showcase 4](https://i.ytimg.com/vi/Oue3WVkmGh4/0.jpg)](https://youtu.be/Oue3WVkmGh4)
 
-Para mantenerse al día con el desarrollo de Skycoin BBS, vigila esta sección y únete a nuestra [Comunidad de Skycoin BBS ](https://t.me/skycoinbbs) en Telegram.
+Mantengase al día con el desarrollo de Skycoin BBS, vigilando esta sección y uniéndose a nuestra [Comunidad de Skycoin BBS ](https://t.me/skycoinbbs) en Telegram.
