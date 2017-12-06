@@ -86,7 +86,7 @@ Con PoS, los usuarios tienen poder de voto en la red en proporción a sus
 tenencias de criptomonedas. En otras palabras, los usuarios con mayor 
 participación tienen mayor poder para realizar cambios técnicos. Esta idea 
 puede parecer una buena manera de protegerse contra los ataques de 51%, ya 
-que los grandes participantes tienen más que perder de dichos ataques y, por 
+que los grandes participantes tienen más que perder por dichos ataques y, por 
 lo tanto, están motivados a evitarlos. Sin embargo, debido a que los sistemas 
 PoS centralizan el poder de voto, permiten que ciertos usuarios realicen 
 cambios en la red sin considerar a otros usuarios o a la comunidad en general. 
