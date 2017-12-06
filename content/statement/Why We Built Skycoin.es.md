@@ -16,7 +16,7 @@ Las redes de cadena de bloques estaban destinadas a democratizar las finanzas,
 eliminando el control corporativo y extendiendo el poder entre los usuarios. 
 Sin embargo, Bitcoin y las monedas relacionadas se han centralizado debido 
 a su dependencia en los algoritmos de Prueba de Trabajo (PoW) y 
-Prueba de Participación (PoS), así como el uso de la minería para crear monedas. 
+Prueba de Participación (PoS), así como en el uso de la minería para crear monedas. 
 Esta centralización acaba con el propósito original de las monedas digitales.
 
 Nosotros creamos la cadena de bloques de Skycoin para corregir estos defectos. 
@@ -26,8 +26,8 @@ cadena y desmonta la creación de monedas del proceso de minería. El resultado
 es una criptomoneda completamente descentralizada que cumple la visión original de Satoshi.
 
 La cadena de bloques de Skycoin no utiliza la minería, por lo que el poder del 
-usuario no se puede concentrar en algunas grandes agrupaciones de minería como lo 
-es con Bitcoin en la actualidad. La creación de monedas no les da a ciertos usuarios 
+usuario no se puede concentrar en algunas grandes agrupaciones de minería como ocurre 
+con Bitcoin en la actualidad. La creación de monedas no les da a ciertos usuarios 
 un control desproporcionado de la red. El suministro de Skycoin es fijo. Las transacciones 
 de Skycoin ocurren en segundos y son más seguras. Con Skycoin, hemos creado una 
 criptomoneda inmutable que funciona como propiedad digital, en lugar de una herramienta 
@@ -63,7 +63,7 @@ transacción y la inflación están desangrando a los usuarios. Cada usuario sac
 el equivalente a más de $50 con cada transacción de Bitcoin para respaldar las 
 operaciones de grupos de minería centralizados. Eso es más caro que una transferencia 
 bancaria internacional. Con Bitcoin, los usuarios están desechando su dinero en apoyo 
-de los costos de minería que benefician solo a unos pocos operadores seleccionados. 
+de los costos de minería que benefician solo a unos pocos operadores selectos. 
 En el caso de las monedas más pequeñas, los altos costos de minería resultan en una 
 devaluación continua que eventualmente extinguen la moneda.
 
