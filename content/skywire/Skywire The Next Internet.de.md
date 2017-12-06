@@ -62,4 +62,4 @@ Es liegt an uns die Kontrolle zurück zu gewinnen. Skywire wird die Netzneutrali
 beschützen, indem die Kontrolle der Netzwerk-Hardware von den ISPs genommen wird und in die Hände der
 Community übertragen wird. Peer-zu-Peer-Netzwerke beweisen, dass wir nicht auf die kommerziellen ISPs 
 angewiesen sind. Zusammen können wir das Internet mit Skywire neu erfinden: 
-Ein user-betriebenes Netzwerk, welches frei und offen für alle ist.
+Ein von Usern betriebenes Netzwerk, welches frei und offen für alle ist.
