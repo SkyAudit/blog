@@ -36,7 +36,7 @@ categories = [
 # Introducción a CX
 
 CX es tanto una especificación como un lenguaje de programación diseñado para
-adoptar un nuevo paradigma de programación basado en el concepto de 'affordances'. 'Affordances' permiten que un programa sepa qué acciones pueden y no puede ser hechas por este. Por ejemplo, podemos preguntarle al programa qué argumentos se pueden enviar a una función, y el programa devolverá una lista de posibles acciones. Después de haber decidido qué acción de la la lista es apropiada, podemos elegir una de las opciones y el programa
+adoptar un nuevo paradigma de programación basado en el concepto de 'affordances'. 'Affordances' permiten que un programa sepa qué acciones pueden y no puede ser hechas por este. Por ejemplo, podemos preguntarle al programa qué argumentos se pueden enviar a una función, y el programa devolverá una lista de posibles acciones. Después de haber decidido qué acción de la lista es apropiada, podemos elegir una de las opciones y el programa
 aplicará la acción elegida. Como consecuencia del sistema 'Affordances' de CX, un algoritmo de programación genética se construye y se proporciona como una función nativa, la cual se puede utilizar para optimizar la estructura del programa durante el tiempo de ejecución.
 
 La especificación CX declara que tanto un compilador como un intérprete
@@ -80,7 +80,7 @@ Un programador necesita tomar una plétora de decisiones mientras construye
 un programa, por ejemplo, cuántos parámetros debe recibir una función, cuántos
 parámetros deberá devolver, qué 'statements' son necesarias para obtener la funcionalidad deseada, y qué argumentos deben enviarse como
 parámetros a las funciones de 'statement', entre otros. El sistema 'affordance' en CX se puede consultar para obtener una lista de las posibles acciones
-que puedem ser aplicadas a un elemento. En este contexto, ejemplos de elementos son
+que pueden ser aplicadas a un elemento. En este contexto, ejemplos de elementos son
 funciones, 'structs', módulos y expresiones.
 
 Sin tener un conjunto de reglas y hechos que dicten lo que debe ser la
@@ -176,7 +176,7 @@ deben buscarse en el ámbito actual de la pila de llamadas, en el
 
 ### Restricciones de Identificador
 
-Agregar elementos recien nombrados son comúnmente acciones candidatas para 'affordances'. Una restricción que surge al tratar de aplicar ese tipo de 'affordance',
+Agregar elementos recién nombrados son comúnmente acciones candidatas para 'affordances'. Una restricción que surge al tratar de aplicar ese tipo de 'affordance',
 es asegurar un identificador único para el nuevo elemento para evitar
 redefiniciones. El sistema 'affordance' puede generar un identificador único en el ámbito del elemento, o puede pedirle al programador que proporcionar un identificador adecuado.
 
@@ -205,7 +205,7 @@ cualquier 'integer' de 32 bits que exceda la longitud del 'array' que se envía 
 el lector o escritor de 'array'.
 
 ### Restricciones Definidas por Usuario
-*Nota: El sistema de restricciones definido por usuario aún se encuentra en su etapas experimentales.*
+*Nota: El sistema de restricciones definido por usuario aún se encuentra en sus etapas experimentales.*
 
 Las restricciones básicas descritas anteriormente deberían al menos garantizar que
 el programa no encuentre ningún error al tiempo de ejecución. Estas restricciones
@@ -213,7 +213,7 @@ deberían ser suficientes para construir algunos sistemas interesantes, como el 
 en algunas situaciones se requiere un sistema más robusto. Para este propósito,
 cláusulas, consultas y objetos se utilizan para describir el ambiente de un módulo. Estos elementos se definen mediante el uso de un intérprete de Prolog integrado y las funciones nativas de CX *setClauses*, *setQuery*, y *addObject*.
 
-La descripción más general de este sistema de restricciónes es que el programador define una serie de cláusulas de Prolog (hechos y reglas), que será consultadas usando la consulta de Prolog definida, para cada uno de los objetos agregados. Esto difícilmente tendrá sentido para cualquiera que lea esto por primera vez. Un ejemplo aclararía un poco mejor los conceptos y proceso:
+La descripción más general de este sistema de restricciones es que el programador define una serie de cláusulas de Prolog (hechos y reglas), que será consultadas usando la consulta de Prolog definida, para cada uno de los objetos agregados. Esto difícilmente tendrá sentido para cualquiera que lea esto por primera vez. Un ejemplo aclararía un poco mejor los conceptos y proceso:
 
 ```
 setClauses("mover(robot, norte, X, R) :- X = paredNorte, R = false.")
@@ -264,21 +264,20 @@ sumar: addI32, addI64, addF32 y addF64.
 
 El analizador adjunta un tipo predeterminado a los datos que encuentra
 en el código fuente: si se lee un 'integer', su tipo predeterminado es *i32*
-o 'integer' de 32 bits; y si se lee un 'float', su tipo predeterminado es *f32* o 'f;oat' de 32
+o 'integer' de 32 bits; y si se lee un 'float', su tipo predeterminado es *f32* o 'float' de 32
 bits. No hay ambigüedad con otros datos leídos por el analizador:
 *true* y *false* son siempre 'booleans'; una serie de caracteres
 entre comillas dobles siempre son 'strings'; un 'array' necesita
 indicar su tipo antes de la lista de sus elementos, por ejemplo, `[]i64{1, 2,
 3}`.
 
-Para los casos en los que el programador necesita emitir explícitamente un valor de
-de un tipo a otro, el módulo central proporciona una cantidad de funciones de 'cast' para trabajar con tipos primitivos. Por ejemplo, `byteAToStr` emite un 'array' de bytes a un 'string', y `i32ToF32` emite un 'onteger' de 32 bits
+Para los casos en los que el programador necesita emitir explícitamente un valor de un tipo a otro, el módulo central proporciona una cantidad de funciones de 'cast' para trabajar con tipos primitivos. Por ejemplo, `byteAToStr` emite un 'array' de bytes a un 'string', y `i32ToF32` emite un 'onteger' de 32 bits
 a un 'float' de 32 bits.
 
 # Compilado e Interpretado
 
 La especificación CX exige un dialecto CX para proporcionar al desarrollador
-con un intérprete y un compilador. Un programa interpretado es mucho más lento que su homólogo compilado, como es de esperarse, pero permitirá un un programa más flexible. Esta flexibilidad proviene de funciones y 'affordances' de meta-programación, que pueden modificar la estructura de un programa durante el tiempo de ejecución.
+con un intérprete y un compilador. Un programa interpretado es mucho más lento que su homólogo compilado, como es de esperarse, pero permitirá un programa más flexible. Esta flexibilidad proviene de funciones y 'affordances' de meta-programación, que pueden modificar la estructura de un programa durante el tiempo de ejecución.
 
 Un programa compilado necesita una estructura más rígida que un programa interpretado, ya que muchas de las optimizaciones balancean esta rigidez. Como consecuencia, el sistema de 'affordance' y cualquier función que opera sobre la estructura del programa tendrá una funcionalidad limitada en un programa compilado.
 
@@ -478,7 +477,7 @@ El sistema 'affordance' y las funciones de meta-programación en CX permiten la 
 mediante el uso de 'affordances' al azar. Un proceso iterativo se usa para probar.
 
 `evolve` sigue los principios de la computación evolutiva. En
-en particular, 'evolve' realiza una técnica llamada programación de genética. La programación de genética trata de encontrar una combinación de operadores y argumentos que resolverán un problema. Por ejemplo podrías instruir a `evolve` encontrar una combinación de operadores que, cuando se les envie 10 como argumento, devuelvan 20. Esto puede sonar trivial, pero
+en particular, 'evolve' realiza una técnica llamada programación de genética. La programación de genética trata de encontrar una combinación de operadores y argumentos que resolverán un problema. Por ejemplo podrías instruir a `evolve` encontrar una combinación de operadores que, cuando se les envíe 10 como argumento, devuelvan 20. Esto puede sonar trivial, pero
 la programación genética y otros algoritmos evolutivos pueden resolver problemas muy complicados.
 
 En el directorio *examples* del repositorio, uno puede encontrar un
