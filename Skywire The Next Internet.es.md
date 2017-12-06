@@ -13,7 +13,7 @@ categories = [
 ![Skywire logo](/img/skywire-the-next-internet.png) 
   
 En la primavera de 2017, la FCC hizo una propuesta en la que los proveedores
-de servicio de Internet puedan recopilar, usar, y vender información sobre los
+de servicio de Internet pueden recopilar, usar, y vender información sobre los
 hábitos de navegación del cliente. Los ISPs (proveedores de servicio de Internet)
 pueden hacer esto sin permiso. Los clientes no pueden optar por no participar.
 Ser cliente de una de estas corporaciones significa que se estará pagando por
@@ -37,12 +37,12 @@ Con Skywire, no hay grandes facturas ni prácticas comerciales desleales. Es una
 red autosuficiente, 100% adueñada y mantenida por la comunidad de usuarios. 
 
  ¿Cómo funciona Skywire? Piense en ello como un proveedor de servicios de Internet
- descentralizado. Skywire utiliza la tecnología de cadenas de bloque para crear un
+ descentralizado. Skywire utiliza la tecnología blockchain para crear un
  mercado entre pares impulsado por la comunidad para el servicio de internet. Es 
  rápido, privado y seguro. Lo mejor de todo es que pone al usuario primero.  
  
 Con Skywire, usted se beneficia directamente de sus contribuciones a la red. Los
-usuarios pueden ganar monedas para ejecutar nodos de hardware y proporcionar ancho
+usuarios pueden ganar monedas por ejecutar nodos de hardware y proporcionar ancho
 de banda y almacenamiento. Luego pueden gastar sus monedas consumiendo medios u 
 otros recursos de red. Este sistema hace que Skywire sea autosuficiente e 
 independiente: cuanto más lo use, más robusta será la red. Skywire es una red en 
@@ -62,8 +62,8 @@ limitaciones y otras interrupciones del servicio que obtiene con grandes ISPs. E
 de pagar $150 al mes para ser rastreados por el monopolio de las telecomunicaciones,
 los usuarios de Skywire obtienen un servicio de internet que protege su privacidad.  
 
-Necesitamos Skywire ahora más que nunca. El hecho de que la FCC haya fallado en neutralizar
-la red significa que los grandes proveedores de servicios de Internet continuaránfortaleciendo
+Necesitamos Skywire ahora más que nunca. El hecho de que la FCC haya fallado en promover la neutralidad
+de la red significa que los grandes proveedores de servicios de Internet continuarán fortaleciendo
 su control hasta que logren un dominio absoluto sobre la experiencia de Internet. Los honorarios
 aumentarán. La limitación, la censura y la manipulación podrían convertirse en la norma. Los usuarios
 tendrán menos poder de lo que nunca tuvieron, ya que sus datos de navegación, privacidad e 
