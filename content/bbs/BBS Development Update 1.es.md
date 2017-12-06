@@ -74,10 +74,10 @@ las siguientes características nuevas:
 * Carga de contenido mejorada - haremos uso de la(s) conexión(es) 
 de WebSocket entre el cliente y el servidor para permitir actualizaciones 
 al instante y una carga de contenido más eficiente.
-* Mejoras en la votación/visualización del contenido: tanto en el 
+* Mejoras en la votación/visualización del contenido - tanto en el 
 rendimiento real como en la fluidez desde la perspectiva del usuario. 
 También se introducirán reportes de spam.
-* Permisos: los tableros podrán establecer permisos sobre quién puede 
+* Permisos - los tableros podrán establecer permisos sobre quién puede 
 realizar qué acciones (por ejemplo, enviar contenido/votar). La capacidad de bloquear usuarios también estará disponible.
 
 ## Participa
