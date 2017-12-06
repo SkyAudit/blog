@@ -99,9 +99,8 @@ Está claro que los algoritmos PoW y PoS son autodestructivos. Estos algoritmos
 debilitan la idea de la moneda digital descentralizada, ya que resultan en la 
 creación de nuevas autoridades centrales. Concentran el poder de la red en manos 
 de unas pocas personas, impidiendo a los usuarios cosechar los beneficios de una 
-red descentralizada. De hecho, PoW y PoS crean un sistema que no es mejor que la 
-criptomoneda tradicional del sistema de banca central que originalmente se buscaba 
-reemplazar.
+red descentralizada. De hecho, PoW y PoS crean un sistema que no es mejor que el 
+sistema de banca tradicional que las criptomonedas originalmente buscaban reemplazar.
 
 En Skycoin, queremos llevarle a los usuarios lo que pidieron: una verdadera 
 red descentralizada sin autoridad central. Para lograr esta tarea, fuimos más 
@@ -118,7 +117,7 @@ transparentes, la comunidad puede verificar que los nodos funcionen de manera ju
 
 Si un nodo no cumple con las normas de la comunidad, sus acciones serán visibles 
 en el registro público. La red puede cortar conexiones con ese nodo, disminuyendo su 
-influencia sobre la red. De esta forma, nuestra red de sistemas de confianza elimina 
+influencia sobre la red. De esta forma, nuestro sistema de red de confianza elimina 
 nodos maliciosos y reequilibra el poder de acuerdo con la voluntad colectiva de la 
 comunidad. El resultado es un núcleo más pequeño de nodos de confianza que toma 
 decisiones de red a través de relaciones verificadas.
