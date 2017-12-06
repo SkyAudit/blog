@@ -78,7 +78,7 @@ type View interface {
 
 Actualmente, todas las views compiladas se almacenan en la memoria. 
 Pero esto será poco práctico cuando nuestra base de usuarios aumente. 
-En versiones futuras las views se guardaran en un almacén de llave-valor en el disco.
+En versiones futuras las views se guardarán en un almacén de llave-valor en el disco.
 
 Para la versión 0.2, hay dos implementaciones de `View`; 
 una para contenido (Tableros/hilos/mensajes/votos) y otra para compilar una lista de seguir/ignorar por usuario.
