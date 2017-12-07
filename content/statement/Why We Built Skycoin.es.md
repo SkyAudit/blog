@@ -134,7 +134,7 @@ no requiere minería, por lo que la red es inmune al ataque del 51%.
 Las transacciones son significativamente más rápidas y ocurren en segundos. 
 Las decisiones se toman a través del consenso de la comunidad, no en función 
 de los deseos de unos pocos acaparadores. Estas características hacen de Skycoin 
-la cadena de bloques disponible más segura en la actualidad.
+la cadena de bloques más segura disponible en la actualidad.
 
 El objetivo original de las monedas digitales era reinventar la economía 
 para que los usuarios pudieran tener la independencia para comerciar en una 
