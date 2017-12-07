@@ -22,6 +22,8 @@ categories = [
 
 *Updated November 8, 2017. Graphics and video bounties are handled on a case-per-case basis in the bounty channel.*
 
+*Update December 7, 2017. Add Português*
+
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
 
 ## Bounty Categories
@@ -56,6 +58,7 @@ Accepted languages are:
 * 한국어
 * Ελληνικά
 * Français
+* Português
 
 *Note: 中文 and Рyсский translations all have someone working on them now*
 
