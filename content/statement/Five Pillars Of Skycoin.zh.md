@@ -1,5 +1,5 @@
 +++
-title = "Five Pillars of Skycoin"
+title = "Skycoin的5大支柱"
 tags = [
     "Statement",
 ]
