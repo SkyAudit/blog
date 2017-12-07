@@ -64,6 +64,6 @@ financiero para expandir la red Skywire.
 
 *Leer más:*
 
-* *[Skywire Posts](/categories/skywire/)*
-* *[Skycoin Overview](/overview/skycoin-overview/)*
-* *[Skywire - Skycoin Meshnet Project](/overview/skywire---skycoin-meshnet-project/)*
+* *[Publicaciones sobre Skywire](/categories/skywire/)*
+* *[Visión general de Skycoin](/overview/skycoin-overview/)*
+* *[Skywire - El Proyecto de red en malla de Skycoin](/overview/skywire---skycoin-meshnet-project/)*
