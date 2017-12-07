@@ -1,5 +1,5 @@
 +++
-title = "Skycoin就是下一代密码货币
+title = "Skycoin就是下一代密码货币"
 tags = [
     "Decentralization",
     "Ideology",
