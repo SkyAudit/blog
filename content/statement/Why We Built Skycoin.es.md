@@ -70,8 +70,8 @@ devaluación continua que eventualmente extinguen la moneda.
 En resumen, las monedas basadas en PoW no han podido entregar un sistema 
 descentralizado. Los grupos mineros explotan a otros usuarios para subsidiar 
 sus propios costos, mientras consumen grandes cantidades de poder de procesamiento. 
-Podemos hacerlo mejor. En Skycoin, abordamos este problema de frente en el 
-desarrollo de nuestro algoritmo de consenso alternativo.
+Podemos hacerlo mejor. En Skycoin, abordamos este problema de frente al desarrollar
+nuestro algoritmo de consenso alternativo.
 
 ## Prueba de Participación: Más problemas de centralización
 
