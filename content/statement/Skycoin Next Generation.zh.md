@@ -1,5 +1,5 @@
 +++
-title = "Skycoin is a Next Generation Cryptocurrency"
+title = "Skycoin就是下一代密码货币
 tags = [
     "Decentralization",
     "Ideology",
@@ -11,86 +11,78 @@ categories = [
 ]
 +++
 
-*This is an archived post from the bitcointalks thread on May 06 2014.*
+*这是2014年5月6日bitcointalks的存档帖子。*
 
->Quote from: -Greed- on May 05, 2014, 04:25:46 PM
-+1 for skycoin being truly 2nd-gen coin. Bitcoin and all its forks are
-first-gen IMO.
+>引用自：-Greed-于2014年05月05日下午04:25:46
+天空币是真正的第二代硬币,给楼主顶一个。比特币和所有的分叉都是第一代的IMO。
 
-Some of the things we are laying the foundations for are third gen. A working,
-usable coin, with a clean code base and good security, no mining, no 51%
-attack and a reason to use the coin is just second gen.
+我们正在奠定一些第三代的基础。一个工作，可用的硬币，
+具有干净的代码基础和良好的安全性，不使用采矿，没有51％攻击和使用硬币的原因就只是第二代。
 
-Digital contracts, communication and identity infrastructure lay the
-foundation for the third gen. We do not know what the third gen will look
-like, but believe that it will involve platforms and 3rd party applications.
+数字合同，通信和身份基础设施奠定了第三代的基础。
+我们不知道第三代到底会是什么样子,
+但是我们相信它会涉及平台和第三方应用程序。
 
-A first gen coin is extremely easy to fork. You just change the hash function
-or the name and logo and then release it. The first generation was about
-marketing. Bitcoin and then Dogecoin were the most successful coins in the
-first gen. Bitcoin has a strong community, the strongest merchant adoption and
-ecosystem. Dogecoin has the best community, the best marketing and wide
-adoption among younger users.
+第一代的硬币非常容易分叉。你只是改变散列函数
+或名称和标识，然后释放它。第一代是关于
+营销。比特币，然后是狗狗币(Dogecoin)是最成功的第一代硬币。
+比特币有一个强大的社区，最强的商户采用和
+生态系统。狗狗币拥有最好的社区，最好的营销和广泛的
+年轻用户采用。
 
-Between the second and third gen, we are seeing features like messaging for
-communication between addresses and other extensions. You cant fork the coin
-because your fork is no longer compatible with the ecosystem of the original.
+在第二代和第三代之间，我们可以看到诸如消息传递等功能
+地址和其他分机之间的通信。你不能把硬币分叉
+因为你的分叉再不再与原来的生态系统兼容。
 
-At the same time, between the second and third generation the new platforms
-increase interoperability between first generation coins. Any two coins become
-automatically convertible between each other at the spot price. You dont care
-if they accept Bitcoin or which basket of currencies they accept, because it
-is the same for the end user. They just go to their wallet and hit "pay" and
-select the currency to pay in and which wallet they want to pay out of.
+同时，在第二代和第三代之间新的平台
+增加第一代硬币之间的相互操作性。任何的两个硬币可以
+以现货价格自动兑换。你不会在乎
+如果他们接受比特币或他们接受的货币，那就是因为它
+对最终用户来说是一样的。他们只是去钱包，按下“支付”
+之后选择钱包和想要支付的货币。
 
-The third gen will have more community currencies or companies issuing their
-own currencies as gift cards ("small tent" special purpose currencies). In the
-second generation, we are seeing wallstreet exchanges and banks integrating
-Bitcoin as a commodity, like Gold. They are trading Bitcoin as a commodity,
-but have not adapted to run their infrastructure on Bitcoin type systems.
+第三代将有更多的社区货币或公司发行
+自己的货币作为礼品卡（“小帐篷”专用货币）。在
+第二代，我们看到了华尔街的商品交易和银行把
+比特币就像金子一样是一种商品。他们以比特币作为商品交易，
+但他们还没有适应在比特币类型的基础系统上运行。
 
-In the third generation, we might see new banks and exchanges which build
-their whole transaction infrastructure from cryptographic primitives, receipts
-and contracts. A user of an offshore bank has a receipt and counter-receipts
-from each transaction and the counterparties. The bank cannot steal his money
-or change his balance. The bank cannot authorize or forge a receipt for
-sending money to a third party without the users cryptographic signature. All
-banks expose a common API.
+在第三代，我们可能会看到新的银行和交易所把
+他们的整个交易基础设施建立在密码原语，收据
+和合同之上。离岸银行的用户每笔交易都会有收据和来自和交易对手的"反向收据"。
+所以银行不能窃取用户的钱或改变用户的账户余额。
+银行不能在没有用户密码签名的情况下授权或伪造收据将钱款发送给第三方。
+所有银行都一个共同的API运作。
 
-The things in the account no longer have to be currency pairs but can be other
-assets. All fiat is the same. You do not have separate systems and a separate
-database table for different types of fiat. The system handles all fiat
-transactions in a consistent way.
+账户中的东西不再是基于货币对换，而可以是其他货币和
+资产对换。所有"Fiat"都是一样的。
+同时再没有单独的系统和不同类型的"Fiat"单独的数据库表为。
+系统处理所有fiat交易都是以一致的方式进行。
 
-In the third generation, anyone can issue bonds and options. Previously, there
-was counterparty risk for options. Only large financial players could issue
-options on equities. A large company is less likely to default from a bad
-options position. In the third generation, anyone can issue options. Options
-are digital contracts and the performance of the option contract is guaranteed
-by assets in third party escrow. Crypto-assets become accounting mechanisms
-for legacy assets.
+在第三代，任何人都可以发行债券和期权。在之前,
+是期权都是交易对手在风险下发行的。只有大型金融企业才能发行
+股票的期权。一家不太可能违约大公司一般只会发没这么好的期权。
+在第三代中，任何人都可以发布期权。期权
+是一份数字合同，期权合约的履行是有第三方托管资产保证的。
+加密资产成为对于遗留资产的会计机制。
 
-Many coins such as Mastercoin, Ethereum and colored coins are trying to jump
-to gen three. However, we believe that gen three will emerge organically on
-top of infrastructure developed for gen two coins.
+Mastercoin，Ethereum和彩色硬币等许多硬币正试图跳跃成为第三代。
+但是，我们相信三代将会在两代硬币开发的基础设施顶端有机地出现。
 
-Bitcoin has extremely poor extensibility for standards, so you have three
-wallets and three different wallet implementations and no interoperability, no
-interoperability between exchange APIs and no roadmap which allows third party
-developers to drive protocol evolution. Personal blockchains in Skycoin are
-designed be generic and allow users to individually upgrade their nodes to
-support new scripting languages, types of contracts and put control of the
-protocol in the hands of users and third party devs. The wire protocol is
-extensible and allows association of new applications with the Skycoin daemon.
+比特币的标准扩展性极差，比如说你有三个
+钱包和三个不同的钱包实现，没有互操作性，没有
+交换API之间的互操作性，没有允许第三方的路线图
+开发人员推动协议的演变。 Skycoin的个人区块链
+就是为了通用而设计的，这设计并允许用户单独升级他们的节点,支持新的脚本语言，合同类型，并把控制
+协议在用户和第三方开发者手中。有线协议是
+可扩展并允许将新的应用程序与Skycoin程序相互关联。
 
-We had to invent personal blockchains, so that individual users and developers
-could experiment and extend the protocol without threatening the mainchain.
-Colorcoin and other coins embedded on the blockchain will never be able to
-achieve the functionality required for practical use, because the Bitcoin
-developers have been forced to disable op codes for security,  there is no
-mechanism in the blockchain for pulling in the required data for a practical
-system of financial contracts and any experimentation with new protocols
-requires a blockchain fork.
+我们不得不发明个人区块链，以便个人用户和开发者
+可以在不威胁主链的情况下测试他们的扩展协议。
+嵌入在区块链中的Colorcoin和其他硬币将永远无法使用
+实现实际使用所需的功能，因为比特币
+开发人员已经因安全性而被迫停用op代码，如果不进行区块链的分叉, 
+我们现在没有一个在区块链中的机制，可以为实际需求进行任何实验和提取所需的数据。
 
-If the evolution of the ecosystem stops at where Bitcoin is today, the full
-potential of crypto currencies will never be realized.
+如果生态系统的发展停止在比特币今天的位置，
+密码货币的潜力永远不会实现。
