@@ -18,7 +18,7 @@ Los cambios son los siguientes:
 
 - Utiliza la última versión de CXO (base de datos auto replicante de igual a igual).
 - Reimplementación de los objetos y árbol de CXO (en preparación para nuevas funciones).
-- Introducción a un modulo de `views` para una fácil implementación de diferentes formas de "ver" contenido.
+- Introducción a un módulo de `views` para una fácil implementación de diferentes formas de "ver" contenido.
 - Implementación inicial de seguimiento/evitación de usuarios.
 - Interfaz completamente renovada.
 
@@ -89,4 +89,4 @@ En el momento de esta publicación, esto está cerca de ser completado. Aquí ha
 
 [![Skycoin BBS Showcase 4](https://i.ytimg.com/vi/Oue3WVkmGh4/0.jpg)](https://youtu.be/Oue3WVkmGh4)
 
-Mantengase al día con el desarrollo de Skycoin BBS, vigilando esta sección y uniéndose a nuestra [Comunidad de Skycoin BBS ](https://t.me/skycoinbbs) en Telegram.
+Manténgase al día con el desarrollo de Skycoin BBS, vigilando esta sección y uniéndose a nuestra [Comunidad de Skycoin BBS ](https://t.me/skycoinbbs) en Telegram.
