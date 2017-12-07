@@ -24,7 +24,7 @@ lo tanto, Skycoin está tratando de crear una criptomoneda que cumpla mejor
 con la visión original de Satoshi de un sistema de moneda digital
 completamente descentralizado.
 
-Al hacer esto, la tecnología de Skycoin crea una red cadena de bloques sin
+Al hacer esto, la tecnología de Skycoin crea una red blockchain sin
 requisitos de minería, con suministros fijos de crypto-tokens, tiempos de
 transacción de 10 segundos y mayor seguridad. En un sistema en el que la
 conexión entre la creación de la moneda y el control de la red está cortada,
