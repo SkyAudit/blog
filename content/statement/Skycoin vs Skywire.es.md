@@ -33,7 +33,7 @@ lo rechazas y también lo hacen tus compañeros de confianza.
 Puede haber muchos nodos maliciosos en la red, pero no tendrán ningún 
 impacto si no hay confianza en ellos.
 
-Skywire fue desarrollado para solucionar problemas de la Internet. Hay muchos 
+Skywire fue desarrollado para solucionar problemas de Internet. Hay muchos 
 [puntos de ataque](https://en.wikipedia.org/wiki/BGP_hijacking) especialmente 
 para los gobiernos, ya que tienen un gran control sobre la infraestructura. 
 Pero también los grandes ISP son bastante malos con sus clientes. Todos 
