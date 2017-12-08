@@ -18,7 +18,7 @@ author = "johnstuartmill"
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
 - [Puntos destacados acerca del consenso](#puntos-destacados-acerca-del-consenso)
-    - [Por qué el consenso](#por-que-el-consenso)
+    - [Por qué el consenso](#por-qué-el-consenso)
     - [Alta escalabilidad y bajo consumo de energía](#alta-escalabilidad-y-bajo-consumo-de-energía)
     - [Robusto ante ataques coordinados](#robusto-ante-ataques-coordinados)
     - [El “Ataque del 51 por ciento”](#el-%E2%80%9Cataque-del-51-por-ciento%E2%80%9D)
