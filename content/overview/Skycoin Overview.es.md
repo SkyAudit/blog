@@ -16,9 +16,9 @@ categories = [
 - [Innovaciones e imperfecciones de Bitcoin y los protocolos actuales de cadena de bloques](#innovaciones-e-imperfecciones-de-bitcoin-y-los-protocolos-actuales-de-cadena-de-bloques)
 - [Innovaciones producidas por Bitcoin](#innovaciones-producidas-por-bitcoin)
 - [Defectos importantes de Bitcoin](#defectos-importantes-de-bitcoin)
-- [Desirable Properties For Systems Of Distributed Consensus For Financial Ledgers](#desirable-properties-for-systems-of-distributed-consensus-for-financial-ledgers)
-- [Skycoin Security Philosophy](#skycoin-security-philosophy)
-- [Transparency And Security: Obelisk And Public Broadcast Channels](#transparency-and-security-obelisk-and-public-broadcast-channels)
+- [Cualidades convenientes para los sistemas de consenso distribuido para los registros financieros](#cualidades-convenientes-para-los sistemas-de-consenso-distribuido-para-los-registros-financieros)
+- [Filosofía de seguridad de Skycoin](#filosofía-de-seguridad-de-skycoin)
+- [Seguridad y Transparencia: Obelisk y Canales de transmisión pública](#seguridad-y-transparencia:-obelisk-y-canales-de-transmisión-pública)
 - [Obelisk](#obelisk)
 - [Simple Binary Consensus Algorithm: Choosing Between Two Blocks](#simple-binary-consensus-algorithm-choosing-between-two-blocks)
 - [Consensus On Multiple Concurrent Branch Choices](#consensus-on-multiple-concurrent-branch-choices)
@@ -336,7 +336,7 @@ Habrá cambios, mejoras y mejoras a medida que
 trabajamos a través de los detalles, abordamos 
 fallas conocidas, probamos el sistema y obtenemos retroalimentación.
 
-# Transparencia y seguridad: Obelisk y Canales de transmisión pública
+# Seguridad y Transparencia: Obelisk y Canales de transmisión pública
 
 Para resolver los problemas de compromiso asociados 
 con el sistema de Bitcoin, la tecnología subyacente a 
@@ -355,50 +355,50 @@ El canal de transmisión pública impone varias limitaciones:
 
 Los bloques se replican de igual a igual 
 a todos los suscriptores. Una vez que se 
-ha publicado un bloque, se propaga a todos 
+ha publicado un bloque, este se propaga a todos 
 los suscriptores. Debes destruir a todos 
 los pares que han recibido el bloque para 
 lograr borrarlo de internet.
 
-Blocks are replicated peer to peer to
-all subscribers. Once a block has been
-published, it spreads to all subscribers.
-You have to destroy all peers who have
-received the block to erase it from
-internet.
+### * Un nodo no puede publicar una versión diferente de un bloque previo y pasar desapercibido
 
-### * A Node Cannot Publish A Different Version Of An Earlier Block Without Detection
+Los bloques están numerados y se 
+detectarían si el nodo firmara 
+dos bloques diferentes con el mismo 
+número de secuencia.
 
-Blocks are numbered and it would
-be detected if the node signed two
-different blocks with the same
-sequence number.
+### * Un nodo no puede retroceder la marca de tiempo en la recepción de un bloque, sin retrasar la publicación de un bloque
 
-### * A Node Cannot Backdate The Timestamp On The Receipt Of A Block, Without Delaying The Publication Of A Block
+Las marcas de tiempo solo aumentan, 
+las marcas de tiempo aumentan 
+monótonamente con el conteo de secuencias de bloques.
 
-Timestamps only go up, timestamps
-increase monotonously with block
-sequence count.
+### * Un bloque en el medio de la cadena no se puede cambiar sin invalidar cada bloque que viene después
 
-### * A Block In The Middle Of The Chain Cannot Be Changed Without Invalidating Every Block That Comes After It
-
-In a hash chain, each block header contains
-a hash of the previous block.
+En una cadena hash, 
+cada encabezado de bloque contiene un hash del bloque anterior.
 
 # Obelisk
 
-Each Obelisk node (Skycoin Consensus Node)
-has a public key (an identity) and personal blockchain
-(a public broadcast channel). Consensus decisions
-and communication happen within the personal
-blockchains of each Obelisk node. This is a public
-record of everything a node does. This allows the
-community to audit nodes for cheating and collusion.
-It gives the community a way to identify nodes which
-are participating in attacks on the network and
-it makes public how decisions in the network are
-being made and which nodes are influencing those
-decisions.
+Cada nodo de Obelisk (nodo de consenso de Skycoin) 
+tiene una llave pública (una identidad) y una cadena de 
+bloques personal (un canal de transmisión pública). Las 
+decisiones de consenso y la comunicación suceden dentro 
+de las cadenas de bloques personales de cada nodo Obelisk. 
+Este es un registro público de todo lo que hace un nodo. 
+Esto permite a la comunidad auditar nodos por trampa y 
+conspiración. Le da a la comunidad una forma de identificar 
+a los nodos que participan en los ataques a la red y hace 
+público cómo se están tomando las decisiones en la red y 
+qué nodos están influyendo en esas decisiones.
+
+Cada nodo tiene una lista de otros nodos a los que se suscribe. 
+Los nodos con más suscriptores son más "confiables" y producen 
+más influencia en la red. Si la comunidad no confía en los nodos 
+que la representa o siente que el poder dentro de la red está 
+demasiado concentrado (o no lo suficientemente concentrado) la 
+comunidad puede cambiar colectivamente el equilibrio de poder 
+en la red al cambiar colectivamente sus relaciones de confianza.
 
 Each node has a list of other nodes that it
 subscribes to. Nodes with more subscribers are more
