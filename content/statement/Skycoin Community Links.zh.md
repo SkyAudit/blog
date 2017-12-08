@@ -1,5 +1,5 @@
 +++
-title = "Skycoin Community Links"
+title = "Skycoin社区链接"
 tags = [
     "Community",
 ]
@@ -10,50 +10,50 @@ categories = [
 ]
 +++
 
-Talk with the Skycoin Team
+与Skycoin团队联络
 --------------------------
 
-The Skycoin team is most active on Telegram.
+Skycoin团队电报(Telegram)最为火热活跃
 
-* [Skycoin Telegram Channel](https://t.me/Skycoin)
-* [Skycoin BBS Channel](https://t.me/skycoinbbs)
-* [Skycoin News Channel](https://t.me/skycoinnews)
-* [Skycoin Bounty Program Channel](https://t.me/skycoinbounty)
+* [Skycoin电报频道](https://t.me/Skycoin)
+* [Skycoin BBS 频道](https://t.me/skycoinbbs)
+* [Skycoin新闻频道](https://t.me/skycoinnews)
+* [Skycoin赏金节目频道](https://t.me/skycoinbounty)
 
-* [Skycoin Slack](https://skycoin.herokuapp.com)
-* [Skycoin Discord](https://discord.gg/MTepVHE)
+* [Skycoin Slack 频道](https://skycoin.herokuapp.com)
+* [Skycoin Discord 频道](https://discord.gg/MTepVHE)
 
-Mailing List
+邮件列表订阅
 ------------
 
-* [Skycoin Mailing List](http://eepurl.com/c4DyAv)
+* [Skycoin通讯录](http://eepurl.com/c4DyAv)
 
-News Updates
+新闻更新
 ------------
 
-* [Skycoin Blog](https://blog.skycoin.net)
-* [Skycoin Twitter](https://twitter.com/skycoinproject)
+* [Skycoin 博客](https://blog.skycoin.net)
+* [Skycoin 推特](https://twitter.com/skycoinproject)
 * [Skycoin Reddit](https://reddit.com/r/skycoinproject)
-* [Skycoin Facebook](https://www.facebook.com/skycoinproject)
+* [Skycoin 脸书](https://www.facebook.com/skycoinproject)
 
-Media
+媒体
 -----
 
 * [Skycoin Youtube](https://www.youtube.com/channel/UCzLASufel2No4vSt4rudHSQ)
 * [Skycoin Instagram](https://www.instagram.com/skycoinproject/)
 
-Software
+软件
 --------
 
-All code is published to github.  Contributors and testers are encouraged.
+所有代码都被发布到github上。鼓励提供者和测试者。
 
-* [Skycoin Github Organization](https://github.com/skycoin)
-* [Skycoin Core & Wallet](https://github.com/skycoin/skycoin)
-* [Skycoin Mobile Wallet](https://github.com/skycoin/skycoin-mobilewallet)
+* [Skycoin Github 组织](https://github.com/skycoin)
+* [Skycoin 核心和钱包](https://github.com/skycoin/skycoin)
+* [Skycoin 移动钱包](https://github.com/skycoin/skycoin-mobilewallet)
 * [Skywire (Meshnet)](https://github.com/skycoin/skywire)
 * [Skycoin BBS](https://github.com/skycoin/bbs)
 * [Skycoin CX](https://github.com/skycoin/cx)
 * [Skycoin CXO](https://github.com/skycoin/cxo)
-* [Skycoin Messenger](https://github.com/skycoin/net)
-* [Skycoin Website](https://github.com/skycoin/skycoin.net)
-* [Skycoin Blog](https://github.com/skycoin/blog)
+* [Skycoin 信差](https://github.com/skycoin/net)
+* [Skycoin 网站](https://github.com/skycoin/skycoin.net)
+* [Skycoin博客](https://github.com/skycoin/blog)
