@@ -73,6 +73,8 @@ If a post is already translated but you find mistakes or improvement, we can giv
 One or two other native speakers of the translated language must review the translation to check its quality.
 Bad translations will not receive a bounty, although you are free to improve it until it is accepted.
 
+Instructions for submitting translations to the github are here: https://github.com/skycoin/blog/files/1469162/github-translation-manual.pdf
+
 ## Writing
 
 Blog posts, articles
