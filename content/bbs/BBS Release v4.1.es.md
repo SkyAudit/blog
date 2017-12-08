@@ -35,7 +35,7 @@ categories = [
 
 ## Código fuente
 
-Disponible en GitHub. \
+Disponible en GitHub.
 https://github.com/skycoin/bbs
 
 ## Comunidad
