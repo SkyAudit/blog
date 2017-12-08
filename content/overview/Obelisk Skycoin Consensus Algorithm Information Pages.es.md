@@ -21,7 +21,7 @@ author = "johnstuartmill"
     - [Por qué el consenso](#por-qué-el-consenso)
     - [Alta escalabilidad y bajo consumo de energía](#alta-escalabilidad-y-bajo-consumo-de-energía)
     - [Robusto ante ataques coordinados](#robusto-ante-ataques-coordinados)
-    - [El “Ataque del 51 por ciento”](#el-%E2%80%9Cataque-del-51-por-ciento%E2%80%9D)
+    - [El ataque del 51 por ciento](#el-ataque-del-51-por-ciento)
     - [Direcciones IP ocultas](#direcciones-ip-ocultas)
     - [Independencia de la sincronización de reloj](#independencia-de-la-sincronización-de-reloj)
     - [Dos tipos de nodos: de Consenso y de Creación de Bloques](#dos-tipos-de-nodos-de-consenso-y-de-creación-de-bloques)
@@ -59,7 +59,7 @@ puede ser ejecutado en una red dispersa teniendo solo conectividad con el vecino
 más cercano (por ejemplo: en Red en Malla) y funciona bien en presencia de ciclos
 en el gráfico de conectividad (es decir, *no* se requiere conectividad de tipo DAG).
 
-### El “Ataque del 51 por ciento”
+### El ataque del 51 por ciento
 
 En un sentido limitado, la versión base del Algoritmo puede estar sujeta a este
 ataque. Específicamente, cuando nodos modificados o maliciosos que son mayoría
