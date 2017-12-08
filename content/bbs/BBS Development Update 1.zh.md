@@ -1,5 +1,5 @@
 +++
-title = "Skycoin BBS Development Update #1"
+title = "Skycoin BBS开发 更新＃1"
 tags = [
     "Development",
     "BBS",
@@ -10,45 +10,49 @@ date = "2017-08-05"
 categories = [
     "Development Updates",
 ]
-description = "The first development update for Skycoin BBS."
+description = "Skycoin BBS 的第一个开发更新。"
 +++
 
 ## An Introduction
 
-BBS stands for Bulletin Board System. Although traditional BBS systems are no longer widely used, BBS in the modern era is an icon for social services.
+BBS(Bulletin Board System) 代表电子布告栏系统。虽然传统的BBS系统不再被广泛使用，BBS现在现代成为了社会服务的表表者。
 
-Skycoin BBS is one of the first web applications to be implemented using the skycoin ecosystem. Skycoin attempts to revolutionize the internet; decentralizing it and encrypting protocols by default.
 
-Underlying Skycoin BBS is a peer-to-peer self-replicating database named CXO (part of the Skycoin ecosystem). It features immutable tree structures of Golang objects. All objects are referenced via their hashes alongside defined schemata. Each tree has a root object and signed against a public/private key pair. To update the tree, roots have incremental versions called "sequences". This design allows for fast, bandwidth efficient data replication.
+Skycoin BBS是第一个使用skycoin生态系统实施的第一个Web应用程序之一。 Skycoin试图彻底改变互联网; 把它去中心化，并默认地使用加密协议。
 
-## Data Structure
+Skycoin BBS 的根基是一个名为CXO（Skycoin生态系统的一部分），一个点对点，自我复制的网络数据库。它具有像Golang 对象一样，不可变的树结构。所有对象都通过自己的哈希值一起定义图式引用。每棵树都有一个树根对象和对公/私钥对签名。要更新树，树根有增量的版本称为“序列”。这种设计实现快速，高效的带宽数据复制。
 
-The data structure of Skycoin BBS (version 0.2 - in development ) contains boards, threads and posts. Boards and threads can be voted on. This is how it all looks in a CXO tree:
+
+## 数据结构
+
+Skycoin BBS（0.2版本 - 正在开发）的数据结构包含不同的板，主题和帖子。板和帖子都可以给与正／负评。
+这是大概CXO树的样子：
 
 ![](https://raw.githubusercontent.com/skycoin/bbs/v0.2/doc/cxo_data_structure.jpg)
 
-This is a simplified diagram.
+这是一个简化图。
 
-All submitted objects (threads, posts and votes) are to be verified via the submitting user's public key and provided signature.
+所有提交的对象（主题，帖子和投票），都可以通过提交用户的公钥提供的签名和进行验证。
 
-Each root contains data that is used to represent/store a single board. BoardPage contains the "content"; the board itself, threads and posts. Threads are referenced by the hash of the "Thread" object while posts are referenced by the hash of the "Post" itself. Hence, posts and threads cannot be modified once submitted.
+每根包含用于表示／存储每一个板的数据。 Board－Page包含“内容”; 板的本身，主题和帖子。主题是由“主题”对象的哈希所反映，而帖子同样被“帖子”本身的哈希所翻译。因此，帖子和主题一经提交就不能能被修改。
 
-ThreadVotesPages, PostVotesPages store the votes for the content. The "ref" field of the VotePage contains the hash of the content in question. The "Votes" field stores votes for the specified content. The VotePages are to be "compiled" by the BBS node into a storage structure that can quickly obtain a "view of votes" for the front end.
+Thread－Votes－Pages，Post－Votes－Pages存储了投票的内容。该Vote－Page的“引用（ref）”字段包含相关内容的哈希值。在“投票”字段存储了扳票中的指定的内容。 Vote－Pages是由BBS节点到存储的结构，所以能够迅速的获得“投票概览”。
 
-Votes are stored separate to the content to reduce the number of tree nodes that needs to be changed with every vote. It also allows for easier vote data manipulation by the vote's compiler.
+投票和内容是分开存储以减少因为每一次投票而改变的树的节点数目。它还允许通过投票的编译器得到更容易票数据操作。
 
-## Releases
+## 发布
 
-Currently, only one stable version of Skycoin BBS has been released. The features are basic, but the CXO data structure is more complicated than the one specified above. Content addition and voting resulted in the root sequence to increment multiple times per action.
+目前，我们只发布了一个稳定的Skycoin BBS。目前的功能是十分基本的，但CXO数据结构比上面所指的更复杂。内容增加和投票产生使得那个根在每个动作之上以倍数增长。
 
-Version 0.2 of BBS (currently in development), not only increases performance and code clarity, but also will implement the following new features:
+BBS（目前正在开发）的0.2版，不仅提高了性能和代码的清晰度，同时也将实现以下新的特点：
 
-* Improved content loading - We will make use of WebSocket connection(s) between client and server to allow for real time updates and more efficient content loading.
-* Content voting/viewing improvements - Both in actual performance and fluidity from the user's perspective. Spam reporting will also be introduced.
-* Permissions - Boards will be able to set permissions on as to who can perform what actions (e.g. submitting content / voting). The ability to block users will also be available.
+* 改进内容加载 - 我们将利用客户端和服务器之间的WebSocket连接（S）的，允许实时更新，更有效的内容加载。
+* 内容投票/观看改善 - 无论从用户的角度来看，或是实际表现和流动性。垃圾邮件的报告也将陆续展开。
+* 权限 - 现在可以设置权限限制谁可以执行有一些操作（如提交内容/投票权）。屏蔽／拉黑用户的功能也将会推出。
 
 ## Participate
 
-Get up to date with the development of Skycoin BBS by joining our [Telegram Group](https://t.me/skycoinbbs).
+欢迎加入我们的[电报小组](https://t.me/skycoinbbs).
+已得到最新Skycoin BBS的开发消息。 
+Skycoin BBS是開源的。源代碼可以遊覽[這裏](https://github.com/skycoin/bbs)。需要注意的是0.2版本的開發是在“V0.2”分支。
 
-Skycoin BBS is open source. The git repository is located [here](https://github.com/skycoin/bbs). Note that the development for version 0.2 is in the "v0.2" branch.
