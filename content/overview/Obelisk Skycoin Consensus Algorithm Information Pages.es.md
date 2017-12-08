@@ -23,9 +23,9 @@ author = "johnstuartmill"
     - [Robusto ante ataques coordinados](#robusto-ante-ataques-coordinados)
     - [El “Ataque del 51 por ciento”](#el-%E2%80%9Cataque-del-51-por-ciento%E2%80%9D)
     - [Direcciones IP ocultas](#direcciones-ip-ocultas)
-    - [Independencia de la sincronización de reloj](#independencia-de-la-sincronizacion-de-reloj)
+    - [Independencia de la sincronización de reloj](#independencia-de-la-sincronización-de-reloj)
     - [Dos tipos de nodos: de Consenso y de Creación de Bloques](#dos-tipos-de-nodos-de-consenso-y-de-creación-de-bloques)
-- [Cómo funciona el Algoritmo de Consenso de Skycoin](#como-funciona-el-algoritmo-de-consenso-de-skycoin)
+- [Cómo funciona el Algoritmo de Consenso de Skycoin](#cómo-funciona-el-algoritmo-de-consenso-de-skycoin)
 - [Referencias](#referencias)
 
 <!-- /MarkdownTOC -->
@@ -133,7 +133,7 @@ descripción del Algoritmo del Consenso de Skycoin.
 [^2]: Bajo ciertas condiciones ideales, los ganadores locales (para un determinado número de secuencia de bloque) son todos iguales, es decir, incluyen un conjunto idéntico de transacciones. La diferencia surge debido a la latencia de la red, la alta frecuencia de las transacciones, la entrega de mensajes fuera de secuencia, la pérdida de mensajes, los errores de funcionamiento o los nodos maliciosos, etc.
 [^3]: Este número puede ser determinado, por ejemplo, pidiendo a los nodos de confianza que informen las claves públicas de sus nodos de confianza, de manera recursiva.
 
-## References
+## Referencias
 
 \[1\] johnstuartmill et al. A Distributed Consensus Algorithm for
 Cryptocurrency Networks.
