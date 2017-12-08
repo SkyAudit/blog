@@ -1,5 +1,5 @@
 +++
-title = "Skywire: A Free and Open Internet"
+title = "Skywire: 一个免费和开放的互联网"
 tags = [
     "Skywire",
     "Skycoin Mining",
@@ -13,88 +13,70 @@ categories = [
 bounty = 5
 +++
 
-The internet gives us the illusion of control. We can socialize, consume, and
-do business instantly through services provided by Google, Facebook, Apple,
-and Amazon. Seems convenient, right? It is – until you consider what you’re
-giving up.
+互联网给了我们一个可以控制的幻觉。我们可以在网上通过Google，Facebook，Apple，和亚马逊等社交，消费和做生意等。
+看起来方便吧？是的 - 直到你细想你到底放弃了什么。
 
-We don’t control our lives online. Large companies and internet service
-providers (ISPs) collect our data, track our movements, and shape our
-experiences. Every time we use the internet, we give these companies total
-power over us. We don’t own our internet lives, they do.
+其实我们控制不了自己的网上生活。这听起来很讽刺, 可是大公司和互联网服务
+提供商（ISP）一直收集我们的数据，跟踪我们的动向，并塑造我们的网上体验。
+每次我们使用互联网，我们都给这些公司很大很大的权力去收集这些信息。
+谁拥有我们的网络生活?
+答案是并不是我们自己，而是他们。
 
-It’s getting worse. Corporate and government entities continue to threaten
-internet freedom. Just this spring, the FCC moved to throw out net neutrality
-rules. If the move succeeds, the net neutrality protections that provide equal
-access for all content will be destroyed. ISPs will be able to block content
-and control connectivity. They’ll choose which content you see, and exactly
-how you see it.
+情况日趋严重。企业和政府实体继续威胁
+互联网自由。就在今年春天，美国联邦通信委员会开始抛出网络中立守则。
+如果这一举措成功，那么提供平等的网络中立保护
+所有内容的访问将被摧毁。互联网服务供应商将能够阻止内容
+并控制连接。他们会选择您所看到的,以及你怎样看到这些内容。
 
-Globally, the threat to internet freedom is even more serious. Some
-governments actively censor sites, or block certain apps and services. Other
-countries have economically-rooted problems with access. Much of the
-developing world has no internet access at all, while some have limited access
-that comes at a high cost due to corporate control and third-party scams that
-exploit less-experienced users.
+在全球层面来看，互联网自由的威胁更为严重。一些政府主动审查网站，或阻止某些应用程序和服务。在经济根源问题上有一些
+发展中国家根本接触不了互联网，有的由于企业控制, 使得成本很高, 最后导致接触互联网的程度非常有限。
+第三方骗徒利用这一点对经验不足的用户作出敲诈。
 
-Everywhere we look, governments and corporations exclude disadvantaged groups.
-Censorship and profit incentives keep the general public from unlocking the
-web’s full potential. 10% of the US population – about 34 million people –
-have no reliable internet access. The number is higher in rural areas. These
-people are disproportionately vulnerable to internet outages. They lack the
-social, educational, and economic advantages that fair and equal internet
-access would provide.
+我们所看到的每一个地方，政府和企业都排除了弱势群体。
+审查制度和利润激励措施使广大公众免于解锁并且开发互联网的真正实在潜力。
+美国人口其中的10％ - 约3400万人 -
+没有可靠的互联网连接。农村地区人数更多。这些互联网瘫痪的人数不成比例。他们缺乏
+社会，教育和经济的优势，这缺乏的优势应该由公平和平等的互联网所填补。
 
-It’s time to take back control. The internet should be a public resource, not
-a tool for corporate profit or government surveillance. Together with
-developers and activists, Skywire is leading this fight.
+是时候把控制权还给大众了。互联网应该是公共资源，而不是企业利润或政府监督的工具。
+联同开发者和积极的行动者，Skywire正在领导这场斗争。
 
-[Skywire](https://github.com/skycoin/skywire) is a peer-to-peer alternative
-network that takes control from ISPs and gives it back to the users.
-Peer-to-peer technology doesn’t require you to give up your identity and data
-to access content. Skywire provides a blockchain-based decentralized network
-where you can browse securely and privately. With Skywire, you own your data.
-You control your own experience. It’s a truly free and open internet.
+[Skywire](https://github.com/skycoin/skywire) 是一个点对点的另类网络。
+目的是把网络供应商(ISP)过去获取的控制权交还给用户。
+点对点技术并不要求你放弃你的身份和数据
+去访问内容。 Skywire提供一个基于区块链的分散式网络。
+在那里你可以安全和私密的浏览。通过Skywire，您拥有您自己的数据。
+你控制自己的网上体验。这是一个真正的免费和开放的互联网。
 
-A free internet has benefits that go beyond user experience. It provides a
-platform for innovation. Developers can create freely without being smothered
-by powerful corporations. When all sites are treated equally, the public
-benefits from increased transparency and information on topics ranging from
-policy to health. Creativity can flourish. Art becomes accessible to a broader
-demographic. Diverse perspectives can spread and be heard. Free speech can
-thrive. Users can choose their own experience and create their own content,
-rather than consuming a limited set of corporate products.
+免费的互联网有超越用户体验的好处。它提供了一个创新平台。开发人员可以自由地创造而不受压于大公司。
+当所有的网站都受到平等的待遇，从政策到健康议题, 公众将会在高透明度和百花齐放不同的主题信息中受益。
+创造力可以蓬勃发展。艺术变得更广泛。多样的观点可以传播和被听到。
+言论自由可以茁壮成长。用户可以选择自己的体验并创建自己的内容，
+而不是消费一套非常有限并且被操控的企业产品。
 
-Peer-to-peer technology provides security benefits, too. It frees up users to
-act without fear of surveillance. This is a groundbreaking change that would
-profoundly improve online experience. With anonymous and secure private
-browsing and transactions, Skywire levels the playing field to empower all
-users.
+点对点技术也提供了安全方面的好处。它使得用户
+不再担心被监视行事。这是一个突破性的转变
+深刻地改善了在线体验。用匿名和安全的私人
+浏览和交易，Skywire将平等地重新把权力归于用户手上。
 
-In the current internet landscape, companies and government agencies
-constantly track online transactions. They collect personal data and store it
-for marketing, or less benign purposes. But data collection also has a more
-insidious effect: it removes online personhood, turning users into numbers. By
-putting trust blindly in third parties, we give them the ability to exploit
-our data for profit. We lose ownership of the content we create and the
-actions we take. In short, we give up our privacy.
+在目前的互联网环境下，公司和政府机构
+不断跟踪网上交易。他们收集个人资料并存储
+用于市场营销，或者又在其他不那么温和的目的。但数据收集也有更多
+阴险的影响：它消除了在线人格，把用户变成了数字。通过
+盲目地把信任放在第三方，我们给他们开发的能力
+我们的数据为利润。我们失去了我们所创建内容的所有权
+以及我们采取的行动。简单来说，我们放弃了我们的隐私。
 
-Think about it. You wouldn’t give away all your private possessions to a
-faceless organization that could use them however they pleased. So why would
-you do the same thing online? It’s too big a price to pay for convenience.
-Unfortunately, many users feel that they have no other choice. That’s the
-dilemma of the modern internet.
+想想看。你不会把你所有的私人物品都交给一个不知名组织，并且给他们随意地使用。
+那为什么你在网上会做同样的事情？为了方便而付出的代价太大了。
+不幸的是，许多用户觉得他们没有别的选择。这是现代互联网的困境。
 
-Skywire gives users a choice. Better encryption and locally-stored data lets
-you keep your information to yourself. You won’t be vulnerable to data
-breaches, hacking, or theft. Your activities online are private. When you
-regain ownership of your data, you regain your power as a user. It’s that
-simple. And it all starts with the peer-to-peer networking of Skywire.
+Skywire给用户一个选择。更好的加密和本地存储的数据让你保存你自己的信息。
+你的数据将不会受到影响或是给黑客入侵或盗窃。你的在线活动是私人的。
+当你重新获得您的数据的所有权，您作为用户重新获得您的权力。就是这么简单。 
+Skywire的点对点网将会是这一切的开端。
 
-The future of the internet is at risk more now than ever before. With threats
-of censorship, data theft, user exploitation, and profiteering by ISPs, the
-need for transformation is urgent. We’re developing Skywire because we
-understand that urgency. It’s time to unlock the full potential of a free
-internet.
+互联网的未来比以往任都更危险。在数据盗窃，用户身份暴露，以及ISP的暴利的威胁之下。
+互联网急需转型。我们正在开发Skywire，因为我们了解这种紧迫感。现在释放免费互联网全部潜力的时候了
 
-*Source code: https://github.com/skycoin/skywire*
+*源代码: https://github.com/skycoin/skywire*
