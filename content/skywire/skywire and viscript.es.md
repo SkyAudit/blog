@@ -17,9 +17,9 @@ categories = [
 
 [Viscript](https://github.com/skycoin/viscript) es una interfaz de 
 línea de comandos multiplataforma, y un iniciador de aplicaciones 
-y eventualmente un administrador de clúster. Está basado en la biblioteca 
+y eventualmente será un administrador de clúster. Está basado en la biblioteca 
 "signal" como un servidor "signal", por lo que puede gestionar 
-los clientes de "signal", como el nodo y los componentes en skywire. 
+los clientes de "signal", como el nodo y los componentes en Skywire. 
 Se puede ejecutar con interfaz grafica o sin ella. 
 
 #### Captura de pantalla de la interfaz gráfica de Viscript:
@@ -43,7 +43,7 @@ Podemos agregar configuraciones de aplicaciones en el archivo config.yaml, como 
             start meshnet-socks-server sockssrv0 101.202.34.56:9000 8001
 ```
 
-Después de reiniciar Viscript, podemos verificar las aplicaciones que pueden ser iniciadas por Viscript, con el comando apps
+Después de reiniciar Viscript, podemos verificar las aplicaciones que pueden ser iniciadas por Viscript, con el comando apps.
 
 Como se puede ver en la captura de pantalla, podemos iniciar la aplicación usando el comando `s` (`s apptracker 127.0.0.1:20000`).
 
@@ -56,17 +56,17 @@ y apagarlo(`sd`) a través de este id.
 [Skywire](https://github.com/skycoin/skywire) es una red 
 alternativa de pares que toma el control de los ISP y se 
 lo devuelve a los usuarios. Hay varios componentes dentro 
-de él, el administrador de nodos, el nodo y las aplicaciones 
-que se ejecutan en la red en malla, como el cliente vpn, el 
+de él. El administrador de nodos, el nodo y las aplicaciones 
+se ejecutan en la red en malla, como el cliente vpn, el 
 servidor vpn, el cliente de socks, el servidor de socks, etc.
 
 Todos los componentes dentro de Skywire se basan en la 
-biblioteca de signal como un cliente de signal. Entonces, 
+biblioteca de "signal" como un cliente de "signal". Entonces, 
 pueden ser ejecutados, administrados y apagados por medio de Viscript.
 
-## Architecture
+## Arquitectura
 
-#### Architecture Diagram:
+#### Diagrama de Arquitectura:
 
 ------
 
@@ -88,14 +88,14 @@ pueden ser ejecutados, administrados y apagados por medio de Viscript.
 
 ------
 
-There are client side and server side applications for each service, like vpn client and vpn server. They runs on Skywire meshnet. As we know, Skycoin is the currency of Skywire, when the user forwards traffic or provide network resources, he or she receives Skycoin. Likewise, when the user consumes network resources or media, he or she spends Skycoin. Once metering and settlement is implemented, Skywire will generate coins for operating the network.
+Hay aplicaciones del lado del cliente y del servidor para cada servicio, como cliente de vpn y servidor de vpn. Se ejecutan en la red en malla de Skywire. Como ya sabemos, Skycoin es la moneda de Skywire, cuando el usuario reenvía tráfico o proporciona recursos de red, recibe Skycoin. Del mismo modo, cuando el usuario consume recursos de red o medios, gasta Skycoin. Una vez se implante la medición, Skywire generará monedas por operar la red.
 
-Node, Node Manager and Messenger are the key components of Skywire meshnet. Node is a peer to peer mesh node. Service applications will register to Node, and their traffic will be forwarded by Node. Node Manager manages the routes between nodes in meshnet. Messenger allows users to peer clusters by public key. They are the cornerstones of Skywire meshnet.
+El nodo, El administrador de nodos y el Messenger son los componentes clave de la red en malla Skywire. El nodo es un nodo de malla de igual a igual. Las aplicaciones de servicio se registrarán en el nodo y su tráfico será reenviado por el mismo. El administrador de nodo gestiona las rutas entre los nodos en la red. El Messenger permite a los usuarios mirar clústers por llave pública. Estos son los pilares de Skywire.
 
-## Summary
+## Resumen
 
-Viscript and Skywire are still under heavy developments. But we have achieved many exciting milestones around the skycoin ecosystem. And we are enjoying and going to unlock the full potential of a free internet in the future!
+Viscript y Skywire todavía están bajo intenso desarrollo. Pero hemos logrado muchos cosas emocionantes en todo el ecosistema de Skycoin. ¡Lo estamos disfrutando y vamos a desbloquear todo el potencial de una Internet libre en el futuro!
 
-#### Sky-Messenger screenshot:
+#### Captura de pantalla del Sky-Messenger:
 
 ![screenshot](messenger.png)
