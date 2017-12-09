@@ -12,31 +12,31 @@ categories = [
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="2" -->
 
-- [Introducción a CX](#Introducción-a-CX)
-- [Repositorio del Proyecto](#Repositorio-del-Proyecto)
-- [Sintaxis](#Sintaxis)
-- ['Affordances'](#Affordances)
-    - [Restricciones de Aridad](#Restricciones-de-Aridad)
-    - [Restricciones de Tipo](#Restricciones-de-Tipo)
-    - [Restricciones Existenciales](#Restricciones-Existenciales)
-    - [Restricciones de Identificador](#Restricciones-de-Identificador)
-    - [Restricciones de Límites](#Restricciones-de-Límites)
-    - [Restricciones Definidas por el Usuario](#Restricciones-Definidas-por-el-Usuario)
-- [Sistema de Tipado Estricto](#Sistema-de-Tipado-Estricto)
-- [Compilado e Interpretado](#Compilado-e-Interpretado)
-    - ['Loop' de Read-Eval-Print](#'Loop'-de-Read-Eval-Print-)
-    - [Comandos de Meta-Programación](#Comandos-de-Meta-Programación)
-    - ['Stepping'](#'Stepping')
-    - ['Debugging' Interactivo](#'Debugging'-Interactivo)
-- [Algoritmo Evolucionario Integrado](#Algoritmo-Evolucionario-Integrado)
-- [Serialización](#Serialization)
+- [Introducción a CX](#introducción-a-cx)
+- [Repositorio del Proyecto](#repositorio-del-proyecto)
+- [Sintaxis](#sintaxis)
+- ['Affordances'](#affordances)
+    - [Restricciones de Aridad](#restricciones-de-aridad)
+    - [Restricciones de Tipo](#restricciones-de-tipo)
+    - [Restricciones Existenciales](#restricciones-existenciales)
+    - [Restricciones de Identificador](#restricciones-de-identificador)
+    - [Restricciones de Límites](#restricciones-de-límites)
+    - [Restricciones Definidas por el Usuario](#restricciones-definidas-por-el-usuario) 
+- [Sistema de Tipado Estricto](#sistema-de-tipado-estricto)
+- [Compilado e Interpretado](#compilado-e-interpretado)
+    - ['Loop' de Read-Eval-Print](#loop-de-read-eval-print)
+    - [Comandos de Meta-Programación](#comandos-de-meta-programación)
+    - ['Stepping'](#stepping)
+    - ['Debugging' Interactivo](#debugging-interactivo)
+- [Algoritmo Evolutivo Integrado](#algoritmo-evolutivo-integrado)
+- [Serialización](#serialización)
 
 <!-- /MarkdownTOC -->
 
 # Introducción a CX
 
 CX es tanto una especificación como un lenguaje de programación diseñado para
-adoptar un nuevo paradigma de programación basado en el concepto de 'affordances'. 'Affordances' permiten que un programa sepa qué acciones pueden y no puede ser hechas por este. Por ejemplo, podemos preguntarle al programa qué argumentos se pueden enviar a una función, y el programa devolverá una lista de posibles acciones. Después de haber decidido qué acción de la lista es apropiada, podemos elegir una de las opciones y el programa
+adoptar un nuevo paradigma de programación basado en el concepto de 'affordances'. 'Affordances' permiten que un programa sepa qué acciones pueden y no pueden ser hechas por este. Por ejemplo, podemos preguntarle al programa qué argumentos se pueden enviar a una función, y el programa devolverá una lista de posibles acciones. Después de haber decidido qué acción de la lista es apropiada, podemos elegir una de las opciones y el programa
 aplicará la acción elegida. Como consecuencia del sistema 'Affordances' de CX, un algoritmo de programación genética se construye y se proporciona como una función nativa, la cual se puede utilizar para optimizar la estructura del programa durante el tiempo de ejecución.
 
 La especificación CX declara que tanto un compilador como un intérprete
@@ -153,7 +153,7 @@ después de examinar el resultado de la consulta.
 El comportamiento común en los lenguajes de programación es tener un sistema de tipado
 que restrinja al programador de enviar argumentos de tipos inesperados para llamar a las funciones. Incluso en lenguajes de programación débilmente tipados,
 una operación como `true /" hello world "` debería generar un error
-(a menos que sea el caso de algún [lenguaje esotérico](https://en.wikipedia.org/wiki/Esoteric_programming_language), claro está). CX sigue un [sistema de tipado estricto](# Sistema-de-Tipado-Estricto), y argumentos que no son exactamente del tipo esperado no deben ser considerados como candidatos para acciones de 'affordances' (aunque una solución alternativa es envolver estos argumentos en funciones de 'cast' antes de mostrarse como 'affordances').
+(a menos que sea el caso de algún [lenguaje esotérico](https://en.wikipedia.org/wiki/Esoteric_programming_language), claro está). CX sigue un [sistema de tipado estricto](#sistema-de-tipado-estricto), y argumentos que no son exactamente del tipo esperado no deben ser considerados como candidatos para acciones de 'affordances' (aunque una solución alternativa es envolver estos argumentos en funciones de 'cast' antes de mostrarse como 'affordances').
 
 Las restricciones de tipo también deben tenerse en cuenta al asignar un nuevo valor
 a una variable ya existente. En CX, una variable declarada de
@@ -176,7 +176,7 @@ deben buscarse en el ámbito actual de la pila de llamadas, en el
 
 ### Restricciones de Identificador
 
-Agregar elementos recién nombrados son comúnmente acciones candidatas para 'affordances'. Una restricción que surge al tratar de aplicar ese tipo de 'affordance',
+El agregar nuevos elementos con nombre son comúnmente acciones candidatas para 'affordances'. Una restricción que surge al tratar de aplicar ese tipo de 'affordance',
 es asegurar un identificador único para el nuevo elemento para evitar
 redefiniciones. El sistema 'affordance' puede generar un identificador único en el ámbito del elemento, o puede pedirle al programador que proporcionar un identificador adecuado.
 
@@ -191,7 +191,7 @@ writeF32([]f32{0.0, 10.10, 20.20}, 1, 5.5)
 ```
 
 En la primera expresión, se accede a un 'array' de cuatro 'integers' de 32 bits
-en el índice 3, que devuelve el último elemento del 'array'. En la segunda
+en el índice 3, lo que devuelve el último elemento del 'array'. En la segunda
 expresión, el segundo elemento de un 'array' de tres 'floats' de 32 bits es
 cambiado a 5.5. Si se accede a cualquiera de estos 'arrays' utilizando un
 índice negativo o un índice que excede la longitud del 'array', se genera un error "fuera de límites".
@@ -204,12 +204,12 @@ El sistema 'affordance' necesita filtrar los 'affordances' de acuerdo con el sig
 cualquier 'integer' de 32 bits que exceda la longitud del 'array' que se envía a
 el lector o escritor de 'array'.
 
-### Restricciones Definidas por Usuario
-*Nota: El sistema de restricciones definido por usuario aún se encuentra en sus etapas experimentales.*
+### Restricciones Definidas por el Usuario
+*Nota: El sistema de restricciones definido por elusuario aún se encuentra en sus etapas experimentales.*
 
 Las restricciones básicas descritas anteriormente deberían al menos garantizar que
 el programa no encuentre ningún error al tiempo de ejecución. Estas restricciones
-deberían ser suficientes para construir algunos sistemas interesantes, como el [algoritmo evolutivo] (# algoritmo-evolutivo-integrado) nativo de CX. Sin embargo,
+deberían ser suficientes para construir algunos sistemas interesantes, como el [algoritmo evolutivo] (#algoritmo-evolutivo-integrado) nativo de CX. Sin embargo,
 en algunas situaciones se requiere un sistema más robusto. Para este propósito,
 cláusulas, consultas y objetos se utilizan para describir el ambiente de un módulo. Estos elementos se definen mediante el uso de un intérprete de Prolog integrado y las funciones nativas de CX *setClauses*, *setQuery*, y *addObject*.
 
@@ -271,13 +271,13 @@ entre comillas dobles siempre son 'strings'; un 'array' necesita
 indicar su tipo antes de la lista de sus elementos, por ejemplo, `[]i64{1, 2,
 3}`.
 
-Para los casos en los que el programador necesita emitir explícitamente un valor de un tipo a otro, el módulo central proporciona una cantidad de funciones de 'cast' para trabajar con tipos primitivos. Por ejemplo, `byteAToStr` emite un 'array' de bytes a un 'string', y `i32ToF32` emite un 'onteger' de 32 bits
+Para los casos en los que el programador necesita cambiar explícitamente un valor de un tipo a otro, el módulo central proporciona una cantidad de funciones de 'cast' para trabajar con tipos primitivos. Por ejemplo, `byteAToStr` convierte un 'array' de bytes a un 'string', y `i32ToF32` convierte un 'onteger' de 32 bits
 a un 'float' de 32 bits.
 
 # Compilado e Interpretado
 
 La especificación CX exige un dialecto CX para proporcionar al desarrollador
-con un intérprete y un compilador. Un programa interpretado es mucho más lento que su homólogo compilado, como es de esperarse, pero permitirá un programa más flexible. Esta flexibilidad proviene de funciones y 'affordances' de meta-programación, que pueden modificar la estructura de un programa durante el tiempo de ejecución.
+con un intérprete y un compilador. Un programa interpretado es mucho más lento que su homólogo compilado, como es de esperarse, pero permitirá un programa más flexible. Esta flexibilidad proviene de funciones de meta-programación y 'affordances', que pueden modificar la estructura de un programa durante el tiempo de ejecución.
 
 Un programa compilado necesita una estructura más rígida que un programa interpretado, ya que muchas de las optimizaciones balancean esta rigidez. Como consecuencia, el sistema de 'affordance' y cualquier función que opera sobre la estructura del programa tendrá una funcionalidad limitada en un programa compilado.
 
@@ -297,7 +297,7 @@ More information about CX is available at https://github.com/skycoin/cx
 ```
 
 El "*" le dice al programador que el REPL está listo para recibir una nueva
-línea de código. El REPL continuará leyendo las entradas del usuario hasta que un punto y coma, y un caractér de nueva línea sean encontrados..
+línea de código. El REPL continuará leyendo las entradas del usuario hasta que un punto y coma, y un caractér de nueva línea sean encontrados.
 
 Si no se cargó ningún programa inicialmente en el REPL, CX comenzará con
 un programa vacío. Esto se puede ver si el comando de meta-programación `:dProgram true;`
@@ -341,10 +341,10 @@ comienza con dos puntos (:) es parte de una categoría de instrucciones conocida
 La declaración de elementos en REPL indica a CX que los agregue a la estructura del programa. Pero, como en muchos otros lenguajes de programación, estas declaraciones están limitadas a solo ser agregadas, y como máximo a ser redefinidas.
 
 Pero, como en muchos otros lenguajes de programación que proporcionan un REPL, el
-programador está limitado a agregar elementos a un programa y, a la mucho, redefinir elementos. Los comandos de meta-programación permiten al programador tener más control sobre como la estructura del programa esta siendo modificada.
+programador está limitado a agregar elementos a un programa y, a lo mucho, redefinir elementos. Los comandos de meta-programación permiten al programador tener más control sobre como la estructura del programa esta siendo modificada.
 
 `:dProgram`,`:dState`, y `:dStack` solo se usan con fines de 'debugging', al imprimir la estructura del programa, el estado actual de la llamada y la pila de llamadas completa al usuario, respectivamente. `:step` ordena al intérprete que avance o
-retroceda en su ejecución. `:package`,`:func`, y `:struct`, conocidos como *selectors*, se usan para cambiar el ámbito del programa. `:rem` da acceso al programador a *removers*, que pueden usarse de forma selectiva para remover elementos de la estructura de un programa. `:aff` se usa para acceder al sistema 'affordance' de CX; este comando de meta-programación se usa para consultar y aplicar 'affordances' para los diferentes elementos de un programa. Por último, `:cláuses` se utiliza para establecer las cláusulas de un módulo para ser utilizado por el [sistema de restricciones definidas por el usuario](#Restricciones-Definidas-por-el-Usuario); `:object` y `:objects` se utilizan para agregar e imprimir objetos, respectivamente; y los dos últimos comandos de meta-programación: `:query`, que se utiliza para establecer la consulta del módulo, y `:dQuery` que es un ayudante para depurar las restricciones definidas por el usuario.
+retroceda en su ejecución. `:package`,`:func`, y `:struct`, conocidos como *selectors*, se usan para cambiar el ámbito del programa. `:rem` da acceso al programador a *removers*, que pueden usarse de forma selectiva para remover elementos de la estructura de un programa. `:aff` se usa para acceder al sistema 'affordance' de CX; este comando de meta-programación se usa para consultar y aplicar 'affordances' para los diferentes elementos de un programa. Por último, `:cláuses` se utiliza para establecer las cláusulas de un módulo para ser utilizado por el [sistema de restricciones definidas por el usuario](#restricciones-definidas-por-el-usuario); `:object` y `:objects` se utilizan para agregar e imprimir objetos, respectivamente; y los dos últimos comandos de meta-programación: `:query`, que se utiliza para establecer la consulta del módulo, y `:dQuery` que es un ayudante para depurar las restricciones definidas por el usuario.
 
 ### 'Stepping'
 
@@ -358,7 +358,7 @@ $ ./cx --load examples/looping.cx
 ```
 
 carga `looping.cx` desde el directorio de ejemplos (la lista completa de
-ejemplos se puede encontrar en el [repositorio del proyecto] (https://github.com/skycoin/cx)). Aunque un programa ha sido cargado, aún no ha sido ejecutado. En el REPL, para ejecutar un programa uno tiene que usar el comando de meta-programación `:step`. Para ejecutar un programa hasta el final, `:step 0;` debe ser utilizado. Pero `:step` es interesante porque puede tomar otros 'integers' como su
+ejemplos se puede encontrar en el [repositorio del proyecto](https://github.com/skycoin/cx)). Aunque un programa ha sido cargado, aún no ha sido ejecutado. En el REPL, para ejecutar un programa uno tiene que usar el comando de meta-programación `:step`. Para ejecutar un programa hasta el final, `:step 0;` debe ser utilizado. Pero `:step` es interesante porque puede tomar otros 'integers' como su
 argumento (incluso 'integers' negativos). Por ejemplo:
 
 ```
@@ -465,7 +465,7 @@ More information about CX is available at https://github.com/skycoin/cx
 *
 ```
 
-# Algoritmo Evolucionario Integrado
+# Algoritmo Evolutivo Integrado
 
 El sistema 'affordance' y las funciones de meta-programación en CX permiten la flexibilidad de cambiar la estructura del programa de una manera supervisada. Sin embargo, las 'affordances' pueden ser automatizadas teniendo una función que selecciona el índice del 'affordance' por aplicarse.
 
@@ -473,7 +473,7 @@ El sistema 'affordance' y las funciones de meta-programación en CX permiten la 
 mediante el uso de 'affordances' al azar. Un proceso iterativo se usa para probar.
 
 `evolve` sigue los principios de la computación evolutiva. En
-en particular, 'evolve' realiza una técnica llamada programación de genética. La programación de genética trata de encontrar una combinación de operadores y argumentos que resolverán un problema. Por ejemplo podrías instruir a `evolve` encontrar una combinación de operadores que, cuando se les envíe 10 como argumento, devuelvan 20. Esto puede sonar trivial, pero
+en particular, 'evolve' realiza una técnica llamada programación genética. La programación genética trata de encontrar una combinación de operadores y argumentos que resolverán un problema. Por ejemplo podrías instruir a `evolve` encontrar una combinación de operadores que, cuando se les envíe 10 como argumento, devuelvan 20. Esto puede sonar trivial, pero
 la programación genética y otros algoritmos evolutivos pueden resolver problemas muy complicados.
 
 En el directorio *examples* del repositorio, uno puede encontrar un
@@ -485,5 +485,5 @@ evolucionar una funcion [curve-fitting](https://en.wikipedia.org/wiki/Curve_fitt
 Un programa en CX se puede serializar parcial o totalmente a un 'array' de bytes. Esta capacidad de serialización le permite a un programa crear una imagen del programa (similar a
 [imágenes del sistema](#https: //en.wikipedia.org/wiki/System_image)), en la que se mantiene el estado exacto en el que se serializó el programa. Esto significa que un programa serializado puede ser deserializado, y reanudar su ejecución más adelante. La serialización también se puede usar para crear copias de seguridad.
 
-Un programa CX puede aprovechar sus características integradas para crear algunos escenarios interesantes. Por ejemplo, un programa puede ser serializado para crear una copia de seguridad de sí mismo, y comenzar un [algoritmo evolutivo](#Algoritmo-Evolucionario-Integrado) en una de sus funciones. Si el algoritmo evolutivo encuentra una función que tiene un mejor rendimiento que la definición anterior, uno puede quedarse con esta nueva versión del programa. Sin embargo, si el algoritmo evolutivo
+Un programa CX puede aprovechar sus características integradas para crear algunos escenarios interesantes. Por ejemplo, un programa puede ser serializado para crear una copia de seguridad de sí mismo, y comenzar un [algoritmo evolutivo](#algoritmo-evolutivo-integrado) en una de sus funciones. Si el algoritmo evolutivo encuentra una función que tiene un mejor rendimiento que la definición anterior, uno puede quedarse con esta nueva versión del programa. Sin embargo, si el algoritmo evolutivo
 funcionó mal, el programa se puede restaurar a la copia de seguridad guardada. Todas estas tareas pueden ser automatizadas.
