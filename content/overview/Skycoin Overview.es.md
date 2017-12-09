@@ -16,12 +16,12 @@ categories = [
 - [Innovaciones e imperfecciones de Bitcoin y los protocolos actuales de cadena de bloques](#innovaciones-e-imperfecciones-de-bitcoin-y-los-protocolos-actuales-de-cadena-de-bloques)
 - [Innovaciones producidas por Bitcoin](#innovaciones-producidas-por-bitcoin)
 - [Defectos importantes de Bitcoin](#defectos-importantes-de-bitcoin)
-- [Cualidades convenientes para los sistemas de consenso distribuido para los registros financieros](#cualidades-convenientes-para-los sistemas-de-consenso-distribuido-para-los-registros-financieros)
+- [Cualidades convenientes para los sistemas de consenso distribuido para los registros financieros](#cualidades-convenientes-para-los-sistemas-de-consenso-distribuido-para-los-registros-financieros)
 - [Filosofía de seguridad de Skycoin](#filosofía-de-seguridad-de-skycoin)
 - [Seguridad y Transparencia: Obelisk y Canales de transmisión pública](#seguridad-y-transparencia:-obelisk-y-canales-de-transmisión-pública)
 - [Obelisk](#obelisk)
-- [Simple Binary Consensus Algorithm: Choosing Between Two Blocks](#simple-binary-consensus-algorithm-choosing-between-two-blocks)
-- [Consensus On Multiple Concurrent Branch Choices](#consensus-on-multiple-concurrent-branch-choices)
+- [Algoritmo de consenso binario simple: Elección entre dos bloques](#algoritmo-de-consenso-binario-simple-elección-entre-dos-bloques)
+- [Consenso sobre múltiples opciones de ramas concurrentes](#Consenso-sobre-múltiples-opciones-de-ramas-concurrentes)
 
 <!-- /MarkdownTOC -->
 
@@ -400,89 +400,87 @@ demasiado concentrado (o no lo suficientemente concentrado) la
 comunidad puede cambiar colectivamente el equilibrio de poder 
 en la red al cambiar colectivamente sus relaciones de confianza.
 
-Each node has a list of other nodes that it
-subscribes to. Nodes with more subscribers are more
-“trusted” and yield more influence in the network. If
-the community does not trust the nodes representing
-them or feels that power within the network is too
-concentrated (or not concentrated enough) the
-community is able to collectively shift the balance of
-power in the network by collectively changing their
-trust relationships in the network.
+Las relaciones de suscripción de nodo pueden ser aleatorias y/o 
+pueden formarse a través de la red de confianza (suscribirse a 
+nodos de personas que conoce y personas de la comunidad en las que confía).
 
-Node subscription relationships can be
-random and/or can be formed through web of trust
-(subscribe to nodes of people you know and people
-in the community you trust).
+Cuando un nodo recibe un nuevo bloque de una cadena 
+a la que está suscrito, este revela el hash del bloque 
+que publica. Esto es un reconocimiento público de la 
+recepción del bloque. Cada bloque cuenta con marcas de 
+tiempo y se referencia con bloques de otras cadenas. 
+Esto crea una cadena interconectada de reconocimientos 
+de bloque. Estas cadenas establecen relaciones causales 
+y pueden actuar como un sistema distribuido de sellado 
+de tiempo como se describe en la siguiente sección. Esto 
+permite que la red demuestre que los datos no existían o 
+no se publicaron en la red o establece qué nodos particulares 
+estuvieron activos o desconectados durante un intervalo de 
+tiempo determinado.
 
-When a node receives a new block from a chain
-it is subscribed to, it publishes the hash of the block
-it publishes. This is a public acknowledgment of the
-receipt of the block. Each block is timestamped
-and counter-references blocks from other chains.
-This creates a dense interlinked chain of block
-acknowledgments. These chains establish causal
-relationships and can act as a distributed time
-stamping system as described in the next section.
-This allows the network to prove that data did not
-exist or was not published to the network or establish
-that particular nodes were active or offline during a
-particular time interval.
+El algoritmo de consenso Obelisk actual se 
+basa en el algoritmo de consenso aleatorizado de Ben-Or.
 
-The current Obelisk consensus algorithm
-is based upon Ben‐Or’s randomized consensus
-algorithm.
+Un ataque Sybil en un esquema aleatorio (el peor caso) 
+permite a los nodos Sybil controlar el consenso, pero 
+los nodos no pueden revertir las transacciones, 
+eliminando así el único incentivo económico para 
+atacar a la red. En los esquemas del mundo real, la 
+resistencia Sybil de la red es realmente muy alta y 
+ejecutar un nodo es moderadamente costoso en términos 
+de ancho de banda, lo que hace que las botnets grandes 
+sean inasequibles.
 
-A Sybil attack in a random graph (worst case)
-allows the Sybil nodes to control consensus, but the
-nodes are unable to revert transactions, removing the
-only economic incentive to attack the network. In real
-world graphs the Sybil resistance of the network is
-actually very high and running a node is moderately
-costly in terms of bandwidth, which makes large
-botnets prohibitive.
+Las relaciones de confianza son escasas y pueden ser 
+canceladas. En el caso de un ataque, la red reacciona 
+cortando las conexiones a nodos poco confiables y 
+contrayéndose a un núcleo más pequeño de nodos de 
+confianza. El registro público dejado por la cadena 
+de bloques personal de cada nodo hace que sea muy 
+fácil identificar a los nodos que participan en un 
+ataque. A medida que se identifican los nodos atacantes, 
+los individuos cortan las relaciones con esos nodos, 
+reduciendo su influencia. Por lo tanto, los principales 
+beneficios de la red Skycoin son:
 
-Trust relationships are scarce and can be
-rescinded. In the event of an attack, the network
-reacts by severing connections to less trustworthy
-nodes and contracting to a smaller core of trusted
-nodes. The public record left by each node’s personal
-blockchain makes it very easy to identify the nodes
-participating in an attack. As attacking nodes are
-identifed, individuals sever relationships with those
-nodes, reducing their influence. Therefore, the major
-benefits of the Skycoin network are:
+- El consenso de Skycoin es democrático y los nodos son administrados por la comunidad
+- El consenso de nodos de Skycoin es público
+- Cada nodo es responsable ante la comunidad y auditorías de terceros
+- La influencia dentro del sistema de consenso de skycoin es democrática y transparente (pero desigual)
 
-- Skycoin consensus is democratic and nodes are run by the community
-- Skycoin node consensus is public
-- Every node is accountable to the community and 3rd party audits
-- Influence within the skycoin consensus system is democratic and transparent (but unequal)
+# Algoritmo de consenso binario simple: Elección entre dos bloques
 
-# Simple Binary Consensus Algorithm: Choosing Between Two Blocks
+Cada decisión de voto es un par hash (A, B). A es
+el hash del padre del bloque y B es el hash del bloque. 
+Cada nodo vota por el siguiente bloque que él crea 
+que debería ser el bloque de consenso. Si el 40% de
+los nodos a los que está suscrito tienen el mismo candidato
+para el consenso, el nodo cambia su consenso a ese
+bloque. El nodo se cambia aleatoriamente entre los candidatos
+hasta que se llegue a un consenso.
 
-Each voting decision is a hash pair (A,B). A is
-the hash of the parent of the block and B is the hash of
-the block. Each node votes on the next block
-it believes should be the consensus block. If 40% of
-the nodes it is subscribed to have the same candidate
-for consensus, the node changes its consensus to that
-block. The node flips randomly between candidates
-until consensus is reached.
+# Consenso sobre múltiples opciones de ramas concurrentes
 
-# Consensus On Multiple Concurrent Branch Choices
+Un sistema más avanzado publica (A, B, P), donde P 
+es un valor de 0 a 1. Los valores P de todos los 
+sucesores a ser bloque sumarían a 1. Esto permite 
+decisiones de consenso simultáneas en ramas de 
+múltiples cadenas.
 
-A more advanced system publishes (A,B,P),
-where P is a value from 0 to 1. P values across all
-successors to block would sum to 1. This allows for
-concurrent consensus decisions on multiple chain
-branches.
+Si la mayoría de los nodos en la red son honestos, 
+también van a coincidir al mismo consenso.
 
-If the majority of nodes in the network are
-honest, they will also converge to the same consensus.
+Skycoin también tiene una forma limitada de Prueba de 
+Participación. Nos inclinamos a votar a favor de bloques 
+con una tarifa de transacción más grande.
 
-Skycoin also has a limited form of Proof of
-Stake. We bias voting in favor of blocks with a larger
-transaction fee.
+Si solo hay dos posibles elecciones de consenso para un 
+padre determinado y ambos bloques ejecutan su transacción, 
+entonces la transacción se ejecuta de manera efectiva 
+independientemente de cuál de los dos bloques termine 
+elegido por la red. La probabilidad de reversión de 
+una decisión de consenso temprana disminuye 
+exponencialmente con la profundidad del bloque.
 
 If there are only two possible consensus
 choices for a given parent and both blocks execute
