@@ -18,7 +18,7 @@ categories = [
 - [Defectos importantes de Bitcoin](#defectos-importantes-de-bitcoin)
 - [Cualidades convenientes para los sistemas de consenso distribuido para los registros financieros](#cualidades-convenientes-para-los-sistemas-de-consenso-distribuido-para-los-registros-financieros)
 - [Filosofía de seguridad de Skycoin](#filosofía-de-seguridad-de-skycoin)
-- [Seguridad y Transparencia: Obelisk y Canales de transmisión pública](#seguridad-y-transparencia:-obelisk-y-canales-de-transmisión-pública)
+- [Seguridad y Transparencia: Obelisk y Canales de transmisión pública](#seguridad-y-transparencia-obelisk-y-canales-de-transmisión-pública)
 - [Obelisk](#obelisk)
 - [Algoritmo de consenso binario simple: Elección entre dos bloques](#algoritmo-de-consenso-binario-simple-elección-entre-dos-bloques)
 - [Consenso sobre múltiples opciones de ramas concurrentes](#Consenso-sobre-múltiples-opciones-de-ramas-concurrentes)
@@ -45,7 +45,7 @@ En Bitcoin, las nuevas transacciones se colocan
 en un bloque, el cual se agrega a la cadena de 
 bloques. Cualquier persona en la red de Bitcoin 
 puede crear nuevos bloques. Por lo tanto, cada 
-bloque tiene un único padre pero uno o más 
+bloque tiene un único progenitor pero uno o más 
 sucesores válidos (hijos). Las cadenas forman 
 un árbol y el problema principal que Bitcoin 
 resuelve es lograr que cada nodo de la red esté 
@@ -451,7 +451,7 @@ beneficios de la red Skycoin son:
 # Algoritmo de consenso binario simple: Elección entre dos bloques
 
 Cada decisión de voto es un par hash (A, B). A es
-el hash del padre del bloque y B es el hash del bloque. 
+el hash del progenitor del bloque y B es el hash del bloque. 
 Cada nodo vota por el siguiente bloque que él crea 
 que debería ser el bloque de consenso. Si el 40% de
 los nodos a los que está suscrito tienen el mismo candidato
@@ -475,17 +475,9 @@ Participación. Nos inclinamos a votar a favor de bloques
 con una tarifa de transacción más grande.
 
 Si solo hay dos posibles elecciones de consenso para un 
-padre determinado y ambos bloques ejecutan su transacción, 
+progenitor determinado y ambos bloques ejecutan la transacción, 
 entonces la transacción se ejecuta de manera efectiva 
 independientemente de cuál de los dos bloques termine 
 elegido por la red. La probabilidad de reversión de 
 una decisión de consenso temprana disminuye 
-exponencialmente con la profundidad del bloque.
-
-If there are only two possible consensus
-choices for a given parent and both blocks execute
-your transaction, then the transaction is effectively
-executed regardless of which of the two blocks end up
-chosen by the network. The probability of reversion
-of an early consensus decision declines exponentially
-with block depth.
+exponencialmente con la profundidad de bloque.
