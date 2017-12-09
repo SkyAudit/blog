@@ -20,9 +20,9 @@ categories = [
     - [Restricciones de Tipo](#Restricciones-de-Tipo)
     - [Restricciones Existenciales](#Restricciones-Existenciales)
     - [Restricciones de Identificador](#Restricciones-de-Identificador)
-    - [Restricciones de límites](#Restricciones-de-límites)
-    - [Restricciones Definidas por Usuario](#Restricciones-Definidas-por-Usuario)
-- [Sistema de Tecleado estricto](#Sistema-de-Tecleado-estricto)
+    - [Restricciones de Límites](#Restricciones-de-Límites)
+    - [Restricciones Definidas por el Usuario](#Restricciones-Definidas-por-el-Usuario)
+- [Sistema de Tipado Estricto](#Sistema-de-Tipado-Estricto)
 - [Compilado e Interpretado](#Compilado-e-Interpretado)
     - ['Loop' de Read-Eval-Print](#'Loop'-de-Read-Eval-Print-)
     - [Comandos de Meta-Programación](#Comandos-de-Meta-Programación)
@@ -41,10 +41,10 @@ aplicará la acción elegida. Como consecuencia del sistema 'Affordances' de CX,
 
 La especificación CX declara que tanto un compilador como un intérprete
 deben ser accesibles para el programador. Se puede acceder al intérprete
-a través de un read-eval-print 'loop', en el cual el programador puede agregar y eliminar interactivamente elementos a un programa. Una vez que el programa ha sido
+a través de un 'loop' de read-eval-print, en el cual el programador puede agregar y eliminar interactivamente elementos a un programa. Una vez que el programa ha sido
 terminado, se puede compilar para aumentar su rendimiento.
 
-El sistema de tecleado en CX es muy estricto. El único "'casting' implícito"
+El sistema de tipado en CX es muy estricto. El único "'casting' implícito"
 ocurre cuando el analizador determina qué es un 'integer', un 'float', un
 'boolean', un 'string' o un 'array'. Si una función requiere un integer de 64-bit, por ejemplo, uno tiene que usar una función de 'cast' para convertirlo explícitamente al tipo requerido.
 
@@ -114,7 +114,7 @@ operador con menos argumentos de los requeridos, el sistema 'affordance', al ser
 
 **Ejemplo:**
 
-*Nota: la concatenación de 'strings' no ha sido implementado aún. También, las funciones de 'print' siempre agregan una nueva línea al final del 'string' impreso. Una versión futura de la implementación de CX presentada en este documento abordará estos problemas.*
+*Nota: la concatenación de 'strings' no ha sido implementada aún. También, las funciones de 'print' siempre agregan una nueva línea al final del 'string' impreso. Una versión futura de la implementación de CX presentada en este documento abordará estos problemas.*
 
 ```
 var edad i32 = 18
@@ -150,20 +150,20 @@ después de examinar el resultado de la consulta.
 
 ### Restricciones de Tipo
 
-El comportamiento común en los lenguajes de programación es tener un sistema de tecleo
-que restrinja al programador de enviar argumentos de tipos inesperados para llamar a las funciones. Incluso en lenguajes de programación débilmente tecleados,
+El comportamiento común en los lenguajes de programación es tener un sistema de tipado
+que restrinja al programador de enviar argumentos de tipos inesperados para llamar a las funciones. Incluso en lenguajes de programación débilmente tipados,
 una operación como `true /" hello world "` debería generar un error
-(a menos que sea el caso de algún [lenguaje esotérico](https://en.wikipedia.org/wiki/Esoteric_programming_language), claro está). CX sigue un [sistema de tipeo estricto](# sistema-de-tecleo-estricto), y argumentos que no son exactamente del tipo esperado no deben ser considerados como candidatos para acciones de 'affordances' (aunque una solución alternativa es envolver estos argumentos en funciones de 'cast' antes de mostrarse como 'affordances').
+(a menos que sea el caso de algún [lenguaje esotérico](https://en.wikipedia.org/wiki/Esoteric_programming_language), claro está). CX sigue un [sistema de tipado estricto](# Sistema-de-Tipado-Estricto), y argumentos que no son exactamente del tipo esperado no deben ser considerados como candidatos para acciones de 'affordances' (aunque una solución alternativa es envolver estos argumentos en funciones de 'cast' antes de mostrarse como 'affordances').
 
 Las restricciones de tipo también deben tenerse en cuenta al asignar un nuevo valor
 a una variable ya existente. En CX, una variable declarada de
-cierto tipo debe permanecer de ese tipo durante toda su vida (a menos que se elimine usando comandos/funciones de metaprogramación y creado de nuevo). Por lo tanto, una variable declarada para contener un 'integer' de 32 bits no debería ser considerada como candidato para recibir un argumento de salida 'float' de 64 bits, por así decirlo.
+cierto tipo debe permanecer de ese tipo durante toda su vida (a menos que se elimine usando comandos/funciones de metaprogramación y sea creada de nuevo). Por lo tanto, una variable declarada para contener un 'integer' de 32 bits no debería ser considerada como candidato para recibir un argumento de salida 'float' de 64 bits, por así decirlo.
 
 ### Restricciones Existenciales
 
 Este tipo de restricción puede parecer trivial a primera vista: si
 un elemento no existe, un 'affordance' que lo involucra no debería
-existir tampoco. Sin embargo, esta restricción se convierte en un desafío una vez que consideramos una situación en la cual se cambió el nombre de una función, y ya se ha utilizada como operador en expresiones a lo largo de un
+existir tampoco. Sin embargo, esta restricción se convierte en un desafío una vez que consideramos una situación en la cual se cambió el nombre de una función, y ya se ha utilizado como operador en expresiones a lo largo de un
 programa. Si el programa está en su forma de código fuente, este problema es
 reducido a un simple proceso de "búsqueda y reemplazo", pero si es durante
 tiempo de ejecución, el sistema 'affordance' se vuelve bastante útil: un 'affordance'
@@ -180,7 +180,7 @@ Agregar elementos recién nombrados son comúnmente acciones candidatas para 'af
 es asegurar un identificador único para el nuevo elemento para evitar
 redefiniciones. El sistema 'affordance' puede generar un identificador único en el ámbito del elemento, o puede pedirle al programador que proporcionar un identificador adecuado.
 
-### Restricciones de límites
+### Restricciones de Límites
 
 CX proporciona funciones nativas para acceder y modificar elementos de
 'arrays'. Ejemplos de un lector de 'array' y un escritor de 'array' son:
@@ -191,7 +191,7 @@ writeF32([]f32{0.0, 10.10, 20.20}, 1, 5.5)
 ```
 
 En la primera expresión, se accede a un 'array' de cuatro 'integers' de 32 bits
-en el índice 3, que devuelve el último elemento de; 'array'. En la segunda
+en el índice 3, que devuelve el último elemento del 'array'. En la segunda
 expresión, el segundo elemento de un 'array' de tres 'floats' de 32 bits es
 cambiado a 5.5. Si se accede a cualquiera de estos 'arrays' utilizando un
 índice negativo o un índice que excede la longitud del 'array', se genera un error "fuera de límites".
@@ -200,7 +200,7 @@ Al obedecer solo las restricciones de tipo, el sistema 'affordance' dirá
 al programador que cualquier argumento 'integer' de 32 bits se puede utilizar como un
 índice para acceder a cualquier 'array'. Aunque estos programas compilarían, errores "fuera de límites" serían muy probables si el programador no prestar atención extra a lo que se está eligiendo para ser aplicado.
 
-El sistema 'affprdance' necesita filtrar los 'affordances' de acuerdo con el siguiente criterio: descartar cualquier 'integer' negativo de 32 bits y descartar
+El sistema 'affordance' necesita filtrar los 'affordances' de acuerdo con el siguiente criterio: descartar cualquier 'integer' negativo de 32 bits y descartar
 cualquier 'integer' de 32 bits que exceda la longitud del 'array' que se envía a
 el lector o escritor de 'array'.
 
@@ -224,7 +224,7 @@ setQuery("mover(robot, %s, %s, R).")
 En este ejemplo, solo se define una regla. La regla puede ser aproximadamente
 interpretada como "si el robot quiere moverse hacia el norte, pregunta qué es X. Si X
 es paredNorte, entonces no se puede mover". La consulta es solo un 'string' de formato
-eso servirá como una consulta para la acción *mover*, y para el elemento *robot* que recibirá dos argumentos más: una dirección y un objeto.
+que servirá como una consulta para la acción *mover*, y para el elemento *robot* que recibirá dos argumentos más: una dirección y un objeto.
 
 Los objetos se pueden definir utilizando la función *addObject*:
 
@@ -242,7 +242,7 @@ tal situación, y la acción predeterminada es no descartar el
 y el sistema responderá "false". En este caso, el affordance no pasó la prueba y es descartado.
 
 El ejemplo anterior ilustra cómo estas reglas pueden negar un
-'affordance' usando una condición, Pero las reglas también se pueden usar para aceptar
+'affordance' usando una condición. Pero las reglas también se pueden usar para aceptar
 'affordances', incluso después de ser negados por reglas anteriores.
 
 ```
@@ -255,7 +255,7 @@ setQuery("mover(robot, %s, %s, R).")
 La regla agregada en el código anterior le dice al sistema que acepte el movimiento del robot hacia el norte si hay un agujero. Si el 'array' de objetos se deja como se definió anteriormente, el 'affordance' de movimiento aún será descartado, pero si se evalúa `addObject ("agujeroNorte")`, el "agujeroNorte" sera agregado y el robot podrá pasar
 a través de la pared usando el agujero.
 
-# Sistema de Tecleado estricto
+# Sistema de Tipado Estricto
 
 Como se mencionó en la introducción, no hay un 'casting' implícito en
 CX. Debido a esto, múltiples versiones para cada uno de los tipos primitivos
@@ -283,28 +283,24 @@ Un programa compilado necesita una estructura más rígida que un programa inter
 
 El compilador debe usarse cuando el rendimiento es la mayor preocupación,
 mientras que un programa debe seguir siendo interpretado cuando el programador
-requiere toda la flexibilidad provista por las características de CX. En el
-siguientes subsecciones, se presentan algunas de estas características, sin
-el objetivo de servir como un tutorial, sino más bien como una mera introducción.
+requiere toda la flexibilidad provista por las características de CX. En las siguientes subsecciones, se presentan algunas de estas características, sin el objetivo de servir como un tutorial, sino más bien como una mera introducción.
 
 ### 'Loop' de Read-Eval-Print
 
-El 'loop' read-eval-print (REPL) es una herramienta interactiva en la que el programador puede ingresar nuevos elementos del programa y evaluarlos. Comenzando
-una nueva sesión REPL imprimirá los siguientes mensajes en la consola:
+El 'loop' read-eval-print (REPL) es una herramienta interactiva en la que el programador puede ingresar nuevos elementos del programa y evaluarlos. Comenzar una nueva sesión REPL imprimirá los siguientes mensajes en la consola:
 
 ```
 CX REPL
-Mas información acerca de CX disponible en https://github.com/skycoin/cx
+More information about CX is available at https://github.com/skycoin/cx
 
 *
 ```
 
 El "*" le dice al programador que el REPL está listo para recibir una nueva
-línea de código. El REPL continuará leyendo las entradas del usuario hasta que,
-punto y coma, y un nuevo caractér de línea se encuentren.
+línea de código. El REPL continuará leyendo las entradas del usuario hasta que un punto y coma, y un caractér de nueva línea sean encontrados..
 
 Si no se cargó ningún programa inicialmente en el REPL, CX comenzará con
-un programa vacío Esto se puede ver si el comando de meta-programación `:dProgram true;`
+un programa vacío. Esto se puede ver si el comando de meta-programación `:dProgram true;`
 se da como entrada:
 
 ```
@@ -314,7 +310,7 @@ Program
 *
 ```
 
-El REPL solo imprime la palabra "Programa" seguido de una línea vacía. Como primer paso, se pueden declarar un nuevo módulo y función:
+El REPL solo imprime la palabra "Program" seguida de una línea vacía. Como primer paso, se pueden declarar un nuevo módulo y función:
 
 Como primeros pasos, un nuevo módulo *main* y una nueva función *main*
 deben declararse:
@@ -345,10 +341,10 @@ comienza con dos puntos (:) es parte de una categoría de instrucciones conocida
 La declaración de elementos en REPL indica a CX que los agregue a la estructura del programa. Pero, como en muchos otros lenguajes de programación, estas declaraciones están limitadas a solo ser agregadas, y como máximo a ser redefinidas.
 
 Pero, como en muchos otros lenguajes de programación que proporcionan un REPL, el
-programador se limita a agregar nuevos elementos a un programa y, en la mayoría, redefinir elementos. Los comandos de meta-programación permiten al programador tener más control sobre cómo es la estructura del programa esta siendo modificada.
+programador está limitado a agregar elementos a un programa y, a la mucho, redefinir elementos. Los comandos de meta-programación permiten al programador tener más control sobre como la estructura del programa esta siendo modificada.
 
-`:dProgram`,`:dState`, y `:dStack` solo se usan con fines de 'debugging', al imprimir la estructura del programa, el estado actual de la llamada y la pila de llamadas completa para el usuario, respectivamente. `:step` ordena al intérprete que avance o
-retroceda en su ejecución. `:package`,`:func`, y `:struct`, conocidos como *selectors*, se usan para cambiar el ámbito del programa. `:rem` da acceso al programador a *removers*, que [ieden usarse de forma selectiva [ara remover elementos de la estructura de un programa. `:aff` se usa para acceder al sistema 'affordance' de CX; este comando de meta-programación se usa para consultar y aplicar 'affordances' para los diferentes elementos de un programa. Por último, `:cláuses` se utiliza para establecer las cláusulas de un módulo para ser utilizado por el [sistema de restricciones definidas por usuario](#Restricciones-Definidas-por-Usuario); `:object` y `:objects` se utilizan para agregar e imprimir objetos, respectivamente; y los dos últimos comandos de meta-programación: `:query`, que se utiliza para establecer la consulta del módulo, y `:dQuery` que es un ayudante para depurar las restricciones definidas por el usuario.
+`:dProgram`,`:dState`, y `:dStack` solo se usan con fines de 'debugging', al imprimir la estructura del programa, el estado actual de la llamada y la pila de llamadas completa al usuario, respectivamente. `:step` ordena al intérprete que avance o
+retroceda en su ejecución. `:package`,`:func`, y `:struct`, conocidos como *selectors*, se usan para cambiar el ámbito del programa. `:rem` da acceso al programador a *removers*, que pueden usarse de forma selectiva para remover elementos de la estructura de un programa. `:aff` se usa para acceder al sistema 'affordance' de CX; este comando de meta-programación se usa para consultar y aplicar 'affordances' para los diferentes elementos de un programa. Por último, `:cláuses` se utiliza para establecer las cláusulas de un módulo para ser utilizado por el [sistema de restricciones definidas por el usuario](#Restricciones-Definidas-por-el-Usuario); `:object` y `:objects` se utilizan para agregar e imprimir objetos, respectivamente; y los dos últimos comandos de meta-programación: `:query`, que se utiliza para establecer la consulta del módulo, y `:dQuery` que es un ayudante para depurar las restricciones definidas por el usuario.
 
 ### 'Stepping'
 
@@ -362,12 +358,12 @@ $ ./cx --load examples/looping.cx
 ```
 
 carga `looping.cx` desde el directorio de ejemplos (la lista completa de
-ejemplos se pueden encontrar en el [repositorio del proyecto] (https://github.com/skycoin/cx)). Aunque un programa ha sido cargado, aún no ha sido ejecutado. En el REPL, para ejecutar un programa uno tiene que usar el comando de meta-programación `:step`. Para ejecutar un programa hasta el final, `:step 0;` debe ser utilizado. Pero `:step` es interesante porque puede tomar otros 'integers' como su
+ejemplos se puede encontrar en el [repositorio del proyecto] (https://github.com/skycoin/cx)). Aunque un programa ha sido cargado, aún no ha sido ejecutado. En el REPL, para ejecutar un programa uno tiene que usar el comando de meta-programación `:step`. Para ejecutar un programa hasta el final, `:step 0;` debe ser utilizado. Pero `:step` es interesante porque puede tomar otros 'integers' como su
 argumento (incluso 'integers' negativos). Por ejemplo:
 
 ```
 CX REPL
-Más información acerca de CX disponible en https://github.com/skycoin/cx
+More information about CX is available at https://github.com/skycoin/cx
 
 * :dStack false;
 
@@ -386,7 +382,7 @@ Más información acerca de CX disponible en https://github.com/skycoin/cx
 El programa *examples/looping.cx* se ejecuta 5 pasos a la vez. Nosotros
 puede ver que se requieren 5 pasos para que el programa reevalúe la condición *while*, imprima el contador, y agregue 1 al contador.
 
-Del mismo modo, deberiamos "retroceder en el tiempo" si el REPL se instruye a
+Del mismo modo, deberiamos "retroceder en el tiempo" si se indica al REPL que dé
 `:step -5`.
 
 ```
@@ -404,7 +400,7 @@ Del mismo modo, deberiamos "retroceder en el tiempo" si el REPL se instruye a
 ```
 
 Después de indicar a CX que avance 5 pasos nuevamente, el 2 se imprime nuevamente
-a la consola. Debe notarse que el contador no solo le es asignado un valor diferente. Lo que está sucediendo es que la pila de llamadas esta siendo revertida a un estado anterior.
+a la consola. Debe notarse que al contador no solo le es asignado un valor diferente. Lo que está sucediendo es que la pila de llamadas esta siendo revertida a un estado anterior.
 
 ### 'Debugging' Interactivo
 
@@ -414,7 +410,7 @@ En el siguiente ejemplo, se genera un error de división por 0, el REPL alerta a
 
 ```
 CX REPL
-Más información acerca de CX disponible en https://github.com/skycoin/cx
+More information about CX is available at https://github.com/skycoin/cx
 
 * package main;
 
@@ -448,7 +444,7 @@ main
 ```
 
 Del mismo modo, si un programa se da como entrada al intérprete CX,
-sin llamar al REPL, pero se genera un error, el REPL será llamado para el programador o administrador del sistema para depurara el programa:
+sin llamar al REPL, pero se genera un error, el REPL será llamado para el programador o administrador del sistema para depurar el programa:
 
 ```
 $ ./cx examples/program-halt.cx
@@ -464,7 +460,7 @@ divI32() Arguments:
 
 5: divI32: Division by 0
 CX REPL
-Más información acerca de CX disponible en https://github.com/skycoin/cx
+More information about CX is available at https://github.com/skycoin/cx
 
 *
 ```
@@ -489,5 +485,5 @@ evolucionar una funcion [curve-fitting](https://en.wikipedia.org/wiki/Curve_fitt
 Un programa en CX se puede serializar parcial o totalmente a un 'array' de bytes. Esta capacidad de serialización le permite a un programa crear una imagen del programa (similar a
 [imágenes del sistema](#https: //en.wikipedia.org/wiki/System_image)), en la que se mantiene el estado exacto en el que se serializó el programa. Esto significa que un programa serializado puede ser deserializado, y reanudar su ejecución más adelante. La serialización también se puede usar para crear copias de seguridad.
 
-Un programa CX puede balancear sus características integradas para crear algunos escenarios interesantes. Por ejemplo, un programa puede ser serializado para crear una copia de seguridad de sí mismo, y comenzar un [algoritmo evolutivo](#Algoritmo-Evolucionario-Integrado) en una de sus funciones. Si el algoritmo evolutivo encuentra una función que tiene un mejor rendimiento que la definición anterior, uno puede quedarse esta nueva versión del programa. Sin embargo, si el algoritmo evolutivo
+Un programa CX puede aprovechar sus características integradas para crear algunos escenarios interesantes. Por ejemplo, un programa puede ser serializado para crear una copia de seguridad de sí mismo, y comenzar un [algoritmo evolutivo](#Algoritmo-Evolucionario-Integrado) en una de sus funciones. Si el algoritmo evolutivo encuentra una función que tiene un mejor rendimiento que la definición anterior, uno puede quedarse con esta nueva versión del programa. Sin embargo, si el algoritmo evolutivo
 funcionó mal, el programa se puede restaurar a la copia de seguridad guardada. Todas estas tareas pueden ser automatizadas.
