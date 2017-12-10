@@ -1,5 +1,5 @@
 +++
-title = "Telegram Log - Whitepapers, Slavery and Anarchy"
+title = "电报日志 - 白皮书，奴隶制和无政府状态"
 tags = [
     "Ask the Developers",
 
@@ -13,73 +13,74 @@ categories = [
 
 **Artem Kotelskiy**
 
-Hey
+嘿
 
-I discovered that both papers on the obelisk consensus algorithm were withdrawn from arxiv because of mistakes. Is this true?
+我发现，在方尖碑共识算法这两篇论文都因为错误而从arXiv撤回了。这是真的吗？
 
-Can someone from the team address this issue, please?
+有团队里面的成员能回答这个问题吗？
 
 **Monty Crypto (Xa no)**
 
-Mmm, about Obelisk? We have like at least 5 papers about the underlying logic, but wasn't aware anything was specifically published about Obelisk already
+嗯..关于方尖碑？关于这个技术的基本逻辑，我们至少有5篇论文，但是在目前为止应该没有专门在方尖碑技术上的论文被发表。
 
-Which papers are missing?
+哪一个论文被遗漏？
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-No. Chen withdrew them because he wanted people to quote then from the ACM journel instead of arxiv because its considered more prestigious
+陈（那篇论文的作者之一）从他们的网站上退回来了，因为他希望人们引用他们在ACM期刊上发表的文章，去代替的arXiv文章的引用，因为它认为期刊上发表的文章更负盛名
+
 
 **Synth**
 
-And chen thinks that one of the papers should be withdrawn because of minor error which is irrelevent.
+陈认为，其中一篇论文中是因为一个小错误而撤回。尽管是无关紧要的。
 
-the algorithm in that paper is only 3rd generation of the consensus algorithm and we are generation 5 and need implementation white paper
+在该文件的算法仅第三代的共识算法，我们是第5代同时需要执行白皮书
 
 **Artem Kotelskiy**
 
 https://arxiv.org/abs/1507.03927
 
-It says crucial theoretic defect
+它说是重要的理论缺陷
 
 **Synth**
 
-Its chen being idiot
+陈他傻了
 
 **Artem Kotelskiy**
 
-The same with opinion Dynamics paper
+有舆论动力学纸相同
 
 **Synth**
 
-there is an error in one paper that I told him about months before he published it
+我在过去曾经在他论文发表前几个月提及了一个错误
 
 **Synth**
 
-but its not relevent. The idea is based upon energy minimization and comes from statistical physics.
+可是那个错误并不相关。重点是这个想法是基于能量最小化的，来自统计物理。
 
-Chen was trying to create total ordering with some weird hashing thing that does not work.
+陈试图创建一些奇怪的，不工作的散列用作整体排序。
 
 **Artem Kotelskiy**
 
-So the papers on the website are different from papers on arxiv?
+所以网站上的论文跟arXiv的论文有所不同？
 
-I really don't like that comment on arxiv. The author of the paper refuses it, there is something strange about it.
+我真的不喜欢的arXiv上该评论。本文的作者拒绝它，我觉得这事情太奇怪了。
 
 **Synth**
 
-There are eight versions of them
+他们有8个版本
 
-The final version was the one published in the ACM journel/conference
+最后的版本是一个在ACM 期刊/会议上发表
 
 **Artem Kotelskiy**
 
-Could you provide a link please?
+你可以提供一个链接吗？
 
-Can't Google it
+我在谷歌上找不到
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-Chens professor. The coauthor wants the papers unpublished. He does not understand blockchain and thinks the chinese government is attacking blockchain and the paper may get him in trouble.
+陈是一个清华大学教授。合著者不想要文件发布。他不明白blockchain，同时认为中国政府是攻击blockchain和这个论文会让他陷入困境。
 
 **Synth**
 
@@ -87,411 +88,416 @@ http://njtech.findplus.cn/?h=search_list&query=AR:%22Shu%2C%20Jiwu%22
 
 **Artem Kotelskiy** *[In reply to Synth]*
 
-I think this should be addressed somehow on your website. The whole project is based on security of obelisk. It should be crystal clear for people that this algorithm was at least peer reviewed by CS people.
+我想，这应该以某种方式在您的网站上解答。整个项目是根据方尖碑的安全性。它应该是一清二楚的，至少该算法应该经过具有计算机科学背景的人审查。
 
-Because of one simple reason -- no one will dive into the papers and checking they are right except CS
+这不是很简单吗？因为没有人会仔细阅读相关论文，还有检查相关代码到底还不运作，除了计算机科学家。
+
+**Synth** *[In reply to Artem Kotelskiy]*
+我们将会有第六版本的白皮书，并且有40到60页的内容去详细解释其中的细节。但是，没有人有时间来写。
+
+我们已经完成模拟，我们会得到第一代实现，展现出这个系统在真实世界如何运作
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-There will be a sixth white paper that is 40 or 60 pages on proper implementation and details. But no one has time to write it.
-
-We have the simulation done and now that peer discovery works we will get first gen implemented and show real world behavior
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-He was one who wrote the Go ethereum implementation.
+他是那个 Go ethereum implementation的创作人。
 
 **Artem Kotelskiy**
 
 Jiwu?
 
-This also should be on the website. But actually, thank you for your answers a lot.
+这也应该放在网站上。怎么样也好，你解除了我很多疑惑
 
 **Synth**
 
-The paper was published in a top 2 ACM computer science journel and conference for distributed database consensus and was peer reviewed.
+该论文发表在两个顶尖ACM计算机科学期刊和会议关于分布式数据库的共识，并且已经通过同行评审。
 
-We are only coin with peer reviewed academic paper and with simulations.
+我们行来唯一一个有经过同行审查学术文章以及模拟结果支撑的硬币。
+
 
 **Synth**
 
-Chen
+陈
 
 **Artem Kotelskiy**
 
-Didn't know about it
+不知道有这一回事
 
-And can't Google his involvement in eth
+同时我不能在Google上搜索到是ETH上的参与
 
-Please provide a link
-
-**Synth**
-
-We cant put on website because chen requested we did not. 80% of people involved in skycoin wont go on website or advisor board and want to hide... for various reasons
-
-**Artem Kotelskiy**
-
-Yeah, that is another issue
-
-I see
-
-Why??
+请提供一个链接
 
 **Synth**
 
-Both in china because of potential bitcoin ban or scare mongering and in US for tax or employment reasons
+我们不能把网站上的，因为陈要求我们不要这样做。参与skycoin 80％人不想自己出现在网站上或成为顾问委员会，因各种原因很多人希望隐藏身份...
 
 **Artem Kotelskiy**
 
-This is so shady))
+是啊，这是另一个问题
 
-Why don't you go to Switzerland?
+我懂了
 
-Indeed, I found Chen on the eth team
+为什么？ ？
+
+**Synth**
+
+无论是中国在因为潜在的比特币禁令或恐慌散播，而在美国税收或就业原因
+
+**Artem Kotelskiy**
+
+这是如此黑幕））
+
+你为什么不去瑞士？
+
+事实上，我发现陈的确在ETH团队
 
 **Monty Crypto (Xa no)**
 
-Out of all coins there are very few with our kind of repository, history, papers and all, and you call this shady because we don't post some useless faces and names on our websites 😂
+我们是在市场上极为少数有这样的承担，历史背景，论文支撑的硬币。
+你可以把这个说成黑幕，因为我们不会在我们网站上张贴一些无用的面孔和姓名 😂
 
 **Synth**
 
-his pubkey is in the repo of eth developers. Check his github
+他的PUBKEY是在ETH开发者之内。你可以查看他的github
 
 **Monty Crypto (Xa no)**
 
-In my opinion it's shady to collection 10's if not 100's of millions through ICO's without one line of code to show for it
+在我看来，真正的黑幕，是那种通过ICO筹募过亿美元而从来不展示任何一行代码的项目
+
 
 **Synth**
 
-The bitcoin developer who discovered the duplicate coinbase output problem also was heavily involved and two other major people but we cant put them on the website or advisor board.
+那个发现了重复coinbase输出问题的Bitcoin的开发者是积极参与我们开发的员，另外我们有其他两个主要的参与者，但我们不能把它们放在网站上或提名他们成为顾问委员会。
 
-There is a lot of drama about this.
+在这个事情上的确有很多意想不到的事。
 
-Australian government was raiding peoples houses within 8 hours of them being outed as early bitcoin dev etc
+比方说有某个澳大利亚人表示他是Bitcoin早期的开发者之一后，澳大利亚政府就在8小时之内马上搜查他们的房子。
 
-And a lot of the real crypto people have security clearances and dont want to be publicly associated (but are involved in private) because of employment stuff
+和很多真正的开发者一样，他们想要获得安全保障和不希望公开相关的（但涉及私人的），因为他们本身的工作的关系。
 
 **Artem Kotelskiy** *[In reply to Monty Crypto (Xa no)]*
 
-I was just kidding, see the "))"
+我只是在开玩笑，看到 "))"
 
 **Synth**
 
-The only people commiting with their real github names were basicly idiots with no opsec. And the other people involved dont sit on advisor boards or advertise themselves.
+唯一的人用自己的真实姓名GitHub的是没有安全意识的白痴。而其他参与的人不会坐在顾问委员会或是宣传自己。
 
-I dont even know why chen used his main/public github account. He was advised not to do that.
+我什至不知道为什么陈用他的主/公共GitHub的帐户。我们有建议他不要那样做。
 
 **Artem Kotelskiy**
 
-I see, thx a lot for an explanation
+我明白了，感谢你的解释
 
 **Monty Crypto (Xa no)**
 
-Haha fair enough 👍
+哈哈不错不错 👍
 
 **Artem Kotelskiy**
 
-I will keep doing my research then about skycoin
-
-There is one problem though, all of this will come out inevitably..
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-+8 years of drama. You could make a movie about this.
+我会继续做我对skycoin的研究
+有一个问题，虽然，这一切都将不可避免发生..
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-No. it wont. People still cannot even figure out who the Bitcoin devs are!
+8年+ 出人意表的往事。你大可以把这拍成电影。
+
+**Synth** *[In reply to Artem Kotelskiy]*
+
+不会。人们仍然甚至不能弄清楚谁是Bitcoin的开发者们！
 
 **Artem Kotelskiy**
 
-Hopefully
+希望如此
 
-Still, why not go to Switzerland?
+尽管如此，为什么不去瑞士？
 
-And have superopen development just like ethereum?
+并好像etherum一样做完全开放的开发？
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-For what?
+为了什么？
 
-eighty people should move to switzerland?
+八十人应该搬到瑞士？
 
 **Artem Kotelskiy**
 
-Ok..
+好..
 
-I mean, the organization can go there and be protected somehow
+我的意思是，该组织可以去那里得到某种保护
 
 **Synth**
 
-Its on github so does not matter the country they are in.
+它在github所以和他们所在的国家没有关系
 
-Protected from what? No one has tried to attack skycoin devs yet.
+从什么保护？没有人试图向skycoin开发者开展攻击呢。
 
 **Artem Kotelskiy**
 
-But you are saying that people are scared to say they are involved with the project
+但你说的人都吓得不敢说他们正在参与这一项目
 
-I just don't understand why?
+我只是不明白为什么？
 
 **Synth**
 
-for tax reasons
+税务原因
 
 **Artem Kotelskiy**
 
-No
+不
 
-Can't believe this
+我不相信
 
-Why don't you want to pay taxes?
+为什么你不想交税？
+
 
 **Vadim 🛌**
 
-why would anyone want:D
+为什么会有人想？:D
 
 **Monty Crypto (Xa no)**
 
-Lol, yeah everyone else loves paying taxes
+Lol, 是! 每个人都喜欢交税
 
 **Artem Kotelskiy**
 
-I don't see how rejecting to pay taxes can help your project at all
+我不知道怎样拒绝缴纳税收可以帮助您的项目
 
-Please explain
+请解释
+
 
 **Monty Crypto (Xa no)**
 
-There's a difference between tax evasion and tax avoidance
+逃税和避税之间是有差异的
 
-Tax avoidance is perfectly legal and executed by every single corporation in the world
+避税是完全合法的，并在世界上的每一个公司都在执行
+
 
 **Synth**
 
-Imagine you have 800 million in bitcoin. Do you run down the street bragging about it?
 
-Do people with security cleanances and NDA agreements go around putting faces on websites? These people do not even have Facebook accounts and NDA says they cannot tell their clients who their other clients are.
+想像一下，如果你有800多万元比特币。你会不会冲到街上吹嘘呢？
 
-Also there are IP issues with employers. If someone works at company the contract says the company owns everything they do. Including work in free time.
+有保安许可证和NDA协议的人，怎会到处去把自己的脸贴上网站？这些人甚至没有Facebook账户，NDA说，他们不能告诉他们的客户谁是他们的其他客户端。
 
-So they cannot contribute code publicly or company/employer can claim ownership and IP and causes legal problems.
+也有与雇主的知识产权问题。如果有人工作在公司的合同说，该公司拥有他们所做的一切。包括空闲时间的工作。
 
-There is a whole bunch of drama and bullshit. Anyone competent is secretive. And the people promoting themselves in public are losers.
+因此，他们不能公开贡献代码或公司/雇主可以要求所有权和知识产权，并导致法律问题。
 
-ALL of the early bitcoin people expected the US government to crack down in it VIOLENTLY. And that fear never went away.
+有一大堆有戏剧性的事情。任何能干的人都得遮遮掩掩。在公众中吹嘘自己在的人都是输家。
 
-The people entering crypto today do not remember the crypto wars and government oppression of the 90s
+所有早期的比特币的人预期会给美国政府在猛烈打击。而这种恐惧从来没有离开过。
+
+今天进入密码世界的人不记得上世纪90年代的加密战争和政府的压迫
 
 **Vadim 🛌**
 
-i find it strange that people are surprised by the anonymity of those interested in cryptography
+我觉得奇怪，人都被那些热衷于密码的匿名惊讶
 
 **Artem Kotelskiy**
 
-I don't like ndas
+我不喜欢保密协议
 
-I would think competent people never sign nda
+我认为有能力的人从来没有签署NDA
 
-Apparently I am wrong
+显然我错了
 
-Contracts with the companies...
+合同与公司...
 
-Eh
+啊
 
-So your devs and researchers are worried about their money, and you (presumably along with other projects of your scale) are imposing on them rules. Hard to believe.
+所以，你的开发者和研究人员都在担心自己的钱，而你（大概连同您的规模等项目）被强加在他们身上的规则。难以置信。
+
 
 **Synth** *[In reply to Vadim 🛌]*
 
-What a world.
+这世界.....
 
-And they forget that ALL of the professional math and crypto people either work for the government or military.
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-Everyone who works at Google or a Fortune 500. We have commits from people who work for Google/Amazon if you look at commit history.
-
-**Artem Kotelskiy**
-
-The only thing I believe professional researcher is worried about is security.
-
-Yeah, I don't think google/Amazon are such great companies frankly
-
-Although people there are competent
-
-Anyway
-
-I got your point
-
-About all professional math people you stretched too far. I know exactly what kind of people leave pure math and go to military, and they are not the best, believe me.
+但是他们却忘记了所有的专业数学和密码人们要么为政府或军方工作。
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-Like Google.
-
-Almost all large companies gave contract that says "we own you. You are our slave. We own everything you do in your free time".
-
-That is ALL fortune 500 companies. You will notice that they stopped commiting after taking employment at those companies.
+不同的人来自谷歌或世界500强。我们有在谷歌/亚马工作的人给我们意见，你可以看看之前的记录
 
 **Artem Kotelskiy**
 
-I see...
+我相信专业研究人员担心的唯一的事情就是安全性。
 
-Sad
+是的，我坦白地不认为谷歌/亚马逊是这样伟大的公司
+
+尽管人们有能力
+
+无论如何
+
+我得到了你的观点
+
+所有数学专业的人，你太牵强附会。我确切地知道什么样的人不再做纯数学而去军队，他们是不是最好的，相信我。
+
+**Synth** *[In reply to Artem Kotelskiy]*
+
+像谷歌。
+
+几乎所有的大公司了合同，都说：“我们拥有你。你是我们的奴隶。我们拥有你在空闲时间做的一切。“
+
+这是所有的财富500强企业。你会发现，他们在这些公司工作后就不再和我们一起了。
+
+**Artem Kotelskiy**
+
+我懂了…
+
+伤心
 
 **Synth**
 
-also the way US works is that information / research can still be classified after being published into the public domain.
+还有在美国工作方式是，信息/研究仍然可以被发布到公共领域后进行分类。
 
-So if a person gets government grant or worked on source routing or something and it is published, but that technology is used on later project they are associated with then it does not absolve them of legal liability
+因此，如果一个人得到政府补助，或在源路由或工作过的东西，它是公开的，但这种技术是在它们所关联以后的项目使用，那么它并不能免除其法律责任的
 
-and if they worked at university while the algorithms were developed the university can make IP claim
+如果他们曾在大学时的算法，开发了大学可以使知识产权的要求
 
-so everyone in the US lives terrorized by lawyers
+所以在美国的人都是生活在律师恐吓之下
 
 **Artem Kotelskiy**
 
-I see. Hard to believe there are Universities in USA who would file such ip
+我懂了。很难相信有在美国大学谁也提交此类的知识产权
 
-But I still stand by my point
+但我还是通过我的观点立场
 
-I think on your homepage you should explain why devs are hidden
+我想在您的主页，你应该解释为什么开发者都是隐藏的
 
 **Synth**
 
-You mean like Stanford/Cisco/Googler etc
+你的意思是像斯坦福/思科/ Google员工等
 
 **Artem Kotelskiy**
 
-Ah, but then this will attract attention
+啊，但那么这将引起人们的关注
 
 **Artem Kotelskiy** *[In reply to Synth]*
 
-Could you link or give keywords for any ip case there?
+你可以为任何知识产权案件有联系或给关键字？
 
-Google and Cisco are companies
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-They are not hidden. People are just too stupid to check github.
-
-Skycoin is not about bragging about who has the biggest developer dick on their advisor board.
-
-The website is about the coin and the technology. We dont believe in the advisor board, celebrity CEO dick measuring contest.
-
-**Artem Kotelskiy**
-
-Lol, account on github also doesn't add anything, although I admit that there are accounts there which have other social media
-
-You know, I don't advice you to advertise yourself
-
-Not at all
-
-In fact I hate all these bright "team" pages and stuff
-
-But here is one simple thing
-
-I like the project
-
-The future of the project is in hands of developers completely
-
-So it would help if I know who they are, and what are their values
-
-For me to decide, if I am going to be the sky node, or simply sky hodler
-
-But I get it, you think that code and execution speaks to itself, fair enough
-
-**Synth**
-
-You go dox yourself and report all your stuff to the government and go pay your taxes to the central bank that owns you. All human cattle, please line up for bar coding.
-
-Its the exact opposite of why bitcoin was created.
-
-**Artem Kotelskiy**
-
-Yeah well, there are different degrees of being crypto anarchist
-
-**Vadim 🛌**
-
-being one in words and in reality?:D
-
-**Artem Kotelskiy**
-
-I tend to believe that declaring a war to the previous governors doesn't help pieceful transitioning to a better system.
-
-I might be wrong, guys, so don't push
-
-Just an opinion :)
+谷歌和思科是公司
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-The central bank creates money out of nothing. Then the government taxes the money back from the slaves.
+他们是不是隐藏的。人们只是傻的不会去查看github。
 
-You are either a slave or you are free. People working for other peoples money, are not working for themselves. They are slaving for for their master/owner.
+Skycoin是不是吹嘘谁拥有最大的开发商家伙，谁拥有最牛b的顾问委员会。
 
-There is no degrees. You are either owned and are a slave and have a slave tracking number and live under a massive surveilence, police state central bank run slave plantation OR you are free. Slave or Free. There is no degrees.
+该网站是关于硬币和技术。我们不相信顾问委员会，名人CEO和看看谁的屌比较大的比赛。
 
 **Artem Kotelskiy**
 
-I see. I think the next thing to discuss is if the government is good or not (let's say US). And I know I will lose this one, so let's not go into this. I completely understand your pov. It differs from mine in that I believe in kindness more, and think that there is a spectrum of freedom. But could be I am just young and inexperienced.
+Lol, 在GitHub上还没有添加任何东西，尽管我承认有帐户存在具有其它社交媒体
+
+你知道，我不建议你宣传自己
+
+一点也不
+
+事实上，我讨厌这种明亮的“团队”页面和东西
+
+但这里是一个简单的事情
+
+我喜欢的项目
+
+该项目的未来完全掌握在开发商手中
+
+因此，这将有助于如果我知道他们是谁，他们有什么价值
+
+我能决定的，如果我将成为天空的节点，或者干脆天空币的长期持有者
+
+但我明白了，你认为代码和执行本身就说明了所有
 
 **Synth**
 
-"Freedom to masturbate to porn", "freedom to smoke marijuana", "freedom to have anal sex", "freedom to shoot up heroin", "freedom to run around in the 'free market' laboring like a slave for someone elses money", "freedom to shop!".
+你去DOX自己和所有的东西向政府报告，并去缴纳税款，以拥有你的中央银行。人类所有的牛，请排队以方便我们扫描条形码。
 
-Slavery is not about free or slave. Its about independent (free) or dependent (slave).
-
-You make people dependent upon you for survival, then you give them fake "freedoms" so they dont revolt. That is how you turn a society into a labor camp and then give them enough free porn, prozac and zoloft until you have domesticated "happy slaves" that cannot even imagine what an alternative would look like.
-
-Look how free those people are with their $750,000 in student debt they wont pay off until they die! Lol. Its just a mockery.
-
+它为什么比特币被创建的完全相反。
 **Artem Kotelskiy**
 
-Everyone makes his own choices
-
-Some people just grow food and live off that
-
-I am from the country where half of the population lives like this, it's just fine
-
-And I think if one really wants, he can be free
+是啊，但也有不同程度的被加密无政府主义者
 
 **Vadim 🛌**
 
-let me guess, belarus?
+作为一个在口头上和现实中的？:D
 
 **Artem Kotelskiy**
 
-No, it's harder to guess
+我倾向于认为，对上一个领导宣战不能够帮我们过渡到一个更好的系统。
+
+我可能是错的，现在可好，所以不推
+
+只是一个意见:)
+
+
+**Synth** *[In reply to Artem Kotelskiy]*
+
+央行创造货币无中生有。随后，政府对奴隶收税然后把钱要回来。
+
+你要不是一个奴隶，就是你是自由的。对于其他国家人民的钱工作的人，都不是在为自己工作。他们只是被自己的主人/所有者奴役着。
+
+这个东西只是一个二元论。你要么是个主人或者是一个奴隶，并有从跟踪号码和一个巨大的政府监测下生活，警察国家央行运行的奴隶养殖园或者，你是自由的。奴隶或自由。只有这两个选择。
+
+**Artem Kotelskiy**
+
+我懂了。我想未来的事情要讨论的是，到底政府是好还是不好（比方说美国）。我知道我肯定会在这个问题上落败，所以还是不要仔细地去谈及了。我完全理解你的过观点。你的和我所想的不太一样，我比较相信善良，觉得有自由是拥有不同的的频谱。但可能是我只是年轻，缺乏经验。
 
 **Synth**
 
-Anyone who does not want to be a slave is an anarchist now! Lol
+"看A片手淫的自由", "抽大麻的自由", "肛交的自由", "使用海洛因的自由", "free", "购物的自由！".
 
-"Whoa. Whoa. Whoa. I dont want to be an anararchist. I mean a little slavery is ok, but the masters should be nicer to the slaves." Lol.
+奴隶制是不是自由或奴隶。其关于独立的（游离）或依赖的（随从）。
+
+你让人们依赖于你而生存，那么你给他们假的“自由”，所以他们不反抗。那你是怎么把一个社会变成一个劳教所，然后给他们足够的A片，百忧解和左洛复，直到你驯养“快乐奴”他们甚至不能想像的另类，其他的生活方式将是什么样子。
+
+看看那些人如何免与他们的$ 75万学生债务，直到死他们都还不清！ lol。只是一个笑柄。
 
 **Artem Kotelskiy**
 
-Anarchist is someone who declares a war on the government
+每个人都有自己的选择
 
-Loool
+有些人只是种植粮食过活
+
+我是从一半的人口都是这样生活的国家而来，没有什么问题
+
+我认为，如果一个人真的想要，他可以自由
+**Vadim 🛌**
+
+让我猜猜，白俄罗斯？
+
+**Artem Kotelskiy**
+
+不，比这个更难猜测
 
 **Synth**
 
-Anarchist.
+所有不希望成为一个奴隶马上成了一个无政府主义者！ lol
 
-An-archon
-
-An means without.
-
-Archon means "master" or "ruler".
-
-Anarchy means "without masters" or without rulers. All of the words are inverted to mock the public and the illiterate.
+“哇。哇。哇。我不想成为一个无政府主义者。我的意思是一有一点奴隶是好的，但主人应该是更好对待奴隶。“lol。
 
 **Artem Kotelskiy**
 
-Anyway
+无政府主义者是对着政府宣战的人
 
-Keep up the skycoin guys, I sincerely hope it will allow more people not to have masters
+loool
+
+**Synth**
+
+无政府主义者。
+
+安执政官
+
+没有办法。
+
+执政官（Archon）的意思是“主子”或是“统治者”。
+
+无政府状态（Anarchy）意味着“没有主人”或没有统治者。所有的话都倒嘲笑公众和文盲。
+
+**Artem Kotelskiy**
+
+无论如何
+
+跟上skycoin家伙，我真诚地希望这将让更多的人不要有“主子“
 
 **Artem Kotelskiy** *[In reply to Synth]*
 
@@ -503,29 +509,30 @@ Lol
 
 matthieu *[In reply to Synth]*
 
-👍🏾agree completely
+👍🏾完全同意
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-No. The problem is human nature.
+不。问题是人的天性。
 
-You cannot free slaves. They will just find another master. They *want* and choose to be slaves. They just want a slave driver with a softer whip.
+你不能解放奴隶。他们只会找另一个主人。他们希望和选择成为奴隶。他们只是想找一个拿比较柔软鞭子的奴隶主。
 
-Look at how people spontaniously elect leaders to tell them what to do and tell them how they should live and what they should fear. Because they refuse to do it themselves.
+看看人们如何选举一些告诉他们怎么做，告诉他们应该怎样生活，他们应该担心什么的领导人。因为他自己不想去理会。
 
 matthieu *[In reply to Artem Kotelskiy]*
 
-Actually maybe it would serve the coin more to put forward the ideology behind as synth put it rather than having a few faces....
+其实也许把后面提出的意识形态提出来更可能推动这个项目，就像synth所做的一样把而不是把它看成几面......
 
 matthieu
 
-Synth So far I didn't know what were your motivations/values and  deep ideology. Now I am an even bigger supporter of the coin. This is important to remind the final aim of all of this... Loads of ppl forget and just want to be overnight millionaires by buying into ICOs...
+Synth，在之前我不知道你的动机/价值观和深层的意识形是什么。现在我成了硬币的一个更大的支持者。这提醒所有这一切的最终目的是很重要的...... 很多人都把这个给忘记了，只是想通过购买到ico一夜之间成为百万富翁..
 
 **Synth** *[In reply to matthieu]*
 
-Trillionaires lol. Worlds first trillionaires. Briefly until this bubble bursts.
+千亿富翁！笑。世界第一千亿富翁。简言之，直到此泡沫破裂。
 
-Millionaire is so 1994
+百万富翁太1994年了吧
+
 
 matthieu
 
@@ -533,17 +540,17 @@ matthieu
 
 **Synth**
 
-Bitcoin gets pushed up to $5000 but if even 1% of holders sold it would be back at $2000. So very high price increase vs the market depth.
+比特币被拉高至$ 5000人但如果连1％的持有人出售它会回到2000 $。所以性价比非常高的格价增长VS市场深度。
 
-I think we could see trillionaires or people worth more than Billgates briefly, before they start moving money out and it implodes.
+我认为，我们可以看到千亿富翁，或者是比比尔·盖茨更富有。在他们开始转移资金之前之后内爆之前。
 
-Altcoins, unlike real estate and stocks, have no price ceiling. There is no fundamental economics or mathematics keeping the price from going up to infinity.
+另类硬币，不像房地产和股票，没有最高限价。没有根本的经济学，没有阻止价格上升到无穷的数学基础。
 
-There is no revenues or loss and no objective way to determine that a buggy "smart contract" platform no one uses, should not be worth $250 billion dollars.
+没有收益或损失，并没有客观的方法来确定一个有没有人使用，很多臭虫错误的“智能合同”的平台，为何不应该价值$二百五十亿美元。
 
 **Steve**
 
-A Distributed Consensus Algorithm for Cryptocurrency Networks
+分布式一致性算法Cryptocurrency网络
 https://github.com/skycoin/whitepapers/blob/master/whitepaper_skycoin_consensus_v01_jsm.pdf
 
-Is the most recent consensus algorithm whitepaper
+是最近的一致性算法白皮书
