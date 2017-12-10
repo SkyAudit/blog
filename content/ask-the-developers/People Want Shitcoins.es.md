@@ -13,20 +13,20 @@ bounty = 3
 *Extracto del canal de Telegram*
 
 >Pregunta：
-Quiero decir, si Skycion es tan bueno, definitivamente lo usaría para mi
+Quiero decir, si Skycoin es tan bueno, definitivamente lo usaría para mi
 negocio en lugar del resto, pero ¿dónde podemos ver las evidencias? ¿Los
 experimentos y todo? ¿Hay algún sitio web con más información y datos? ¿La red
 ya es fuerte con muchos nodos?
 
 La gente quiere shitcoins.
 
-Bitcoin al principio y ahora Skycoin tienen enormes barreras educativas y
-técnicas.
+Bitcoin (al menos al principio) y Skycoin (en este momento) tienen que efentar
+enormes barreras educativas y técnicas.
 
 Skycoin es nuevo y ha sido creado desde cero, no es una moneda clonada como
-esos 500 tokens ERC20, por lo que para ser listado en un exchange (servicio de
-intercambio) es necesario que dicho exchange haga trabajo real (algo que no
-querrán hacer cuando son 6 personas en el exchange dando soporte +300
+esos 500 tokens ERC20, por lo que para ser listado en un exchange (casa de
+cambio) es necesario que dicho exchange haga trabajo real (algo que no
+querrán hacer cuando son 6 personas en el exchange dando soporte a más de 300
 shitcoins).
 
 Skycoin tiene su propia base de código, su propia cadena de bloques y tiene
