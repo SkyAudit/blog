@@ -199,12 +199,12 @@ esto es ambientalmente irresponsable.
 
 Las transacciones de Bitcoin tardan 
 en promedio 10 minutos en incluirse en 
-un bloque, y se necesita aun más tiempo para
+un bloque, y se necesita aún más tiempo para
 obtener más seguridad.
 
 # Cualidades convenientes para los sistemas de consenso distribuido para los registros financieros
 
-Los parametros sobre los cuales se puede mejorar Bitcoin son:
+Los parámetros sobre los cuales se puede mejorar Bitcoin son:
 
 ### * Eliminar el gasto doble
 
