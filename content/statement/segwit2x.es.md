@@ -34,7 +34,7 @@ Los problemas de monopolización de Bitcoin derivan de un defecto de diseño bá
 
 Skycoin está diseñada específicamente para solucionar estos problemas. Es una criptomoneda de siguiente generación que elimina los requisitos de minería y proporciona una blockchain completamente descentralizada. Las decisiones de red no son tomadas por unas pocas personas poderosas, sino por la comunidad como un todo. Con el consenso de igual a igual, Skycoin protege a los usuarios contra el tipo de manipulación que estamos viendo hoy en Bitcoin.
 
-Skycoin logra consenso mediante un novedoso algoritmo llamado Obelisk. Este algoritmo propaga la influencia a través de la red mediante una "web de confianza". La web de confianza mantiene la red honesta al proporcionar transparencia para sus usuarios. 
+Skycoin logra consenso mediante un novedoso algoritmo llamado Obelisk. Este algoritmo propaga la influencia a través del sistema mediante una "red de confianza". La red de confianza mantiene la honestidad del sistema al proporcionar transparencia para sus usuarios. 
 
 Cada nodo en la red de Skycoin se suscribe a otros nodos. A los nodos se les asignan blockchains personales que difunden públicamente sus acciones. La comunidad puede ver y auditar los nodos. Si un nodo se comporta de manera sospechosa o maliciosa, sus conexiones se pueden cortar, disminuyendo su influencia. Obelisk fortalece la toma de decisiones colectiva y crea una red que se basa en las relaciones, no en el poder de procesamiento.
 
