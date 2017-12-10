@@ -29,12 +29,12 @@ categories = [
 
 Skycoin se basa en una tecnología que presenta 
 un nuevo fundamento criptográfico conocido como 
-canal de transmisión público. También presenta 
+canal de transmisión pública. También presenta 
 una nueva implementación de algoritmo de consenso, 
 llamado Obelisk, que minimiza los problemas de 
 compromiso que surgen de la prueba de trabajo y 
 de los procesos de minería subyacentes a Bitcoin, 
-abordando una serie de asuntos de seguridad 
+abordando así una serie de asuntos de seguridad 
 asociados con este último. Obelisk no es un simple algoritmo, 
 sino una implementación que emplea múltiples 
 técnicas para entregar garantías de seguridad específicas.
