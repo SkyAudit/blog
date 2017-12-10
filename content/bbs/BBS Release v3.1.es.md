@@ -17,8 +17,8 @@ categories = [
 ## Registro de cambios
 
 - Actualizado para usar el último CXO.
-- Se reimplementó la estructura de datos CXO, para facilitar la gestión de diferencias.
-- Introducción de un módulo `views` para implementación más sencilla de diferentes formas de visualizar datos.
+- Se reimplementó la estructura de datos CXO, para facilitar la gestión del diff.
+- Introducción de un módulo `views` para facilitar la implementación de diferentes formas de visualizar datos.
 - Se implementó la posibilidad de exportar e importar tableros a y desde archivos.
 - Implementación inicial de la funcionalidad de seguir y evitar usuarios.
 - Interfaz de usuario mejorada (trabajo en progreso).
@@ -26,7 +26,7 @@ categories = [
 
 ## Binarios
 
-Éstos están disponibles para Windows de 64 bits, Mac y Linux.
+Estos están disponibles para Windows de 64 bits, Mac y Linux.
 
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_linux_amd64.zip
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_osx_amd64.zip
