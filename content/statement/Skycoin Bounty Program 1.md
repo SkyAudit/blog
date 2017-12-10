@@ -24,6 +24,8 @@ categories = [
 
 *Update December 7, 2017. Add Português*
 
+*Update December 10, 2017. Add Italiano*
+
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
 
 ## Bounty Categories
@@ -59,6 +61,7 @@ Accepted languages are:
 * Ελληνικά
 * Français
 * Português
+* Italiano
 
 *Note: 中文 and Рyсский translations all have someone working on them now*
 
