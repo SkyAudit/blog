@@ -1,5 +1,5 @@
 +++
-title = "Getting to Where We Think Bitcoin Should Be"
+title = "Давайте разберёмся, какую нишу занимает Bitcoin"
 tags = [
     "Decentralization",
     "Bitcoin",
@@ -13,72 +13,46 @@ categories = [
 ]
 +++
 
-*This is an archived post from the bitcointalks thread on April 23 2014*
+*Перед вами комментарий из архива обсуждения в сети о Bitcoin от 23 апреля, 2014 г*
 
-> Quote from: **JFK01** on April 23, 2014, 01:54:50 PM
+> Цитата пользователя: **JFK01** 23 Апреля 2014, 13:54:50
 
-> I guess that Skycoin just want to test the water first. There is nothing wrong
-with that. They are engineers and want to do testing for everything. They have
-been very cautious for the development as well. This is something they are good
-at. Just do what you are good at. This project is a long shot.
+> Я предполагаю, что Skycoin просто хочет сначала сделать предварительную оценку ситуации. В этом нет ничего плохого. Они ведь инженеры и хотят все протестировать. Они очень внимательно относятся к разработке. Это то, что у них хорошо получается - делай то, что тебе по душе. Этот проект - настоящая авантюра.
 
-If you look at the top coins, Peer Coin, Ripple, Bitcoin, Nxt, Litecoin, it's
-clear that most coins with a fundamental innovation on Bitcoin's security model
-have done very well.
+Если взглянуть на самые ходовые монеты, такие как Peer Coin, Ripple, Bitcoin, Nxt, Litecoin, становится ясно, что большинство из них основываются на инновационной, фундаментальной модели безопасности  Bitcoin, которая сама по себе хороша.
 
-- Bitcoin was the first and introduced Proof of Work.
-- Litecoin introduced a new hashing function Scrypt.
-- Peer Coin introduced Proof of Stake.
-- Ripple introduced a model of relational consensus, which is flawed but innovative. Has a new codebase.
-- Nxt introduced pure proof of stake. Has a new codebase.
-- Namecoin introduced a key value store on the blockchain.
+- Bitcoin первый познакомил нас с таким понятием как «Proof of Work»
+- Litecoin представил новую функцию хеширования «Scrypt»
+- Peer Coin познакомил нас с таким понятием как «Proof of Stake»
+- Ripple представил модель реляционного консенсуса, в которой имеются дефекты, но зато она новаторская.  Имеет свою базу программного кода
+- Nxt познакомил с настоящим Pos майнингом. Имеет свою базу программного кода
+- Namecoin предложил хранить ключевые данные в блокчейне
 
-Market caps:
 
-- Bitcoin: 6 billion
-- Litecoin: 300 million
-- Peercoin : 50 million
-- Ripple: 1 billion (but users have less than 1% of coins; so free float is only 50 million)
-- Nxt: 25 million
-- Namecoin: 20 million
+Биржевая оценка: 
 
-Skycoin has a fundamentally new consensus model that is a major advance by
-itself.
+- Bitcoin: 6 миллиардов
+- Litecoin: 300 миллионов
+- Litecoin: 50 миллионов
+- Ripple: 1 миллиард (но пользователи имеют менее 1% этих монет, поэтому в свободном обращении есть всего 50 миллионов)
+- Nxt: 25 миллионов
+- Namecoin: 20 миллионов
 
-- Transactions in seconds.
-- Transactions cannot be reverted by people who control hashing power.
-- Low cost to run network.
+Skycoin имеет принципиально новый алгоритм, который сам по себе является инновационным:
 
-Just the consensus model by itself will do well. A major attack affecting
-Bitcoin exchanges or abuse by miners could move people away from PoW towards
-coins like Skycoin that guarantee against attacks that revert transactions.
+- Транзакции за секунды
+- Транзакции не могут быть отменены людьми, которые контролируют майнинговую сеть
+- Низкая стоимость работы сети
 
-We knew about signature malleability three years ago and a decision was made
-not to fix the problem in Bitcoin, until people began using it to steal coins.
-We know about several attacks on Bitcoin that are theoretical, but which are
-becoming more likely and profitable as the coin value goes up. If you can use a
-router exploit and hack an internet router that traffic for a Bitcoin node goes
-through, you can fork the network for that node and steal coins from exchanges,
-banks and gambling sites.
+Данный алгоритм даже сам по себе будет в выигрыше. Из-за нападений (взломов), влияющих на обмен Bitcoin, или неправильного обращения/злоупотребления майнеров, люди могут перейти от PoW  к таким монетам, как Skycoin, которые гарантируют защиту от атак, где злоумышленник может сделать вид, что транзакция не была осуществлена.
 
-Skycoin is hardened against all known vulnerabilities in Bitcoin. We were
-immune to signature malleability before the attacks on Bitcoin even began. We
-check for hash collisions from the start and did not have to monkey patch it.
-If someone develops a widespread SHA256 preimage attack, Bitcoin is dead and
-Skycoin will probably still be running.
+Мы знали о подделке цифровых подписей три года назад, и было решено не исправлять проблему в Bitcoin, пока люди не начали использовать ее, чтобы украсть монеты. Теоретически, мы знаем о нескольких атаках на Bitcoin,  которые становятся более вероятными и прибыльными по мере увеличения стоимости этих монет. Если вы можете воспользоваться уязвимостью маршрутизатора  и взломать  узел Bitcoin, то изменение подписи даёт возможность создавать различные хеши для одной транзакции и украсть монеты с бирж, банков и сайтов азартных игр в одно мгновенье.
 
-Banks and businesses do not want to learn about or check for Signature
-Malleability. They dont want to know how Bitcoin works. They want to be able to
-trust that the developers fix known vulnerabilities before coins get stolen.
-Bitcoin is not clean or mature software. Fixing many of the minor issues in
-Bitcoin require a blockchain reset, that the developers are unable and
-unwilling to do.
+Skycoin защищён от всех известных уязвимостей, которые есть в Bitcoin. Мы были невосприимчивы к подделке цифровых подписей даже до того, как начались атаки на Bitcoin. Мы проверяем наличие коллизий хеш-функции с самого начала и нам не приходится постоянно искать дефекты и исправлять их. Если кто-то предпримет широко распространенную атаку на SHA-2 (безопасный алгоритм хеширования, версия 2), то Bitcoin будет мёртв, а Skycoin, всё ещё будет работать.
 
-With the financial success of Bitcoin, we have forgotten that Bitcoin was first
-and foremost an experiment. Many of the earliest developers of Bitcoin were
-selling massive blocks of coins when the price hit a dollar, because they never
-believed it would even get that far. People talk about Bitcoin 2.0, but we
-should be trying to get to Bitcoin 1.0 . No one can look at the Bitcoin-qt
-wallet and tell me that this is the best we can do.
+Банки и коммерческие организации не хотят проверять подделку цифровых подписей. Они даже и знать не хотят, как работает Bitcoin. Им просто хочется верить, что разработчики исправят все известные уязвимости, прежде чем монеты будут украдены. Bitcoin – это плохо выверенное или ещё не зрелое программное обеспечение. Для исправления многих второстепенных проблем в Bitcoin требуется переустановка всего блокчейна, что разработчики не могут или не хотят делать.
 
-*In other words, the first goal of the Skycoin project was not to surpass Bitcoin, but merely to get to where we believe Bitcoin should be.*
+Финансовый успех  Bitcoin заставил нас забыть, что эти монеты были в первую очередь просто экспериментом. Многие из ранних разработчиков Bitcoin продавали огромные объемы монет, и когда их цена достигла доллара, они не могли поверить, что всё зашло  так далеко. Люди уже поговаривают о Bitcoin 2.0, но мы сначала должны попытаться  уладить дела с Bitcoin 1.0. Ведь никто, согласитесь, не скажет, что кошелек Bitcoin-QT  - это лучшее, что мы можем сделать.
+
+
+*Другими словами, первая цель проекта Skycoin заключалась не в том, чтобы превзойти Bitcoin, а для того, чтобы разобраться, какую нишу занимает Bitcoin на бирже, где ему и место быть.*
