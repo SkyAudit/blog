@@ -18,8 +18,8 @@ categories = [
 
 ## Registro de cambios
 - Mejoras en la interfaz de usuario.
-- Se implementó el servicio de descubrimiento (las conexiones a otros nodos ahora se administran automáticamente).
-- Se mejoró el envío remoto de contenido del tablón (implementado a través del servicio de descubrimiento).
+- Se implementó el descubrimiento de servicios (las conexiones a otros nodos ahora se administran automáticamente).
+- Se mejoró el envío remoto de contenido del tablón (implementado a través del descubrimiento de servicios).
 - Proceso simplificado de creación y alojamiento de tablones (boards).
 - Mejoras a la estructura de datos CXO.
 
