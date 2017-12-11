@@ -284,7 +284,7 @@ técnicos al software o matemáticas.
 Skycoin debe abordar tanto las inminentes amenazas 
 matemáticas existenciales como los peligros de 
 seguridad que la experiencia de usuario incompleta 
-y poco pensada de Bitcoin ha creado para los usuarios 
+y poco pensada que Bitcoin ha creado para los usuarios 
 cotidianos. La mala funcionalidad y el diseño han 
 forzado a los usuarios a comprometer la seguridad, 
 con millones de dólares confiando rutinariamente en 
@@ -298,7 +298,7 @@ Alrededor de la mitad de todos los Bitcoins
 existentes nunca se han movido de sus direcciones 
 iniciales y nunca lo harán porque están perdidos 
 como archivos de cartera irrecuperables, carteras 
-olvidadas, o malentendidos de lo que en realidad se 
+extraviadas, o malentendidos de lo que en realidad se 
 estaba respaldando en un archivo de cartera. Mt. Gox 
 informó recientemente haber "encontrado" 200.000 Bitcoin 
 en una cartera que no sabían que contenía bitcoins. La 
