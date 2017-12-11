@@ -21,7 +21,7 @@ categories = [
 - [Seguridad y transparencia: Obelisk y canales de transmisión pública](#seguridad-y-transparencia-obelisk-y-canales-de-transmisión-pública)
 - [Obelisk](#obelisk)
 - [Algoritmo de consenso binario simple: Elección entre dos bloques](#algoritmo-de-consenso-binario-simple-elección-entre-dos-bloques)
-- [Consenso sobre múltiples opciones de ramas concurrentes](#Consenso-sobre-múltiples-opciones-de-ramas-concurrentes)
+- [Consenso sobre múltiples opciones de ramas concurrentes](#consenso-sobre-múltiples-opciones-de-ramas-concurrentes)
 
 <!-- /MarkdownTOC -->
 
