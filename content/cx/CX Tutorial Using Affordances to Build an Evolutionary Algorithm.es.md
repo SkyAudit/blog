@@ -180,14 +180,3 @@ estar a cargo de activar varios nodos en una gran red de acciones. Además,
 en este ejemplo solo se consideran dos argumentos posibles: *yes* y *no*; podríamos 
 tener más argumentos y acciones que acepten diferentes tipos de argumentos 
 distintos de booleans.
-
-By using objects, we can decide what actions will be activated or
-deactivated. For this example, a small amount of actions are being
-considered for this activation process, and the benefit of using this
-architecture could seem worthless at first sight. Nevertheless, more
-complex rules involving more objects could be defined, and a single
-rule could be in charge of activating several nodes in a big network
-of actions. Also, in this example only two possible arguments are
-considered: *yes* and *no*; we could have more arguments, and actions
-that accept different types of arguments other than booleans.
-
