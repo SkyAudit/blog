@@ -300,7 +300,7 @@ iniciales y nunca lo harán porque están perdidos
 como archivos de cartera irrecuperables, carteras 
 olvidadas, o malentendidos de lo que en realidad se 
 estaba respaldando en un archivo de cartera. Mt. Gox 
-informó recientemente haber "encontrado" 200,000 Bitcoin 
+informó recientemente haber "encontrado" 200.000 Bitcoin 
 en una cartera que no sabían que contenía bitcoins. La 
 cartera había sido ignorada previamente y pudo haber sido 
 borrada fácilmente por error. Las carteras a menudo se 
@@ -326,18 +326,18 @@ no se han visto antes en ninguna moneda o pieza
 de software. Por el momento, estamos creando un 
 prototipo del sistema para su implementación. 
 El proceso de desarrollo de Skycoin es iterativo. 
-Habrá cambios, mejoras y mejoras a medida que 
+Habrá cambios, mejoras y refinamientos a medida que 
 trabajamos a través de los detalles, abordamos 
 fallas conocidas, probamos el sistema y obtenemos retroalimentación.
 
-# Seguridad y Transparencia: Obelisk y Canales de transmisión pública
+# Seguridad y transparencia: Obelisk y canales de transmisión pública
 
 Para resolver los problemas de compromiso asociados 
 con el sistema de Bitcoin, la tecnología subyacente a 
 Skycoin implementa la cadena de bloques en la forma de 
 un canal de transmisión pública. Todos pueden leer la 
 cadena, pero solo el propietario puede publicar bloques. 
-Para ser válida como una cadena personal, cada bloque 
+Para ser válido para una cadena personal, cada bloque 
 debe estar firmado con la llave privada de los 
 propietarios. Cada nodo en este sistema de algoritmo 
 de consenso (Obelisk) tiene una cadena de bloques 
@@ -357,7 +357,7 @@ lograr borrarlo de internet.
 ### * Un nodo no puede publicar una versión diferente de un bloque previo y pasar desapercibido
 
 Los bloques están numerados y se 
-detectarían si el nodo firmara 
+detectaría si el nodo firmara 
 dos bloques diferentes con el mismo 
 número de secuencia.
 
