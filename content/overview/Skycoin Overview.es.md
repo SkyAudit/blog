@@ -278,20 +278,20 @@ cartera hasta el consenso de la cadena de bloques, y
 la innovación fundamental en muchas otras áreas.
 
 La mayoría de las pérdidas en Bitcoin derivan de 
-deficiencias en el diseño, la falta de funcionalidad 
+deficiencias en el diseño, la falta de usabilidad
 y los errores del usuario final en lugar de ataques 
 técnicos al software o matemáticas. 
 Skycoin debe abordar tanto las inminentes amenazas 
 matemáticas existenciales como los peligros de 
 seguridad que la experiencia de usuario incompleta 
 y poco pensada que Bitcoin ha creado para los usuarios 
-cotidianos. La mala funcionalidad y el diseño han 
+cotidianos. La mala usabilidad y el diseño han 
 forzado a los usuarios a comprometer la seguridad, 
 con millones de dólares confiando rutinariamente en 
 carteras web inseguras. A pesar de los robos frecuentes 
 y masivos reportados por los medios a diario, hasta la 
 fecha se han perdido más Bitcoin debido a problemas de 
-funcionalidad que de todos los esfuerzos de los delincuentes 
+usabilidad que de todos los esfuerzos de los delincuentes 
 para robar Bitcoin.
 
 Alrededor de la mitad de todos los Bitcoins 
