@@ -18,7 +18,7 @@ categories = [
 - [Defectos importantes de Bitcoin](#defectos-importantes-de-bitcoin)
 - [Cualidades convenientes para los sistemas de consenso distribuido para los registros financieros](#cualidades-convenientes-para-los-sistemas-de-consenso-distribuido-para-los-registros-financieros)
 - [Filosofía de seguridad de Skycoin](#filosofía-de-seguridad-de-skycoin)
-- [Seguridad y Transparencia: Obelisk y Canales de transmisión pública](#seguridad-y-transparencia-obelisk-y-canales-de-transmisión-pública)
+- [Seguridad y transparencia: Obelisk y canales de transmisión pública](#seguridad-y-transparencia-obelisk-y-canales-de-transmisión-pública)
 - [Obelisk](#obelisk)
 - [Algoritmo de consenso binario simple: Elección entre dos bloques](#algoritmo-de-consenso-binario-simple-elección-entre-dos-bloques)
 - [Consenso sobre múltiples opciones de ramas concurrentes](#Consenso-sobre-múltiples-opciones-de-ramas-concurrentes)
@@ -54,7 +54,7 @@ en el árbol de cadena es la cadena de bloques
 de consenso.
 
 Bitcoin usa una técnica llamada Prueba de Trabajo 
-(PoW) para determinar una cadena de bloques única. 
+(PoW en inglés) para determinar una cadena de bloques única. 
 Un bloque válido requiere un valor hash, el cual está 
 por debajo de un valor objetivo. Los nodos agregan 
 transacciones a un nuevo bloque y aleatoriamente 
@@ -63,7 +63,7 @@ válido para un bloque.
 
 Una función es usada para crear un orden total de 
 cadenas en el árbol de bloques. La cadena que tiene 
-la mayor dificultad y requirió la mayoría de las 
+la mayor dificultad y requirió la mayor cantidad de 
 operaciones hash para producirse es "la cadena más larga" 
 y forma la cadena de consenso. La noción de 
 "profundidad de bloque" y "dificultad" crea un 
@@ -84,7 +84,7 @@ obtienen el mismo consenso.
 
 Bitcoin no asume que los nodos tengan identidades 
 y no asume que los nodos son honestos. Los nodos pueden 
-enviar datos a otros nodos y no pueden afectar las decisiones 
+enviar cualquier dato a otros nodos y no podrían afectar las decisiones 
 consensuadas porque la dificultad es algo que puede verificarse 
 independientemente por sus propios méritos.
 
@@ -92,7 +92,7 @@ independientemente por sus propios méritos.
 
 ### * La cadena de bloques
 
-Una estructura de datos única que todos pueden poseer.
+Una única estructura de datos que todos pueden poseer.
 
 ### * Registro público de las transacciones 
 
@@ -107,7 +107,7 @@ Las llaves públicas no son reveladas hasta que se usan.
 ### * Uso de "outputs" (salidas) para los saldos
 
 Se ignora tratar de crear efectivo digital divisible: 
-para pagar $20 de una salida de $25, se envían $20 a 
+para pagar $20 a partir de una salida de $25, se envían $20 a 
 la persona y $5 a usted mismo.
 
 ### * Funcion de dificultad de PoW y profundidad de bloque
@@ -132,9 +132,7 @@ Una persona u organización que tenga la
 posibilidad de alquilar o comprar 
 suficiente potencia hash puede revertir las transacciones.
 
-### * Bitcoin logra el consenso de red pero los nodos 
-individuales de Bitcoin son altamente vulnerables a los 
-adversarios que controlan los routers a través de los cuales pasan los paquetes
+### * Bitcoin logra el consenso de red pero los nodos individuales de Bitcoin son altamente vulnerables a los adversarios que controlan los routers a través de los cuales pasan los paquetes
 
 Un adversario que controle los routers tiene 
 dominio absoluto sobre la opinión de un nodo y puede 
@@ -144,7 +142,7 @@ influir arbitrariamente en las decisiones de consenso del nodo.
 
 Los atacantes hábiles pueden emplear ataques del 
 51%  y la compra y venta de monedas alternativas en 
-los mercados de Bitcoin para conducir a este a la insolvencia.
+una casa de cambio para conducir a esta a la insolvencia.
 
 ### * Los bancos y los sitios de apuestas se han vuelto vulnerables a los ataques del 51%
 
@@ -155,10 +153,7 @@ Bitcoin podrían generar varios cientos de
 millones de dólares en ganancias por el 
 comercio de opciones.
 
-### * Los estados con fuertes controles de capital, 
-al igual que las empresas competidoras, 
-pueden atacar directamente a la red de Bitcoin para 
-proteger sus intereses financieros
+### * Los estados con fuertes controles de capital, al igual que las empresas competidoras, pueden atacar directamente a la red de Bitcoin para proteger sus intereses financieros
 
 Tales entidades pueden absorber fácilmente 
 los costos de atacar la red y acabar con la seguridad de Bitcoin.
@@ -168,8 +163,7 @@ los costos de atacar la red y acabar con la seguridad de Bitcoin.
 Muchos ahora tienen la capacidad de alquilar 
 el poder de hash para un ataque mayoritario.
 
-### * Los hackers pueden utilizar numerosos agujeros de seguridad en routers y equipos de 
-redes para robar monedas de bancos y casas de cambio
+### * Los hackers pueden utilizar numerosos agujeros de seguridad en routers y equipos de redes para robar monedas de bancos y casas de cambio
 
 Un atacante puede controlar a los pares 
 conectados a un nodo de Bitcoin y garantizar 
@@ -183,8 +177,8 @@ luego se retransmite a la red principal.
 ### * Bitcoin no puede ofrecer seguridad a un bajo costo 
 
 La red de Bitcoin usa cantidades inmensas 
-de electricidad que son exponencialmente 
-crecientes. La seguridad de Bitcoin se basa 
+de electricidad que crecen de manera exponencial. 
+La seguridad de Bitcoin se basa 
 deliberadamente en la creación de la mayor 
 cantidad posible de desechos eléctricos. Como 
 la seguridad está relacionada con el costo de 
@@ -210,7 +204,7 @@ Los parámetros sobre los cuales se puede mejorar Bitcoin son:
 
 Una vez que se ha ejecutado una transacción, 
 debería ser imposible revertir el consenso. 
-este debe ser lo más irreversible posible.
+Este debe ser lo más irreversible posible.
 
 ### * Eficiencia
 
@@ -253,7 +247,7 @@ a futuros ataques. Algunos problemas en Bitcoin pueden
 corregirse, como la maleabilidad de la firma. Otros 
 problemas son fundamentales y no pueden abordarse sin 
 definir una estructura completamente nueva, como la 
-dependencia en la Prueba de trabajo y los mineros.
+dependencia en la Prueba de Trabajo y los mineros.
 
 # Filosofía de seguridad de Skycoin
 
