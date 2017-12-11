@@ -27,7 +27,7 @@ categories = [
 Este tutorial presenta un "juego" basado en texto 
 (el usuario no interactúa con el programa y no puede 
 influir en las decisiones del personaje) que usa una 
-arquitectura de desafío-respuesta para determinar cuáles 
+[Arquitectura desafio-respuesta](#arquitectura-desafio-respuesta) para determinar cuáles 
 son las posibles acciones que puede hacer el personaje 
 del juego. El código fuente completo se puede encontrar 
 en el [repositorio de CX](https://github.com/skycoin/cx), en el archivo *examples/text-based-adventure.cx*.
