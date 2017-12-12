@@ -1,5 +1,5 @@
 +++
-title = "Telegram Log - Whitepapers, Slavery and Anarchy"
+title = "Registro de Telegram - Documentos Técnicos, Esclavitud y Anarquía"
 tags = [
     "Ask the Developers",
 
@@ -15,71 +15,71 @@ categories = [
 
 Hey
 
-I discovered that both papers on the obelisk consensus algorithm were withdrawn from arxiv because of mistakes. Is this true?
+Descubrí que ambos documentos técnicos sobre el algoritmo de consenso obelisk fueron retirados de arxiv debido a errores. ¿Es esto cierto?
 
-Can someone from the team address this issue, please?
+¿Puede alguien del equipo abordar este problema, por favor?
 
 **Monty Crypto (Xa no)**
 
-Mmm, about Obelisk? We have like at least 5 papers about the underlying logic, but wasn't aware anything was specifically published about Obelisk already
+Mmm, ¿acerca de Obelisk? Tenemos al menos 5 documentos acerca de la lógica subyacente, pero no sabía que ya se hubiese publicado algo específicamente sobre Obelisk.
 
-Which papers are missing?
+¿Qué documentos faltan?
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-No. Chen withdrew them because he wanted people to quote then from the ACM journel instead of arxiv because its considered more prestigious
+No. Chen los retiró porque quería que la gente los citara desde el ACM journel en lugar de arxiv porque es considerado más prestigioso.
 
 **Synth**
 
-And chen thinks that one of the papers should be withdrawn because of minor error which is irrelevent.
+Y chen piensa que uno de los documentos debe retirarse debido a un error menor que es irrelevante.
 
-the algorithm in that paper is only 3rd generation of the consensus algorithm and we are generation 5 and need implementation white paper
+el algoritmo en ese documento es solo la 3ra generación del algoritmo de consenso y nosotros somos la generación 5 y necesitamos documento técnico de la implementación
 
 **Artem Kotelskiy**
 
 https://arxiv.org/abs/1507.03927
 
-It says crucial theoretic defect
+Allí dice defecto teórico crucial
 
 **Synth**
 
-Its chen being idiot
+Es chen siendo idiota
 
 **Artem Kotelskiy**
 
-The same with opinion Dynamics paper
+Lo mismo con el documento de Dinámica de opinión
 
 **Synth**
 
-there is an error in one paper that I told him about months before he published it
+hay un error en un documento del que le conté meses antes de que lo publicara
 
 **Synth**
 
-but its not relevent. The idea is based upon energy minimization and comes from statistical physics.
+pero no es relevante. La idea se basa en la minimización de la energía y proviene de la física estadística.
 
-Chen was trying to create total ordering with some weird hashing thing that does not work.
+Chen intentaba crear orden total con un hash extraño que no funciona.
 
 **Artem Kotelskiy**
 
-So the papers on the website are different from papers on arxiv?
+Entonces, ¿los documentos del sitio web son distintos a los documentos en arxiv?
 
-I really don't like that comment on arxiv. The author of the paper refuses it, there is something strange about it.
+Realmente no me gusta ese comentario en arxiv. El autor del documento lo rechaza, hay algo extraño con eso.
 
 **Synth**
 
-There are eight versions of them
+Hay ocho versiones de ellos
 
-The final version was the one published in the ACM journel/conference
+La versión final fue la publicada en la journel/conferencia ACM
 
 **Artem Kotelskiy**
 
-Could you provide a link please?
+¿Podrías proporcionar un enlace por favor?
 
-Can't Google it
+No puedo encontrarlo en Google
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-Chens professor. The coauthor wants the papers unpublished. He does not understand blockchain and thinks the chinese government is attacking blockchain and the paper may get him in trouble.
+El profesor de Chen. El coautor quiere que los documentos sean retirados. Él no entiende blockchain y piensa que el gobierno chino está atacando blockchain y que el documento puede meterlo en problemas.
 
 **Synth**
 
@@ -87,31 +87,31 @@ http://njtech.findplus.cn/?h=search_list&query=AR:%22Shu%2C%20Jiwu%22
 
 **Artem Kotelskiy** *[In reply to Synth]*
 
-I think this should be addressed somehow on your website. The whole project is based on security of obelisk. It should be crystal clear for people that this algorithm was at least peer reviewed by CS people.
+Creo que esto debería indicarse de alguna manera en tu sitio web. Todo el proyecto se basa en la seguridad de obelisk. Debe quedar totalmente claro a las personas que este algoritmo fue al menos revisado por pares de ciencias de la computación.
 
-Because of one simple reason -- no one will dive into the papers and checking they are right except CS
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-There will be a sixth white paper that is 40 or 60 pages on proper implementation and details. But no one has time to write it.
-
-We have the simulation done and now that peer discovery works we will get first gen implemented and show real world behavior
+Por una simple razón: nadie se adentrará en los documentos y comprobará que son correctos, excepto científicos computacionales
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-He was one who wrote the Go ethereum implementation.
+Habrá un sexto documento técnico de 40 o 60 páginas sobre la correcta implementación y detalles. Pero nadie tiene tiempo para escribirlo.
+
+Tenemos la simulación hecha y ahora que el descubrimiento entre pares funciona implementaremos la primera generación y mostraremos el comportamiento en el mundo real
+
+**Synth** *[In reply to Artem Kotelskiy]*
+
+Él fue uno de los que escribió la implementación Go de ethereum.
 
 **Artem Kotelskiy**
 
 Jiwu?
 
-This also should be on the website. But actually, thank you for your answers a lot.
+Eso también debería estar en el sitio web. Pero de hecho, muchas gracias por tus respuestas.
 
 **Synth**
 
-The paper was published in a top 2 ACM computer science journel and conference for distributed database consensus and was peer reviewed.
+El documento fue publicado en una de las 2 mejores revistas y conferencias de ciencias de la computación de ACM para consenso distribuido de bases de datos y fue revisado por pares.
 
-We are only coin with peer reviewed academic paper and with simulations.
+Somos la única moneda con un documento académico revisado por pares y con simulaciones.
 
 **Synth**
 
@@ -119,379 +119,377 @@ Chen
 
 **Artem Kotelskiy**
 
-Didn't know about it
+No lo sabía
 
-And can't Google his involvement in eth
+Y no puedo encontrar su participación en eth
 
-Please provide a link
+Por favor proporciona un enlace
 
 **Synth**
 
-We cant put on website because chen requested we did not. 80% of people involved in skycoin wont go on website or advisor board and want to hide... for various reasons
+No podemos colocarlo en el sitio web porque chen pidió que no lo hacieramos. El 80% de las personas involucradas en Skycoin no irá en la página web o el consejo asesor y quiere esconderse... por varias razones
 
 **Artem Kotelskiy**
 
-Yeah, that is another issue
+Sí, ese es otro problema
 
-I see
+Ya veo
 
-Why??
+¿¿Por qué??
 
 **Synth**
 
-Both in china because of potential bitcoin ban or scare mongering and in US for tax or employment reasons
+Tanto en china debido a la potencial prohibición de bitcoin o miedo al tráfico y en EE.UU. por razones fiscales o de empleo
 
 **Artem Kotelskiy**
 
-This is so shady))
+Esto es tan sombrío))
 
-Why don't you go to Switzerland?
+¿Por qué no van a Suiza?
 
-Indeed, I found Chen on the eth team
-
-**Monty Crypto (Xa no)**
-
-Out of all coins there are very few with our kind of repository, history, papers and all, and you call this shady because we don't post some useless faces and names on our websites 😂
-
-**Synth**
-
-his pubkey is in the repo of eth developers. Check his github
+De hecho, encontré a Chen en el equipo eth
 
 **Monty Crypto (Xa no)**
 
-In my opinion it's shady to collection 10's if not 100's of millions through ICO's without one line of code to show for it
+De entre todas las monedas hay muy pocas con nuestro tipo de repositorio, historia, documentos y todo, y tú dices que esto es sombrío porque no publicamos algunas caras y nombres inútiles en nuestros sitios web 😂
 
 **Synth**
 
-The bitcoin developer who discovered the duplicate coinbase output problem also was heavily involved and two other major people but we cant put them on the website or advisor board.
+su pubkey está en el repositorio de desarrolladores eth. Comprueba su github
 
-There is a lot of drama about this.
+**Monty Crypto (Xa no)**
 
-Australian government was raiding peoples houses within 8 hours of them being outed as early bitcoin dev etc
+En mi opinión es sospechoso recolectar decenas si no es que cientos de millones mediante una ICO sin mostrar una línea de código
 
-And a lot of the real crypto people have security clearances and dont want to be publicly associated (but are involved in private) because of employment stuff
+**Synth**
+
+El desarrollador de bitcoin que descubrió el problema de la salida duplicada de coinbase también estuvo muy involucrado y otras dos personas importantes pero no los podemos poner en el sitio web o en la junta de asesores.
+
+Hay mucho drama acerca de esto.
+
+El gobierno australiano estaba haciendo redadas a las casas de personas a 8 horas de haber sido descubiertas como parte de los primeros desarrolladores de Bitcoin, etc.
+
+Y muchas de las personas verdaderamente relacionadas con la criptografía tienen despejes de seguridad y no quieren estar públicamente asociadas (pero están involucradas en privado) debido a cuestiones de empleo.
 
 **Artem Kotelskiy** *[In reply to Monty Crypto (Xa no)]*
 
-I was just kidding, see the "))"
+Solo estaba bromeando, mira los "))"
 
 **Synth**
 
-The only people commiting with their real github names were basicly idiots with no opsec. And the other people involved dont sit on advisor boards or advertise themselves.
+Las únicas personas aportando con sus verdaderos nombres de github eran básicamente idiotas sin seguridad de operaciones. Y las otras personas involucradas no están en las juntas de asesores ni se publicitan a sí mismas.
 
-I dont even know why chen used his main/public github account. He was advised not to do that.
+No sé ni siquiera por qué chen usó su cuenta de github principal/pública. Se le aconsejó que no lo hiciera.
 
 **Artem Kotelskiy**
 
-I see, thx a lot for an explanation
+Ya veo, muchas gracias por la explicación
 
 **Monty Crypto (Xa no)**
 
-Haha fair enough 👍
+Jaja muy bien 👍
 
 **Artem Kotelskiy**
 
-I will keep doing my research then about skycoin
+Voy a seguir entonces haciendo mi investigación acerca de skycoin
 
-There is one problem though, all of this will come out inevitably..
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-+8 years of drama. You could make a movie about this.
+Sin embargo, hay un problema, todo esto saldrá a la luz inevitablemente..
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-No. it wont. People still cannot even figure out who the Bitcoin devs are!
++8 años de drama. Podrías hacer una película sobre esto.
+
+**Synth** *[In reply to Artem Kotelskiy]*
+
+No. no lo hará. ¡La gente todavía ni siquiera puede descubrir quiénes son los desarrolladores de Bitcoin!
 
 **Artem Kotelskiy**
 
-Hopefully
+Ojalá
 
-Still, why not go to Switzerland?
+Aún así, ¿por qué no ir a Suiza?
 
-And have superopen development just like ethereum?
+¿Y tiene un desarrollo súper abierto al igual que ethereum?
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-For what?
+¿Para qué?
 
-eighty people should move to switzerland?
+ochenta personas deberían mudarse a Suiza?
 
 **Artem Kotelskiy**
 
 Ok..
 
-I mean, the organization can go there and be protected somehow
+Quiero decir, la organización puede ir allí y estar de alguna manera protegida
 
 **Synth**
 
-Its on github so does not matter the country they are in.
+Está en github así que no importa el país en el que se encuentren.
 
-Protected from what? No one has tried to attack skycoin devs yet.
+¿Protegidos de qué? Nadie ha intentado todavía atacar a los desarrolladores de Skycoin.
 
 **Artem Kotelskiy**
 
-But you are saying that people are scared to say they are involved with the project
+Pero estás diciendo que las personas tienen miedo de decir que están involucradas con el proyecto
 
-I just don't understand why?
+¿Simplemente no entiendo por qué?
 
 **Synth**
 
-for tax reasons
+por razones fiscales
 
 **Artem Kotelskiy**
 
 No
 
-Can't believe this
+No puedo creer esto
 
-Why don't you want to pay taxes?
+¿Por qué no quieren pagar impuestos?
 
 **Vadim 🛌**
 
-why would anyone want:D
+por qué alguien querría: D
 
 **Monty Crypto (Xa no)**
 
-Lol, yeah everyone else loves paying taxes
+Lol, sí, todos los demás aman pagar impuestos
 
 **Artem Kotelskiy**
 
-I don't see how rejecting to pay taxes can help your project at all
+No veo en absoluto cómo negarse a pagar impuestos puede ayudar a su proyecto
 
-Please explain
+Por favor explica
 
 **Monty Crypto (Xa no)**
 
-There's a difference between tax evasion and tax avoidance
+Hay una diferencia entre la evasión fiscal y evitar los impuestos
 
-Tax avoidance is perfectly legal and executed by every single corporation in the world
+Evitar los impuestos es algo perfectamente legal y realizado por todas y cada unas de las corporaciones en el mundo
 
 **Synth**
+Imagina que tienes 800 millones en bitcoin. ¿Corres por la calle presumiendo acerca de ello?
 
-Imagine you have 800 million in bitcoin. Do you run down the street bragging about it?
+¿Las personas con despejes de seguridad y acuerdos de confidencialidad van por ahí poniendo sus caras en sitios web? Estas personas ni siquiera tienen cuentas de Facebook y los acuerdos de confidencialidad dicen que no pueden decirles a sus clientes quiénes son sus otros clientes.
 
-Do people with security cleanances and NDA agreements go around putting faces on websites? These people do not even have Facebook accounts and NDA says they cannot tell their clients who their other clients are.
+También hay problemas de propiedad intelectual con los empleadores. Si alguien trabaja en una empresa y el contrato dice que la empresa es dueña de todo lo que hace. Incluyendo el trabajo en tiempo libre.
 
-Also there are IP issues with employers. If someone works at company the contract says the company owns everything they do. Including work in free time.
+Por lo tanto, no pueden contribuir código públicamente o la empresa/empleador puede reclamar la propiedad y la propiedad intelectual y causar problemas legales.
 
-So they cannot contribute code publicly or company/employer can claim ownership and IP and causes legal problems.
+Hay un montón de drama y mierda. Cualquiera que sea competente es reservado. Y las personas que se promocionan en público son perdedores.
 
-There is a whole bunch of drama and bullshit. Anyone competent is secretive. And the people promoting themselves in public are losers.
+TODAS las primeras personas de bitcoin esperaban que el gobierno de los EE. UU. lo reprimiera VIOLENTAMENTE. Y ese miedo nunca desapareció.
 
-ALL of the early bitcoin people expected the US government to crack down in it VIOLENTLY. And that fear never went away.
-
-The people entering crypto today do not remember the crypto wars and government oppression of the 90s
+Las personas que entran hoy en la criptografía no recuerdan las guerras de criptografía y la opresión gubernamental de los 90
 
 **Vadim 🛌**
 
-i find it strange that people are surprised by the anonymity of those interested in cryptography
+me parece extraño que la gente se sorprenda por el anonimato de los interesados en la criptografía
 
 **Artem Kotelskiy**
 
-I don't like ndas
+No me gustan los acuerdos de confidencialidad
 
-I would think competent people never sign nda
+Pensaría que las personas competentes nunca firman acuerdos de confidencialidad
 
-Apparently I am wrong
+Aparentemente estoy equivocado
 
-Contracts with the companies...
+Contratos con las empresas...
 
 Eh
 
-So your devs and researchers are worried about their money, and you (presumably along with other projects of your scale) are imposing on them rules. Hard to believe.
+Entonces tus desarrolladores e investigadores están preocupados por su dinero, y tú (presumiblemente junto a otros proyectos de tu escala) estás imponiéndoles reglas. Difícil de creer.
 
 **Synth** *[In reply to Vadim 🛌]*
 
-What a world.
+Qué mundo.
 
-And they forget that ALL of the professional math and crypto people either work for the government or military.
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-Everyone who works at Google or a Fortune 500. We have commits from people who work for Google/Amazon if you look at commit history.
-
-**Artem Kotelskiy**
-
-The only thing I believe professional researcher is worried about is security.
-
-Yeah, I don't think google/Amazon are such great companies frankly
-
-Although people there are competent
-
-Anyway
-
-I got your point
-
-About all professional math people you stretched too far. I know exactly what kind of people leave pure math and go to military, and they are not the best, believe me.
+Y se olvidan de que TODAS las personas profesionales de matemáticas y criptografía trabajan para el gobierno o el ejército.
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-Like Google.
-
-Almost all large companies gave contract that says "we own you. You are our slave. We own everything you do in your free time".
-
-That is ALL fortune 500 companies. You will notice that they stopped commiting after taking employment at those companies.
+Todos los que trabajan en Google o en una epresa de la lista Fortune 500. Tenemos aportes de personas que trabajan para Google/Amazon si miras el historial de commits.
 
 **Artem Kotelskiy**
 
-I see...
+Lo única cosa que creo que preocupa al investigador profesional es la seguridad.
 
-Sad
+Sí, francamente no creo que Google/Amazon sean tan buenas compañías 
+
+Aunque las personas allí son competentes
+
+De todas formas
+
+Entendí tu punto
+
+Acerca de todas las personas profesionales de matemáticas de las que has hablado tanto. Sé exactamente qué tipo de personas dejan las matemáticas puras y se van al ejército, y no son las mejores, créanme.
+
+**Synth** *[In reply to Artem Kotelskiy]*
+Como Google.
+
+Casi todas las grandes compañías dan contratos que dicen "somos tus dueños. Eres nuestro esclavo. Somos los dueños de todo lo que haces en tu tiempo libre".
+
+Lo hacen TODAS las compañías de la lista Fortune 500. Notarás que dejaron de aportar después de tomar un empleo en esas compañías.
+
+**Artem Kotelskiy**
+
+Ya veo...
+
+Triste
 
 **Synth**
 
-also the way US works is that information / research can still be classified after being published into the public domain.
+también la forma en que los EE. UU. trabajan es que la información/investigación todavía puede volverse confidencial después de publicarse en el dominio público.
 
-So if a person gets government grant or worked on source routing or something and it is published, but that technology is used on later project they are associated with then it does not absolve them of legal liability
+Entonces si una persona recibe una subvención del gobierno o trabajó en enrutamiento de origen o algo así y publica algo, pero esa tecnología se usa en un proyecto posterior a los que están asociados, entonces no están eximidos de responsabilidad legal.
 
-and if they worked at university while the algorithms were developed the university can make IP claim
+y si trabajaron en la universidad mientras se desarrollaban los algoritmos, la universidad puede reclamar propiedad intelectual
 
-so everyone in the US lives terrorized by lawyers
+Por eso todos en los Estados Unidos viven aterrorizados por los abogados
 
 **Artem Kotelskiy**
 
-I see. Hard to believe there are Universities in USA who would file such ip
+Ya veo. Es difícil creer que haya universidades en EE. UU. que presentarían tal propiedad intelectual
 
-But I still stand by my point
+Pero todavía mantengo mi punto
 
-I think on your homepage you should explain why devs are hidden
+Creo que en tu página de inicio debes explicar por qué los desarrolladores están ocultos
 
 **Synth**
 
-You mean like Stanford/Cisco/Googler etc
+Quieres decir como Stanford/Cisco/Google, etc
 
 **Artem Kotelskiy**
 
-Ah, but then this will attract attention
+Ah, pero entonces esto atraerá atención
 
 **Artem Kotelskiy** *[In reply to Synth]*
 
-Could you link or give keywords for any ip case there?
+¿Podrías enlazar o dar palabras clave para algún caso de propiedad intelectual allí?
 
-Google and Cisco are companies
-
-**Synth** *[In reply to Artem Kotelskiy]*
-
-They are not hidden. People are just too stupid to check github.
-
-Skycoin is not about bragging about who has the biggest developer dick on their advisor board.
-
-The website is about the coin and the technology. We dont believe in the advisor board, celebrity CEO dick measuring contest.
-
-**Artem Kotelskiy**
-
-Lol, account on github also doesn't add anything, although I admit that there are accounts there which have other social media
-
-You know, I don't advice you to advertise yourself
-
-Not at all
-
-In fact I hate all these bright "team" pages and stuff
-
-But here is one simple thing
-
-I like the project
-
-The future of the project is in hands of developers completely
-
-So it would help if I know who they are, and what are their values
-
-For me to decide, if I am going to be the sky node, or simply sky hodler
-
-But I get it, you think that code and execution speaks to itself, fair enough
-
-**Synth**
-
-You go dox yourself and report all your stuff to the government and go pay your taxes to the central bank that owns you. All human cattle, please line up for bar coding.
-
-Its the exact opposite of why bitcoin was created.
-
-**Artem Kotelskiy**
-
-Yeah well, there are different degrees of being crypto anarchist
-
-**Vadim 🛌**
-
-being one in words and in reality?:D
-
-**Artem Kotelskiy**
-
-I tend to believe that declaring a war to the previous governors doesn't help pieceful transitioning to a better system.
-
-I might be wrong, guys, so don't push
-
-Just an opinion :)
+Google y Cisco son compañías
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-The central bank creates money out of nothing. Then the government taxes the money back from the slaves.
+Ellos no están ocultos. La gente simplemente es demasiado estúpida para consultar github.
 
-You are either a slave or you are free. People working for other peoples money, are not working for themselves. They are slaving for for their master/owner.
+Skycoin trata acerca de presumir quién tiene el pene de desarrollador más grande en su junta de asesores.
 
-There is no degrees. You are either owned and are a slave and have a slave tracking number and live under a massive surveilence, police state central bank run slave plantation OR you are free. Slave or Free. There is no degrees.
+El sitio web trata acerca de la moneda y la tecnología. No creemos en los consejos de asesores, los concurso de medir cual CEO celebridad tiene el pene más grande.
 
 **Artem Kotelskiy**
 
-I see. I think the next thing to discuss is if the government is good or not (let's say US). And I know I will lose this one, so let's not go into this. I completely understand your pov. It differs from mine in that I believe in kindness more, and think that there is a spectrum of freedom. But could be I am just young and inexperienced.
+Lol, la cuenta en github tampoco agrega nada, aunque admito que allí hay cuentas que tienen otras redes sociales
+
+Ya sabes, no te aconsejo que te autopromociones
+
+De ningún modo
+
+De hecho odio todas estas páginas brillantes de "equipo" y otras cosas
+
+Pero aquí hay una cosa simple
+
+Me gusta el proyecto
+
+El futuro del proyecto está completamente en manos de desarrolladores
+
+Entonces sería útil si sé quiénes son y cuáles son sus valores
+
+Para yo decidir, si voy a ser el nodo de sky, o simplemente un tenedor de sky 
+
+Pero lo entiendo, piensas que el código y la ejecución hablan por sí mismos, es justo
 
 **Synth**
 
-"Freedom to masturbate to porn", "freedom to smoke marijuana", "freedom to have anal sex", "freedom to shoot up heroin", "freedom to run around in the 'free market' laboring like a slave for someone elses money", "freedom to shop!".
+Tú publica tu mismo tu información personal e informa todas tus cosas al gobierno y ve a pagar tus impuestos al banco central que es tu dueño. Todo el ganado humano, por favor haga fila para la codificación de barras.
 
-Slavery is not about free or slave. Its about independent (free) or dependent (slave).
-
-You make people dependent upon you for survival, then you give them fake "freedoms" so they dont revolt. That is how you turn a society into a labor camp and then give them enough free porn, prozac and zoloft until you have domesticated "happy slaves" that cannot even imagine what an alternative would look like.
-
-Look how free those people are with their $750,000 in student debt they wont pay off until they die! Lol. Its just a mockery.
+Eso es exactamente lo contrario de para qué se creó bitcoin.
 
 **Artem Kotelskiy**
 
-Everyone makes his own choices
-
-Some people just grow food and live off that
-
-I am from the country where half of the population lives like this, it's just fine
-
-And I think if one really wants, he can be free
+Sí, bueno, hay diferentes niveles de ser cripto anarquista
 
 **Vadim 🛌**
 
-let me guess, belarus?
+¿ser uno en palabras y en la realidad?:D
 
 **Artem Kotelskiy**
 
-No, it's harder to guess
+Yo tiendo a creer que declarar una guerra a los gobernadores anteriores no ayuda a la transición fragmentada a un sistema mejor.
+
+Podría estar equivocado, chicos, así que no empujen
+
+Solo una opinión :)
+
+**Synth** *[In reply to Artem Kotelskiy]*
+
+El banco central crea dinero de la nada. Luego el gobierno recupera el dinero con los impuestos de los esclavos.
+
+O eres un esclavo o eres libre. Las personas que trabajan por el dinero de otras personas no están trabajando para sí mismas. Están trabajando como esclavos para su amo/dueño.
+
+No hay niveles. O eres de su propiedad y eres un esclavo y tienes un número de rastreo de esclavos y vives bajo una vigilancia masiva, el banco central del estado policial dirige la plantación de esclavos, O eres libre. Esclavo o libre. No hay niveles.
+
+**Artem Kotelskiy**
+
+Ya veo. Creo que la siguiente cosa para discutir es si el gobierno es bueno o no (digamos, EE. UU.). Y sé que voy a perder esta, así que no entremos en esto. Entiendo completamente tu punto de vista. Difiere del mío en que yo creo más en la bondad, y creo que hay un espectro de libertad. Pero podría ser solo que soy joven e inexperto.
 
 **Synth**
 
-Anyone who does not want to be a slave is an anarchist now! Lol
+"Libertad para masturbarse con porno", "libertad para fumar marihuana", "libertad para tener sexo anal", "libertad para consumir heroína", "libertad para andar en el 'libre mercado' trabajando como un esclavo por el dinero de alguien más "," ¡libertad para comprar! ".
 
-"Whoa. Whoa. Whoa. I dont want to be an anararchist. I mean a little slavery is ok, but the masters should be nicer to the slaves." Lol.
+La esclavitud no se trata de se libre o se esclavo. Se trata de independiente (libre) o dependiente (esclavo).
+
+Haces que la gente dependa de ti para sobrevivir, luego les das falsas "libertades" para que no se rebelen. Así es como conviertes a una sociedad en un campo de trabajos forzados y luego le das suficiente porno gratis, prozac y zoloft hasta que hayas domesticado "esclavos felices" que ni siquiera pueden imaginar cómo se luciría una alternativa.
+
+¡Mira que libres son esas personas con sus $750.000 en deuda estudiantil que no pagarán hasta que mueran! Lol. Es solo una burla.
 
 **Artem Kotelskiy**
 
-Anarchist is someone who declares a war on the government
+Cada quien hace sus propias elecciones
+
+Algunas personas simplemente cultivan alimentos y viven de eso
+
+Yo soy del país donde la mitad de la población vive así, está bien
+
+Y creo que si uno realmente quiere, puede ser libre
+
+**Vadim 🛌**
+
+déjame adivinar, Bielorrusia?
+
+**Artem Kotelskiy**
+
+No, es más difícil de adivinar
+
+**Synth**
+
+¡Ahora cualquiera que no quiera ser esclavo es anarquista! Lol
+
+"Espera. Espera. Espera. No quiero ser un anarquista. Quiero decir que un poco de esclavitud está bien, pero los maestros deberían ser más amables con los esclavos". Lol.
+
+**Artem Kotelskiy**
+
+Anarquista es alguien que declara una guerra al gobierno
 
 Loool
 
 **Synth**
 
-Anarchist.
+Anarquista.
 
-An-archon
+An-arconte
 
-An means without.
+An significa sin.
 
-Archon means "master" or "ruler".
+Arconte significa "maestro" o "gobernante".
 
-Anarchy means "without masters" or without rulers. All of the words are inverted to mock the public and the illiterate.
+Anarquía significa "sin maestros" o sin gobernantes. Todas las palabras están invertidas para burlarse del público y el analfabeto.
 
 **Artem Kotelskiy**
 
-Anyway
+De todas formas
 
-Keep up the skycoin guys, I sincerely hope it will allow more people not to have masters
+Mantengan a los chicos de Skycoin, sinceramente tengo la esperanza de que permitirá que más personas no tengan maestros
 
 **Artem Kotelskiy** *[In reply to Synth]*
 
@@ -503,29 +501,29 @@ Lol
 
 matthieu *[In reply to Synth]*
 
-👍🏾agree completely
+👍🏾completamente de acuerdo
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-No. The problem is human nature.
+No. El problema es la naturaleza humana.
 
-You cannot free slaves. They will just find another master. They *want* and choose to be slaves. They just want a slave driver with a softer whip.
+No puedes liberar esclavos. Ellos simplemente encontrarán a otro maestro. Ellos *quieren* y eligen ser esclavos. Ellos simplemente quieren un conductor de esclavos con un látigo más suave.
 
-Look at how people spontaniously elect leaders to tell them what to do and tell them how they should live and what they should fear. Because they refuse to do it themselves.
+Observa cómo las personas eligen espontáneamente a los líderes para que les diga qué hacer y les diga cómo deben vivir y qué deben temer. Debido a que se niegan a hacerlo ellos mismos.
 
 matthieu *[In reply to Artem Kotelskiy]*
 
-Actually maybe it would serve the coin more to put forward the ideology behind as synth put it rather than having a few faces....
+En realidad quizás sirva más a la moneda presentar la ideología detrás de ella como synth la muestra en lugar de tener algunas caras....
 
 matthieu
 
-Synth So far I didn't know what were your motivations/values and  deep ideology. Now I am an even bigger supporter of the coin. This is important to remind the final aim of all of this... Loads of ppl forget and just want to be overnight millionaires by buying into ICOs...
+Synth, hasta ahora no sabía cuáles eran tus motivaciones/valores y tu profunda ideología. Ahora soy un partidario aún más grande de la moneda. Esto es importante para recordar el objetivo final de todo esto... Muchas personas olvidan y quieren ser millonarias en una noche comprando en una ICO...
 
 **Synth** *[In reply to matthieu]*
 
-Trillionaires lol. Worlds first trillionaires. Briefly until this bubble bursts.
+Billonarios lol. Los primeros billonarios de mundo. Brevemente hasta que explote esta burbuja.
 
-Millionaire is so 1994
+Millonario es tan 1994
 
 matthieu
 
@@ -533,17 +531,17 @@ matthieu
 
 **Synth**
 
-Bitcoin gets pushed up to $5000 but if even 1% of holders sold it would be back at $2000. So very high price increase vs the market depth.
+Bitcoin es empujado hasta $5000, pero si incluso el 1% de los titulares lo vendiera, estaría nuevamente en $2000. Es un aumento de precios muy alto frente a la profundidad del mercado.
 
-I think we could see trillionaires or people worth more than Billgates briefly, before they start moving money out and it implodes.
+Creo que podríamos ver brevemente a billonarios o personas más adineradas que Billgates, antes de que comiencen a mover dinero e implosione.
 
-Altcoins, unlike real estate and stocks, have no price ceiling. There is no fundamental economics or mathematics keeping the price from going up to infinity.
+Las altcoins, a diferencia de los bienes raíces y las acciones, no tienen techo de precio. No hay economía o matemáticas fundamentales que impidan que el precio suba hasta el infinito.
 
-There is no revenues or loss and no objective way to determine that a buggy "smart contract" platform no one uses, should not be worth $250 billion dollars.
+No hay ingresos o pérdidas ni una forma objetiva de determinar que una plataforma defectuosa de "contratos inteligentes" que nadie usa, no debería valer $250 mil millones de dólares.
 
 **Steve**
 
-A Distributed Consensus Algorithm for Cryptocurrency Networks
+Un Algoritmo de Consenso Distribuido para Redes de Criptomonedas
 https://github.com/skycoin/whitepapers/blob/master/whitepaper_skycoin_consensus_v01_jsm.pdf
 
-Is the most recent consensus algorithm whitepaper
+Es el documento técnico más reciente del algoritmo consenso
