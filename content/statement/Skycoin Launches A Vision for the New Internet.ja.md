@@ -1,61 +1,47 @@
 +++
-title = "Skycoin Launches A Vision for the New Internet"
+title = "Skycoinは新しいインターネットのビジョンを発表します"
 tags = [
     "Statement",
 ]
-bounty = 4
+bounty = 8
 date = "2017-07-24"
 categories = [
     "Statement",
 ]
 +++
 
-Skycoin, a next-generation cryptocurrency with four years of development
-history, rolls out to the public in July. The Skycoin project seeks to
-popularize decentralized networking by fixing problems with Bitcoin. Over 80
-developers on Github and elsewhere have contributed to the project since 2012.
+Skycoinは、4年間の開発歴を持つ次世代の暗号通貨であり、7月から一般に公開しています。Skycoinプロジェクトは、Bitcoinの問題を修正することによって、分散型ネットワークを普及させようとしています。Githubやその他の場所にいる80人以上の開発者は、2012年以降このプロジェクトに貢献しています。
 
-Skycoin is a fast, secure, and reliable currency for online transactions.
-It uses a redesigned consensus algorithm that improves on Bitcoin,
-and is the first algorithm of its type since PeerCoin.
+Skycoinは、オンライン取引のための迅速かつ安全で信頼性の高い通貨です。
+Bitcoinで改良された、再設計されたコンセンサスアルゴリズムを使用しており、またPeerCoin以来のその型の最初のアルゴリズムです。
 
-Skycoin’s core features are speed, privacy, security, and ecosystem.
+Skycoinの主な機能は、スピード、プライバシー、セキュリティ、エコシステムです。
+スピードの面では、SkycoinはクレジットカードやApple Payと競合しています。トランザクションは数秒で発生します。 これにより、POS（Point of Sale）およびIOTトランザクションに適したコインになります。
 
-In terms of speed, Skycoin competes with credit cards and Apple Pay.
-Transactions occur in seconds.
-This makes the coin suitable for Point-of-Sale (POS) and IOT transactions.
+Skycoinは、複数のウォレットのトランザクションを混在させるために、CoinJoinプロトコルを使用することにより、プライベートおよび匿名のトランザクションを100％請求することができます。 また、暗号化を使用して51％アタックやその他の脅威から保護する安全なトランザクション設定も提供します。
 
-Skycoin can claim 100% private and anonymous transactions thanks to its use of
-CoinJoin protocol to mix transactions from more than one wallet.
-It also provides a secure transaction setting that uses encryption to
-protect from 51% attack and other common threats.
+Skycoinを取り巻くエコシステムは拡大しています。開発者は、ソーシャルネットワーク、VPN、メッセージングなどの計画中のオプションを含むSkycoinのアプリとツールを構築しています。
 
-The ecosystem surrounding Skycoin is expanding.
-Developers are building Skycoin apps and tools,
-which include planned options like social networks, VPN, and messaging.
+Skycoinは競争する場所のレベルを設定し、ピアツーピアコミュニティをまたいで価値を分配することによって分散型インターネットを作ります。
+それは他の暗号通貨を苦しめるインフレや、マイニングを排除する公開されたリソースを提供します。
 
-Skycoin is set to level the playing field and create a decentralized internet
-by distributing value across the peer-to-peer community.
-It provides a public resource that eliminates the mining and inflation that
-plague other cryptocurrencies.
+しかし、開発者は、Skycoinプロジェクトは単に暗号通貨だけの話ではないと言います。
+それはまた、Skywireの背後にある動機、現在のインターネット環境を何かより良いものに置き換えることを大胆に模索しているピアツーピアネットワークでもあります。
 
-But developers say that the Skycoin project isn’t just about cryptocurrency.
-It’s also the fuel behind Skywire, a peer-to-peer network that boldly seeks to
-replace the current internet landscape with something better.
+「github.com/skycoinにはメッシュネットワーキングと分散型VPNプロトタイプのための他のリポジトリがあり、そこではトラフィックを転送するためにトークンを支払われます。」SkyGinプロジェクトの創設者であるSynth氏はこのように言っています。また、
+「そこには次世代インターネットの恒久的なデータ構造の研究と同様、ピアツーピアのデータ複製や異なる実験プロジェクトを含んだ分散型ソーシャルメディアサービスもあります。それらのうちのいくつかは非常に先鋭的です。」と言っています。
 
-“There are other repos on [github.com/skycoin](https://github.com/skycoin)
-for mesh networking and distributed VPN prototypes, where people will be paid
-tokens for forwarding traffic,” says Skycoin project founder Synth. “There is
-also a distributed social media service, with peer-to-peer data replication and
-different experimental projects, as well as research into immutable data
-structures for next-generation internet. Some of them are very radical.”
+Skywireユーザーは、コンテンツとサービスを共有するためのコインを受け取ります。
+このようにSkycoinは、ユーザーをより大きなミッションへの参加を誘っています。
+それは企業のインターネットサービスプロバイダからのコントロールを取り上げ、それをコミュニティに戻すというミッションです。
+これは、Skycoinプロジェクトをユニークなものにする共有された社会的な目的です。
 
-Skywire users receive coins for sharing content and services.
-In this way, Skycoin invites users to participate in a larger mission:
-wresting control away from corporate internet service providers and giving it
-back to the community. It’s a shared social purpose that makes the Skycoin
-project unique.
+Skycoinの公開と継続的な開発は、skycoin.netでオンラインで追跡できます。
 
-Skycoin’s rollout and ongoing development can be followed online
-at [skycoin.net](https://www.skycoin.net).
+
+
+
+
+
+
 
