@@ -25,7 +25,7 @@ Mmm, ¿acerca de Obelisk? Tenemos al menos 5 documentos acerca de la lógica sub
 
 ¿Qué documentos faltan?
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 No. Chen los retiró porque quería que la gente los citara desde el ACM journel en lugar de arxiv porque es considerado más prestigioso.
 
@@ -77,7 +77,7 @@ La versión final fue la publicada en la journel/conferencia ACM
 
 No puedo encontrarlo en Google
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 El profesor de Chen. El coautor quiere que los documentos sean retirados. Él no entiende blockchain y piensa que el gobierno chino está atacando blockchain y que el documento puede meterlo en problemas.
 
@@ -85,19 +85,19 @@ El profesor de Chen. El coautor quiere que los documentos sean retirados. Él no
 
 http://njtech.findplus.cn/?h=search_list&query=AR:%22Shu%2C%20Jiwu%22
 
-**Artem Kotelskiy** *[In reply to Synth]*
+**Artem Kotelskiy** *[En respuesta a Synth]*
 
 Creo que esto debería indicarse de alguna manera en el sitio web. Todo el proyecto se basa en la seguridad de obelisk. Debe quedar totalmente claro a las personas que este algoritmo fue al menos revisado por gente de ciencias de la computación.
 
 Por una simple razón: nadie se adentrará en los documentos y comprobará que son correctos, excepto científicos computacionales
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 Habrá un sexto documento técnico de 40 o 60 páginas sobre la correcta implementación y detalles. Pero nadie tiene tiempo para escribirlo.
 
 Tenemos la simulación hecha y ahora que el descubrimiento de pares funciona implementaremos la primera generación y mostraremos el comportamiento en el mundo real
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 Él fue uno de los que escribió la implementación Go de ethereum.
 
@@ -171,7 +171,7 @@ El gobierno australiano estaba haciendo redadas a las casas de personas a 8 hora
 
 Y muchas de las personas verdaderamente relacionadas con la criptografía tienen despejes de seguridad y no quieren estar públicamente asociadas (pero están involucradas en privado) debido a cuestiones de empleo.
 
-**Artem Kotelskiy** *[In reply to Monty Crypto (Xa no)]*
+**Artem Kotelskiy** *[En respuesta a Monty Crypto (Xa no)]*
 
 Solo estaba bromeando, mira los "))"
 
@@ -195,11 +195,11 @@ Voy a seguir entonces haciendo mi investigación acerca de skycoin
 
 Sin embargo, hay un problema, todo esto saldrá a la luz inevitablemente..
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 +8 años de drama. Podrías hacer una película sobre esto.
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 No. no lo hará. ¡La gente todavía ni siquiera puede descubrir quiénes son los desarrolladores de Bitcoin!
 
@@ -211,7 +211,7 @@ Aún así, ¿por qué no ir a Suiza?
 
 ¿Y tiene un desarrollo súper abierto al igual que ethereum?
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 ¿Para qué?
 
@@ -300,13 +300,13 @@ Eh
 
 Entonces tus desarrolladores e investigadores están preocupados por su dinero, y tú (presumiblemente junto a otros proyectos de tu escala) estás imponiéndoles reglas. Difícil de creer.
 
-**Synth** *[In reply to Vadim 🛌]*
+**Synth** *[En respuesta a Vadim 🛌]*
 
 Qué mundo.
 
 Y se olvidan de que TODAS las personas profesionales de matemáticas y criptografía trabajan para el gobierno o el ejército.
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 Todos los que trabajan en Google o una empresa de la lista Fortune 500. Tenemos aportes de personas que trabajan para Google/Amazon si miras el historial de commits.
 
@@ -324,7 +324,7 @@ Entendí tu punto
 
 Acerca de todas las personas profesionales de matemáticas de las que has hablado tanto. Sé exactamente qué tipo de personas dejan las matemáticas puras y se van al ejército, y no son las mejores, créanme.
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 Como Google.
 
 Casi todas las grandes compañías dan contratos que dicen "somos tus dueños. Eres nuestro esclavo. Somos los dueños de todo lo que haces en tu tiempo libre".
@@ -363,13 +363,13 @@ Quieres decir como Stanford/Cisco/Google, etc
 
 Ah, pero entonces esto atraerá atención
 
-**Artem Kotelskiy** *[In reply to Synth]*
+**Artem Kotelskiy** *[En respuesta a Synth]*
 
 ¿Podrías enlazar o dar keywords para algún caso de propiedad intelectual?
 
 Google y Cisco son compañías
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 Ellos no están ocultos. La gente simplemente es demasiado estúpida para consultar github.
 
@@ -421,7 +421,7 @@ Podría estar equivocado, chicos, así que no empujen
 
 Solo una opinión :)
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 El banco central crea dinero de la nada. Luego el gobierno recupera el dinero con los impuestos de los esclavos.
 
@@ -491,7 +491,7 @@ Sea como sea
 
 Sigan con skycoin chicos, sinceramente tengo la esperanza de que permitirá que más personas no tengan maestros
 
-**Artem Kotelskiy** *[In reply to Synth]*
+**Artem Kotelskiy** *[En respuesta a Synth]*
 
 Ok
 
@@ -499,11 +499,11 @@ Ok
 
 Lol
 
-matthieu *[In reply to Synth]*
+matthieu *[En respuesta a Synth]*
 
 👍🏾completamente de acuerdo
 
-**Synth** *[In reply to Artem Kotelskiy]*
+**Synth** *[En respuesta a Artem Kotelskiy]*
 
 No. El problema es la naturaleza humana.
 
@@ -511,7 +511,7 @@ No puedes liberar esclavos. Ellos simplemente encontrarán a otro maestro. Ellos
 
 Observa cómo las personas eligen líderes espontáneamente para que les digan qué hacer y les digan cómo deben vivir y qué deben temer. Debido a que se niegan a hacerlo ellos mismos.
 
-matthieu *[In reply to Artem Kotelskiy]*
+matthieu *[En respuesta a Artem Kotelskiy]*
 
 En realidad quizás sirva más a la moneda presentar la ideología detrás de ella como synth la muestra en lugar de tener algunas caras....
 
@@ -519,7 +519,7 @@ matthieu
 
 Synth, hasta ahora no sabía cuáles eran tus motivaciones/valores y tu profunda ideología. Ahora soy un partidario aún más grande de la moneda. Esto es importante para recordar el objetivo final de todo esto... Muchas personas lo olvidan y quieren ser millonarias de la noche a la mañana comprando en una ICO...
 
-**Synth** *[In reply to matthieu]*
+**Synth** *[En respuesta a matthieu]*
 
 Billonarios lol. Los primeros billonarios de mundo. Brevemente hasta que explote esta burbuja.
 
