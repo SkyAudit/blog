@@ -17,7 +17,7 @@ Hey
 
 Descubrí que ambos documentos técnicos sobre el algoritmo de consenso obelisk fueron retirados de arxiv debido a errores. ¿Es esto cierto?
 
-¿Puede alguien del equipo abordar este problema, por favor?
+¿Alguien del equipo puede abordar este problema, por favor?
 
 **Monty Crypto (Xa no)**
 
@@ -87,7 +87,7 @@ http://njtech.findplus.cn/?h=search_list&query=AR:%22Shu%2C%20Jiwu%22
 
 **Artem Kotelskiy** *[In reply to Synth]*
 
-Creo que esto debería indicarse de alguna manera en tu sitio web. Todo el proyecto se basa en la seguridad de obelisk. Debe quedar totalmente claro a las personas que este algoritmo fue al menos revisado por pares de ciencias de la computación.
+Creo que esto debería indicarse de alguna manera en el sitio web. Todo el proyecto se basa en la seguridad de obelisk. Debe quedar totalmente claro a las personas que este algoritmo fue al menos revisado por gente de ciencias de la computación.
 
 Por una simple razón: nadie se adentrará en los documentos y comprobará que son correctos, excepto científicos computacionales
 
@@ -95,7 +95,7 @@ Por una simple razón: nadie se adentrará en los documentos y comprobará que s
 
 Habrá un sexto documento técnico de 40 o 60 páginas sobre la correcta implementación y detalles. Pero nadie tiene tiempo para escribirlo.
 
-Tenemos la simulación hecha y ahora que el descubrimiento entre pares funciona implementaremos la primera generación y mostraremos el comportamiento en el mundo real
+Tenemos la simulación hecha y ahora que el descubrimiento de pares funciona implementaremos la primera generación y mostraremos el comportamiento en el mundo real
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
@@ -109,7 +109,7 @@ Eso también debería estar en el sitio web. Pero de hecho, muchas gracias por t
 
 **Synth**
 
-El documento fue publicado en una de las 2 mejores revistas y conferencias de ciencias de la computación de ACM para consenso distribuido de bases de datos y fue revisado por pares.
+El documento fue publicado en una de las 2 mejores revistas y conferencias de ciencias de la computación de la ACM para consenso distribuido de bases de datos y fue revisado por pares.
 
 Somos la única moneda con un documento académico revisado por pares y con simulaciones.
 
@@ -127,7 +127,7 @@ Por favor proporciona un enlace
 
 **Synth**
 
-No podemos colocarlo en el sitio web porque chen pidió que no lo hacieramos. El 80% de las personas involucradas en Skycoin no irá en la página web o el consejo asesor y quiere esconderse... por varias razones
+No podemos colocarlo en el sitio web porque chen pidió que no lo hacieramos. El 80% de las personas involucradas en Skycoin no estará en la página web o el consejo asesor y quiere esconderse... por varias razones
 
 **Artem Kotelskiy**
 
@@ -139,7 +139,7 @@ Ya veo
 
 **Synth**
 
-Tanto en china debido a la potencial prohibición de bitcoin o miedo al tráfico y en EE.UU. por razones fiscales o de empleo
+Tanto en china debido a la potencial prohibición de bitcoin o al alarmismo y en EE.UU. por razones fiscales o de empleo
 
 **Artem Kotelskiy**
 
@@ -165,7 +165,7 @@ En mi opinión es sospechoso recolectar decenas si no es que cientos de millones
 
 El desarrollador de bitcoin que descubrió el problema de la salida duplicada de coinbase también estuvo muy involucrado y otras dos personas importantes pero no los podemos poner en el sitio web o en la junta de asesores.
 
-Hay mucho drama acerca de esto.
+Hay mucho drama con respecto a esto.
 
 El gobierno australiano estaba haciendo redadas a las casas de personas a 8 horas de haber sido descubiertas como parte de los primeros desarrolladores de Bitcoin, etc.
 
@@ -177,7 +177,7 @@ Solo estaba bromeando, mira los "))"
 
 **Synth**
 
-Las únicas personas aportando con sus verdaderos nombres de github eran básicamente idiotas sin seguridad de operaciones. Y las otras personas involucradas no están en las juntas de asesores ni se publicitan a sí mismas.
+Las únicas personas aportando con sus verdaderos nombres de github eran básicamente idiotas que no estaban bajo seguridad de operaciones. Y las otras personas involucradas no están en las juntas de asesores ni se publicitan a sí mismas.
 
 No sé ni siquiera por qué chen usó su cuenta de github principal/pública. Se le aconsejó que no lo hiciera.
 
@@ -215,13 +215,13 @@ Aún así, ¿por qué no ir a Suiza?
 
 ¿Para qué?
 
-ochenta personas deberían mudarse a Suiza?
+¿ochenta personas deberían mudarse a Suiza?
 
 **Artem Kotelskiy**
 
 Ok..
 
-Quiero decir, la organización puede ir allí y estar de alguna manera protegida
+Quiero decir, la organización puede ir allá y estar de alguna manera protegida
 
 **Synth**
 
@@ -265,7 +265,7 @@ Por favor explica
 
 Hay una diferencia entre la evasión fiscal y evitar los impuestos
 
-Evitar los impuestos es algo perfectamente legal y realizado por todas y cada unas de las corporaciones en el mundo
+Evitar los impuestos es algo perfectamente legal y realizado por todas y cada unas de las corporaciones del mundo
 
 **Synth**
 Imagina que tienes 800 millones en bitcoin. ¿Corres por la calle presumiendo acerca de ello?
@@ -276,9 +276,9 @@ También hay problemas de propiedad intelectual con los empleadores. Si alguien 
 
 Por lo tanto, no pueden contribuir código públicamente o la empresa/empleador puede reclamar la propiedad y la propiedad intelectual y causar problemas legales.
 
-Hay un montón de drama y mierda. Cualquiera que sea competente es reservado. Y las personas que se promocionan en público son perdedores.
+Hay un montón de drama y mierda. Cualquiera que sea competente es reservado. Y los que se promocionan en público son perdedores.
 
-TODAS las primeras personas de bitcoin esperaban que el gobierno de los EE. UU. lo reprimiera VIOLENTAMENTE. Y ese miedo nunca desapareció.
+TODAS las primeras personas de bitcoin esperaban que el gobierno de los EE.UU. lo reprimiera VIOLENTAMENTE. Y ese miedo nunca desapareció.
 
 Las personas que entran hoy en la criptografía no recuerdan las guerras de criptografía y la opresión gubernamental de los 90
 
@@ -308,11 +308,11 @@ Y se olvidan de que TODAS las personas profesionales de matemáticas y criptogra
 
 **Synth** *[In reply to Artem Kotelskiy]*
 
-Todos los que trabajan en Google o en una epresa de la lista Fortune 500. Tenemos aportes de personas que trabajan para Google/Amazon si miras el historial de commits.
+Todos los que trabajan en Google o una empresa de la lista Fortune 500. Tenemos aportes de personas que trabajan para Google/Amazon si miras el historial de commits.
 
 **Artem Kotelskiy**
 
-Lo única cosa que creo que preocupa al investigador profesional es la seguridad.
+Lo único que creo que preocupa al investigador profesional es la seguridad.
 
 Sí, francamente no creo que Google/Amazon sean tan buenas compañías 
 
@@ -339,21 +339,21 @@ Triste
 
 **Synth**
 
-también la forma en que los EE. UU. trabajan es que la información/investigación todavía puede volverse confidencial después de publicarse en el dominio público.
+también la forma en que los EE.UU. funcionan es que la información/investigación todavía puede volverse confidencial después de publicarse en el dominio público.
 
-Entonces si una persona recibe una subvención del gobierno o trabajó en enrutamiento de origen o algo así y publica algo, pero esa tecnología se usa en un proyecto posterior a los que están asociados, entonces no están eximidos de responsabilidad legal.
+Entonces si una persona recibe una subvención del gobierno o trabajó en enrutamiento de origen o algo así y es publicado, pero esa tecnología se usa en un proyecto posterior a los que están asociados, entonces no están eximidos de responsabilidad legal.
 
-y si trabajaron en la universidad mientras se desarrollaban los algoritmos, la universidad puede reclamar propiedad intelectual
+y si trabajaron en la universidad mientras se desarrollaban los algoritmos, la universidad puede hacer reclamos de propiedad intelectual
 
 Por eso todos en los Estados Unidos viven aterrorizados por los abogados
 
 **Artem Kotelskiy**
 
-Ya veo. Es difícil creer que haya universidades en EE. UU. que presentarían tal propiedad intelectual
+Ya veo. Es difícil creer que haya universidades en EE.UU. que registrarían tal propiedad intelectual
 
 Pero todavía mantengo mi punto
 
-Creo que en tu página de inicio debes explicar por qué los desarrolladores están ocultos
+Creo que en la página de inicio deben explicar por qué los desarrolladores están ocultos
 
 **Synth**
 
@@ -365,7 +365,7 @@ Ah, pero entonces esto atraerá atención
 
 **Artem Kotelskiy** *[In reply to Synth]*
 
-¿Podrías enlazar o dar palabras clave para algún caso de propiedad intelectual allí?
+¿Podrías enlazar o dar keywords para algún caso de propiedad intelectual?
 
 Google y Cisco son compañías
 
@@ -373,7 +373,7 @@ Google y Cisco son compañías
 
 Ellos no están ocultos. La gente simplemente es demasiado estúpida para consultar github.
 
-Skycoin trata acerca de presumir quién tiene el pene de desarrollador más grande en su junta de asesores.
+Skycoin no trata acerca de presumir quién tiene el pene de desarrollador más grande en su junta de asesores.
 
 El sitio web trata acerca de la moneda y la tecnología. No creemos en los consejos de asesores, los concurso de medir cual CEO celebridad tiene el pene más grande.
 
@@ -395,7 +395,7 @@ El futuro del proyecto está completamente en manos de desarrolladores
 
 Entonces sería útil si sé quiénes son y cuáles son sus valores
 
-Para yo decidir, si voy a ser el nodo de sky, o simplemente un tenedor de sky 
+Para decidir, si voy a ser el nodo de sky, o simplemente un tenedor de sky 
 
 Pero lo entiendo, piensas que el código y la ejecución hablan por sí mismos, es justo
 
@@ -431,7 +431,7 @@ No hay niveles. O eres de su propiedad y eres un esclavo y tienes un número de 
 
 **Artem Kotelskiy**
 
-Ya veo. Creo que la siguiente cosa para discutir es si el gobierno es bueno o no (digamos, EE. UU.). Y sé que voy a perder esta, así que no entremos en esto. Entiendo completamente tu punto de vista. Difiere del mío en que yo creo más en la bondad, y creo que hay un espectro de libertad. Pero podría ser solo que soy joven e inexperto.
+Ya veo. Creo que la siguiente cosa para discutir es si el gobierno es bueno o no (digamos, EE.UU.). Y sé que voy a perder esta, así que no entremos en ese tema. Entiendo completamente tu punto de vista. Difiere del mío en que yo creo más en la bondad, y creo que hay un espectro de libertad. Pero podría ser solo que soy joven e inexperto.
 
 **Synth**
 
@@ -441,7 +441,7 @@ La esclavitud no se trata de se libre o se esclavo. Se trata de independiente (l
 
 Haces que la gente dependa de ti para sobrevivir, luego les das falsas "libertades" para que no se rebelen. Así es como conviertes a una sociedad en un campo de trabajos forzados y luego le das suficiente porno gratis, prozac y zoloft hasta que hayas domesticado "esclavos felices" que ni siquiera pueden imaginar cómo se luciría una alternativa.
 
-¡Mira que libres son esas personas con sus $750.000 en deuda estudiantil que no pagarán hasta que mueran! Lol. Es solo una burla.
+¡Mira que libres son esas personas con sus $750.000 en deuda estudiantil que no pagarán hasta que mueran! Lol. Sencillamente es una burla.
 
 **Artem Kotelskiy**
 
@@ -455,7 +455,7 @@ Y creo que si uno realmente quiere, puede ser libre
 
 **Vadim 🛌**
 
-déjame adivinar, Bielorrusia?
+déjame adivinar, bielorrusia?
 
 **Artem Kotelskiy**
 
@@ -487,9 +487,9 @@ Anarquía significa "sin maestros" o sin gobernantes. Todas las palabras están 
 
 **Artem Kotelskiy**
 
-De todas formas
+Sea como sea
 
-Mantengan a los chicos de Skycoin, sinceramente tengo la esperanza de que permitirá que más personas no tengan maestros
+Sigan con skycoin chicos, sinceramente tengo la esperanza de que permitirá que más personas no tengan maestros
 
 **Artem Kotelskiy** *[In reply to Synth]*
 
@@ -507,9 +507,9 @@ matthieu *[In reply to Synth]*
 
 No. El problema es la naturaleza humana.
 
-No puedes liberar esclavos. Ellos simplemente encontrarán a otro maestro. Ellos *quieren* y eligen ser esclavos. Ellos simplemente quieren un conductor de esclavos con un látigo más suave.
+No puedes liberar esclavos. Ellos simplemente encontrarán a otro maestro. Ellos *quieren* y eligen ser esclavos. Ellos simplemente quieren un maestro de esclavos con un látigo más suave.
 
-Observa cómo las personas eligen espontáneamente a los líderes para que les diga qué hacer y les diga cómo deben vivir y qué deben temer. Debido a que se niegan a hacerlo ellos mismos.
+Observa cómo las personas eligen líderes espontáneamente para que les digan qué hacer y les digan cómo deben vivir y qué deben temer. Debido a que se niegan a hacerlo ellos mismos.
 
 matthieu *[In reply to Artem Kotelskiy]*
 
@@ -517,7 +517,7 @@ En realidad quizás sirva más a la moneda presentar la ideología detrás de el
 
 matthieu
 
-Synth, hasta ahora no sabía cuáles eran tus motivaciones/valores y tu profunda ideología. Ahora soy un partidario aún más grande de la moneda. Esto es importante para recordar el objetivo final de todo esto... Muchas personas olvidan y quieren ser millonarias en una noche comprando en una ICO...
+Synth, hasta ahora no sabía cuáles eran tus motivaciones/valores y tu profunda ideología. Ahora soy un partidario aún más grande de la moneda. Esto es importante para recordar el objetivo final de todo esto... Muchas personas lo olvidan y quieren ser millonarias de la noche a la mañana comprando en una ICO...
 
 **Synth** *[In reply to matthieu]*
 
@@ -533,7 +533,7 @@ matthieu
 
 Bitcoin es empujado hasta $5000, pero si incluso el 1% de los titulares lo vendiera, estaría nuevamente en $2000. Es un aumento de precios muy alto frente a la profundidad del mercado.
 
-Creo que podríamos ver brevemente a billonarios o personas más adineradas que Billgates, antes de que comiencen a mover dinero e implosione.
+Creo que podríamos ver brevemente billonarios o a personas más adineradas que Billgates, antes de que comiencen a sacar dinero e implosione.
 
 Las altcoins, a diferencia de los bienes raíces y las acciones, no tienen techo de precio. No hay economía o matemáticas fundamentales que impidan que el precio suba hasta el infinito.
 
