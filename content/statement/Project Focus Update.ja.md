@@ -1,5 +1,5 @@
 +++
-title = "Project Focus Update"
+title = "プロジェクトフォーカスアップデート"
 tags = [
     "Development",
     "Statement",
@@ -12,191 +12,121 @@ categories = [
 ]
 +++
 
-### Mobile Wallet
+### モバイル　ウォレット
 
-The Skycoin mobile wallet is done.
+Skycoinモバイルウォレットが完成しました。
 
 [https://play.google.com/apps/testing/net.skycoin.mobile](https://play.google.com/apps/testing/net.skycoin.mobile)
 
-### Branding, Design
+### ブランディング、デザイン
 
-We are revamping the content pages for the Skycoin website
+Skycoinのウェブサイトのコンテンツページを改訂しています。
 
-We have a new logo now.
+また、今、私たちは新しいロゴを用意しています。
 
-Bounty program has been up for a month. If anyone wants to make Skycoin videos,
-check the bounty program in telegram.
+報奨金プログラムは1カ月間です。
+もしあなたがSkycoinのビデオを作りたいと考えているならば、テレグラムで報奨金プログラムをチェックしてください。
 
 [Skycoin Branding Kit](https://www.skycoin.net/downloads/#assets)
 
 ### Skywire
 
-Skywire is working but is getting a rewrite, to use the skycoin/net networking
-library.
+Skywireは動作していますが、skycoin / netネットワーキングライブラリを使用するために書き直しています。
 
-The dashboard for cluster management (node manager) and global network
-dashboard is currently under development.
+クラスタ管理（ノードマネージャ）とグローバルネットワークダッシュボードのダッシュボードは現在開発中です。
 
-Then network will be fully usable for the public for VPN, Socks5 proxy and we
-will start moving applications on to the new network namespace.
+そして、ネットワークはVPN、Socks5プロキシのために完全に公開され、アプリケーションを新しいネームスペースに移動し始めます。
 
-### New Wallet
+### 新しいウォレット
 
-Version 20 of the wallet is being released. This is a new wallet from scratch
-and has been in the github development branch of Skycoin for a month now.
+ウォレットのバージョン20がリリースされています。
+これはゼロから作り上げた新しいウォレットで、１カ月間Skycoinのgithub　開発ブランチにあります。
 
-Version 20 is several dozen times faster than the old wallet.
+バージョン20は、古いウォレットより数十倍高速です。
 
-### Project Focus
+### プロジェクトの焦点
 
-> Quote from: LiskEnterprise on September 14, 2017, 11:03:15 PM
+> 引用: LiskEnterprise on September 14, 2017, 11:03:15 PM
 
-> This forum is dead and the price is dead...
-There maybe a correlation.
-Becasue you moved to telegram there is no productive conversations here.
-BTC talk is the first place new crypto people go to study a new platform and
-they see nothing happening here.
+> このフォーラムは死んでおり、価格は死んでいます...
+何らかの相関関係があるのかも知れません。
+なぜならばテレグラムに移動したので、ここには生産的な会話はありません。BTCの話は、暗号通貨に携わる人が研究する最初の場所であり、彼らがここで見るべきものは何もありません。
 
-The price is not dead.
 
-**When we sell coins on the market, the price goes up.**
+価格は死んでいません。
 
-It is impossible for people to buy at the price they want and no one wants to
-sell the coin. There is no reason you would sell a coin if it can go from $0.05
-to $600 in three months like Byteballs and other coins did. This is a well
-known dynamic for people who have been watching for the last eight years how
-the coin market operates. It is especially obvious to people who under the
-psychology of financial assets and how bubbles occur.
+**私たちが市場にコインを売ると、価格が上がります。**
 
-All the coins like IOTA, Litecoin, Byteballs, Bitcoin had very long latency
-periods.
+人々が望む価格で購入することは不可能であり、誰もそのコインを売りたくない。
+Byteballsや他のコインのように、3ヶ月で0.05ドルから600ドルになることができれば、コインを売る理由はありません。
+これは、コイン市場がどのように動いているかを過去8年間見てきた人々にとっては、よく理解されている動きです。特に、金融資産やバブルの心理学において明らかです。
 
-That is because exponential growth from a small user community, even at 1% per
-day growth rate takes years to growth to the point that it reaches public
-conscience.
+IOTA、Litecoin、Byteballs、Bitcoinのようなコインはすべて非常に長い潜伏期間を持っていました。
 
-The user community, technology growth at a continuous, constant rate over
-years, but the asset appreciation occurs suddenly and violently (once the coin/
-asset/market breaks a critical threshold of awareness). Then suddenly what you
-only heard two or three times before over a few months, suddenly begins to
-appear everywhere. User growth is constant and linear, while public perception,
-awareness and attention is a threshold function.
+これは小さなユーザーコミュニティからの急激な成長、１日あたり１％の成長であっても、それが民意に到達するまでに数年かかります。
+ユーザーコミュニティーとテクノロジーは継続的かつ一定の速度で成長するが、資産評価は突然かつ猛烈に行われます（コイン、資産、マーケットが認識の臨界点を突破します。）それから、数ヶ月以上前に2,3回聞いたことが突然あらゆるところに現れます。ユーザーの成長は一定で線形ですが、一般的な認識や注意はしきい値的な性格を持っています。
+ユーザーコミュニティが100人で、成長率が1％/日であれば、1日に1人の新規ユーザーになります。私たちのテレグラムは過去２カ月間で８倍に増えました。直近の２カ月間はまだ広告やマーケティング活動さえ行っていません。また、動画も殆どなく、公開されたマーケティングも無く、大きな取引所にはまだ公開されていません。
 
-If user community is 100 people and growth rate is 1% per day, that is only 1
-new user per day. Our telegram doubled three times in users, over last two
-months and we have not even started on advertising or marketing yet and have
-almost zero videos and zero marketing towards public and have not done listing
-on any large exchanges yet for visibility.
+価格も問題にはなりません。ほとんどまともな働きをせず、価値がなく、大規模な運営コスト（負のキャッシュフロー、損失）を抱え、Skycoinの時価総額の120倍で取引しているプロジェクトがあります。
+実際に開発者やユーザーコミュニティ、また、実際のテクノロジーやユーザーベースを保てるブロックチェーンプロジェクトはごくわずかです。
 
-The price does not matter either. There are projects that are a piece of shit
-and barely work, have no value and have massive operating costs (negative cash
-flow, losses) and who are trading at 120x the market cap of Skycoin. There are
-very very few blockchain projects that actually have developers, real user
-communities or actual technology that is useful or can retain a userbase.
+Skycoinのアクティブなユーザベースメトリックは8倍に増加しましたが、価格は安定しています。価格は最適な指標ではありません。それは技術、開発、マーケティング、ユーザーコミュニティーに数ヵ月あるいは数年遅れているからです。
 
-The active userbase metrics for Skycoin have increased 8x, but the price has
-been stable. The price is not the best metric for evaluation, because it is a
-lagging indicator and lags behind technology, development, marketing and user
-community by months or years.
+内部的には、価格を指標として使用するのではなく、以下のような要素を見ていきます。
 
-Internally, we do not use the price a metric but look at fundamentals such as:
+- 技術開発と準備状況
+- ユーザーコミュニティの成長
+- 活動とアプリケーションの適応状況
+- ユーザビリティの向上
+- マーケティング努力とSkycoinの構造/組織の改善（報奨金プログラムでは何人の人が活躍しているか）
 
-- technology development and readiness status
-- user community growth
-- activity and application adaption
-- usability improvements
-- improvements in marketing effort and Skycoin structure/organization (how many
-  people are active in the bountry program)
+我々はSkycoinの取引量を減少させるコインとマーケティングの改善をしました。なぜなら、人々は売る意欲に乏しいからです。
+主要ニュースをリリースすると、スカイコインの価格は上昇しませんが、取引量で売却する人が少なくなるため、時価総額も減少します。私たちがテスト用にコインを投入したとき、Skycoinの価格は市場に売り出すのと同様、上昇しました。
 
-As we have improved the coin and marketing **the Skycoin volume has decreased**
-because people have been less willing to sell. When we release major news, the
-Skycoin price does not increase, but the volume decreases because there are
-fewer people selling at the market clearing price. When we have done coin drops
-for testing, the skycoin price goes up, as we sell coins onto the market.
+通常、係数は負です。 コインＸを市場に売ると、市場価格はYによって下がるはずですが、
+市場価格は上昇します。インパルス応答関数のための線形係数は、間違った符号を持ちます。
+「より多くのコインが売れば増えるほど、スカイコインの価格は上がる」
 
-Normally, the coefficient is negative. As you sell X coins onto the market, the
-market price should decline by Y. However, the market price goes up. The linear
-coefficient for the market's impulse response function has the wrong sign. "The
-more coins we sell the more the Skycoin price goes up".
+人々がSkycoinを売却するとき、その心理は「誰かが投げ売りしている」というものであり、人々は価格を吊り上げてより投げ売ることができるように誘惑します。
+Skycoinのバイヤーは、長期的なポジションを獲得しようとしています（コインの絶対数を最大化する）。だから、彼らは価格を上げることなく時間をかけて買っています。
+しかし、売り手は現在の価格で売ることはありません。
 
-When people sell Skycoin the psychology is "Someone is dumping" and people try
-to lure them into dumping more by increasing the price. The buyers of Skycoin
-are trying to acquire long term positions (maximizing the absolute number of
-coins). So they are buying over time, without increasing the price. However,
-the sellers are not willing to sell at the current price.
+これは、私たちがOTC（分散型）マーケットで見ているものと一致しています。
+暗号通貨全体の30%~40%をSkcoin の中に移している人がいて、彼らは購入して保有していますが、マーケットには積極的に参加していません（将来の果実を待っています）。
 
-This is consistent with what we are seeing on the OTC markets. There are some
-people who have 30% or 40% of their total cryptos holdings shifted into Skcoin
-and they are buying and holding and not participating actively on the markets (
-but instead waiting for future appreciation).
+だから、スカイコインの市場心理は人々がその日の価格を巡って大量取引しているだけのMoneroまたはDogecoinとは異なります。一度大きな取引所に入ると、より多くのデイトレードと大量の取引が見られますが、できたばかりのコインやアーリーステージのコインは、大量取引を生み出すことはありません。
 
-So the market psychology of the Skycoin market is different than Monero or
-Dogecoin, where people are just sitting there day trading around the price and
-creating a high volume. Once we are on a larger exchange, we will see more day
-trading and high volume, but the buy and hold for early stage or emerging
-coins, does not generate a lot of volume.
+私たちは数回、「マーケットメイキング」を行い、「売り」と「買い」の両方に10 BTCを入れようとしましたが、買い注文だけがあり、売り注文が無いのでコインはすべて買われ、非常に早く消耗してしまい、スプレッドの設定や価格が分かりませんでした。そしてBotのコインが足りなくなり、私たちはマーケットメイキングを成功させることはできませんでした。これは需要が高いことを示していますが、人々は安価に購入したいと考えています。
 
-We tried for a few times to do "market making" and put 10 BTC on both the bid
-and ask side, but the coins were all bought up and exhausted very quickly and
-we do not know how to set the spread or the price because there were only
-orders on the buy side and none of th sell, so the bot just runs out of coins,
-so we could not even run a market making bot successfully. This indicates there
-is high demand, but that people want to buy at a low price.
+私たちはそれは仕方のないことなので、マーケットが望むようにするつもりでいます。ヨーヨーボットは止まり、市場はとても良く見え、積極的に取引する多くの人がいて、価格は非常に安定しています。スカイコインマーケットとオーダーブックは成熟しています。
 
-We are just going to let the markets do whatever they want, because that is
-just the way it is. The yoyo bot guy stopped and the market looks a lot better
-now and there are multiple people actively trading and price has been very
-stable. So the Skycoin market and order book is maturing.
+スカイコインを取引する人たちも、非常に知的で洗練されています。 彼らは他のコインユーザーと比較して、技術的能力と教育レベルが非常に高いです。スカイコインユーザーの多くは、人間の心理や市場行動をよく理解しています。
 
-The people trading Skycoin are also extremely intelligence and sophisticated.
-They have an extremely high level of technical competency and education
-compared to the users of other coins. Many of the Skycoin user base also has a
-very good understanding of human psychology and market behavior.
+また、Skycoinコミュニティは、すべてのコインのソフトウェア開発者とエンジニアの割合が最も高いです。 Skycoinコミュニティは非常に組織化されており、その多くは何ヶ月も何年も先のコインのポートフォリオ配分を計画しています。
+彼らは取引所に上場される前から新しいプロジェクトを見ており、土台となる技術と、将来的に評価される能力に基づいてプロジェクトを評価しています。そのため、私たちは他のコインのような感情的な動きをするマーケットを持っていないし、価格は非常に安定しています。
 
-The Skycoin Community has the highest percentage of Software Developers and
-Engineers of all the coins. The Skycoin Community is very organized and many of
-them are planning their coin portfolio allocations out for months and years.
-They are looking at the new projects, before they are listed on exchanges and
-they are evaluating the projects based upon technical fundamentals and ability
-to appreciate in the future. So we do not have the emotional driven market of
-the other coins and the price has been very stable.
 
-- Skycoin has developers (most of the projects raising tens or hundreds of
-  million of dollars do not have developers)
-- Skycoin has its own blockchain (the ERC20 tokens and many of the projects
-  raising tens or hundreds of millions of dollars in "ICOs" do not have a
-  blockchain)
-- Skycoin has application, that can be run and work (almost all of the ICOs
-  raising tens or hundreds of millions of dollars do not have applications or
-  are just raising the money to hire developers/or build the applications which
-  do not exist except as vaporware)
-- Skycoin has a continuous development history of over almost eight years (
-  while many/most coins have no developers, no blockchain, no development
-  history and no working or demo applications)
-- Skycoin has technology. We know what we have to do to solve the problems we
-  are working on. (Instead of raising 100 million dollars to solve a problem
-  that people have been trying to solve and failing for the last four decades
-  with no progress).
-- Skycoin has a user community of people. (Not just bots and people flooding
-  channels with bots to claim bounty program rewards and competing for who can
-  get the most bots in their channel.)
-- etc
+- Skycoinは開発者を抱えています（数十億ドルの開発プロジェクトの大部分は開発者がいません）
+- Skycoinには独自のブロックチェーンがあります（ERC20トークンや、「ICO」に数千〜数百万ドルの資金を調達するプロジェクトの多くはブロックチェーンを持っていません）
 
-So based upon fundamentals we are doing very well. However, for most of the
-market it is impossible for someone on the outside to look at a coin and figure
-out "Does anyone actual use this?", "Does this coin actually have a user
-community?", "Is that 100 million dollars a day in trading volume real or is it
-one bot trading with itself to create the appearance of volume?". "Is coin
-really worth 200 million, or did some guy create 200 million coins and start
-trading them with himself for $1 a coin?". "Does this coin really have anyone
-following them on twitter or did they buy 50,000 bots to follow them".
+- Skycoinにはアプリケーションがあり、実行して動作させることができます（数千〜数億ドルの資金を調達しているICOのほとんどすべてがアプリケーションを持っていないか、開発者を雇うために資金を調達しています。）
 
-Most of the coins on the market today are completely fake. 100% fake. No
-developers. No blockchain. No product. Fake liquidity. No user community except
-for people paid to do activity and make it look like there is a user community.
-"Lets flood reddit with bots and pay fifteen people $40 a day to make it look
-like we have a community". ETC "We have a community. Look at our community
-manager shit posting under 14 different reddit accounts!"
+- Skycoinは、開発の歴史が8年以上あります（ほとんどのコインには開発者がなく、ブロックチェーンもなく、開発履歴もなく、デモアプリケーションもありません）
+
+- Skycoinにはテクノロジーがあります。 我々は、我々が取り組んでいる問題を解決するために何をしなければならないかを知っている（過去40年間、進歩なく人々が解決しようして失敗してきた問題を解決するために1億ドルが調達される代わりに。）
+- Skycoinにはユーザーコミュニティがあります。（botだけだったり、また報奨金を請求する
+ためにbotでチャンネルを溢れ返らせる人々がいたり、チャンネルの中で誰が最もbotを得るために競争するようなことはありません。）
+- など
+
+基本に基づいて、我々は非常にうまくやっています。しかし、市場のほとんどは、外部にいる誰かがそのコインを見ることで理解するのは不可能です。
+「このコインは実際にユーザーが使っていますか？」「このコインは実際にユーザーコミュニティを持っていますか？」「本当に1日に1億ドルのリアルな取引をしているのですか、それとも1つのボット取引で取引量があるように見せかけていますか？」
+「このコインは本当に2億ドルの価値があるのですか、あるいは誰か作った2億ドル分のコインを、はじめは1ドルとして取引するのですか？」
+「このコインは、本当に誰かがtwitterでフォローしているのか、それとも50,000botを買ってフォローしているのか」
+
+今日の市場のコインのほとんどは完全に偽造品です。 100％偽物です。
+開発者はいません。 ブロックチェインはありません。 製品はありません。 にせの流動性です。
+雇われた人々が、ユーザーコミュニティーがあるかのように見せているところを除いて、コミュニティーはありません。
+「Redditをbotで溢れさせ、コミュニティがあるかのように見せるために人に1日40ドル支払う」など、「私たちはコミュニティがあります。異なる14のredditアカウントの下でコミュニティーマネージャーのくだらないポストを見てください。」
 
 You cannot compare Skycoin to these fake coins. If we wanted to do it the same
 way, we could do the same thing and make the market cap go to $500 million
