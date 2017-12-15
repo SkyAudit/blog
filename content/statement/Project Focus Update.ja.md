@@ -40,13 +40,13 @@ Skywireは動作していますが、skycoin / netネットワーキングライ
 ### 新しいウォレット
 
 ウォレットのバージョン20がリリースされています。
-これはゼロから作り上げた新しいウォレットで、１カ月間Skycoinのgithub　開発ブランチにあります。
+これはゼロから作り上げた新しいウォレットで、１カ月間Skycoinのgithub開発ブランチにあります。
 
 バージョン20は、古いウォレットより数十倍高速です。
 
 ### プロジェクトの焦点
 
-> 引用: LiskEnterprise on September 14, 2017, 11:03:15 PM
+> 引用: LiskEnterprise on 2017年9月14日, 11:03:15 PM
 
 > このフォーラムは死んでおり、価格は死んでいます...
 何らかの相関関係があるのかも知れません。
@@ -57,14 +57,14 @@ Skywireは動作していますが、skycoin / netネットワーキングライ
 
 **私たちが市場にコインを売ると、価格が上がります。**
 
-人々が望む価格で購入することは不可能であり、誰もそのコインを売りたくない。
-Byteballsや他のコインのように、3ヶ月で0.05ドルから600ドルになることができれば、コインを売る理由はありません。
+人々が望む価格で購入することは不可能であり、誰もそのコインを売りたくありません。Byteballsや他のコインのように、3ヶ月で0.05ドルから600ドルになることができれば、コインを売る理由はありません。
 これは、コイン市場がどのように動いているかを過去8年間見てきた人々にとっては、よく理解されている動きです。特に、金融資産やバブルの心理学において明らかです。
+
 
 IOTA、Litecoin、Byteballs、Bitcoinのようなコインはすべて非常に長い潜伏期間を持っていました。
 
 これは小さなユーザーコミュニティからの急激な成長、１日あたり１％の成長であっても、それが民意に到達するまでに数年かかります。
-ユーザーコミュニティーとテクノロジーは継続的かつ一定の速度で成長するが、資産評価は突然かつ猛烈に行われます（コイン、資産、マーケットが認識の臨界点を突破します。）それから、数ヶ月以上前に2,3回聞いたことが突然あらゆるところに現れます。ユーザーの成長は一定で線形ですが、一般的な認識や注意はしきい値的な性格を持っています。
+ユーザーコミュニティーとテクノロジーは継続的かつ一定の速度で成長するが、資産評価は突然かつ猛烈に行われます（コイン、資産、マーケットが認識の臨界点を突破します。）それから、数ヶ月以上前に2,3回聞いたことが突然あらゆる場面で現れます。ユーザーの成長は一定で線形ですが、一般的な認識や注意は閾値のような性格を持っています。
 ユーザーコミュニティが100人で、成長率が1％/日であれば、1日に1人の新規ユーザーになります。私たちのテレグラムは過去２カ月間で８倍に増えました。直近の２カ月間はまだ広告やマーケティング活動さえ行っていません。また、動画も殆どなく、公開されたマーケティングも無く、大きな取引所にはまだ公開されていません。
 
 価格も問題にはなりません。ほとんどまともな働きをせず、価値がなく、大規模な運営コスト（負のキャッシュフロー、損失）を抱え、Skycoinの時価総額の120倍で取引しているプロジェクトがあります。
@@ -81,15 +81,12 @@ Skycoinのアクティブなユーザベースメトリックは8倍に増加し
 - マーケティング努力とSkycoinの構造/組織の改善（報奨金プログラムでは何人の人が活躍しているか）
 
 我々はSkycoinの取引量を減少させるコインとマーケティングの改善をしました。なぜなら、人々は売る意欲に乏しいからです。
-主要ニュースをリリースすると、スカイコインの価格は上昇しませんが、取引量で売却する人が少なくなるため、時価総額も減少します。私たちがテスト用にコインを投入したとき、Skycoinの価格は市場に売り出すのと同様、上昇しました。
+主要ニュースをリリースすると、Skycoinの価格は上昇しません。しかし、取引量も減少します。清算価格で売却する人が少なくなるためです。私たちがテスト用にコインを投入したとき、Skycoinの価格は市場に売り出すのと同じ程度に上昇しました。
 
-通常、係数は負です。 コインＸを市場に売ると、市場価格はYによって下がるはずですが、
-市場価格は上昇します。インパルス応答関数のための線形係数は、間違った符号を持ちます。
-「より多くのコインが売れば増えるほど、スカイコインの価格は上がる」
+通常、係数は負です。 コインＸを市場に売ると、市場価格はYによって下がるはずですが、市場価格は上昇します。インパルス応答関数のための線形係数は、間違った符号を持っています。「より多くのコインが売れば増えるほど、skycoinの価格は上がる」
 
 人々がSkycoinを売却するとき、その心理は「誰かが投げ売りしている」というものであり、人々は価格を吊り上げてより投げ売ることができるように誘惑します。
-Skycoinのバイヤーは、長期的なポジションを獲得しようとしています（コインの絶対数を最大化する）。だから、彼らは価格を上げることなく時間をかけて買っています。
-しかし、売り手は現在の価格で売ることはありません。
+Skycoinのバイヤーは、長期的なポジションを獲得しようとしています（コインの絶対数の最大化）。だから、彼らは価格を上げることなく時間をかけて買っています。しかし、売り手は現在の価格で売ることはありません。
 
 これは、私たちがOTC（分散型）マーケットで見ているものと一致しています。
 暗号通貨全体の30%~40%をSkcoin の中に移している人がいて、彼らは購入して保有していますが、マーケットには積極的に参加していません（将来の果実を待っています）。
@@ -98,29 +95,24 @@ Skycoinのバイヤーは、長期的なポジションを獲得しようとし�
 
 私たちは数回、「マーケットメイキング」を行い、「売り」と「買い」の両方に10 BTCを入れようとしましたが、買い注文だけがあり、売り注文が無いのでコインはすべて買われ、非常に早く消耗してしまい、スプレッドの設定や価格が分かりませんでした。そしてBotのコインが足りなくなり、私たちはマーケットメイキングを成功させることはできませんでした。これは需要が高いことを示していますが、人々は安価に購入したいと考えています。
 
-私たちはそれは仕方のないことなので、マーケットが望むようにするつもりでいます。ヨーヨーボットは止まり、市場はとても良く見え、積極的に取引する多くの人がいて、価格は非常に安定しています。スカイコインマーケットとオーダーブックは成熟しています。
+私たちはそれは仕方のないことなので、マーケットが何を望もうとそのままにしておきます。ヨーヨーbotボットは止まり、市場はとても良く見え、積極的に取引する多くの人がいて、価格は非常に安定しています。skycoinマーケットとオーダーブックは成熟しています。
 
-スカイコインを取引する人たちも、非常に知的で洗練されています。 彼らは他のコインユーザーと比較して、技術的能力と教育レベルが非常に高いです。スカイコインユーザーの多くは、人間の心理や市場行動をよく理解しています。
+skycoinを取引する人たちも、非常に知的で洗練されています。 彼らは他のコインユーザーと比較して、技術的能力と教育レベルが非常に高いです。skycoinユーザーの多くは、人間の心理や市場行動をよく理解しています。
 
 また、Skycoinコミュニティは、すべてのコインのソフトウェア開発者とエンジニアの割合が最も高いです。 Skycoinコミュニティは非常に組織化されており、その多くは何ヶ月も何年も先のコインのポートフォリオ配分を計画しています。
 彼らは取引所に上場される前から新しいプロジェクトを見ており、土台となる技術と、将来的に評価される能力に基づいてプロジェクトを評価しています。そのため、私たちは他のコインのような感情的な動きをするマーケットを持っていないし、価格は非常に安定しています。
 
-
 - Skycoinは開発者を抱えています（数十億ドルの開発プロジェクトの大部分は開発者がいません）
 - Skycoinには独自のブロックチェーンがあります（ERC20トークンや、「ICO」に数千〜数百万ドルの資金を調達するプロジェクトの多くはブロックチェーンを持っていません）
-
 - Skycoinにはアプリケーションがあり、実行して動作させることができます（数千〜数億ドルの資金を調達しているICOのほとんどすべてがアプリケーションを持っていないか、開発者を雇うために資金を調達しています。）
-
 - Skycoinは、開発の歴史が8年以上あります（ほとんどのコインには開発者がなく、ブロックチェーンもなく、開発履歴もなく、デモアプリケーションもありません）
-
-- Skycoinにはテクノロジーがあります。 我々は、我々が取り組んでいる問題を解決するために何をしなければならないかを知っている（過去40年間、進歩なく人々が解決しようして失敗してきた問題を解決するために1億ドルが調達される代わりに。）
-- Skycoinにはユーザーコミュニティがあります。（botだけだったり、また報奨金を請求する
-ためにbotでチャンネルを溢れ返らせる人々がいたり、チャンネルの中で誰が最もbotを得るために競争するようなことはありません。）
+- Skycoinにはテクノロジーがあります。 我々は、我々が取り組んでいる問題を解決するために何をしなければならないかを知っています（過去40年間、進歩なく人々が解決しようして失敗してきた問題を解決するために1億ドルが調達される代わりに）。
+- Skycoinにはユーザーコミュニティがあります。（botだけだったり、また報奨金を請求するためにbotでチャンネルを溢れ返らせる人々がいたり、チャンネルの中で誰が最もbotを得るために競争するようなことはありません。）
 - など
 
 基本に基づいて、我々は非常にうまくやっています。しかし、市場のほとんどは、外部にいる誰かがそのコインを見ることで理解するのは不可能です。
 「このコインは実際にユーザーが使っていますか？」「このコインは実際にユーザーコミュニティを持っていますか？」「本当に1日に1億ドルのリアルな取引をしているのですか、それとも1つのボット取引で取引量があるように見せかけていますか？」
-「このコインは本当に2億ドルの価値があるのですか、あるいは誰か作った2億ドル分のコインを、はじめは1ドルとして取引するのですか？」
+「このコインは本当に2億ドルの価値があるのですか、あるいは誰か作った2億ドル分のコインを、はじめは1ドルから取引するのですか？」
 「このコインは、本当に誰かがtwitterでフォローしているのか、それとも50,000botを買ってフォローしているのか」
 
 今日の市場のコインのほとんどは完全に偽造品です。 100％偽物です。
@@ -128,147 +120,71 @@ Skycoinのバイヤーは、長期的なポジションを獲得しようとし�
 雇われた人々が、ユーザーコミュニティーがあるかのように見せているところを除いて、コミュニティーはありません。
 「Redditをbotで溢れさせ、コミュニティがあるかのように見せるために人に1日40ドル支払う」など、「私たちはコミュニティがあります。異なる14のredditアカウントの下でコミュニティーマネージャーのくだらないポストを見てください。」
 
-You cannot compare Skycoin to these fake coins. If we wanted to do it the same
-way, we could do the same thing and make the market cap go to $500 million
-tomorrow. I can run a bot right now and send the volume to $5 million dollars a
-day. It does not mean anything.
+Skycoinとこれらのにせの硬貨を比較することはできません。 同じようにやりたければ、同じことをして明日の時価総額を5億ドルにすることができます。私はボットを今すぐ稼動させ、その量を1日に500万ドルにすることができます。 それは何の意味もありません。
 
-Skycoin has to be built upon a foundation of reality and not mere appearance.
-That is why all the attention is focused on the technology and the fundamental
-metrics, instead of running a penny stock pump and dump. In this market, to do
-this honestly is a huge handicap.
+Skycoinは単なる外観ではなく、現実の基盤の上に建てられなければなりません。
+だからこそ、ペニーストック市場で風説を流布する代わりに、技術と基本的な指標に注目しているのです。 この市場では、これを正直に行うことは大きなハンディキャップです。
 
-We anticipate that during these bubbles, people will make a lot of money
-speculating on dubious assets and projects, however as the bubble deflates the
-smart money will rebalanced away from the speculative assets into projects
-which have a foundation in reality and not merely speculative (flight to
-safety). The current alt-coin market has a penny stock pump and dump, horse
-betting mentality and is not favorable for real projects. The current market
-for crypto-asset is still purely speculator driven.
+我々はこれらのバブルの間に、人々は疑わしい資産やプロジェクトに考えをめぐらし、多くのお金を投ずると予想しますが、そのバブルはスマートマネーを委縮させ、投機的な売買から現実的な基盤を持つプロジェクトに再配分されます。現在のアルトコイン市場には、ペニーストック市場で風説の流布によって儲けるような考え方や、ギャンブル的な考え方があり、現実的なプロジェクトとして好ましくありません。現在、暗号通貨市場は、依然として投機主義型です。
 
-The current crypto-assets market:
+現在の暗号通貨市場：
 
-- Instead of being driven by reason, it is driven by emotion
-- Instead of being driven by reality, it is driven by perception.
-- Instead of being driven by value, it is driven by speculation
+- 理性によって動かされるのではなく、感情によって動かされる。
+- 現実に動かされるのではなく、知覚によって動かされる。
+- 価値によって動かされるのではなく、投機によって動かされる。
 
-We wanted to differentiate Skycoin by moving away from this and preparing for
-the phase when the money shifts away from the speculative coins into a
-fundamental or value driven market. However, majority of the market for the
-immediate future is going to be valueless asset tokens, with no revenue or
-income and no economic purpose and no economic activity, which have hundred
-million dollar or billion dollar valuations. The sole value of the token, being
-that there are people are wiling to buy the tokens for harder, spendable
-currencies like Bitcoin or fiat (pump and dump).
+私たちはここから距離を置き、skycoinを投機的なコインから基本的な価値のある市場にシフトさせるフェーズに備えて、Skycoinを差別化したいと考えました。
+しかし、近未来の市場の大部分は、何億ドル、何千億ドルの評価額を持つ、無利益の、無目的な、実質的な経済活動もない、無価値のトークンになるでしょう。トークンの唯一の価値は、Bitcoin や法廷貨幣（風説の流布）のように困難な、消費可能な通貨を喜んで買う人たちがいることです。
 
-I believe the next stage of crypto-currencies we are entering will be coins
-based upon user communities, real economic activity, crypto based applications
-and commodity backed coins (power grid tokens, bandwidth/telecom coins). Where
-as the current generation is based upon marketing slogans "We are IoT" (with no
-IoT devices) and "We have Smart Contracts" (that no one uses).
+私たちが進めている暗号通貨の次の段階は、ユーザーコミュニティ、実際の経済活動、暗号ベースのアプリケーション、コインに裏打ちされた商品（電力トークン、電気通信トークン）などに基づくコインです。
+それに対して現在の世代は、マーケテイングスローガンとして”IoT(しかしIoTデバイスはない）”と”スマートコントラクト（しかし誰も使っていない）”を掲げています。
 
-Then Skycoin also have a large segment of the community is also very patient
-and is testing out new software (with bugs) or that is difficult to use and
-install (like the BBS app, mobile wallet and Skymesssanger). So they have some
-experience with what we are building that the public has not seen and which has
-not been marketing etc. Many people are closely and personally tracking the
-Skycoin project progress now and testing the applications.
+また、Skycoinはまたコミュニティの大部分が忍耐強く新しいソフトウェア（バグあり）をテストしています。その使用とインストールは難しいです（BBSアプリ、モバイルウォレット、Skyメッセンジャーなど）。だから私たちは一般の人たちが見たことが無いものやマーケティングされていないものに関するいくつかの経験があります。そして、多くの人が緊密に、個人的にskycoinプロジェクトの進捗を追跡し、アプリケーションをテストしています。
 
-The price has also been tracking the Yuan and USD. However, in the long term we
-expect Skycoin will resume tracking BTC. Especially after the OTC market is
-integrated.
+価格はまた、中国元と米ドルを追跡しています。しかし、長期的にはSkycoinはBTCの追跡を再開する予定です。 特にOTC市場が統合された後はそのようにします。
 
-Price is a lagging metric, so is not useful.  Price appreciations can be
-extremely violent and rapid and often reflect userbase growth or adaption that
-has been occurring continuously over years. It can also reflect what happens
-when a coin breaks the level of conscienceness, due to onset of sudden, high
-intensity, focused marketing and exchange listings (which takes months or years
-to prepare and lay the foundation for).
+価格は遅れている尺度なので、役に立たない。価格評価は、非常に暴力的で急激になり得るものであり、しばしばユーザーベースの成長が数年間にわたり継続して行われます。それはまた、ある時突然、劇的に集中するマーケティングや取引所への上場（準備のために何ヶ月か何年もかかります）によって良心のレベルを壊したときに起こることを反映しています。
 
-### Exchange Listings
+### 取引所への上場
 
-The scheduled listing on US exchanges was affected by the SEC letter. **The US
-exchanges still have not resumed listing new coins.**
+米国取引所の上場には、SECレターが影響を及ぼしました。 **米国の取引所はまだ新しいコインの上場を再開していません。
+**
 
-We think all the US exchanges will be dead or irrelevant within two years.
+我々は、2年以内にすべての米国の取引所が死んだり無意味になると考えています。
 
-Any US jurisdiction can be seized and the customers coins stolen by the
-government at any time (similar to what happened to eGold when the US
-government seized the customers collateral and kept it or MtGox when it went
-into receivership). There is an extremely long history of governments (
-especially the US government) just seizing assets and collateral belonging to
-customers and just stealing the money and assets.
+米国の管轄権はすべて奪われ、顧客のコインはいつでも政府によって盗難されます(eGoldで政府が顧客の担保を差し押さえたのと同じか、または管財人がMtGoxに入った時と同じように）政府（特に米国政府）が顧客に属する資産や担保を奪い、金銭や資産を盗んだ、非常に長い歴史があります。
 
-Current regulatory actions in the United States, Japan, Korean and China are
-accelerating the schedule for adaption of DEX (decentralized exchange)
-technology.
+米国、日本、韓国、中国における現在の規制措置は、DEX（分散型交換）技術の適応スケジュールを加速しています。
 
-We should have accelerated and prioritized the time table for exchange listings
-last year. This set our time table back six months, but is not major problem.
+私たちは、昨年上場のためのタイムテーブルを加速させ、優先順位をつけるべきでした。このタイムテーブルの設定は6ヶ月前でしたが、大きな問題ではありません。
 
-Most of the large coin holdings have been moved off exchange are essentially
-illiquid because of the risk of theft from government seize, risk of exchange
-being hacked and/or holders being unwilling to submit themselves to the
-invasive tracking and surveillance that use of the current exchange entails.
+政府による差し押さえによる盗難のリスクや、ハッキングのリスクや、保有者が取引に伴う使用の侵害的な追跡や監視によるそれ自体の不本意な提出などによって、ほとんどの大規模なコイン所有者は取引所から離れていますが、これは本質的に非流動的です。
 
-Since most of the Bitcoin are off-market and not on the order books (
-non-exchange traded), for the above reasons, the market for crypto assets is
-being set largely by a small number of high speed arbitrage firms with massive
-volume, whose positions in the order book are extremely thin compared to the
-total volume of coins in circulation. Meaning that if people attempted
-liquidation of even 1% of the outstanding volume of issued coins, there would
-be a severe decrease in coin price and inability to find buyers at the current
-market price without taking a 30% to 70% discount (depending on the magnitude
-of the capital outflows which are occurring at the same time).
+Bitcoinの大部分はオフマーケットであり、オーダーブックがない（非交換取引）ため、上記の理由から、暗号通貨資産のためのマーケットは流通するコイン量と比較して極端に薄いポジションをもつ、大量超高速裁定取引を行う少数の会社によって大きく動かされています。つまり、発行されたコインの未決済の1％でも清算を試みると、コインの価格が大幅に下がり、30％〜70％の割引以外で現在の市場価格でバイヤーを見つけることができません（同時発生している資本流出の規模による）。
 
-The crypto volumes are are very large, but deceptive because the volume is from
-high frequency bots and does not reflect the order-book depth. Even 1% of coins
-being dumped can completely destroy the order book.
+暗号通貨のボリュームは非常に大きいですが、超高速取引botsからのものであり、オーダーブックの深さを反映していないので、誠実ではありません。投げ捨てられた１％のコインでさえも、オーダーブックを完全に破壊する可能性があります。
 
-DEX will allow a larger number of coins to be active on the market and order
-book and increase stability by increasing the orderbook depth (because large
-holders do no longer need to worry about counter party risk and having their
-coins stolen, seized or hacked by keeping them on exchange). The increased
-order book depth should decrease volatility and make it more more difficult for
-a small number of players to cause large price movements and market
-manipulations.
+DEXは、オーダーブックの深度を増すことにより、より多くのコインを、市場及びオーダーブックで有効にし、安定性を高めることを可能にします  （大規模な保有者は取引の相手方のリスクを心配する必要がなくなり、コインを盗まれたり、押収されたり、ハッキングされたりすることが無くなります）。オーダーブックの深度の増加は、ボラティリティを低下させ、少数のプレイヤーが大きな価格変動と市場操作を引き起こすのをより困難にするはずです。
 
-So we are expecting most of the market to move to DEX and most of the coin
-volume to move to coins that have lower transaction times (away from bitcoin)
-to the coins whose transaction times are closer to the rate of exchanges (
-currently impossible for all coins based upon PoS/PoW and which has only now
-become possible with new consensus algorithms, such as Skycoin Obelisk).
+だから我々は市場のほとんどがDEXに移行し、コインの大半が低速の取引時間のコインから（bitcoinから離れて）取引所のレートに近いスピードのコインに移行することを期待しています（現時点ではPoS / PoWに基づくすべてのコインでは不可能であり、skycoinオベリスクのような新しいコンセンサスアルゴリズムでは可能になっています）。
 
-I think exchange centralization is a fad or a phase (like MtGox).
+私は、取引所の集中化は一時的なもの（MtGoxのようなもの）だと思います。
 
-We will see more of the altcoin markets internalized because of the regulation
-and then eventually moved to DEX (decentralized exchange).
+我々は規制によってに最終的にDEX（非集中型取引所）に移るので、我々は、多くの内向きになったアルトコイン市場を見るでしょう。
 
-We are still working with the existing exchange, but are starting development
-of the Skycoin OTC market and our exchange federation protocol for enabling DEX.
+我々は引き続き既存の取引所と協働していますが、DEXを有効にするためのSkycoin OTCマーケットと取引所連合プロトコルの開発を開始しています。
 
-What is happening is the exchanges are forming "self-regulatory" committees to
-block the creation of new exchanges (the business is very profitable and they
-are making 0.1% on each side of every trade on very high volumes). Unless they
-can regulate out new competitors, the exchanges are unable to maintain their
-high transaction and trading fees. Then they are creating "white lists" by
-country and only allowing the listing of crypto assets that the investors/owner
-groups of the exchanges have invested in or own a large percentage of.
+起こっていることは、取引所が新しい取引所の創設を阻止するための「自己規制」の委員会を形成していることです（ビジネスは非常に収益性が高く、莫大な取引量のすべての取引で0.1％の手数料を取っている）。
+彼らが新しい競争相手を規制することができなければ、取引所は高い取引および取引手数料を維持することができません。そして、彼らは国別に「ホワイトリスト」を作成し、高い割合で投資している取引所の投資家／オーナーグループの暗号通貨資産のリスト化のみを許可しています。
 
-The crypto-markets are forming into a new cabal, that is almost identical in
-structure and function to the wall-street cabal Bitcoin was developed to rebel
-against.
+暗号通貨市場は、新しい結社の中に形成されています。これは、bitcoinが反抗するために開発されたwall-street の結社と構造や機能がほとんど同じです。
 
-- the mining pool cabal (the three mining pools that control the network. Now
-  being challenged by state backed mining pools, such as the Russian government
-  backed entity)
-- the exchange cabal (the exchanges approved to convert between fiat and
-  crypto, who price fix the trading fees and exchange fees and use regulation
-  or connections with legacy banking system to exclude competition)
-- the coin white-list cabal (Apple white list, Korean whitelist, Japanese White
-  List, etc)
+- マイニングプールの結社（ネットワークをコントロールする３つのマイニングプール。現在、ロシア政府の支援団体のような国営マイニングプールに挑戦されている）
 
-It is very upsetting to watch what is happening in the Bitcoin exchange market.
-I think this is another phase of crypto. There seems to be a cycle of
-consolidation and then re-decentralization in response to the abuses once an
-oligarchy has formed and begins to abuse their power.
+- 取引所結社　（取引所は法定通貨と暗号通貨の交換を承認し、取引、交換手数料を改定し、競争を排除するために伝統的な銀行システムとコネクションと規制を利用する）
+
+- コインホワイトリスト結社（アップルホワイトリスト、韓国ホワイトリスト、日本ホワイトリストなど）
+
+Bitcoin取引市場で何が起こっているかを見ることは気を動転させるようなことです。 私はこの状態が暗号通貨のもう一つのステップだと思います。
+一度少数の独裁者たちが形成され、彼の力の濫用が始まると、その濫用に対応して統合と再分散のサイクルがあるようにみえます。
+
