@@ -35,7 +35,7 @@ en el [repositorio de CX](https://github.com/skycoin/cx), en el archivo *example
 El juego describe la aventura de un viajero que está 
 escapando de un monstruo (después de todo, Halloween viene el mes siguiente). 
 Si el viajero sobrevive cierto número de horas 
-(bueno, estas son solo repeticiones en un *for* Loop), 
+(bueno, estas son solo repeticiones en un bucle *for*), 
 el monstruo dejará de perseguir al viajero. A continuación, 
 un ejemplo de una sesión:
 
@@ -60,7 +60,7 @@ Norte, este, oeste, sur. Cualquier dirección es buena,
 siempre y cuando no se encuentre ningún monstruo.
 Aullando y gruñendo, el monstruo viene.
 La valentía aparece a la vista, con la esperanza de vivir otra noche.
-Pero el fracaso describe esta posibilidad y, de repente, esta aventura llega a su fin.
+Pero el fracaso describe esta lucha y, de repente, esta aventura llega a su fin.
 
 Has muerto.
 
@@ -80,7 +80,7 @@ es una situación aterradora para un programador).
 # Arquitectura desafio-respuesta
 
 En esta arquitectura, surge una pregunta y diferentes agentes (en 
-este caso, funciones) debe responder esta pregunta. Una simple pregunta 
+este caso, funciones) deben responder esta pregunta. Una simple pregunta 
 que se puede preguntar es "¿Quién puede ser ejecutado en este momento?" y aquellas 
 funciones que se puedan ejecutar lo harán.
 
@@ -100,7 +100,7 @@ func theEnd (flag bool) () {}
 
 Otra función debe coordinar las llamadas de función. En este caso,
 El sistema de Affordance de CX se usa para determinar si una acción 
-está permitida para ejecutar o no.
+puede ser ejecutada o no.
 
 ```
 yes := true
@@ -156,7 +156,7 @@ presente en la pila de objetos.
 
 # Objetos
 
-Algunas de las acciones agregan o eliminan objetos de la pila de objetos. por
+Algunas de las acciones agregan o eliminan objetos de la pila de objetos. Por
 ejemplo, siempre que la acción *noise* decida hacer que el monstruo
 aparezca, *addObject("monster")* se ejecuta. Si el viajero decide
 huir de la lucha, el objeto "monster" se elimina de la pila de objetos.
@@ -172,7 +172,7 @@ El sistema de affordance de CX utiliza objetos y
 reglas para tomar decisiones complejas sobre cómo se filtrarán las affordances.
 
 Al usar objetos, podemos decidir qué acciones se activarán o desactivarán. 
-Para este ejemplo, se están considerando una pequeña cantidad de acciones 
+Para este ejemplo, se está considerando una pequeña cantidad de acciones 
 para este proceso de activación, y el beneficio de usar esta arquitectura 
 podría parecer inútil a primera vista. Sin embargo, se podrían definir 
 reglas más complejas que involucren más objetos, y una sola regla podría 
