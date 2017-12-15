@@ -20,7 +20,7 @@ ya es fuerte con muchos nodos?
 
 La gente quiere shitcoins.
 
-Bitcoin (al menos al principio) y Skycoin (en este momento) tienen que efrentar
+Bitcoin (al menos al principio) y Skycoin (en este momento) tienen que enfrentar
 enormes barreras educativas y técnicas.
 
 Skycoin es nuevo y ha sido creado desde cero, no es una moneda clonada como
