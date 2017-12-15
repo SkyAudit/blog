@@ -142,9 +142,9 @@ setClauses("
         ")
 ```
 
-La primera regla se puede leer como "Se me preguntará si se está considerando
-enviar el argumento *yes* a la acción *walk*. Si el objeto
-*monster* está presente, entonces este argumento *no* es una opción."
+La primera regla se puede leer como: "Se me preguntará si se está considerando
+enviar el argumento *yes* a la acción *walk*. Pero si el objeto
+*monster* está presente, entonces este argumento es *no* automáticamente.
 
 Las reglas en el segundo bloque (las 4 reglas después de la primera línea vacía) 
 le dicen al sistema de affordance que "nunca" acepte un argumento *yes*. Hacemos 
