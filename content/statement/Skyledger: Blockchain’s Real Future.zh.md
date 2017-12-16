@@ -10,37 +10,20 @@ categories = [
     "Skyledger",
 ]
 +++
-
-Bitcoin was supposed to usher in a new economy built on decentralized blockchain technology – but it didn’t. And it can’t. Bitcoin has major technical flaws that prevent it from ever achieving its original goals. Built on faulty concepts and manipulated to the point of corruption, this cryptocurrency is incapable of creating the new world its users hoped for.
-
-Skycoin developers realized that Bitcoin was destined to fail, and set out to create a solution. The result is Skyledger, a third-generation blockchain platform that delivers speed, security, privacy, and a true decentralized blockchain network. Consensus on Skyledger is determined by the community rather than by a few individuals. It’s a technically superior platform that fixes Bitcoin’s issues and paves the way for blockchain’s better future.
-
-
-## Skyledger Eliminates Fees, Centralization, and Waste
-
-The crux of Bitcoin’s problems is its mining system. Miners fight to control the network through transactions fees. By spamming transactions, they hold the network hostage for fees to drive the fee price up. Meanwhile, miners consolidate to form a small number of centralized pools that control the entire network. In this way, Bitcoin encourages a centralized mining setup that’s antagonistic towards the community as a whole.
-
-At Skycoin, we wanted to get rid of that. We eliminated the mining reward and transaction fee. Instead, Skyledger’s consensus is based on the will of the network – a “web of trust.”
-
-Skyledger’s consensus algorithm is called Obelisk. It creates a web of trust in which each node has a public key, and each node subscribes to other nodes. For example, if you know someone personally, you can add their public key to your trust list. Your nodes can then subscribe to each other and publish messages. Through this process, nodes can reach a global consensus.
-
-One big advantage of Skyledger’s web of trust is that it’s environmentally friendly. It could be run on a 30-watt cell phone processor. To fully appreciate this advantage, consider the massive resource drain produced by Bitcoin’s mining network rigs: over 32 terawatt hours in 2017. That’s about as much as the entire country of Serbia. As reported by [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption), Bitcoin uses enough energy to power 3 million homes. To put this in even more striking perspective, even credit card giant Visa uses only enough energy to power 50,000 homes.
-
-The major culprit of Bitcoin’s wasteful drain is the Proof-of-Work algorithm. Whenever a block is added in the blockchain, PoW goes through a laborious, slow, and processing-heavy set of requirements to ensure the validity of the blocks. Obelisk, by contrast, replaces PoW with a more efficient, faster consensus process.
-
-## Skyledger Powers Open Internet and Innovation
-
-Not only does Skyledger preserve resources, it provides its users with valuable services. The added value comes in the form of Skywire, a decentralized ISP. Skywire users spend and receive Skycoins for consuming or forwarding resources. It’s a self-sufficient, peer-to-peer network that eliminates the need for corporate ISPs and puts users in control of their internet experience.
-
-Since it’s open-source, the innovative technology that powers Skyledger is available to all. As a true decentralized blockchain network, Skyledger has countless applications. Companies are already using it to build their businesses.
-
-One example is Solar Bankers, an energy provider. Solar Bankers uses Skyledger’s blockchain to decentralize the energy sector. With Solar Bankers, users can generate solar electricity and trade it directly with one another.
-
-Solar Bankers and other companies choose to build their currencies on Skyledger technology because Skyledger offers best-in-class encryption, speed, and reliability. Plus, it’s absolutely private.
-
-Skyledger lets users create their own cryptocurrencies using a common platform. Unlike Ethereum, Skyledger provides a private blockchain that isn’t shared among other currencies. It uses improved encryption and a unique method for verifying transactions that makes it immutable and immune to 51% attacks.
-
-One advantage of the private blockchain is enhanced transaction speed. Businesses need a dedicated blockchain to prevent slowdowns caused by other uses of the network. Ethereum recently struggled with this problem with the [CryptoKittes craze](http://www.bbc.co.uk/news/technology-42237162), which now accounts for over 10% of network traffic. CryptoKitties has resulted in a dramatic slowdown of transactions on ETH. Skyledger’s dedicated blockchain prevents this sort of thing from happening.
-
-Skyledger represents the real future of blockchain. It’s a truly decentralized network where transactions are fast and secure. It supports Skywire, an alternate ISP that gives users control over their use of the internet. It’s energy-efficient and streamlined. Best of all, it offers community consensus through its Obelisk algorithm. Skyledger is empowering users by providing what Bitcoin couldn’t: a decentralized, peer-to-peer internet economy.
+比特币本应引领一种建立在去中心化的区块链技术之上的新经济——但它没有，事实上它也不能。比特币存在重大技术缺陷，无法实现其目标。比特币建立在错误的概念之上，并被操纵到腐败的地步，无法创造用户所希望的新世界。
+Skycoin的开发者意识到，比特币注定要失败，于是他们开始着手创建一个解决方案，那就是Skyledger，第三代区块链平台，提供快速、安全、私密和一个真正去中心化的区块链网络。Skyledger的共识是由社区共同决定的，而不是由少数人决定的。这是一个技术上更强大的平台，可以解决比特币的问题，为区块链更美好的未来铺平了道路。
+Skyledger消除了转账费用、中心化和浪费
+比特币问题的症结在于挖矿。矿工通过交易费用控制网络。通过垃圾交易，他们将网络作为收费的筹码，以提高收费。与此同时，矿商们整合起来，形成一小部分控制整个网络的集中式池。通过这种方式，比特币鼓励了一种对整个社区都有敌意的集中式挖掘设置。
+Skycoin，我们想要摆脱它。我们取消了采矿奖励和交易费。相反，Skyledger的共识是基于网络的意愿——一个“信任的网络”。
+Skyledger的共识算法被称为方尖碑。它创建了一个信任网络，其中每个节点都有一个公钥，每个节点都订阅其他节点。例如，如果你认识某人，你可以将他们的公钥添加到你的信任列表中。然后，您的节点可以订阅彼此并发布消息。通过这个过程，节点可以达成全球共识。
+Skyledger信任网的一大优势是它对环境友好。它可以运行在一个30瓦的手机处理器上。要充分意识到这一优势，可以考虑一下比特币的挖掘网络设备所产生的巨大资源流失:2017年超过32万亿美元。这相当于整个塞尔维亚的国土。据Digiconomist报道，比特币使用的能量足以为300万个家庭供电。更让人吃惊的是，即使是信用卡巨款，也只能用足够的能源来为5万户人家供电。
+比特币浪费浪费的罪魁祸首是“工作证明”算法。每当在区块链中添加一个块时，PoW就会经历一个费力的、缓慢的、过程沉重的需求集，以确保这些块的有效性。相反，方尖碑用一个更高效、更快速的共识过程代替了PoW。
+Skyledger力量开放互联网和创新
+Skyledger不仅保留资源，还为用户提供有价值的服务。附加的价值以Skywire的形式出现，这是一个分散的ISP。Skywire用户使用和接收Skycoins用于消费或转发资源。它是一个自给自足的p2p网络，消除了对企业网络服务提供商的需求，并让用户控制自己的互联网体验。
+因为它是开源的，所以Skyledger的创新技术对所有人都是可用的。作为一个真正分散的区块链网络，Skyledger有无数的应用。公司已经在用它来建立他们的业务。
+太阳能银行是一个例子，能源提供商。太阳能银行使用Skyledger的区块链来分散能源部门。有了太阳能银行，用户就能产生太阳能发电，并能直接与他人进行交易。
+太阳能银行家和其他公司选择在Skyledger技术上建立他们的货币，因为Skyledger提供了一流的加密、速度和可靠性。另外,这绝对是私有的。
+Skyledger允许用户使用公共平台创建自己的加密货币。与Ethereum不同，Skyledger提供了一个非其他货币的区块链。它使用改进的加密技术和一种独特的方法来验证事务，使其不可变，对51%的攻击免疫。
+私有区块链的一个优点是提高了事务速度。企业需要一个专用的区块链来防止由于网络的其他用途而导致的减速。Ethereum最近与这一问题进行了斗争，其网络流量占网络流量的10%以上。加密技术已经导致了关于ETH的交易急剧减少。Skyledger的专用区块链阻止了这种事情的发生。
+Skyledger代表区块链的真正未来。它是一个真正分散的网络，在这里交易是快速而安全的。它支持Skywire，这是一个可以让用户控制自己使用互联网的备用ISP。它是节能和精简。最重要的是，它通过方尖石算法提供了社区共识。Skyledger通过提供比特币所不能提供的东西来增强用户的能力:一个分散的、对等的互联网经济。
 
