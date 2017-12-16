@@ -1,9 +1,9 @@
 +++
-title = "Skycoin Overview"
+title = "Skycoinの概要"
 tags = [
     "Skycoin",
 ]
-bounty = 15
+bounty = 30
 date = "2017-08-26"
 categories = [
     "Overview",
@@ -12,279 +12,191 @@ categories = [
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="1" -->
 
-- [Skycoin Introduction](#skycoin-introduction)
-- [Innovations And Flaws With Bitcoin And The Current Blockchain Protocols](#innovations-and-flaws-with-bitcoin-and-the-current-blockchain-protocols)
-- [Innovations Produced By Bitcoin](#innovations-produced-by-bitcoin)
-- [Major Flaws Of Bitcoin](#major-flaws-of-bitcoin)
-- [Desirable Properties For Systems Of Distributed Consensus For Financial Ledgers](#desirable-properties-for-systems-of-distributed-consensus-for-financial-ledgers)
-- [Skycoin Security Philosophy](#skycoin-security-philosophy)
-- [Transparency And Security: Obelisk And Public Broadcast Channels](#transparency-and-security-obelisk-and-public-broadcast-channels)
-- [Obelisk](#obelisk)
-- [Simple Binary Consensus Algorithm: Choosing Between Two Blocks](#simple-binary-consensus-algorithm-choosing-between-two-blocks)
-- [Consensus On Multiple Concurrent Branch Choices](#consensus-on-multiple-concurrent-branch-choices)
+- [Skycoinの紹介](#skycoin-introduction)
+- [Bitcoinと現在のブロックチェーンプロトコルによる革新と欠陥](#innovations-and-flaws-with-bitcoin-and-the-current-blockchain-protocols)
+- [Bitcoinが起こした革新](#innovations-produced-by-bitcoin)
+- [Bitcoinの主な欠陥](#major-flaws-of-bitcoin)
+- [金融台帳の分散合意システムに求められる特性](#desirable-properties-for-systems-of-distributed-consensus-for-financial-ledgers)
+- [Skycoinのセキュリティ哲学](#skycoin-security-philosophy)
+- [透明性とセキュリティ: オベリスクと公開ブロードキャストチャンネル](#transparency-and-security-obelisk-and-public-broadcast-channels)
+- [オベリスク](#obelisk)
+- [シンプルバイナリ合意アルゴリズム: ２つのブロックからの選択](#simple-binary-consensus-algorithm-choosing-between-two-blocks)
+- [ブランチ選択肢が複数ある場合の合意形成](#consensus-on-multiple-concurrent-branch-choices)
 
 <!-- /MarkdownTOC -->
 
-# Skycoin Introduction
+# Skycoinの紹介
 
-Skycoin is based on technology
-which introduces a new cryptographic primitive
-known as a public broadcast channel. It also introduces
-a new consensus algorithm implementation, called
-Obelisk, which mitigates the commitment problems
-arising from the Proof-of-Work and mining processes
-underlying Bitcoin, thus addressing a host of security
-issues associated with the latter. Obelisk is not a
-single algorithm, but an implementation employing
-multiple techniques to deliver specific security
-guarantees.
+Skycoinは、公開ブロードキャストチャンネルと呼ばれる新しい暗号要素を使った技術に基づいています。
+オベリスクと呼ばれる新しい合意形成アルゴリズムの実装も導入されています。
+Bitcoinの基礎となっているProof-of-Workとマイニングプロセスに起因するコミットメント問題を緩和し、
+これに関連するセキュリティ上の問題に対応します。
+オベリスクは単一のアルゴリズムではなく、いつかのセキュリティ上の保証を実現するために複数の手法を採用した実装です。
 
-# Innovations And Flaws With Bitcoin And The Current Blockchain Protocols
+# Bitcoinと現在のブロックチェーンプロトコルによる革新と欠陥
 
-In Bitcoin, new transactions are placed into
-a block, which is appended to the blockchain. Any
-peer in the Bitcoin network can create new blocks.
-Each block therefore has a single parent but one or
-more valid successors (children). The chains form a
-tree and the core problem that Bitcoin solves is getting
-every node in the network to agree on which of the
-prospective chains in the chain tree is the consensus
-blockchain.
+Bitcoinでは、新しいトランザクションがブロックに配置され、ブロックチェーンに追加されます。
+Bitcoinネットワーク内のすべてのピアは、新しいブロックを作成できます。
+したがって、各ブロックが持つ親は1つですが、有効な後継子（子）は1つ以上になり得ます。
+チェーンがツリーを形成しますが、Bitcoinは、合意チェーンがどれであるかを、
+ネットワーク内の全てのノードがどのように合意するのかという重要な問題を解決します。
 
-Bitcoin uses a technique called Proof‐of‐Work
-(PoW) to determine a unique blockchain. A valid
-block requires a hash value, which is below a target
-value. Nodes add transactions to a new block and
-randomly try nonces until a valid hash for a block
-is found.
+Bitcoinは、Proof-of-Work（PoW）という手法を使用して、一意のブロックチェーンを決定します。
+有効なブロックは、そのハッシュ値が目標値以下である必要があります。
+ノードは新しいブロックにトランザクションを追加し、
+ブロックのハッシュ値が目標値以下になるまで、ナンスをランダムに変えて試します。
 
-A function is used to create a total ordering
-of chains in the block tree. The chain which has the
-highest difficulty and required the most hashing
-operations to produce is “the longest chain” and
-forms the consensus chain. The notion of “block
-depth” and “difficulty” create a total ordering over
-all linear chains in the block tree and only the most
-resource intensive chain is accepted to produce the
-consensus chain.
+関数を使用して、ブロックツリー内の合計連鎖次数が計算されます。
+最も難易度が高く、それを生成するために必要なハッシュ計算が最も多いチェーンは、「最長チェーン」であり、合意チェーンとなります。
+「ブロックの深さ」と「難しさ」の概念から、ブロックツリーのすべてのチェーンについて合計連鎖次数が計算され、
+生成するために最も計算リソースを消費するチェーンのみが合意チェーンとして受け入れられます。
 
-Bitcoin nodes connect to each other randomly
-and each node relays the most difficult chain of
-blocks that it knows about to its peers. If one node
-has a more difficult to produce chain than another
-connected peer, the peer will receive the blocks
-sequentially. The peer will evaluate the function and
-decide whether the received chain is more difficult
-to produce and thus potentially switch its consensus
-to the received chain. The peer will then advertise
-its new chain to its peers. In this way, consensus is
-propagated throughout the network and all nodes
-reach the same consensus.
+Bitcoinノードはランダムに相互に接続し、各ノードは、それぞれが知っている最も難しいチェーンをピアに中継します。
+もしあるノードが他の接続されたピアより難しいチェーンを持っている場合、他のピアはそのチェーンを順番に受信します。
+ピアは関数を使用し、受け取ったチェーンがより難しいものであることを確かめ、
+そのチェーンが最長チェーンであることに合意するかどうかを決めるでしょう。
+ピアは、新しいチェーンを他のピアに配信します。
+このようにして、合意がネットワーク全体に広がり、すべてのノードが同じ合意に達します。
 
-Bitcoin does not assume that nodes have
-identities and does not assume that nodes are honest.
-Nodes may send other nodes any data and it cannot
-affect consensus decisions because difficulty is
-something that can be independently verifed on its
-own merit.
+Bitcoinは、ノードがアイデンティティを持っていると仮定せず、ノードが正当であるとも仮定しません。
+ノードは他のノードに自由にデータを送信できますが、難易度は各ノードが独立して検証できるため、合意形成に影響を与えることはできません。
 
-# Innovations Produced By Bitcoin
+# Bitcoinが起こした革新
 
-### * The Blockchain
+### * ブロックチェーン
 
-A single data structure that everyone
-can possess.
+誰もが持つことができる単一のデータ構造。
 
-### * Public Ledger For Transactions
+### * 取引のための公開台帳
 
-Storing financial transactions in the
-blockchain.
+ブロックチェーンに金融取引を格納する。
 
-### * Use Of PoW And Difficulty Retargeting To Maintain A Constant Rate Of Block Production
+### * PoWの利用と、一定のブロック生成速度を維持するための難易度調整
 
-### * Use Of Public Key Hashes As Addresses
+### * アドレスとしての公開鍵ハッシュの利用
 
-Public keys are not disclosed until
-used.
+公開鍵は使用するまで公開されません。
 
-### * Use Of “outputs” For Balances
+### * 残高整合性を保つための「アウトプット」の利用
 
-It ignores trying to create divisible digital
-cash: To pay $20 from a $25 output,
-send $20 to person and $5 back to
-yourself.
+分割可能なデジタル通貨を作ろうとする必要はありません。
+$25のアウトプットから$20を払うためには、$20を送り$5を自分自身に送ります。
 
-### * Pow Difficulty Function And Block Depth
+### * PoW難易度関数とブロック深度
 
-First use of a function that defines total
-ordering on block trees. The public ledger
-circumvents the double spending problem
-of traditional digital cash.
+ブロックツリーの合計連鎖次数を定義する関数の使用。
+公開台帳は、従来のデジタル通貨の二重支出問題を回避する。
 
-# Major Flaws Of Bitcoin
+# Bitcoinの主な欠陥
 
-These are the issues that must be addressed in the
-development of new cryptocurrency solutions. Bitcoin
-should be regarded as an embryonic cryptocurrency
-upon which future developments must improve. The
-technology upon which Skycoin is based addresses
-Bitcoin’s major deficiencies by redesigning the entire
-system of distributed consensus.
+これらは、新しい暗号通貨の開発で取り組まなければならない課題です。
+Bitcoinは、今後の開発によって改善する必要がある、原始的な暗号通貨と見なされるべきです。
+Skycoinの基盤となるテクノロジーは、分散合意システム全体を再設計することで、Bitcoinの大きな欠点に対処します。
 
-### * Consensus Decisions In Bitcoin Are Not Final And Can Be Reverted
+### * Bitcoinの合意は最終決定ではなく、元に戻すことができます
 
-A person or organization that can rent
-or buy enough hashing power can
-revert transactions.
+十分なハッシュ計算力をレンタルまたは購入できる人や組織は、トランザクションを元に戻すことができます。
 
-### * Bitcoin Achieves Network Consensus But Individual Bitcoin Nodes Are Highly Vulnerable To Adversaries Who Control The Routers Through Which Packets Pass
+### * Bitcoinはネットワーク上で合意を形成しますが、個々のBitcoinノードは、パケットが通過するルータを制御する攻撃に対して非常に脆弱です
 
-A router-controlling adversary has
-absolute control over the view of a
-node and can arbitrarily influence the
-node’s consensus decisions.
+ルータを制御する攻撃者は、ノードの視野を制御し、ノードの合意決定に任意に影響を与えることができます。
 
-### * Bitcoin Exchanges Have Become Highly Vulnerable To Attack
+### * Bitcoinの取引所は、攻撃に対して非常に脆弱になっています
 
-Skilled attackers may employ 51%
-attacks and the buying and selling of
-alt coins at Bitcoin exchanges to drive
-the latter into insolvency.
+巧みな攻撃者は、Bitcoin取引所で51％攻撃とアルトコインの売買を行い、取引所を破産に追い込むことができます。
 
-### * Banks And Gambling Sites Have Become Vulnerable To 51% Attacks
+### * 銀行とギャンブルのサイトは51％攻撃に対して脆弱になっています
 
-### * As Bitcoin Matures, The Buying Of Options Against Bitcoin And Attacks Against The Networks Become More Profitable
+### * Bitcoinが成熟するにつれて、Bitcoinに対抗するオプションの購入とネットワークに対する攻撃がより利益的になっています
 
-In the future, successful attacks on
-Bitcoin could result in several hundred
-millions of dollars in profit from
-options trading.
+将来、Bitcoinに対する攻撃が成功すれば、オプション取引の利益は数百億ドルになる可能性があります。
 
-### * States With Strong Capital Controls, As Well As Competing Corporations, May Directly Attack The Bitcoin Network To Protect Their Financial Interests
+### * 競争力のある企業と同様に、強い資本規制力を持つ州は、金融利益を守るためにBitcoinネットワークを直接攻撃するかもしれない
 
-Such entities may easily absorb the
-costs of attacking the network and
-undermining Bitcoin’s security.
+このような存在は、ネットワークの攻撃コストを負担して、Bitcoinのセキュリティを損なう可能性があります。
 
-### * Services That Allow “cloud Hashing” And Rental Of 3rd Party Hash Power Are Increasingly Successful
+### * サードパーティが提供する「クラウドハッシュ計算」と計算パワーのレンタルサービスがますます成功している
 
-Many large pools now have the ability
-to rent the hash power for a majority
-attack.
+多くの大規模プールは、ハッシュ計算パワーをレンタルする機能があり、51%攻撃に使われる恐れがあります。
 
-### * Hackers Can Use Numerous Security Holes In Routers And Networking Equipment To Steal Coins From Banks And Exchanges
+### * ハッカーは、銀行や取引所からコインを盗むために、ルータやネットワーク機器にある数多くのセキュリティホールを使用することができます
 
-An attacker can control the peers
-connected to a Bitcoin node and ensure
-connections to attacker-controlled
-nodes. For instance, an attacker may
-introduce a deposit transaction to the
-side chain of a bank and get the bank
-to issue a withdraw transaction which
-is then relayed to the main network.
+攻撃者は、Bitcoinノードに接続されているピアをすり替え、攻撃者が制御するノードに接続させることができます。
+例えば、攻撃者は、銀行側のブロックチェーンに偽の預け入れトランザクションを記録した後、
+銀行に引き出しトランザクションを発行させ、それをメインネットワークに中継することができる。
 
-### * Bitcoin Cannot Offer Security At A Low Cost
+### * Bitcoinは低コストでセキュリティを提供できない
 
-The Bitcoin network is using immense
-and exponentially growing amounts of
-electricity. Bitcoin’s security purposely
-relies upon creating as much electrical
-waste as possible. As security is related
-to the cost of achieving majority hash
-rate, the cost of running the Bitcoin
-network are constantly driven up. In
-a well-designed system, $1 in security
-costs $1000 to circumvent. In Bitcoin
-the ratio is $1 to $1. In addition, this is
-environmentally irresponsible.
+Bitcoinネットワークは、膨大な電力を指数関数的に使用しています。
+Bitcoinのセキュリティは、できるだけ多くの電気を無駄にすることに意図的に依存しています。
+セキュリティは、過半数のハッシュ計算力を達成するコストに保証されているため、
+Bitcoinネットワークを実行するコストは常に上昇します。
+うまく設計されたシステムでは、$1が費やされたセキュリティを破るためには$1000かかります。
+Bitcoinでは、この比率は$1対$1です。さらに、これは地球環境に対して無責任です。
 
-### * Bitcoin Fundamentally Cannot Decrease Transaction Times Without Compromising Security
+### * Bitcoinは基本的に、セキュリティを損なうことなく決済にかかる時間を短縮できない
 
-Bitcoin transactions take on average
-10 minutes to get included in a block,
-and more time is required for more
-security.
+Bitcoinトランザクションは、ブロックに含まれるまでに平均10分かかるため、
+セキュリティを強化するためにはさらに時間がかかります。
 
-# Desirable Properties For Systems Of Distributed Consensus For Financial Ledgers
+# 金融台帳の分散合意システムに求められる特性
 
-The criteria on which Bitcoin can be improved are:
+Bitcoinを改善できる観点は次のとおりです。
 
-### * No Double Spending
+### * 二重支払なし
+一度トランザクションが実行されると、合意形成を元に戻すことは不可能です。
+合意形成は可能な限り不可逆的でなければなりません。
 
-Once a transaction has executed,
-it should be impossible to revert
-consensus. Consensus should be as
-irreversible as possible.
+### * 効率
 
-### * Efficiency
+完璧に安全な台帳を実行するコストは、非常に低くすべきです。
 
-The cost to run a perfectly secure
-ledger should be extremely low.
+### * 速度
 
-### * Speed
+システムは、トランザクションが数秒以内に確認されるようにする必要があります。
 
-The system should allow transactions
-to be confirmed within seconds.
 
-### * Transparency
+### * 透明性
 
-It should be easy to audit and identify
-malicious nodes.
+悪意のあるノードを調査して識別することは容易でなければなりません。
 
-### * Router Attack Security
+### * ルータ攻撃のセキュリティ
 
-Nodes should be able to detect if their
-consensus differs from the network.
+ノードは、自身の合意がネットワークと異なるかどうかを検出できるはずです
 
-Some security properties should remain intact
-even if the vast majority of nodes in the network are
-malicious and colluding.
+ネットワーク内のノードの大部分が悪意を持ち結託していても、
+一部のセキュリティー・プロパティーはそのまま残るはずです。
 
-On a fundamental level, many of the security
-issues associated with the Bitcoin system arise from the
-inherent commitment problem of the Proof of Work
-and mining processes. Its security issues represent
-a real-world Byzantine General Problem. Incentives
-exist for participants to manipulate verification
-processes, by engaging in bribery and hacking for
-instance. Attackers will manipulate system clocks,
-compromise routers, use hash collisions, flood the
-network with hundreds of thousands of bots and
-exploit signature malleability.
+基本的なレベルでは、Bitcoinシステムに関連するセキュリティ問題の多くは、
+プルーフ・オブ・ワークとマイニングプロセスに起因するコミットメント問題から発生します。
+そのセキュリティ問題は現実のビザンチン将軍問題を表しています。
+参加者には検証プロセスを改ざんする動機（贈収賄やハッキングに関与するなど）が存在します。
+攻撃者はシステムクロックを操作し、ルーターを危険にさらし、ハッシュ衝突を使用し、
+数十万のボットでネットワークを氾濫させ、トランザクション展性を悪用します。
 
-A secure system must not only protect against
-every known attack, but be robust enough to evolve
-and adapt to future attacks. Some issues in Bitcoin
-can be fixed, such as signature malleability. Other
-issues are fundamental and cannot be addressed
-without defining an entirely new framework, such as
-the reliance on Proof of Work and miners.
+安全なシステムは、あらゆる既知の攻撃から保護するだけでなく、
+将来の攻撃に対応して進化し適応するように十分に堅牢でなければなりません。
+トランザクション展性など、Bitcoinのいくつかの問題を修正することができます。
+プルーフ・オブ・ワークやマイニングへの依存など、その他の問題は根本的なものであり、
+まったく新しいフレームワークを定義しなければ対処できません。
 
-# Skycoin Security Philosophy
+# Skycoinのセキュリティ哲学
 
-Security is a process of continuous identification
-and fortification against threats. A good system
-achieves “defense in depth”, has multiple redundant
-systems and will survive the complete failure of
-any individual measure. Good security requires the
-differentiation between threats which are existential
-and those which are mere annoyances.
+セキュリティは、脅威に対する継続的な識別と防御のプロセスです。
+優れたシステムは「徹底的な防御」を達成し、複数の冗長システムを持ち、
+個々の対策のどんな失敗からも生き残ります。
+よいセキュリティは、実害のある脅威と単なる迷惑な脅威との区別を必要とします。
 
-While it is obvious that no single system can
-eliminate all security threats and simultaneously
-achieve all the objectives listed above, Skycoin
-represents the next step in cryptocurrency technology
-because it takes a modular layered approach to
-security and uses different systems to enforce
-particular guarantees. Skycoin security is focused on
-addressing the existential threats faced by Bitcoin and
-protecting users from day-to-day threats, attempting
-to give the highest degree of protection against the
-class of attacks that would infict the greatest losses
-upon its users, stakeholders and institutions. This
-requires a complete redesign of Bitcoin at both ends
-from wallet generation to blockchain consensus and
-fundamental innovation is several other areas.
+単一のシステムがすべてのセキュリティ脅威を排除し、
+同時に上に挙げたすべての目的を達成することはできないことは明らかです。
+Skycoinは、セキュリティのためにモジュールレイヤー化されたアプローチを取り、
+特定のセキュリティ保証を実現するために複数の異なるシステムを使用するため、
+次世代の暗号通貨技術であると言えます。
+Skycoinのセキュリティは、Bitcoinが直面する実在の脅威に対処し、
+ユーザー、ステークホルダー、および機関投資家に最大の損失を与えるような攻撃に対して
+最高レベルの保護を提供することを試み、日々の脅威からユーザーを保護することに重点を置いています。
+これには、ウォレットの生成からブロックチェーンの合意形成までの全ての範囲におけるBitcoinの完全な再設計と
+その他のいくつかの領域で根本的な革新が必要です。
 
 Most of the losses in Bitcoin derive from
 deficiencies in design, a lack of usability, and end user
