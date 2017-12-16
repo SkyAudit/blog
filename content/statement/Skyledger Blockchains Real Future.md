@@ -24,7 +24,7 @@ At Skycoin, we wanted to get rid of that. We eliminated the mining reward and tr
 
 Skyledger’s consensus algorithm is called Obelisk. It creates a web of trust in which each node has a public key, and each node subscribes to other nodes. For example, if you know someone personally, you can add their public key to your trust list. Your nodes can then subscribe to each other and publish messages. Through this process, nodes can reach a global consensus.
 
-One big advantage of Skyledger’s web of trust is that it’s environmentally friendly. It could be run on a 30-watt cell phone processor. To fully appreciate this advantage, consider the massive resource drain produced by Bitcoin’s mining network rigs: over 32 terawatt hours in 2017. That’s about as much as the entire country of Serbia. As reported by [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption), Bitcoin uses enough energy to power 3 million homes. To put this in even more striking perspective, even credit card giant Visa uses only enough to power 50,000.
+One big advantage of Skyledger’s web of trust is that it’s environmentally friendly. It could be run on a 30-watt cell phone processor. To fully appreciate this advantage, consider the massive resource drain produced by Bitcoin’s mining network rigs: over 32 terawatt hours in 2017. That’s about as much as the entire country of Serbia. As reported by [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption), Bitcoin uses enough energy to power 3 million homes. To put this in even more striking perspective, even credit card giant Visa uses only enough energy to power 50,000 homes.
 
 The major culprit of Bitcoin’s wasteful drain is the Proof-of-Work algorithm. Whenever a block is added in the blockchain, PoW goes through a laborious, slow, and processing-heavy set of requirements to ensure the validity of the blocks. Obelisk, by contrast, replaces PoW with a more efficient, faster consensus process.
 
@@ -32,15 +32,15 @@ The major culprit of Bitcoin’s wasteful drain is the Proof-of-Work algorithm. 
 
 Not only does Skyledger preserve resources, it provides its users with valuable services. The added value comes in the form of Skywire, a decentralized ISP. Skywire users spend and receive Skycoins for consuming or forwarding resources. It’s a self-sufficient, peer-to-peer network that eliminates the need for corporate ISPs and puts users in control of their internet experience.
 
-Since it’s open-source, the innovative technology that powers Skyledger is available to all. As a true decentralized blockchain network, Skyledger has countless applications. Companies are already using it to build their businesses. 
+Since it’s open-source, the innovative technology that powers Skyledger is available to all. As a true decentralized blockchain network, Skyledger has countless applications. Companies are already using it to build their businesses.
 
 One example is Solar Bankers, an energy provider. Solar Bankers uses Skyledger’s blockchain to decentralize the energy sector. With Solar Bankers, users can generate solar electricity and trade it directly with one another.
 
 Solar Bankers and other companies choose to build their currencies on Skyledger technology because Skyledger offers best-in-class encryption, speed, and reliability. Plus, it’s absolutely private.
 
-Skyledger lets users create their own cryptocurrencies using a common platform. Unlike Ethereum, Skyledger provides a private blockchain that isn’t shared among other currencies. It uses improved encryption and a unique method for verifying transactions that makes it immutable and immune to 51% attacks. 
+Skyledger lets users create their own cryptocurrencies using a common platform. Unlike Ethereum, Skyledger provides a private blockchain that isn’t shared among other currencies. It uses improved encryption and a unique method for verifying transactions that makes it immutable and immune to 51% attacks.
 
 One advantage of the private blockchain is enhanced transaction speed. Businesses need a dedicated blockchain to prevent slowdowns caused by other uses of the network. Ethereum recently struggled with this problem with the [CryptoKittes craze](http://www.bbc.co.uk/news/technology-42237162), which now accounts for over 10% of network traffic. CryptoKitties has resulted in a dramatic slowdown of transactions on ETH. Skyledger’s dedicated blockchain prevents this sort of thing from happening.
 
-Skyledger represents the real future of blockchain. It’s a truly decentralized network where transactions are fast and secure. It supports Skywire, an alternate ISP that gives users control over their use of the internet. It’s energy-efficient and streamlined. Best of all, it offers community consensus through its Obelisk algorithm. Skyledger is empowering users by providing what Bitcoin couldn’t: a decentralized, peer-to-peer internet economy. 
+Skyledger represents the real future of blockchain. It’s a truly decentralized network where transactions are fast and secure. It supports Skywire, an alternate ISP that gives users control over their use of the internet. It’s energy-efficient and streamlined. Best of all, it offers community consensus through its Obelisk algorithm. Skyledger is empowering users by providing what Bitcoin couldn’t: a decentralized, peer-to-peer internet economy.
 
