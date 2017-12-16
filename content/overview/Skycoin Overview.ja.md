@@ -198,20 +198,14 @@ Skycoinのセキュリティは、Bitcoinが直面する実在の脅威に対処
 これには、ウォレットの生成からブロックチェーンの合意形成までの全ての範囲におけるBitcoinの完全な再設計と
 その他のいくつかの領域で根本的な革新が必要です。
 
-Most of the losses in Bitcoin derive from
-deficiencies in design, a lack of usability, and end user
-mistakes rather than fundamental technical attacks in
-the software or mathematics. Skycoin must address
-both the looming existential mathematical threats
-and the security perils that Bitcoin’s incomplete and
-poorly thought out user experience has created for
-everyday users. The poor usability and design has
-forced users to compromise security, with millions
-of dollar routinely relying on insecure web wallets.
-Despite the frequent and massive thefts reported by
-the media on a daily basis, to date more Bitcoin have
-been lost due to usability issues than all the efforts of
-criminals to steal Bitcoin.
+Bitcoinの損失のほとんどは、ソフトウェアや数学の基本的な技術攻撃ではなく、
+設計の不備、ユーザビリティの欠如、およびエンドユーザーの間違いに由来します。
+Skycoinは、実在する数学的な脅威と、Bitcoinのユーザーエクスペリエンスに対する
+不完全で不十分な配慮が作り出したセキュリティの危険性の両方に対処する必要があります。
+ユーザビリティと設計の貧弱さは、安全性を損なうことを余儀なくされており、
+何百万ドルもが不安定なWebウォレットに日常的に依存しています。
+数多くの盗難が毎日報道されているにもかかわらず、
+Bitcoinを盗む犯罪者の努力よりも多くのBitcoinが、使い勝手の問題から失われています。
 
 As many as half of all existing Bitcoins have
 never been moved from their initial addresses and
