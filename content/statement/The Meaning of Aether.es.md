@@ -37,7 +37,7 @@ final para un almacén de datos o un sistema pubsub. Hay otro tipo de
 dirección de Skycoin y contiene monedas. Hay otro tipo de dirección de
 Skycoin y es un nodo con el que puedes comunicarte y enviarle mensajes.
 
-Generas una clave pública, que es una ID y cuyo hash es una dirección. La
+Generas una llave pública, que es una ID y cuyo hash es una dirección. La
 dirección reemplaza las direcciones IP para identificar un dispositivo o
 computadora, si se usa para comunicación. Le da nombre a un almacén de datos
 (al igual que un enlace magnet es un hash de un archivo torrent y le da nombre
@@ -48,11 +48,11 @@ actualizar. Le da nombre a un nodo Skywire si se utiliza para comunicación,
 así como una dirección IP le da nombre a una computadora.
 
 Entonces, si quieres crear un Twitter distribuido con Aether, creas una
-llave pública. Publicas actualizaciones en tu almacén clave-valor y las
-firmas con tu clave privada. Cada clave en el almacén clave-valor es un
+llave pública. Publicas actualizaciones en tu almacén llave-valor y las
+firmas con tu llave privada. Cada llave en el almacén llave-valor es un
 número incrementado por cada tweet y el cuerpo es el json para el tweet.
 
-Les das a algunas personas el hash de tu clave pública (una dirección) y
+Les das a algunas personas el hash de tu llave pública (una dirección) y
 ahora pueden descargar y replicar tu feed (lista de publicaciones). Pueden
 obtener los feeds de todos los que están siguiendo. Pueden ejecutar
 localmente sus propios algoritmos de filtrado para clasificar las cosas en
@@ -63,7 +63,7 @@ ejecuta a partir de datos de los que tienes una copia.
 No estás descargando desde un servidor los feeds a los que estás subscrito,
 los estás descargando de otras personas que están suscritas a ellos. Está
 completamente descentralizado. Es un pubsub, es un canal de comunicación, es
-un almacén clave-valor, es una fuente RSS, es una base de datos orientada a
+un almacén llave-valor, es una fuente RSS, es una base de datos orientada a
 documentos (si estás almacenando JSON), es un torrent actualizable si estás
 almacenando listas de archivos y listas de fragmentos.
 
