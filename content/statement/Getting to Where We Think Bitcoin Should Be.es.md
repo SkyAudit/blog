@@ -77,7 +77,7 @@ Los bancos y las empresas no desean conocer o verificar la maleabilidad de las
 firmas. No quieren saber cómo funciona Bitcoin. Quieren poder confiar en que
 los desarrolladores solucionarán las vulnerabilidades conocidas antes de que
 las monedas sean robadas. Bitcoin no es un software limpio o maduro. Reparar
-muchos de los problemas menores en Bitcoin requiere un reinicio de la de cadena
+muchos de los problemas menores en Bitcoin requiere un reinicio de la cadena
 de bloques, algo que los desarrolladores no pueden y no quieren hacer.
 
 Con el éxito financiero de Bitcoin, hemos olvidado que Bitcoin era, antes que
