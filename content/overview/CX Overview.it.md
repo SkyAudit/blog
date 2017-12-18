@@ -22,7 +22,7 @@ categories = [
     - [Restrizioni di Identificazione](#identifier-restrictions)
     - [Restrizioni dei Confini](#boundaries-restrictions)
     - [Restrizioni Definite dall'Utente](#user-defined-restrictions)
-- [Sistema di Battitura Rigoroso](#strict-typing-system)
+- [Sistema di Typing Rigoroso](#strict-typing-system)
 - [Compilato e Interpretato](#compiled-and-interpreted)
     - [Read-Eval-Print Loop](#read-eval-print-loop)
     - [Comandi di Meta-programmazione](#meta-programming-commands)
@@ -315,7 +315,7 @@ verrà ancora scartato, ma se `addObject("northWormhole")` viene valutato, il
 "northWormhole" verrà aggiunto e il robot sarà in grado di passare
 attraverso il muro usando il wormhole.
 
-# Sistema di Battitura Rigoroso
+# Sistema di Typing Rigoroso
 
 Come menzionato nell'introduzione, non esiste un cast implicito in
 CX. A causa di ciò, sono definite più versioni di ogni tipo primitivo
