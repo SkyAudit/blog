@@ -20,7 +20,7 @@ categories = [
 - [Skycoinのセキュリティ哲学](#skycoin-security-philosophy)
 - [透明性とセキュリティ: オベリスクと公開ブロードキャストチャンネル](#transparency-and-security-obelisk-and-public-broadcast-channels)
 - [オベリスク](#obelisk)
-- [シンプルバイナリ合意アルゴリズム: ２つのブロックからの選択](#simple-binary-consensus-algorithm-choosing-between-two-blocks)
+- [シンプル２択合意アルゴリズム: ２つのブロックからの選択](#simple-binary-consensus-algorithm-choosing-between-two-blocks)
 - [ブランチ選択肢が複数ある場合の合意形成](#consensus-on-multiple-concurrent-branch-choices)
 
 <!-- /MarkdownTOC -->
@@ -29,8 +29,7 @@ categories = [
 
 Skycoinは、公開ブロードキャストチャンネルと呼ばれる新しい暗号要素を使った技術に基づいています。
 オベリスクと呼ばれる新しい合意形成アルゴリズムの実装も導入されています。
-Bitcoinの基礎となっているProof-of-Workとマイニングプロセスに起因するコミットメント問題を緩和し、
-これに関連するセキュリティ上の問題に対応します。
+Bitcoinの基礎となっているProof-of-Workとマイニングプロセスに起因するコミットメント問題を緩和し、これに関連するセキュリティ上の問題に対応します。
 オベリスクは単一のアルゴリズムではなく、いつかのセキュリティ上の保証を実現するために複数の手法を採用した実装です。
 
 # Bitcoinと現在のブロックチェーンプロトコルによる革新と欠陥
@@ -48,13 +47,11 @@ Bitcoinは、Proof-of-Work（PoW）という手法を使用して、一意のブ
 
 関数を使用して、ブロックツリー内の合計連鎖次数が計算されます。
 最も難易度が高く、それを生成するために必要なハッシュ計算が最も多いチェーンは、「最長チェーン」であり、合意チェーンとなります。
-「ブロックの深さ」と「難しさ」の概念から、ブロックツリーのすべてのチェーンについて合計連鎖次数が計算され、
-生成するために最も計算リソースを消費するチェーンのみが合意チェーンとして受け入れられます。
+「ブロックの深さ」と「難しさ」の概念から、ブロックツリーのすべてのチェーンについて合計連鎖次数が計算され、生成するために最も計算リソースを消費するチェーンのみが合意チェーンとして受け入れられます。
 
 Bitcoinノードはランダムに相互に接続し、各ノードは、それぞれが知っている最も難しいチェーンをピアに中継します。
 もしあるノードが他の接続されたピアより難しいチェーンを持っている場合、他のピアはそのチェーンを順番に受信します。
-ピアは関数を使用し、受け取ったチェーンがより難しいものであることを確かめ、
-そのチェーンが最長チェーンであることに合意するかどうかを決めるでしょう。
+ピアは関数を使用し、受け取ったチェーンがより難しいものであることを確かめ、そのチェーンが最長チェーンであることに合意するかどうかを決めるでしょう。
 ピアは、新しいチェーンを他のピアに配信します。
 このようにして、合意がネットワーク全体に広がり、すべてのノードが同じ合意に達します。
 
@@ -129,8 +126,7 @@ Skycoinの基盤となるテクノロジーは、分散合意システム全体�
 
 Bitcoinネットワークは、膨大な電力を指数関数的に使用しています。
 Bitcoinのセキュリティは、できるだけ多くの電気を無駄にすることに意図的に依存しています。
-セキュリティは、過半数のハッシュ計算力を達成するコストに保証されているため、
-Bitcoinネットワークを実行するコストは常に上昇します。
+セキュリティは、過半数のハッシュ計算力を達成するコストに保証されているため、Bitcoinネットワークを実行するコストは常に上昇します。
 うまく設計されたシステムでは、$1が費やされたセキュリティを破るためには$1000かかります。
 Bitcoinでは、この比率は$1対$1です。さらに、これは地球環境に対して無責任です。
 
@@ -164,227 +160,137 @@ Bitcoinを改善できる観点は次のとおりです。
 
 ノードは、自身の合意がネットワークと異なるかどうかを検出できるはずです
 
-ネットワーク内のノードの大部分が悪意を持ち結託していても、
-一部のセキュリティー・プロパティーはそのまま残るはずです。
+ネットワーク内のノードの大部分が悪意を持ち結託していても、一部のセキュリティー・プロパティーはそのまま残るはずです。
 
-基本的なレベルでは、Bitcoinシステムに関連するセキュリティ問題の多くは、
-プルーフ・オブ・ワークとマイニングプロセスに起因するコミットメント問題から発生します。
+基本的なレベルでは、Bitcoinシステムに関連するセキュリティ問題の多くは、プルーフ・オブ・ワークとマイニングプロセスに起因するコミットメント問題から発生します。
 そのセキュリティ問題は現実のビザンチン将軍問題を表しています。
 参加者には検証プロセスを改ざんする動機（贈収賄やハッキングに関与するなど）が存在します。
-攻撃者はシステムクロックを操作し、ルーターを危険にさらし、ハッシュ衝突を使用し、
-数十万のボットでネットワークを氾濫させ、トランザクション展性を悪用します。
+攻撃者はシステムクロックを操作し、ルーターを危険にさらし、ハッシュ衝突を使用し、数十万のボットでネットワークを氾濫させ、トランザクション展性を悪用します。
 
 安全なシステムは、あらゆる既知の攻撃から保護するだけでなく、
 将来の攻撃に対応して進化し適応するように十分に堅牢でなければなりません。
 トランザクション展性など、Bitcoinのいくつかの問題を修正することができます。
-プルーフ・オブ・ワークやマイニングへの依存など、その他の問題は根本的なものであり、
-まったく新しいフレームワークを定義しなければ対処できません。
+プルーフ・オブ・ワークやマイニングへの依存など、その他の問題は根本的なものであり、まったく新しいフレームワークを定義しなければ対処できません。
 
 # Skycoinのセキュリティ哲学
 
 セキュリティは、脅威に対する継続的な識別と防御のプロセスです。
-優れたシステムは「徹底的な防御」を達成し、複数の冗長システムを持ち、
-個々の対策のどんな失敗からも生き残ります。
+優れたシステムは「徹底的な防御」を達成し、複数の冗長システムを持ち、個々の対策のどんな失敗からも生き残ります。
 よいセキュリティは、実害のある脅威と単なる迷惑な脅威との区別を必要とします。
 
 単一のシステムがすべてのセキュリティ脅威を排除し、
 同時に上に挙げたすべての目的を達成することはできないことは明らかです。
-Skycoinは、セキュリティのためにモジュールレイヤー化されたアプローチを取り、
-特定のセキュリティ保証を実現するために複数の異なるシステムを使用するため、
-次世代の暗号通貨技術であると言えます。
-Skycoinのセキュリティは、Bitcoinが直面する実在の脅威に対処し、
-ユーザー、ステークホルダー、および機関投資家に最大の損失を与えるような攻撃に対して
-最高レベルの保護を提供することを試み、日々の脅威からユーザーを保護することに重点を置いています。
+Skycoinは、セキュリティのためにモジュールレイヤー化されたアプローチを取り、特定のセキュリティ保証を実現するために複数の異なるシステムを使用するため、次世代の暗号通貨技術であると言えます。
+Skycoinのセキュリティは、Bitcoinが直面する実在の脅威に対処し、ユーザー、ステークホルダー、および機関投資家に最大の損失を与えるような攻撃に対して最高レベルの保護を提供することを試み、日々の脅威からユーザーを保護することに重点を置いています。
 これには、ウォレットの生成からブロックチェーンの合意形成までの全ての範囲におけるBitcoinの完全な再設計と
 その他のいくつかの領域で根本的な革新が必要です。
 
-Bitcoinの損失のほとんどは、ソフトウェアや数学の基本的な技術攻撃ではなく、
-設計の不備、ユーザビリティの欠如、およびエンドユーザーの間違いに由来します。
-Skycoinは、実在する数学的な脅威と、Bitcoinのユーザーエクスペリエンスに対する
-不完全で不十分な配慮が作り出したセキュリティの危険性の両方に対処する必要があります。
-ユーザビリティと設計の貧弱さは、安全性を損なうことを余儀なくされており、
-何百万ドルもが不安定なWebウォレットに日常的に依存しています。
-数多くの盗難が毎日報道されているにもかかわらず、
-Bitcoinを盗む犯罪者の努力よりも多くのBitcoinが、使い勝手の問題から失われています。
+Bitcoinの損失のほとんどは、ソフトウェアや数学の基本的な技術攻撃ではなく、設計の不備、ユーザビリティの欠如、およびエンドユーザーの間違いに由来します。
+Skycoinは、実在する数学的な脅威と、Bitcoinのユーザーエクスペリエンスに対する不完全で不十分な配慮が作り出したセキュリティの危険性の両方に対処する必要があります。
+ユーザビリティと設計の貧弱さは、安全性を損なうことを余儀なくされており、何百万ドルもが不安定なWebウォレットに日常的に依存しています。
+数多くの盗難が毎日報道されているにもかかわらず、Bitcoinを盗む犯罪者の成果よりも多くのBitcoinが、使い勝手の問題から失われています。
 
-As many as half of all existing Bitcoins have
-never been moved from their initial addresses and
-never will be because they are lost as unrecoverable
-wallet files, lost wallets, or misunderstandings of
-what was actually being backed up in a wallet file.
-Mt. Gox recently reported “finding” 200,000 Bitcoin
-in a wallet they were unaware carried Bitcoins. The
-wallet had been previously ignored and could have
-easily been deleted by mistake. Wallets are frequently
-mistaken as empty because computer software was
-unable to load a wallet created by software that is “too
-old”. Thus most security issues concerning Bitcoin
-occur at the level of usability, end users and exchange
-security.
 
-The rest of this section covers some of the new
-techniques we have created in cooperation with our
-partners to address network level security issues and
-render the Skycoin blockchain more secure than
-previous networks.
+既存のBitcoinsの半分以上が最初のアドレスから移動されたことはなく、また今後も移動されないでしょう。
+なぜなら、それらは回復不能なウォレットファイルや、紛失したウォレット、またはウォレットファイルにバックアップされたものが何であるかを誤解したことにより、失われたからです。
+Mt. Goxは最近、彼らが気づかずにBitcoinを移していたウォレットから200,000 Bitcoinを「発見」したと報告しました。
+ウォレットは以前は無視されていたので、誤って削除される可能性が大いにありました。
+ソフトウェアが「古すぎる」ソフトウェアによって作成されたウォレットを読み込めなかったため、ウォレットは頻繁に空であると誤認されました。
+このように、Bitcoinに関するほとんどのセキュリティ問題は、ユーザビリティ、エンドユーザおよび取引所セキュリティのレベルで発生します。
 
-We have proven mathematically that our system
-achieves consensus, has the security properties we want
-and operates well under normal network conditions.
-We have some exciting new data‐structures that have
-not been seen in any coin or piece of software before.
-At the moment we are prototyping the system for
-deployment. The Skycoin development process is
-iterative. There will be changes, improvements and
-refinements as we work through the details, address
-known flaws, test the system and get feedback.
+このセクションの残りの部分では、ネットワークレベルのセキュリティ問題に対処し、従来のネットワークよりもSkycoinブロックチェーンのセキュリティを強化するためにパートナーと協力して開発したいくつかの新しい技術について説明します。
 
-# Transparency And Security: Obelisk And Public Broadcast Channels
+私たちは、我々のシステムが合意を形成し、必要なセキュリティ特性を持ち、通常のネットワーク条件下でも良好に動作することを数学的に証明しました。
+これまでコインやソフトウェアには見られなかったエキサイティングな新しいデータ構造があります。
+現時点では、導入のためにシステムの試作を行っています。
+Skycoinの開発プロセスは反復的です。
+詳細を確認し、既知の欠陥に対処し、システムをテストし、フィードバックを得ることを繰り返しながら、変更、改良、改善が行われます。
 
-To address the commitment problems associated
-with the Bitcoin system, the technology underlying
-our Skycoin implements the blockchain in the form
-of a public broadcast channel. Everyone can read
-the chain, but only the owner can mint blocks for it.
-To be valid for a personal chain, each block must be
-signed by the owners private key. Each node in this
-consensus algorithm system (Obelisk) has a personal
-blockchain and it is the core primitive in the Obelisk
-system.
+# 透明性とセキュリティ: オベリスクと公開ブロードキャストチャンネル
 
-The public broadcast channel imposes several
-constraints:
+Bitcoinシステムに関連するコミットメント問題に対処するために、Skycoinの基礎となるテクノロジは、公開ブロードキャストチャンネルの形式でブロックチェーンを実装しています。
+誰もがチェーンを読むことができますが、所有者だけがチェーンを作ることができます。
+個人のチェーンが有効であるためには、各ブロックは所有者の秘密鍵によって署名されなければなりません。
+この合意アルゴリズムシステム（オベリスク）の各ノードは、各個人のブロックチェーンを持ち、これはオベリスクシステムのコアとなる要素です。
 
-### * Once A Block Is Published, It Cannot Be Unpublished
 
-Blocks are replicated peer to peer to
-all subscribers. Once a block has been
-published, it spreads to all subscribers.
-You have to destroy all peers who have
-received the block to erase it from
-internet.
+公開ブロードキャストチャンネルには、次のような制約があります：
 
-### * A Node Cannot Publish A Different Version Of An Earlier Block Without Detection
+### * 一度ブロックが発行されると、取り消しできません
 
-Blocks are numbered and it would
-be detected if the node signed two
-different blocks with the same
-sequence number.
+ブロックはすべての参加者にピアtoピアで複製されます。
+一度ブロックが公開されると、ブロックはすべての参加者に広がります。
+インターネットからブロックを消去するには、ブロックを受け取ったすべての端末を破壊する必要があります。
 
-### * A Node Cannot Backdate The Timestamp On The Receipt Of A Block, Without Delaying The Publication Of A Block
+### * ノードは、以前のブロックの別のバージョンを気づかれずに公開することはできません
 
-Timestamps only go up, timestamps
-increase monotonously with block
-sequence count.
+ブロックには番号が付けられ、同じシーケンス番号を持つ2つの異なるブロックにノードが署名した場合、それは検出されます。
 
-### * A Block In The Middle Of The Chain Cannot Be Changed Without Invalidating Every Block That Comes After It
+### * ノードは、ブロックの発行を遅らせることなく、ブロック記録のタイムスタンプを巻き戻すことはできません。
 
-In a hash chain, each block header contains
-a hash of the previous block.
+タイムスタンプはブロックシーケンスカウントとともに単調に増加するのみです。
 
-# Obelisk
+### * チェーンの途中にあるブロックは、それ以降のブロックをすべて無効にすることなく変更することはできません
 
-Each Obelisk node (Skycoin Consensus Node)
-has a public key (an identity) and personal blockchain
-(a public broadcast channel). Consensus decisions
-and communication happen within the personal
-blockchains of each Obelisk node. This is a public
-record of everything a node does. This allows the
-community to audit nodes for cheating and collusion.
-It gives the community a way to identify nodes which
-are participating in attacks on the network and
-it makes public how decisions in the network are
-being made and which nodes are influencing those
-decisions.
+ハッシュチェーンでは、各ブロックのヘッダーには前のブロックのハッシュが含まれます。
 
-Each node has a list of other nodes that it
-subscribes to. Nodes with more subscribers are more
-“trusted” and yield more influence in the network. If
-the community does not trust the nodes representing
-them or feels that power within the network is too
-concentrated (or not concentrated enough) the
-community is able to collectively shift the balance of
-power in the network by collectively changing their
-trust relationships in the network.
+# オベリスク
 
-Node subscription relationships can be
-random and/or can be formed through web of trust
-(subscribe to nodes of people you know and people
-in the community you trust).
+各オベリスクノード（Skycoinコンセンサスノード）には、公開鍵（身元証明）と個人用ブロックチェーン（公開ブロードキャストチャンネル）があります。
+コンセンサスの決定と通信は、各オベリスクノードの個人的なブロックチェーン内で行われます。
+これは、ノードが行うすべてのことの公開記録です。
+これにより、コミュニティは不正行為や不正な結託をしていないかノードを監査することができます。
+これは、ネットワーク攻撃に参加しているノードを特定する方法をコミュニティに提供し、ネットワークの決定がどのように行われているか、どのノードがそれらの決定に影響を与えているかを公開します。
 
-When a node receives a new block from a chain
-it is subscribed to, it publishes the hash of the block
-it publishes. This is a public acknowledgment of the
-receipt of the block. Each block is timestamped
-and counter-references blocks from other chains.
-This creates a dense interlinked chain of block
-acknowledgments. These chains establish causal
-relationships and can act as a distributed time
-stamping system as described in the next section.
-This allows the network to prove that data did not
-exist or was not published to the network or establish
-that particular nodes were active or offline during a
-particular time interval.
+各ノードは、配信元となる他のノードのリストを持っています。
+より多くの配信先を持つノードは、より信頼され、ネットワークへの影響力がより強くなります。
+共同体がそれを代表するノードを信頼しない場合や、ネットワーク内の権力が集中しすぎている（または十分に集中していない）と感じる場合、コミュニティはネットワーク内の信頼関係をまとめて変更することにより、権力をバランスさせることができます。
 
-The current Obelisk consensus algorithm
-is based upon Ben‐Or’s randomized consensus
-algorithm.
+ノード間の配信関係は、無作為でもよいし、信用の輪を通じて形成（あなたが知っている人のノードやあなたが信頼するコミュニティの人を配信元とする）されてもよい。
 
-A Sybil attack in a random graph (worst case)
-allows the Sybil nodes to control consensus, but the
-nodes are unable to revert transactions, removing the
-only economic incentive to attack the network. In real
-world graphs the Sybil resistance of the network is
-actually very high and running a node is moderately
-costly in terms of bandwidth, which makes large
-botnets prohibitive.
+ノードが登録されているチェーンから新しいブロックを受け取ると、ノードは発行するブロックのハッシュ値を公開します。
+これは、公開されたブロック受信承認です。
+各ブロックはタイムスタンプを付けられ、他のチェーンのブロックから参照されます。
+これは、密接に連動したブロック承認のチェーンを生成します。
+これらのチェーンは因果関係を確立し、次のセクションで説明するように分散型タイムスタンプ付けシステムとして機能することができます。
+これにより、ネットワークは、データが存在しなかったこと、またはネットワークに公開されなかったことを証明したり、特定の時間間隔中に特定のノードがアクティブまたはオフラインであったことを立証することができます。
 
-Trust relationships are scarce and can be
-rescinded. In the event of an attack, the network
-reacts by severing connections to less trustworthy
-nodes and contracting to a smaller core of trusted
-nodes. The public record left by each node’s personal
-blockchain makes it very easy to identify the nodes
-participating in an attack. As attacking nodes are
-identifed, individuals sever relationships with those
-nodes, reducing their influence. Therefore, the major
-benefits of the Skycoin network are:
+現在のオベリスクの合意形成アルゴリズムは、Ben-Orのランダム合意形成アルゴリズムに基づいています。
 
-- Skycoin consensus is democratic and nodes are run by the community
-- Skycoin node consensus is public
-- Every node is accountable to the community and 3rd party audits
-- Influence within the skycoin consensus system is democratic and transparent (but unequal)
+ランダムグラフ（最悪の場合）でのSybil攻撃は、Sybilノードが合意形成を制御することを可能にしますが、ノードはトランザクションを元に戻すことができず、ネットワークを攻撃する唯一の経済的動機を取り除きます。
+実世界のグラフでは、ネットワークのSybil耐抗性は実際には非常に高く、ノードを実行すると帯域幅が適度に高コストになり、大規模なボットネットが禁止されます。
 
-# Simple Binary Consensus Algorithm: Choosing Between Two Blocks
+信頼関係は強くなく、取り消すことができます。
+攻撃が行われた場合、ネットワークは信頼性の低いノードへの接続を切断し、より小さな高信頼性ノードのコアに接続することによって抵抗します。
+各ノードの個人ブロックチェーンによって残された公開記録により、攻撃に参加しているノードを簡単に識別できます。
+攻撃ノードが識別されると、個人はそれらのノードとの関係を切断し、その影響を低減します。
+したがって、Skycoinネットワークの主な利点は次のとおりです。
 
-Each voting decision is a hash pair (A,B). A is
-the hash of the parent of the block and B is the hash of
-the block. Each node votes on the next block
-it believes should be the consensus block. If 40% of
-the nodes it is subscribed to have the same candidate
-for consensus, the node changes its consensus to that
-block. The node flips randomly between candidates
-until consensus is reached.
+- Skycoinの合意形成は民主的であり、ノードはコミュニティによって運営されている
+- Skycoinノードの合意形成は公開されている
+- すべてのノードがコミュニティおよび第三者の監査に責任を負う
+- Skycoinの合意形成システムに影響を与えることは、民主的かつ透明である（ただし不平等）
 
-# Consensus On Multiple Concurrent Branch Choices
+# シンプル２択合意アルゴリズム: ２つのブロックからの選択
 
-A more advanced system publishes (A,B,P),
-where P is a value from 0 to 1. P values across all
-successors to block would sum to 1. This allows for
-concurrent consensus decisions on multiple chain
-branches.
+それぞれが行う意思決定の投票候補は、ハッシュペア（A、B）です。
+Aはブロックの親のハッシュ、Bはブロックのハッシュです。
+各ノードは、これが次の合意ブロックでなければならないと考えるブロックに投票します。
+配信元ノードの40％が同じ候補を支持する場合、ノードは自分が支持するブロックをそのブロックに変更します。
+合意に達するまで、ノードは候補間をランダムに変更します。
 
-If the majority of nodes in the network are
-honest, they will also converge to the same consensus.
 
-Skycoin also has a limited form of Proof of
-Stake. We bias voting in favor of blocks with a larger
-transaction fee.
+# ブランチ選択肢が複数ある場合の合意形成
 
-If there are only two possible consensus
-choices for a given parent and both blocks execute
-your transaction, then the transaction is effectively
-executed regardless of which of the two blocks end up
-chosen by the network. The probability of reversion
-of an early consensus decision declines exponentially
-with block depth.
+より高度なシステムでは、（A、B、P）が発行されます。
+ここで、Pは0から1の値です。
+ブロックのすべての後継者のPの値は合計で1になります。
+これにより、複数のチェーンブランチで同時に合意を形成できます。
+
+ネットワーク内のノードの大半が正直であれば、同じ合意結果に収束します。
+
+またSkycoinには、限定されたプルーフ・オブ・ステーク（PoW）の仕組みがあります。
+我々は、より大きな取引手数料を伴うブロックを優先して投票します。
+
+特定の親に対して合意可能な選択肢が２つしかしかなく、両方のブロックがあなたのトランザクションを実行する場合、2つのブロックのどちらがネットワークによって選択されたかに関係なく、トランザクションは効果的に実行されます。
+初期の合意決定がくつがえされる確率は、ブロックの深さとともに指数関数的に減少します。
