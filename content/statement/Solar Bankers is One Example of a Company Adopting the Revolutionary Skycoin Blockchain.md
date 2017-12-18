@@ -5,7 +5,7 @@ tags = [
     "Skyledger",
 ]
 bounty = 3
-date = "2017-12-20"
+date = "2017-12-18"
 categories = [
     "Statement",
     "Skyledger",
