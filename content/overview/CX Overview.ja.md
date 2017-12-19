@@ -27,7 +27,7 @@ categories = [
     - [Read-Eval-Print Loop(REPL)](#read-eval-print-loop)
     - [メタプログラミングコマンド](#meta-programming-commands)
     - [ステッピング](#stepping)
-    - [対話的なデバッグ](#interactive-debugging)
+    - [対話的なデバッグ](#interactive-debugging)
 - [統合された進化的アルゴリズム](#integrated-evolutionary-algorithm)
 - [シリアライゼーション](#serialization)
 
