@@ -89,7 +89,7 @@ CXのアフォーダンスシステムでは、要素に適用できる可能な
 プログラムの背後にある論理と目的が何であるべきかを指示する一連のルールと事実を持たずに、少なくともプログラムが意味論的に正しいことを保証する基本的な制約をいくつか決めることができます。
 アフォーダンスシステムは、第1のフィルタリング層として、以下で説明する制約を提供します。
 
-### アリティ制約
+### アリティの制約
 
 CXの式は複数の値を返すことができます。
 これは、式の出力引数を受け取る変数の数が、式の演算子で定義された出力の数と一致する必要があるため、アフォーダンスシステムの仕事となります。
@@ -145,96 +145,66 @@ func main () () {
 アフォーダンスは常に列挙されるべきであり、アフォーダンスシステムへの問い合わせにおいてそれらの順序が一定であるべきことは重要である。
 その理由は、プログラマが問い合わせの結果を調べた後に、どのアフォーダンスを適用するのかをシステムに示すことができなければならないためです。
 
-### 型制約
+### 型の制約
 
 プログラミング言語における共通の挙動は、プログラマーが予期しない型の引数を関数呼び出しに送ることを制限する型システムを持つことです。
 たとえ弱く型付けされたプログラミング言語であっても、次の演算`true / "hello world"`はエラーを発生させるはずです(もちろん、[難解プログラミング言語](https://ja.wikipedia.org/wiki/%E9%9B%A3%E8%A7%A3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E)の場合を除いて).
 CXは非常に[強い型付けシステム](#strict-typing-system)に従っており 、予想される型ではない引数は、アフォーダンスのアクションの候補と見なすべきではありません（回避策は、アフォーダンスとして表示される前にこれらの引数をキャスト関数で囲みます）。
 
-Type restrictions must also be considered when assigning a new value
-to an already existant variable. In CX, a variable declared of a
-certain type must remain of that type during all of its lifetime
-(unless it is removed using meta-programming commands/functions and
-created anew). Thus, a variable declared to hold a 32 bit integer should not
-be considered as a candidate to receive a 64 bit float output
-argument, for example.
+すでに存在する変数に新しい値を割り当てる場合は、型の制約も考慮する必要があります。
+CXでは、特定の型の宣言された変数は、全てのライフタイム中で（その型がメタプログラミングのコマンド/関数を使用して削除され、新たに作成されない限り）、その型のままでなければなりません。
+したがって、32ビット整数を保持すると宣言された変数は、例えば64ビット浮動小数点出力引数を受け取る候補とはみなされません。
 
-### Existential Restrictions
+### 存在の制約
 
-This type of restriction can seem trivial at first sight: if an
-element does not exist, an affordance that involves it should not
-exist either. Nevertheless, this restriction becomes a challenge once
-we consider a situation where a function was renamed, and it has
-already been used as an operator in expressions throughout a
-program. If the program is in its source code form, this problem is
-reduced to a simple "search & replace" process, but if it's during
-runtime, the affordance system becomes very useful: an affordance
-to change the identifier bound to this operator.
+このタイプの制約は一見すると些細なことに思えるかもしれません。"要素が存在しない場合、その要素を含むアフォーダンスは存在してはならない"
+にもかかわらず、関数の名前が変更され、プログラム中の式の演算子としてすでに使用されている状況を考えれば、この制約は困難になります。
+プログラムがソースコード形式であれば、この問題は単純な「検索と置換」プロセスになりますが、実行時にはアフォーダンスシステムが非常に便利になります。
+"演算子にバインドされた識別子を変更するアフォーダンス"
 
-Even if an element has not be renamed, determining if an element
-exists or not is not trivial. The elements to be used in affordances
-must be searched in the call stack's current scope, in the global
-scope, and in other modules' global scopes.
+要素の名前を変更しない場合でも、要素が存在するかどうかを判定することは簡単ではありません。
+アフォーダンスで使用される要素は、コールスタックの現在のスコープ、グローバルスコープ、および他のモジュールのグローバルスコープで検索する必要があります。
 
-### Identifier Restrictions
+### 識別子の制約
 
-Adding new named elements are commonly candidate actions for affordances. A
-restriction that arises when trying to apply such type of affordance
-is to ensure a unique identifier for the new element to avoid
-redefinitions. The affordance system can either generate a unique
-identifier in the element's scope, or can ask the programmer to
-provide a suitable identifier.
+新しい名前付き要素を追加することは、一般的に、アフォーダンスの候補アクションです。
+そのようなタイプのアフォーダンスを適用しようとするときに生じる制約は、再定義を避けるため新しい要素に一意の識別子を割り当てることです。
+アフォーダンスシステムは、要素のスコープ内に固有の識別子を生成するか、またはプログラマに適切な識別子を提供するように要求することができます。
 
-### Boundaries Restrictions
+### 境界の制約
 
 CX provides native functions for accessing and modifying elements from
 arrays. Examples of an array reader and an array writer are:
-
+CXは、配列内の要素にアクセスし変更するためのネイティブ関数を提供します。
+配列読み出しと配列書き込みの例は次のとおりです。
 
 ```
 readI32([]i32{0, 10, 20, 30}, 3)
 writeF32([]f32{0.0, 10.10, 20.20}, 1, 5.5)
 ```
 
-In the first expression, an array of four 32 bit integers is accessed
-at index 3, which returns the last element of the array. In the second
-expression, the second element of an array of three 32 bit floats is
-changed to 5.5. If any of these arrays was accessed using either a
-negative index or an index which exceeds the length of the array, an
-"out of boundaries" error is raised.
+最初の式では、4つの32ビット整数の配列がインデックス3でアクセスされ、配列の最後の要素が返されます。
+2番目の式では、3つの32ビット浮動小数点数の配列の2番目の要素が5.5に変更されています。
+これらの配列のいずれかが、負のインデックスまたは配列の長さを超えるインデックスを使用してアクセスされた場合、「境界外」エラーが発生します。
 
-By obeying only the type restrictions, the affordance system will tell
-the programmer that any 32 bit integer argument can be used as an
-index to access any array. Although these programs would compile, out
-of boundaries errors are very probable to occur if the programmer does not
-pay extra attention to what is being chosen to be applied.
+型の制約のみに従うことによって、アフォーダンスシステムは、任意の32ビット整数引数を任意の配列にアクセスするためのインデックスとして使用できることをプログラマに通知します。
+これらのプログラムはコンパイルされますが、プログラマが特別な注意を払わなければ、境界外のエラーが発生する可能性は非常に高いです。
 
-The affordance system needs to filter the affordances according to the
-following criteria: discard any negative 32 bit integer, and discard
-any 32 bit integer which exceeds the length of the array being sent to
-the array reader or writer.
+アフォーダンスシステムは、以下の基準に従ってアフォーダンスをフィルタリングする必要があります。
+負の32ビット整数を破棄し、配列読み出し関数または書き込み関数に送信される配列の長さを超える32ビット整数を破棄します。
 
-### User-defined Restrictions
-*Note: The user-defined restrictions system is still in its
- experimental stages.*
+### Uユーザー定義の制約
+*注：ユーザー定義の制約システムはまだ実験段階です。*
 
-The basic restrictions described above should at least guarantee that
-the program does not encounter any runtime errors. These restrictions
-should be enough to build some interesting systems, such as CX's
-native
-[evolutionary algorithm](#integrated-evolutionary-algorithm). Nevertheless,
-in some situations a more robust system is required. For this purpose,
-clauses, queries and objects are used to describe a module's
-environment. These elements are defined by using an integrated Prolog
-interpreter, and the CX native functions *setClauses*, *setQuery*, and
-*addObject*.
+上記の基本的な制約は、プログラムがランタイムエラーに遭遇しないことを少なくとも保証するべきです。
+これらの制約は、CXの固有の[進化アルゴリズム](#integrated-evolutionary-algorithm)などの興味深いシステムを構築するのに十分なものでなければなりません。
+それにもかかわらず、場合によってはより堅牢なシステムが必要とされます。
+この目的のために、節、問い合わせ、およびオブジェクトは、モジュールの環境を記述するために使用されます。
+これらの要素は、統合されたPrologインタプリタと、CXネイティブ関数*setClauses*、*setQuery*、および*addObject*を使用して定義されます。
 
-The most general description of this restriction system is that the
-programmer defines a series of Prolog clauses (facts and rules), that
-will be queried using the defined Prolog query, for each of the
-objects added. This will hardly make any sense to anyone reading this
-for the first time. An example should clarify the concepts and the
-process a bit more:
+この制約システムの最も一般的な説明は、追加された各オブジェクトに対して、定義されたPrologクエリを使用して問い合わせされる一連のProlog句（ファクトとルール）をプログラマが定義することです。
+この説明は、初めてこれを読んだ人にとっては、ほとんど意味不明でしょう。
+次の例は、概念とプロセスをもう少し明確にしてくれるはずです。
 
 ```
 setClauses("move(robot, north, X, R) :- X = northWall, R = false.")
@@ -242,32 +212,27 @@ setClauses("move(robot, north, X, R) :- X = northWall, R = false.")
 setQuery("move(robot, %s, %s, R).")
 ```
 
-In this example, only one rule is defined. The rule can roughly be
-interpreted as "if the robot wants to move north, ask what is X. If X
-is northWall, then it can't move." The query is just a format string
-that will serve as a query for the *move* action, and for the *robot*
-element that will receive two more arguments: a direction, and an
-object.
+この例では、1つのルールしか定義されていません。
+このルールは、「ロボットが北に移動したい場合はXが何であるかを尋ねる。もしXがnorthWallだった場合は移動できない」と概ね解釈できます。
+クエリはアクション*move*のクエリとして機能する書式文字列です。
+それは方向とオブジェクトという2つの引数を受け取る要素*robot*のためのものです。
 
-Objects can be defined by using the *addObject* function:
+オブジェクトは、*addObject*関数を使用して定義できます。
 
 ```
 addObject("southWall")
 addObject("northWall")
 ```
 
-The restriction system will query the system for each of the objects
-present in the module. In this example, the system will first perform
-the query "move(robot, north, southWall)," and the system will respond
-"nil," which means that it does not have any rule defined to handle
-such situation, and the default action is to not discard the
-affordance. The second query will be "move(robot, north, northWall),"
-and the system will respond "false." In this case, the affordance did
-not pass the test, and is discarded.
+制約システムは、モジュールに存在するオブジェクトのそれぞれについてシステムに問い合わせます。
+この例では、システムはまず「move（robot、north、southWall）」というクエリを実行し、システムは「nil」と応答します。
+つまり、このような状況を処理するためのルールは定義されていません。
+そしてデフォルトのアクションはアフォーダンスを破棄しません。
+2番目のクエリは "move（robot、north、northWall）"になり、システムは "false"と応答します。
+この場合、アフォーダンスはテストに合格しておらず、破棄されます。
 
-The example above illustrates how these rules can negate an
-affordance using a condition. But rules can also be used to accept
-affordances, even after being negated by previous rules.
+上記の例は、これらのルールが条件を使用してアフォーダンスを否定する方法を示しています。
+しかし、前のルールによって否定された後でも、ルールはアフォーダンスを受け入れるために使用できます。
 
 ```
 setClauses("move(robot, north, X, R) :- X = northWall, R = false.
@@ -276,55 +241,37 @@ setClauses("move(robot, north, X, R) :- X = northWall, R = false.
 setQuery("move(robot, %s, %s, R).")
 ```
 
-The added rule in the code above tells the system to accept the robot
-movement towards north if a wormhole is present. If the object array
-is left as it was defined before, the movement affordance will still
-be discarded, but if `addObject("northWormhole")` is evaluated, the
-"northWormhole" will be added and the robot will be able to pass
-through the wall using the wormhole.
+上記のコードで追加されたルールは、ワームホールが存在する場合、北に向かうロボットの動きを受け入れるようにシステムに指示します。
+オブジェクト配列が前に定義した通りに残っていれば、移動アフォーダンスは破棄されますが、 `addObject("northWormhole")` が評価された場合は、「northWormhole」が追加され、ロボットはワームホールを使用して壁を通過することができます。
 
-# Strict Typing System
+# 強い型付けシステム
 
-As mentioned in the introduction, there is no implicit casting in
-CX. Because of this, multiple versions for each of the primitive types
-are defined in the core module. For example, four native functions for
-addition exist: addI32, addI64, addF32, and addF64.
+はじめに述べたように、CXには暗黙のキャストはありません。
+このため、各プリミティブ型の複数のバージョンがコアモジュールで定義されています。
+たとえば、addI32、addI64、addF32、およびaddF64の4つのネイティブ関数が存在します。
 
-The parser attaches a default type to data it finds
-in the source code: if an integer is read, its default type is *i32*
-or 32 bit integer; and if a float is read, its default type is *f32* or 32
-bit float. There is no ambiguity with other data read by the parser:
-*true* and *false* are always booleans; a series of characters
-enclosed between double quotes are always strings; and array needs to
-indicate its type before the list of its elements, e.g., `[]i64{1, 2,
-3}`.
+パーサーは、ソースコード内で見つかったデータにデフォルトの型を付与します。
+整数が読み取られた場合、デフォルトの型は*i32*または32ビット整数です。
+浮動小数点が読み取られた場合、デフォルトの型は*f32*または32ビットfloatです。
+パーサーが読み取る他のデータにはあいまいさはありません。
+*true*と*false* は常にブーリアンです。
+ダブルクォーテーションで囲まれた一連の文字は常に文字列です。
+配列は `[]i64{1, 2, 3}`のように要素のリストの前にその型を示す必要があります。
 
-For the cases where the programmer needs to explicitly cast a value of
-one type to another, the core module provides a number of cast
-functions to work with primitive types. For example, `byteAToStr`
-casts a byte array to a string, and `i32ToF32` casts a 32 bit integer
-to a 32 bit float.
+プログラマがある型の値を別の型に明示的にキャストする必要がある場合、コアモジュールはプリミティブ型を扱うためにいくつかのキャスト関数を提供します。
+たとえば`byteAToStr`はバイト配列を文字列にキャストし、`i32ToF32`は32ビットの整数を32ビットのfloatにキャストします。
 
-# Compiled and Interpreted
+# コンパイルと逐次実行
 
-The CX specification enforces a CX dialect to provide the developer
-with both an interpreter and a compiler. An interpreted program is far
-slower than its compiled counterpart, as is expected, but will allow a
-more flexible program. This flexibility comes from meta-programming
-functions, and affordances, which can modify a program's structure
-during runtime.
+CX仕様では、開発者にインタプリタとコンパイラの両方を提供するためにCX言語が適用されています。
+逐次実行されるプログラムは、コンパイルされたプログラムよりもはるかに遅いですが、より柔軟なプログラムが可能になります。
+この柔軟性は、メタプログラミング機能、および実行時にプログラムの構造を変更するアフォーダンスによってもたらされます。
 
-A compiled program needs a more rigid structure than an interpreted
-program, as many of the optimizations leverage this rigidity. As a
-consequence, the affordance system and any function that operates over
-the program's structure will be limited in functionality in a compiled
-program.
+コンパイルされたプログラムは、多くの最適化処理がその堅牢性を利用するため、逐次実行プログラムよりも堅牢な構造を必要とします。
+結果として、アフォーダンスシステムおよびプログラム構造上で動作する機能は、コンパイルされたプログラムではその機能が制限されます。
 
-The compiler should be used when performance is the biggest concern,
-while a program should remain being interpreted when the programmer
-requires all the flexibility provided by the CX features. In the
-following subsections, some of these features are presented, without
-the aim of serving as a tutorial, but rather as a mere introduction.
+パフォーマンスが最大の関心事である場合はコンパイラを使用するべきですが、プログラマがCX機能によって提供されるすべての柔軟性を必要とする場合は、プログラムを逐次実行プログラムのままにしておく必要があります。
+以下のサブセクションでは、これらの機能の一部をチュートリアルとして提供するのではなく、単なる紹介として提示します。
 
 ### Read-Eval-Print Loop
 
