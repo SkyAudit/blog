@@ -10,10 +10,9 @@ categories = [
 ]
 +++
 
-Skycoinプロジェクトは、既存のインターネットと並行しており、
-既存のインターネットの上でも独立して動作する自己充足的なソフトウェア/アプリケーションプラットフォームです。
+Skycoinプロジェクトは、既存のインターネットと並行して、既存のインターネットの上でも独立して動作する自己充足的なソフトウェア/アプリケーションプラットフォームです。
 
-Skycoinプロジェクトの５本の柱は次の通りです。
+Skycoinプロジェクトの５本の柱は次の通りです：
 
 (1) Bitcoinより技術的にあらゆる点で優れた[Skycoin](https://github.com/skycoin/skycoin)というコイン：
 
@@ -24,24 +23,20 @@ Skycoinプロジェクトの５本の柱は次の通りです。
   -  暗号に関するすべての問題は改善されました（例えば、トランザクション展性）。
   -  既存のもの全部よりも優れたコンセンサスメカニズム（[Obelisk](/statement/obelisk-the-skycoin-consensus-algorithm/)）。
 
-(2) [Skywire](/tags/skywire/), a mesh network, where you can get coins for
-   forwarding traffic/bandwidth. This is a similar to Tor or BitTorrent,
-   except that you will be paid to run node.
+(2) [Skywire](/tags/skywire/)は、メッシュネットワークで、通信量/帯域幅を転送することでコインを取得できます。
+これはTorまたはBitTorrentと似ていますが、ノードを運用するのと引き換えに支払われるという点が異なります。
 
-(3) [Skyledger](https://www.skyledger.net), a platform that is our version of
-   Ethereum's ERC20, but is better:
+(3) [Skyledger](https://www.skyledger.net)は、EthereumのERC20に倣って開発しましたが、それより優れたプラットフォームです：
 
- - We give every coin their own blockchain and the platform runs on top of the
-   Skywire infrastructure, and we get a fee from that.
- - We have a programming language ([CX](/overview/cx-overview/)),
-   not "smart contracts" (which we think is total bullshit).
- - We let the developers of each chain hardcode whatever they want to do.
+ - 私たちはすべてのコインに独自のブロックチェーンを与え、プラットフォームはSkywire下部構造の上で動作し、それから手数料を得ます。
+ - プログラミング言語([CX](/overview/cx-overview/))がそなわれていますが、 "スマートコントラクト" はありません。
+ （私達の意見では、その"スマートコントラクト" は出鱈目だと思うのです）
+ - それぞれのチェーンの開発者は、思う存分なんでもハードコードすることができます。
 
-(4) An ecosystem of apps being built on top of the previous three things.
+（4）上記の3つのものの上に構築されているアプリのエコシステム。
 
  - [Sky-messenger](http://messenger.skycoin.net/)
- - [Distributed social media (BBS)](https://github.com/skycoin/bbs))
-   which is sort of like Steemit, but on our infrastructure and platform.
- - File-sharing/dropbox type functionality
+ - [Distributed social media (BBS)](https://github.com/skycoin/bbs)（分散型ソーシャルメディア）は、Steemitのようなものですが、私たちの下部構造とプラットフォームの上で実行されます。
+ - ファイル共有/ドロップボックス型の機能。
 
-(5) Our own [hardware platform](/statement/skywire-miner-hardware-for-the-next-internet/).
+(5) 私達の独自の[ハードウェアプラットフォーム](/statement/skywire-miner-hardware-for-the-next-internet/)。
