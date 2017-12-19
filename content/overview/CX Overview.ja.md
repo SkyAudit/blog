@@ -1,9 +1,9 @@
 +++
-title = "CX Overview"
+title = "CXの概要"
 tags = [
     "CX",
 ]
-bounty = 20
+bounty = 40
 date = "2017-09-06"
 categories = [
     "Overview",
@@ -12,140 +12,107 @@ categories = [
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="2" -->
 
-- [CX Introduction](#cx-introduction)
-- [Project's Repository](#projects-repository)
-- [Syntax](#syntax)
-- [Affordances](#affordances)
-    - [Arity Restrictions](#arity-restrictions)
-    - [Type Restrictions](#type-restrictions)
+- [CXの紹介](#cx-introduction)
+- [プロジェクトのリポジトリ](#projects-repository)
+- [構文](#syntax)
+- [アフォーダンス](#affordances)
+    - [アニティ制約](#arity-restrictions)
+    - [型制約](#type-restrictions)
     - [Existential Restrictions](#existential-restrictions)
     - [Identifier Restrictions](#identifier-restrictions)
     - [Boundaries Restrictions](#boundaries-restrictions)
     - [User-defined Restrictions](#user-defined-restrictions)
-- [Strict Typing System](#strict-typing-system)
+- [強い型付けシステム](#strict-typing-system)
 - [Compiled and Interpreted](#compiled-and-interpreted)
     - [Read-Eval-Print Loop](#read-eval-print-loop)
     - [Meta-programming Commands](#meta-programming-commands)
     - [Stepping](#stepping)
     - [Interactive Debugging](#interactive-debugging)
 - [Integrated Evolutionary Algorithm](#integrated-evolutionary-algorithm)
-- [Serialization](#serialization)
+- [直列化](#serialization)
+
+
+存在する制限
+識別子の制限
+境界の制限
+ユーザー定義の制限
+コンパイルと解釈
+読み取り - 評価 - 印刷ループ
+メタプログラミングコマンド
+ステッピング
+インタラクティブなデバッグ
+統合された進化的アルゴリズム
+
 
 <!-- /MarkdownTOC -->
 
-# CX Introduction
+# CXの紹介
 
-CX is both a specification and  a programming language designed to
-embrace a new programming paradigm based on the concept of
-affordances. Affordances allow a program to know what actions can and
-cannnot be done by it. For example, we can ask the program what
-arguments can be sent to a function, and the program will return a
-list of possible actions. After having decided what action from the
-list is appropriate, we can choose one of the options and the program
-will apply the chosen action. As a consequence of CX's affordance system, a
-genetic programming algorithm is built and provided as a native
-function, which can be used to optimize the program's structure during
-runtime.
+CXとは、アフォーダンスの概念に基づいた新しいプログラミングパラダイムを採用して設計された仕様とプログラミング言語の両方を指します。
+アフォーダンスは、何ができて、何ができないのかをプログラムが知ることを可能にします。
+たとえば、関数にどのような引数を送ることができるかをプログラムに問い合わせることができ、プログラムは可能なアクションのリストを返します。
+リストからどのようなアクションが適切であるかを決定した後、選択肢の1つを選び、そのアクションををプログラムが実行します。
+CXのアフォーダンスシステムの重要な要素として、遺伝的プログラミングアルゴリズムが構築され、実行時にプログラムの構造を最適化するために使用できるネイティブ関数として提供されます。
 
-The CX specification states that both a compiler and an interpreter
-must be accessible to the programmer. The interpreter can be accessed
-through a read-eval-print loop, where the programmer can interactively
-add and remove elements to a program. Once the program has been
-finished, it can be compiled in order to increase its performance.
+CXの仕様では、プログラマはコンパイラとインタプリタの両方にアクセス可能でなければならないと述べています。
+インタプリタは、プログラマが対話的に要素をプログラムに追加したり削除したりできるREPL(Read-eval-print loop)を通じてアクセスできます。
+プログラムが完成すると、そのパフォーマンスを向上させるためにコンパイルすることができます。
 
-The typing system in CX is very strict. The only "implicit casting"
-occurs when the parser determines what is an integer, a float, a
-boolean, a string, or an array. If a function requires a 64 bit
-integer, for example, one has to use a cast function to explicitly
-convert it to the required type.
+CXの型システムは非常に厳格です。
+唯一の "暗黙のキャスト"は、パーサーが整数、浮動小数点数、ブール値、文字列、または配列を判別するときに発生します。
+たとえば、関数が64ビット整数を必要とする場合、明示的に必要な型に変換するためには、キャスト関数を使用する必要があります。
 
-Lastly, a CX program can be completely serialized to byte arrays,
-maintaining its execution state and structure. This serialized version
-of a program can be deserialized later on, and continue its execution
-in any device that has a CX interpreter/compiler.
+最後に、CXプログラムをバイト配列に完全にシリアル化して、実行状態と構造を維持することができます。
+このシリアル化されたバージョンのプログラムは、後でデシリアライズして、CXインタープリタ/コンパイラを持つ任意のデバイスでその実行を再開することができます。
 
-In the following sections, the CX features discussed in the above
-paragraphs are described in more detail.
+以下のセクションでは、上で説明したCXの機能について詳しく説明します。
 
-# Project's Repository
+# プロジェクトのリポジトリ
+プロジェクトのソースコードは、Githubリポジトリ[https://github.com/skycoin/cx](https://github.com/skycoin/cx) からダウンロードできます。
+リポジトリには、仕様ファイル、ドキュメント、サンプル、およびソースコードが含まれています。
 
-The source code of the project can be downloaded from its Github
-repository:
-[https://github.com/skycoin/cx](https://github.com/skycoin/cx). The
-repository includes the specification file, documentation, examples,
-and the source code itself.
+# 構文
+はじめに述べたように、CXは仕様とプログラミング言語の両方を指します。
+CX仕様は構文を規定するのではなく、むしろCXとみなすためにCX言語が実装しなければならない構造とプロセスを規定しています。
+結果として、2つのCX言語を実装することができ、1つはLispのような構文で、もう1つはCのような構文です。
+この基礎となる言語は、CX Base、すなわち「基本言語」と呼ばれています。
+このドキュメントでは、実装は仕様の機能を示すために使用されていますが、その目的は学術ツールとしての機能だけでなく、一般的な目的に使用できる完全で堅牢な言語となることです。
 
-# Syntax
+このドキュメントで使用されているCXは、Goの構文にできるだけ似た構文を持つことを目標としています。
 
-As was mentioned in the introduction, CX is both a specification and a
-programming language. The CX specification does not impose a syntax,
-but rather the structures and processes that a CX dialect must
-implement in order to be considered a CX. As a consequence, one could
-implement a two CX dialects, one with a Lisp-like syntax, and another
-one with a C-like syntax. This underlaying language is called CX Base,
-or "the base language." In this document, an implementation is used to
-showcase the capabilities of the specification, although its purpose
-is not only to serve as an academic tool, but to become a complete and
-robust language that can be used for general purposes.
+# アフォーダンス
 
-The CX used in this document has the goal to have a syntax as similar
-as possible to Go's syntax.
+プログラマは、関数が受け取るパラメータの数、戻すパラメータの数、目的の機能を得るために必要な記述、文関数にパラメータとして送る必要がある引数など、プログラムを構築する際に多くの決定をする必要があります。
+CXのアフォーダンスシステムでは、要素に適用できる可能なアクションのリストを取得するための問い合わせを受けることができます。
+この文脈では、要素の例は、関数、構造体、モジュール、および式です。
 
-# Affordances
+プログラムの背後にある論理と目的が何であるべきかを指示する一連のルールと事実を持たずに、少なくともプログラムが意味論的に正しいことを保証する基本的な制約をいくつか決めることができます。
+アフォーダンスシステムは、第1のフィルタリング層として、以下で説明する制約を提供します。
 
-A programmer needs to make a plethora of decisions while constructing
-a program, e.g., how many parameters a function must receive, how many
-parameters it must return, what statements are needed to obtain the
-desired functionality, and what arguments need to be sent as
-parameters to the statement functions, among others. The affordance
-system in CX can be queried to obtain a list of the possible actions
-that can be applied to an element. In this context, examples of elements are
-functions, structs, modules, and expressions.
+### アリティ制約
 
-Without having a set of rules and facts that dictate what must be the
-logic and purpose behind a program, one can determine some basic
-restrictions that, at least, guarantee that a program will be
-semantically correct. The affordance system provides such restrictions
-as the first filtering layer, and are explained below.
-
-### Arity Restrictions
-
-Expressions in CX can return multiple values. This creates a challenge
-for the affordance system, as the number of variables that receive
-the output arguments of an expression need to match the number of
-outputs defined by the expression's operator.
+CXの式は複数の値を返すことができます。
+これは、式の出力引数を受け取る変数の数が、式の演算子で定義された出力の数と一致する必要があるため、アフォーダンスシステムの仕事となります。
 
 ```
 out1, out2, ..., outN := op(inp1, inp2, ..., inpM)
 ```
 
-If the example above is correct, then *op* needs to output *N*
-arguments. This problem can become even more challenging if we
-consider that *op*'s definition can be changed by the affordance
-system itself or by the user in the future: as soon as *op*'s
-definition changes, new affordances can be applied to any expression
-which uses *op* as its operator, because the number of variables that
-receive *op*'s output arguments are now in mismatch.
+上記の例が正しい場合、*op*は*N*個の引数を出力する必要があります。
+*op*の定義がアフォーダンスシステム自体またはユーザーによって将来変更され得ることを考慮すると、この問題はさらに複雑になり得ます。
+*op*の定義が変更されるとすぐに、*op*の出力引数を受け取る変数の数が不一致になるため、新しいアフォーダンスが*op*を演算子として使っているどんな式にも適用されます。
 
-The previous logic also implies that if the number of receiving
-variables matches the number of output parameters of the expression's
-operator, the action of adding new receiving variables can no longer
-be performed.
+前のロジックはまた、受信変数の数が式の演算子の出力パラメータの数と一致する場合、新しい受信変数を追加する動作がもはや実行できないことを意味します。
 
-Arity restrictions also apply to input arguments in expressions, i.e.,
-if a function call has already all of its input arguments defined,
-then the affordance system should not enlist adding another argument
-as a possible action. Likewise, if an expression is trying to call an
-operator with fewer arguments than the required, the affordance
-system, when queried, should tell the programmer that adding a new
-argument to the function call is possible.
+アリティ制約は式の入力引数にも適用されます。
+つまり、関数呼び出しのすべての入力引数がすでに定義されている場合、アフォーダンスシステムは、別の引数を可能なアクションとして追加する必要がありません。
+同様に、式が必要な数よりも少ない引数を持つ演算子を呼び出そうとしている場合、アフォーダンスシステムは問い合わせを受けた時に、新しい引数を関数呼び出しに追加できることをプログラマに伝える必要があります。
 
-**Example:**
+**例：**
 
-*Note: string concatenation has not been implemented yet. Also, the
-print functions always append a newline at the end of the string being
-printed. A future version of the CX implementation presented in this
-document will address these issues.*
+*注：文字列の連結はまだ実装されていません。
+また、print関数は、表示される文字列の最後に常に改行を追加します。
+このドキュメントで紹介するCX実装の将来のバージョンでは、これらの問題が解決されます。*
 
 ```
 var age i32 = 18
@@ -162,10 +129,8 @@ func main () () {
     advance("North")
 }
 ```
-
-In the example above, the call to *advance* in the *main* function
-lacks one argument. If one queries the affordance system, the system
-should enlist, among other things, an action similar to:
+上記の例では、*main*関数内の*advance*の呼び出しで引数が１つ不足しています。
+アフォーダンスシステムに問い合わせると、システムは次のような行動を取ります。
 
 ```
 ...
@@ -174,31 +139,17 @@ should enlist, among other things, an action similar to:
 ...
 ```
 
-where k represents an arbitrary index. As one can see, the affordance
-system is telling the programmer that two of the possible actions that
-can be done are to add another argument to the advance function, and
-the global definitions *age* and *steps* are among the options to act
-as arguments.
+ここでkは任意のインデックスを表します。
+アフォーダンスシステムは、2つのアクションが実行可能で、それらは*advance*関数に別の引数を追加することをプログラマに告げており、グローバル変数の*age*と*steps*は引数となり得る選択肢です。
 
-It is noteworthy to mention that affordances should always be
-enumerated, and their order should be constant over several calls to
-the affordance system. The reason behind this is that the programmer
-should be able to indicate the system what affordance is to be applied
-after examining the query's result.
+アフォーダンスは常に列挙されるべきであり、アフォーダンスシステムへの問い合わせにおいてそれらの順序が一定であるべきことは重要である。
+その理由は、プログラマが問い合わせの結果を調べた後に、どのアフォーダンスを適用するのかをシステムに示すことができなければならないためです。
 
-### Type Restrictions
+### 型制約
 
-The common behaviour in programming languages is to have a typing system
-which restricts the programmer from sending arguments of unexpected
-types to function calls. Even in weakly typed programming languages,
-an operation such as `true / "hello world"` should raise an error
-(unless in the case of an
-[esoteric language](https://en.wikipedia.org/wiki/Esoteric_programming_language),
-of course). CX follows a very
-[strict typing system](#strict-typing-system), and arguments that are
-not exactly of the expected type should not be considered as
-candidates for affordances' actions (although a workaround is to wrap
-these arguments in cast functions before being shown as affordances).
+プログラミング言語における共通の挙動は、プログラマーが予期しない型の引数を関数呼び出しに送ることを制限する型システムを持つことです。
+たとえ弱く型付けされたプログラミング言語であっても、次の演算`true / "hello world"`はエラーを発生させるはずです(もちろん、[難解プログラミング言語](https://ja.wikipedia.org/wiki/%E9%9B%A3%E8%A7%A3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E)の場合を除いて).
+CXは非常に[強い型付けシステム](#strict-typing-system)に従っており 、予想される型ではない引数は、アフォーダンスのアクションの候補と見なすべきではありません（回避策は、アフォーダンスとして表示される前にこれらの引数をキャスト関数で囲みます）。
 
 Type restrictions must also be considered when assigning a new value
 to an already existant variable. In CX, a variable declared of a
