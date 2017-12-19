@@ -10,70 +10,69 @@ categories = [
 ]
 +++
 
-This is the current Skycoin team.
+現在のSkycoinチームです。
 
-## Marketing
+## マーケティング
 
-Michael Terpin (Coinovate, [CoinAgenda](http://www.coinagenda.com/), BitAngels) and
+Michael Terpin (Coinovate, [CoinAgenda](http://www.coinagenda.com/), BitAngels) と
 Richard Kastelein ([Blockchain News](http://www.the-blockchain.com/),
 [CryptoAssets Design Group](http://www.cryptoassets.io/))
-are advisors to the project and assisting with marketing.
+は、このプロジェクトのアドバイザーであり、マーケティングを支援しています。
 
-A handful of others are focused on various aspects of communications,
-marketing and content production.
+ほかにも何人かがコミュニケーション、マーケティング、コンテンツ制作のさまざまな側面に焦点を当てています。
 
-## Development/Research/Management
+## 開発/リサーチ/マネジメント
 
-Synth is the architect and project figurehead. He has a background in mathematics and cryptography.
+Synthは設計者であり、プロジェクトリーダーです。彼は数学と暗号を学んできた経歴があります。
 
 * Telegram: @haltingstate
 
-Steve is a developer and now project manager. He wrote most of the original Skycoin software in 2013–2014.
+Steveは開発者であり、現在はプロジェクトマネージャーです。彼は2013年から2014年に初期のSkycoinソフトウェアのほとんどを書きました。
 
 * github: https://github.com/gz-c
 * Telegram: @tokenc
 * Slack: @gzc-skycoin
 * Discord: @tokenc#0716
 
-iketheadore is a developer working on Skycoin core for a few years.
+iketheadoreは、Skycoinコアで数年前から働いている開発者です。
 
 * Github: https://github.com/iketheadore
 
-Monty Crypto (Xa No) is a developer working on the Skycoin wallets (desktop, mobile, web).
+Monty Crypto（Xa No）は、Skycoinウォレット（デスクトップ、モバイル、ウェブ）を開発している開発者です。
 
 * Github: https://github.com/montycrypto
 * Telegram: @xano137
 
-Erich Quist is designing the new Skycoin wallets and website.
+Erich Quistは新しいSkycoinウォレットとウェブサイトをデザインしています。
 
 * Telegram: @erichquist
 
-meam364 is the website developer.
+meam364はウェブサイトの開発者です。
 
 * Github: https://github.com/meam364
 
-Evan is a developer working on the BBS application.
+Evanは、BBSアプリケーションを開発している開発者です。
 
 * Github: https://github.com/evanlinjin
 * Telegram: @shinogo
 
-johnstuartmill wrote the most recent Obelisk consensus algorithm whitepaper
-and is working on an implementation. He has a background in mathematics.
+johnstuartmillは最新のObelisk合意形成アルゴリズムホワイトペーパーを作成し、実装を進めています。彼は数学を学んできた経歴があります。
 
 nyf is a developer doing frontend work for the bbs and sky-messenger.
+nyfはbbsとsky-messengerのユーザーインターフェース部分を開発する開発者です。
 
 * Github: https://github.com/feifeiwoye
 
-Weng Zhiyi is a developer working on Skywire and sky-messenger.
+Weng Zhiyiは、Skywireとsky-messengerを開発する開発者です。
 
 * Github: https://github.com/vyloy
 
-amherag is developing our CX programming language.
+amheragはCXプログラミング言語を開発しています。
 
 * Github: https://github.com/amherag
 
-logrusorgru is developing CXO, our distributed object storage system
+logrusorgruは分散オブジェクトストレージシステムCXOを開発しています。
 
 * Github: https://github.com/logrusorgru
 
-Two or three people are working on the Skywire miner hardware.
+2,3人がSkywireのマイニング用ハードウェア開発に取り組んでいます。
