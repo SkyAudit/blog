@@ -12,12 +12,12 @@ categories = [
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="2" -->
 
-- [CXの紹介](#cx-introduction)
-- [プロジェクトのリポジトリ](#projects-repository)
-- [構文](#syntax)
-- [アフォーダンス](#affordances)
-    - [アニティ制約](#arity-restrictions)
-    - [型制約](#type-restrictions)
+- [CXの紹介](#CXの紹介)
+- [プロジェクトのリポジトリ](#プロジェクトのリポジトリ)
+- [構文](#構文)
+- [アフォーダンス](#アフォーダンス)
+    - [アニティの制約](#アニティの制約)
+    - [型の制約](#型の制約)
     - [Existential Restrictions](#existential-restrictions)
     - [Identifier Restrictions](#identifier-restrictions)
     - [Boundaries Restrictions](#boundaries-restrictions)
