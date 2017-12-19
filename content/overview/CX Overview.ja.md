@@ -18,31 +18,18 @@ categories = [
 - [アフォーダンス](#アフォーダンス)
     - [アニティの制約](#アニティの制約)
     - [型の制約](#型の制約)
-    - [Existential Restrictions](#existential-restrictions)
-    - [Identifier Restrictions](#identifier-restrictions)
-    - [Boundaries Restrictions](#boundaries-restrictions)
-    - [User-defined Restrictions](#user-defined-restrictions)
+    - [存在の制約](#existential-restrictions)
+    - [識別子の制約](#identifier-restrictions)
+    - [境界の制約](#boundaries-restrictions)
+    - [ユーザー定義の制約](#user-defined-restrictions)
 - [強い型付けシステム](#strict-typing-system)
-- [Compiled and Interpreted](#compiled-and-interpreted)
-    - [Read-Eval-Print Loop](#read-eval-print-loop)
-    - [Meta-programming Commands](#meta-programming-commands)
-    - [Stepping](#stepping)
-    - [Interactive Debugging](#interactive-debugging)
-- [Integrated Evolutionary Algorithm](#integrated-evolutionary-algorithm)
-- [直列化](#serialization)
-
-
-存在する制限
-識別子の制限
-境界の制限
-ユーザー定義の制限
-コンパイルと解釈
-読み取り - 評価 - 印刷ループ
-メタプログラミングコマンド
-ステッピング
-インタラクティブなデバッグ
-統合された進化的アルゴリズム
-
+- [コンパイルと逐次実行](#compiled-and-interpreted)
+    - [Read-Eval-Print Loop(REPL)](#read-eval-print-loop)
+    - [メタプログラミングコマンド](#meta-programming-commands)
+    - [ステッピング](#stepping)
+    - [インタラクティブなデバッグ](#interactive-debugging)
+- [統合された進化的アルゴリズム](#integrated-evolutionary-algorithm)
+- [シリアライゼーション](#serialization)
 
 <!-- /MarkdownTOC -->
 
