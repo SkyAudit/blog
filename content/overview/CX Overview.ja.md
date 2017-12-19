@@ -24,7 +24,7 @@ categories = [
     - [ユーザー定義の制約](#user-defined-restrictions)
 - [強い型付けシステム](#strict-typing-system)
 - [コンパイルと逐次実行](#compiled-and-interpreted)
-    - [Read-Eval-Print Loop(REPL)](#read-eval-print-loop)
+    - [Read-Eval-Print Loop(REPL)](#read-eval-print-loop)
     - [メタプログラミングコマンド](#meta-programming-commands)
     - [ステッピング](#stepping)
     - [対話的なデバッグ](#interactive-debugging)
