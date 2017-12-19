@@ -273,11 +273,10 @@ CX仕様では、開発者にインタプリタとコンパイラの両方を提
 パフォーマンスが最大の関心事である場合はコンパイラを使用するべきですが、プログラマがCX機能によって提供されるすべての柔軟性を必要とする場合は、プログラムを逐次実行プログラムのままにしておく必要があります。
 以下のサブセクションでは、これらの機能の一部をチュートリアルとして提供するのではなく、単なる紹介として提示します。
 
-### Read-Eval-Print Loop
+### Read-Eval-Print Loop　(REPL) 
 
-The read-eval-print loop (REPL) is an interactive tool where a
-programmer can input new program elements and evaluate them. Starting
-a new REPL session will print the following messages to the console:
+ Read-Eval-Print Loop　(REPL) は、プログラマが新しいプログラム要素を入力し評価することができるインタラクティブなツールです。
+ 新しいREPLセッションを開始すると、次のメッセージがコンソールに出力されます。
 
 ```
 CX REPL
@@ -286,14 +285,11 @@ More information about CX is available at https://github.com/skycoin/cx
 *
 ```
 
-The "*" tells the programmer that the REPL is ready to receive a new
-line of code. The REPL will keep reading input from the user until a
-semicolon and a new line character are encountered.
+"\*"は、REPLが新しいコード行を受け取る準備ができていることをプログラマーに伝えます。
+REPLはセミコロンと改行文字が出現するまでユーザーからの入力を読み続けます。
 
-If no program was initially loaded into the REPL, CX will start with
-an empty program. This can be seen if the `:dProgram true;`
-meta-programming command is given as input:
-
+REPLに最初にロードされたプログラムがない場合、CXは空のプログラムから開始します。
+これは、メタプログラミングコマンド`:dProgram true;`が入力として与えられている場合に見ることができます。
 
 ```
 * :dProgram true;
@@ -302,11 +298,10 @@ Program
 *
 ```
 
-The REPL is only printing the word "Program" followed by an empty
-line. As a first step, a new module and function can be declared:
+REPLは "Program"という単語を続けて表示し、その後に空の行を表示します。
+最初のステップとして、新しいモジュールと関数を宣言することができます。:
 
-As the first steps, a new *main* module and a new *main* function
-should be declared:
+最初のステップとして、新しい*main* モジュールと新しい*main*関数を宣言する必要があります。
 
 ```
 * package main;
@@ -322,62 +317,44 @@ Program
 *
 ```
 
-As can be seen, the program structure is being printed every time a
-new element is added to the program.
+見て分かるように、新しい要素がプログラムに追加されるたびにプログラム構造が表示されています。
 
-### Meta-programming Commands
+### メタプログラミングコマンド
 
-`:dProgram` was used in the subsection above. Any statement that
-starts with a colon (:) is part of a category of instructions known as
-"meta-programming commands."
+上記のサブセクションで`:dProgram`が使用されました。
+コロン（:)で始まる文は、「メタプログラミングコマンド」と呼ばれる命令カテゴリの一部です。
 
-Declaring elements in the REPL instructs CX to add them to the
-program's structure. But, as in many other programming languages,
-these declarations are limited to only be added, and at most be
-redefined.
+REPLの要素を宣言すると、CXにプログラム構造に追加されます。
+しかし、他の多くのプログラミング言語と同様に、これらの宣言は追加されただけで、たいていは再定義されます。
 
-But, as in many other programming languages that provide a REPL, the
-programmer is limited to adding new elements to a program and, at
-most, redefining elements. Meta-programming commands allow the
-programmer to be in more control on how the program's structure is
-being modified.
+しかし、REPLを提供する他の多くのプログラミング言語のように、プログラマはプログラムに新しい要素を追加することに制限があり、多くの場合、要素を再定義しています。
+メタプログラミングコマンドを使用すると、プログラマーは、プログラムの構造がどのように変更されているかをより詳細に制御できます。
 
-`:dProgram`, `:dState`, and `:dStack` are used for
-debugging purposes only, by printing the program's structure, the
-current call's state, and the full call stack to the user,
-respectively. `:step` instructs the interpreter to go forward or
-backward in its execution. `:package`, `:func`, and `:struct`, known
-as *selectors*, are used to change the program's scope. `:rem` gives
-the programmer access to *removers*, which can be used to selectively
-remove elements from a program's structure. `:aff` is used to access
-CX's affordance system; this meta-programming command is used to both
-query and apply affordances for the different elements of a
-program. Lastly, `:clauses` is used to set a module's clauses to be used by the
-[user-defined restrictions system](#user-defined-restrictions);
-`:object` and `:objects` are used for adding and printing objects,
-respectively; and the last two meta-programming commands: `:query`,
-which is used for setting the module's query, and `:dQuery` which is a
-helper for debugging the user-defined restrictions.
+`:dProgram`、`:dState`、`:dStack`はそれぞれ、ユーザにプログラムの構造、現在の呼び出しの状態、および完全なコールスタックを表示することによって、デバッグ目的にのみ使用されます。
+`:step` は、インタプリタに実行の前進または後退を指示します。
+`:package`、`:func`、`:struct`は、*selectors*として知られており、プログラムのスコープを変更するために使用されます。
+`:rem`は、プログラムの構造から要素を選択的に削除するために使用できる*removers*へのアクセスをプログラマに提供します。
+`:aff`は、CXのアフォーダンスシステムにアクセスするために使用されます。このメタプログラミングコマンドは、プログラムのさまざまな要素のためのアフォーダンスを照会および適用するために使用されます。
+`:clauses`は[ユーザ定義制約システム](#user-defined-restrictions)で使われるモジュールの節を設定するために使用されます。
+`:object`と`:objects`は、それぞれのオブジェクトを追加し、表示するために使用されます。
+`:query`は、モジュールのクエリを設定するために使用され、`:dQuery`はユーザ定義の制約をデバッグするヘルパーです。
 
-### Stepping
+### ステッピング
 
-A program started in REPL mode can be initialized with a program
-structure defined in a source file. For example:
-current directory
+REPLモードで起動されたプログラムは、ソースファイルで定義されたプログラム構造で初期化することができます。
+たとえば、次のコマンドは
 
 ```
 $ ./cx --load examples/looping.cx
 
 ```
 
-loads `looping.cx` from the examples directory (the full list of
-examples can be found in the
-[project's repository](https://github.com/skycoin/cx)). Even though a
-program has been loaded, it has not yet been executed. In the REPL, in
-order to execute a program one has to use the meta-programming command
-`:step`. To run a program until the end, `:step 0;` must be used. But
-`:step` is interesting because it can take other integers as its
-argument (even negative integers). For example:
+サンプルディレクトリから`looping.cx`を読み込みます(全てのサンプルのリストは[プロジェクトリポジトリ](https://github.com/skycoin/cx)にあります).
+プログラムがロードされても、まだ実行されていません。
+REPLでは、プログラムを実行するためにメタプログラミングコマンド`:step`を使用する必要があります。
+最後までプログラムを実行するには、`:step 0;`を使用する必要があります。
+しかし、`:step` は他の整数を引数（負の整数さえ）として取ることができるので興味深いです。
+例えば
 
 ```
 CX REPL
@@ -397,13 +374,10 @@ More information about CX is available at https://github.com/skycoin/cx
 *
 ```
 
-The *examples/looping.cx* program is being run 5 steps at a time. We
-can see that 5 steps are required in order for the program to
-re-evaluate the *while* condition, print the counter, and add 1 to the
-counter.
+*examples/looping.cx*のプログラムは一度に5つのステップを実行しています。
+プログラムが*while*条件を再評価し、カウンタを出力し、カウンタに1を加えるために5つのステップが必要であることがわかります。
 
-Likewise, we should "go back in time" if the REPL is instructed to
-`:step -5`.
+同様に、REPLに`:step -5`が指示されている場合は、「時間を戻す」ことになります。
 
 ```
 ...
@@ -418,22 +392,17 @@ Likewise, we should "go back in time" if the REPL is instructed to
 
 *
 ```
+CXに5ステップを進めるように指示した後、2が再びコンソールに表示されます。
+カウンタには異なる値が割り当てられているわけではありません。
+起こっていることは、コールスタックが以前の状態に戻っているということです。
 
-After instructing CX to advance 5 steps again, the 2 is printed again
-to the console. It must be noted that the counter is not just being
-assigned with a different value. What is happening is that the call
-stack is being reverted to a previous state.
 
-### Interactive Debugging
+### インタラクティブなデバッグ
 
-A CX program will enter the REPL mode once an error has been
-found. This behaviour gives the programmer the opportunity to debug
-the program before attempting to resume its execution.
+エラーが検出されると、CXプログラムはREPLモードに入ります。
+この動作により、プログラムの実行を再開しようとする前に、プログラムをデバッグする機会がプログラマに与えられます。
 
-In the example below, a division by 0 error is raised, the REPL alerts
-the programmer about the error, the last call in the call stack is
-dumped, and the REPL continues its execution.
-
+以下の例では、0による除算が発生し、REPLはエラーについてプログラマに警告し、コールスタックの最後の呼び出しをダンプし、REPLはその実行を継続します。
 
 ```
 CX REPL
@@ -470,10 +439,7 @@ main
 	*
 ```
 
-Likewise, if a program is given as input to the CX interpreter,
-without calling the REPL, but an error is raised, the REPL will be
-called for the programmer or system administrator to debug the
-program:
+同様に、プログラムがCXインタプリタへの入力として与えられ、REPLを呼び出さずにエラーが発生した場合、プログラマまたはシステム管理者がプログラムをデバッグするためにREPLが呼び出されます。
 
 ```
 $ ./cx examples/program-halt.cx
@@ -494,48 +460,31 @@ More information about CX is available at https://github.com/skycoin/cx
 *
 ```
 
-# Integrated Evolutionary Algorithm
+# 統合された進化的アルゴリズム
 
-The affordance system and meta-programming functions in CX allow the
-flexibility of changing the program's structure in a supervised
-manner. However, affordances can still be automated by having a
-function that selects the index of the affordance to be applied.
+CXのアフォーダンスシステムとメタプログラミング機能は、管理された方法でプログラムの構造を変更する柔軟性を実現にします。
+しかしながら、アフォーダンスは、適用されるアフォーダンスのインデックスを選択する機能を持つことによって、自動化することができます。
 
-`evolve` is a native function that constructs user-defined functions
-by using random affordances. An iterative process is used to test
+`evolve`はランダムなアフォーダンスを使用してユーザー定義関数を構築するネイティブ関数です。
+対話的なプロセスがテストのために使用されます。
 
-`evolve` follows the principles of evolutionary computation. In
-particular, evolve performs a technique called genetic
-programming. Genetic programming tries to find a combination of
-operators and arguments that will solve a problem. For example, you
-could instruct `evolve` to find a combination of operators that, when
-sent 10 as an argument, returns 20. This might sound trivial, but
-genetic programming and other evolutionary algorithms can solve very
-complicated problems.
+`evolve` は進化的計算の原則に従います。
+特に、`evolve` は遺伝的プログラミングと呼ばれる技術を実行します。
+遺伝的プログラミングは、問題を解決する演算子と引数の組み合わせを見つけることを試みます。
+たとえば`evolve`に引数として10を送信すると20を返す演算子の組み合わせを見つけるよう指示することができます。
+これは些細なことかもしれませんが、遺伝的プログラミングやその他の進化的アルゴリズムは非常に複雑な問題を解決できます。
 
-In the *examples* directory from the repository, one can find an
-example (*examples/evolving-a-function.cx*) that describes the process for
-evolving a
-[curve-fitting](https://en.wikipedia.org/wiki/Curve_fitting) function.
+リポジトリの*examples*ディレクトリに、[カーブフィッティング](https://ja.wikipedia.org/wiki/%E6%9B%B2%E7%B7%9A%E3%81%82%E3%81%A6%E3%81%AF%E3%82%81)機能を進化的に処理する例 (*examples/evolving-a-function.cx*)があります。
 
-# Serialization
+# シリアライゼーション
 
-A program in CX can be partially or fully serialized to a byte
-array. This serialization capability allows a program to create a
-program image (similar to
-[system images](#https://en.wikipedia.org/wiki/System_image)), where
-the exact state at which the program was serialized is
-maintained. This means that a serialized program can be deserialized,
-and resume its execution later on. Serialiation can also be used to
-create backups.
+CXのプログラムは、バイト配列に部分的または完全にシリアライズすることができます。
+このシリアライゼーション機能により、プログラムはプログラムイメージ（[システムイメージ](#https://en.wikipedia.org/wiki/System_image)に類似）を作成することができ 、プログラムがシリアライズされた正確な状態が維持されます。
+これは、シリアライズされたプログラムをデシリアライズして後でその実行を再開できることを意味します。
+シリアライゼーションを使用してバックアップを作成することもできます。
 
-A CX program can leverage its integrated features to create some
-interesting scenarios. For example, a program can be serialized to
-create a backup of itself, and start an
-[evolutionary algorithm](#integrated-evolutionary-algorithm) on one of
-its functions. If the evolutionary algorithm finds a function that
-performs better than the previous definition, one can keep this new
-version of the program. However, if the evolutionary algorithm
-performed badly, the program can be restored to the saved backup. All
-of these tasks can be automated.
-
+CXプログラムは、統合された機能を活用して面白いシナリオを作成することができます。
+たとえば、プログラムをシリアライズして自分自身のバックアップを作成し、その機能の1つで[進化的アルゴリズム](#integrated-evolutionary-algorithm) を開始することができます。
+進化的アルゴリズムが以前の定義よりも優れた機能を発見した場合、この新しいバージョンのプログラムを保持することができます。
+しかし、進化的アルゴリズムの実行が良くなかった場合、プログラムは保存されたバックアップに復元することができます。
+これらのタスクはすべて自動化できます。
