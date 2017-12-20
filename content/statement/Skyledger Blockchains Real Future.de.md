@@ -11,7 +11,7 @@ categories = [
 ]
 +++
 
-Bitcoin sollte eine neue Ökonomie, basierend auf dezentralisierter Blockchaintechnologie, einführen, hat er aber nicht. Und kann er nicht. Bitcoin hat elementare technische Mängel die ohn davon abhalten jemals seine ursprünglichen Ziele zu erreichen. Gebaut auf fehlerhaften Konzepten und manipuliert in einem Maße, das schon an Korruption grenzt, ist diese Währung nicht fähig die neue Welt zu erschaffen, auf welche die Nutzer gehofft haben.
+Bitcoin sollte eine neue Ökonomie, basierend auf dezentralisierter Blockchaintechnologie, einführen, hat er aber nicht. Und kann er nicht. Bitcoin hat elementare technische Mängel die ihn davon abhalten jemals seine ursprünglichen Ziele zu erreichen. Gebaut auf fehlerhaften Konzepten und manipuliert in einem Maße, das schon an Korruption grenzt, ist diese Währung nicht fähig die neue Welt zu erschaffen, auf welche die Nutzer gehofft haben.
 
 Die Entwickler von Skycoin haben verstanden, dass Bitcoin verdammt war zu scheitern und haben sich demzufolge aufgemacht eine Lösung zu kreieren. Das Ergebnis dieses Prozesses ist Skyledger, eine Blockchain Plattform der dritten Generation, die Geschwindigkeit, Sicherheit, Privatsphäre und ein wahrhaft dezentrales Blockchainnetzwerk liefert. Konsens ist bei Skyledger bestimmt durch die gesamte Gemeinschaft - anstelle von einigen, wenigen Individuen. Es ist eine technisch überlegene Plattform die die Fehler von Bitcoin ausmerzt und den Weg für eine besserer Zukunft der Blockchain Technologie ebnet.
 
