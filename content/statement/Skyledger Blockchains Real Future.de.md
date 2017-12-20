@@ -1,5 +1,5 @@
 +++
-title = "Skyledger: Blockchain’s Real Future"
+title = "Skyledger: Die wahre Zukunft der Blockchain”
 tags = [
     "Statement",
     "Skyledger",
@@ -11,36 +11,34 @@ categories = [
 ]
 +++
 
-Bitcoin was supposed to usher in a new economy built on decentralized blockchain technology – but it didn’t. And it can’t. Bitcoin has major technical flaws that prevent it from ever achieving its original goals. Built on faulty concepts and manipulated to the point of corruption, this cryptocurrency is incapable of creating the new world its users hoped for.
+Bitcoin sollte eine neue Ökonomie, basierend auf dezentralisierter Blockchaintechnologie, einführen, hat sie aber nicht. Und kann sie nicht. Bitcoin hat elementare technische Mängel die sie davon abhalten jemals ihre ursprünglichen Ziele zu erreichen. Gebaut auf fehlerhaften Konzepten und manipuliert in einem Maße, dass schon an Korruption grenzt, ist diese Währung nicht fähig die neue Welt zu erschaffen, auf welche die Nutzer gehofft haben.
 
-Skycoin developers realized that Bitcoin was destined to fail, and set out to create a solution. The result is Skyledger, a third-generation blockchain platform that delivers speed, security, privacy, and a true decentralized blockchain network. Consensus on Skyledger is determined by the community rather than by a few individuals. It’s a technically superior platform that fixes Bitcoin’s issues and paves the way for blockchain’s better future.
+Die Entwickler von Skycoin haben verstanden, dass Bitcoin verdammt war zu scheitern und haben sich demzufolge aufgemacht eine Lösung zu kreieren. Das Ergebnis dieses Prozesses ist Skyledger, eine Blockchain Plattform der dritten Generation die Geschwindigkeit, Sicherheit, Privatsphäre und wahrhaft dezentrales Blockchain Netzwerk liefert. Konsens ist bei Skyledger bestimmt durch die gesamte Gemeinschaft anstelle von einigen, wenigen Individuen. Es ist eine technisch überlegene Plattform die die Fehler von Bitcoin ausmerzt und den Weg für eine besserer Zukunft der Blockchain Technologie ebnet.
 
+## Skyledger beseitigt Gebühren, Zentralisation und Müll
 
-## Skyledger Eliminates Fees, Centralization, and Waste
+Der Kernpunkt der Probleme von Bitcoin ist sein Mining System. Miner kämpfen um die Kontrolle des Netzwerks mithilfe von Transaktionsgebühren. Durch das Fluten des Netzwerks durch Transaktionen halten sie es als Geisel gefangen und forcieren steigende Transaktionskosten. Währendessen vereinigen sich die Miner um eine kleine Anzahl zentralisierter Mining Pools zu bilden, welche das gesamte Netzwerk kontrollieren. Dadurch fördert Bitcoin eine zentralisierte Mining Struktur, welche sich feindselig gegenüber der Community als Ganzes verhält.
 
-The crux of Bitcoin’s problems is its mining system. Miners fight to control the network through transactions fees. By spamming transactions, they hold the network hostage for fees to drive the fee price up. Meanwhile, miners consolidate to form a small number of centralized pools that control the entire network. In this way, Bitcoin encourages a centralized mining setup that’s antagonistic towards the community as a whole.
+Bei Skycoin wollten wir das beseitigen. Wir haben die Belohnung für Mining und die Transaktionskosten abgeschafft. Anstelle dessen basiert der Skyledger Konsensalgorithmus auf dem Willen des Netzwerk – ein „Netz des Vertrauens“. 
 
-At Skycoin, we wanted to get rid of that. We eliminated the mining reward and transaction fee. Instead, Skyledger’s consensus is based on the will of the network – a “web of trust.”
+Der Konsensalgorithmus von Skyledger heißt Obelisk. Er erschafft ein Netz der Vertrauens in welchem jeder Knoten (node) ein öffentlichen Schlüssel hat und jeder Knoten andere Knoten abonniert. Wenn du jemanden beispielsweise persönlich kennst, dann kannst du seinen öffentlichen Schlüssel zu deiner Vertrauensliste hinzufügen. Die Knoten welche dir folgen können sich dann untereinander vernetzen und Nachrichten veröffentlichen. Durch diesen Prozess können Knoten einen globalen Konsens erreichen. 
 
-Skyledger’s consensus algorithm is called Obelisk. It creates a web of trust in which each node has a public key, and each node subscribes to other nodes. For example, if you know someone personally, you can add their public key to your trust list. Your nodes can then subscribe to each other and publish messages. Through this process, nodes can reach a global consensus.
+Ein großer Vorteil von Skyledgers Netz des Vertrauens ist, dass es umweltfreundlich ist. Es könnte auf dem Prozessor eines 30-Watt Mobiltelefons laufen. Um diesen Vorteil vollkommen würdigen zu können, bedenke den massiven Verbrauch von Ressourcen durch das Bitcoin Mining Netzwerk: über 32 Terawattstunden im Jahre 2017. Das ist ungefähr so viel, wie die Menge, das Land Serbien verbraucht. Wie von [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption) berichtet, verbraucht Bitcoin genug Energie um 3 Millionen Häuser zu versorgen. Um dies in ein noch eindrucksvolleres Licht zu rücken – selbst Kreditkartengigant Visa verbraucht nur so viel Energie wie 50.000 Eigenheime.
 
-One big advantage of Skyledger’s web of trust is that it’s environmentally friendly. It could be run on a 30-watt cell phone processor. To fully appreciate this advantage, consider the massive resource drain produced by Bitcoin’s mining network rigs: over 32 terawatt hours in 2017. That’s about as much as the entire country of Serbia. As reported by [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption), Bitcoin uses enough energy to power 3 million homes. To put this in even more striking perspective, even credit card giant Visa uses only enough energy to power 50,000 homes.
+Der Hauptverantwortliche für den verschwenderischen Energiebedarf von Bitcoin ist der Proof-of-Work Algorithmus. Immer wenn ein Block zur Blockchain hinzugefügt wird, geht PoW durch einen mühseligen, langsamen und rechenintensiven Satz von Bedingungen um die Gültigkeit des Blocks zu bestätigen. Demgegenüber ersetzt Obelisk PoW mit einem effizienteren, schnelleren Konsensalgorithmus.
 
-The major culprit of Bitcoin’s wasteful drain is the Proof-of-Work algorithm. Whenever a block is added in the blockchain, PoW goes through a laborious, slow, and processing-heavy set of requirements to ensure the validity of the blocks. Obelisk, by contrast, replaces PoW with a more efficient, faster consensus process.
+## Skyledger ermöglicht ein offenes Internet und Innovationen
 
-## Skyledger Powers Open Internet and Innovation
+Nicht nur spart Skyledger Ressourcen, es versorgt seine Nutzer mit wertvollen Diensten. Der Mehrwert kommt in Form von Skywire, einem dezentralisierten Internetdienstanbieter (ISP). Nutzer von Skywire geben und bekommen Skycoins für das konsumieren bzw. für das weiterleiten von Ressourcen. Es ist ein autarkes, Peer-to-Peer Netzwerk, dass den Bedarf an Internetdienstanbietern eliminiert und den Nutzern die Kontrolle über ihre Interneterfahrung zurück gibt.
 
-Not only does Skyledger preserve resources, it provides its users with valuable services. The added value comes in the form of Skywire, a decentralized ISP. Skywire users spend and receive Skycoins for consuming or forwarding resources. It’s a self-sufficient, peer-to-peer network that eliminates the need for corporate ISPs and puts users in control of their internet experience.
+Da das Projekt quelloffen (open source) ist, steht die innovative Technologie auf der Skyledger läuft, allen Menschen zur Verfügung. Als ein wahres dezentralisiertes Blockchain Netzwerk hat Skyledger unzählige Einsatzmöglichkeiten. Firmen nutzen es jetzt schon um ihre Geschäftsideen umzusetzen.
 
-Since it’s open-source, the innovative technology that powers Skyledger is available to all. As a true decentralized blockchain network, Skyledger has countless applications. Companies are already using it to build their businesses.
+Ein Beispiel dafür ist Solar Bankers, ein Energielieferant. Solar Bankers nutzt Skyledgers Blockchain um den Energiesektor zu dezentralisieren. Mithilfe von Solar Bankers können Nutzer Solarenergie erzeugen und direkt miteinander handeln. 
 
-One example is Solar Bankers, an energy provider. Solar Bankers uses Skyledger’s blockchain to decentralize the energy sector. With Solar Bankers, users can generate solar electricity and trade it directly with one another.
+Solar Bankers und andere Firmen entscheiden sich dafür ihre Währungen in Skyledger aufzubauen, da Skyledger die beste Verschlüsselung, Geschwindigkeit und Zuverlässigkeit seiner Art bietet. Außerdem ist es absolut privat. 
 
-Solar Bankers and other companies choose to build their currencies on Skyledger technology because Skyledger offers best-in-class encryption, speed, and reliability. Plus, it’s absolutely private.
+Skyledger erlaubt es Nutzern ihre eigene Kryptowährungen auf einer gemeinsamen Plattform zu erschaffen. Im Gegensatz zu Ethereum, bietet Skyledger eine private Blockchain die nicht mit anderen Währungen geteilt wird. Es nutzt verbesserte Verschlüsselung und eine einzigartige Methode um Transaktionen zu verifizieren, welche es unabänderlich und immun gegen 51% Attacken macht.
 
-Skyledger lets users create their own cryptocurrencies using a common platform. Unlike Ethereum, Skyledger provides a private blockchain that isn’t shared among other currencies. It uses improved encryption and a unique method for verifying transactions that makes it immutable and immune to 51% attacks.
+Ein Vorteil der privaten Blockchain ist eine erhöhte Transaktionsgeschwindigkeit. Unternehmen brauchen eine dedizierte Blockchain um Verlangsamungen zu vermeiden, die durch andere Verwendungen des Netzwerks entstehen können. Ethereum strauchelte kürzlich aufgrund dieses Problems mit dem [CryptoKittes Wahn](http://www.bbc.co.uk/news/technology-42237162), welcher jetzt für 10% des Netzwerkverkehrs verantwortlich ist. CryptoKitties hat zu einer dramatischen Verlangsamung der Transaktionen bei Ethereum geführt. Skyledgers zweckbestimmte Blockchain verhindert diese Art von Problem.
 
-One advantage of the private blockchain is enhanced transaction speed. Businesses need a dedicated blockchain to prevent slowdowns caused by other uses of the network. Ethereum recently struggled with this problem with the [CryptoKittes craze](http://www.bbc.co.uk/news/technology-42237162), which now accounts for over 10% of network traffic. CryptoKitties has resulted in a dramatic slowdown of transactions on ETH. Skyledger’s dedicated blockchain prevents this sort of thing from happening.
-
-Skyledger represents the real future of blockchain. It’s a truly decentralized network where transactions are fast and secure. It supports Skywire, an alternate ISP that gives users control over their use of the internet. It’s energy-efficient and streamlined. Best of all, it offers community consensus through its Obelisk algorithm. Skyledger is empowering users by providing what Bitcoin couldn’t: a decentralized, peer-to-peer internet economy.
-
+Skyledger stellt die wahre Zukunft der Blockchain dar. Es ist ein wahrhaft dezentralisiertes Netzwerk, in welchem Transaktionen schnell und sicher sind. Es unterstützt Skywire, einen alternativen Internetdienstanbieter der seinen Nutzern die Kontrolle über ihre Nutzung des Internets überlässt. Es ist energieeffizient und schnittig. Das Beste von Allem, es bietet Konsens innerhalb der Gemeinschaft durch den Obelisk Algorithmus. Skyledger befähigt Nutzer indem es das bietet, was Bitcoin nicht anbieten konnte: eine dezentrale, Peer-to-Peer Internet Ökonomie.
