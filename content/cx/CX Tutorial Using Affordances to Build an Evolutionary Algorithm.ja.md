@@ -1,5 +1,5 @@
 +++
-title = "CX Tutorial: Using Affordances to Build a Small Text-based Adventure"
+title = "CXチュートリアル: アフォーダンスを使って小さなテキストベースのアドベンチャーを構築する"
 tags = [
     "CX",
     "CX Tutorials",
@@ -14,29 +14,22 @@ categories = [
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="2" -->
 
-- [Introduction](#introduction)
-- [Challenge-response Architecture](#challenge-response-architecture)
-- [Affordance System](#affordance-system)
-- [Objects](#objects)
-- [Conclusion](#conclusion)
+- [イントロダクション](#introduction)
+- [チャレンジ-レスポンス アーキテクチャ](#challenge-response-architecture)
+- [アフォーダンスシステム](#affordance-system)
+- [オブジェクト](#objects)
+- [結論](#conclusion)
 
 <!-- /MarkdownTOC -->
 
-# Introduction
+# イントロダクション
 
-This tutorial presents a text-based "game" (the user does not interact
-with the program, and can not influence the character's decisions) that uses a
-[challenge-response architecture](#challenge-response-architecture) to
-determine what are the possible actions the game's character can
-do. The full source-code can be found in
-[CX's repository](https://github.com/skycoin/cx), in the file *examples/text-based-adventure.cx*.
+このチュートリアルでは、チャレンジ-レスポンス アーキテクチャーを使用して、ゲームのキャラクターが実行可能なアクションが何であるかを判断する、テキストベースの「ゲーム」（ユーザーがプログラムとやりとりすることはなく、キャラクターの意思決定に影響を与えることはできない）を示します 。
+完全なソースコードは、 [CXのリポジトリ](https://github.com/skycoin/cx)の*examples/text-based-adventure.cx*ファイルにあります。
 
-The game describes the adventure of a traveler that is escaping from a
-monster (Halloween is coming next month, after all). If the traveler
-survives certain number of hours (well, these are just iterations in a
-*for* loop), the monster will stop chasing the traveler. An example of
-a session is below:
-
+このゲームは、モンスターから逃れる旅行者の冒険を描いています（ハロウィンはとうとう来月に迫っています）。
+旅行者が特定の時間を生き抜いた場合（これは*for*ループの繰り返しです）、モンスターは旅行者の追跡をやめます。
+セッションの例は次のとおりです。
 
 ```
 The traveler keeps following the lane, making sure to ignore any pain.
@@ -50,9 +43,8 @@ The traveler runs away, and cowardice lets him live for another day.
 
 You survived.
 ```
-
-If the traveler decides to fight the monster and his heroic attempt
-fails, the game ends. An example of a game ending is:
+旅行者がモンスターと戦うことを決意し、彼の英雄的な試みが失敗した場合、ゲームは終了します。
+ゲームのエンディングの例は次のとおりです。
 
 ```
 North, east, west, south. Any direction is good,
@@ -72,19 +64,14 @@ halt() Arguments:
 
 65: call to halt
 ```
+ご覧のように、あなたが死ぬとエラーが発生します（これはプログラマーにとって恐ろしい状況です）。
 
-As you can see, an error is raised if you die (this is suitable, as
-it's a scary situation for a programmer).
+# チャレンジ-レスポンス アーキテクチャ
 
-# Challenge-response Architecture
+このアーキテクチャでは、質問が提起され、異なるエージェント（この場合は関数）がその質問に答える必要があります。
+問われ得るシンプルな質問は、「誰がこの時点で実行され得るか？」であり、実行が許されている機能はそうするでしょう。
 
-In this architecture, a question is raised and different agents (in
-this case, functions) must answer to that question. A simple question
-that can be asked is "Who can be executed at this moment?" and those
-functions that are allowed to execute will do so.
-
-The following function prototypes represent the possible actions that
-can occur during the traveler's adventure.
+次の関数プロトタイプは、旅行者の冒険中に発生する可能性があるアクションを表しています。
 
 ```
 func walk (flag bool) () {}
@@ -95,11 +82,10 @@ func fightResult (flag bool) () {}
 func theEnd (flag bool) () {}
 ```
 
-# Affordance System
+# アフォーダンスシステム
 
-Another function must coordinate the function calls. In this case,
-CX's affordance system is used to determine if an action is allowed to
-run or not.
+別の関数は関数呼び出しを整合させる必要があります。
+この場合、CXのアフォーダンスシステムが、アクションの実行が許されているかどうかを決定することに使われます。
 
 ```
 yes := true
@@ -111,18 +97,12 @@ affExpr("walk", "yes|no", 0)
 walk(false)
 ```
 
-In the code above, *remArg()* looks for an expression with the "walk"
-tag and removes its argument. This is done in order to make the
-affordance system list the arguments that can be sent to the
-expression's operator. Next, *affExpr()* is telling CX "among all the
-arguments that can be sent to *walk*, tell me if *yes* or no *no* can
-be used as arguments, and apply the *0th* option from the affordance
-list that you return."
+上記のコードでは、*remArg()* は "walk"タグを持つ式を探し、その引数を削除します。
+これは、式の演算子に送ることができる引数をアフォーダンスシステムに列挙させるために行われます。
+次に、*affExpr()*　はCXに、「*walk*に送ることができるすべての引数の中で、*yes* か *no* が引数として使えるか私に教えてくれ、そしてあなたが返すアフォーダンスリストのインデックス0のオプションを適用してくれ」と指示します。
 
-The previous procedure is applied to all the actions that can happen
-during the traveler's adventure. For each of these actions, the
-following rules are queried to determine if the action should be
-allowed or not:
+前の手順は、旅行者の冒険の間に起こり得るすべての行動に適用されます。
+これらのアクションごとに、アクションが許可されるべきかどうかを決定するために、次のルールが照会されます。
 
 ```
 setClauses("
@@ -141,42 +121,29 @@ setClauses("
         ")
 ```
 
-The first rule can be read as "I will be queried if you're considering
-to send the *yes* argument to the *walk* action. If the object
-*monster* is present, then this argument is *not* an option."
+最初のルールは、「あなたが*walk*アクションに*yes*引数を送ることを検討しているなら、このルールは照会されます。オブジェクト*monster*が存在する場合、この引数はオプションではありません。
 
-The rules in the second block (the 4 rules after the first empty line)
-tell the affordance system to "never" accept a *yes* argument. We do
-this because we want this to be the default behaviour, but we can
-later declare rules that override this behaviour. This override
-process happens with the last 4 rules. Basically, this block of rules
-is telling CX to accept *yes* as arguments if a particular object is
-present in the object stack.
+2番目のブロック（最初の空行の後の4つのルール）のルールは、アフォーダンスシステムに*yes*引数を "決して"受け入れないよう指示します。
+これをデフォルトの動作にしたいのでこれを行いますが、後でこの動作をオーバーライドするルールを宣言することができます。
+このオーバーライドプロセスは、最後の4つのルールで発生します。
+基本的に、このルールブロックは、特定のオブジェクトがオブジェクトスタックに存在する場合、引数として*yes*を受け入れるようにCXに指示します。
 
-# Objects
 
-Some of the actions add or remove objects from the object stack. For
-example, whenever the *noise* action decides to make the monster
-appear, *addObject("monster")* is executed. If the traveler decides to
-run away from the fight, the "monster" object is removed from the
-stack.
+# オブジェクト
 
-In the case of the *chance* action, the monster can decide to spare
-the traveler a few more seconds to see what he will decide to do
-next. To do this, the "fight" object is removed (as the monster does
-not want to start a fight yet), but the "monster" object remains.
+いくつかのアクションは、オブジェクトスタックにオブジェクトを追加または削除します。
+例えば、*noise*アクションがモンスターを出現させることを決めると、*addObject("monster")* が実行されます。
+旅行者が戦いから逃げることを決定した場合、「モンスター」オブジェクトはスタックから取り除かれます。
 
-# Conclusion
+*chance*アクションの場合は、モンスターは、旅行者が何を次にすると決めるかを確認するために、彼に数秒与えることを決定できます。
+これを行うには、「戦闘」オブジェクトが削除されます（モンスターはまだ戦いを開始したくないため）、しかし、「モンスター」オブジェクトは残ります。
 
-CX's affordance system uses objects and rules to make complex
-decisions about how affordances are going to be filtered.
+# 結論
 
-By using objects, we can decide what actions will be activated or
-deactivated. For this example, a small amount of actions are being
-considered for this activation process, and the benefit of using this
-architecture could seem worthless at first sight. Nevertheless, more
-complex rules involving more objects could be defined, and a single
-rule could be in charge of activating several nodes in a big network
-of actions. Also, in this example only two possible arguments are
-considered: *yes* and *no*; we could have more arguments, and actions
-that accept different types of arguments other than booleans.
+CXのアフォーダンスシステムは、オブジェクトとルールを使用して、アフォーダンスをどのようにフィルタリングするかについて複雑な決定を行います。
+
+オブジェクトを使用することで、どのアクションを有効または無効にするかを決めることができます。
+この例では、この有効化プロセスでは少量のアクションが考慮されています。
+このアーキテクチャを使用する利点は、一見すると無意味に見える可能性があります。
+それにもかかわらず、より多くのオブジェクトを含むより複雑なルールを定義することができ、単一のルールは、大規模なネットワークで複数のノードを有効化する役割を担うことができます。
+また、この例では、考えられる2つの引数*yes*と*no*のみが考慮されますが、より多くの引数や、ブーリアン以外のさまざまな種類の引数を受け入れるアクションを持つこともできます。
