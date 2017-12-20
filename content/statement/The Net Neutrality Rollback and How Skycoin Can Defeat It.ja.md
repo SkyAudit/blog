@@ -4,7 +4,7 @@ tags = [
     "Statement",
     "Net Neutrality",
 ]
-bounty = 3
+bounty = 6
 date = "2017-12-12"
 categories = [
     "Net Neutrality",
@@ -12,31 +12,57 @@ categories = [
 ]
 +++
 
-In 2015, the FCC instituted net neutrality rules classifying the internet as a public utility. This prevented internet service providers (ISPs) from prioritizing certain websites over others and encouraged a free and open internet where all businesses and individuals could thrive.
+2015年にFCCはインターネットを公益事業として分類するネット中立性ルールを制定しました。 これにより、インターネットサービスプロバイダ（ISP）は、特定のWebサイトを他のサイトより優先させることを防ぎ、すべての企業や個人が繁栄できる自由でオープンなインターネットを奨励しました。
 
-Now, under Trump-appointed FCC chairman Ajit Pai, a vote to slash net neutrality protections is looming. Pai was nominated for a second five-year term on October 2 despite widespread outcry over his agenda. Petitions with tens of thousands of signatures were powerless to prevent this outcome. With Pai in charge, it’s only a matter of time before net neutrality is dismantled.
+今、トランプに任命されたFCCのAjit Pai議長のもとでは、ネットの中立性保護を廃止する投票が迫っています。Pai議長は10月2日に彼の議題に対する広範な抗議にもかかわらず、2年目の5年任期に指名されました。この結果を防ぐための数万の署名を伴う請願は無力でした。 Pai議長のネットの中立性を取り壊す作業は、時間の問題となりました。
 
-## What does an internet without net neutrality look like?
+## 中立性のないインターネットはどのようなものなのか？
 
-Imagine this: you go online, but you can only see a small set of pre-approved websites backed by a single corporate ISP. You want to stream a movie, but you can’t afford the bandwidth. You look for the movie on another service, but you can’t legally access it because your ISP bans you. Free sites now have an access charge. Other sites are blocked and vanish from search results. You can’t find your friend’s blog or contact the small business down the street. Your ISP collects your data and monitors your actions online, controlling everything you see and how you see it – and you can’t do a thing about it.
+想像してみましょう：あなたはオンラインになっても、単一の企業ISPによってサポートされている事前承認された少数のWebサイトしか見ることができません。
+あなたがムービーをストリーミングしたいと思っても、帯域幅がありません。
+あなたは別のサービスで映画を探そうとしますが、あなたのISPがそれを禁止するため、合法的にアクセスすることは出来ません。
+現在無料のサイトであっても、その時にはアクセス料金がかかります。
+他のサイトはブロックされ、検索結果から消滅します。
+あなたの友人のブログを見つけることや通り沿いの小規模店舗に連絡することもできません。
+あなたのISPはあなたのデータを収集し、あなたの行動をオンラインで監視し、あなたが何をどのように見ているか、全てをコントロールします。
+そして、あなたはそれについて何もすることはできません。
 
-## Without net neutrality, the internet no longer belongs to you. It belongs to Them.
+## ネットの中立性がなければ、もはやインターネットはあなたのものではなく、彼らのものです。
 
+これは私たちが見ようとしている世界です。 
+Pai議長の下でFCCは、殆ど確実に、恐喝代金を払う事の出来ないwebサイトを抑圧するISPを許すための規制緩和のコースを追求するでしょう。
+そこから、オンラインの双方向性、芸術と革新の検閲と死は短期間でやってきます。
 
-This is the world we’re about to see. Under Pai, the FCC will almost certainly pursue a course of deregulation that will allow ISPs to throttle websites who can’t pay their ransom. From there, it’s a short step to censorship and the death of online interaction, art, and innovation.
+今夏のPai議長に対する批判への無反応は、ネット中立性の後退を食い止めるために、従来の手法に頼れないことを示しています。
+我々は別の解決策が必要です。 
+そこでSkycoinの登場です。
 
-The non-response to outcry against Pai this summer shows that we can’t rely on traditional means to stop the net neutrality rollback. We need a different solution. That’s where Skycoin comes in.
+Skycoinの技術は、新しいインターネットを作り出します。
+これは、ISPを迂回して制御をユーザに戻すピアツーピアネットワークを提供します。 
+あなたは、抑制、ブロッキング、または検閲されることなく自由にコンテンツを共有することができます。
+それは高速で、プライベートで、暗号化されており、最大限に安全です。
+加えて、 Skycoinネットワークの決定は、利益を求める企業ではなく地域社会のコンセンサスによって決まります。
 
-Skycoin technology creates an alternative internet. It provides a peer-to-peer network that circumvents ISPs to deliver control back to the user. You can share content freely without throttling, blocking, or censorship. It’s fast, private, and encrypted to be maximally secure. Plus, decisions on the Skycoin network are controlled by community consensus, not by corporations looking for a profit.
+ピアツーピア技術では、あなたの主体性と、コンテンツへのデータアクセスを諦めるようなことを要求しません。 
+Skycoinのネットワーク、すなわちSkywireは、安全かつ個人的に閲覧することができるブロックチェーンベースの分散型ネットワークを提供します。
+Skywireを使用すると、あなた自身のデータを所有し、あなたの体験をコントロールできます。
+Skywireの "マイナー"は、この新しいインターネットのバックボーンです。 
+このマイナーはユーザーに、ネットワークノードの展開、ネットワークトラフィックの転送、またはリソースの寄与によってSkycoinを獲得させます。
+Skycoinシステムは、ユーザーがネットワークの成長と実行可能性に責任を負う、フリーでコミュニティベースのモデルを奨励します。
+搾取的な企業ISPのコントロールを諦める代わりに、ユーザーは自分の体験を生み出します。 
+Skywireは自立し、独立しています。
 
-Peer-to-peer technology doesn’t require you to give up your identity and data to access content. Skycoin’s network, Skywire, provides a blockchain-based decentralized network where you can browse securely and privately. With Skywire, you own your data and control your own experience.
-The Skywire “miner” is the backbone of this new internet. This miner lets users earn Skycoins by deploying network nodes, forwarding network traffic, or contributing resources. The Skycoin system incentivizes a free and community-based model whereby users take responsibility for the network’s growth and viability. Instead of giving up control to exploitative corporate ISPs, users create their own experience. Skywire is self-sustaining and independent.
+自由でオープンなインターネットの利点は明らかです。 
+平等なアクセスとネット中立的な保護が整っているため、ユーザーはブロッキング、監視、法的脅威の恐れなしに、必要なコンテンツを見つけることができます。 
+小規模な企業は、困難に抑圧されることなく、革新していくことができます。
+また、公共の利益として、健康から政策に至るまでのトピックの透明性を向上させることができます。
+芸術はより広範な層にアクセス可能となり、多様な考え方を聞くことが出来ます。
+ユーザーは、限られた数の企業製品を使用するよりも、独自のコンテンツを選択して作成することができます。
 
+フリーでオープンなインターネットはこれまで以上に攻撃を受けています。
+今年、FCCがネットの中立規制を支持しないのであれば、私たち次第で、コントロールを取り戻し、インターネットがすべての人が平等に利用できる公的資源であることの確認をすることができます。
 
-The advantages of a free and open internet are clear. With equal access and net-neutral protections in place, users can find the content they want without fear of blocking, surveillance, or legal threats. Smaller businesses can innovate without being smothered. The public benefits from increased transparency on topics ranging from policy to health. Art becomes accessible to a broader demographic, and diverse perspectives can be heard. Users can choose and create their own content, rather than consuming a limited set of corporate products.
-
-
-Free and open internet is under attack now more than ever. If the FCC won’t back net neutrality legislation this year, it’s up to us to regain control and make sure the internet remains a public resource equally available to everyone.
-
-
- The Skywire network proves that we don’t need to rely on ISPs to explore the internet. Skywire’s protocol and custom-built hardware provides a global, decentralized network that’s fair and user-centric. With this network, the Skywire community can defeat the FCC’s planned rollback of net neutrality and bring the internet back to you and other users where it belongs. We can create a free and open internet for all.
+Skywireネットワークは、インターネットを探検するためにISPに頼る必要がないことを証明しています。 
+Skywireのプロトコルとオーダーメードのハードウェアは、公平でユーザー中心のグローバルな分散型ネットワークを提供します。
+このネットワークにより、Skywireコミュニティは、FCCの計画されたネット中立性の後退を打ち負かし、インターネットをあなたと他のユーザーに戻すことができます。 
+私たちはすべての人に無料でオープンなインターネットを作ることができます。
