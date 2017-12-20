@@ -1,5 +1,5 @@
 +++
-title = "The Net Neutrality Rollback and How Skycoin Can Defeat It"
+title = "ネット中立性の後退とSkycoinが克服する方法"
 tags = [
     "Statement",
     "Net Neutrality",
