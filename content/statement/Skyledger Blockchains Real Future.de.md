@@ -31,7 +31,7 @@ Der Hauptverantwortliche für den verschwenderischen Energiebedarf von Bitcoin i
 
 Nicht nur spart Skyledger Ressourcen, es versorgt seine Nutzer auch mit wertvollen Diensten. Der Mehrwert kommt in Form von Skywire, einem dezentralisierten Internetdienstanbieter (ISP). Nutzer von Skywire geben und bekommen Skycoins für das Konsumieren bzw. für das Weiterleiten von Ressourcen. Es ist ein autarkes Peer-to-Peer Netzwerk, dass den Bedarf an Internetdienstanbietern eliminiert und den Nutzern die Kontrolle über ihre Interneterfahrung zurück gibt.
 
-Da das Projekt quelloffen (open source) ist, steht die innovative Technologie, auf der Skyledger läuft, allen Menschen zur Verfügung. Als ein wahres dezentralisiertes Blockchain Netzwerk hat Skyledger unzählige Einsatzmöglichkeiten. Firmen nutzen es jetzt schon um ihre Geschäftsideen umzusetzen.
+Da das Projekt quelloffen (open source) ist, steht die innovative Technologie, die Skyledger darstellt, allen Menschen zur Verfügung. Als ein wahres dezentralisiertes Blockchain Netzwerk hat Skyledger unzählige Einsatzmöglichkeiten. Firmen nutzen es jetzt schon um ihre Geschäftsideen umzusetzen.
 
 Ein Beispiel dafür ist Solar Bankers, ein Energielieferant. Solar Bankers nutzt Skyledgers Blockchain um den Energiesektor zu dezentralisieren. Mithilfe von Solar Bankers können Nutzer Solarenergie erzeugen und direkt miteinander handeln. 
 
