@@ -15,7 +15,8 @@ Bitcoin sollte eine neue Ökonomie, basierend auf dezentralisierter Blockchainte
 
 Die Entwickler von Skycoin haben verstanden, dass Bitcoin verdammt war zu scheitern und haben sich demzufolge aufgemacht eine Lösung zu kreieren. Das Ergebnis dieses Prozesses ist Skyledger, eine Blockchain Plattform der dritten Generation, die Geschwindigkeit, Sicherheit, Privatsphäre und ein wahrhaft dezentrales Blockchainnetzwerk liefert. Konsens ist bei Skyledger bestimmt durch die gesamte Gemeinschaft - anstelle von einigen, wenigen Individuen. Es ist eine technisch überlegene Plattform die die Fehler von Bitcoin ausmerzt und den Weg für eine besserer Zukunft der Blockchain Technologie ebnet.
 
-## Skyledger beseitigt Gebühren, Zentralisation und Müll
+
+## Skyledger beseitigt Gebühren, Zentralisation und Abfall
 
 Der Kernpunkt der Probleme von Bitcoin ist sein Mining System. Miner kämpfen um die Kontrolle des Netzwerks mithilfe von Transaktionsgebühren. Durch das Fluten des Netzwerks durch Transaktionen, halten sie es als Geisel gefangen und forcieren steigende Transaktionskosten. Währendessen vereinigen sich die Miner um eine kleine Anzahl zentralisierter Mining Pools zu bilden, welche das gesamte Netzwerk kontrollieren. Dadurch fördert Bitcoin eine zentralisierte Mining Struktur, welche sich feindselig gegenüber der Community als Ganzes verhält.
 
@@ -42,3 +43,4 @@ Skyledger erlaubt es Nutzern ihre eigene Kryptowährungen auf einer gemeinsamen 
 Ein Vorteil der privaten Blockchain ist eine erhöhte Transaktionsgeschwindigkeit. Unternehmen brauchen eine dedizierte Blockchain um Verlangsamungen zu vermeiden, die durch andere Verwendungen des Netzwerks entstehen können. Ethereum strauchelte kürzlich aufgrund dieses Problems mit dem [CryptoKittes Wahn](http://www.bbc.co.uk/news/technology-42237162), welcher jetzt für 10% des Netzwerkverkehrs verantwortlich ist. CryptoKitties hat zu einer dramatischen Verlangsamung der Transaktionen bei Ethereum geführt. Skyledgers zweckbestimmte Blockchain verhindert diese Art von Problem.
 
 Skyledger stellt die wahre Zukunft der Blockchain dar. Es ist ein wahrhaft dezentralisiertes Netzwerk, in welchem Transaktionen schnell und sicher sind. Es unterstützt Skywire, einen alternativen Internetdienstanbieter der seinen Nutzern die Kontrolle über ihre Nutzung des Internets überlässt. Es ist energieeffizient und schnittig. Das Beste von Allem, es bietet Konsens innerhalb der Gemeinschaft durch den Obelisk Algorithmus. Skyledger befähigt Nutzer indem es das bietet, was Bitcoin nicht anbieten konnte: eine dezentrale, Peer-to-Peer Internetökonomie.
+
