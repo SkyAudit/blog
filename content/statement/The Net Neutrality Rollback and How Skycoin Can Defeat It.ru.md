@@ -1,5 +1,5 @@
 +++
-title = "The Net Neutrality Rollback and How Skycoin Can Defeat It"
+title = "Отмена сетевого нейтралитета и как Skycoin может победить его"
 tags = [
     "Statement",
     "Net Neutrality",
@@ -12,31 +12,27 @@ categories = [
 ]
 +++
 
-In 2015, the FCC instituted net neutrality rules classifying the internet as a public utility. This prevented internet service providers (ISPs) from prioritizing certain websites over others and encouraged a free and open internet where all businesses and individuals could thrive.
+В 2015 году FCC установила правила сетевого нейтралитета, классифицирующие Интернет как общественную полезность. Они предотвращают провайдерам интернет-услуг (ISP) устанавливать приоритеты одних вебсайтов над другими и поощряют бесплатный и открытый интернет, где все предприятия и отдельные лица могли бы процветать.
 
-Now, under Trump-appointed FCC chairman Ajit Pai, a vote to slash net neutrality protections is looming. Pai was nominated for a second five-year term on October 2 despite widespread outcry over his agenda. Petitions with tens of thousands of signatures were powerless to prevent this outcome. With Pai in charge, it’s only a matter of time before net neutrality is dismantled.
+Теперь, при назначенным Трампом председателе FCC Аджит Паи, вырисовывается голосование по отмене защиты сетевого нейтралитета. Пай был назначен на второй пятилетний срок 2 октября, несмотря на широкомасштабный протест против его повестки дня. Петиции с десятками тысяч подписей были бессильны, чтобы предотвратить такое решение. С ответственным Паем, это всего лишь вопрос времени, когда сетевого нейтралитет будет демонтирован.
 
-## What does an internet without net neutrality look like?
+## Как выглядит интернет без сетевого нейтралитета?
 
-Imagine this: you go online, but you can only see a small set of pre-approved websites backed by a single corporate ISP. You want to stream a movie, but you can’t afford the bandwidth. You look for the movie on another service, but you can’t legally access it because your ISP bans you. Free sites now have an access charge. Other sites are blocked and vanish from search results. You can’t find your friend’s blog or contact the small business down the street. Your ISP collects your data and monitors your actions online, controlling everything you see and how you see it – and you can’t do a thing about it.
+Представьте себе: вы заходите в Интернет, но вы можете видеть только небольшой набор предварительно одобренных сайтов, поддерживаемых одним корпоративным интернет-провайдером. Вы хотите посмотреть фильм, но у вас не будет соответствующей пропускной способности. Вы ищете фильм на другом сайте, но вы не можете законно получить к нему доступ, потому что ваш интернет-провайдер запрещает это. Теперь бесплатные сайты имеют плату за доступ. Другие сайты блокируются и исчезают из результатов поиска. Вы не можете найти блог своего друга или связаться с ближайшим малым бизнесом. Ваш интернет-провайдер собирает ваши данные и отслеживает ваши действия в Интернете, контролирует все, что вы видите и как вы его видите, - и вы не можете ничего с этим поделать.
 
-## Without net neutrality, the internet no longer belongs to you. It belongs to Them.
+## Без сетевого нейтралитета Интернет больше не принадлежит вам. Он принадлежит Им.
 
+Это тот мир, который мы сейчас увидим. При Пае FCC почти наверняка продолжит курс дерегулирования, который позволит интернет-провайдерам задерживать сайты, которые не могут заплатить свой выкуп. А это короткий шаг к цензуре и гибели интерактивного взаимодействия, искусства и инноваций.
 
-This is the world we’re about to see. Under Pai, the FCC will almost certainly pursue a course of deregulation that will allow ISPs to throttle websites who can’t pay their ransom. From there, it’s a short step to censorship and the death of online interaction, art, and innovation.
+Не выражение протеста против Пая этим летом показывает, что мы не можем полагаться на традиционные средства, чтобы остановить отмену нейтрального нейтралитета. Нам нужно другое решение. И тут появляется Skycoin.
 
-The non-response to outcry against Pai this summer shows that we can’t rely on traditional means to stop the net neutrality rollback. We need a different solution. That’s where Skycoin comes in.
+Технология Skycoin создает альтернативный Интернет. Он обеспечивает одноранговую сеть, которая обходит интернет-провайдеров в возвращении контроля назад пользователю. Вы можете свободно делиться контентом без регулирования, блокировки или цензуры. Это быстро, закрыто и зашифрованно для обеспечении максимальной безопасности. Кроме того, решения о сети Skycoin контролируются консенсусом сообщества, а не корпорациями, ищущими прибыль.
 
-Skycoin technology creates an alternative internet. It provides a peer-to-peer network that circumvents ISPs to deliver control back to the user. You can share content freely without throttling, blocking, or censorship. It’s fast, private, and encrypted to be maximally secure. Plus, decisions on the Skycoin network are controlled by community consensus, not by corporations looking for a profit.
+Одноранговая технология не требует, чтобы вы отказались от своей личности и данных для доступа к контенту. Сеть Skycoin, Skywire, обеспечивает децентрализованную сеть на основе Blockchain, где вы можете безопасно и конфиденциально находиться в Интернете. С помощью Skywire вы владеете своими данными и управляете своим собственным опытом.
+Майнер Skywire является основой этого нового Интернета. Этот майнер позволяет пользователям зарабатывать Skycoins, развертывая сетевые узлы, перенаправляя сетевой трафик или предоставляя ресурсы. Система Skycoin стимулирует свободную и основанную на сообществе модель, посредством которой пользователи берут на себя ответственность за рост и жизнеспособность сети. Вместо того, чтобы передать контроль эксплуататорским интернет-провайдерами, пользователи сами создают собственный опыт. Skywire является самодостаточным и независимым.
 
-Peer-to-peer technology doesn’t require you to give up your identity and data to access content. Skycoin’s network, Skywire, provides a blockchain-based decentralized network where you can browse securely and privately. With Skywire, you own your data and control your own experience.
-The Skywire “miner” is the backbone of this new internet. This miner lets users earn Skycoins by deploying network nodes, forwarding network traffic, or contributing resources. The Skycoin system incentivizes a free and community-based model whereby users take responsibility for the network’s growth and viability. Instead of giving up control to exploitative corporate ISPs, users create their own experience. Skywire is self-sustaining and independent.
+Преимущества бесплатного и открытого Интернета очевидны. При наличии равного доступа и защиты сетевого нейтралитета пользователи могут найти контент, который они хотят, не опасаясь блокировки, наблюдения или юридических угроз. Малые компании могут внедрять инновации, не будучи задушенными. Общественность пользуется большей прозрачностью по темам, начиная от политики и заканчивая здоровьем. Искусство становится доступным для более широкой общественности, и разнообразные перспективы могуб быть услышаны. Пользователи могут выбирать и создавать свой собственный контент, а не потреблять ограниченный набор корпоративных продуктов.
 
+Бесплатный и открытый Интернет сейчас под атакой больше, чем когда-либо. Если в этом году FCC не вернется к законодательству о сетевого нейтралитете, то мы должны восстановить контроль, и быть уверенными, что Интернет остается общедоступным ресурсом, одинаково доступным для всех.
 
-The advantages of a free and open internet are clear. With equal access and net-neutral protections in place, users can find the content they want without fear of blocking, surveillance, or legal threats. Smaller businesses can innovate without being smothered. The public benefits from increased transparency on topics ranging from policy to health. Art becomes accessible to a broader demographic, and diverse perspectives can be heard. Users can choose and create their own content, rather than consuming a limited set of corporate products.
-
-
-Free and open internet is under attack now more than ever. If the FCC won’t back net neutrality legislation this year, it’s up to us to regain control and make sure the internet remains a public resource equally available to everyone.
-
-
- The Skywire network proves that we don’t need to rely on ISPs to explore the internet. Skywire’s protocol and custom-built hardware provides a global, decentralized network that’s fair and user-centric. With this network, the Skywire community can defeat the FCC’s planned rollback of net neutrality and bring the internet back to you and other users where it belongs. We can create a free and open internet for all.
+Сеть Skywire доказывает, что нам не нужно полагаться на интернет-провайдеров для работы в Интернете. Протокол Skywire и настраиваемое оборудование обеспечивают глобальную, децентрализованную сеть, которая является справедливой и ориентированной на пользователя. С помощью этой сети сообщество Skywire может победить запланированную FCC отмену сетевого нейтралитета и вернуть Интернет к вам и другим пользователям, кому он принадлежит. Мы можем создать бесплатный и открытый Интернет для всех.
