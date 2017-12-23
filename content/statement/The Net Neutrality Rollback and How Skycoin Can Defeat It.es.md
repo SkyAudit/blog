@@ -18,7 +18,7 @@ Ahora, bajo el mandato del presidente de la FCC designado por Trump, Ajit Pai, s
 
 ## ¿Cómo se ve una Internet sin neutralidad de red?
 
-Imagine esto: se conecta en línea, pero solo puede ver un pequeño conjunto de sitios web aprobados previamente por un único ISP corporativo. Desea ver una película online, pero no puede pagar el ancho de banda. Busca la película en otro servicio, pero no puede acceder legalmente porque su ISP lo prohíbe. Los sitios gratuitos ahora tienen una cuota de acceso. Otros sitios están bloqueados y desaparecen de los resultados de búsqueda. No puede encontrar el blog de su amigo o ponerse en contacto con la pequeñas empresas  cercanas. Su ISP recopila sus datos y monitorea sus acciones en línea, controlando todo lo que ve y cómo lo ve, y no puede hacer nada al respecto.
+Imagine esto: se conecta en línea, pero solo puede ver un pequeño conjunto de sitios web aprobados previamente por un único ISP corporativo. Desea ver una película online, pero no puede pagar el ancho de banda. Busca la película en otro servicio, pero no puede acceder legalmente porque su ISP lo prohíbe. Los sitios gratuitos ahora tienen una cuota de acceso. Otros sitios están bloqueados y desaparecen de los resultados de búsqueda. No puede encontrar el blog de su amigo o ponerse en contacto con las pequeñas empresas cercanas. Su ISP recopila sus datos y monitorea sus acciones en línea, controlando todo lo que ve y cómo lo ve, y no puede hacer nada al respecto.
 
 ## Sin la neutralidad de red, la Internet ya no te pertenece. Les pertenece.
 
