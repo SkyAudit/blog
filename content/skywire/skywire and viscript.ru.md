@@ -30,11 +30,11 @@ categories = [
     path: bin/meshnet/meshnet-run-socks-server
     default_args: []
     help: |
-        [1] Text name of app, must be unique  (текстовое наименование приложения, должно быть уникальным)
-        [2] Node address which app will be talked with. ex 101.202.34.56:9000  (адрес узла, с которым приложение будет связываться)
-        [3] Port which socks server will use for connecting with target host. ex 8000  (порт, который SOCKS сервер будет использовать для соединения с целевым хостом)
+        [1] Текстовое наименование приложения (должно быть уникальным).
+        [2] Адрес узла, с которым приложение будет связываться. ex 101.202.34.56:9000
+        [3] Порт, который SOCKS сервер будет использовать для соединения с целевым хостом. ex 8000
 
-        Full Example Command (полный пример команды):
+        Полный пример команды:
             start meshnet-socks-server sockssrv0 101.202.34.56:9000 8001
 ```
 
