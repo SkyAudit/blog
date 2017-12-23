@@ -79,7 +79,7 @@ No puedo encontrarlo en Google
 
 **Synth** *[En respuesta a Artem Kotelskiy]*
 
-El profesor de Chen. El coautor quiere que los documentos sean retirados. Él no entiende blockchain y piensa que el gobierno chino está atacando blockchain y que el documento puede meterlo en problemas.
+El profesor de Chen. El coautor quiere que los documentos sean retirados. Él no entiende la tecnología blockchain y piensa que el gobierno chino está atacando la tecnología blockchain y que el documento puede meterlo en problemas.
 
 **Synth**
 
