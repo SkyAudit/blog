@@ -1,5 +1,5 @@
 +++
-title = "Skyledger: Die wahre Zukunft der Blockchain”
+title = "Skyledger: Die wahre Zukunft der Blockchain"
 tags = [
     "Statement",
     "Skyledger",
