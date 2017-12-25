@@ -1,5 +1,5 @@
 +++
-title = "革新的なSkycoin Blockchainを採用した企業の一例　SolarBankers（太陽銀行)"
+title = "革新的なSkycoin Blockchainを採用した企業の一例　SolarBankers（太陽銀行）"
 tags = [
     "Statement",
     "Skyledger",
@@ -11,23 +11,45 @@ categories = [
     "Skyledger",
 ]
 +++
+より速いスピード、より良いセキュリティ、より良いプライバシー - Skycoinは、オープンソースプラットフォームを通じてこれらの利点をすべて提供します。
+Skycoinを支える革新的な技術はすべての人に利用可能です。 
+今日、ますます多くの企業がSkycoinの利点に注目し、ビジネスを構築するために使用しています。
 
-Better speed, better security, better privacy – Skycoin offers all these advantages through its open-source platform. The innovative technology that powers Skycoin is available to all. Today, more and more companies are taking note of Skycoin’s benefits and using it to build their businesses.
+一例は、革新的な新エネルギー企業であるSolar Bankersです。 
+Solar Bankersはエネルギー事業を分散させるためにブロックチェーンの力を利用しています。
+Solar Bankersを使用すると、ユーザーは特許取得済みのハイテクなソーラーデバイスを通じて家庭でソーラー発電を行うことができます。
+一度エネルギーが収集されると、ユーザーはSunChainとその通貨であるSunCoinを使用して近隣のユーザーと直接取引できます。
 
-One example is [Solar Bankers](https://solarbankers.com/), a revolutionary new energy company. Solar Bankers is using the power of blockchain to decentralize the energy sector. With Solar Bankers, users can generate solar electricity at their homes through high-tech, patented solar devices. Once the energy is collected, users can trade it directly with their neighbors using SunChain and its currency, SunCoin.
+SunCoinの価格は、市場の需給によって決まります。
+分散型P2Pエネルギー取引では、電力会社に頼る必要はありません。
+これは環境にやさしく、利益をもたらし、力を与える独自のビジネスモデルです。
+ーそして、それはSkycoinプラットフォーム上に構築されています。
 
-SunCoin prices are set by the supply and demand of the market. With decentralized peer-to-peer energy trading, there’s no need to rely on a utility company. It’s a unique business model that’s environmentally friendly, profitable, and empowering -- and it’s all built on the Skycoin platform.
+SkyCoinのように、Sunchainにはマイニングの必要性を排除する合意形成アルゴリズムがあります。
+それはまた、Skycoinのもつスピードとプライバシー、CoinJoinプロトコルを使用した高速な追跡不可能なトランザクションも備えています。
+Solar Bankersは、事業においてスカイコイン技術を利用して財務を分権化し、経済力を個人に還元し、企業の仲買人を排除する方法を示しています。
 
-Like Skycoin, Sunchain has a consensus algorithm that eliminates the need for mining. It also features Skycoin’s speed and privacy, with fast, untraceable transactions that use the CoinJoin protocol. Solar Bankers shows how businesses can use Skycoin technology to decentralize finance, bringing economic power back to the individual and eliminating corporate middlemen.
+Solar Bankersなどの企業は、ある簡単な理由からSkycoinの上に独自通貨を構築することを選択しています。
+それはSkycoinは他のオープンソースプラットフォームより優れた技術的機能を提供しているからです。最高クラスの暗号化、スピード、および信頼性を備えています。 さらに、絶対にプライベートです。
 
-Solar Bankers and other companies choose to build their currencies on Skycoin for one simple reason: Skycoin offers better technical features than other open-source platforms. It has best-in-class encryption, speed, and reliability. Plus, it’s absolutely private.
+Skycoinを使用すると、共通のプラットフォームを使用してユーザーが独自の暗号通貨を作成できます。
+この意味で、ERC20トークンと同様に機能します。
+しかしEthereumとは異なり、Skycoinテクノロジーは事業において、他の通貨とは共有されないプライベートブロックチェーンを提供します。
+Skycoinは、改善された暗号化と、51％アタックに対して改ざん不可能なトランザクションを検証する独自の方法を使用しています。
+Skycoinでは、企業や個人は、他のコインと共有されるブロックチェーン上にデータを置く必要はありません。 
+Skycoinには、独自の合意形成アルゴリズム、ブロックチェーン、そして専任の開発者がいます。
+事業でSkycoinを使用すれば、SkyCoinが提供する高速のトランザクションスピードとツールを楽しみながら、データのプライバシーとセキュリティを維持することができます。
 
-Skycoin lets users create their own cryptocurrencies using a common platform. In this sense, it functions similarly to ERC20 tokens. However, unlike Ethereum, Skycoin technology provides businesses with a private blockchain that isn’t shared among other currencies. Skycoin uses improved encryption and a unique method for verifying transactions that makes it immutable and immune to 51% attacks.
+これらの機能により、SkyCoinは暗号通貨の開発に最適です。
+Skycoinのオープンソースプラットフォームの上に構築するビジネスが増えるにつれて、この技術は急速に普及しています。
+将来的には、多くの異なる種類の通貨に影響を与えるSkycoin技術を見ることになりそうです。
+Skycoin技術の普及はユーザーにとっては良いニュースですが、重要なのはSkycoinベースの暗号通貨は、Skycoinプロジェクト自体から独立していることを理解することです。
+なぜなら、Skycoinはオープンソースであり誰でも使用できるからです。
+多くの事業は、各事業の用途のためにそれを採用し、改造します。
+Skycoin自体はこれらの事業と提携していません。
+代わりに、Skycoinはこれらの企業が選んだ基盤と言えます。
 
-With Skycoin, companies and individuals don’t have to put their data on a shared chain with other derived coins. Skycoin has its own consensus algorithm, blockchain, and dedicated developers. When businesses use Skycoin, they maintain the privacy and security of data while enjoying the fast transaction speeds and tools that Skycoin provides.
-
-These features make Skycoin by far the best choice for developing cryptocurrencies. As more businesses build on Skycoin’s open-source platform, the technology is rapidly spreading. It’s likely we’ll see Skycoin technology powering many different types of currencies in the future.
-
-Although the spread of Skycoin technology is good news for users, it’s important to understand that Skycoin-based cryptocurrencies are independent from the Skycoin project itself. Because Skycoin is open-source, anyone can use it. Many businesses are adopting and modifying it for their own use. Skycoin isn’t affiliated with these businesses. Instead, Skycoin is the foundation that these companies have chosen to build on.
-
-When we developed Skycoin, we set out to make it the best platform of its kind. The widespread adoption of Skycoin technology speaks for itself. Companies like Solar Bankers are just the beginning. It’s our hope that the Skycoin platform will provide businesses with the tools they need to innovate and evolve, creating new technologies that empower users and support the decentralized, peer-to-peer internet economy.
+Skycoinを開発したとき、私たちはそのようなプラットフォームの中でも最高のプラットフォームとなることを目指しました。 
+スカイコイン技術の普及は、それを物語るでしょう。
+ソーラーバンカーのような企業は始まりに過ぎません。
+私たちは、Skycoinプラットフォームが革新と進化に必要なツールを各事業に提供し、ユーザーに権限を与え、分散型P2Pインターネット経済をサポートする新しい技術を生み出すことを希望しています。
