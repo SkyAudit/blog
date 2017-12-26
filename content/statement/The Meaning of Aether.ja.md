@@ -1,105 +1,92 @@
 +++
-title = "The Meaning of Aether"
+title = "Aetherの意味"
 tags = [
     "Decentralization",
     "CXO",
     "Ideology",
 ]
-bounty = 5
+bounty = 10
 date = "2017-09-25"
 categories = [
     "Statement",
 ]
 +++
 
-*This is an archived post from the bitcointalks thread on May 05 2014*
+*2014年5月5日のbitcointalksスレッドのアーカイブ済みの投稿です。*
 
-*Aether's original design has evolved into what is now called CXO*
+*Aetherのオリジナルデザインは、現在CXOと呼ばれるものに発展しました。*
 
-*Quote from: **Tobo** on May 04, 2014, 02:11:12 PM*
->I noticed that you previously used the name of ether which was used by
-Ethereum. Now you changed it to aether which has been used by some other
-people at this forum. Why did you like these two names so much?
+*引用: **Tobo** on May 04, 2014, 02:11:12 PM*>
+私は、あなたが、Ethereumが使用していたetherの名前を、かつて使用していたことに気付きました。 
+今回、このフォーラムでは、他の人たちが使っていたaetherに変更しました。
+なぜ、これら2つの名前がそんなに好きだったのですか？
 
-Ether permeates space. Then we found out ether is alcohol that people snuff to
-get high and aether is the mystical substance that permeates space.
+Ether（エーテル）は空間に浸透します。
+そして私たちは、etherは人々が嗅ぐとハイになるアルコールであり、aetherは空間に浸透する神秘的な物質であることを発見しました。
 
-Its called Aether because the data does not exist on a server. It exists
-collectively throughout the internet (or at least the subscribers). Once
-published, it cannot be destroyed. There is no central point, there is no
-server that can be seized. The publisher cannot be located or tracked because
-once the data is published, they are just a peer.
+データがサーバー上に存在しないため、それはAetherと呼ばれます。
+これはインターネット全体（または少なくとも加入者）に連帯的に存在します。
+一度公開されたら、それは破壊することはできません。
+中枢は無く、押収可能なサーバーはありません。
+一度データが公開されると、それは単なるピアに過ぎないため、公開者を見つけたり追跡したりすることができません。
 
-Its a perfect system. There is one type of Skycoin address and its is an
-endpoint for a datastore or a pubsub system. There is another type of Skycoin
-address and it holds coins. There is another type of Skycoin address and it is
-a node you can communicate with and send messages to.
+それは完璧なシステムです。
+ 1つのタイプのSkycoinアドレスがあり、それはデータストアまたはpub/subシステムのためのエンドポイントです。 
+Skycoinアドレスには別タイプがあり、それはコインを保持します。
+また、それはあなたが通信してメッセージを送る事ができるノードです。
 
-You generate a pubkey, which hashes to an address and that is an ID. The
-address replaces IP addresses for identifying a device or computer if its used
-for communication. It names a datastore (just like a magnet link is a hash of a
-torrent file and name the torrent) if its used for a datastore. If the
-datastore contains a filelist and a hash list for chunks in the files, then
-its just a torrent that people can update. If it names a Skywire node if its
-used for communication, like an IP address names a computer.
+あなたがpubkeyを生成すると、そのpubkeyはアドレスにハッシュされます。
+それがIDです。
+デバイスまたはコンピューターが通信に使用されている場合、アドレスはそれを識別するためにIPアドレスに置き換えます。
+データストアに使用されている場合は、データストアに名前を付けます（マグネットリンクはトレントファイルのハッシュであり、トレントの名前とほとんど同じです）。 
+データストアにファイルリストとファイル内のチャンク形式のハッシュリストが含まれていれば、それは更新可能なトレントです。
+コンピューターにつけられるIPアドレスのように、通信に使用されている場合は、Skywireノードの名前を付けます。
 
-So if you wanted a create a distributed twitter with Aether, you create a
-pubkey. You publish updates to your key value store and sign them with your
-private key. Each key in the keyvalue store is a number incremented each tweet
-and the body is json for the tweet.
+この事から、もしあなたがAetherで分散型のツイッターを作成したい場合は、pubkeyを作成します。
+そして、あなたのKey-Value storeの更新を公開し、秘密キーで署名します。
+Key-Value storeの各キーは各ツイートの増加数で、ツイートの本体はjsonです。
 
-You give someone your pubkey hash (an address) and now they can download and
-replicate your feed. They can pull in the feeds of everyone they are
-following. They can run their own filtering algorithms locally for ranking
-things in the feeds they are subscribed to and choose their gui. Its a
-website, but its a website running on your computer and its running from data
-you have a copy of.
+あなたは誰かにあなたのpubkeyハッシュ（アドレス）を与えて、あなたのフィードをダウンロードして複製できるようになりました。
+彼らは、彼らがフォローしているすべての人のフィードを引き出すことができます。
+彼らは購読しているフィード内のランキングと、自分のGUIを選択するために、彼ら自身のフィルタリングアルゴリズムをローカルで実行できます。
+それはウェブサイトですが、あなたのコンピュータ上で実行されているウェブサイトであり、それはあなたが持っているコピーのデータから実行されています。
 
-You are not downloading the feeds you subscribed to from a server, you are
-downloading them from other people who are subscribed to them. Its completely
-decentralized. Its pubsub, its a communication channel, its a key-value store,
-its an RSS feed, its a document oriented database (if you are storing JSON),
-its an updatable torrent if you are storing file lists and chunk lists.
+あなたは購読したフィードをサーバーからダウンロードするのではなく、購読している他のユーザーからダウンロードしています。 
+それは完全に分散化されています。
+そのpub/subは、通信チャネル、key-value store、RSSフィード、ドキュメント指向のデータベース（JSONを保存している場合）であり、ファイルリストとチャンク形式のリストを保存している場合は、それは更新可能なトレントです。
 
-This innovation, this data structure is as powerful as the blockchain. Its as
-powerful as DHT. It is a core component for the next generation of
-decentralized systems.
+この革新、このデータ構造はブロックチェーンと同じように強力です。 また、DHTと同じように強力です。 これは次世代の分散システムの核となるコンポーネントです。
 
-Aether is a mystical element that permeates all of space and I think its
-appropriate.
+Aetherはすべての空間に浸透する神秘的な要素であり、私はその名前は適切だと思います。
 
-In Tor, you can identify the path to a service through traffic analysis by
-looking at variation in latency for traffic and correlating them to latency of
-other traffic passing through the nodes. Requesting pages is slow because you
-have to go through multiple hops. Here the replication is peer to peer. There
-is no "center", there is no "server". The webpages are instant, because you
-are not requesting the data but have a full copy of the data locally. You are
-generating the webpage from the database.
+Torでは、トラフィックの待ち時間の変化を調べ、それらがノードを通過する他のトラフィックの待ち時間と関連付ける事により、トラフィック分析を通じてサービスへのパスを特定できます。
+複数のホップを通過する必要があるため、ページのリクエストが遅くなります。
+ここでは、その複製はP2Pです。
+「センター」はなく、「サーバー」もありません。
+あなたはデータを要求しなくとも、データの完全なコピーをローカルに持っているので、Webページは瞬時に表示されます。
+あなたはデータベースからWebページを生成しています。
 
-In the internet of things, you have an LED lightbulb. You want to set the
-lightbulb to red. The lightbulb has an IP address and its connected wirelessly
-to your house. You move the light bulb and it has a new IP address, so you
-cant find it or send it messages. IP addresses are not "ids" for devices, they
-change as the object moves and accesses the network over different endpoints.
-Skycoin gives devices or applications "names" that are network independent.
-This is the function of DNS, to take a name and resolve a server or IP.
+IoTでは、あなたはLED電球を持っています。
+電球を赤色にしたい。 電球にはIPアドレスがあり、あなたの家にワイヤレスで接続されています。
+あなたが電球を移動すると、それは新しいIPアドレスを持つので、それを見つけたり、メッセージを送信したりすることはできません。
+IPアドレスはデバイスの「ids」ではなく、オブジェクトが移動して、異なるエンドポイントでネットワークにアクセスすると変化します。
+Skycoinは、ネットワークに依存しないデバイスやアプリケーションに「名前」を与えます。 これはDNSの機能で、名前を取得してサーバーまたはIPを解決します。
 
-The lightbulb has a Skycoin address and you can send messages to the address.
-You can say "turn red" or upload a new program to the programmable LED
-lightbulb. Skywire automatically figures out how to find a route to the device.
+電球にはSkycoinアドレスがあり、そのアドレスにメッセージを送信することができます。
+あなたは "赤くなれ"と言うことができ、プログラム可能なLED電球に新しいプログラムをアップロードすることができます。
+Skywireは自動的にデバイスへのルートを見つけ出します。
 
-Additionally, when you are running a Skywire Mesh node, the node may be
-connected to four wireless networks and a router. The wifi node has five
-different IP addresses. An IP address no longer uniquely identifies the node.
-An IP address is merely a path to the node. The IP addresses on the router are
-often not even public addresses because of NAT.
+さらに、Skywire Meshノードを実行している時には、ノードは4つのワイヤレスネットワークとルータに接続されている可能性があります。
+wifiノードには5つの異なるIPアドレスがあります。
+IPアドレスはもはやノードを一意に識別しません。 
+IPアドレスは単にノードへのパスです。
+ルータのIPアドレスはNATを原因として、しばしばパブリックアドレスでさえありません。
 
-The set of computers you control, your desktop, your tablet, your two laptops.
-They form a personal cloud. Each device has a Skywire daemon and a node
-address it can receive communication to. You have application servers running
-on your cloud. For instance you may have several storage application servers
-(which expose a volume of a drive as a network file system, like Dropbox). You
-might have application servers such as web servers or email servers.
+あなたがコントロールするコンピュータのセット、デスクトップ、タブレット、2台のラップトップ。 
+それらは個人的なクラウドを作ります。
+各デバイスにはSkywireデーモンと、通信を受けることができるノードアドレスがあります。
+あなたは、クラウド上でアプリケーションサーバーを実行しています。 
+たとえば、いくつかのストレージアプリケーションサーバー（Dropboxのようにネットワークファイルシステムとしてドライブのボリュームを公開する）を持っているかも知れません。 
+あなたは、 Webサーバーや電子メールサーバーなどのアプリケーションサーバーを使用している可能性があります。
 
-So the idea of the mythological "Aether" reflects the vision with what we are
-trying to accomplish.
+だから神話的な "Aether"のアイデアは、我々が達成しようとしているビジョンを反映しているのです。
