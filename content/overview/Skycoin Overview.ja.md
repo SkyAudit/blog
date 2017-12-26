@@ -12,27 +12,27 @@ categories = [
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="1" -->
 
-- [Skycoinの紹介](#skycoin-introduction)
-- [Bitcoinと現在のブロックチェーンプロトコルによる革新と欠陥](#innovations-and-flaws-with-bitcoin-and-the-current-blockchain-protocols)
-- [Bitcoinが起こした革新](#innovations-produced-by-bitcoin)
-- [Bitcoinの主な欠陥](#major-flaws-of-bitcoin)
-- [金融台帳の分散合意システムに求められる特性](#desirable-properties-for-systems-of-distributed-consensus-for-financial-ledgers)
-- [Skycoinのセキュリティ哲学](#skycoin-security-philosophy)
-- [透明性とセキュリティ: Obeliskと公開ブロードキャストチャンネル](#transparency-and-security-obelisk-and-public-broadcast-channels)
+- [Skycoinの紹介](#Skycoin%e3%81%ae%e7%b4%b9%e4%bb%8b)
+- [Bitcoinと現在のブロックチェーンプロトコルによる革新と欠陥](#Bitcoin%e3%81%a8%e7%8f%be%e5%9c%a8%e3%81%ae%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e3%83%81%e3%82%a7%e3%83%bc%e3%83%b3%e3%83%97%e3%83%ad%e3%83%88%e3%82%b3%e3%83%ab%e3%81%ab%e3%82%88%e3%82%8b%e9%9d%a9%e6%96%b0%e3%81%a8%e6%ac%a0%e9%99%a5)
+- [Bitcoinが起こした革新](#Bitcoin%e3%81%8c%e8%b5%b7%e3%81%93%e3%81%97%e3%81%9f%e9%9d%a9%e6%96%b0)
+- [Bitcoinの主な欠陥](#Bitcoin%e3%81%ae%e4%b8%bb%e3%81%aa%e6%ac%a0%e9%99%a5)
+- [金融台帳の分散合意システムに求められる特性](#%e9%87%91%e8%9e%8d%e5%8f%b0%e5%b8%b3%e3%81%ae%e5%88%86%e6%95%a3%e5%90%88%e6%84%8f%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%ab%e6%b1%82%e3%82%81%e3%82%89%e3%82%8c%e3%82%8b%e7%89%b9%e6%80%a7)
+- [Skycoinのセキュリティ哲学](#Skycoin%e3%81%ae%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e5%93%b2%e5%ad%a6)
+- [透明性とセキュリティ:Obeliskと公開ブロードキャストチャンネル](#%e9%80%8f%e6%98%8e%e6%80%a7%e3%81%a8%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%3aObelisk%e3%81%a8%e5%85%ac%e9%96%8b%e3%83%96%e3%83%ad%e3%83%bc%e3%83%89%e3%82%ad%e3%83%a3%e3%82%b9%e3%83%88%e3%83%81%e3%83%a3%e3%83%b3%e3%83%8d%e3%83%ab)
 - [Obelisk](#obelisk)
-- [シンプル２択合意アルゴリズム: ２つのブロックからの選択](#simple-binary-consensus-algorithm-choosing-between-two-blocks)
-- [ブランチ選択肢が複数ある場合の合意形成](#consensus-on-multiple-concurrent-branch-choices)
+- [シンプル２択合意アルゴリズム: ２つのブロックからの選択](#%e3%82%b7%e3%83%b3%e3%83%97%e3%83%ab%ef%bc%92%e6%8a%9e%e5%90%88%e6%84%8f%e3%82%a2%e3%83%ab%e3%82%b4%e3%83%aa%e3%82%ba%e3%83%a0%3a%20%ef%bc%92%e3%81%a4%e3%81%ae%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e3%81%8b%e3%82%89%e3%81%ae%e9%81%b8%e6%8a%9e%0d%0a)
+- [ブランチ選択肢が複数ある場合の合意形成](#%e3%83%96%e3%83%a9%e3%83%b3%e3%83%81%e9%81%b8%e6%8a%9e%e8%82%a2%e3%81%8c%e8%a4%87%e6%95%b0%e3%81%82%e3%82%8b%e5%a0%b4%e5%90%88%e3%81%ae%e5%90%88%e6%84%8f%e5%bd%a2%e6%88%90)
 
 <!-- /MarkdownTOC -->
 
-# <a name="skycoin-introduction"> Skycoinの紹介
+# Skycoinの紹介
 
 Skycoinは、公開ブロードキャストチャンネルと呼ばれる新しい暗号要素を使った技術に基づいています。
 Obeliskと呼ばれる新しい合意形成アルゴリズムの実装も導入されています。
 Bitcoinの基礎となっているプルーフ・オブ・ワークとマイニングプロセスに起因するコミットメント問題を緩和し、これに関連するセキュリティ上の問題に対応します。
 Obeliskは単一のアルゴリズムではなく、いつかのセキュリティ上の保証を実現するために複数の手法を採用した実装です。
 
-# <a name="innovations-and-flaws-with-bitcoin-and-the-current-blockchain-protocols"> Bitcoinと現在のブロックチェーンプロトコルによる革新と欠陥
+# Bitcoinと現在のブロックチェーンプロトコルによる革新と欠陥
 
 Bitcoinでは、新しいトランザクションがブロックに配置され、ブロックチェーンに追加されます。
 Bitcoinネットワーク内のすべてのノードは、新しいブロックを作成できます。
@@ -56,7 +56,7 @@ Bitcoinノードはランダムに相互に接続し、各ノードは、それ�
 Bitcoinは、ノードがアイデンティティを持っていると仮定せず、ノードが正当であるとも仮定しません。
 ノードは他のノードに自由にデータを送信できますが、難易度は各ノードが独立して検証できるため、合意形成に影響を与えることはできません。
 
-# <a name="innovations-produced-by-bitcoin"> Bitcoinが起こした革新
+# Bitcoinが起こした革新
 
 ### * ブロックチェーン
 
@@ -82,7 +82,7 @@ $25のアウトプットから$20を払うためには、$20を相手に送り$5
 ブロックツリーの合計連鎖次数を定義する関数を使用します。
 公開台帳は、従来のデジタル通貨につきまとっていた二重支出問題を回避します。
 
-# <a name="major-flaws-of-bitcoin"> Bitcoinの主な欠陥
+# Bitcoinの主な欠陥
 
 以下に挙げるものは、新しい暗号通貨の開発で取り組まなければならない課題です。
 Bitcoinは、今後の開発によって改善する必要がある、原始的な暗号通貨と見なされるべきです。
@@ -132,7 +132,7 @@ Bitcoinでは、この比率は$1対$1です。さらに、これは地球環境
 
 Bitcoinトランザクションは、ブロックに含まれるまでに平均10分かかるため、セキュリティを強化するためにはさらに時間がかかります。
 
-# <a name="desirable-properties-for-systems-of-distributed-consensus-for-financial-ledgers"> 金融台帳の分散合意システムに求められる特性
+# 金融台帳の分散合意システムに求められる特性
 
 Bitcoinを改善できるポイントは次のとおりです。
 
@@ -168,7 +168,7 @@ Bitcoinを改善できるポイントは次のとおりです。
 トランザクション展性などの、Bitcoinのいくつかの問題を修正することができます。
 プルーフ・オブ・ワークやマイニングへの依存など、その他の問題は根本的なものであり、まったく新しいフレームワークを定義しなければ対処できません。
 
-# <a name="skycoin-security-philosophy"> Skycoinのセキュリティ哲学
+# Skycoinのセキュリティ哲学
 
 セキュリティは、脅威に対する継続的な識別と防御のプロセスです。
 優れたシステムは「徹底的な防御」を達成し、複数の冗長システムを持ち、個々の対策のどんな失敗からも生き残ります。
@@ -200,7 +200,7 @@ Mt. Goxは最近、彼らが気づかずにBitcoinを移していたウォレッ
 Skycoinの開発プロセスは反復的です。
 詳細を確認し、既知の欠陥に対処し、システムをテストし、フィードバックを得ることを繰り返しながら、変更、改良、改善が行われます。
 
-# <a name="transparency-and-security-obelisk-and-public-broadcast-channels"> 透明性とセキュリティ: Obeliskと公開ブロードキャストチャンネル
+# 透明性とセキュリティ:Obeliskと公開ブロードキャストチャンネル
 
 Bitcoinシステムに関連するコミットメント問題に対処するために、Skycoinの基礎となるテクノロジーは、公開ブロードキャストチャンネルの形式でブロックチェーンを実装しています。
 誰もがチェーンを読むことができますが、所有者だけがチェーンを作ることができます。
@@ -228,7 +228,7 @@ Bitcoinシステムに関連するコミットメント問題に対処するた�
 
 ハッシュチェーンでは、各ブロックのヘッダーには前のブロックのハッシュが含まれます。
 
-# <a name="obelisk"> Obelisk
+# Obelisk
 
 各Obeliskノード（Skycoinコンセンサスノード）には、公開鍵（身元証明）と個人用ブロックチェーン（公開ブロードキャストチャンネル）があります。
 合意の決定と通信は、各Obeliskノードの個人的なブロックチェーン内で行われます。
@@ -265,7 +265,7 @@ Bitcoinシステムに関連するコミットメント問題に対処するた�
 - すべてのノードがコミュニティおよび第三者の監査に責任を負う
 - Skycoinの合意形成システムに影響を与えることは、民主的かつ透明である（ただし不平等）
 
-# <a name="simple-binary-consensus-algorithm-choosing-between-two-blocks"> シンプル２択合意アルゴリズム: ２つのブロックからの選択
+# シンプル２択合意アルゴリズム: ２つのブロックからの選択
 
 それぞれが行う意思決定の投票候補は、ハッシュペア（A、B）です。
 Aはブロックの親のハッシュ、Bはブロックのハッシュです。
@@ -274,7 +274,7 @@ Aはブロックの親のハッシュ、Bはブロックのハッシュです。
 合意に達するまで、ノードは候補間でどちらを支持するかをランダムに変更します。
 
 
-# <a name="consensus-on-multiple-concurrent-branch-choices"> ブランチ選択肢が複数ある場合の合意形成
+# ブランチ選択肢が複数ある場合の合意形成
 
 より高度なシステムでは、（A、B、P）が発行されます。
 ここで、Pは0から1の値です。
