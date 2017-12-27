@@ -7,57 +7,52 @@ date = "2017-09-05"
 categories = [
     "Ask the Developers",
 ]
-bounty = 3
+bounty = 6
 +++
 
-*Excerpt from the Telegram channel*
+*Telegramチャンネルからの引用*
 
->Question：
-I mean if Skycion is so good I would definitely use it for my business over
-the rest but where can we see the proofs? The tests and all? Is there a website
-with more info and data? Is the network already strong with many nodes?
+>質問：
+「Skycionが他のコインよりもはるかに優れているなら、ぜひ私たちのビジネスでも使いたいと思います。
+しかし、証拠はありますか？検証はされていますか？詳細や数字が掲載されたウェブページはありますか？
+ネットワークのノードには既に参加者がおり、強固なものなのでしょうか？」
 
-People want shitcoins.
+現在、人びとはシットコインを買い漁っています。
 
-Bitcoin at the start and now Skycoin have huge education and technical barriers.
+このような状況で、Skycoinは技術的、教育的な高い障壁を乗り越えなければなりません。Bitcoinの黎明期がそうであったように。
 
-Skycoin is new and from scratch and not a clone coin like these 500 ERC20 token,
-so for exchange to list they have to do real work (which they won’t want to do
-when its 6 people running an exchange supporting +300 shitcoins).
+Skycoinはゼロからコードベースが書かれた全く新しいコインであり、何百と存在するEthereumのERC20トークンとは一線を画しています。
+このため、例えばSkycoinを上場する場合には、取引所はSkycoinに個別の対応をしなければなりません。
+数人で何百ものシットコインを対応している取引所にとって、これは頭の痛い話でしょう。
 
-Skycoin has its own codebase, its own blockchain and it has developers.
-Which is too advanced and requires more education than other coins (who don’t
-have own blockchain,developers and are just ERC20 or bitcoin clone which
-everyone understands).
+Skycoinは独自のコードベース、ブロックチェーン、デベロッパーによって作られています。 
+他のコインより発展したコンセプトで作られたSkycoinは、普及のための教育が欠かせません。
+大概のコインは独自のブロックチェーンやデベロッパーを持たず、ERC20トークン又はbitcoinのクローンなので、理解がされやすいのです。
 
-For other coins people don’t have to learn anything, they just know that they
-buy the coin and pump it and then sell it and make money. It does not require
-learning anything or educating the user what it’s for or how it works so the
-barrier is very low.
+他のコインを理解するために、人びとは特に新しいことを学ぶ必要がありません。
+コインを買い、話題に乗って値段を上げて、売ってお金を得るだけです。
+そのコインが何のために存在しているのか、どうやって機能するのか？
+これらの問いに答える必要がないので、ほとんどのコインは普及が容易なのです。
 
-And anything new or innovative requires education and knowledge. And popular
-coins or something like Dogecoin are the opposite of that.
+全ての新しい、革新的な発明はユーザーの教育と知識を必要とします。その発明がSkycoinです。
+反して、Dogecoinのようなビットコインのクローンにその必要はありません。
 
-So Skycoin is at same early stage that Bitcoin and Ethereum had to go through,
-where there is a huge technical barrier for new users.
+BitcoinやEthereumが初期に直面したのと同じ課題をSkycoinは抱えています。
+Skycoinの全く新たな技術と設計が理解されるためには、ユーザーの教育が必要なのです。
 
-And so Skycoin is doing well on the meshnet and hardware and applications.
+Skycoinのプロジェクトは着実に発展しています。
+メッシュネット、ハードウェア、アプリケーションの各側面で日々開発が続けられています。
 
-But our platform is also developing very well. Companies are telling us
-"why would we use Ethereum and put our data on a chain shared with
-500,000 shitcoins, when Skyledger gives our company OUR OWN blockchain".
-Which is clearly superior.
+また、以下のSkycoinのパートナーからの引用にあるように、プラットフォームの開発も活発です。
+「５万以上のシットコインとネットワークを共有しなければならないEthereumを選ぶ理由なくなりました。
+Skyledgerを使えば私たち専用のブロックチェーンが利用できるからです。Ethereumよりも明らかに優れています。」
 
-No ones tries to put every single company on Earths data into the same
-SQL database, so why would you do this with blockchain?
+Ethereumを従来のネットワークシステムに例えれば、Earths上の全ての企業のデータを同一のSQLデータベースに保存しているのと同じです。
+従来のネットワークシステムでやらないようなことを、ブロックチェーンのネットワークでやろうとするのはおかしなことです。
 
-The other thing is that our application business logic language is developing
-very well.
+最後に、Skycoinのアプリケーション開発言語も順調に開発が進んでいます。
+これはEthereumのコントラクト指向言語よりもはるかに洗練されたものです。
+Ethereumのコントラクト指向言語の脆弱性は数多のコイン盗難のニュースで明らかになってきています。
 
-Ethereum’s contract language is like it was written by children.
-Endless stream of news about how many tens or hundreds of millions stolen this
-week.
-
-We think for real businesses this will be the first professional and usable
-language and platform. It will be like going from Microsoft Paint and finger
-painting, to Photoshop.
+実際のビジネスで使える、初のプロフェッショナルな開発言語とプラットフォームをSkycoinは開発しました。
+この転換は、Microsoft PaintからPhotoshopへの移行と同等の大きなものになるでしょう。
