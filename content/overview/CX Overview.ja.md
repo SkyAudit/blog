@@ -12,7 +12,7 @@ categories = [
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="2" -->
 
-- [CXの紹介](#CX%e3%81%ae%e7%b4%b9%e4%bb%8b)
+- [CXの紹介](#cx%e3%81%ae%e7%b4%b9%e4%bb%8b)
 - [プロジェクトのリポジトリ](#%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e3%81%ae%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa)
 - [構文](#%e6%a7%8b%e6%96%87)
 - [アフォーダンス](#%e3%82%a2%e3%83%95%e3%82%a9%e3%83%bc%e3%83%80%e3%83%b3%e3%82%b9)
