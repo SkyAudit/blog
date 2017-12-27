@@ -1,5 +1,5 @@
 +++
-title = "現在、コインの発行イベント(ICO)はありません"
+title = "No Coin Distribution Event (ICO) At This Time"
 tags = [
     "Statement",
     "Distribution",
@@ -11,5 +11,5 @@ categories = [
 ]
 +++
 
-私たちは現在、ICOを行っていません。
-以前の発行イベントは2017年8月31日に終了しました。
+We are not doing an ICO at this time.
+The previous distribution event ended August 31, 2017.
