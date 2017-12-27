@@ -1,5 +1,5 @@
 +++
-title = "Skycoin Team"
+title = "Skycoinチーム"
 tags = [
     "Statement",
 ]
@@ -58,7 +58,6 @@ Evanは、BBSアプリケーションを開発している開発者です。
 
 johnstuartmillは最新のObelisk合意形成アルゴリズムホワイトペーパーを作成し、実装を進めています。彼は数学を学んできた経歴があります。
 
-nyf is a developer doing frontend work for the bbs and sky-messenger.
 nyfはbbsとsky-messengerのユーザーインターフェース部分を開発する開発者です。
 
 * Github: https://github.com/feifeiwoye
