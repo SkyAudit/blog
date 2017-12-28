@@ -21,7 +21,7 @@ Skycoinプロジェクトの５本の柱は次の通りです：
   -  マイナーやブロック報酬を必要としません。
   -  低消費電力。
   -  暗号に関するすべての問題は改善されました（例えば、トランザクション展性）。
-  -  既存のもの全部よりも優れたコンセンサスメカニズム（[Obelisk](/statement/obelisk-the-skycoin-consensus-algorithm/)）。
+  -  既存のもの全部よりも優れた合意形成アルゴリズム（[Obelisk](/statement/obelisk-the-skycoin-consensus-algorithm/)）。
 
 (2) [Skywire](/tags/skywire/)は、メッシュネットワークで、通信量/帯域幅を転送することでコインを取得できます。
 これはTorまたはBitTorrentと似ていますが、ノードを運用するのと引き換えに支払われるという点が異なります。
