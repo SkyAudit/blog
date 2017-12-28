@@ -34,7 +34,7 @@ Skycoin BBS v4.1がついにリリースされました！
 
 ## ソースコード
 
-GitHubで利用可能 /
+Githubで利用可能 \
 https://github.com/skycoin/bbs
 
 ## コミュニティ
