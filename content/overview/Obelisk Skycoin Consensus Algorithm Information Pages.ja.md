@@ -31,107 +31,77 @@ author = "johnstuartmill"
 <!-- /MarkdownTOC -->
 
 
-## Consensus highlights
+## 合意形成
 
-### Why consensus
+### なぜ合意形成
 
-Skycoin Consensus Algorithm ("Obelisk") synchronizes the state of Skycoin
-blockchain across all the network nodes. This results in consistent accounting,
-i.e. when calculating coin balance for a given public key (or address)
-yields same value at each node that performed the calculation.
-### High scalability and low-energy consumption
+Skycoin 合意形成アルゴリズム（"Obelisk"）は、すべてのネットワークノードでSkycoinブロックチェーンの状態を同期させます。
+これにより、一貫した会計処理が行われます。
+すなわち、所与の公開鍵（またはアドレス）のコインバランスを計算すると、計算を実行した各ノードで同じ値が得られます。
 
-By design, the algorithm is a scalable and computationally-inexpensive
-alternative to proof-of-work, therefore both the consensus algorithm and
-block-making can be run on a budget hardware that have low price and low
-energy consumption, thus making the cryptocurrency network more robust
-to possible centralization attempts (i.e. via node being affordable to
-general public).
+### 高いスケーラビリティと低消費電力
 
-### Robust to coordinated attacks
+設計により、アルゴリズムはスケーラブルで計算コストがかからず、proof-of-workに代わるものです。
+したがって、低価格でエネルギー消費の少ない予算のハードウェアで合意形成アルゴリズムとブロック生成の両方を実行できるため、暗号通貨ネットワークを集権化のの可能性に対してより頑健にします。（すなわち、一般市民に手頃な価格のノードにより利用可能）
 
-Our Consensus Algorithm (i) converges fast, (ii) requires minimal
-network traffic, and (iii) can withstand a large-scale coordinated
-attack by a well-organized network of malicious nodes. The algorithm is
-non-iterative, fast, can be run on a sparse network with only
-nearest-neighbor connectivity (e.g. on Mesh Network), and works well in
-the presence of cycles in the connectivity graph (i.e. DAG-type
-connectivity is *not* required).
+### 集団攻撃に対する頑健性
 
-### The “51-percent Attack”
+我々の合意形成アルゴリズムは、（i）収束が速く、（ii）最小のネットワークトラフィックを必要とし、（iii）組織化された悪意のあるネットワークによる大規模な集団攻撃に耐えることができます。
+このアルゴリズムは反復性がなく、高速であり、最近傍接続（例えばメッシュネットワーク上）のみを有するスパースネットワーク上で実行することができ、接続グラフ内のサイクルの存在下でうまく動作します。（すなわち、DAGタイプの接続性は必要ありません。）
 
-In a limited sense, the base version of the Algorithm can be subject to
-this attack. Specifically, when the modified or malicious nodes who are
-in majority broadcast a protocol-compliant and UTXO-compliant candidate
-block, such block wins the consensus. However, a block with any sort of
-non-compliance is dropped by the (unmodified) Algorithm before the block
-gets a chance to participate in consensus trial.
-Consensus nodes can optionally utilize a Web-of-Trust concept in such a
-way that consensus-related messages that come from unknown nodes (i.e.
-signed by untrusted public keys) are ignored.
+### 「51％攻撃」
 
-When Web-of-Trust mode is enabled, starting a very large number of
-malicious consensus nodes in order to (a) cause blockchain fork or (b)
-disrupt the consensus process would have little effect, unless a vast
-majority of Web-of-Trust members unwittingly include those malicious
-nodes into their local lists of trusted nodes.
+限られた意味においては、このアルゴリズムのベースバージョンはこの攻撃の対象となる可能性があります。
+具体的には、改変された、または悪意のある多数を占めるノードがプロトコル準拠およびUTXO準拠の候補ブロックを送ると、このようなブロックで合意形成を獲得してしまいます。 
+しかし、ある種の違反のブロックが合意形成トライアルに参加する機会を得る前に、（未修正の）アルゴリズムによって、このブロックは削除されます。
+合意形成ノードは、未知のノード（すなわち、信頼されていない公開鍵によって署名された）から来る合意形成関連のメッセージが無視されるような方法で、Web-of-Trust（信用の輪）概念を任意に利用することができます。
 
-### Hidden IP addresses
+大多数の信用の輪メンバーが、無意識にそれらの悪意のあるノードを信頼できるノードのローカルリストに含める場合を除き、信用の輪モードを有効にすると、（a）ブロックチェーンフォークを引き起こしたり、（b）合意形成プロセスを中断させたりするために、非常に多数の悪意ある合意形成ノードを投入することはほとんど効果がありません。
 
-The nodes are addressed by their cryptographic public key. Node’s IP
-address is only known to the nodes to which it is connected directly.
+### 非表示のIPアドレス
 
-### Independence of clock synchronization
+ノードは、それらの暗号化公開鍵によってアドレス指定されます。
+ノードのIPアドレスは、ノードが直接接続されているノードにのみ認識されます。
 
-The Algorithm does not use “wall clock” (i.e. calendar date/time).
-Instead, block sequence numbers that are extracted from validated
-consensus- and blockchain- related messages are used to calculate node’s
-internal time. This can be informally called “block clock”.
+### クロック同期の独立性
 
-### Two type of nodes: Consensus and Block-making
+アルゴリズムは「ウォールクロック」（すなわちカレンダーの日付/時刻）を使用しません。
+代わりに、検証された合意形成およびブロックチェーン関連のメッセージから抽出されたブロックシーケンス番号が、ノードの内部時間を計算するために使用されます。
+これは非公式に「ブロッククロック」と呼ばれることがあります。
 
-A consensus node receives its input from one or more block-making nodes.
-The algorithms for consensus and block-making are separate, yet they
-both operate on same data-structures. We mention block-making where it
-helps understanding the Consensus Algorithm and how it integrates with
-the rest of the system.
+### 2つのタイプのノード：合意形成とブロック生成
 
-Both type of nodes always performs authorship verification and fraud
-detection of incoming date. Fraudulent or invalid messages are detected,
-dropped and never propagated; peer nodes engaged in suspicious
-activities are disconnected from, and their public keys are banned.
+合意形成ノードは、1つまたは複数のブロック生成ノードから入力を受け取ります。
+合意形成とブロック生成のアルゴリズムは別々ですが、どちらも同じデータ構造で動作します。
+ここでは、合意形成アルゴリズムを理解するのに役立つブロック生成と、それがシステムの他の部分とどのように統合されるかについて説明します。
 
-## How Skycoin Consensus Algorithm works
+どちらのタイプのノードも、常に入力者の検証と詐欺の検出を行います。
+不正または無効なメッセージは検出され、破棄され、伝播されません。
+疑わしい動きをするピアノードは切断され、その公開鍵はアクセス禁止されます。
 
-For exposition purposes only, the following description assumes that (i)
-each node is both block-maker and consensus participant, and (ii)
-consensus-related messages generated by non-trusted nodes are accepted,
-i.e. no filtering based on web-of-trust is performed. A full
-implementation (i.e. without these simplifying assumptions) will be
-available in Skycoin GitHub repository. For simulation results and a
-detailed, diagrammatic example of one consensus trial, see [\[1\]](#references). A
-simulation of a network with trust relationship, although using a
-different than Skycoin algorithm, can be found in [\[2\]](#references). The
-description of Skycoin Consensus Algorithm follows.
+## Skycoin合意形成アルゴリズムはどのように動くか
 
-1.  *Block-making*. Each block-making node collects new
-    transactions, verifies them against the UTXO of the desired sequence
-    number, packages the compliant transactions into a new block, and
-    broadcasts the block to the network.
+以下の説明は、
+（i）各ノードがブロック生成者かつ合意形成の参加者であり、
+（ii）非信頼ノードによって生成された合意形成関連メッセージが受け入れられている、すなわち信用の輪に基づくフィルタリングがない
+という状況を仮定します。
+Skycomin GitHubリポジトリでは、完全な実装（仮定を単純化していない）を利用できます。
+シミュレーション結果と詳細、1つの合意形成トライアルの図の例については、[\[1\]](#references)を参照してください。
+Skycoinアルゴリズムとは異なりますが、信頼関係を持つネットワークのシミュレーションは、[\[2\]](#references)で見つけることができます。
+スカイコイン合意形成アルゴリズムは以下の通りです。
 
-2.  *Collecting blocks*. Each consensus node collects the
-    blocks generated by block-makers, and puts them into a container
-    (separate from blockchain) keyed by block’s sequence number.
+1.  *ブロックの生成*
+各ブロック生成ノードは、新しいトランザクションを収集し、それらを所望のシーケンス番号のUTXOと照合し、対応するトランザクションを新しいブロックにパッケージ化し、ブロックをネットワークに流します。
 
-3.  *Selecting winning block*. Each consensus node, upon
-    receiving a sufficiently large number[^1] of candidate blocks or
-    upon meeting other criteria, finds the block that was made by the
-    largest number of block-makers. Ties are resolved deterministically.
-    Such block is labeled “local winner”[^2] and is appended to the
-    local blockchain. The key-value pair corresponding to the block
-    sequence number of the local winner is deleted, thus
-    reclaiming storage. Hash code of local winner
-    is broadcast/announced.
+2.　*ブロックの収集*
+各合意形成ノードは、ブロック生成者によって生成されたブロックを収集し、それらをブロックのシーケンス番号でキーされたコンテナ（ブロックチェーンとは別）に配置します。
+
+3. *勝利ブロックの選択*
+各合意形成ノードは、十分に大きな数[^1]の候補ブロックを受信するか、または他の基準を満たした時点で、最も多数のブロック生成者によって作られたブロックを見つけます。
+結びつきは決定論的に計算されます。
+このようなブロックは 「ローカル勝者」 [^2]とラベル付けされ、ローカルブロックチェーンに追加されます。
+ローカル勝者のブロックシーケンス番号に対応するキー - 値ペアが削除され、ストレージが再利用されます。
+ローカル勝者のハッシュコードが流され、発表されます。
 
 4.  *Verification step*. Each node keep statistics on local
     winners reported by other nodes. When local winners have been
@@ -142,17 +112,18 @@ description of Skycoin Consensus Algorithm follows.
     local logs, between (a) re-synchronizing itself with the network
     or (b) dropping from participating in consensus and/or block-making
     or (c) keeping its blockchain and requesting an emergency stop.
+4.　*検証ステップ*
+各ノードは、他のノードによって報告されたローカル勝者に関する統計を保持します。
+ローカル勝者がノードのすべてまたは大部分[^3]によって報告されたとき、ノードは特定のシーケンス番号のグローバル勝者を決定します。
+グローバル勝者がローカル勝者である場合、ノードは上記のように機能し続けます。
+そうでなければ、ノードは、（a）ネットワークと再同期する、または（b）合意形成および/またはブロック生成への参加から脱落する、または(c)ブロックチェーンを維持し、緊急停止を要求すること、の３つの中から、外部データおよびローカルログに基づいて決定する。
 
-[^1]: This is a configurable parameter of in the Algorithm.
-[^2]: Under certain ideal conditions, local winners (for a given block
-    sequence number) are all the same, i.e. include identical set of
-    transactions. The difference arises due to network latency, high
-    frequency of transactions, out-of-sequence message delivery, message
-    loss, malfunctioning or malicious nodes etc.
-[^3]: This number can be determined, for example, by asking trusted
-    nodes to report public keys of their trusted nodes, recursively.
 
-## References
+[^1]: これは、アルゴリズムの設定可能なパラメータです。
+[^2]: 特定の理想的な条件の下では、（特定のブロックシーケンス番号に対して）ローカル勝者はすべて同じであり、すなわち同一のトランザクションセットです。 この違いは、ネットワークの待ち時間、トランザクションの頻度の高さ、シーケンス外のメッセージ配信、メッセージの消失、誤動作または悪意のあるノードなどによって発生します。
+[^3]: この数は、例えば、信頼されたノードに、それらの信頼されたノードの公開鍵を再帰的に報告するように求めることによって決定することができます。
+
+## 参考
 
 \[1\] johnstuartmill et al. A Distributed Consensus Algorithm for
 Cryptocurrency Networks.
