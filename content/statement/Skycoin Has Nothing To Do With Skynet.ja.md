@@ -1,20 +1,20 @@
 +++
-title = "Skycoin Has Nothing To Do With Skynet"
+title = "SkycoinはSkynetと名の付くプロジェクトとは関係がありません"
 tags = [
     "Statement",
 ]
-bounty = 1
+bounty = 2
 date = "2017-08-28"
 categories = [
     "Statement",
 ]
 +++
 
-Recently we have been asked about other projects called "Skynet" or "Superskynet".
+「Skycoinは「Skynet」又は「Superskynet」というプロジェクトを立ち上げているのか？」という質問がありました。
 
-Skycoin has never used the name "Skynet" because it is cliché and unoriginal.
+Skycoinが「Skynet」という名前を使うことはありません。それは使い古された、独自性のない名称です。
 
-Furthermore, we are opposed to what "skynet" from the Terminator movie represents:
-the subjugation of humanity to machines controlled by the few.
+また、映画「ターミネーター」のなかに出てくる「skynet」が描く世界に私たちは反対しています。
+それは、限られたグループが、機械を使って大多数の人間を支配するような世界です。
 
-The Skycoin Project has no relationship with projects called "Skynet".
+Skycoinプロジェクトは「Skynet」と名の付くプロジェクトとは何の関わりもありません。
