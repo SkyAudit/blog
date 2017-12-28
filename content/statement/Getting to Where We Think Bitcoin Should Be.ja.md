@@ -1,5 +1,5 @@
 +++
-title = "Bitcoinが目指した世界の実現のために"
+title = "Bitcoinの構想を実現する"
 tags = [
     "Decentralization",
     "Bitcoin",
@@ -75,4 +75,4 @@ Bitcoinの初期デベロッパーの多くは価格が１ドルに達したと�
 現在「Bitcoin 2.0」が話題になっていますが、私たちは「Bitcoin 1.0」に立ち返らなければいけません。
 「the Bitcoin-qtwallet」が私たちの発明できるベストだと言う人は誰もいないでしょう。 
 
-*言い換えれば、SkycoinプロジェクトのゴールはBitcoinを超えることではなく、Bitcoinの目指した構想の実現にあるのです。*
+*言い換えれば、SkycoinプロジェクトのゴールはBitcoinを超えることではなく、Bitcoinの構想の実現にあるのです。*
