@@ -12,127 +12,66 @@ categories = [
 
 ![Obelisk The Skycoin Consensus Algorithm](/img/obelisk-the-skycoin-consensus-algorithm.png)
 
-The Skycoin blockchain makes use of a novel type of consensus algorithm
-called "Obelisk" that replaces both Proof of Work (“PoW”) and Proof of Stake
-(“PoS”).
+Skycoinブロックチェーンは、Proof of Work（PoW）とProof of Stake（PoS）の両方を置き換える、新しいタイプの合意形成アルゴリズム「Obelisk」を利用しています。
 
-The aim of the developers of Skycoin was to correct the major security flaws
-and “centralizing tendencies” associated with blockchain networks in which
-consensus is based on PoW or PoS algorithms and coin creation is linked to a
-mining process. Skycoin is therefore trying to create a cryptocurrency that
-better fulfills Satoshi’s original vision of a fully decentralized digital
-currency system.
+Skycoinの開発者の目的は、合意形成がPoWまたはPoSアルゴリズムに基づいており、コインの作成がマイニングプロセスにリンクされているブロックチェーンネットワークに関連する、主要なセキュリティ上の欠陥と「集権化傾向」を修正することでした。
+したがって、Skycoinは、完全に分散されたデジタル通貨システムのSatoshiの本来のビジョンをよりよく満たす暗号通貨を作成しようとしています。
 
-In doing so, Skycoin technology creates a blockchain network with no mining
-requirement, fixed supplies of crypto-tokens, 10-second transaction times, and
-greater security. In a system in which the connection between coin creation
-and control over the network is severed, crypto-tokens lose their political
-function and begin to act more like a form of digital property in the
-straightforward sense.
+そうすることで、Skycoinテクノロジーは、マイニングの必要がなく、暗号トークンの固定供給、10秒のトランザクション時間、およびより大きなセキュリティを備えたブロックチェーンネットワークを構築します。
+コインの作成とネットワークの制御との接続が切断されたシステムでは、暗号トークンは政治的機能を失い、直接的な意味でのデジタル資産のような動作を開始します。
 
-## Proof of Work and the Bitcoin system
+## Proof of WorkとBitcoinシステム
 
-It was a fundamental miscalculation in the early programming of Bitcoin that
-the mining process would produce an economic incentive structure that would
-promote decentralization. In fact, the link between consensus and hashing
-power incentivizes the purchase of ever increasing processing capacity to
-control the consensus network.
+Bitcoinの初期プログラミングでは、マイニングプロセスが非中央集権化を促進する経済的な動機構造を生み出すという点が基本的な誤算でした。
+事実、合意形成とハッシュパワーとの間のリンクは、合意形成ネットワークを制御するために、さらに処理能力の高い機材の購入を誘発します。
 
-The Bitcoin network, for instance, is de facto controlled by three for-profit
-mining pools which have been able to concentrate a large part of the network’s
-hashing power on its servers. These pools have begun to act as a cartel,
-splitting hashing power among each other by agreement. The link between mining
-and control of the network was already identified by Satoshi as the main
-non-cryptographic threat to the stability of the network. It allows actors who
-accumulate sufficient processing power and achieve a majority hash rate to
-falsify or revert transactions on the network in a 51% attack. Some argue that
-this vulnerability has become less pressing in an environment where hash power
-is highly centralized with actors who have invested large sums in the Bitcoin
-network and depend for their survival on the high value of the coin. Yet the
-power to influence the network is still highly concentrated, defeating the
-purpose of a distributed ledger-based cryptocurrency.
+たとえば、Bitcoinネットワークは、実際には3つの営利目的のマイニングプールによって操作されており、ネットワークのハッシュパワーの大部分をそのサーバーに集中させることができました。
+これらのプールはカルテルとして行動し始め、合意により互いに採掘作業量を分割しています。
+マイニングとネットワークの操作の関連性は、ネットワークの安定性に対する主要な非暗号技術的脅威として、Satoshiによってすでに確認されていました。
+これは、十分な処理能力を蓄積し、大部分のハッシュレートを達成する採掘者に、51％攻撃でネットワーク上のトランザクションを改ざんまたは元に戻すことを可能にします。
+一部の人は、Bitcoinネットワークに大きな金額を投資し、コインの価値が高いことにより営業できる採掘者にハッシュパワーが極度に集中している環境では、この脆弱性はあまり重要でないと主張しています。
+しかし、ネットワークに影響を及ぼす力は依然として非常に集中しており、分散型台帳ベースの暗号通貨の目的を破っています。
 
-The Bitcoin network’s PoW algorithm thus introduces security and monopoly
-problems by placing power over the network with the actor capable of
-mobilizing enough economic resources to control the mining process.
+したがって、BitcoinネットワークのPoWアルゴリズムは、マイニングプロセスを制御するのに十分な経済的資源を動員することができる採掘者が、ネットワーク上で力を持つことで、セキュリティおよび独占問題を引き起こします。
 
-This also implies that the operation of the network is both economically and
-environmentally inefficient. The continuous input of processing power required
-by the mining process uses up large amounts of electricity, incurring monthly
-costs in the tens of millions. These costs can only be offset with an
-exponentially growing influx of new capital along with new users. Only a very
-small number of well-established coins, like Bitcoin and Ethereum, will be
-able to attract enough users to achieve such a continual flow. In the case of
-most other PoW/PoS-based coins, the cost
-of PoW/PoS mining is paid for in a lower market valuation as money is bled
-out of a coin by mining costs until the coin is abandoned.
+これはまた、ネットワークの動作が経済的かつ環境的に非効率的であることを意味します。
+マイニングプロセスで必要とされる処理能力の継続的な投入は、大量の電力を消費し、数千万の月間コストを発生させます。
+これらのコストは、新しいユーザーと一緒に指数関数的に増加する新規資本の流入によってのみ相殺することができます。
+BitcoinやEthereumのような確立されたコインのごく少数だけが、このような継続的な流れを達成するのに十分なユーザーを引き付けることができます。
+他のほとんどのPoW/PoSベースのコインの場合、コインが放棄されるまでマイニングでお金がかかるため、PoW/PoSマイニングは市場評価より高くつきます。
 
->Right now the Bitcoin economy consists of new users putting their money in
-and then the money being thrown in a pit and burned in a sacrifice ritual to
-the mining electricity costs. If the average user had to pay the miners’
-electricity cost directly as transaction fees, instead of it being robbed from
-them through inflation by the creation of new coins, then each Bitcoin
-transaction would cost more than $50. It would be more expensive than an
-international bank transfer.
+>今Bitcoin経済は、新しいユーザーはお金を入れ、お金を投げ込み、マイニングの電気代とします。
+平均的なユーザーがマイニングの電気代を直接取引費用として支払う必要がある場合、新しいコインの作成によるインフレによって奪われる代わりに、各Bitcoin取引に50ドル以上の費用がかかります。 
+それは国際的な銀行振込よりも高価になるでしょう。
 
-## The centralizing tendency of Proof of Stake
+## Proof of Stakeの集権化傾向
 
-Although Proof of Stake algorithms tackle the security issue of 51% attacks,
-they are arguably even more vulnerable to centralization than PoW networks. In
-PoS, the size of network participants’ holdings of the cryptocurrency in the
-network determines their authority and voting power to implement technical
-changes in the network. Participants are able to mine an equivalent portion of
-their stake regardless of processing power.
+Proof of Stakeアルゴリズムは51％攻撃のセキュリティ問題に取り組んでいますが、おそらくPoWネットワークよりも集権化に対して脆弱です。
+PoSでは、ネットワーク参加者のネットワーク内での暗号通貨の規模が、そのネットワークにおける技術的変更を実施する権限と投票権を決定します。
+参加者は、処理能力に関係なく、そのステークに相当する部分を採掘することができます。
 
-This principle significantly increases the economic barriers to launching a
-51% attack because the financial cost of acquiring the majority of tokens on
-the network in the open market is very likely to exceed the potential gain. If
-an attacker ends up as the majority stakeholder in the network, he will suffer
-most from the impact of the attack on the stability of the network or the
-external value of the cryptocurrency.
+この原理は、公開市場におけるネットワーク上の大部分のトークンを取得するための財務コストが潜在的な利益を超過する可能性が非常に高いため、51％の攻撃を開始する経済的障壁を大幅に増加させます。
+攻撃者がネットワークの大多数になり、利害関係者となった場合、ネットワークの安定性や暗号通貨の外部的価値への攻撃の影響により自身が最も被害を受けます。
 
-Yet, although raising the barriers to human-led attacks on the network, PoS
-creates a centralizing impulse which is as strong as, if not stronger than, in
-the case of PoW. As Joseph Young summarizes in his comparison of the two
-systems at [coinfox.info](http://www.coinfox.info/), “A system where the major
-stakeholder enjoys extensive control and authority over both technical and
-economic aspects of the network creates a major monopoly problem.” While in PoW
-voting on the implementation of technical changes to the network “is divided
-among miners, developers and other crucial members of the community,” in a PoS
-system “major stakeholders have a technical ability to make any changes they
-like without considering the will of the community, businesses, miners and
-developers. This centralisation of voting power and, essentially, control of
-the network defeats the purpose of a distributed ledger-based cryptocurrency
-since it contradicts its entire principle of distributing all elements within
-the network to avoid the presence of a central authority.”
+しかし、PoSは、人によるネットワーク攻撃の障壁を高めますが、PoWの場合と同じくらい強くではないものの、同程度の強い集権的な推進力を作り出します。
+ジョセフ・ヤングが[coinfox.info](http://www.coinfox.info/)の2つのシステムの比較で要約していることには、
+「大規模な利害関係者がネットワークの技術的側面と経済的側面の両方に対して幅広い操作と権限を享受するシステムは、大きな独占問題を引き起こします。」
+PoWシステムでは、ネットワークへの技術的変更の実施を投票する際に、「マイナー、開発者、コミュニティの重要なメンバーに分かれています、」
+PoSシステムでは、「主要な利害関係者は、コミュニティ、企業、マイナー、開発者の意思を考慮せずに、好きなように変更する技術的能力を持っています。この投票権の集中化、本質的にネットワークの制御は、中央権威の存在を避けるために、ネットワーク内のすべての要素を分散させるという原則と矛盾するため、分散型台帳ベースの暗号通貨の目的を破っています。」
 
-## Obelisk: Skycoin's distributed consensus algorithm
+## Obelisk: Skycoinの分散合意形成アルゴリズム
 
-To tackle this centralization problem, Skycoin moves beyond PoW/PoS.
-It uses a distributed consensus algorithm, called Obelisk, which
-distributes influence over the network according to a “web of trust”. In
-essence, every node has a list of other nodes that it subscribes to, and the
-density of a node’s network of subscribers determines its influence on the
-network. Each node is assigned a personal blockchain which acts as a “public
-broadcasting channel” on which all of a node’s actions are visible and
-publicly recorded. As all consensus decisions and communication occur through
-the personal blockchains of each node, the community can very easily audit
-nodes for cheating or collusion. How decisions on the network are made and
-which nodes influence those decisions is completely transparent.
+この集権化の問題に取り組むために、SkycoinはPoW / PoSを超えていきます。
+SkycoinはObeliskと呼ばれる分散合意形成アルゴリズムを使用し、 Web-of-Trust（信頼の輪）に従ってネットワーク上に影響を分散します。
+本質的には、すべてのノードには、それが署名している他ノードのリストがあり、ノードの署名者ネットワークの密度によってネットワークへの影響が決定されます。
+各ノードには、ノードのアクションのすべてが公開され、記録されている「公共放送チャネル」として機能するパーソナルブロックチェーンが割り当てられています。
+すべての合意形成の決定とコミュニケーションは各ノードのパーソナルブロックチェーンを介して行われるため、コミュニティは非常に簡単に不正行為や結託したのノードを監査することができます。
+どのようにネットワーク上の決定が行われ、どのノードがそれらの決定にどのように影響を与えるかは完全に透明です。
 
-The public record left by each node’s personal blockchain allows the network
-to react to defections by severing connections with less trustworthy or
-malicious nodes, contracting the network to a smaller and denser core of
-trusted nodes. Hence, in principle, if the community does not trust the nodes
-representing them or feels that power within the network is too concentrated
-(or not concentrated enough) the community is able to collectively shift the
-balance of power in the network by collectively changing their trust
-relationships in the network. The accountability of nodes to the community and
-3rd party audits as well as the transparency of consensus strengthens
-collective decision-making and thus introduces a highly democratic and
-decentralizing element to the network.
-This system provides for a digital currency system with significantly reduced
-transaction times, no mining requirement, and greater security.
+各ノードの個人的なブロックチェーンによって残された公開記録は、信頼性の低いまたは悪意のあるノードとの接続を切断し、ネットワークをより小さく高密度の信頼できるノードに縮小することによって、ネットワークが欠陥に反応できるようにします。
+したがって、原則として、コミュニティがそれらを代表するノードを信頼しない場合、またはネットワーク内の電力が集中しすぎている（または十分に集中していない）と感じる場合、コミュニティは、集合的にネットワーク内の信頼関係を変えることによって、集合的にネットワーク内の力を変えることができます。
+コミュニティと第三者の監査に対するノードの説明責任と合意形成の透明性は、集団的な意思決定を強化し、したがってネットワークに高度に民主的で分散的な要素を導入します。
+このシステムは、トランザクション時間が大幅に短縮され、マイニングの必要がなく、セキュリティが強化されたデジタル通貨システムを提供します。
 
 *Read more:*
 
