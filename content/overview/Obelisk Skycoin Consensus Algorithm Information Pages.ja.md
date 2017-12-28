@@ -17,23 +17,23 @@ author = "johnstuartmill"
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
-- [Consensus highlights](#consensus-highlights)
-    - [Why consensus](#why-consensus)
-    - [High scalability and low-energy consumption](#high-scalability-and-low-energy-consumption)
-    - [Robust to coordinated attacks](#robust-to-coordinated-attacks)
-    - [The “51-percent Attack”](#the-%E2%80%9C51-percent-attack%E2%80%9D)
-    - [Hidden IP addresses](#hidden-ip-addresses)
-    - [Independence of clock synchronization](#independence-of-clock-synchronization)
-    - [Two type of nodes: Consensus and Block-making](#two-type-of-nodes-consensus-and-block-making)
-- [How Skycoin Consensus Algorithm works](#how-skycoin-consensus-algorithm-works)
-- [References](#references)
+- [合意形成の要点](#合意形成の要点)
+    - [合意形成の理由](#合意形成の理由)
+    - [高いスケーラビリティと低消費電力](#高いスケーラビリティと低消費電力)
+    - [集団攻撃に対する頑健性](#集団攻撃に対する頑健性)
+    - [「51％攻撃」](#「51％攻撃」)
+    - [非表示のIPアドレス](#非表示のIPアドレス)
+    - [クロック同期の独立性](#クロック同期の独立性)
+    - [2つのタイプのノード：合意形成とブロック生成](#2つのタイプのノード：合意形成とブロック生成)
+- [Skycoin合意形成アルゴリズムはどのように動くか](#Skycoin合意形成アルゴリズムはどのように動くか)
+- [参考](#参考)
 
 <!-- /MarkdownTOC -->
 
 
-## 合意形成
+## 合意形成の要点
 
-### なぜ合意形成
+### 合意形成の理由
 
 Skycoin 合意形成アルゴリズム（"Obelisk"）は、すべてのネットワークノードでSkycoinブロックチェーンの状態を同期させます。
 これにより、一貫した会計処理が行われます。
@@ -41,7 +41,7 @@ Skycoin 合意形成アルゴリズム（"Obelisk"）は、すべてのネット
 
 ### 高いスケーラビリティと低消費電力
 
-設計により、アルゴリズムはスケーラブルで計算コストがかからず、proof-of-workに代わるものです。
+設計により、アルゴリズムはスケーラブルで計算コストがかからず、Proof-of-Workに代わるものです。
 したがって、低価格でエネルギー消費の少ない予算のハードウェアで合意形成アルゴリズムとブロック生成の両方を実行できるため、暗号通貨ネットワークを集権化のの可能性に対してより頑健にします。（すなわち、一般市民に手頃な価格のノードにより利用可能）
 
 ### 集団攻撃に対する頑健性
@@ -88,7 +88,7 @@ Skycoin 合意形成アルゴリズム（"Obelisk"）は、すべてのネット
 Skycomin GitHubリポジトリでは、完全な実装（仮定を単純化していない）を利用できます。
 シミュレーション結果と詳細、1つの合意形成トライアルの図の例については、[\[1\]](#references)を参照してください。
 Skycoinアルゴリズムとは異なりますが、信頼関係を持つネットワークのシミュレーションは、[\[2\]](#references)で見つけることができます。
-スカイコイン合意形成アルゴリズムは以下の通りです。
+Skycoin合意形成アルゴリズムは以下の通りです。
 
 1.  *ブロックの生成*
 各ブロック生成ノードは、新しいトランザクションを収集し、それらを所望のシーケンス番号のUTXOと照合し、対応するトランザクションを新しいブロックにパッケージ化し、ブロックをネットワークに流します。
@@ -103,20 +103,11 @@ Skycoinアルゴリズムとは異なりますが、信頼関係を持つネッ�
 ローカル勝者のブロックシーケンス番号に対応するキー - 値ペアが削除され、ストレージが再利用されます。
 ローカル勝者のハッシュコードが流され、発表されます。
 
-4.  *Verification step*. Each node keep statistics on local
-    winners reported by other nodes. When local winners have been
-    reported by all or most of the nodes[^3], the node determines the
-    global winner for the particular sequence number. If the global
-    winner is the local winner, then the node continues to function
-    as above. Otherwise the nodes decides, based on external data and
-    local logs, between (a) re-synchronizing itself with the network
-    or (b) dropping from participating in consensus and/or block-making
-    or (c) keeping its blockchain and requesting an emergency stop.
 4.　*検証ステップ*
 各ノードは、他のノードによって報告されたローカル勝者に関する統計を保持します。
 ローカル勝者がノードのすべてまたは大部分[^3]によって報告されたとき、ノードは特定のシーケンス番号のグローバル勝者を決定します。
 グローバル勝者がローカル勝者である場合、ノードは上記のように機能し続けます。
-そうでなければ、ノードは、（a）ネットワークと再同期する、または（b）合意形成および/またはブロック生成への参加から脱落する、または(c)ブロックチェーンを維持し、緊急停止を要求すること、の３つの中から、外部データおよびローカルログに基づいて決定する。
+そうでなければ、ノードは、（a）ネットワークと再同期する、または（b）合意形成および/またはブロック生成への参加から脱落する、または(c)ブロックチェーンを維持し、緊急停止を要求すること、の３つの中から、外部データおよびローカルログに基づいて決定します。
 
 
 [^1]: これは、アルゴリズムの設定可能なパラメータです。
