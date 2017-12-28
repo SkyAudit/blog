@@ -32,9 +32,9 @@ Skycoin BBS v4.1がついにリリースされました！
 - https://downloads.skycoin.net/bbs/skycoin_bbs_4.1_osx_amd64.zip
 - https://downloads.skycoin.net/bbs/skycoin_bbs_4.1_windows_amd64.zip
 
-## Source Code
+## ソースコード
 
-GitHubで利用可能 \
+GitHubで利用可能 
 https://github.com/skycoin/bbs
 
 ## コミュニティ
