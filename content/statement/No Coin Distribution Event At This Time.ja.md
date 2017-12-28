@@ -4,7 +4,7 @@ tags = [
     "Statement",
     "Distribution",
 ]
-bounty = 1
+bounty = 2
 date = "2017-09-23"
 categories = [
     "Statement",
