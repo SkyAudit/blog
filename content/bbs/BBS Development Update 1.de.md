@@ -1,5 +1,5 @@
 +++
-title = "Skycoin BBS Development Update #1"
+title = "Skycoin BBS Entwicklungsupdate #1"
 tags = [
     "Development",
     "BBS",
@@ -14,39 +14,39 @@ description = "Das erste Entwicklungsupdate für Skycoin BBS."
 
 ## Eine Einführung
 
-BBS steht für schwarzes-Brett-System. Obwohl traditionelle BBS-System nicht mehr wirklich benutzt werden, waren BBS in der modernen Ära ein Symbol für soziale Netzwerke.
+BBS steht für schwarzes Brett-System (bulletin board system). Obwohl traditionelle BBS-System nicht mehr wirklich benutzt werden, waren BBS in der modernen Ära ein Vorreiter für soziale Netzwerke.
 
 Skycoin BBS ist eine der ersten Webapplikationen, welche unter Verwendung des Skycoin-Ökosystems implementiert werden.
 Skycoin versucht das Internet zu revolutionieren; Dezentralisierung und Verschlüsselung der Protokolle sind Standard.
 
-Skycoin BBS liegt eine Peer-zu-Peer selbstreplizierende Datenbank mit dem Namen CXO (Teil des Skycoin-Ökosystems). Es nutzt unveränderbare Baumstrukturen von Golang-Objekten. Alle Objekte werden mittels deren Hashes nach einem definierten Schema referenziert. Jeder Baum hat ein Wurzelobjekt und wird mittels eines öffentlichen/privaten Schlüssels signiert. Um den Baum zu aktualisieren besitzen die Wurzeln inkrementelle Versionen namens "Sequenzen". Dieses Design ermöglicht schnelle und effiziente Datenreplikation. 
+Skycoin BBS liegt eine selbstreplizierende Peer-to-Peer Datenbank mit dem Namen CXO (ein Teil des Skycoin-Ökosystems) zugrunde. Es nutzt unveränderbare Baumstrukturen von Golang-Objekten. Alle Objekte werden mittels deren Hashes nach einem definierten Schema referenziert. Jeder Baum hat ein Wurzelobjekt und wird mittels eines öffentlichen/privaten Schlüssels signiert. Um den Baum zu aktualisieren besitzen die Wurzeln inkrementelle Versionen namens "Sequenzen". Dieses Design ermöglicht schnelle und effiziente Datenreplikation. 
 
 ## Datenstrukturen
 
-Skycoin BBSs Datenstruktur (Version 0.2 - In Entwicklung) enthält Boards (Bretter), Threads (Themen) und Posts (Nachricht). Über das Ranking von Boards und Threads kann abgestimmt werden. So sieht das alles in einem CXO-Baum aus:
+Skycoin BBSs Datenstruktur (Version 0.2 - In Entwicklung) enthält Boards (Foren), Threads (Themen) und Posts (Beiträge). Über das Ranking von Boards und Threads kann abgestimmt werden. So sieht das alles in einem CXO-Baum aus:
 
 ![](https://raw.githubusercontent.com/skycoin/bbs/v0.2/doc/cxo_data_structure.jpg)
 
 Dies ist ein vereinfachtes Diagramm.
 
-Alle eingereichten Objekte (Threads, Posts und Abstimmungen(Votes)) werden mittels des öffentlichten Schlüssels des Users verifiziert via Signatur.
+Alle eingereichten Objekte (Threads, Posts und Abstimmungen (Votes)) werden, mittels des öffentlichen Schlüssels und der entsprechenden Signatur des Users, verifiziert.
 
-Jede Wurzel enthält Daten welche ein einzelnes Board repräsentiert. BoardPage enthält den "Inhalt"; Das Board selbst, Threads und Posts. Threads werden durch den Hash des "Thread"-Objekts referenziert, wohingegen Posts durch den Hash von sich selbst referenziert werden. Deshalb können Posts und Threads nach dem Einreichen nicht mehr modifiziert werden.
+Jede Wurzel enthält Daten welche ein einzelnes Board repräsentiert. BoardPage enthält den "Inhalt"; das Board selbst, Threads und Posts. Threads werden durch den Hash des "Thread"-Objekts referenziert, wohingegen Posts durch den Hash von sich selbst referenziert werden. Deshalb können Posts und Threads nach dem Einreichen nicht mehr modifiziert werden.
 
-ThreadVotesPages, PostVotesPages speichern die Stimmen für den Inhalt. Das "ref"-Feld der VotePage enthält den Hash des zugehörigen Inhalts. Das "Votes"-Feld speichert Stimmen für einen bestimmten Inhalt. Die VotePage werden durch den BBS-Node in eine Speicherstruktur "kompiliert", welche sehr schnell den "Stand der Stimmen" für die Präsentationsschicht.
+ThreadVotesPages, PostVotesPages speichern die Abstimmungen über den Inhalt. Das "ref"-Feld der VotePage enthält den Hash des zugehörigen Inhalts. Das "Votes"-Feld speichert Abstimmungen über einen bestimmten Inhalt. Die VotePage werden durch den BBS-Node in eine Speicherstruktur "kompiliert", welche sehr schnell den "Stand der Stimmen" für die Präsentationsschicht bereitstellt.
 
 Stimmen werden separat vom Inhalt gespeichert um die Anzahl der Baumknoten zu reduzieren, welche mit jeder neuen Stimme geändert werden müssen.
 Dies ermöglicht einfachere Datenmanipulation durch den Compiler des Abstimmers.
 
-## Releases(Veröffentlichungen)
+## Veröffentlichungen (Releases)
 
-Zurzeit ist nur eine stabile, aktuelle Version des Skycoin BBS veröffentlicht. Die Eigenschaften sind aufs wesentliche begrenzt, aber die CXO-Datenstruktur ist komplizierter, als die oben beschriebene. Inhalte hinzufügen und Abstimmen resultiert darin, dass sich die Wurzel-Sequenz mehrmals pro Aktion vergrößert. 
+Zurzeit ist nur eine stabile, aktuelle Version des Skycoin BBS veröffentlicht. Die Eigenschaften sind aufs Wesentliche begrenzt, aber die CXO-Datenstruktur ist komplizierter, als die oben beschriebene. Das Hinzufügen von Inhalten und Abstimmungen resultieren darin, dass sich die Wurzel-Sequenz mehrmals pro Aktion vergrößert. 
 
-Version 0.2 des BBS (aktuell in Entwicklung), erhöht nicht nur die Performance und die Codelesbarkeit, sondern wird auch die folgenden Funktionen implementieren.
+Version 0.2 des BBS (aktuell in der Entwicklung), erhöht nicht nur die Performance und die Codelesbarkeit, sondern wird auch die folgenden Funktionen Implementieren.
 
-* Verbessertes Laden von Inhalten - Wir werden die WebSocket-Verbindung(en) zwischen Client und Sever verwenden, um realzeit Updates zu ermöglichen, sowie auch effizienteres Laden der Inhalte.
+* Verbessertes Laden von Inhalten - Wir werden die WebSocket-Verbindung(en) zwischen Client und Server verwenden, um Updates in Echtzeit sowie effizienteres Laden zu ermöglichen.
 * Inhalte Ansicht/Voting Verbesserung - In tatsächlicher Leistung und flüssigem Ablauf aus der User-Perspektive. Spammeldungen werden ebenfalls eingeführt.
-* Erlaubnisse - Boards werden die Möglichkeit besitzen Zugriffsrechte zu bestimmen (z.B. das abschicken von Inhalten/Voting). Die Möglichkeit User zu blockieren wird ebenfalls verfügbar sein.
+* Erlaubnisse - Boards werden die Möglichkeit besitzen Zugriffsrechte zu bestimmen (z.B. das Abschicken von Inhalten/Voting). Die Möglichkeit User zu blockieren wird ebenfalls verfügbar sein.
 
 ## Teilnahme
 
