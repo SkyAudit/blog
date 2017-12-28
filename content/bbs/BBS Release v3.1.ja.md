@@ -12,32 +12,33 @@ categories = [
 ]
 +++
 
-Skycoin BBS v3.1 has finally been released!
+Skycoin BBS v3.1がついにリリースされました！
 
-## Changelog
+## 変更ログ
 
-- Updated to use latest CXO.
-- Reimplemented CXO data structure for easier diff management.
-- Introduction of a `views` module for easier implementation of different ways of viewing data.
-- Implemented exporting/importing boards to/from file.
-- Initial implementation of following/avoiding users.
-- Improved UI (Work in progress).
-- Automatic peer-to-peer relay of boards.
+- 最新のCXOへのアップデート
+- より簡単な差分管理のためのCXOデータ構造の再実装
+- さまざまな方法でデータを表示しやすくするための「ビュー」モジュールの導入
+- ボードへのファイルのエクスポート/インポートの実装
+- ユーザーのフォロー/回避の初期実装
+- UIの改善（作業中）
+- ボードの自動P2Pリレー
 
-## Binaries
 
-These are avaliable for 64bit windows, mac and linux.
+## バイナリ
+
+これらは、64ビットWindows、Mac、Linuxで使用できます。
 
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_linux_amd64.zip
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_osx_amd64.zip
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_windows_amd64.zip
 
-## Source Code
+## ソースコード
 
-Avaliable on GitHub.
+GitHubで利用可能
 
 https://github.com/evanlinjin/bbs
 
-## Community
+## コミュニティ
 
-[Click here to join the discussion on Telegram!](https://t.me/skycoinbbs)
+[クリックしてTelegramでの議論に参加しましょう!](https://t.me/skycoinbbs)
