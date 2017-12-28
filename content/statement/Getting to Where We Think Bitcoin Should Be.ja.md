@@ -1,34 +1,33 @@
 +++
-title = "Getting to Where We Think Bitcoin Should Be"
+title = "Bitcoinが目指した世界の実現のために"
 tags = [
     "Decentralization",
     "Bitcoin",
     "Transaction Malleability",
     "Consensus",
 ]
-bounty = 4
+bounty = 8
 date = "2017-10-03"
 categories = [
     "Statement",
 ]
 +++
 
-*This is an archived post from the bitcointalks thread on April 23 2014*
+*本記事は「the bitcointalks」の投稿（２０１４年４月２３日）をアーカイブしたものです。 
 
-> Quote from: **JFK01** on April 23, 2014, 01:54:50 PM
+> 引用: **JFK01** 2014年4月23日 01:54:50 PM
 
-> I guess that Skycoin just want to test the water first. There is nothing wrong
-with that. They are engineers and want to do testing for everything. They have
-been very cautious for the development as well. This is something they are good
-at. Just do what you are good at. This project is a long shot.
+> Skycoinは検証に検証を重ね、とても慎重にプロジェクトを進めているように私には映ります。 
+それ自体は悪いことではありません。Skycoinのチームはエンジニアであり、実践よりも検証を優先したいのでしょう。
+とても注意深く開発も進められてきたようです。エンジニアは注意深く、慎重であるのが常です。
+そのようにすればよいと思います。これは野心的なプロジェクトで、実現もまだまだ先の話でしょうから。
 
-If you look at the top coins, Peer Coin, Ripple, Bitcoin, Nxt, Litecoin, it's
-clear that most coins with a fundamental innovation on Bitcoin's security model
-have done very well.
+Peer Coin、Ripple、Bitcoin、Nxt、Litecoin、現在（２０１４年当時）人気の仮想通貨を見てみると、
+どれもBitcoinのセキュリティモデルを根本的に改善することに成功しています。
 
-- Bitcoin was the first and introduced Proof of Work.
-- Litecoin introduced a new hashing function Scrypt.
-- Peer Coin introduced Proof of Stake.
+- Bitcoinは仮想通貨の起源であり、Proof of Workの仕組みを導入しました。
+- LitecoinはScryptという新たなハッシング機能を開発しました。
+- Peer CoinはProof of Stakeを導入した最初の仮想通貨です。
 - Ripple introduced a model of relational consensus, which is flawed but innovative. Has a new codebase.
 - Nxt introduced pure proof of stake. Has a new codebase.
 - Namecoin introduced a key value store on the blockchain.
