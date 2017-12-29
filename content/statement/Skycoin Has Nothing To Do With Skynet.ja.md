@@ -10,7 +10,7 @@ categories = [
 ]
 +++
 
-「Skycoinは「Skynet」又は「Superskynet」というプロジェクトを立ち上げているのか？」という質問がありました。
+「Skycoin」は「Skynet」又は「Superskynet」というプロジェクトを立ち上げているのか？という質問がありました。
 
 まず、Skycoinが「Skynet」という名前を使うことはありません。それは使い古された、独自性のない名称です。
 
