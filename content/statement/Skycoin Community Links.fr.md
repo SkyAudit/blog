@@ -19,9 +19,13 @@ L'équipe de Skycoin est la plus active sur Telegram
 * [Canal d'informations de Skycoin](https://t.me/skycoinnews)
 * [Canal de récompenses de Skycoin](https://t.me/skycoinbounty)
 
-Il y a également un canal Slack
-
 * [Slack de Skycoin](https://skycoin.herokuapp.com)
+* [Discord de Skycoin](https://discord.gg/MTepVHE)
+
+Mailing List
+------------
+
+* [Skycoin Mailing List](http://eepurl.com/c4DyAv)
 
 Les dernières informations de Skycoin
 ------------
@@ -29,6 +33,13 @@ Les dernières informations de Skycoin
 * [Blog de Skycoin](https://blog.skycoin.net)
 * [Twitter de Skycoin](https://twitter.com/skycoinproject)
 * [Reddit de Skycoin](https://reddit.com/r/skycoinproject)
+* [Facebook de Skycoin](https://www.facebook.com/skycoinproject)
+
+Media
+-----
+
+* [Youtube de Skycoin](https://www.youtube.com/channel/UCzLASufel2No4vSt4rudHSQ)
+* [Instagram de Skycoin](https://www.instagram.com/skycoinproject/)
 
 Logiciel
 --------

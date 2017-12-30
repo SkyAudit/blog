@@ -3,6 +3,7 @@ title = "Skycoin vs Skywire"
 tags = [
     "Skywire",
 ]
+bounty = 4
 date = "2017-08-30"
 categories = [
     "Skywire",
