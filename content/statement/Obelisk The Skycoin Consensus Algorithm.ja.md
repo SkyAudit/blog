@@ -75,5 +75,5 @@ SkycoinはObeliskと呼ばれる分散合意形成アルゴリズムを使用し
 
 *Read more:*
 
-* *[Skycoin Consensus Algorithm Whitepapers](https://www.skycoin.net/whitepapers)*
-* *[Obelisk The Skycoin Consensus Algorithm | Information Pages](/overview/obelisk-skycoin-consensus-algorithm-information-pages/)*
+* *[Skycoin合意形成アルゴリズム　ホワイトペーパー](https://www.skycoin.net/whitepapers)*
+* *[Obelisk Skycoin合意形成アルゴリズム | 情報ページ](/overview/obelisk-skycoin-consensus-algorithm-information-pages/)*
