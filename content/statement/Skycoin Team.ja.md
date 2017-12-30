@@ -74,4 +74,4 @@ logrusorgruは分散オブジェクトストレージシステムCXOを開発し
 
 * Github: https://github.com/logrusorgru
 
-2,3人がSkywireのマイニング用ハードウェア開発に取り組んでいます。
+そのほか、2,3人がSkywireのマイニング用ハードウェア開発に取り組んでいます。
