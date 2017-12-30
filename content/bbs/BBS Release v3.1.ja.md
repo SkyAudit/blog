@@ -1,5 +1,5 @@
 +++
-title = "Skycoin BBS v3.1 Release Announcement"
+title = "Skycoin BBS v3.1 リリースのお知らせ"
 tags = [
     "Development",
     "BBS",
