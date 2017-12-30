@@ -1,5 +1,5 @@
 ++
-title = "Obelisk: The Skycoin Consensus Algorithm"
+title = "Obelisk: Skycoin 合意形成アルゴリズム"
 tags = [
     "Statement",
 ]
