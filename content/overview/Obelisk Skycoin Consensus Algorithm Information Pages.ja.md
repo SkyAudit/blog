@@ -1,5 +1,5 @@
 +++
-title = "Obelisk: Skycoin Consensus Algorithm | Information Pages"
+title = "Obelisk: Skycoin 合意形成アルゴリズム | 情報ページ"
 tags = [
     "Overview",
     "Consensus",
@@ -110,7 +110,7 @@ Skycoin合意形成アルゴリズムは以下の通りです。
 そうでなければ、ノードは、（a）ネットワークと再同期する、または（b）合意形成および/またはブロック生成への参加から脱落する、または(c)ブロックチェーンを維持し、緊急停止を要求すること、の３つの中から、外部データおよびローカルログに基づいて決定します。
 
 
-[^1]: これは、アルゴリズムの設定可能なパラメータです。
+[^1]: これは、要求アルゴリズムの設定可能なパラメータです。
 [^2]: 特定の理想的な条件の下では、（特定のブロックシーケンス番号に対して）ローカル勝者はすべて同じであり、すなわち同一のトランザクションセットです。 この違いは、ネットワークの待ち時間、トランザクションの頻度の高さ、シーケンス外のメッセージ配信、メッセージの消失、誤動作または悪意のあるノードなどによって発生します。
 [^3]: この数は、例えば、信頼されたノードに、それらの信頼されたノードの公開鍵を再帰的に報告するように求めることによって決定することができます。
 
@@ -128,5 +128,5 @@ for Consensus over P2P Network.
 
 *Read more:*
 
-* *[Skycoin Consensus Algorithm Whitepapers](https://www.skycoin.net/whitepapers)*
-* *[Obelisk The Skycoin Consensus Algorithm](/statement/obelisk-skycoin-consensus-algorithm/)*
+* *[Skycoin 合意形成アルゴリズム　ホワイトペーパー](https://www.skycoin.net/whitepapers)*
+* *[Obelisk Skycoin 合意形成アルゴリズム](/statement/obelisk-skycoin-consensus-algorithm/)*
