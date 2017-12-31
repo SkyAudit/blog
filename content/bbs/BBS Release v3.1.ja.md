@@ -19,7 +19,7 @@ Skycoin BBS v3.1がついにリリースされました！
 - 最新のCXOへのアップデート
 - より簡単な差分管理のためのCXOデータ構造の再実装
 - さまざまな方法でデータを表示しやすくするための「ビュー」モジュールの導入
-- ボードへのファイルのエクスポート/インポートの実装
+- ボードへのto/fromファイルのエクスポート/インポートの実装
 - ユーザーのフォロー/回避の初期実装
 - UIの改善（作業中）
 - ボードの自動P2Pリレー
@@ -27,7 +27,7 @@ Skycoin BBS v3.1がついにリリースされました！
 
 ## バイナリ
 
-これらは、64ビットWindows、Mac、Linuxで使用できます。
+これらは、64ビットのWindows、Mac、Linuxで使用できます。
 
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_linux_amd64.zip
 - https://downloads.skycoin.net/bbs/skycoin_bbs_3.1_osx_amd64.zip
