@@ -14,13 +14,13 @@ categories = [
 
 天空币BBS v5.0终于发布了，我们这次做了很多的更新呢！
 
-## 简化客户端
-最明显的变化就是简化客户端的推出。您现在可以在不需要设置节点的情况下访问Skycoin BBS！只需要简单的前往[bbs.skycoin.net](http://bbs.skycoin.net). 
+## 轻客户端
+最明显的变化就是轻客户端的推出。您现在可以在不需要设置节点的情况下访问Skycoin BBS！只需要简单的前往[bbs.skycoin.net](http://bbs.skycoin.net). 
 
 
 在以前的版本中，只能（也应该）通过本地提供的Web用户界面访问/提交内容。由于这个网络接口（以及它所调用的API）可以直接控制节点本身，并且使用存储在节点（或服务器端）中的私钥对内容进行签名，因此将其暴露给公众是不合适,不安全的。
 
-因此，引入简化客户端的时候, 我们需要用户管理以及签名提交内容的过程，以便客户端的处理。这需要全新改进的内容提交端点（或多于一个端点），并对前端进行大量更改。
+因此，引入轻客户端的时候, 我们需要用户管理以及签名提交内容的过程，以便客户端的处理。这需要全新改进的内容提交端点（或多于一个端点），并对前端进行大量更改。
 有关新内容提交过程的详细信息可以在BBS Wiki: [github.com/skycoin/bbs/wiki/Content-Submission-Process](https://github.com/skycoin/bbs/wiki/Content-Submission-Process)上找到.
  
 目前，前端加载非常缓慢。这是由于使用 [GopherJS](https://github.com/gopherjs)来处理种子和公钥/私钥生成以及数据的签名和验证所致。在将来的版本中，我们将使用原生JavaScript库来提高性能。
