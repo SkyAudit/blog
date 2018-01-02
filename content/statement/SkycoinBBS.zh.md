@@ -41,6 +41,7 @@ Skycoin BBS是建立在Skycoin平台和不可变数据结构（CXO）之上的�
 如何获取要连接的节点列表以及要订阅的版块：https://t.me/skycoinbbshosting.
 
 YouTube上skycoin BBS的发展历程小视频：https://www.youtube.com/watch?v=6ZqwgefYauU.
+
 ---
 ## 我们的愿景：
 
