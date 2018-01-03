@@ -53,7 +53,7 @@ bounty = 20
 
 >>Se due grandi Exchange hanno un consenso diverso per un particolare blocco, questo è un problema. Potrebbe indicare un netsplit o un attacco alla rete. Gli Exchange potrebbero voler sospendere il trading fino a quando il problema non sarà risolto.
 
->Obelisk è il nodo di consenso distribuito di skycoin? Pensavo che SkyCoind fosse il nodo ...
+>Obelisk è il nodo di consenso distribuito di Skycoin? Pensavo che Skycoin fosse il nodo ...
 
 Si.
 
