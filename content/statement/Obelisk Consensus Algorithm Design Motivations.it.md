@@ -1,5 +1,5 @@
 +++
-title = "Obelisk Consensus Algorithm Design Motivations"
+title = "Motivazioni per la progettazione dell'algoritmo di consenso Obelisk"
 tags = [
     "Obelisk",
     "Consensus",
@@ -12,128 +12,60 @@ categories = [
 bounty = 20
 +++
 
-*This is an archived post from the bitcointalks thread on June 19 2014*
+*Questo è un post archiviato da una discussione sul forum BitcoinTalks del 19 giugno 2014*
 
->Quote from: yxxyun on June 19, 2014, 02:52:38 AM
+>Citazione di: yxxyun del 19 Giugno, 2014, 02:52:38 AM
 
->>Quote from: skycoin on June 19, 2014, 02:31:59 AM
+>>Citazione di: skycoin del 19 Giugno, 2014, 02:31:59 AM
 
->>>Quote from: FrictionlessCoin on June 18, 2014, 09:15:07 PM
+>>>Citazione di: FrictionlessCoin del 18 Giugno, 2014, 09:15:07 PM
 
->>>>Quote from: skycoin on June 18, 2014, 09:08:56 PM
+>>>>Citazione di: skycoin del 18 Giugno, 2014, 09:08:56 PM
 
->>>>Development Update:
+>>>>Aggiornamento di sviluppo:
 
->>>>We figured out way of preventing Sybil attack using a hybrid Proof of
->>>>Stake system.
+>>>>Abbiamo scoperto un modo per prevenire un attacco Sybil usando un sistema 
+>>>>Proof of Stake ibrido.
 
->>>>To create a node, you must prove you have coins. Say 10 coins. You send 10
->>>>coins to address A. Then you send the 10 coins from address A to address B.
->>>>Then you add a signature using the public key in address A to sign a message
->>>>in your Obelisk blockchain.
+>>>>Per creare un nodo, devi dimostrare di avere monete. Diciamo 10 monete. Invii 10 monete per l'indirizzo A. Quindi si inviano le 10 monete dall'indirizzo A all'indirizzo B. Poi aggiungi una firma usando la chiave pubblica nell'indirizzo A per firmare un messaggio nella blockchain di Obelisk.
 
->>>>Alternatively, you could publish the public key for address A and then just
->>>>sign a message with that public key. The node would have to publish a
->>>>signature every time period, or within some number of blocks of the reserve
->>>>coins being moved, in order to maintain valid trust relationships with other
->>>>peers.
+>>>>In alternativa, è possibile pubblicare la chiave pubblica per l'indirizzo A e quindi firmare un messaggio con tale chiave pubblica. Il nodo dovrebbe pubblicare una firma ogni periodo di tempo, o ogni determinato numero di blocchi di valute di riserva che vengono spostati, per mantenere relazioni di fiducia valide con altri peer.
 
->>>>Alternatively, proof of burn could be required, where the coins are sent from
->>>>address A to an address B that has no private key. Proof of burn conflicts
->>>>with the requirement that no one should need to download the whole blockchain
->>>>from the beginning to operate a full node, so is unlikely.
+>>>>In alternativa, può essere richiesta una Proof of Burn (prova di ustione), quando le monete vengono inviate dall'indirizzo "A" all'indirizzo "B" che non ha una chiave privata. La Proof of Burn entra in conflitto con il requisito che nessuno dovrebbe scaricare l'intera blockchain dall'inizio per operare un intero nodo, quindi è improbabile.
 
->>>>This system upper bounds the number of Obelisk nodes and restricts the
->>>>ability to run Obelisk nodes to coin holders.
->>>>The upper bound on the number of nodes and coin requirements adds
->>>>another layer of Sybil attack protection.
+>>>>Questo sistema superiore limita il numero di nodi Obelisk e limita la possibilità di eseguire nodi Obelisk ai possessori di monete. Il limite superiore del numero di nodi e i requisiti di moneta aggiungono un altro livello di protezione da un attacco Sybil.
 
->>>Not sure how this prevents a Sybil attack.
->>>Are you simply adding a cost to adding a node to network and therefore a
->>>sybil attack will require a financial cost to do so?
+>>>Non sono sicuro di come ciò prevenga un attacco Sybil. Stai semplicemente aggiungendo un costo per l'aggiunta di un nodo alla rete e quindi un attacco Sybil richiederebbe un costo finanziario per farlo?
 
->>Just an idea at this stage. Found an improvement. Each Obelisk node, has a
->>public key. We hash the public key into an address and then it stores 10
->>coins in an output owned by that address.
+>>È solo un'idea in questa fase. Abbiamo trovato un miglioramento. Ogni nodo in Obelisk ha una chiave pubblica. Facciamo l'hash della chiave pubblica in una direzione e si memorizzano 10 monete in un'uscita di proprietà di quell'indirizzo.
 
->>It does not add a cost. It just proves that you own 10 coins. It proves you
->>know the private key, for a public key, whose address has 10 coins in it. You
->>can still spend the coins.
+>>Non aggiunge un costo. Dimostra solo di possedere 10 monete. Dimostra che conosci la chiave privata, per una chiave pubblica, il cui indirizzo contiene 10 monete. Puoi ancora spendere le monete.
 
->>The idea is that it upper bounds the number of nodes. If 10 coins must be
->>held and there are 100 million coins, then it upper bounds the network at 10
->>million nodes. The upper bound does not appear to be mathematically useful
->>right now, but is something we should keep in mind.
+>>L'idea è che imposti un limite superiore al numero di nodi. Se si devono conservare 10 monete e ci sono 100 milioni di monete, si imposta un limite superiore sulla rete di 10 milioni di nodi. Il limite superiore non sembra matematicamente utile, per ora, ma è qualcosa che dovremmo prendere in considerazione.
 
->>When a new Obelisk node is run, it will "trust" some random peers. The user
->>can also add a few nodes by hand that it trusts (exchanges or trusted
->>community members). A node is identified by its public key hash and found by
->>DHT. Its not like Bitcoin where nodes are IP:port pairs. You can move your
->>computer around and the identity of the node does not depend on its IP
->>address.
+>>Quando viene eseguito un nuovo nodo Obelisk, si "fiderà" di alcuni peer casuali. L'utente può anche aggiungere manualmente alcuni nodi di cui si fida (scambi o membri di una comunità fidata). Un nodo è identificato dall'hash della chiave pubblica e trovato da DHT. Non è come Bitcoin dove i nodi sono IP: coppie di porte. Puoi spostare il tuo computer e l'identità del nodo non dipende dal suo indirizzo IP.
 
->>We want the network to be secure with random nodes being chosen. We dont want
->>a situation like Ripple, where the three developers nodes control the
->>network. However, we wanted to prevent a situation, where someone runs
->>200,000 nodes and tries to collect the trust relationships from new users.
->>These Sybil attacks nodes, still cannot 51% attack generally, but anything
->>that increases the cost of the attack is still useful.
+>Vogliamo che la rete sia sicura con i nodi casuali scelti. Non vogliamo una situazione come Ripple, in cui i tre nodi degli sviluppatori controllano la rete. Tuttavia, volevamo evitare una situazione, in cui qualcuno gestisce 200.000 nodi e cerca di raccogliere le relazioni di fiducia dai nuovi utenti. Questi Sybil attaccano i nodi, non possono ancora attaccare il 51% in generale, ma tutto ciò che aumenta il costo dell'attacco è ancora utile.
 
->>Maybe, we restrict it so that new user will only randomly trust nodes that
->>have a coin balance. Trust relationships wont be severed if the node does not
->>have a coin balance, but they just wont get new random users.
+>>Forse, lo limitiamo in modo tale che il nuovo utente possa fidarsi solo in modo casuale dei nodi che hanno un bilancio di monete. Le relazioni di fiducia non verranno interrotte se il nodo non ha un saldo di moneta, ma non otterranno nuovi utenti casuali..
 
->>The connectivity graph for trust relationships, is supposed to be a fully
->>connected random graph. A few nodes (trusted community members, exchanges,
->>websites, organizations) will have more trust relationships and that helps
->>the convergence time for block consensus a bit. It reduces the network
->>diameter a bit.  Some nodes will be used to verify consensus (you choose a
->>bunch of exchanges or different public keys), these nodes do not affect
->>consensus decisions, but are "consensus oracles" to check if your node has
->>converged with network.
+>>Si presuppone che il grafico di connettività per le relazioni di trust sia un grafico collegato in modo casuale. Alcuni nodi (membri della comunità fidati, case di cambiamento, siti Web, organizzazioni) avranno più relazioni di fiducia e questo aiuta un po' al momento della convergenza per il consenso sui blocchi. Riduce leggermente il diametro della rete. Alcuni nodi saranno utilizzati per verificare il consenso (si scelgono un gruppo di Exchange o diverse chiavi pubbliche), tali nodi non influenzano le decisioni di consenso, ma sono "oramenti di consenso" per verificare se il proprio nodo è convergente con la rete.
 
->>If two large exchanges have different consensus for a particular, block, that
->>is a problem. It could indicate a netsplit or an attack on the network.
->>Exchanges may want to suspend trading until the issue is resolved.
+>>Se due grandi Exchange hanno un consenso diverso per un particolare blocco, questo è un problema. Potrebbe indicare un netsplit o un attacco alla rete. Gli Exchange potrebbero voler sospendere il trading fino a quando il problema non sarà risolto.
 
->Obelisk is skycoin's distribute consensus node? I was think the skycoind is
->the node...
+>Obelisk è il nodo di consenso distribuito di skycoin? Pensavo che SkyCoind fosse il nodo ...
 
-Yes.
+Si.
 
-Skycoin has a blockchain. The blockchain is in
-https://github.com/skycoin/skycoin/tree/develop/src/coin. This parses the
-blocks and deals with unspent outputs and transactions.
+Skycoin ha una blockchain. La blockchain si trova qui:
+https://github.com/skycoin/skycoin/tree/develop/src/coin. 
+Questo analizza i blocchi e tratta gli output e le transazioni non spese.
 
-Skywire is the daemon and has a "service architecture". It can run services,
-such as blockchain syncing service and other things. The meshnet is currently
-being implemented as a service on top of Skywire (although this may need to
-change).
+Skywire è il demone e ha una "architettura di servizio". È in grado di eseguire servizi come la sincronizzazione blockchain e altro. La rete mesh è attualmente in fase di implementazione come servizio su skywire (anche se potrebbe dover cambiare).
 
-The consensus mechanism is outside of the blockchain. Obelisk nodes (which will
-probably will be implemented as a Skywire service) have a blockchain.
-Each node has a public key. The public key identifies the Obelisk node.
-Each Obelisk node has its own blockchain (there are no coins in this chain).
-The node creates a new block and signs it with its private key.
-The Obelisk blockchains are used to negotiate consensus (determining the head
-block in the Skycoin blockchain). Obelisk uses Ben-Or's for randomized
-consensus. Each Obelisk node has a list of other nodes it subscribes to.
-Those nodes influence consensus and voting decisions for the local node.
-For non-pathological network topologies, the local consensus provably converges
-in to a global consensus.
+l meccanismo di consenso è al di fuori della blockchain. I nodi Obelisk (che saranno probabilmente implementati come servizio Skywire) hanno una blockchain. Ogni nodo ha una chiave pubblica. La chiave pubblica identifica il nodo Obelisk. Ogni nodo Obelisk ha la sua blockchain (non ci sono monete in questa catena). Il nodo crea un nuovo blocco e lo firma con la sua chiave privata. Gli Obelisk blockchain sono usati per negoziare il consenso (determinando il blocco in cima nella blockchain Skycoin). Obelisk usa Ben-Or per un consenso casuale. Ogni nodo Obelisk ha una lista di altri nodi a cui si abbona. Quei nodi influenzano il consenso e le decisioni di voto per il nodo locale. Per le topologie di rete non patologiche, il consenso locale converge stabilmente in un consenso globale.
 
-Each node votes on the next block in the chain. A node proposes the next
-block and the nodes vote on the successor. The votes are published in the
-blocks in the Obelisk blockchain for each node. Your node votes randomly
-between the alternative and flips its vote every once in a while. Once 40% of
-your peers (the nodes you are subscribed to) have reached a consensus, you
-switch to that candidate. The network can vote on multiple forks at once, it
-does not slow down waiting for a consensus. The forks are pruned to a single
-chain over time. Splits of two or three block are normal, but after a few
-confirmations the probability of the block being reverted decreases
-exponentially to zero. If a transaction has been executed on all candidate
-chains, then it is essentially executed, even if the particular consensus chain
-has not been decided yet.
+Ogni nodo vota sul prossimo blocco della catena. Un nodo propone il prossimo blocco e i nodi votano sul successore. I voti sono pubblicati nei blocchi nella blockchain di Obelisk per ciascun nodo. Il tuo nodo vota a caso tra l'alternativa e capovolge il suo voto di tanto in tanto. Una volta raggiunto il consenso del 40% dei tuoi peer (i nodi a cui sei iscritto), passa a quel candidato. La rete può votare su più biforcazioni contemporaneamente, non rallenta in attesa di un consenso. Le biforcazioni vengono potate in una singola catena nel tempo. Le divisioni di due o tre blocchi sono normali, ma dopo alcune conferme la probabilità che il blocco venga ripristinato diminuisce esponenzialmente fino a zero. Se una transazione è stata eseguita su tutte le catene candidate, viene essenzialmente eseguita, anche se la particolare catena di consenso non è stata ancora decisa.
 
 That is binary Ben-Or's and Skycoin will use something slightly more advanced,
 that is faster when there are multiple successor blocks to choose from in the
