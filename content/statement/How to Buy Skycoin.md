@@ -9,6 +9,8 @@ categories = [
 ]
 +++
 
+## Intructive Guide on How to Purchase Skycoin
+
 We have received a lot of messages asking for explicit directions on how to purchase Skycoin, so we are making this blog post to outline the process. There are currently three ways to purchase Skycoin. You can purchase on the exchanges C2CX, Cryptopia, or Over-The-Counter.
 The Over-The-Counter Exchange is currently sold out, so you can purchase Skycoin on https://www.c2cx.com/in/home or https://www.cryptopia.co.nz/. To purchase on these two exchanges, you will need to buy Bitcoin. You can purchase Bitcoin at https://www.coinbase.com/, https://gemini.com/, https://www.bitstamp.net/, or other verified exchanges. 
 
