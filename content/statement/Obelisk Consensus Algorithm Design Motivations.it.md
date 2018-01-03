@@ -45,7 +45,7 @@ bounty = 20
 
 >>Quando viene eseguito un nuovo nodo Obelisk, si "fiderà" di alcuni peer casuali. L'utente può anche aggiungere manualmente alcuni nodi di cui si fida (scambi o membri di una comunità fidata). Un nodo è identificato dall'hash della chiave pubblica e trovato da DHT. Non è come Bitcoin dove i nodi sono IP: coppie di porte. Puoi spostare il tuo computer e l'identità del nodo non dipende dal suo indirizzo IP.
 
->Vogliamo che la rete sia sicura con i nodi casuali scelti. Non vogliamo una situazione come Ripple, in cui i tre nodi degli sviluppatori controllano la rete. Tuttavia, volevamo evitare una situazione, in cui qualcuno gestisce 200.000 nodi e cerca di raccogliere le relazioni di fiducia dai nuovi utenti. Questi Sybil attaccano i nodi, non possono ancora attaccare il 51% in generale, ma tutto ciò che aumenta il costo dell'attacco è ancora utile.
+>>Vogliamo che la rete sia sicura con i nodi casuali scelti. Non vogliamo una situazione come Ripple, in cui i tre nodi degli sviluppatori controllano la rete. Tuttavia, volevamo evitare una situazione, in cui qualcuno gestisce 200.000 nodi e cerca di raccogliere le relazioni di fiducia dai nuovi utenti. Questi Sybil attaccano i nodi, non possono ancora attaccare il 51% in generale, ma tutto ciò che aumenta il costo dell'attacco è ancora utile.
 
 >>Forse, lo limitiamo in modo tale che il nuovo utente possa fidarsi solo in modo casuale dei nodi che hanno un bilancio di monete. Le relazioni di fiducia non verranno interrotte se il nodo non ha un saldo di moneta, ma non otterranno nuovi utenti casuali..
 
@@ -67,76 +67,30 @@ l meccanismo di consenso è al di fuori della blockchain. I nodi Obelisk (che sa
 
 Ogni nodo vota sul prossimo blocco della catena. Un nodo propone il prossimo blocco e i nodi votano sul successore. I voti sono pubblicati nei blocchi nella blockchain di Obelisk per ciascun nodo. Il tuo nodo vota a caso tra l'alternativa e capovolge il suo voto di tanto in tanto. Una volta raggiunto il consenso del 40% dei tuoi peer (i nodi a cui sei iscritto), passa a quel candidato. La rete può votare su più biforcazioni contemporaneamente, non rallenta in attesa di un consenso. Le biforcazioni vengono potate in una singola catena nel tempo. Le divisioni di due o tre blocchi sono normali, ma dopo alcune conferme la probabilità che il blocco venga ripristinato diminuisce esponenzialmente fino a zero. Se una transazione è stata eseguita su tutte le catene candidate, viene essenzialmente eseguita, anche se la particolare catena di consenso non è stata ancora decisa.
 
-That is binary Ben-Or's and Skycoin will use something slightly more advanced,
-that is faster when there are multiple successor blocks to choose from in the
-consensus set. Randomization is important to keep sub-graphs of the network
-from getting stuck. The voting process is a form of "annealing" where each
-node will arrive at the global consensus independently, only from its local
-information.
 
-The consensus process happens in public. A node publishes blocks, signs them
-with their private key and the blocks are replicated peer-to-peer between
-subscribers of the chain. Then there are "consensus oracles" which are nodes
-that are used to verify consensus but do not influence consensus. So you might
-choose the public keys of a few exchanges and a few trusted community members
-and your node will use those to detect if something is wrong. This is used to
-detect netsplits. This also protects against an attack, where a hacker
-controls your router and can control the peers you are able to connect to.
+Questo è il binario Ben-Or e Skycoin userà qualcosa di leggermente più avanzato, che è più veloce quando ci sono più blocchi successori tra cui scegliere nel gruppo di consenso. La randomizzazione è importante per impedire che i sottogrammi della rete rimangano bloccati. Il processo di voto è una forma di "ricottura" in cui ogni nodo arriverà al consenso globale in modo indipendente, solo dalle sue informazioni locali.
 
-If a node shows up to network and tries to get the network to accept a
-different chain (51% attack, reverting transactions), it usually gets ignored.
-Most 51% attacks require malignant node behavior which is automatically
-detected and results in a subscribing node removing the malignant node from
-their trust list. The easiest 51% attack strategy is easy to detect and prove
-with mathematical certainty that it was intended as an attempt to revert
-transactions, because it require backdating block consensus decisions.
-It requires publishing two signed blocks with the same sequence number,
-so we just made this an automatically bannable offence for a node.
 
-We are trying to eliminate the last possible 51% attack, which is when a
-subnetwork of nodes goes offline (netsplit attack) and then rejoins the
-network with a different blockchain consensus and tries to force this on the
-network to revert transactions. Most of these attacks will fail, because the
-subnetwork will not have enough influence.
+Il processo di consenso avviene in pubblico. Un nodo pubblica blocchi, li firma con la propria chiave privata ed i blocchi vengono replicati peer-to-peer tra gli abbonati della catena. Poi ci sono i "consensus oracle" che sono i nodi utilizzati per verificare il consenso ma non lo influenzano. Quindi potresti scegliere le chiavi pubbliche di alcuni scambi e alcuni membri della comunità fidati e il tuo nodo userà quelli per rilevare se qualcosa non va. Questo è usato per scovare netsplits. Ciò protegge anche da un attacco, in cui un hacker controlla il router e può controllare i peer ai quali è possibile connettersi.
 
-This attack is still very difficult to pull off. In case there is
-a successful 51% attack, one solution is to freeze the network and let each node/user
-individually choose which chain is the valid one and let people ban the attacking
-nodes manually. The consensus oracle allows each node, with high probability, to
-know if the state is synced and if global consensus has been reached or if
-they are part of a netsplit subgraph. We think its possible for each node to
-know with a high probability of correctness from local information, whether a
-node was offline during a consensus decision and then ignore nodes that
-were offline who suddenly appear and try to force a chain fork on the network.
+Se un nodo si presenta alla rete e tenta di far accettare alla rete una catena diversa (attacco del 51%, ripristino delle transazioni), di solito viene ignorato. La maggior parte degli attacchi del 51% richiede un comportamento maligno del nodo che viene rilevato automaticamente e ne genera uno di sottoscrizione che rimuove quello maligno dall'elenco di attendibilità. La più semplice strategia di attacco del 51% è facile da rilevare e dimostra con certezza matematica che era inteso come un tentativo di annullare le transazioni, poiché richiede decisioni di consenso sul blocco a posteriori. Richiede la pubblicazione di due blocchi firmati con lo stesso numero di sequenza, quindi abbiamo appena reso questo un attacco automaticamente interdetto per un nodo.
 
-In Bitcoin, if you have the most hashing power, you can revert transactions
-whenever you want.
+Stiamo cercando di eliminare l'ultimo possibile attacco del 51%, ovvero quando una sottorete di nodi passa offline (attacco netsplit) e poi si ricongiunge alla rete con un consenso diverso sulla blockchain e tenta di forzare questo sulla rete per ripristinare le transazioni. La maggior parte di questi attacchi fallirà, perché la sottorete non avrà abbastanza influenza.
 
-In Skycoin, to revert transactions:
+Questo attacco è ancora molto difficile da realizzare. Nel caso in cui si verifichi un attacco del 51%, una soluzione è quella di bloccare la rete e consentire a ciascun nodo/utente di scegliere individualmente quale catena è valida e consentire alle persone di escludere manualmente i nodi di attacco. L'"oracle" del consenso consente a ciascun nodo, con un'alta probabilità, di sapere se lo stato è sincronizzato e se è stato raggiunto un consenso globale o se fanno parte di un sottografo netsplit. Riteniamo che sia possibile per ogni nodo conoscere con alta probabilità di correttezza dalle informazioni locali, se un nodo era offline durante una decisione di consenso e quindi ignorare i nodi offline che improvvisamente appaiono e provare a forzare un fork di catena sulla rete.
 
-- You much control a large number of nodes
-- The nodes you control must be "influential" and trusted within the network
-  topology
-- Your nodes need to exhibit extremely blatant pathological attack behavior
-  without the behavior being detected, because detection would result in losing
-  the trust relationships you need to attack the network.
-- Your nodes need to be in a pathological attack topology, without it being
-  detected (most bot nodes will be trusted by very few humans and be very obvious)
-- You must be able get the nodes you control to collude in a way that results
-  in a successful attack (this is not very straightforward)
-- If the attack succeeds, you must prevent the network from reverting the
-  attack by hand (very difficult if people lost coins or money because of the
-  attack)
+In Bitcoin, se si disponesse della massima potenza di hashing, sarebbe possibile annullare le transazioni
+quando si vuole.
 
-To prove it iss 51% attack proof, you have to write down the assumptions you are
-making and then create a simple mathematical model and then prove the
-conditions under which things can and cannot happen in the model. Once you
-know the conditions that an attack is possible under, you try to eliminate
-them and if you cant eliminate them, you make them as difficult as possible.
-You increase the cost of an attack and you reduce the probability that a
-specific attack will succeed. Then you reduce the payoff and incentives for
-the attack.
+In Skycoin, per invertire le transazioni:
 
-The consensus process is simple and easy to model, but unintuitive without
-seeing it. There will be a javascript site eventually that has an animated
-consensus process you can play with.
+- È necessario controllare un numero elevato di nodi
+- I nodi che controlli devono essere "influenti" e affidabili nella topologia della rete
+- I tuoi nodi devono esibire un comportamento di attacco patologico estremamente ovvio, senza che questo venga rilevato, perché il rilevamento determina la perdita delle relazioni di fiducia necessarie per attaccare la rete.
+- I tuoi nodi devono essere in una topologia di attacco patologico, senza essere rilevati (la maggior parte dei nodi "bot" sarebbero considerati affidabili da pochissimi umani e sarebbero facili da individuare)
+- È necessario portare i nodi sotto il tuo controllo per colludere in un modo che si traduca in un attacco riuscito (il che non è molto semplice)
+- Se l'attacco ha successo, è necessario impedire alla rete di invertire manualmente l'attacco (abbastanza difficile se le persone hanno perso monete o denaro per l'attacco)
+
+Per dimostrare che è a prova di attacco del 51%, devi scrivere le tue ipotesi e creare un semplice modello matematico per testare le condizioni in cui è possibile un attacco, provare ad eliminarle e, se non puoi, le imponi il più difficile possibile. Aumenti il costo di un attacco e riduci così la probabilità che uno specifico abbia successo. Quindi riduci la ricompensa e gli incentivi per l'attacco.
+
+Il processo di consenso è semplice e facile da modellare, ma non intuitivo senza poterlo vedere. Alla fine ci sarà un sito javascript con un processo di consenso animato con cui potrai giocare.
