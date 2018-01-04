@@ -1,5 +1,5 @@
 +++
-title = "Segwit2x and Bitcoin’s Consensus Problem - Why Skycoin is Superior"
+title = "I problemi di consenso di Segwit2x e Bitcoin - Perchè Skycoin è superiore"
 tags = [
     "Statement",
 ]
@@ -10,13 +10,13 @@ categories = [
 ]
 +++
 
-On Wednesday, Bitcoin developers suspended plans to introduce the controversial software update Segwit2x. The 2x update would have increased the size of each block from 1 MB to 2 MB, doubling Bitcoin’s transaction capacity. Segwit2x had been planned for several months and was set to go into effect around November 16th. 
+Mercoledì scorso, gli sviluppatori di Bitcoin hanno sospeso i piani per introdurre il controverso aggiornamento del software Segwit2x. L'aggiornamento 2x avrebbe aumentato la dimensione di ogni blocco da 1 MB a 2 MB, raddoppiando la capacità di transazione di Bitcoin. Segwit2x era stato pianificato per diversi mesi ed è stato programmato per entrare in vigore intorno al 16 novembre.
 
-It’s evident that Bitcoin has a scalability problem. Segwit2x was intended to solve that problem by increasing block size. With larger blocks, transactions could flow faster and the currency would be able to handle continued growth. 
+È evidente che Bitcoin abbia un problema di scalabilità. Segwit2x aveva lo scopo di risolvere questo problema aumentando le dimensioni del blocco. Con blocchi più grandi, le transazioni potrebbero fluire più rapidamente e la valuta sarebbe in grado di gestire una crescita continua.
 
-However, Segwit2x also posed certain risks. The update would have introduced a hard fork into the blockchain, splitting it in two. If an insufficient number of users chose to adopt the 2x update, Bitcoin could have split into two competing currencies, potentially resulting in lost funds. This risk factor prompted the Segwit2x developers to cancel the update.
+Tuttavia, Segwit2x ha anche comportato alcuni rischi. L'aggiornamento avrebbe introdotto un *hard fork* nella blockchain, dividendolo in due. Se un numero insufficiente di utenti avesse scento di adottare l'aggiornamento 2x, Bitcoin avrebbe potuto suddividersi in due valute concorrenti, con conseguenti potenziali perdite di fondi. Questo fattore di rischio ha spinto gli sviluppatori di Segwit2x a cancellare l'aggiornamento.
 
-The cancellation was announced in an email from BitGo CEO Mike Belshe. The message was signed by five other CEOs from the Segwit2x development team: Wences Casares, Jihan Wu, Peter Smith, Erik Voorhees, and Jeff Garzik. 
+La cancellazione è stata annunciata tramite una e-mail dal CEO di BitGo, Mike Belshe. Il messaggio è stato firmato da altri cinque amministratori delegati del team di sviluppo Segwit2x: Wences Casares, Jihan Wu, Peter Smith, Erik Voorhees e Jeff Garzik.
 
 In the email, Belshe wrote:
 
