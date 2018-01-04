@@ -10,7 +10,7 @@ categories = [
 ]
 +++
 
-Mercoledì scorso, gli sviluppatori di Bitcoin hanno sospeso i piani per introdurre il controverso aggiornamento del software Segwit2x. L'aggiornamento 2x avrebbe aumentato la dimensione di ogni blocco da 1 MB a 2 MB, raddoppiando la capacità di transazione di Bitcoin. Segwit2x era stato pianificato per diversi mesi ed è stato programmato per entrare in vigore intorno al 16 novembre.
+Mercoledì scorso, gli sviluppatori di Bitcoin hanno sospeso i piani per introdurre il controverso aggiornamento del software Segwit2x. L'aggiornamento 2x avrebbe aumentato la dimensione di ogni blocco da 1 MB a 2 MB, raddoppiando la capacità di transazione di Bitcoin. Segwit2x era stato pianificato da diversi mesi ed è stato programmato per entrare in vigore intorno al 16 novembre.
 
 È evidente che Bitcoin abbia un problema di scalabilità. Segwit2x aveva lo scopo di risolvere questo problema aumentando le dimensioni del blocco. Con blocchi più grandi, le transazioni potrebbero fluire più rapidamente e la valuta sarebbe in grado di gestire una crescita continua.
 
