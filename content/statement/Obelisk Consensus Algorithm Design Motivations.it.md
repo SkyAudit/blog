@@ -27,13 +27,13 @@ bounty = 20
 >>>>Abbiamo scoperto un modo per prevenire un attacco Sybil usando un sistema 
 >>>>Proof of Stake ibrido.
 
->>>>Per creare un nodo, devi dimostrare di avere monete. Diciamo 10 monete. Invii 10 monete per l'indirizzo A. Quindi si inviano le 10 monete dall'indirizzo A all'indirizzo B. Poi aggiungi una firma usando la chiave pubblica nell'indirizzo A per firmare un messaggio nella blockchain di Obelisk.
+>>>>Per creare un nodo, devi dimostrare di avere monete. Diciamo 10 monete. Invii 10 monete ad un indirizzo A e si inviano le 10 monete dall'indirizzo A all'indirizzo B. Poi aggiungi una firma usando la chiave pubblica nell'indirizzo A per firmare un messaggio nella blockchain di Obelisk.
 
 >>>>In alternativa, è possibile pubblicare la chiave pubblica per l'indirizzo A e quindi firmare un messaggio con tale chiave pubblica. Il nodo dovrebbe pubblicare una firma ogni periodo di tempo, o ogni determinato numero di blocchi di valute di riserva che vengono spostati, per mantenere relazioni di fiducia valide con altri peer.
 
->>>>In alternativa, può essere richiesta una Proof of Burn (prova di ustione), quando le monete vengono inviate dall'indirizzo "A" all'indirizzo "B" che non ha una chiave privata. La Proof of Burn entra in conflitto con il requisito che nessuno dovrebbe scaricare l'intera blockchain dall'inizio per operare un intero nodo, quindi è improbabile.
+>>>>In alternativa, può essere richiesta una Proof of Burn (prova di ustione), quando le monete vengono inviate dall'indirizzo "A" all'indirizzo "B" che non ha una chiave privata. La Proof of Burn entra in conflitto con il requisito che nessuno dovrebbe scaricare l'intera blockchain dall'inizio per operare all'interno di un nodo, risulta quindi improbabile.
 
->>>>Questo sistema superiore limita il numero di nodi Obelisk e limita la possibilità di eseguire nodi Obelisk ai possessori di monete. Il limite superiore del numero di nodi e i requisiti di moneta aggiungono un altro livello di protezione da un attacco Sybil.
+>>>>Questo sistema superiore limita il numero di nodi Obelisk e limita la possibilità di eseguire nodi Obelisk ai possessori di monete. Il limite massimo del numero di nodi e i requisiti di moneta aggiungono un altro livello di protezione da un attacco Sybil.
 
 >>>Non sono sicuro di come ciò prevenga un attacco Sybil. Stai semplicemente aggiungendo un costo per l'aggiunta di un nodo alla rete e quindi un attacco Sybil richiederebbe un costo finanziario per farlo?
 
@@ -41,7 +41,7 @@ bounty = 20
 
 >>Non aggiunge un costo. Dimostra solo di possedere 10 monete. Dimostra che conosci la chiave privata, per una chiave pubblica, il cui indirizzo contiene 10 monete. Puoi ancora spendere le monete.
 
->>L'idea è che imposti un limite superiore al numero di nodi. Se si devono conservare 10 monete e ci sono 100 milioni di monete, si imposta un limite superiore sulla rete di 10 milioni di nodi. Il limite superiore non sembra matematicamente utile, per ora, ma è qualcosa che dovremmo prendere in considerazione.
+>>L'idea è che imposti un limite massimo al numero di nodi. Se si devono conservare 10 monete e ci sono 100 milioni di monete, si imposta un limite superiore sulla rete di 10 milioni di nodi. Il limite superiore non sembra matematicamente utile, per ora, ma è qualcosa che dovremmo prendere in considerazione.
 
 >>Quando viene eseguito un nuovo nodo Obelisk, si "fiderà" di alcuni peer casuali. L'utente può anche aggiungere manualmente alcuni nodi di cui si fida (scambi o membri di una comunità fidata). Un nodo è identificato dall'hash della chiave pubblica e trovato da DHT. Non è come Bitcoin dove i nodi sono IP: coppie di porte. Puoi spostare il tuo computer e l'identità del nodo non dipende dal suo indirizzo IP.
 
@@ -49,7 +49,7 @@ bounty = 20
 
 >>Forse, lo limitiamo in modo tale che il nuovo utente possa fidarsi solo in modo casuale dei nodi che hanno un bilancio di monete. Le relazioni di fiducia non verranno interrotte se il nodo non ha un saldo di moneta, ma non otterranno nuovi utenti casuali..
 
->>Si presuppone che il grafico di connettività per le relazioni di trust sia un grafico collegato in modo casuale. Alcuni nodi (membri della comunità fidati, case di cambiamento, siti Web, organizzazioni) avranno più relazioni di fiducia e questo aiuta un po' al momento della convergenza per il consenso sui blocchi. Riduce leggermente il diametro della rete. Alcuni nodi saranno utilizzati per verificare il consenso (si scelgono un gruppo di Exchange o diverse chiavi pubbliche), tali nodi non influenzano le decisioni di consenso, ma sono "oramenti di consenso" per verificare se il proprio nodo è convergente con la rete.
+>>Si presuppone che il grafico di connettività per le relazioni di trust sia un grafico collegato in modo casuale. Alcuni nodi (membri della comunità fidati, case di cambiamento, siti Web, organizzazioni) avranno più relazioni di fiducia e questo aiuterà un po' al momento della convergenza per il consenso sui blocchi. Riduce leggermente il diametro della rete. Alcuni nodi saranno utilizzati per verificare il consenso (si scelgono un gruppo di Exchange o diverse chiavi pubbliche), tali nodi non influenzano le decisioni di consenso, ma sono "oramenti di consenso" per verificare se il proprio nodo è convergente con la rete.
 
 >>Se due grandi Exchange hanno un consenso diverso per un particolare blocco, questo è un problema. Potrebbe indicare un netsplit o un attacco alla rete. Gli Exchange potrebbero voler sospendere il trading fino a quando il problema non sarà risolto.
 
@@ -61,7 +61,7 @@ Skycoin ha una blockchain. La blockchain si trova qui:
 https://github.com/skycoin/skycoin/tree/develop/src/coin. 
 Questo analizza i blocchi e tratta gli output e le transazioni non spese.
 
-Skywire è il demone e ha una "architettura di servizio". È in grado di eseguire servizi come la sincronizzazione blockchain e altro. La rete mesh è attualmente in fase di implementazione come servizio su skywire (anche se potrebbe dover cambiare).
+Skywire è il "Daemon", e ha una "architettura di servizio". È in grado di eseguire servizi come la sincronizzazione blockchain e altro. La rete mesh è attualmente in fase di implementazione come servizio su skywire (anche se potrebbe dover cambiare).
 
 l meccanismo di consenso è al di fuori della blockchain. I nodi Obelisk (che saranno probabilmente implementati come servizio Skywire) hanno una blockchain. Ogni nodo ha una chiave pubblica. La chiave pubblica identifica il nodo Obelisk. Ogni nodo Obelisk ha la sua blockchain (non ci sono monete in questa catena). Il nodo crea un nuovo blocco e lo firma con la sua chiave privata. Gli Obelisk blockchain sono usati per negoziare il consenso (determinando il blocco in cima nella blockchain Skycoin). Obelisk usa Ben-Or per un consenso casuale. Ogni nodo Obelisk ha una lista di altri nodi a cui si abbona. Quei nodi influenzano il consenso e le decisioni di voto per il nodo locale. Per le topologie di rete non patologiche, il consenso locale converge stabilmente in un consenso globale.
 
