@@ -18,24 +18,24 @@ Tuttavia, Segwit2x ha anche comportato alcuni rischi. L'aggiornamento avrebbe in
 
 La cancellazione è stata annunciata tramite una e-mail dal CEO di BitGo, Mike Belshe. Il messaggio è stato firmato da altri cinque amministratori delegati del team di sviluppo Segwit2x: Wences Casares, Jihan Wu, Peter Smith, Erik Voorhees e Jeff Garzik.
 
-In the email, Belshe wrote:
+Nell email, Belshe scrive:
 
->“Continuing on the current path could divide the community and be a setback to Bitcoin’s growth. This was never the goal of Segwit2x.”
+> "Continuare sul percorso attuale potrebbe dividere la comunità ed essere una battuta d'arresto per la crescita di Bitcoin. Questo non è mai stato l'obiettivo di Segwit2x. "
 
-It’s clear why the fork was called off: too much controversy, not enough consensus (at least, that’s what the developers claim). But one thing that nobody seems to be talking about is how the fork was called off, and what that choice says about Bitcoin in general. 
+È chiaro il motivo per cui la fork sia stata cancellata: troppe polemiche, non abbastanza consenso (almeno, questo è ciò che sostengono gli sviluppatori). Ma una cosa di cui nessuno sembra parlare è come sia nato il fork e cosa questa scelta dice dei Bitcoin in generale.
 
-Bitcoin initially positioned itself as a decentralized network where users could transact freely without third party interference or manipulation from centralized powers. Yet the decision to suspend Segwit2x was made by just six developers. There was no vote. The Bitcoin community didn’t reach a consensus – instead, the decision was made for them.
+Bitcoin si è inizialmente posizionato come una rete decentralizzata in cui gli utenti potevano effettuare transazioni liberamente senza interferenze o manipolazioni da parte di poteri centralizzati. Tuttavia, la decisione di sospendere Segwit2x è stata presa da solamente sei sviluppatori. Senza alcun voto. La comunità Bitcoin non ha raggiunto un consenso - invece, la decisione è stata presa solamento da loro.
 
-The indecision surrounding Segwit2x created opportunity. After 2x’s suspension, Bitcoin’s price spiked and reached a record high. The outcome may be a sign of optimism, but it also raises questions about market influencers. Who ultimately benefits from the discord within the Bitcoin community – the users, or the central powers that control the network?
+L'indecisione che circonda Segwit2x ha creato addirittura opportunità. Dopo la sospensione di 2x, il prezzo di Bitcoin è aumentato e ha raggiunto il massimo storico. L'esito potrebbe essere un segnale di ottimismo, ma solleva anche interrogativi sugli influencer del mercato. Chi alla fine trae beneficio dalla discordia all'interno della comunità Bitcoin, gli utenti o i poteri centrali che controllano la rete?
 
-Bitcoin has not lived up to its philosophy. It’s far from decentralized. There is no consensus anymore: a handful of people control Bitcoin’s fate. The sudden Segwit2x suspension, whether it’s good or bad, is a dramatic indication of just how little power an average Bitcoin user really has.
+Bitcoin non ha rispettato la sua filosofia. È lontano dal decentramento. Non c'è più consenso: una manciata di persone controlla il destino di Bitcoin. L'improvvisa sospensione di Segwit2x, che sia buona o cattiva, è un'indicazione drammatica di quanto poca potenza abbia un utente medio di Bitcoin.
 
-Bitcoin’s monopolization issues stem from a basic design flaw: the mining system. Mining makes it impossible for Bitcoin to achieve its original goals. As miners receive block rewards for processing transactions, power concentrates with those who can process more. The result: a network dominated by just two or three large miners who wield a disproportionate amount of influence over the network.
+I problemi di monopolizzazione di Bitcoin derivano da un difetto di progettazione di base: il sistema di data mining. L'attività di mining rende impossibile per Bitcoin raggiungere i suoi obiettivi originali, poiché i minatori ricevono premi di blocco per l'elaborazione delle transazioni, il potere si concentra su coloro che possono elaborare di più. Il risultato: una rete dominata da due o tre grandi minatori che esercitano un'influenza sproporzionata sulla rete.
 
-Skycoin is designed specifically to address these problems. It’s a next-generation cryptocurrency that removes the mining requirement and provides a fully decentralized blockchain. Network decisions aren’t made by a few powerful people, but by the community as a whole. With peer-to-peer consensus, Skycoin protects users against the kind of manipulation we’re seeing in Bitcoin today.
+Skycoin è progettato specificamente per risolvere questi problemi. È una criptovaluta di prossima generazione che rimuove i requisiti di mining e fornisce una blockchain completamente decentralizzata. Le decisioni sulla rete non sono prese da poche persone potenti, ma dalla comunità nel suo insieme. Con il consenso peer-to-peer, Skycoin protegge gli utenti dal tipo di manipolazione che stiamo vedendo in Bitcoin oggi.
 
-Skycoin achieves consensus with a novel algorithm called Obelisk. This algorithm spreads influence across the network through a “web of trust.” The web of trust keeps the network honest by providing transparency for its users. 
+Skycoin raggiunge il consenso con un nuovo algoritmo chiamato Obelisk. Questo algoritmo diffonde l'influenza nella la rete attraverso una "rete di fiducia". La rete di fiducia mantiene la rete onesta fornendo trasparenza ai propri utenti.
 
-Each node in Skycoin’s network subscribes to other nodes. Nodes are assigned personal blockchains that publicly broadcast their actions. The community can view and audit the nodes. If a node behaves suspiciously or maliciously, its connections can be cut, diminishing its influence. Obelisk strengthens collective decision-making and creates a network that’s built on relationships, not processing power.
+Ogni nodo nella rete di Skycoin si iscrive ad altri nodi. Ai nodi vengono assegnati blockchain personali che trasmettono pubblicamente le loro azioni. La comunità può visualizzare e controllare i nodi. Se un nodo si comporta in modo sospetto o malevolo, le sue connessioni possono essere interrotte, diminuendo la sua influenza. Obelisk rafforza il processo decisionale collettivo e crea una rete basata sulle relazioni, non sul potere di elaborazione.
 
-As Bitcoin wobbles on shaky foundations of mining and price manipulation, Skycoin is bringing the world a different option. It delivers a peer-to-peer network that’s decentralized and user-centric. Bitcoin may be controlled by a few influential individuals, but Skycoin is owned by its community. It’s the next logical step in cryptocurrency evolution.
+Mentre Bitcoin oscilla tra le fondamenta instabili del mining e la manipolazione dei prezzi, Skycoin sta portando al mondo un'opzione diversa. Fornisce una rete peer-to-peer decentralizzata e incentrata sull'utente. Bitcoin può essere controllato da pochi individui influenti, ma Skycoin è di proprietà della sua comunità. È il prossimo passo logico nell'evoluzione della criptovaluta.
