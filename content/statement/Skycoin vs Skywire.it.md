@@ -31,35 +31,39 @@ contenente una [doppia spesa] (https://en.wikipedia.org/wiki/Double-spending),
 lo rifiuti e così fanno i tuoi peers di fiducia. Possono esserci molti nodi malintenzionati
 nella rete, ma non avrà alcun impatto se non ti fidi di loro.
 
-Skywire was developed to address problems with the internet itself. There are
-many [attack points](https://en.wikipedia.org/wiki/BGP_hijacking) especially
-for governments since they have large control over the infrastructure.
-But also large ISPs are pretty bad to their customers.
-All of these problems are due to the centralization of the internet.
+Skywire è stato sviluppato per risolvere i problemi attraverso Internet stesso. Ci sono
+molti [punti di attacco] (https://en.wikipedia.org/wiki/BGP_hijacking) in particolare
+per i governi poiché hanno un grande controllo sull'infrastruttura.
+Ma anche i grandi ISP esercitano molto potere sui loro clienti.
+Tutti questi problemi sono dovuti alla centralizzazione di Internet.
 
-Skywire itself can operate without Skycoin. It would not be the first meshnet
-software out there. There have been several attempts at building meshnets
-but none of them have grown very large, because it has been an all-volunteer effort.
-By integrating Skycoin with Skywire, individuals can earn money for running
-the internet, instead of large ISPs. This is the only sustainable path for
-democratizing the internet infrastructure. In addition, the skywire network has
-much higher security and privacy than the current internet.
+Skywire stessa può funzionare senza Skycoin. Non sarebbe il primo *meshnet
+software* in circolazione. Ci sono stati diversi tentativi di costruire meshnets
+ma nessuno di loro è diventato molto grande, perché è stato uno sforzo di volontari.
+Integrando Skycoin con Skywire, le persone possono guadagnare denaro utilizzando
+Internet, invece dei grandi ISP. Questo è l'unico percorso sostenibile per
+democratizzare l'infrastruttura di internet. Inoltre, la rete skywire ha una
+maggiore sicurezza e privacy rispetto all'attuale Internet.
 
-Any kind of application that works over the internet, can also work over
-Skywire. Videos, file storage, VPNs, all of it. Using Skywire will be free,
-but users can pay nodes in the network for forwarding their traffic, to receive
-better bandwidth and priority service. This provides long term demand for
-Skycoins. Initially, the Skycoin Project will use some of the undistributed
-coins to subsidize operators of nodes on the Skywire network, to get it going.
-Over time, the subsidy will be replaced by users drawn to the network for the
-applications that run over Skywire.
+Qualsiasi tipo di applicazione che funziona su Internet, può funzionare anche su
+Skywire. Video, archiviazione di file, VPN, tutto. L'uso di Skywire sarà gratuito,
+ma gli utenti possono pagare i nodi nella rete per l'inoltro del loro traffico, per ricevere
+maggiore larghezza di banda e un servizio prioritario. Ciò fornisce una domanda di Skycoins 
+a lungo termine. Inizialmente, il Progetto Skycoin utilizzerà alcune delle monete non distribuite
+per sovvenzionare gli operatori di nodi sulla rete Skywire e per farlo funzionare.
+Nel corso del tempo, la sovvenzione sarà sostituita dagli utenti che si collegano alla rete per le
+applicazioni che funzionano su Skywire.
 
 The Skycoin blockchain and the Skywire network are able to stand on their own
 without the other, but mutually benefit together.  Skywire provides a utility
 purpose for Skycoins, and Skycoin provides a financial incentive to expand the
 Skywire network.
+La blockchain Skycoin e la rete Skywire sono in grado di reggersi da soli
+senza l'un l'altro, ma beneficiano reciprocamente insieme. Skywire fornisce un'utilità
+scopo per Skycoin, e Skycoin fornisce un incentivo finanziario per espandere la
+Rete Skywire.
 
-*Read more:*
+*Leggi altro:*
 
 * *[Skywire Posts](/categories/skywire/)*
 * *[Skycoin Overview](/overview/skycoin-overview/)*
