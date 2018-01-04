@@ -76,7 +76,7 @@ blocchi sequenzialmente. Il nodo valuterá la funzione e
 decide se la chain ricevuta sia piú complicata da 
 produrre e quindi potenzialmente scambiare il suo consenso 
 alla chain ricevuta. Il nodo, in seguito, la pubblicizzerá
-agli altri nodi. In questo modo, il consenso viene 
+agli altri peer. In questo modo, il consenso viene 
 propagato attraverso la rete e tutti i nodi raggiungono
 lo stesso consenso.
 
@@ -171,7 +171,7 @@ un attacco di maggioranza.
 
 ### * Gli Hackers Possono Usare Numerosi Buchi Nella Sicurezza Dei Routers E Nelle Apparecchiature Di Rete Per Rubare Monete Da Banche e Exchanges
 
-Un attaccante puó controllare i peers
+Un attaccante puó controllare i peer
 connessi a un nodo Bitcoin e assicurare
 connessioni ai nodi controllati 
 dall'attacante. Per esempio, un
@@ -260,9 +260,9 @@ evolversi e adattarsi ad attacchi futuri. Alcuni
 problemi nel Bitcoin possono essere aggiustati, come
 la malleabilitá delle firme. Altri problemi sono 
 di carattere fondamentale e non possono essere
-affrontati senza definire interamente un nuovo
-framework, come la dipende dal Proof of Work e dai i 
-miners.
+affrontati senza definire interamente una nuova
+struttura, come la dipendenza dal Proof of Work e dai i 
+miner.
 
 # Filosofia Di Sicurezza Di Skycoin
 
@@ -303,7 +303,7 @@ ad oggi molti Bitcoin sono andati perduti a causa dei problemi
 di usabilitá e di tutti gli sforzi dei criminali di rubare
 Bitcoin.
 
-Circa la metá di tutti i Bitcoins esistenti non 
+Circa la metá di tutti i Bitcoin esistenti non 
 é mai stata spostata dai loro indirizzi iniziali
 e mai lo sará perché sono stati i files irrecuperabili
 del wallet, sono stati persi i wallets, o l'incomprensione
@@ -311,7 +311,7 @@ di cosa andava conservato nel file del wallet.
 
 Mt. Gox ha recentemente riportato di aver trovato
 200,000 bitcoin in un wallet del quale loro erano
-all'oscuro contenesse Bitcoins. Il wallet é stato
+all'oscuro contenesse Bitcoin. Il wallet é stato
 precedentemente ignorato e sarabbe potuto essere stato
 facilmente cancellato per sbaglio.
 I wallet sono frquentemente scambiati vuoti per sbaglio
@@ -407,13 +407,13 @@ nella rete cambiando collettivamente le loro relazioni
 di fiducia nella rete.
 
 L'inscrizione a un nodo puó essere formata a casaccio
-oppure attraverso il web of trust ( iscriversi ai nodi
+oppure attraverso una rete di fiducia (iscriversi ai nodi
 di persone che conosci e persone della comunitá di cui ti fidi).
 
 quando un nodo riceve un nuovo blocco da una chain alla
 quale é iscritto pubblica l'hash del blocco. Ció é un 
 riconoscimento pubblico della ricezione del blocco.
-Ogni blocco e timestamped e ha contro riferimenti con i 
+Ogni blocco e "timestamped" (timbrato temporalmente) e ha contro riferimenti con i 
 blocchi delle altre chains. Ció crea una densa interconnessa
 catena di blocchi riconosciuta. Questa chains stabilisce
 relazioni casuali e puó agire come sistema distribuito di 
@@ -483,5 +483,5 @@ determinato genitore ed entrambi i blocchi eseguono la tua
 transazione, allora la transazione é effettivamente eseguita
 indipendentemente da quale blocco viene scelto dalla rete.
 La probabilitá di revisione su una decisione di consenso presa
-da poco diminuisce esponenzialmente con il block depth.
+da poco diminuisce esponenzialmente con la grandezza del blocco.
 
