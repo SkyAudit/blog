@@ -1,9 +1,9 @@
 +++
 title = " Aether 的意义"
 tags = [
-    "Decentralization",去中心化
+    "Decentralization",
     "CXO",
-    "Ideology",概念化
+    "Ideology",
 ]
 bounty = 5
 date = "2017-09-25"
