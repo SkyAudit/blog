@@ -22,20 +22,20 @@ categories = [
 
 <!-- /MarkdownTOC -->
 
-# Introduction
+# Introduzione
 
-This tutorial presents a text-based "game" (the user does not interact
-with the program, and can not influence the character's decisions) that uses a
-[challenge-response architecture](#challenge-response-architecture) to
-determine what are the possible actions the game's character can
-do. The full source-code can be found in
-[CX's repository](https://github.com/skycoin/cx), in the file *examples/text-based-adventure.cx*.
+Questo tutorial presenta un "gioco" basato sul testo (l'utente non interagisce
+con il programma, e non può influenzare le decisioni del personaggio) che utilizza una
+[Architettura reattiva] (#challenge-response-architecture) a
+determinare quali sono le possibili azioni che il personaggio del gioco può fare. 
+Il codice sorgente completo può essere trovato in
+[CX's repository] (https://github.com/skycoin/cx), nel file * examples / text-based-adventure.cx *.
 
-The game describes the adventure of a traveler that is escaping from a
-monster (Halloween is coming next month, after all). If the traveler
-survives certain number of hours (well, these are just iterations in a
-*for* loop), the monster will stop chasing the traveler. An example of
-a session is below:
+Il gioco descrive l'avventura di un viaggiatore che fugge da un
+mostro (Halloween arriverà il prossimo mese, dopotutto). Se il viaggiatore
+sopravvive un certo numero di ore (beh, queste sono solo iterazioni in un loop *for*),
+il mostro la smetterà di inseguire il viaggiatore. Un esempio di
+una sessione di gioco è qui descritta:
 
 
 ```
