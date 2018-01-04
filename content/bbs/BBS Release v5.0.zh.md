@@ -26,9 +26,9 @@ categories = [
 目前，前端加载非常缓慢。这是由于使用 [GopherJS](https://github.com/gopherjs)来处理种子和公钥/私钥生成以及数据的签名和验证所致。在将来的版本中，我们将使用原生JavaScript库来提高性能。
 
 
-## 命令-行界面(Command-line Interface)
+## 命令行接口(Command-line Interface)
 
-引入公开可见的简化客户端之后，我们删除了处理管理控制的API端点，并引入了一个命令行界面(command-line interface)来处理这种交互。
+引入公开可见的简化客户端之后，我们删除了处理管理控制的API端点，并引入了一个命令行接口(command-line interface)来处理这种交互。
 
 更多信息可以在这里找到：: [github.com/skycoin/bbs/tree/master/cmd/bbscli](https://github.com/skycoin/bbs/tree/master/cmd/bbscli).
 
