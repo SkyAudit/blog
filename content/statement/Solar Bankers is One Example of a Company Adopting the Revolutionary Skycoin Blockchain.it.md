@@ -1,5 +1,5 @@
 +++
-title = "Solar Bankers is One Example of a Company Adopting the Revolutionary Skycoin Blockchain"
+title = "Solar Bankers e un esempio di Azienda che adotta la rivoluzionaria Skycoin Blockchain"
 tags = [
     "Statement",
     "Skyledger",
@@ -12,13 +12,13 @@ categories = [
 ]
 +++
 
-Better speed, better security, better privacy – Skycoin offers all these advantages through its open-source platform. The innovative technology that powers Skycoin is available to all. Today, more and more companies are taking note of Skycoin’s benefits and using it to build their businesses.
+Migliore velocità, migliore sicurezza, migliore privacy: Skycoin offre tutti questi vantaggi attraverso la sua piattaforma open source. La tecnologia innovativa che alimenta Skycoin è a disposizione di tutti. Oggi, sempre più aziende stanno notando i vantaggi di Skycoin e lo utilizzano per costruire le proprie attività.
 
-One example is [Solar Bankers](https://solarbankers.com/), a revolutionary new energy company. Solar Bankers is using the power of blockchain to decentralize the energy sector. With Solar Bankers, users can generate solar electricity at their homes through high-tech, patented solar devices. Once the energy is collected, users can trade it directly with their neighbors using SunChain and its currency, SunCoin.
+Un esempio è [Solar Bankers] (https://solarbankers.com/), una nuova società energetica rivoluzionaria. Solar Bankers sta usando il potere della blockchain per decentralizzare il settore energetico. Con Solar Bankers, gli utenti possono generare elettricità solare nelle loro case tramite dispositivi solari brevettati ad alta tecnologia. Una volta raccolta l'energia, gli utenti possono scambiarla direttamente con i propri vicini utilizzando SunChain e la sua valuta, SunCoin.
 
-SunCoin prices are set by the supply and demand of the market. With decentralized peer-to-peer energy trading, there’s no need to rely on a utility company. It’s a unique business model that’s environmentally friendly, profitable, and empowering -- and it’s all built on the Skycoin platform.
+I prezzi SunCoin sono stabiliti tra domanda e offerta del mercato. Con il trading energetico peer-to-peer decentralizzato non è necessario affidarsi ad un'azienda di servizi pubblici. È un modello di business unico nel suo genere, rispettoso dell'ambiente, redditizio e potenziabile, ed è tutto basato sulla piattaforma Skycoin.
 
-Like Skycoin, Sunchain has a consensus algorithm that eliminates the need for mining. It also features Skycoin’s speed and privacy, with fast, untraceable transactions that use the CoinJoin protocol. Solar Bankers shows how businesses can use Skycoin technology to decentralize finance, bringing economic power back to the individual and eliminating corporate middlemen.
+Come Skycoin, Sunchain ha un algoritmo di consenso che elimina la necessità del *mining*. Offre inoltre la velocità e la privacy di Skycoin, con transazioni veloci e non tracciabili che utilizzano il protocollo CoinJoin. Solar Bankers mostra come le aziende possano utilizzare la tecnologia Skycoin per decentralizzare la finanza, riportare il potere economico all'individuo ed eliminare gli intermediari delle aziende.
 
 Solar Bankers and other companies choose to build their currencies on Skycoin for one simple reason: Skycoin offers better technical features than other open-source platforms. It has best-in-class encryption, speed, and reliability. Plus, it’s absolutely private.
 
