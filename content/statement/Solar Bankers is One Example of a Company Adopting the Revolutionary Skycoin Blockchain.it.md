@@ -1,5 +1,5 @@
 +++
-title = "Solar Bankers e un esempio di Azienda che adotta la rivoluzionaria Skycoin Blockchain"
+title = "Solar Bankers è un esempio di Azienda che adotta la rivoluzionaria Skycoin Blockchain"
 tags = [
     "Statement",
     "Skyledger",
@@ -20,14 +20,14 @@ I prezzi SunCoin sono stabiliti tra domanda e offerta del mercato. Con il tradin
 
 Come Skycoin, Sunchain ha un algoritmo di consenso che elimina la necessità del *mining*. Offre inoltre la velocità e la privacy di Skycoin, con transazioni veloci e non tracciabili che utilizzano il protocollo CoinJoin. Solar Bankers mostra come le aziende possano utilizzare la tecnologia Skycoin per decentralizzare la finanza, riportare il potere economico all'individuo ed eliminare gli intermediari delle aziende.
 
-Solar Bankers and other companies choose to build their currencies on Skycoin for one simple reason: Skycoin offers better technical features than other open-source platforms. It has best-in-class encryption, speed, and reliability. Plus, it’s absolutely private.
+Solar Bankers e altre società scelgono di costruire le loro valute su Skycoin per una semplice ragione: Skycoin offre migliori caratteristiche tecniche rispetto ad altre piattaforme open source. Ha la migliore crittografia, velocità e affidabilità. Inoltre, è assolutamente privato.
 
-Skycoin lets users create their own cryptocurrencies using a common platform. In this sense, it functions similarly to ERC20 tokens. However, unlike Ethereum, Skycoin technology provides businesses with a private blockchain that isn’t shared among other currencies. Skycoin uses improved encryption and a unique method for verifying transactions that makes it immutable and immune to 51% attacks.
+Skycoin consente agli utenti di creare le proprie criptovalute utilizzando una piattaforma comune. Funziona in modo simile ai token ERC20. Tuttavia, a differenza di Ethereum, la tecnologia Skycoin offre alle aziende una blockchain privata che non è condivisa tra le altre valute. Skycoin utilizza una crittografia migliorata e un metodo unico per la verifica delle transazioni che lo rendono immutabile e immune da attacchi del 51%.
 
-With Skycoin, companies and individuals don’t have to put their data on a shared chain with other derived coins. Skycoin has its own consensus algorithm, blockchain, and dedicated developers. When businesses use Skycoin, they maintain the privacy and security of data while enjoying the fast transaction speeds and tools that Skycoin provides.
+Con Skycoin, le aziende e gli individui non devono mettere i loro dati su una catena condivisa con altre monete derivate. Skycoin ha il proprio algoritmo di consenso, blockchain e sviluppatori dedicati. Quando le aziende utilizzano Skycoin, mantengono la privacy e la sicurezza dei dati pur godendo della velocità e degli strumenti di transazione veloci offerti da Skycoin.
 
-These features make Skycoin by far the best choice for developing cryptocurrencies. As more businesses build on Skycoin’s open-source platform, the technology is rapidly spreading. It’s likely we’ll see Skycoin technology powering many different types of currencies in the future.
+Queste caratteristiche rendono Skycoin di gran lunga la scelta migliore per lo sviluppo di criptovalute. Man mano che più aziende si basano sulla piattaforma open source di Skycoin, la tecnologia si sta rapidamente diffondendo. È probabile che vedremo la tecnologia Skycoin alla base di molti diversi tipi di valute in futuro.
 
-Although the spread of Skycoin technology is good news for users, it’s important to understand that Skycoin-based cryptocurrencies are independent from the Skycoin project itself. Because Skycoin is open-source, anyone can use it. Many businesses are adopting and modifying it for their own use. Skycoin isn’t affiliated with these businesses. Instead, Skycoin is the foundation that these companies have chosen to build on.
+Sebbene la diffusione della tecnologia Skycoin sia una buona notizia per gli utenti, è importante capire che le criptovalute basate su Skycoin sono indipendenti dal progetto Skycoin stesso. Perché Skycoin è open-source, chiunque può usarlo. Molte aziende lo stanno adottando e modificando per il proprio uso. Skycoin non è affiliato con queste attività. Invece, Skycoin è la base su cui queste aziende hanno scelto di costruire.
 
-When we developed Skycoin, we set out to make it the best platform of its kind. The widespread adoption of Skycoin technology speaks for itself. Companies like Solar Bankers are just the beginning. It’s our hope that the Skycoin platform will provide businesses with the tools they need to innovate and evolve, creating new technologies that empower users and support the decentralized, peer-to-peer internet economy.
+Quando abbiamo sviluppato Skycoin, abbiamo deciso di renderlo la migliore piattaforma del suo genere. L'adozione diffusa della tecnologia Skycoin parla da sola. Aziende come i Solar Bankers sono solo l'inizio. La nostra speranza è che la piattaforma Skycoin fornisca alle aziende gli strumenti di cui hanno bisogno per innovare ed evolvere, creando nuove tecnologie che abilitino gli utenti e sostengano l'economia internet decentralizzata e peer-to-peer.
