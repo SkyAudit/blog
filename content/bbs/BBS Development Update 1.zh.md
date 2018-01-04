@@ -15,10 +15,10 @@ description = "Skycoin BBS 的第一个开发更新。"
 
 ## An Introduction
 
-BBS(Bulletin Board System) 代表电子布告栏系统。虽然传统的BBS系统不再被广泛使用，BBS现在现代成为了社会服务的表表者。
+BBS(Bulletin Board System) 代表电子布告栏系统。虽然传统的BBS系统不再被广泛使用，BBS现在现代成为了社会服务的代表。
 
 
-Skycoin BBS是第一个使用skycoin生态系统实施的第一个Web应用程序之一。 Skycoin试图彻底改变互联网; 把它去中心化，并默认地使用加密协议。
+Skycoin BBS是skycoin生态系统的第一个Web应用程序之一。 Skycoin试图彻底改变互联网，使其去中心化，并默认地使用加密协议。
 
 Skycoin BBS 的根基是一个名为CXO（Skycoin生态系统的一部分），一个点对点，自我复制的网络数据库。它具有像Golang 对象一样，不可变的树结构。所有对象都通过自己的哈希值一起定义图式引用。每棵树都有一个树根对象和对公/私钥对签名。要更新树，树根有增量的版本称为“序列”。这种设计实现快速，高效的带宽数据复制。
 
@@ -55,4 +55,3 @@ BBS（目前正在开发）的0.2版，不仅提高了性能和代码的清晰�
 欢迎加入我们的[电报小组](https://t.me/skycoinbbs).
 已得到最新Skycoin BBS的开发消息。 
 Skycoin BBS是開源的。源代碼可以遊覽[這裏](https://github.com/skycoin/bbs)。需要注意的是0.2版本的開發是在“V0.2”分支。
-
