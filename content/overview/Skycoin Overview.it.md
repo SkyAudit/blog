@@ -62,8 +62,8 @@ Viene usata una funzione per creare un ordine di chains
 nell'albero del blocco. Per la chain con la difficoltá
 piú elevata é richiesta la maggior quantitá di operazioni
 hash per produrre “la chain piú lunga” e   
-formare la chain consenso. La nozione di  “block
-depth” e “difficulty” crea un ordine su tutte le 
+formare la chain consenso. La nozione di  “profonditá del blocco” 
+e “difficoltá” crea un ordine su tutte le 
 chains lineari nell'albero blocco e solo la catena
 ad alta intensitá di risorse é accettata per produrre
 la chain di consenso.
@@ -71,7 +71,7 @@ la chain di consenso.
 I nodi Bitcoin si connettono fra di loro in modo casuale
 e ogni nodo trasmette la catena di blocchi che conosce
 ai suoi simili. Se un nodo a maggior difficoltá di produrre
-la chain allora si un altro peer connesso, il nodo riceverá i
+la chain allora si un altro peer connesso, il peer riceverá i
 blocchi sequenzialmente. Il nodo valuterá la funzione e 
 decide se la chain ricevuta sia piú complicata da 
 produrre e quindi potenzialmente scambiare il suo consenso 
@@ -84,7 +84,7 @@ Il Bitcoin non presuppone che i nodi abbiano identitá
 e non presuppone che i nodi siano onesti.
 I nodi possono mandare agli altri nodi ogni dato e ció
 non puó influenzare le decisioni di consenso perché la 
-difficulty puó essere verificata indipendentemente da
+difficoltá puó essere verificata indipendentemente da
 sé.
 
 # Innovazioni prodotte dal Bitcoin
@@ -99,7 +99,7 @@ puó possedere.
 Memorizzazione delle transazioni finanziarie
 sulla blockchain.
 
-### * Uso del PoW e Ricalcolo della Difficultyt per Mantenere una Produzione di Blocchi Costante 
+### * Uso del PoW e Ricalcolo della Difficoltá per Mantenere una Produzione di Blocchi Costante 
 
 ### * Uso di Chiavi Pubbliche come Hashes e Indirizzi 
 
@@ -112,7 +112,7 @@ Ignora il tentativo di creare denaro
 digitale divisibile: Per pagare $20 da un output di $25,
 inviare $20 a una persona e $5 indietro a te stesso.
 
-### * Funzione PoW Difficulty Grandezza Blocco
+### * Funzione PoW Difficoltá Grandezza Blocco
 
 Il primo utilizzo della funzione é definire 
 l'ordine dei blocchi. Il registro pubblico
