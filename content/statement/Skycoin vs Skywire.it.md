@@ -54,10 +54,6 @@ per sovvenzionare gli operatori di nodi sulla rete Skywire e per farlo funzionar
 Nel corso del tempo, la sovvenzione sarà sostituita dagli utenti che si collegano alla rete per le
 applicazioni che funzionano su Skywire.
 
-The Skycoin blockchain and the Skywire network are able to stand on their own
-without the other, but mutually benefit together.  Skywire provides a utility
-purpose for Skycoins, and Skycoin provides a financial incentive to expand the
-Skywire network.
 La blockchain Skycoin e la rete Skywire sono in grado di reggersi da soli
 senza l'un l'altro, ma beneficiano reciprocamente insieme. Skywire fornisce un'utilità
 scopo per Skycoin, e Skycoin fornisce un incentivo finanziario per espandere la
