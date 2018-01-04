@@ -44,7 +44,7 @@ Ululando e ringhiando, il mostro sta arrivando.
 Il coraggio entra in scena, nella speranza di vivere per un'altra notte.
 Ingenuo, e anche stupido, ma l'atto del viaggiatore lascia intorpidito il mostro.
 Nord Est Ovest Sud. Ogni direzione è buona,
-finché non si trova nessun mostro.
+finché non si trova alcun mostro.
 Ululando e ringhiando, il mostro sta arrivando.
 Il viaggiatore scappa via e la codardia lo lascia vivere per un altro giorno.
 
@@ -56,7 +56,7 @@ fallisce, il gioco finisce. Un esempio di fine del gioco è:
 
 ```
 Nord, Est, Ovest, Sud. Ogni direzione è buona,
-finché non si trova nessun mostro.
+finché non si trova alcun mostro.
 Ululando e ringhiando, il mostro sta arrivando.
 Il coraggio entra in scena, nella speranza di vivere per un'altra notte.
 Ma il fallimento descrive questa parvenza e, improvvisamente, quest'avventura finisce.
@@ -111,13 +111,6 @@ affExpr("walk", "yes|no", 0)
 walk(false)
 ```
 
-In the code above, *remArg()* looks for an expression with the "walk"
-tag and removes its argument. This is done in order to make the
-affordance system list the arguments that can be sent to the
-expression's operator. Next, *affExpr()* is telling CX "among all the
-arguments that can be sent to *walk*, tell me if *yes* or no *no* can
-be used as arguments, and apply the *0th* option from the affordance
-list that you return."
 
 Nel codice sopra, * remArg () * cerca un'espressione con l'etichetta "walk"
 e rimuove il suo argomento. Questo è fatto al fine di elencare al
@@ -153,14 +146,6 @@ La prima regola può essere letta come "Sarò interrogato se stai considerando
 di inviare l'argomento * yes * all'azione * walk *. Se l'oggetto
 * monster * è presente, quindi questo argomento * non * è un'opzione. "
 
-The rules in the second block (the 4 rules after the first empty line)
-tell the affordance system to "never" accept a *yes* argument. We do
-this because we want this to be the default behaviour, but we can
-later declare rules that override this behaviour. This override
-process happens with the last 4 rules. Basically, this block of rules
-is telling CX to accept *yes* as arguments if a particular object is
-present in the object stack.
-
 Le regole nel secondo blocco (le 4 regole dopo la prima riga vuota)
 dicono al sistema di convenienza di accettare "mai" un argomento * si *. Noi facciamo
 questo perché vogliamo che questo sia il comportamento predefinito, ma possiamo farlo
@@ -176,11 +161,6 @@ esempio, ogniqualvolta l'azione * noise * decida di far apparire il mostro
 * addObject ("monster") * viene eseguito. Se il viaggiatore decide di farlo
 scappare dal combattimento, l'oggetto "mostro" viene rimosso dalla pila.
 
-In the case of the *chance* action, the monster can decide to spare
-the traveler a few more seconds to see what he will decide to do
-next. To do this, the "fight" object is removed (as the monster does
-not want to start a fight yet), but the "monster" object remains.
-
 Nel caso dell'azione * chance *, il mostro può decidere di risparmiare
 il viaggiatore ancora qualche secondo per vedere cosa deciderà di fare.
 Per fare ciò, l'oggetto "fight" viene rimosso (come il mostro
@@ -190,16 +170,6 @@ non voglio ancora iniziare un combattimento), ma l'oggetto "mostro" rimane.
 
 Il sistema di convenienza di CX utilizza oggetti e regole per prendere complesse
 decisioni su come verranno filtrate le convenienze.
-
-By using objects, we can decide what actions will be activated or
-deactivated. For this example, a small amount of actions are being
-considered for this activation process, and the benefit of using this
-architecture could seem worthless at first sight. Nevertheless, more
-complex rules involving more objects could be defined, and a single
-rule could be in charge of activating several nodes in a big network
-of actions. Also, in this example only two possible arguments are
-considered: *yes* and *no*; we could have more arguments, and actions
-that accept different types of arguments other than booleans.
 
 Usando gli oggetti, possiamo decidere quali azioni saranno attivate o
 disattivate. Per questo esempio, una piccola quantità di azioni sono considerate 
