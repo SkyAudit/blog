@@ -14,9 +14,9 @@ categories = [
 
 <!-- MarkdownTOC autolink="true" bracket="round" depth="2" -->
 
-- [Introduzione](#introduction)
-- [Architettura reattiva](#challenge-response-architecture)
-- [Sistema di convenienza](#affordance-system)
+- [Introduzione](#introduzione)
+- [Architettura reattiva](#architettura-reattiva)
+- [Sistema di convenienza](#sistema-di-convenienza)
 - [Oggetti](#objects)
 - [Conclusione](#conclusion)
 
@@ -26,7 +26,7 @@ categories = [
 
 Questo tutorial presenta un "gioco" basato sul testo (l'utente non interagisce
 con il programma, e non può influenzare le decisioni del personaggio) che utilizza una
-[Architettura reattiva] (#challenge-response-architecture) a
+[Architettura reattiva] (#architettura-reattiva) a
 determinare quali sono le possibili azioni che il personaggio del gioco può fare. 
 Il codice sorgente completo può essere trovato in
 [CX's repository] (https://github.com/skycoin/cx), nel file * examples / text-based-adventure.cx *.
@@ -68,23 +68,23 @@ flag:			true
 nonAssign_32:		""
 
 halt() Arguments:
-0: "You died."
+0: "Muori."
 
 65: call to halt
 ```
 
-As you can see, an error is raised if you die (this is suitable, as
-it's a scary situation for a programmer).
+Come puoi vedere, viene generato un errore se muori (questo è appropriato,
+è una situazione spaventosa per un programmatore).
 
-# Challenge-response Architecture
+# Archittettura reattiva
 
-In this architecture, a question is raised and different agents (in
-this case, functions) must answer to that question. A simple question
-that can be asked is "Who can be executed at this moment?" and those
-functions that are allowed to execute will do so.
+In questa architettura, viene posta una domanda e diversi agenti (in
+questo caso, funzioni) devono rispondere a questa domanda. Una semplice domanda
+quello che può essere chiesto è "Chi deve essere eseguito in questo momento?" e coloro
+le cui funzioni che possono essere eseguite lo faranno.
 
-The following function prototypes represent the possible actions that
-can occur during the traveler's adventure.
+I seguenti prototipi di funzioni rappresentano le possibili azioni che
+possono accadere durante l'avventura del viaggiatore.
 
 ```
 func walk (flag bool) () {}
@@ -95,7 +95,7 @@ func fightResult (flag bool) () {}
 func theEnd (flag bool) () {}
 ```
 
-# Affordance System
+# Sistema di convenienza
 
 Another function must coordinate the function calls. In this case,
 CX's affordance system is used to determine if an action is allowed to
