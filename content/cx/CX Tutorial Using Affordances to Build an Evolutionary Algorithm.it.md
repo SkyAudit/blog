@@ -39,29 +39,29 @@ una sessione di gioco è qui descritta:
 
 
 ```
-The traveler keeps following the lane, making sure to ignore any pain.
-Howling and growling, the monster is coming.
-Bravery comes into sight, in the hope of living for another night.
-Naive, and even dumb, but the traveler's act leaves the monster numb.
-North, east, west, south. Any direction is good,
-as long as no monster can be found.
-Howling and growling, the monster is coming.
-The traveler runs away, and cowardice lets him live for another day.
+Il viaggiatore continua a seguire il percorso, assicurandosi di ignorare qualsiasi dolore.
+Ululando e ringhiando, il mostro sta arrivando.
+Il coraggio entra in scena, nella speranza di vivere per un'altra notte.
+Ingenuo, e anche stupido, ma l'atto del viaggiatore lascia intorpidito il mostro.
+Nord Est Ovest Sud. Ogni direzione è buona,
+finché non si trova nessun mostro.
+Ululando e ringhiando, il mostro sta arrivando.
+Il viaggiatore scappa via e la codardia lo lascia vivere per un altro giorno.
 
-You survived.
+Sopravvivi.
 ```
 
-If the traveler decides to fight the monster and his heroic attempt
-fails, the game ends. An example of a game ending is:
+Se il viaggiatore decide di combattere il mostro e il suo eroico tentativo
+fallisce, il gioco finisce. Un esempio di fine del gioco è:
 
 ```
-North, east, west, south. Any direction is good,
-as long as no monster can be found.
-Howling and growling, the monster is coming.
-Bravery comes into sight, in the hope of living for another night.
-But failure describes this fend and, suddenly, this adventure comes to an end.
+Nord, Est, Ovest, Sud. Ogni direzione è buona,
+finché non si trova nessun mostro.
+Ululando e ringhiando, il mostro sta arrivando.
+Il coraggio entra in scena, nella speranza di vivere per un'altra notte.
+Ma il fallimento descrive questa parvenza e, improvvisamente, quest'avventura finisce.
 
-You died.
+Muori.
 
 Call's State:
 flag:			true
