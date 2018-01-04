@@ -17,8 +17,8 @@ categories = [
 - [Introduzione](#introduzione)
 - [Architettura reattiva](#architettura-reattiva)
 - [Sistema di convenienza](#sistema-di-convenienza)
-- [Oggetti](#objects)
-- [Conclusione](#conclusion)
+- [Oggetti](#oggetti)
+- [Conclusione](#conclusione)
 
 <!-- /MarkdownTOC -->
 
@@ -161,23 +161,35 @@ process happens with the last 4 rules. Basically, this block of rules
 is telling CX to accept *yes* as arguments if a particular object is
 present in the object stack.
 
-# Objects
+Le regole nel secondo blocco (le 4 regole dopo la prima riga vuota)
+dicono al sistema di convenienza di accettare "mai" un argomento * si *. Noi facciamo
+questo perché vogliamo che questo sia il comportamento predefinito, ma possiamo farlo
+successivamente dichiarare regole che prevalgono su questo comportamento. Questo processo *override*
+avviene con le ultime 4 regole. Fondamentalmente, questo blocco di regole
+sta dicendo a CX di accettare * sì * come argomenti se un particolare oggetto è
+presente nella pila degli oggetti.
 
-Some of the actions add or remove objects from the object stack. For
-example, whenever the *noise* action decides to make the monster
-appear, *addObject("monster")* is executed. If the traveler decides to
-run away from the fight, the "monster" object is removed from the
-stack.
+# Oggetti
+
+Alcune azioni aggiungono o rimuovono oggetti dalla pila di oggetti. Per
+esempio, ogniqualvolta l'azione * noise * decida di far apparire il mostro
+* addObject ("monster") * viene eseguito. Se il viaggiatore decide di farlo
+scappare dal combattimento, l'oggetto "mostro" viene rimosso dalla pila.
 
 In the case of the *chance* action, the monster can decide to spare
 the traveler a few more seconds to see what he will decide to do
 next. To do this, the "fight" object is removed (as the monster does
 not want to start a fight yet), but the "monster" object remains.
 
-# Conclusion
+Nel caso dell'azione * chance *, il mostro può decidere di risparmiare
+il viaggiatore ancora qualche secondo per vedere cosa deciderà di fare.
+Per fare ciò, l'oggetto "fight" viene rimosso (come il mostro
+non voglio ancora iniziare un combattimento), ma l'oggetto "mostro" rimane.
 
-CX's affordance system uses objects and rules to make complex
-decisions about how affordances are going to be filtered.
+# Conclusione
+
+Il sistema di convenienza di CX utilizza oggetti e regole per prendere complesse
+decisioni su come verranno filtrate le convenienze.
 
 By using objects, we can decide what actions will be activated or
 deactivated. For this example, a small amount of actions are being
@@ -188,3 +200,13 @@ rule could be in charge of activating several nodes in a big network
 of actions. Also, in this example only two possible arguments are
 considered: *yes* and *no*; we could have more arguments, and actions
 that accept different types of arguments other than booleans.
+
+Usando gli oggetti, possiamo decidere quali azioni saranno attivate o
+disattivate. Per questo esempio, una piccola quantità di azioni sono considerate 
+per questo processo di attivazione ma il vantaggio di utilizzare questa
+architettura potrebbe sembrare inutile a prima vista. Tuttavia, regole
+più complesse potrebbero essere definite che coinvolgono più oggetti e una singola
+regola potrebbe essere responsabile dell'attivazione di diversi nodi in una grande rete
+di azioni. Inoltre, in questo esempio ci sono solo due possibili argomenti
+considerati: * sì * e * no *; potremmo avere più argomenti e azioni
+che accettani diversi tipi di argomenti diversi dai booleani.
