@@ -97,9 +97,9 @@ func theEnd (flag bool) () {}
 
 # Sistema di convenienza
 
-Another function must coordinate the function calls. In this case,
-CX's affordance system is used to determine if an action is allowed to
-run or not.
+Un'altra funzione deve coordinare le chiamate delle funzioni. In questo caso,
+Il sistema di convenienza di CX viene utilizzato per determinare se ad un'azione è consentita
+l'esecuzione o no.
 
 ```
 yes := true
@@ -119,10 +119,18 @@ arguments that can be sent to *walk*, tell me if *yes* or no *no* can
 be used as arguments, and apply the *0th* option from the affordance
 list that you return."
 
-The previous procedure is applied to all the actions that can happen
-during the traveler's adventure. For each of these actions, the
-following rules are queried to determine if the action should be
-allowed or not:
+Nel codice sopra, * remArg () * cerca un'espressione con l'etichetta "walk"
+e rimuove il suo argomento. Questo è fatto al fine di elencare al
+sistema di convenineza gli argomenti che possono essere inviati 
+all'operatore di espressione. Successivamente, * affExpr () * sta dicendo a CX "tra tutti gli
+argomenti che possono essere inviati a * walk *, dimmi se * yes * or no * no * possa
+essere usato come argomento, e applicare l'opzione * 0th * dall'elenco di convenienza
+vhe viene restituito. "
+
+La procedura precedente viene applicata a tutte le azioni che possono accadere
+durante l'avventura del viaggiatore. Per ciascuna di queste azioni,
+vengono richieste le seguenti regole per determinare se l'azione dovrebbe essere
+permessa o no:
 
 ```
 setClauses("
@@ -141,9 +149,9 @@ setClauses("
         ")
 ```
 
-The first rule can be read as "I will be queried if you're considering
-to send the *yes* argument to the *walk* action. If the object
-*monster* is present, then this argument is *not* an option."
+La prima regola può essere letta come "Sarò interrogato se stai considerando
+di inviare l'argomento * yes * all'azione * walk *. Se l'oggetto
+* monster * è presente, quindi questo argomento * non * è un'opzione. "
 
 The rules in the second block (the 4 rules after the first empty line)
 tell the affordance system to "never" accept a *yes* argument. We do
