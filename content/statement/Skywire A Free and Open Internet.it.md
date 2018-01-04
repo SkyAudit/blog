@@ -13,7 +13,7 @@ categories = [
 bounty = 5
 +++
 
-Internet ci dà l'illusione del controllo. Possiamo socializzare, consumare 
+Internet ci dà l'illusione del controllo. Possiamo socializzare, spendere 
 e fare affari istantaneamente attraverso i servizi forniti da Google, Facebook, 
 Apple e Amazon. Sembra conveniente, giusto? Lo è - finché non consideri ciò 
 che stai rinunciando.
@@ -25,7 +25,7 @@ e plasmano le nostre esperienze. Ogni volta che usiamo internet, diamo a queste
 società un potere totale su di noi. Non possediamo le nostre vite su Internet, 
 loro lo fanno.
 
-Sta peggiorando. Le aziende e gli enti governativi continuano a minacciare la 
+La situazione sta peggiorando. Le aziende e gli enti governativi continuano a minacciare la 
 libertà di internet. Proprio questa primavera, la FCC si è mossa per eliminare 
 le regole di neutralità della rete. Se la mossa ha esito positivo, le protezioni 
 di neutralità della rete che forniscono uguale accesso a tutti i contenuti 
@@ -87,8 +87,8 @@ possibilità di sfruttare i nostri dati a scopo di lucro. Perdiamo la proprietà
 dei contenuti che creiamo e delle azioni che intraprendiamo. In breve, rinunciamo 
 alla nostra privacy.
 
-Pensaci. Non daresti via tutti i tuoi possedimenti privati ad un'organizzazione 
-senza volto che potrebbe usarli, a loro piacimento. Allora perché dovresti fare 
+Pensaci. Non daresti via tutte le tue informazioni private ad un'organizzazione 
+senza volto che potrebbe usarle, a suo piacimento. Allora perché dovresti fare 
 la stessa cosa online? È un prezzo troppo alto da pagare per comodità. 
 Sfortunatamente, molti utenti pensano di non avere altra scelta. Questo è il 
 dilemma di Internet moderno.
