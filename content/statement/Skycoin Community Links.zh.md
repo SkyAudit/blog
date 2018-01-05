@@ -45,7 +45,7 @@ Skycoin团队电报(Telegram)最为火热活跃
 软件
 --------
 
-所有代码都被发布到github上。鼓励提供者和测试者。
+所有代码都被发布到github上。欢迎代码贡献人员和测试人员加入。
 
 * [Skycoin Github 组织](https://github.com/skycoin)
 * [Skycoin 核心和钱包](https://github.com/skycoin/skycoin)
@@ -56,4 +56,4 @@ Skycoin团队电报(Telegram)最为火热活跃
 * [Skycoin CXO](https://github.com/skycoin/cxo)
 * [Skycoin 信差](https://github.com/skycoin/net)
 * [Skycoin 网站](https://github.com/skycoin/skycoin.net)
-* [Skycoin博客](https://github.com/skycoin/blog)
+* [Skycoin 博客](https://github.com/skycoin/blog)
