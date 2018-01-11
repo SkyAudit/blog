@@ -10,6 +10,7 @@ categories = [
     "Skywire",
     "Statement",
 ]
+bounty = 4
 +++
 
 *Sign up to our mailing list for Skywire Miner updates: http://eepurl.com/c4DyAv*

@@ -22,6 +22,10 @@ categories = [
 
 *Updated November 8, 2017. Graphics and video bounties are handled on a case-per-case basis in the bounty channel.*
 
+*Update December 7, 2017. Add Português*
+
+*Update December 10, 2017. Add Italiano*
+
 Apply for rewards in the [Skycoin Bounty Program Telegram Channel](https://t.me/skycoinbounty)
 
 ## Bounty Categories
@@ -56,6 +60,8 @@ Accepted languages are:
 * 한국어
 * Ελληνικά
 * Français
+* Português
+* Italiano
 
 *Note: 中文 and Рyсский translations all have someone working on them now*
 
@@ -69,6 +75,8 @@ If a post is already translated but you find mistakes or improvement, we can giv
 
 One or two other native speakers of the translated language must review the translation to check its quality.
 Bad translations will not receive a bounty, although you are free to improve it until it is accepted.
+
+Instructions for submitting translations to the github are here: https://github.com/skycoin/blog/files/1469162/github-translation-manual.pdf
 
 ## Writing
 
