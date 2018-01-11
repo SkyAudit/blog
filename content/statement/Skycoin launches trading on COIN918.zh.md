@@ -33,7 +33,7 @@ Skycoin的设计初心是方便用户，为每个人创造更好的加密货币�
 
 ## 立即开始交易
 
-您可以通过https://coin918.com现在开始Skycoin交易。
+您可以通过https://coin918.com 现在开始Skycoin交易。
 
-要了解有关Skycoin的更多信息，请查看https://www.skycoin.net/并加入Skycoin社区。
+要了解有关Skycoin的更多信息，请查看https://www.skycoin.net/ 并加入Skycoin社区。
 
