@@ -23,11 +23,12 @@
     {{ if eq .Lang "en" }}
       <wordcount class="wordcount">
       {{ if .Params.bounty }}
-        <p>Translation bounty for Русский, 한국어, 日本語, 中文: {{ mul .Params.bounty 2 }} SKY</p>
-        <p>Translation bounty for other languages: {{ .Params.bounty }} SKY</p>
+        <p>Translation bounty for Русский, 한국어, 日本語, 中文: {{ div .Params.bounty 2.0 }} SKY</p>
+        <p>Translation bounty for other languages: {{ div .Params.bounty 4.0 }} SKY</p>
       {{ else }}
-        No translation bounty
+        <p>No translation bounty</p>
       {{ end }}
+      <p>Read about the <a href="https://blog.skycoin.net/statement/skycoin-bounty-program-1/">Skycoin Bounty Program</a></p>
       </wordcount>
     {{ end }}
   </section>
