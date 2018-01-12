@@ -1,5 +1,5 @@
 +++
-title = " The Power of SKY; The Defense of Freedom (V1.0.3) (Author: Mao 驴占坑) "
+title = " SKY的强大及对自由的捍卫 (V1.0.3) (Author: Mao 驴占坑) "
 tags = [
     "CXO",
     "Obelisk",
@@ -11,52 +11,48 @@ categories = [
 ]
 +++
 
-## Introduction 
+## 前言
 
-Premise: Computer = Calculation + Storage + Network. 
+计算机 = 计算 + 存储 + 网络
 
-On the most basic level, a computer is anything that processes data. It can be a physical device, like a PC, or an abstract, virtual system involved in information processing. Every computer consists of three elements: a CPU, a hard disk, and a network card. 
+你一个电脑，要cpu + 硬盘 + 网卡，这么说你明白了么？抽象出来的计算机，也是需要这几个因素的。
 
-All computer hardware, virtualization, and computer languages include these elements, which allow computers to process data sets. However, decentralized systems pose different challenges for information processing. When data is not centralized in any one location, it can become inconsistent. Decentralized networks have the added challenge of maintaining data consistency during processing.
+其实各种电脑硬件、虚拟化、计算机语言等等，都是这三个要素在不同层面的抽象。而对于去中心化系统来说，还有维护数据一致性的新问题。
 
-## Related Technologies 
 
-There are several technologies that address data consistency and storage in decentralized networks. All of these technologies have issues, as we’ll see below.
+## 相关技术
 
-(a) ETH specializes in calculation with swarm technology, and can be utilized for storage. It does not include network routing. ETH protocol has its own local memory, but has a small storage capacity. Furthermore, its memory usage is high.
+(1) ETH是计算为主，存储有swarm，网络路由没做。ETH合约也自带存储，但不可以存大容量的东西，开销太大。
 
-(b) MAID focuses on storage. Its calculation is done by clients, and it has no network routing. MAID’s storage is more powerful than that provided by swarm. Swarm is a pre-image which cannot be modified once deployed. Though IPFS has raised $400 million, its storage technology is similar to ETH swarm. 
+(2) MAID是存储为主，计算是客户端完成的，网络路由没做。MAID的存储比swarm强多了。swarm是个pre-image，不可以修改的。了4亿美金的IPFS更是只有存储共享，跟ETH的Swarm是很相似的。
 
-(c) Tor Dark Web and I2P Deep Web are overlay network routing protocols that are unaffiliated with cryptocurrency. Their technology is rapidly becoming obsolete, and both have poor performance. 
+(3) Tor暗网和I2P深网是overlay网络路由协议，但不是密码学货币的，而且技术老旧性能不佳。
 
-(d) Two general algorithms, Proof of Work (PoW) and Proof of Stake (PoS), are utilized to maintain the consistency of decentralized data. Both result in centralizing tendencies and can result in inconsistency.
+(4) 维护去中心化的数据一致性，有工作量证明(PoW)和权益证明(PoS)两种
 
-## Skycoin Comparison: 
 
-Calculation: CX scripting language (similar to solidity, but not limited to smart contracts) https://github.com/skycoin/cx 
+## SKY对比分析: 
 
-Storage: CXO (Similar to swarm/IPFS, but has schema and is able to save structured data) https://github.com/skycoin/cxo 
+skycoin里面：
 
-Network: Skywire network routing protocols (similar to I2P, but more flexible, more powerful, and automatic) https://github.com/skycoin/skywire 
+运算部分：cx脚本语言（和solidity类似，但不局限于智能合约）https://github.com/skycoin/cx
 
-Consistency: Obelisk consistency protocol (completely different from PoW and PoS; it realizes resource inversion control) https://github.com/skycoin/skycoin 
+存储部分：cxo（和swarm/ipfs类似，但带schema，可以存结构化数据）https://github.com/skycoin/cxo
 
-(a) SKY provides a powerful network that exists as a layer on top of the internet. The SKY network is protected by the Obelisk consistency protocol and has its own routing. Like the Dark Web and TOR, SKY is resistant to censorship and features robust network privacy. However, the SKY network is most similar to the I2P network. 
+网络部分：skywire 网络路由协议（和I2P深网类似，但更灵活强大自动化）https://github.com/skycoin/skywire
 
-Within the SKY network, once you cross the firewall, your anonymity is preserved and your activity cannot be blocked in any way. As long as one node in the overlay network can cross the firewall and reach foreign websites, the other nodes can as well. Nodes can connect to foreign networks via routing. The node could be a satellite, your own private line, or your own high-powered radio. Although this setup may seem superficially similar to BitTorrent, the two systems are quite different. SKY’s network is an abstractive presentation of your telecommunication network, while BT is just an application on the upper level. While you can use BT for downloading, you can't use BT to chat in QQ. By contrast, ETH and MAID lack a network module. If you want to be anonymous and avoid network analysis, TOR is the only option. TOR is known to have many phishing nodes, and there is no way to avoid them. 
+一致性部分：Obelisk一致性协议（完全不同于PoW和PoS，实现资源反转控制）https://github.com/skycoin/skycoin
 
-(b) In terms of storage, Skycoin features CXO, which is similar to swarm/IPFS but more powerful. CXO is better than swarm because has a schema, which can be understood as a set of constraints that categorize relational databases. CXO can also be modified. By contrast, MAID’s storage is a key-value system (KVS). Its strength is in its built-in privacy encryption protection. In terms of data access, KVS is a very low-level tool that must be applied towards building upper levels. 
+1. SKY呢，网络是最强的，相当于在现有网络上叠加了一层，SKY的网络是由信任关系保护的，带自己路由的网络。有什么用呢？暗网、tor网络，都是因为网络才有用的啊。SKY的网络更类似I2P深网，跟tor差别比较大。理论上讲，在SKY网络中你可以翻墙、隐身而无法被任何方式阻拦，因为在现有网络上的叠加网络，全网中只要有一个节点能翻墙到国外，那么其他的节点就可以路由出去，连到国外这个节点，可以是卫星，可以是自己的专线，可以是自己的大功率无线电等等。当然外行可能问bt不也是这样么？完全不是一个层面的东西。sky的网络是抽象了你的电信网络，而bt只是上层一个应用，所以你可以用bt下载，但是不能用bt聊马化腾的qq相比之下，ETH和MAID不带网络模块，你想匿名躲避网络分析，那只有叠加在tor上面，而tor大家知道的，FBI的钓鱼节点不要太多，没办法防。
 
-(c) Skycoin’s Calculation: CX is a specialized scripting language that can operate on virtual machines on clients. CX can support two types of chain calculation. The first type is like Ethernet, where miners help you calculate and put results into the system. The second type is like MAID, where the user both calculates and puts results into the system. 
+2. 存储上，skycoin有CXO，跟swarm/ipfs类似，但是比swarm/ipfs强，他是有schema的。你了解关系数据库吧，schema的概念你应该懂吧。而且cxo也是可以修改的，CXO的修改初代应该没有实现，但是留有空间，但是有schema的，这一条就比swarm强太多。对比来看，MAID的存储是Key-value system（KVS），他的强点是加密隐私保护内置，但是数据访问上KVS是很初级的底层，得应用自己去做上层。
 
-(d) Resources are required to prevent a sybil attack and maintain data consistency on an open network. Both PoW and PoS can control data consistency as long as they have resources. Agents who secure the network gain resources. In PoW, the agent who wields a higher hash rate will take control, while in PoS, the agent with more coins staked will prevail. These agents can initiate an attack once they accumulate 51% of network resources. 
+3. skycoin的计算，是设计了一个专门的脚本语言，cx，可以在客户端虚拟机上执行。cx不仅可以支持链上的计算，还可以支持链下的计算。链上的计算就是以太那种的，矿工帮你计算，把结果放到系统里链下的计算就是maid那种的，用户自己计算，把结果放到系统里。
+   
+4. skycoin的共识，和PoW和PoS完全不同。在开放的网络中维护数据一致性，为防止女巫攻击问题，维护共识需要资源，无论是PoW和PoS都是谁拥有资源谁控制数据一致性，而这个资源是自己给的。PoW是谁拥有算力谁说了，PoS是谁的币多谁说了算，资源多了就可以攻击。skycoin的共识机制实现了资源反转，资源是别人对你的信任关系，是别人给的。你作恶别人就斩断对你的信任，你的资源减少也就做不了恶了。
 
-Skycoin consensus is completely different from PoW or PoS. Skycoin's consensus mechanism realizes resource inversion. It works based on a web-of-trust system. The “resource” on Skycoin is trust. The more others trust you, the more resources you have. Resources are not provided by the securing agents themselves. If you misuse the network, people will lose trust in you, and your resources will be reduced. As a result, network abuse is self-limiting. Abusing the network will reduce your resources, thereby diminishing your capacity for network abuse.
+## 结论
 
-## Conclusion 
+也就是说，SKYCOIN是实现了计算+存储+网络的完全抽象和全新的共识机制，网络无敌强，存储超级强，计算也很强，共识中首创了资源反转。SKYCOIN的理念是自由：自由的币、自由的网络、自由的存储、自由的计算、自由的共识。没人能收了你的币，没人能封掉你的网，没人能删改你的数据，没人能关掉你的服务器，没人能随意主导共识。
 
-Skycoin provides a brand-new consensus mechanism for managing the three elements of decentralized computing: computing + storage + network. It brings us a new consensus mechanism that can be used for a world computer. 
-
-The network, storage and calculation capabilities of Skycoin are extremely powerful. Skycoin is the first project to apply resource inversion in its blockchain consensus mechanism. The foundational idea behind Skycoin is that of freedom: Free coins, network, storage, computing, and consensus. No one can take your coins, block your network, or delete your data. No one can shut down your server, or dominate consensus. The SKY network is just what it sounds like: an open sky, where users can fly free.
-
-*This article was originally written in Chinese by Mao 驴占坑, a community supporter. This article has been translated into English for your persual*
+你就是电，你就是光，你就是自己的主宰！
