@@ -11,7 +11,8 @@ categories = [
 
 ## Skycoin安全存储指南 
 
-我们目前正在努力开发钱包的加密功能，具体进展可通过GitHub社区的话题进行了解：https://github.com/skycoin/skycoin/issues/479。同时，我们想清楚地给大家介绍安全存储Skycoin的最佳方法。你可以点击链接https://www.skycoin.net/downloads/下载Skycoin钱包（有Mac、Linux和Windows三个版本可选）。然后打开应用，你会看到创建新钱包的选择，点击选择按键，会出现一串单词，这是你的钱包密语（seed），你要用它来保障Skycoin的安全。有了这串单词，即使你的电脑没有下载Skycoin钱包，你也可以在任何时候通过特定的钱包地址获取你的资金。你可以在多个地方抄写这串单词，写好之后，把抄写这串单词的纸或笔记本放在安全的地方，确保只有自己可以拿到。如果有人拿到你的钱包密语，他们可以登录你的钱包，随意地将你的天空币转到任何地方。为了尽可能保障钱包安全，抄写密语后，你可以将电脑中的天空币钱包文件删除，或手动加密。如果要删除钱包文件，你需要使用命令行移除wlt文件。如果是Mac OS电脑，Skycoin的文件保存在/Users/yourUsernameHere/.skycoin；Windows电脑则保存在\Users\yourUsername.skycoin。你要使用命令行来访问这个文件夹。在Mac OS上打开命令行，点击command +空格键，找到“终端”，然后按回车键，你就进入命令行了。要浏览Skycoin文件夹，你要用这个命令
+我们目前正在努力开发钱包的加密功能，具体进展可通过GitHub社区的话题进行了解：https://github.com/skycoin/skycoin/issues/479 。同时，我们想清楚地给大家介绍安全存储Skycoin的最佳方法。你可以点击链接https://www.skycoin.net/downloads/ 下载Skycoin钱包（有Mac、Linux和Windows三个版本可选）。然后打开应用，你会看到创建新钱包的选择，点击选择按键，会出现一串单词，这是你的钱包密语（seed），你要用它来保障Skycoin的安全。有了这串单词，即使你的电脑没有下载Skycoin钱包，你也可以在任何时候通过特定的钱包地址获取你的资金。你可以在多个地方抄写这串单词，写好之后，把抄写这串单词的纸或笔记本放在安全的地方，确保只有自己可以拿到。如果有人拿到你的钱包密语，他们可以登录你的钱包，随意地将你的天空币转到任何地方。为了尽可能保障钱包安全，抄写密语后，你可以将电脑中的天空币钱包文件删除，或手动加密。如果要删除钱包文件，你需要使用命令行移除wlt文件。如果是Mac OS电脑，Skycoin的文件保存在/Users/yourUsernameHere/.skycoin；Windows电脑则保存在\Users\yourUsername.skycoin。你要使用命令行来访问这个文件夹。在Mac OS上打开命令行，点击command +空格键，找到“终端”，然后按回车键，你就进入命令行了。要浏览Skycoin文件夹，你要用这个命令
+
 cd ~/.skycoin
 
 到这里之后，你要将这个文件夹备份，方便访问wlt文件，以防你弄丢了你的密语。您可以使用U盘或移动硬盘来备份文件，将该文件夹复制过去。然后你就可以继续删除钱包文件了。输入此命令，查看列出的文件夹：
