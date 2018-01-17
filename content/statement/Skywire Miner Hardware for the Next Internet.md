@@ -74,16 +74,15 @@ the future, the above hardware configuration will be extended to support physica
 wireless mesh networks.
 
 Skywire distributes content faster and more anonymously than other alternatives.
-It does this by combining two powerful components: Aether and Skynet. Aether is a
+It does this by combining two powerful components: Aether and Skywire. Aether is a
 peer-to-peer replicated object system that powers the distribution of anonymous
 and immutable web content. Traditional internet apps for video streaming,
-messaging, and other services can all be run on Aether. Skynet, the second
+messaging, and other services can all be run on Aether. Skywire, the second
 component, forms the backbone of the distributed networking system. It’s a
 source-routed, public MPLS network built in a unique namespace and on a new
-networking stack. Skynet users essentially function as their own ISPs.
+networking stack. Skywire users essentially function as their own ISPs.
 
-Aether and Skynet can be run separately, but Skywire combines them to form an
-indestructible network. With Skywire, a local cache holds resources without
+With Skywire, a local cache holds resources without
 connecting to the external internet. File downloads are copied directly into the
 local cache. Peers who are looking for that file can get it from you and pass it
 along the network. By leveraging peer-to-peer technology in an innovative and
